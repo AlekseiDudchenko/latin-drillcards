@@ -275,11 +275,21 @@ async function start(event: SubmitEvent): Promise<void> {
   try { await plan(scope, shownDeck, intent); } finally { starting = false; if (current.view === 'deck') renderDeck(); }
 }
 
+/** Distractors come from the whole published catalog, exactly as the server rebuilds them: a deck-only pool would pick different options and the server would reject the task. */
+async function catalogWords(file: DeckFile): Promise<readonly Word[]> {
+  const index = await loadCatalog();
+  const files = await Promise.all(index.decks.map(deck => deck.id === file.deck.id ? file : loadDeck(deck.id)));
+  const byId = new Map<string, Word>();
+  for (const { words } of files) for (const word of words) byId.set(word.id, word);
+  return [...byId.values()];
+}
+
 async function plan(scope: RunnerStore, file: DeckFile, intent: 'learn-new' | 'review-due'): Promise<void> {
   const seq = navigation;
   const at = env.now();
   const data = await scope.restore(at);
-  const planned = planVocabularySession({ request: request(intent, file.deck.id), deck: file.deck, words: file.words,
+  const pool = await catalogWords(file);
+  const planned = planVocabularySession({ request: request(intent, file.deck.id), deck: file.deck, words: pool,
     progress: data.projections.map(item => item.progress), owner: scope.owner, dataEpoch: scope.epoch.dataEpoch,
     sessionId: env.id(), seed: env.id(), catalogVersion: file.catalogVersion, at,
     studyTimezone: Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC' });
@@ -287,9 +297,9 @@ async function plan(scope: RunnerStore, file: DeckFile, intent: 'learn-new' | 'r
     message = planned.reason === 'no-new-words' ? 'noNewWords' : planned.reason === 'no-due-words' ? 'noDueWords' : 'noApplicableTasks';
     notice.textContent = noticeText(); return;
   }
-  // The session pins the deck's words as its catalog snapshot: reload never reads a newer catalog.
+  // The session pins the catalog's words as its snapshot: reload never reads a newer catalog.
   const started = await SessionRunner.start(scope, env, { state: { plan: planned.plan, status: 'ready', taskIndex: 0, revision: 0 },
-    words: file.words, catalogVersion: file.catalogVersion });
+    words: pool, catalogVersion: file.catalogVersion });
   // The user moved on while it was being saved: keep the session for Continue, honour the navigation.
   if (seq !== navigation) { started.dispose(); void navigate(); return; }
   attach(started);
