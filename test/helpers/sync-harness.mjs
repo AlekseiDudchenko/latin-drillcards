@@ -20,9 +20,9 @@ const KEY='sb_publishable_test_123456789';
 const read=path=>readFileSync(new URL(`../../supabase/v2/${path}`,import.meta.url),'utf8');
 export const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
 export const registry=core.createWordExerciseRegistry(seed.words,seed.catalogVersion);
-export const noun=seed.words.find(w=>w.article && w.meanings.ru);
+export const noun=seed.words.find(w=>w.partOfSpeech==='noun' && w.meanings.ru);
 export const verb=seed.words.find(w=>w.partOfSpeech==='verb' && w.meanings.ru);
-export const other=seed.words.find(w=>w.article && w.meanings.ru && w.id!==noun.id);
+export const other=seed.words.find(w=>w.partOfSpeech==='noun' && w.meanings.ru && w.id!==noun.id);
 const tokens={'token-a':A,'token-b':B};
 export const minutesAgo=m=>new Date(Math.floor(Date.now()/1000)*1000-m*60000).toISOString();
 

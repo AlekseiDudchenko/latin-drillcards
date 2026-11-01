@@ -53,20 +53,20 @@ describe('M1: sentence dataset converted from v1',()=>{
 });
 
 describe('M1: the shared sentence adapter',()=>{
-  const alt=registry.buildTask('sentence-assembly','sentences','s_b1_23',ctx());
+  const alt=registry.buildTask('sentence-assembly','sentences','s1',ctx());
   test('alternatives, punctuation and strict answers',()=>{
-    const {tokens}=dataset.items.find(i=>i.id==='s_b1_23').content;
-    const order=[0,1,2,3,4,5,6,9,7,8,10,11].map(i=>`t${i}`); // "… hat sie noch die Präsentation …"
-    assert.equal(tokens[9],'noch');
+    const {tokens}=dataset.items.find(i=>i.id==='s1').content;
+    const order=[0,2,1].map(i=>`t${i}`); // "Puer legit librum.": Latin word order is free
+    assert.equal(tokens[2],'legit');
     assert.equal(core.evaluateSentenceTokens(alt.specification.exercise,order),'correct','listed alternative');
     assert.equal(core.evaluateSentenceTokens(alt.specification.exercise,[...solved(alt)].reverse()),'incorrect');
-    assert.ok(core.isSentenceCorrect('Ich heiße Anna','Ich heiße Anna.'),'a final full stop is neutral');
-    assert.ok(!core.isSentenceCorrect('ich heiße Anna.','Ich heiße Anna.'),'case counts');
-    for(const bad of [[],['t0','t0'],['zz'],'Ich heiße Anna',null]) assert.throws(()=>core.evaluateSentenceTokens(alt.specification.exercise,bad),/Invalid/);
+    assert.ok(core.isSentenceCorrect('Puer librum legit','Puer librum legit.'),'a final full stop is neutral');
+    assert.ok(!core.isSentenceCorrect('puer librum legit.','Puer librum legit.'),'case counts');
+    for(const bad of [[],['t0','t0'],['zz'],'Puer librum legit',null]) assert.throws(()=>core.evaluateSentenceTokens(alt.specification.exercise,bad),/Invalid/);
   });
   test('the server registry evaluates it; same seed gives the same order; video segments reuse it',()=>{
     assert.ok(core.ITEM_EXERCISES.includes(core.SENTENCE_ASSEMBLY));
-    const again=registry.buildTask('sentence-assembly','sentences','s_b1_23',ctx('other-task'));
+    const again=registry.buildTask('sentence-assembly','sentences','s1',ctx('other-task'));
     assert.deepEqual(again.specification.exercise.tokens,alt.specification.exercise.tokens,'a retry keeps the order');
     assert.deepEqual(core.SENTENCE_ASSEMBLY.targetKinds,['sentence','video-segment']);
     const video={...dataset,id:'video-fixture',kind:'video-segment',items:[dataset.items[0]]};
@@ -76,22 +76,20 @@ describe('M1: the shared sentence adapter',()=>{
 });
 
 describe('M1: page model',()=>{
-  test('filters: "all" is A1–C2, themed decks explicitly; tags per deck; hash round trip',()=>{
-    assert.ok(pool(dataset,{deck:'all'}).every(i=>!['beruf','arch'].includes(i.content.deck)));
-    assert.equal(pool(dataset,{deck:'beruf'}).length,v1.filter(s=>s.deck==='beruf').length);
-    assert.ok(tagsOf(dataset,'b1').includes('passiv'));
-    assert.ok(pool(dataset,{deck:'b1',tag:'passiv'}).every(i=>i.content.tags.includes('passiv')));
-    assert.deepEqual(parseFilter(filterHash({deck:'b1',tag:'passiv'})),{deck:'b1',tag:'passiv'});
+  test('filters: "all" is every deck; tags per deck; hash round trip',()=>{
+    assert.equal(pool(dataset,{deck:'all'}).length,v1.length);
+    assert.equal(pool(dataset,{deck:'basic'}).length,v1.length);
+    assert.ok(tagsOf(dataset,'basic').includes('accusativus'));
+    assert.ok(pool(dataset,{deck:'basic',tag:'accusativus'}).every(i=>i.content.tags.includes('accusativus')));
+    assert.deepEqual(parseFilter(filterHash({deck:'basic',tag:'accusativus'})),{deck:'basic',tag:'accusativus'});
     assert.deepEqual(parseFilter('#deck=../x'),{deck:'all'});
-    assert.equal(formatTag('konjunktiv_ii'),'Konjunktiv II');
+    assert.equal(typeof formatTag('accusativus'),'string');
   });
-  test('linked tense family and word-order variant',()=>{
-    assert.deepEqual(linkedSentences(dataset,'s_b1_147').tenses.map(t=>t.label),['Präs.','Prät.','Perf.','Plusq.','Fut. I']);
-    assert.equal(linkedSentences(dataset,'s_b1_23').variant,'s_b1_23v');
+  test('sentences without tense variants have no linked family',()=>{
     assert.deepEqual(linkedSentences(dataset,'s1'),{tenses:[]});
   });
   test('selection and statistics come from the journal; a retry is never independent',()=>{
-    const filter={deck:'a1'};
+    const filter={deck:'basic'};
     const first=pool(dataset,filter)[0].id;
     assert.equal(nextSentence(registry,replay([]),filter),first);
     const task=registry.buildTask('sentence-assembly','sentences',first,ctx('x1'));

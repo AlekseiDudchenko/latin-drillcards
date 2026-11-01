@@ -155,5 +155,18 @@
     "tags": [
       "unreg"
     ]
+  },
+  {
+    "id": "w_verbs_13",
+    "la": "amo",
+    "pos": "verb",
+    "ru": "любить, нравиться",
+    "en": "to love, to like",
+    "exampleLa": "Amo te.",
+    "exampleRu": "Я люблю тебя.",
+    "exampleEn": "I love you.",
+    "tags": [
+      "1-sprj"
+    ]
   }
 ]

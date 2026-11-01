@@ -2,45 +2,45 @@
   {
     "schemaVersion": 1, "id": "sample-sentences", "version": "2026-10-29.1", "kind": "sentence", "title": "Sample sentences",
     "items": [
-      { "id": "s1", "contentVersion": 1, "wordIds": ["w-tisch"], "content": {
-        "prompt": { "text": "Der Tisch ist groß.", "lang": "de" },
-        "options": [ { "id": "a", "label": "The table is big." }, { "id": "b", "label": "The chair is big." }, { "id": "c", "label": "The table is small." } ],
+      { "id": "s1", "contentVersion": 1, "wordIds": ["w-rosa"], "content": {
+        "prompt": { "text": "Rosa pulchra est.", "lang": "la" },
+        "options": [ { "id": "a", "label": "The rose is beautiful." }, { "id": "b", "label": "The rose is ugly." }, { "id": "c", "label": "The water is beautiful." } ],
         "correctOptionId": "a" } },
-      { "id": "s2", "contentVersion": 1, "wordIds": ["w-buch"], "content": {
-        "prompt": { "text": "Das Buch ist neu.", "lang": "de" },
+      { "id": "s2", "contentVersion": 1, "wordIds": ["w-liber"], "content": {
+        "prompt": { "text": "Liber novus est.", "lang": "la" },
         "options": [ { "id": "a", "label": "The book is old." }, { "id": "b", "label": "The book is new." } ],
         "correctOptionId": "b" } },
       { "id": "s3", "contentVersion": 2, "wordIds": [], "content": {
-        "prompt": { "text": "Ich lerne Deutsch.", "lang": "de" },
-        "options": [ { "id": "a", "label": "I learn German." }, { "id": "b", "label": "I teach German." } ],
+        "prompt": { "text": "Latīne discō.", "lang": "la" },
+        "options": [ { "id": "a", "label": "I learn Latin." }, { "id": "b", "label": "I teach Latin." } ],
         "correctOptionId": "a" } }
     ]
   },
   {
-    "schemaVersion": 1, "id": "sample-passiv", "version": "1", "kind": "grammar-item", "title": "Sample Passiv",
+    "schemaVersion": 1, "id": "sample-passiv", "version": "1", "kind": "grammar-item", "title": "Sample verb forms",
     "items": [
       { "id": "p1", "contentVersion": 1, "wordIds": [], "content": {
-        "prompt": { "text": "Das Haus ___ gebaut. (Präsens)", "lang": "de" }, "answers": ["wird"] } },
+        "prompt": { "text": "Puella rosam ___. (amāre, present)", "lang": "la" }, "answers": ["amat"] } },
       { "id": "p2", "contentVersion": 1, "wordIds": [], "content": {
-        "prompt": { "text": "Die Briefe ___ geschrieben. (Präteritum)", "lang": "de" }, "answers": ["wurden"] } }
+        "prompt": { "text": "Puerī librum ___. (legere, present)", "lang": "la" }, "answers": ["legunt"] } }
     ]
   },
   {
     "schemaVersion": 1, "id": "sample-video", "version": "1", "kind": "video-segment", "title": "Sample video segments",
     "items": [
-      { "id": "v1", "contentVersion": 1, "wordIds": ["w-tisch"], "content": {
-        "prompt": { "text": "00:12–00:18", "lang": "de" }, "answer": { "text": "Der Tisch steht in der Küche.", "lang": "de" } } }
+      { "id": "v1", "contentVersion": 1, "wordIds": ["w-rosa"], "content": {
+        "prompt": { "text": "00:12–00:18", "lang": "la" }, "answer": { "text": "Rosa in hortō est.", "lang": "la" } } }
     ]
   },
   {
     "schemaVersion": 1, "id": "sample-level-test", "version": "1", "kind": "assessment", "title": "Sample level test",
     "items": [
-      { "id": "q1", "contentVersion": 1, "wordIds": ["w-tisch"], "content": {
-        "prompt": { "text": "der ___ (table)", "lang": "de" },
-        "options": [ { "id": "tisch", "label": "Tisch" }, { "id": "stuhl", "label": "Stuhl" } ], "correctOptionId": "tisch" } },
+      { "id": "q1", "contentVersion": 1, "wordIds": ["w-rosa"], "content": {
+        "prompt": { "text": "___ (rose)", "lang": "la" },
+        "options": [ { "id": "rosa", "label": "rosa" }, { "id": "aqua", "label": "aqua" } ], "correctOptionId": "rosa" } },
       { "id": "q2", "contentVersion": 1, "wordIds": [], "content": {
-        "prompt": { "text": "Ich ___ müde.", "lang": "de" },
-        "options": [ { "id": "bin", "label": "bin" }, { "id": "bist", "label": "bist" } ], "correctOptionId": "bin" } }
+        "prompt": { "text": "Ego ___ discipulus.", "lang": "la" },
+        "options": [ { "id": "sum", "label": "sum" }, { "id": "es", "label": "es" } ], "correctOptionId": "sum" } }
     ]
   }
 ]

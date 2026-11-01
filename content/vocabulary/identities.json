@@ -3,6 +3,678 @@
  "seedVersion": "vocabulary-seed/1",
  "words": [
   {
+   "id": "w-ecce",
+   "sources": [
+    "l1-a:w_l1a_1"
+   ],
+   "senses": [
+    {
+     "lemma": "ecce",
+     "partOfSpeech": "other",
+     "ru": "смотри! смотрите!",
+     "en": "look! behold!"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "d321c38c176ae914"
+  },
+  {
+   "id": "w-ibi",
+   "sources": [
+    "l1-a:w_l1a_2"
+   ],
+   "senses": [
+    {
+     "lemma": "ibi",
+     "partOfSpeech": "adverb",
+     "ru": "там",
+     "en": "there"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "5db18b550e797b62"
+  },
+  {
+   "id": "w-esse",
+   "sources": [
+    "l1-a:w_l1a_3"
+   ],
+   "senses": [
+    {
+     "lemma": "esse",
+     "partOfSpeech": "verb",
+     "ru": "быть, находиться",
+     "en": "to be, to be located"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "f9ed1677faaab5da"
+  },
+  {
+   "id": "w-est",
+   "sources": [
+    "l1-a:w_l1a_4"
+   ],
+   "senses": [
+    {
+     "lemma": "est",
+     "partOfSpeech": "verb",
+     "ru": "он (она, оно) есть, находится",
+     "en": "he (she, it) is, is located"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "fcd4b75fae248d16"
+  },
+  {
+   "id": "w-sunt",
+   "sources": [
+    "l1-a:w_l1a_5"
+   ],
+   "senses": [
+    {
+     "lemma": "sunt",
+     "partOfSpeech": "verb",
+     "ru": "они есть, находятся",
+     "en": "they are, are located"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "895b52e36deeeed5"
+  },
+  {
+   "id": "w-servus",
+   "sources": [
+    "l1-a:w_l1a_6"
+   ],
+   "senses": [
+    {
+     "lemma": "servus",
+     "partOfSpeech": "noun",
+     "ru": "раб, слуга",
+     "en": "slave, servant"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "ef18b0433f6561f1"
+  },
+  {
+   "id": "w-etiam",
+   "sources": [
+    "l1-a:w_l1a_7"
+   ],
+   "senses": [
+    {
+     "lemma": "etiam",
+     "partOfSpeech": "adverb",
+     "ru": "также, даже",
+     "en": "also, even"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "dae502bb3f825e5c"
+  },
+  {
+   "id": "w-et",
+   "sources": [
+    "l1-a:w_l1a_8"
+   ],
+   "senses": [
+    {
+     "lemma": "et",
+     "partOfSpeech": "other",
+     "ru": "и, также",
+     "en": "and, also"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "bb7302cd7251a27f"
+  },
+  {
+   "id": "w-domina",
+   "sources": [
+    "l1-a:w_l1a_9"
+   ],
+   "senses": [
+    {
+     "lemma": "domina",
+     "partOfSpeech": "noun",
+     "ru": "госпожа, хозяйка, дама",
+     "en": "mistress, lady"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "8dae05e5ef08db54"
+  },
+  {
+   "id": "w-serva",
+   "sources": [
+    "l1-a:w_l1a_10"
+   ],
+   "senses": [
+    {
+     "lemma": "serva",
+     "partOfSpeech": "noun",
+     "ru": "рабыня, служанка",
+     "en": "female slave, maid"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "1aaefa5af60f0461"
+  },
+  {
+   "id": "w-sta-re",
+   "sources": [
+    "l1-a:w_l1a_11"
+   ],
+   "senses": [
+    {
+     "lemma": "stāre",
+     "partOfSpeech": "verb",
+     "ru": "стоять",
+     "en": "to stand"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "798c5aef6fad5c10"
+  },
+  {
+   "id": "w-co-gita-re",
+   "sources": [
+    "l1-a:w_l1a_12"
+   ],
+   "senses": [
+    {
+     "lemma": "cōgitāre",
+     "partOfSpeech": "verb",
+     "ru": "думать, размышлять, намереваться",
+     "en": "to think, to reflect, to intend"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "45cd5744ec223784"
+  },
+  {
+   "id": "w-cla-ma-re",
+   "sources": [
+    "l1-a:w_l1a_13"
+   ],
+   "senses": [
+    {
+     "lemma": "clāmāre",
+     "partOfSpeech": "verb",
+     "ru": "громко звать, кричать",
+     "en": "to shout, to cry out"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "a9df2631d43b0a33"
+  },
+  {
+   "id": "w-iam",
+   "sources": [
+    "l1-b:w_l1b_1"
+   ],
+   "senses": [
+    {
+     "lemma": "iam",
+     "partOfSpeech": "adverb",
+     "ru": "уже, теперь",
+     "en": "already, now"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "262cb79b78cf3022"
+  },
+  {
+   "id": "w-adesse",
+   "sources": [
+    "l1-b:w_l1b_2"
+   ],
+   "senses": [
+    {
+     "lemma": "adesse",
+     "partOfSpeech": "verb",
+     "ru": "быть здесь, помогать",
+     "en": "to be present, to help"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "8c9ea0c5645d16ba"
+  },
+  {
+   "id": "w-adest",
+   "sources": [
+    "l1-b:w_l1b_3"
+   ],
+   "senses": [
+    {
+     "lemma": "adest",
+     "partOfSpeech": "verb",
+     "ru": "он (она) здесь",
+     "en": "he (she) is here"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "b8bdb06341ca8307"
+  },
+  {
+   "id": "w-adsunt",
+   "sources": [
+    "l1-b:w_l1b_4"
+   ],
+   "senses": [
+    {
+     "lemma": "adsunt",
+     "partOfSpeech": "verb",
+     "ru": "они здесь",
+     "en": "they are here"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "996e4c394c4c2c0d"
+  },
+  {
+   "id": "w-dominus",
+   "sources": [
+    "l1-b:w_l1b_5"
+   ],
+   "senses": [
+    {
+     "lemma": "dominus",
+     "partOfSpeech": "noun",
+     "ru": "господин, хозяин",
+     "en": "master, lord"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "b053f18aff5fafe7"
+  },
+  {
+   "id": "w-tum",
+   "sources": [
+    "l1-b:w_l1b_6"
+   ],
+   "senses": [
+    {
+     "lemma": "tum",
+     "partOfSpeech": "adverb",
+     "ru": "тогда, потом, в то время",
+     "en": "then, at that time"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "56f7da24544a144b"
+  },
+  {
+   "id": "w-veni-re",
+   "sources": [
+    "l1-b:w_l1b_7"
+   ],
+   "senses": [
+    {
+     "lemma": "venīre",
+     "partOfSpeech": "verb",
+     "ru": "приходить",
+     "en": "to come"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "1e2f91f97b68ee7d"
+  },
+  {
+   "id": "w-ri-de-re",
+   "sources": [
+    "l1-b:w_l1b_8"
+   ],
+   "senses": [
+    {
+     "lemma": "rīdēre",
+     "partOfSpeech": "verb",
+     "ru": "смеяться, высмеивать",
+     "en": "to laugh, to laugh at"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "14d48737178fbbb2"
+  },
+  {
+   "id": "w-postre-mo",
+   "sources": [
+    "l1-b:w_l1b_9"
+   ],
+   "senses": [
+    {
+     "lemma": "postrēmō",
+     "partOfSpeech": "adverb",
+     "ru": "наконец",
+     "en": "finally"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "26b0ce13e0c4d6a5"
+  },
+  {
+   "id": "w-sed",
+   "sources": [
+    "l1-b:w_l1b_10"
+   ],
+   "senses": [
+    {
+     "lemma": "sed",
+     "partOfSpeech": "other",
+     "ru": "но, а",
+     "en": "but, rather"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "40e850d17c6ec142"
+  },
+  {
+   "id": "w-no-ndum",
+   "sources": [
+    "l1-b:w_l1b_11"
+   ],
+   "senses": [
+    {
+     "lemma": "nōndum",
+     "partOfSpeech": "adverb",
+     "ru": "ещё не",
+     "en": "not yet"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "79ee483f3fb38564"
+  },
+  {
+   "id": "w-cu-r",
+   "sources": [
+    "l1-b:w_l1b_12"
+   ],
+   "senses": [
+    {
+     "lemma": "cūr",
+     "partOfSpeech": "other",
+     "ru": "почему?",
+     "en": "why?"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "6481e762af2cba36"
+  },
+  {
+   "id": "w-no-n",
+   "sources": [
+    "l1-b:w_l1b_13"
+   ],
+   "senses": [
+    {
+     "lemma": "nōn",
+     "partOfSpeech": "adverb",
+     "ru": "не",
+     "en": "not"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "ea1929ebd15ae2b3"
+  },
+  {
+   "id": "w-de-be-re",
+   "sources": [
+    "l1-t:w_l1t_1"
+   ],
+   "senses": [
+    {
+     "lemma": "dēbēre",
+     "partOfSpeech": "verb",
+     "ru": "быть должным, быть обязанным",
+     "en": "to owe, must, ought to"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "eeb0072b1c3a16cb"
+  },
+  {
+   "id": "w-dubita-re",
+   "sources": [
+    "l1-t:w_l1t_2"
+   ],
+   "senses": [
+    {
+     "lemma": "dubitāre",
+     "partOfSpeech": "verb",
+     "ru": "колебаться, сомневаться",
+     "en": "to hesitate, to doubt"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "d359feac9c1be428"
+  },
+  {
+   "id": "w-gaude-re",
+   "sources": [
+    "l1-t:w_l1t_3"
+   ],
+   "senses": [
+    {
+     "lemma": "gaudēre",
+     "partOfSpeech": "verb",
+     "ru": "радоваться",
+     "en": "to rejoice"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "9f0489835b50536b"
+  },
+  {
+   "id": "w-equus",
+   "sources": [
+    "l1-t:w_l1t_4"
+   ],
+   "senses": [
+    {
+     "lemma": "equus",
+     "partOfSpeech": "noun",
+     "ru": "конь, лошадь",
+     "en": "horse"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "cdefcd167af9e1cd"
+  },
+  {
+   "id": "w-specta-re",
+   "sources": [
+    "l1-t:w_l1t_5"
+   ],
+   "senses": [
+    {
+     "lemma": "spectāre",
+     "partOfSpeech": "verb",
+     "ru": "рассматривать, смотреть, наблюдать",
+     "en": "to watch, to look at"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "7088bbf93f430f17"
+  },
+  {
+   "id": "w-aude-re",
+   "sources": [
+    "l1-t:w_l1t_6"
+   ],
+   "senses": [
+    {
+     "lemma": "audēre",
+     "partOfSpeech": "verb",
+     "ru": "осмеливаться, сметь",
+     "en": "to dare"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "a8b302e53efd5ed1"
+  },
+  {
+   "id": "w-o-ra-re",
+   "sources": [
+    "l1-t:w_l1t_7"
+   ],
+   "senses": [
+    {
+     "lemma": "ōrāre",
+     "partOfSpeech": "verb",
+     "ru": "просить, молить, молиться",
+     "en": "to ask, to beg, to pray"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "6c05cd173f37ee7d"
+  },
+  {
+   "id": "w-tandem",
+   "sources": [
+    "l1-t:w_l1t_8"
+   ],
+   "senses": [
+    {
+     "lemma": "tandem",
+     "partOfSpeech": "adverb",
+     "ru": "наконец, в конце концов",
+     "en": "at last, finally"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "fab03d4b79a5c72c"
+  },
+  {
+   "id": "w-vide-re",
+   "sources": [
+    "l1-t:w_l1t_9"
+   ],
+   "senses": [
+    {
+     "lemma": "vidēre",
+     "partOfSpeech": "verb",
+     "ru": "видеть",
+     "en": "to see"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "8ff18115039001ca"
+  },
+  {
+   "id": "w-populus",
+   "sources": [
+    "l1-t:w_l1t_10"
+   ],
+   "senses": [
+    {
+     "lemma": "populus",
+     "partOfSpeech": "noun",
+     "ru": "народ",
+     "en": "people"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "5ba4a1ca7f81770f"
+  },
+  {
+   "id": "w-victo-ria",
+   "sources": [
+    "l1-t:w_l1t_11"
+   ],
+   "senses": [
+    {
+     "lemma": "victōria",
+     "partOfSpeech": "noun",
+     "ru": "победа",
+     "en": "victory"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "8b1d96be9094444e"
+  },
+  {
+   "id": "w-hae",
+   "sources": [
+    "l1-t:w_l1t_12"
+   ],
+   "senses": [
+    {
+     "lemma": "hae",
+     "partOfSpeech": "other",
+     "ru": "ха-ха (насмешливый смех)",
+     "en": "ha ha (mocking laughter)"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "5166a2949c652acc"
+  },
+  {
+   "id": "w-itaque",
+   "sources": [
+    "l1-t:w_l1t_13"
+   ],
+   "senses": [
+    {
+     "lemma": "itaque",
+     "partOfSpeech": "adverb",
+     "ru": "поэтому, итак",
+     "en": "therefore, and so"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "ee4b3c38add249b7"
+  },
+  {
+   "id": "w-hu-c",
+   "sources": [
+    "l1-t:w_l1t_14"
+   ],
+   "senses": [
+    {
+     "lemma": "hūc",
+     "partOfSpeech": "adverb",
+     "ru": "сюда",
+     "en": "hither, to this place"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "c250ac9ea1978785"
+  },
+  {
+   "id": "w-medicus",
+   "sources": [
+    "l1-t:w_l1t_15"
+   ],
+   "senses": [
+    {
+     "lemma": "medicus",
+     "partOfSpeech": "noun",
+     "ru": "врач",
+     "en": "doctor"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "73f28fa8653196c1"
+  },
+  {
+   "id": "w-so-lum",
+   "sources": [
+    "l1-t:w_l1t_16"
+   ],
+   "senses": [
+    {
+     "lemma": "sōlum",
+     "partOfSpeech": "adverb",
+     "ru": "только",
+     "en": "only"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "f86c4e3d1b6dbe2d"
+  },
+  {
    "id": "w-rosa",
    "sources": [
     "basic:w_basic_1"
@@ -99,38 +771,6 @@
    "contentHash": "feebdb8b28915ab0"
   },
   {
-   "id": "w-dominus",
-   "sources": [
-    "basic:w_basic_7"
-   ],
-   "senses": [
-    {
-     "lemma": "dominus",
-     "partOfSpeech": "noun",
-     "ru": "господин, хозяин",
-     "en": "master, lord"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "5e910998a0c6e9d5"
-  },
-  {
-   "id": "w-servus",
-   "sources": [
-    "basic:w_basic_8"
-   ],
-   "senses": [
-    {
-     "lemma": "servus",
-     "partOfSpeech": "noun",
-     "ru": "раб",
-     "en": "slave"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "23ebdbb74afb0f34"
-  },
-  {
    "id": "w-liber",
    "sources": [
     "basic:w_basic_9"
@@ -211,22 +851,6 @@
    "contentHash": "a845f0124a4438fb"
   },
   {
-   "id": "w-populus",
-   "sources": [
-    "basic:w_basic_14"
-   ],
-   "senses": [
-    {
-     "lemma": "populus",
-     "partOfSpeech": "noun",
-     "ru": "народ",
-     "en": "people"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "cc6acefc31382068"
-  },
-  {
    "id": "w-mater",
    "sources": [
     "basic:w_basic_15"
@@ -291,41 +915,10 @@
    "contentHash": "ea53611fe6ae732c"
   },
   {
-   "id": "w-non",
-   "sources": [
-    "basic:w_basic_19"
-   ],
-   "senses": [
-    {
-     "lemma": "non",
-     "partOfSpeech": "adverb",
-     "ru": "не",
-     "en": "not"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "b99935dd1d0c7bf7"
-  },
-  {
-   "id": "w-et",
-   "sources": [
-    "basic:w_basic_20"
-   ],
-   "senses": [
-    {
-     "lemma": "et",
-     "partOfSpeech": "other",
-     "ru": "и",
-     "en": "and"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "878c95f6e29bf244"
-  },
-  {
    "id": "w-amo",
    "sources": [
-    "verbs:w_verbs_1"
+    "verbs:w_verbs_1",
+    "verbs:w_verbs_13"
    ],
    "senses": [
     {
@@ -333,10 +926,16 @@
      "partOfSpeech": "verb",
      "ru": "любить",
      "en": "to love"
+    },
+    {
+     "lemma": "amo",
+     "partOfSpeech": "verb",
+     "ru": "любить, нравиться",
+     "en": "to love, to like"
     }
    ],
    "contentVersion": 1,
-   "contentHash": "dad265fd5ccf3fb2"
+   "contentHash": "4b9e8607a7e1acc0"
   },
   {
    "id": "w-laudo",

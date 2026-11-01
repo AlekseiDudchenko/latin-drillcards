@@ -20,9 +20,9 @@ const KEY='sb_publishable_test_123456789';
 const read=path=>readFileSync(new URL(`../supabase/v2/${path}`,import.meta.url),'utf8');
 const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
 const registry=core.createWordExerciseRegistry(seed.words,seed.catalogVersion);
-const noun=seed.words.find(w=>w.article && w.meanings.ru);
+const noun=seed.words.find(w=>w.partOfSpeech==='noun' && w.meanings.ru);
 const verb=seed.words.find(w=>w.partOfSpeech==='verb' && w.meanings.ru);
-const other=seed.words.find(w=>w.article && w.meanings.ru && w.id!==noun.id);
+const other=seed.words.find(w=>w.partOfSpeech==='noun' && w.meanings.ru && w.id!==noun.id);
 const stranger=seed.words.find(w=>w.partOfSpeech==='verb' && w.meanings.ru && w.id!==verb.id);
 const tokens={'token-a':A,'token-b':B};
 let db;
@@ -157,7 +157,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
     assert.equal(sync.status.pending,0);assert.equal(syncLabel(sync.status),'sent');
 
     // Reload while offline with a new answer; the new page's startup sync sends it.
-    const second=phone.answer(noun,'article-choice',noun.article,minutesAgo(39));
+    const second=phone.answer(noun,'target-type',noun.lemma,minutesAgo(39));
     const reloaded=phone.reload();
     // The server stores it but the response is lost: the outbox keeps it and the retry is a duplicate.
     net.faults.push('lose-response');
@@ -210,7 +210,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
   test('an error or partial success keeps the rest pending, with growing backoff',async()=>{
     const net=network();const timers=[];const statuses=[];
     const device=new Device({kind:'account',id:A});
-    const events=[device.answer(other,'target-type','Falsch',minutesAgo(30)),device.answer(other,'article-choice',other.article,minutesAgo(29))];
+    const events=[device.answer(other,'target-type','Falsch',minutesAgo(30)),device.answer(other,'target-type',other.lemma,minutesAgo(29))];
     const sync=service(device,net,{timers,statuses,random:()=>1});
     net.faults.push('status-503');
     await sync.sync();
@@ -237,7 +237,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
     const net=network();const device=new Device({kind:'account',id:A});
     const timers=[];let during;
     device.answer(noun,'target-type',noun.lemma,minutesAgo(15));
-    net.fetcherHook=async()=>{net.fetcherHook=undefined;during=device.answer(noun,'article-choice',noun.article,minutesAgo(14));};
+    net.fetcherHook=async()=>{net.fetcherHook=undefined;during=device.answer(noun,'target-type',noun.lemma,minutesAgo(14));};
     const first=service(device,net,{timers});
     await first.sync();
     assert.equal(first.status.phase,'idle');assert.equal(timers.length,0,'no backoff after a fully acknowledged batch');
@@ -254,7 +254,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
       if(!late){late=device.answer(other,'target-type',other.lemma,minutesAgo(13));concurrent=second.sync();}
       return result;
     };
-    device.answer(other,'article-choice',other.article,minutesAgo(12));
+    device.answer(other,'target-type',other.lemma,minutesAgo(12));
     await second.sync();await concurrent;
     device.mergeRemote=merge;
     assert.ok((await serverEvents(A)).some(r=>r.event_id===late.eventId));

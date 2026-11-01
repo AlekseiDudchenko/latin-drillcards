@@ -1,0 +1,112 @@
+[
+  {
+    "id": "w_l1b_1",
+    "la": "iam",
+    "pos": "adverb",
+    "ru": "уже, теперь",
+    "en": "already, now",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_2",
+    "la": "adesse",
+    "pos": "verb",
+    "ru": "быть здесь, помогать",
+    "en": "to be present, to help",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_3",
+    "la": "adest",
+    "pos": "verb",
+    "ru": "он (она) здесь",
+    "en": "he (she) is here",
+    "tags": [
+      "3sg"
+    ]
+  },
+  {
+    "id": "w_l1b_4",
+    "la": "adsunt",
+    "pos": "verb",
+    "ru": "они здесь",
+    "en": "they are here",
+    "tags": [
+      "3pl"
+    ]
+  },
+  {
+    "id": "w_l1b_5",
+    "la": "dominus",
+    "pos": "noun",
+    "ru": "господин, хозяин",
+    "en": "master, lord",
+    "tags": [
+      "m"
+    ]
+  },
+  {
+    "id": "w_l1b_6",
+    "la": "tum",
+    "pos": "adverb",
+    "ru": "тогда, потом, в то время",
+    "en": "then, at that time",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_7",
+    "la": "venīre",
+    "pos": "verb",
+    "ru": "приходить",
+    "en": "to come",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_8",
+    "la": "rīdēre",
+    "pos": "verb",
+    "ru": "смеяться, высмеивать",
+    "en": "to laugh, to laugh at",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_9",
+    "la": "postrēmō",
+    "pos": "adverb",
+    "ru": "наконец",
+    "en": "finally",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_10",
+    "la": "sed",
+    "pos": "other",
+    "ru": "но, а",
+    "en": "but, rather",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_11",
+    "la": "nōndum",
+    "pos": "adverb",
+    "ru": "ещё не",
+    "en": "not yet",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_12",
+    "la": "cūr",
+    "pos": "other",
+    "ru": "почему?",
+    "en": "why?",
+    "tags": []
+  },
+  {
+    "id": "w_l1b_13",
+    "la": "nōn",
+    "pos": "adverb",
+    "ru": "не",
+    "en": "not",
+    "tags": []
+  }
+]

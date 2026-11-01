@@ -9,7 +9,8 @@ import { existsSync, readFileSync } from 'node:fs';
 // word's sources into one published Word and fails if the table is stale.
 
 export const DECKS = Object.freeze([
-  ['basic', 'Basic vocabulary'], ['verbs', 'Verbs'],
+  ['l1-a', 'Lectio I · A'], ['l1-b', 'Lectio I · B'], ['l1-t', 'Lectio I · T'],
+  ['basic', 'Sample: basic vocabulary'], ['verbs', 'Sample: verbs'],
 ]);
 export const IDENTITIES_PATH = 'content/vocabulary/identities.json';
 export const REPORT_PATH = 'content/vocabulary/duplicates.md';

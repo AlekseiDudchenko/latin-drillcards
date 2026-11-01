@@ -21,7 +21,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
     const pass=sync.sync();
     await held.arrived; // the server has committed the old batch, its response is still on the way
     net.fail('push','503'); // ...and the next push (the new answers) fails
-    const sameItem=device.answer(noun,'article-choice',noun.article,minutesAgo(49));
+    const sameItem=device.answer(noun,'target-type',noun.lemma,minutesAgo(49));
     const newItem=device.answer(verb,'target-type',verb.lemma,minutesAgo(48));
     held.release();await pass;
     assert.deepEqual(device.data.outbox,ids([sameItem,newItem]),'only the acknowledged event left the outbox');
@@ -38,7 +38,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
   test('a partial ACK clears only confirmed events; a failing pull afterwards keeps all local history',async()=>{
     const net=network(server);const device=new Device({kind:'account',id:B});const timers=[];
     const events=[device.answer(other,'target-type',other.lemma,minutesAgo(40)),
-      device.answer(other,'article-choice',other.article,minutesAgo(39)),device.answer(verb,'meaning-recall','forgotten',minutesAgo(38))];
+      device.answer(other,'target-type',other.lemma,minutesAgo(39)),device.answer(verb,'meaning-recall','forgotten',minutesAgo(38))];
     net.fail('push','truncate');
     const sync=service(device,net,{timers});
     await sync.sync();
@@ -104,10 +104,10 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
     const net=network(server);
     const phone=new Device({kind:'account',id:A});const laptop=new Device({kind:'account',id:A});
     const local=phone.answer(other,'target-type','Falsch',minutesAgo(15));
-    const sameCommand=phone.answer(other,'article-choice',other.article,minutesAgo(14));
+    const sameCommand=phone.answer(other,'target-type',other.lemma,minutesAgo(14));
     // Another device already stored different events under the same eventId / commandId (e.g. a restored backup).
     laptop.answer(other,'target-type',other.lemma,minutesAgo(15),{patch:{eventId:local.eventId}});
-    laptop.answer(other,'article-choice',other.article,minutesAgo(13),{patch:{commandId:sameCommand.commandId}});
+    laptop.answer(other,'target-type',other.lemma,minutesAgo(13),{patch:{commandId:sameCommand.commandId}});
     await service(laptop,net).sync();
     const statuses=[];const sync=service(phone,net,{statuses});
     await sync.sync();
@@ -150,10 +150,10 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
   test('local replay uses the word revision its facts were answered on, the same rule as the server',async()=>{
     const device=new Device({kind:'account',id:A});
     device.answer(noun,'target-type',noun.lemma,minutesAgo(5));
-    // A later catalog revision drops the article: the newest-known rule would drop the article component.
-    const revised={...noun,contentVersion:noun.contentVersion+1,acceptedForms:[noun.lemma]};delete revised.article;
+    // A later catalog revision exists: local replay still keeps the revision the facts were answered on.
+    const revised={...noun,contentVersion:noun.contentVersion+1,acceptedForms:[noun.lemma]};
     const merged=mergeRemoteInPartition(device.data,[],[revised],new Date().toISOString());
-    assert.ok('article' in merged.projections.find(p=>p.progress.wordId===noun.id).progress.components);
+    assert.ok(merged.projections.find(p=>p.progress.wordId===noun.id).progress.components.recall);
     assert.ok(merged.sync.words.some(w=>w.contentVersion===revised.contentVersion));
     assert.ok(seed.catalogVersion);
   });

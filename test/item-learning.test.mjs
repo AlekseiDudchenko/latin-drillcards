@@ -54,14 +54,14 @@ describe('G3: shared item contracts in the core',()=>{
     assert.equal(core.evaluateItemAnswer(items,choice,answer(choice,'b')).outcome,'incorrect');
     assert.throws(()=>core.evaluateItemAnswer(items,choice,answer(choice,'zzz')),/option/);
     const typed=items.buildTask('item-text','sample-passiv','p1',ctx('t5'));
-    assert.equal(core.evaluateItemAnswer(items,typed,answer(typed,'  wird ')).outcome,'correct');
-    assert.equal(core.evaluateItemAnswer(items,typed,answer(typed,'Wird')).outcome,'incorrect','case is spelling');
+    assert.equal(core.evaluateItemAnswer(items,typed,answer(typed,'  amat ')).outcome,'correct');
+    assert.equal(core.evaluateItemAnswer(items,typed,answer(typed,'Amat')).outcome,'incorrect','case is spelling');
     const self=items.buildTask('item-self-check','sample-video','v1',ctx('t6'));
     assert.deepEqual(core.evaluateItemAnswer(items,self,answer(self,'remembered')),{outcome:'correct',source:'self-assessment',components:{}});
     for(const over of [{intent:'review-due'},{intent:'learn-new'},{policyVersion:'evidence/1'},{exposure:['recall']}])
       assert.throws(()=>core.evaluateItemAnswer(items,choice,answer(choice,'a',over)),/mismatch/,JSON.stringify(over));
     const test=items.buildTask('item-choice','sample-level-test','q1',ctx('t7'));
-    assert.throws(()=>core.evaluateItemAnswer(items,test,answer(test,'tisch',{intent:'practice'})),/mismatch/,'a test answer is an assessment');
+    assert.throws(()=>core.evaluateItemAnswer(items,test,answer(test,'rosa',{intent:'practice'})),/mismatch/,'a test answer is an assessment');
     assert.throws(()=>core.bindItemEvent(items,choice,event(choice,'reveal')),/mismatch/,'only reveal tasks reveal');
     assert.throws(()=>core.bindItemEvent(items,choice,event(choice,'introduction')),/mismatch/);
   });
@@ -89,17 +89,17 @@ describe('G3: shared item contracts in the core',()=>{
 
   test('a word an item mentions gets no SRS progress, and a word assessment is not SRS evidence',()=>{
     const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
-    const tisch=seed.words.find(w=>w.id==='w-tisch');
+    const rosa=seed.words.find(w=>w.id==='w-rosa');
     const t=items.buildTask('item-choice','sample-sentences','s1',ctx('m1'));
-    assert.deepEqual(items.getItem('sample-sentences','s1').wordIds,['w-tisch']);
+    assert.deepEqual(items.getItem('sample-sentences','s1').wordIds,['w-rosa']);
     const records=[fact(answer(t,'a'),t)];
     // The word journal only takes word facts: an item fact is refused, never merged.
-    assert.throws(()=>core.replayWord(tisch,records,replay),/Invalid word event/);
+    assert.throws(()=>core.replayWord(rosa,records,replay),/Invalid word event/);
     assert.equal(core.projectExerciseProgress(records,replay).items.length,1);
     const words=core.createWordExerciseRegistry(seed.words,seed.catalogVersion);
-    const wt=words.get('target-type').buildTask(tisch,ctx('m2'));
-    const e={...answer(wt,tisch.lemma),target:wt.target,intent:'assessment',policyVersion:'evidence/1',taskVersion:wt.taskVersion,contentVersion:wt.contentVersion};
-    const progress=core.replayWord(tisch,[{owner,event:e,receivedAt:e.occurredAt,evaluation:core.evaluateWordAnswer(words,wt,e)}],replay).progress;
+    const wt=words.get('target-type').buildTask(rosa,ctx('m2'));
+    const e={...answer(wt,rosa.lemma),target:wt.target,intent:'assessment',policyVersion:'evidence/1',taskVersion:wt.taskVersion,contentVersion:wt.contentVersion};
+    const progress=core.replayWord(rosa,[{owner,event:e,receivedAt:e.occurredAt,evaluation:core.evaluateWordAnswer(words,wt,e)}],replay).progress;
     assert.equal(progress.introducedAt,null);
     assert.ok(Object.values(progress.components).every(c=>c.stage==='unintroduced'));
   });
@@ -127,7 +127,7 @@ describe('G3: shared item contracts in the core',()=>{
   test('an assessment keeps its own result per run, first answer per question',()=>{
     const q1=items.buildTask('item-choice','sample-level-test','q1',ctx('q1'));
     const q2=items.buildTask('item-choice','sample-level-test','q2',ctx('q2'));
-    const records=[answer(q1,'tisch'),answer(q1,'stuhl'),answer(q2,'bist')].map((e,i)=>fact(e,i<2 ? q1 : q2));
+    const records=[answer(q1,'rosa'),answer(q1,'aqua'),answer(q2,'es')].map((e,i)=>fact(e,i<2 ? q1 : q2));
     const [result]=core.projectAssessments(records,replay);
     assert.deepEqual({answered:result.answered,correct:result.correct,score:result.score,datasetId:result.datasetId},
       {answered:2,correct:1,score:0.5,datasetId:'sample-level-test'});
@@ -231,7 +231,7 @@ describe('G3: server intake of item events (migrations 001–004)',()=>{
       evaluation:{outcome:'correct',source:'automatic',components:{}}});
     assert.deepEqual((await db.query('SELECT target_kind,dataset_version,word_id FROM public.learning_tasks WHERE user_id=$1',[A])).rows,
       [{target_kind:'sentence',dataset_version:'2026-10-29.1',word_id:null}]);
-    assert.equal((await db.query('SELECT count(*)::int n FROM public.word_progress WHERE user_id=$1',[A])).rows[0].n,0,'w-tisch is only mentioned');
+    assert.equal((await db.query('SELECT count(*)::int n FROM public.word_progress WHERE user_id=$1',[A])).rows[0].n,0,'w-rosa is only mentioned');
     assert.deepEqual((await ingest(A,[{event:e,task:t}])).results,[{eventId:e.eventId,status:'duplicate'}]);
     assert.equal((await as('authenticated',A,'SELECT count(*)::int n FROM public.learning_events')).rows[0].n,1);
     assert.equal((await as('authenticated',B,'SELECT count(*)::int n FROM public.learning_events')).rows[0].n,0);
@@ -245,13 +245,13 @@ describe('G3: server intake of item events (migrations 001–004)',()=>{
     const reasons=(await ingest(B,[
       {event:recent(answer(forged,'a',{sessionId:'srv-b'})),task:forged},
       {event:recent(answer(unknown,'a',{sessionId:'srv-b'})),task:unknown},
-      {event:recent(answer(test,'bin',{sessionId:'srv-b',intent:'practice'})),task:test},
+      {event:recent(answer(test,'sum',{sessionId:'srv-b',intent:'practice'})),task:test},
       {event:recent(answer(t,'zzz',{sessionId:'srv-b'})),task:t},
     ])).results.map(r=>r.reason);
     assert.deepEqual(reasons,['invalid-task','unknown-dataset','task-mismatch','invalid-answer']);
     assert.equal((await db.query('SELECT count(*)::int n FROM public.learning_events WHERE user_id=$1',[B])).rows[0].n,0);
     // The same answer with the right intent is accepted.
-    const ok=recent(answer(test,'bin',{sessionId:'srv-b'}));
+    const ok=recent(answer(test,'sum',{sessionId:'srv-b'}));
     assert.deepEqual((await ingest(B,[{event:ok,task:test}])).results.map(r=>r.status),['accepted']);
   });
 });

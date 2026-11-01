@@ -17,7 +17,7 @@ const REF='7db7afee5acec66afd8612f186281dfe97b0cbf1';
 const read=path=>readFileSync(new URL(`../supabase/v2/${path}`,import.meta.url),'utf8');
 const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
 const registry=core.createWordExerciseRegistry(seed.words,seed.catalogVersion);
-const noun=seed.words.find(w=>w.article && w.meanings.ru && registry.availability('meaning-choice',w,{answerLanguage:'ru',seed:'s',taskId:'t'}).available);
+const noun=seed.words.find(w=>w.partOfSpeech==='noun' && w.meanings.ru && registry.availability('meaning-choice',w,{answerLanguage:'ru',seed:'s',taskId:'t'}).available);
 const verb=seed.words.find(w=>w.partOfSpeech==='verb' && w.meanings.ru);
 let db;
 
@@ -136,8 +136,8 @@ describe('S1: server event intake and transactional projection',()=>{
   });
 
   test('concurrent revisions of one word are retried and keep both answers',async()=>{
-    const t1=task(noun,'target-type');const t2=task(noun,'article-choice');
-    const e1=answer(t1,noun.lemma,{intent:'practice'});const e2=answer(t2,noun.article,{intent:'practice'});
+    const t1=task(noun,'target-type');const t2=task(noun,'target-choice');
+    const e1=answer(t1,noun.lemma,{intent:'practice'});const e2=answer(t2,t2.specification.options.find(o=>o.label===noun.lemma).id,{intent:'practice'});
     let interleaved=false;let commits=0;
     // The other device commits after this request read the journal but before it commits.
     const racing={...store,async commit(userId,batch) {

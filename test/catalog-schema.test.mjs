@@ -119,12 +119,12 @@ describe('fresh v2 catalog: real PostgreSQL schema, complete seed and API permis
   });
 
   test('a translation credits only the entries that wrote it and is identified by its text',async()=>{
-    const hose=seed.words.find(w=>w.meanings.ru?.preferred==='брюки' && w.lemma==='Hose');
+    const hose=seed.words.find(w=>w.id==='w-amo');
     // Private join (test superuser): which entry each stored translation revision credits.
     const rows=(await db.query(`SELECT s.source_id,r.entity_id,t.text FROM catalog_private.content_sources s
       JOIN catalog_private.content_revisions r ON r.id=s.revision_id JOIN catalog_private.word_translations t ON t.id=s.revision_id
       WHERE r.word_id=$1 AND t.language='ru' ORDER BY t.text`,[hose.id])).rows;
-    assert.deepEqual(rows.map(r=>[r.text,r.source_id]),[['брюки',seed.provenance[hose.id][0]],['брюки, штаны',seed.provenance[hose.id][1]]]);
+    assert.deepEqual(rows.map(r=>[r.text,r.source_id]),[['любить',seed.provenance[hose.id][0]],['любить, нравиться',seed.provenance[hose.id][1]]]);
     assert.ok(rows.every(r=>/^[^/]+\/ru\/[0-9a-f]{16}$/.test(r.entity_id)),'entity id is the text hash, not a position');
   });
 

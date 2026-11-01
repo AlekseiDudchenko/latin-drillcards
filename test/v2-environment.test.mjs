@@ -170,7 +170,7 @@ test('prepared additive transition also works on an empty Supabase project with 
       CREATE FUNCTION auth.uid() RETURNS uuid LANGUAGE sql STABLE AS $$ SELECT NULL::uuid $$;
       GRANT USAGE ON SCHEMA public,auth TO anon,authenticated,service_role;`);
     await db.exec(readFileSync(`${root}/transition.sql`,'utf8'));
-    assert.equal((await db.query('SELECT count(*)::int n FROM public.catalog_words')).rows[0].n,1306);
+    assert.equal((await db.query('SELECT count(*)::int n FROM public.catalog_words')).rows[0].n,69);
     for(const role of ['anon','authenticated','service_role']) {
       await db.exec(`SET ROLE ${role}`);
       const actual=(await db.query('SELECT schema_version,environment,data_epoch,epoch_started_at FROM public.v2_environment')).rows[0];

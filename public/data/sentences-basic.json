@@ -11,7 +11,13 @@
     "explanation": "Nominative subject, accusative object, verb last.",
     "translation_en": "The boy reads a book.",
     "translation_ru": "Мальчик читает книгу.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "alternatives": [
+      "Puer legit librum."
+    ],
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s2",
@@ -25,7 +31,13 @@
     "explanation": "Subject – object (accusative -am) – verb.",
     "translation_en": "The girl loves the rose.",
     "translation_ru": "Девочка любит розу.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "alternatives": [
+      "Puella amat rosam."
+    ],
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s3",
@@ -39,7 +51,10 @@
     "explanation": "Accusative -um marks the direct object of a 2nd-declension noun.",
     "translation_en": "The father calls his son.",
     "translation_ru": "Отец зовёт сына.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s4",
@@ -53,7 +68,10 @@
     "explanation": "Accusative singular of the 1st declension ends in -am.",
     "translation_en": "The mother loves her daughter.",
     "translation_ru": "Мать любит дочь.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s5",
@@ -67,7 +85,10 @@
     "explanation": "Accusative singular of the 2nd declension ends in -um.",
     "translation_en": "The teacher praises the boy.",
     "translation_ru": "Учитель хвалит мальчика.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s6",
@@ -81,7 +102,13 @@
     "explanation": "Word order is free; endings show the roles.",
     "translation_en": "The slave fears the master.",
     "translation_ru": "Раб боится хозяина.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "alternatives": [
+      "Servus timet dominum."
+    ],
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s7",
@@ -126,7 +153,10 @@
     "explanation": "in + ablative answers 'where?'.",
     "translation_en": "The girl walks on the road.",
     "translation_ru": "Девочка идёт по дороге.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "tags": [
+      "ablativus"
+    ]
   },
   {
     "id": "s10",
@@ -140,7 +170,13 @@
     "explanation": "Third-declension nominative rex; accusative populum.",
     "translation_en": "The king rules the people.",
     "translation_ru": "Царь правит народом.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "alternatives": [
+      "Rex regit populum."
+    ],
+    "tags": [
+      "accusativus"
+    ]
   },
   {
     "id": "s11",
@@ -197,6 +233,9 @@
     "explanation": "in + ablative; habitat is the 3rd person singular.",
     "translation_en": "The sailor lives on the island.",
     "translation_ru": "Моряк живёт на острове.",
-    "level": "BASIC"
+    "level": "BASIC",
+    "tags": [
+      "ablativus"
+    ]
   }
 ]

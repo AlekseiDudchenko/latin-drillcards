@@ -113,20 +113,20 @@ test('drop index follows reading order across wrapped rows', () => {
 });
 
 test('published sentences map onto the token input', () => {
-  const sentences = JSON.parse(readFileSync(new URL('../public/data/sentences-a2.json', import.meta.url), 'utf8'));
-  const sentence = sentenceAssemblyCard(sentences.find(item => item.id === 's_a2_1'), 'ru', [1, 0, 2, 3, 4, 5, 6, 7, 8]);
+  const sentences = JSON.parse(readFileSync(new URL('../public/data/sentences-basic.json', import.meta.url), 'utf8'));
+  const sentence = sentenceAssemblyCard(sentences.find(item => item.id === 's1'), 'ru', [1, 0, 2]);
   assert.equal(sentence.input.kind, 'tokens');
   assert.equal(sentence.input.autoSubmit, true);
   assert.equal(sentence.prompt.lang, 'ru');
-  assert.equal(sentence.speechText, 'Weil ich heute Spätdienst habe, kann ich nicht kommen.');
-  assert.deepEqual(sentence.input.tokens.slice(0, 2), [{ id: 's_a2_1:1', text: 'ich' }, { id: 's_a2_1:0', text: 'Weil' }]);
-  assert.equal(new Set(sentence.input.tokens.map(token => token.id)).size, 9);
+  assert.equal(sentence.speechText, 'Puer librum legit.');
+  assert.deepEqual(sentence.input.tokens.slice(0, 2), [{ id: 's1:1', text: 'librum' }, { id: 's1:0', text: 'Puer' }]);
+  assert.equal(new Set(sentence.input.tokens.map(token => token.id)).size, 3);
   assert.equal(sentenceAssemblyCard(sentences[0], 'en').prompt.text, sentences[0].translation_en);
   assert.throws(() => sentenceAssemblyCard({ ...sentences[0], translation_en: '' }, 'en'), RangeError);
   assert.deepEqual(Object.keys(sentence.title).sort(), ['de', 'en', 'ru']);
 
   // Every published record of both families maps onto valid tokens.
-  for (const file of ['a1', 'a2', 'b1', 'b2', 'c1', 'c2', 'arch', 'beruf']) {
+  for (const file of ['basic']) {
     for (const item of JSON.parse(readFileSync(new URL(`../public/data/sentences-${file}.json`, import.meta.url), 'utf8'))) {
       validateTokens(sentenceAssemblyCard(item, 'ru').input.tokens);
     }

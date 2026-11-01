@@ -1,0 +1,144 @@
+[
+  {
+    "id": "w_l1t_1",
+    "la": "dēbēre",
+    "pos": "verb",
+    "ru": "быть должным, быть обязанным",
+    "en": "to owe, must, ought to",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_2",
+    "la": "dubitāre",
+    "pos": "verb",
+    "ru": "колебаться, сомневаться",
+    "en": "to hesitate, to doubt",
+    "tags": [],
+    "exampleLa": "Servus venīre dubitat.",
+    "exampleRu": "Раб медлит прийти.",
+    "exampleEn": "The slave hesitates to come."
+  },
+  {
+    "id": "w_l1t_3",
+    "la": "gaudēre",
+    "pos": "verb",
+    "ru": "радоваться",
+    "en": "to rejoice",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_4",
+    "la": "equus",
+    "pos": "noun",
+    "ru": "конь, лошадь",
+    "en": "horse",
+    "tags": [
+      "m"
+    ]
+  },
+  {
+    "id": "w_l1t_5",
+    "la": "spectāre",
+    "pos": "verb",
+    "ru": "рассматривать, смотреть, наблюдать",
+    "en": "to watch, to look at",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_6",
+    "la": "audēre",
+    "pos": "verb",
+    "ru": "осмеливаться, сметь",
+    "en": "to dare",
+    "tags": [],
+    "exampleLa": "Dāvus spectāre nōn audet.",
+    "exampleRu": "Давус не осмеливается смотреть.",
+    "exampleEn": "Davus does not dare to watch."
+  },
+  {
+    "id": "w_l1t_7",
+    "la": "ōrāre",
+    "pos": "verb",
+    "ru": "просить, молить, молиться",
+    "en": "to ask, to beg, to pray",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_8",
+    "la": "tandem",
+    "pos": "adverb",
+    "ru": "наконец, в конце концов",
+    "en": "at last, finally",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_9",
+    "la": "vidēre",
+    "pos": "verb",
+    "ru": "видеть",
+    "en": "to see",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_10",
+    "la": "populus",
+    "pos": "noun",
+    "ru": "народ",
+    "en": "people",
+    "tags": [
+      "m"
+    ]
+  },
+  {
+    "id": "w_l1t_11",
+    "la": "victōria",
+    "pos": "noun",
+    "ru": "победа",
+    "en": "victory",
+    "tags": [
+      "f"
+    ]
+  },
+  {
+    "id": "w_l1t_12",
+    "la": "hae",
+    "pos": "other",
+    "ru": "ха-ха (насмешливый смех)",
+    "en": "ha ha (mocking laughter)",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_13",
+    "la": "itaque",
+    "pos": "adverb",
+    "ru": "поэтому, итак",
+    "en": "therefore, and so",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_14",
+    "la": "hūc",
+    "pos": "adverb",
+    "ru": "сюда",
+    "en": "hither, to this place",
+    "tags": []
+  },
+  {
+    "id": "w_l1t_15",
+    "la": "medicus",
+    "pos": "noun",
+    "ru": "врач",
+    "en": "doctor",
+    "tags": [
+      "m"
+    ]
+  },
+  {
+    "id": "w_l1t_16",
+    "la": "sōlum",
+    "pos": "adverb",
+    "ru": "только",
+    "en": "only",
+    "tags": []
+  }
+]
