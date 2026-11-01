@@ -9,14 +9,14 @@ const at = '2026-10-23T12:00:00.000Z';
 const owner = id => ({ kind: 'account', id });
 const word = { schemaVersion: 1, contentVersion: 1, id: 'table', lemma: 'Tisch', article: 'der',
   partOfSpeech: 'noun', senseId: 'table', meanings: { ru: { preferred: 'стол', accepted: [] } },
-  acceptedGermanForms: [], tags: [], examples: [] };
+  acceptedForms: [], tags: [], examples: [] };
 const words = [word, ...[['chair','Stuhl','стул'],['door','Tür','дверь'],['window','Fenster','окно']].map(([id,lemma,ru]) =>
   ({ ...word, id, lemma, meanings: { ru: { preferred: ru, accepted: [] } } }))];
 const registry = core.createWordExerciseRegistry(words, 'catalog/1');
 const dbName = 'test-learning-' + crypto.randomUUID();
 let db = await LearningDatabase.open(indexedDB, dbName);
 const scope = await db.scope(owner('A'), epoch);
-function archive(s = scope, id = 'session', exercise = 'german-type') {
+function archive(s = scope, id = 'session', exercise = 'target-type') {
   const task = registry.get(exercise).buildTask(word, { taskId: id + '-task', seed: 'seed', answerLanguage: 'ru' });
   return { catalogVersion: 'catalog/1', words, state: { status: 'ready', revision: 0, taskIndex: 0,
     plan: { schemaVersion: 1, sessionId: id, owner: s.owner, dataEpoch: s.epoch.dataEpoch,
@@ -131,7 +131,7 @@ test('cursor-only saves require prior atomic evidence, pause/resume and next sur
     check(await scope.saveSession({ ...a.state, taskIndex: 1, status: 'completed', revision: 6 }, 5) === 'committed', 'next');
     const data = await scope.restore(at);
     check(data.sessions[0].state.status === 'completed' && data.sessions[0].state.revision === 6 && data.facts.length === 1, 'cursor not restored');
-    const two = archive(scope, 'two'); two.state.plan.tasks.push(registry.get('german-type').buildTask(word,
+    const two = archive(scope, 'two'); two.state.plan.tasks.push(registry.get('target-type').buildTask(word,
       { taskId: 'two-next', seed: 'seed', answerLanguage: 'ru' }));
     await scope.startSession(two); await scope.commit(command(two, 'two-answer'));
     await rejects(() => scope.saveSession({ ...two.state, taskIndex: 1, status: 'feedback', revision: 2 }, 1), /atomic/);

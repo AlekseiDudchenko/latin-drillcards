@@ -9,17 +9,17 @@ import { EVIDENCE_POLICY_VERSION } from './word-evidence.js';
 import { createWordExerciseRegistry, WORD_EXERCISE_IDS, type WordExerciseId } from './word-exercises.js';
 
 export const VOCABULARY_PLANNER_VERSION = 'vocabulary-planner/2';
-const LEARNING_ORDER: readonly WordExerciseId[] = ['meaning-choice', 'german-choice', 'article-choice',
-  'german-type', 'german-with-article-type', 'meaning-recall'];
+const LEARNING_ORDER: readonly WordExerciseId[] = ['meaning-choice', 'target-choice', 'article-choice',
+  'target-type', 'target-with-article-type', 'meaning-recall'];
 // Productive prompts precede German disclosures; each word's own diagnostic runs before all of them.
-const REVIEW_ORDER: readonly WordExerciseId[] = ['german-with-article-type', 'german-type',
-  'article-choice', 'german-choice', 'meaning-choice', 'meaning-recall'];
+const REVIEW_ORDER: readonly WordExerciseId[] = ['target-with-article-type', 'target-type',
+  'article-choice', 'target-choice', 'meaning-choice', 'meaning-recall'];
 // Any feedback discloses every component, so only a word's first task is independent evidence.
 // Its most overdue due component chooses that task; ties prefer productive checks.
 const DIAGNOSTIC_TIES: readonly Component[] = ['recall', 'spelling', 'article', 'recognition'];
 const DIAGNOSTIC_EXERCISES: Readonly<Record<Component, readonly WordExerciseId[]>> = {
-  recall: ['german-with-article-type', 'german-type'], spelling: ['german-with-article-type', 'german-type'],
-  article: ['german-with-article-type', 'article-choice'], recognition: ['meaning-choice', 'german-choice', 'meaning-recall'] };
+  recall: ['target-with-article-type', 'target-type'], spelling: ['target-with-article-type', 'target-type'],
+  article: ['target-with-article-type', 'article-choice'], recognition: ['meaning-choice', 'target-choice', 'meaning-recall'] };
 export type PlanOmission = SkippedWordExercise;
 export interface VocabularyPlannerInput {
   readonly request: SessionRequest;

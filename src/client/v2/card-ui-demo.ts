@@ -6,7 +6,7 @@ import { konjunktivTokenCard, sentenceAssemblyCard } from './token-tasks.js';
 // Standalone preview fixture, not a catalog publication or a production exercise evaluator.
 const word: Word = { schemaVersion: 1, contentVersion: 1, id: 'preview-tisch', senseId: 'furniture',
   lemma: 'Tisch', partOfSpeech: 'noun', article: 'der', meanings: { ru: { preferred: 'стол', accepted: ['стол'] } },
-  acceptedGermanForms: ['Tisch'], tags: [], examples: [{ id: 'example', de: 'Der Tisch steht am Fenster.', translations: { ru: 'Стол стоит у окна.' } }] };
+  acceptedForms: ['Tisch'], tags: [], examples: [{ id: 'example', text: 'Der Tisch steht am Fenster.', translations: { ru: 'Стол стоит у окна.' } }] };
 // Published records (sentences-a2.json s_a2_1, konjunktiv2-transformation.json k2t_002) in a fixed
 // display order so the preview is reproducible; "ich" appears twice with distinct token IDs.
 const sentence = sentenceAssemblyCard({ id: 's_a2_1', target: 'Weil ich heute Spätdienst habe, kann ich nicht kommen.',
@@ -16,11 +16,11 @@ const sentence = sentenceAssemblyCard({ id: 's_a2_1', target: 'Weil ich heute Sp
 const konjunktiv = konjunktivTokenCard({ id: 'k2t_002', sentence: 'Wenn er (kommen) ___, wäre ich froh.', tokens: ['käme', 'kommen', 'würde', 'kämen', 'kommt'] },
   'ru', [2, 0, 4, 1, 3]);
 const definitions: Record<'choice' | 'text' | 'reveal' | 'sentence' | 'konjunktiv', CardDefinition> = {
-  choice: { id: 'preview-choice', prompt: { text: 'стол', lang: 'ru' }, input: { kind: 'choice', answerLang: 'de', options: [
+  choice: { id: 'preview-choice', prompt: { text: 'стол', lang: 'ru' }, input: { kind: 'choice', answerLang: 'la', options: [
     { id: 'table', label: 'der Tisch' }, { id: 'chair', label: 'der Stuhl' }, { id: 'window', label: 'das Fenster' }, { id: 'door', label: 'die Tür' },
   ] }, word, translationLanguage: 'ru', speechText: 'der Tisch' },
-  text: { id: 'preview-text', prompt: { text: 'стол', lang: 'ru' }, input: { kind: 'text', answerLang: 'de' }, word, translationLanguage: 'ru', speechText: 'der Tisch' },
-  reveal: { id: 'preview-reveal', prompt: { text: 'der Tisch', lang: 'de' }, input: { kind: 'reveal', answer: 'стол', answerLang: 'ru' }, word, translationLanguage: 'ru', speechText: 'der Tisch' },
+  text: { id: 'preview-text', prompt: { text: 'стол', lang: 'ru' }, input: { kind: 'text', answerLang: 'la' }, word, translationLanguage: 'ru', speechText: 'der Tisch' },
+  reveal: { id: 'preview-reveal', prompt: { text: 'der Tisch', lang: 'la' }, input: { kind: 'reveal', answer: 'стол', answerLang: 'ru' }, word, translationLanguage: 'ru', speechText: 'der Tisch' },
   sentence, konjunktiv,
 };
 const modes = ['choice', 'text', 'reveal', 'sentence', 'konjunktiv'] as const;

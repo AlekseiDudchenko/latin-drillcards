@@ -145,7 +145,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
   test('offline answers are sent after online and after reload; a lost response never doubles them',async()=>{
     const net=network();net.offline=true;
     const phone=new Device({kind:'account',id:A});
-    const first=phone.answer(noun,'german-type',noun.lemma,minutesAgo(40));
+    const first=phone.answer(noun,'target-type',noun.lemma,minutesAgo(40));
     const sync=service(phone,net);
     assert.equal(syncLabel(sync.status),'sending','nothing is called sent before the outbox is read');
     await sync.sync();
@@ -179,7 +179,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
     const phone=new Device({kind:'account',id:B});const laptop=new Device({kind:'account',id:B});
     // The laptop answered first but stays offline; its answer arrives after the phone's.
     const early=laptop.answer(verb,'meaning-recall','forgotten',minutesAgo(50));
-    const late=phone.answer(verb,'german-type',verb.lemma,minutesAgo(45));
+    const late=phone.answer(verb,'target-type',verb.lemma,minutesAgo(45));
     const phoneSync=service(phone,net);const laptopSync=service(laptop,net);
     await phoneSync.sync();
     await laptopSync.sync();
@@ -192,7 +192,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
       assert.equal(device.data.sync.cursor,2);assert.equal(device.data.outbox.length,0);
     }
     // A word only answered elsewhere arrives with its published model.
-    const elsewhere=laptop.answer(stranger,'german-type',stranger.lemma,minutesAgo(44));
+    const elsewhere=laptop.answer(stranger,'target-type',stranger.lemma,minutesAgo(44));
     await laptopSync.sync();await phoneSync.sync();
     assert.deepEqual(phone.data.sync.words.map(w=>w.id),[stranger.id]);
     assert.deepEqual(localProgress(phone,stranger.id),(await serverProgress(B,stranger.id)).progress);
@@ -210,7 +210,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
   test('an error or partial success keeps the rest pending, with growing backoff',async()=>{
     const net=network();const timers=[];const statuses=[];
     const device=new Device({kind:'account',id:A});
-    const events=[device.answer(other,'german-type','Falsch',minutesAgo(30)),device.answer(other,'article-choice',other.article,minutesAgo(29))];
+    const events=[device.answer(other,'target-type','Falsch',minutesAgo(30)),device.answer(other,'article-choice',other.article,minutesAgo(29))];
     const sync=service(device,net,{timers,statuses,random:()=>1});
     net.faults.push('status-503');
     await sync.sync();
@@ -225,7 +225,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
     assert.equal(sync.status.phase,'idle');assert.equal(device.data.outbox.length,0);
     assert.ok(statuses.some(s=>s.phase==='syncing'));
     // A permanent rejection leaves the outbox with its reason instead of being resent forever.
-    const bad=device.answer(other,'german-type',other.lemma,minutesAgo(28));
+    const bad=device.answer(other,'target-type',other.lemma,minutesAgo(28));
     device.data.sessions=device.data.sessions.map(s=>s.state.plan.sessionId===bad.sessionId ? {...s,state:{...s.state,plan:{...s.state.plan,
       tasks:s.state.plan.tasks.map(t=>({...t,specification:{...t.specification,catalogVersion:'not-on-server'}}))}}} : s);
     await sync.sync();
@@ -236,7 +236,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
   test('a commit during the push request is not a partial failure; the next batch sends it',async()=>{
     const net=network();const device=new Device({kind:'account',id:A});
     const timers=[];let during;
-    device.answer(noun,'german-type',noun.lemma,minutesAgo(15));
+    device.answer(noun,'target-type',noun.lemma,minutesAgo(15));
     net.fetcherHook=async()=>{net.fetcherHook=undefined;during=device.answer(noun,'article-choice',noun.article,minutesAgo(14));};
     const first=service(device,net,{timers});
     await first.sync();
@@ -251,7 +251,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
     const merge=device.mergeRemote.bind(device);let late;let concurrent;
     device.mergeRemote=async(...args)=>{
       const result=await merge(...args);
-      if(!late){late=device.answer(other,'german-type',other.lemma,minutesAgo(13));concurrent=second.sync();}
+      if(!late){late=device.answer(other,'target-type',other.lemma,minutesAgo(13));concurrent=second.sync();}
       return result;
     };
     device.answer(other,'article-choice',other.article,minutesAgo(12));
@@ -268,7 +268,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
     let woken;let wakeup;
     const third=service(device,net,{statuses:{push(status){
       if(status.phase==='idle' && !woken) queueMicrotask(()=>{
-        woken=device.answer(verb,'german-type',verb.lemma,minutesAgo(11));wakeup=third.sync();});
+        woken=device.answer(verb,'target-type',verb.lemma,minutesAgo(11));wakeup=third.sync();});
     }}});
     device.answer(verb,'meaning-recall','forgotten',minutesAgo(10));
     await third.sync();
@@ -281,7 +281,7 @@ describe('S2: owner outbox, retry and two devices against the S1 intake',()=>{
   test('an account switch stops the other owner\'s queue: nothing is sent or read with the new identity',async()=>{
     const net=network();let signedIn=A;
     const device=new Device({kind:'account',id:A});
-    device.answer(noun,'german-type',noun.lemma,minutesAgo(20));
+    device.answer(noun,'target-type',noun.lemma,minutesAgo(20));
     const sync=service(device,net,{user:()=>signedIn});
     signedIn=B; // another account signed in on this browser before the queue was sent
     const before=(await serverEvents(B)).length;

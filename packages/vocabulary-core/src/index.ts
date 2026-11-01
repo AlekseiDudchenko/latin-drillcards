@@ -11,7 +11,7 @@ export * from './word-projector.js';
 export * from './progress-queries.js';
 export * from './word-status.js';
 export * from './word-exercises.js';
-export * from './german-answer.js';
+export * from './target-answer.js';
 export * from './session-planner.js';
 export * from './session-review.js';
 export * from './catalog.js';

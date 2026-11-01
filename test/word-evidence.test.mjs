@@ -28,18 +28,18 @@ function baseline() {
 const project = (facts, before = baseline(), studyDay = day) => projectWordDay(before, word, studyDay, facts);
 
 test('reverse choice assesses recognition only and rejects an evaluator claiming free recall', () => {
-  const f = fact('german-choice', { recognition: 'correct' });
+  const f = fact('target-choice', { recognition: 'correct' });
   const before = baseline();
   const result = project([f], before);
   assert.deepEqual(result.evidence.map(e => [e.component, e.strength, e.rating]), [['recognition', 'independent', 'good']]);
   assert.equal(result.progress.components.recall, before.components.recall);
   assert.equal(result.progress.components.spelling, before.components.spelling);
   assert.equal(result.transitions.length, 1);
-  assert.throws(() => project([fact('german-choice', { recall: 'correct' })]), /Unsupported component/);
+  assert.throws(() => project([fact('target-choice', { recall: 'correct' })]), /Unsupported component/);
 });
 
 test('wrong article preserves successful recall and spelling of the correct word', () => {
-  const result = project([fact('german-with-article-type', { recall: 'correct', spelling: 'correct', article: 'incorrect' }, { rawAnswer: 'die Tisch' })]);
+  const result = project([fact('target-with-article-type', { recall: 'correct', spelling: 'correct', article: 'incorrect' }, { rawAnswer: 'die Tisch' })]);
   assert.equal(result.progress.components.recall.stage, 'review');
   assert.equal(result.progress.components.spelling.stage, 'review');
   assert.equal(result.progress.components.article.stage, 'relearning');
@@ -48,7 +48,7 @@ test('wrong article preserves successful recall and spelling of the correct word
 
 test('another lexical word does not establish spelling or article of the target', () => {
   const before = baseline();
-  const result = project([fact('german-with-article-type', { recall: 'incorrect', spelling: 'correct', article: 'correct' }, { rawAnswer: 'der Stuhl' })], before);
+  const result = project([fact('target-with-article-type', { recall: 'incorrect', spelling: 'correct', article: 'correct' }, { rawAnswer: 'der Stuhl' })], before);
   assert.equal(result.progress.components.spelling, before.components.spelling);
   assert.equal(result.progress.components.article, before.components.article);
   assert.equal(result.evidence.find(e => e.component === 'spelling').outcome, 'unobserved');
@@ -56,29 +56,29 @@ test('another lexical word does not establish spelling or article of the target'
   for (const recall of [undefined, 'unobserved']) {
     const components = { spelling: 'correct' };
     if (recall) components.recall = recall;
-    assert.equal(project([fact('german-type', components)], before).transitions.length, 0);
+    assert.equal(project([fact('target-type', components)], before).transitions.length, 0);
   }
 });
 
 test('earlier choice exposes German for subsequent typing even if client exposure is empty', () => {
   const choice = fact('meaning-choice', { recognition: 'correct' });
-  const typed = fact('german-type', { recall: 'correct', spelling: 'correct' }, { occurredAt: '2026-10-24T10:01:00.000Z' });
+  const typed = fact('target-type', { recall: 'correct', spelling: 'correct' }, { occurredAt: '2026-10-24T10:01:00.000Z' });
   const result = project([typed, choice]);
   assert.deepEqual(result.evidence.filter(e => e.eventId === typed.event.eventId).map(e => e.strength), ['aided', 'aided']);
   assert.deepEqual(result.transitions.map(t => t.component), ['recognition']);
 });
 
 test('component-specific hint and global assistance prevent positive SRS evidence', () => {
-  const result = project([fact('german-type', { recall: 'correct', spelling: 'correct' }, { exposure: ['spelling'] })]);
+  const result = project([fact('target-type', { recall: 'correct', spelling: 'correct' }, { exposure: ['spelling'] })]);
   assert.deepEqual(result.transitions.map(t => t.component), ['recall']);
   assert.equal(result.evidence.find(e => e.component === 'spelling').strength, 'aided');
-  assert.equal(project([fact('german-type', { recall: 'correct', spelling: 'correct' }, { assisted: true })]).transitions.length, 0);
+  assert.equal(project([fact('target-type', { recall: 'correct', spelling: 'correct' }, { assisted: true })]).transitions.length, 0);
 });
 
 test('an independent error survives reveal, retry and successful correction in the same circuit', () => {
-  const error = fact('german-type', { recall: 'incorrect', spelling: 'unobserved' });
-  const reveal = nonAnswer('reveal', 'german-type', { taskId: error.event.taskId, occurredAt: '2026-10-24T10:01:00.000Z' });
-  const correction = fact('german-type', { recall: 'correct', spelling: 'correct' }, { taskId: error.event.taskId, occurredAt: '2026-10-24T10:02:00.000Z' });
+  const error = fact('target-type', { recall: 'incorrect', spelling: 'unobserved' });
+  const reveal = nonAnswer('reveal', 'target-type', { taskId: error.event.taskId, occurredAt: '2026-10-24T10:01:00.000Z' });
+  const correction = fact('target-type', { recall: 'correct', spelling: 'correct' }, { taskId: error.event.taskId, occurredAt: '2026-10-24T10:02:00.000Z' });
   const before = baseline();
   const result = project([correction, reveal, error], before);
   assert.equal(result.progress.components.recall.reviewCount, before.components.recall.reviewCount + 1);
@@ -88,9 +88,9 @@ test('an independent error survives reveal, retry and successful correction in t
 });
 
 test('many sessions on the same date produce one conservative transition from the original baseline', () => {
-  const good = fact('german-type', { recall: 'correct' }, { sessionId: 's1' });
-  const bad = fact('german-type', { recall: 'incorrect' }, { sessionId: 's2', occurredAt: '2026-10-24T12:00:00.000Z' });
-  const later = fact('german-type', { recall: 'correct' }, { sessionId: 's3', occurredAt: '2026-10-24T13:00:00.000Z' });
+  const good = fact('target-type', { recall: 'correct' }, { sessionId: 's1' });
+  const bad = fact('target-type', { recall: 'incorrect' }, { sessionId: 's2', occurredAt: '2026-10-24T12:00:00.000Z' });
+  const later = fact('target-type', { recall: 'correct' }, { sessionId: 's3', occurredAt: '2026-10-24T13:00:00.000Z' });
   const before = baseline();
   const result = project([later, good, bad], before);
   assert.equal(result.progress.components.recall.reviewCount, before.components.recall.reviewCount + 1);
@@ -133,7 +133,7 @@ test('self-assessment requires an own-task reveal before rating, including late 
 test('learning initializes observed components without a successful review, including aided training', () => {
   const fresh = createWordProgress(word, owner, EVIDENCE_POLICY_VERSION);
   const intro = nonAnswer('introduction', 'introduction', { intent: 'learn-new' });
-  const typed = fact('german-type', { recall: 'correct', spelling: 'correct' }, { intent: 'learn-new', occurredAt: '2026-10-24T10:01:00.000Z' });
+  const typed = fact('target-type', { recall: 'correct', spelling: 'correct' }, { intent: 'learn-new', occurredAt: '2026-10-24T10:01:00.000Z' });
   const before = JSON.stringify(fresh);
   const result = project([typed, intro], fresh);
   for (const component of ['recognition', 'recall', 'spelling']) {
@@ -150,26 +150,26 @@ test('learning initializes observed components without a successful review, incl
 test('practice and assessment preserve all schedules; a reveal alone never updates progress', () => {
   const before = baseline();
   for (const intent of ['practice', 'assessment']) {
-    const result = project([fact('german-type', { recall: 'correct', spelling: 'correct' }, { intent })], before);
+    const result = project([fact('target-type', { recall: 'correct', spelling: 'correct' }, { intent })], before);
     assert.equal(result.progress, before);
     assert.equal(result.transitions.length, 0);
     const fresh = createWordProgress(word, owner, EVIDENCE_POLICY_VERSION);
     assert.equal(project([nonAnswer('introduction', 'introduction', { intent })], fresh).progress, fresh);
   }
-  assert.equal(project([nonAnswer('reveal', 'german-type')], before).progress, before);
+  assert.equal(project([nonAnswer('reveal', 'target-type')], before).progress, before);
 });
 
 test('early review and unintroduced review components cannot silently advance SRS', () => {
   const before = baseline();
-  const f = fact('german-type', { recall: 'correct' }, { occurredAt: '2026-10-22T10:00:00.000Z' });
+  const f = fact('target-type', { recall: 'correct' }, { occurredAt: '2026-10-22T10:00:00.000Z' });
   assert.equal(project([f], before, { ...day, date: '2026-10-22' }).progress, before);
   const fresh = createWordProgress(word, owner, EVIDENCE_POLICY_VERSION);
-  assert.equal(project([fact('german-type', { recall: 'correct' })], fresh).progress, fresh);
+  assert.equal(project([fact('target-type', { recall: 'correct' })], fresh).progress, fresh);
 });
 
 test('session exposure survives midnight and does not leak into a different session', () => {
   const choice = fact('meaning-choice', { recognition: 'correct' }, { occurredAt: '2026-10-23T21:59:00.000Z' });
-  const typed = fact('german-type', { recall: 'correct' }, { occurredAt: '2026-10-23T22:01:00.000Z' });
+  const typed = fact('target-type', { recall: 'correct' }, { occurredAt: '2026-10-23T22:01:00.000Z' });
   const exposed = project([choice, typed]);
   assert.equal(exposed.transitions.length, 0);
   assert.equal(exposed.evidence[0].strength, 'aided');
@@ -177,21 +177,21 @@ test('session exposure survives midnight and does not leak into a different sess
 });
 
 test('equal-time exposures precede answers, regardless of event IDs or input order', () => {
-  const typed = fact('german-type', { recall: 'correct' }, { eventId: 'aaa' });
+  const typed = fact('target-type', { recall: 'correct' }, { eventId: 'aaa' });
   const choice = fact('meaning-choice', { recognition: 'correct' }, { eventId: 'zzz' });
   const result = project([typed, choice]);
   assert.equal(result.evidence.find(e => e.eventId === 'aaa' && e.component === 'recall').strength, 'aided');
   assert.deepEqual(result, project([choice, typed]));
-  const bad = fact('german-type', { recall: 'incorrect' }, { taskId: typed.event.taskId, eventId: 'bbb' });
+  const bad = fact('target-type', { recall: 'incorrect' }, { taskId: typed.event.taskId, eventId: 'bbb' });
   assert.equal(project([typed, bad]).transitions[0].rating, 'again');
 });
 
 test('duplicate delivery is idempotent and conflicting identities fail rather than double count', () => {
-  const f = fact('german-type', { recall: 'correct' });
+  const f = fact('target-type', { recall: 'correct' });
   assert.deepEqual(project([f, JSON.parse(JSON.stringify(f))]), project([f]));
   assert.throws(() => project([f, { ...f, event: { ...f.event, rawAnswer: 'different' } }]), /Conflicting event/);
-  assert.throws(() => project([f, fact('german-type', { recall: 'correct' }, { commandId: f.event.commandId })]), /Command reused/);
-  assert.throws(() => project([f, fact('german-type', { recall: 'correct' }, { attemptId: f.event.attemptId })]), /Attempt reused/);
+  assert.throws(() => project([f, fact('target-type', { recall: 'correct' }, { commandId: f.event.commandId })]), /Command reused/);
+  assert.throws(() => project([f, fact('target-type', { recall: 'correct' }, { attemptId: f.event.attemptId })]), /Attempt reused/);
 });
 
 test('study dates use the pinned zone, including DST and midnight', () => {
@@ -204,17 +204,17 @@ test('study dates use the pinned zone, including DST and midnight', () => {
 });
 
 test('reject unsupported versions, mixed epochs/timezones, non-word facts and changed task context', () => {
-  const f = fact('german-type', { recall: 'correct' });
+  const f = fact('target-type', { recall: 'correct' });
   for (const patch of [{ policyVersion: 'future' }, { target: { kind: 'word', wordId: 'other' } },
     { target: { kind: 'assessment', datasetId: 'd', itemId: 'i' } }, { exerciseId: 'unknown' }]) {
     assert.throws(() => project([{ ...f, event: { ...f.event, ...patch } }]), RangeError);
   }
-  assert.throws(() => project([f, fact('german-type', { recall: 'correct' }, { dataEpoch: 'different' })]), /epochs/);
-  assert.throws(() => project([fact('german-type', { recall: 'correct' }, { studyTimezone: 'UTC' })]), /timezone/);
-  assert.throws(() => project([nonAnswer('reveal', 'german-type', { studyTimezone: 'UTC' })]), /timezone/);
+  assert.throws(() => project([f, fact('target-type', { recall: 'correct' }, { dataEpoch: 'different' })]), /epochs/);
+  assert.throws(() => project([fact('target-type', { recall: 'correct' }, { studyTimezone: 'UTC' })]), /timezone/);
+  assert.throws(() => project([nonAnswer('reveal', 'target-type', { studyTimezone: 'UTC' })]), /timezone/);
   assert.throws(() => project([f, fact('article-choice', { article: 'correct' }, { taskId: f.event.taskId })]), /context changed/);
   const broken = { ...baseline(), introducedAt: null };
   assert.throws(() => project([], broken), /history/);
   assert.ok(Object.isFrozen(WORD_EXERCISE_RULES));
-  assert.ok(Object.isFrozen(WORD_EXERCISE_RULES['german-choice'].assessed));
+  assert.ok(Object.isFrozen(WORD_EXERCISE_RULES['target-choice'].assessed));
 });

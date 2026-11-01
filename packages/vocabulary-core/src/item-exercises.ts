@@ -1,7 +1,7 @@
 import type { StudyIntent, TranslationLanguage, WordId } from './content.js';
 import { isLearningEvent, type LearningEvent } from './event.js';
 import type { BuildContext, Evaluation, InputKind, JsonValue, Task } from './exercise.js';
-import { germanSpellingForm, MAX_GERMAN_ANSWER_LENGTH } from './german-answer.js';
+import { spellingForm, MAX_ANSWER_LENGTH } from './target-answer.js';
 import { SENTENCE_ASSEMBLY } from './families/sentences.js';
 
 /** G3 (#332): every non-word family (sentences, grammar, phrases, audio/video, tests) shares
@@ -237,9 +237,9 @@ export const ITEM_TEXT: ItemExerciseDefinition = Object.freeze({
   build: (item: LearningItem): JsonValue => textContent(item.content) as unknown as JsonValue,
   evaluate(item: LearningItem, exercise: JsonValue, answer: JsonValue) {
     const built = textContent(exercise);
-    if (!built || typeof answer !== 'string' || !answer.trim() || answer.length > MAX_GERMAN_ANSWER_LENGTH ||
+    if (!built || typeof answer !== 'string' || !answer.trim() || answer.length > MAX_ANSWER_LENGTH ||
         /[\u0000-\u001f\u007f-\u009f]/u.test(answer)) throw new RangeError('Invalid text answer');
-    return built.answers.some(accepted => germanSpellingForm(accepted) === germanSpellingForm(answer)) ? 'correct' : 'incorrect';
+    return built.answers.some(accepted => spellingForm(accepted) === spellingForm(answer)) ? 'correct' : 'incorrect';
   },
 });
 /** `content: { prompt, answer }`: reveal, then rate `remembered` / `forgotten` (audio, video, phrases). */

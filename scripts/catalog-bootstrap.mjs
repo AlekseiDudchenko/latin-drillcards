@@ -75,10 +75,10 @@ export function addWordPublication(add, seed, sourceRef, word, previous = new Ma
   const sources = seed.provenance[word.id];
   if (!sources?.length) throw new Error(`Missing word provenance: ${word.id}`);
   const root = revision('word',word.id,{ lemma:word.lemma,partOfSpeech:word.partOfSpeech,article:word.article,
-    acceptedGermanForms:word.acceptedGermanForms,tags:word.tags },sources);
-  if (!root.reused) add('word_revisions', ['id','word_id','lemma','part_of_speech','article','accepted_german_forms','tags'],
+    acceptedForms:word.acceptedForms,tags:word.tags },sources);
+  if (!root.reused) add('word_revisions', ['id','word_id','lemma','part_of_speech','article','accepted_forms','tags'],
     [root.id,word.id,word.lemma,word.partOfSpeech,word.article].map(literal)
-      .concat(array(word.acceptedGermanForms),array(word.tags)));
+      .concat(array(word.acceptedForms),array(word.tags)));
   for (const [lang,meaning] of Object.entries(word.meanings)) {
     for (const text of [meaning.preferred,...meaning.accepted]) {
       // The entity is the text itself, not its position: reordering never relabels a translation.
@@ -94,8 +94,8 @@ export function addWordPublication(add, seed, sourceRef, word, previous = new Ma
     if (!exampleSources.length) throw new Error(`Missing example provenance: ${example.id}`);
     const origin = { detail: example.id.includes(':detail:') };
     // Translations and the association pin exact revisions, so a new text or root renews them too.
-    const e = revision('example',example.id,{ text:example.de },exampleSources,origin);
-    if (!e.reused) add('examples', ['id','word_id','text'],[e.id,word.id,example.de].map(literal));
+    const e = revision('example',example.id,{ text:example.text },exampleSources,origin);
+    if (!e.reused) add('examples', ['id','word_id','text'],[e.id,word.id,example.text].map(literal));
     for (const [lang,text] of Object.entries(example.translations)) {
       const t = revision('example_translation',`${example.id}/${lang}`,{ exampleId:e.id,language:lang,text },exampleSources,origin);
       if (!t.reused) add('example_translations', ['id','word_id','example_id','language','text'],[t.id,word.id,e.id,lang,text].map(literal));

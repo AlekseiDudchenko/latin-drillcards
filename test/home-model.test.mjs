@@ -10,7 +10,7 @@ const before = '2026-10-20T12:00:00.000Z';
 const owner = { kind: 'guest', id: 'G' };
 const noun = (id, lemma, article, ru, en = '') => ({ schemaVersion: 1, contentVersion: 1, id, lemma, article, partOfSpeech: 'noun',
   senseId: id, meanings: { ru: { preferred: ru, accepted: [] }, ...(en ? { en: { preferred: en, accepted: [] } } : {}) },
-  acceptedGermanForms: [], tags: [], examples: [] });
+  acceptedForms: [], tags: [], examples: [] });
 const verb = (id, lemma, ru) => ({ ...noun(id, lemma, undefined, ru, lemma), partOfSpeech: 'verb', article: undefined });
 const words = [noun('tisch', 'Tisch', 'der', 'стол', 'table'), noun('tuer', 'Tür', 'die', 'дверь', 'door'),
   noun('bett', 'Bett', 'das', 'кровать', 'bed'), noun('lampe', 'Lampe', 'die', 'лампа'), verb('gehen', 'gehen', 'идти')];
@@ -46,7 +46,7 @@ test('deck search matches titles; word search matches headword with article and 
 
 test('counts are the planner queues for the chosen exercise and language; a batch only draws from them', () => {
   const started = [progress(words[0])];
-  for (const request of [single('meaning-choice'), single('article-choice'), single('german-choice', 'en'),
+  for (const request of [single('meaning-choice'), single('article-choice'), single('target-choice', 'en'),
     { deckId: 'home', intent: 'learn-new', format: 'circuit', circuitScope: 'all-exercises', answerLanguage: 'en' }]) {
     const stats = overview(request, started);
     const queues = vocabularyQueues({ request, deck: home, words, progress: started, owner, at });
@@ -60,7 +60,7 @@ test('counts are the planner queues for the chosen exercise and language; a batc
   }
   // Articles exist for nouns only; English lacks a translation for "Lampe".
   assert.equal(overview(single('article-choice'), []).fresh, 4);
-  assert.equal(overview(single('german-choice', 'en'), []).fresh, 4);
+  assert.equal(overview(single('target-choice', 'en'), []).fresh, 4);
 });
 
 test('new and due queues stay separate and explain why they are empty', () => {

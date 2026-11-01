@@ -13,10 +13,10 @@ async function harness(page: Page, kind = 'text', opts: { autoSpeak?: 'start' | 
     window.uiHarness = { submissions: [], continuations: [], reveals: [], played: [], cancelled: 0, disposed: 0, mode: 'ok', revealMode: 'ok', speechMode: 'ok' };
     const h = window.uiHarness;
     h.presentation = { language: 'en', permissions: { reveal: true, details: true, speech: !!opts.speech } };
-    const input = kind === 'introduction' ? { kind } : kind === 'choice' ? { kind, answerLang: 'de', options: [{ id: 'x', label: '<b>literal</b>' }, { id: 'y', label: 'Tisch' }] }
-      : kind === 'reveal' ? { kind, answer: 'secret answer', answerLang: 'en' } : { kind: 'text', answerLang: 'de' };
+    const input = kind === 'introduction' ? { kind } : kind === 'choice' ? { kind, answerLang: 'la', options: [{ id: 'x', label: '<b>literal</b>' }, { id: 'y', label: 'Tisch' }] }
+      : kind === 'reveal' ? { kind, answer: 'secret answer', answerLang: 'en' } : { kind: 'text', answerLang: 'la' };
     h.shell = createCardShell(host, { id: 'test-task', prompt: { text: 'A prompt', lang: 'en' }, input,
-      translationLanguage: 'ru', speechText: 'der Tisch', ...(opts.autoSpeak ? { autoSpeak: opts.autoSpeak } : {}), word: { schemaVersion: 1, contentVersion: 1, id: 'word-1', lemma: '<img src=x onerror=alert(1)>', partOfSpeech: 'noun', senseId: 'sense', article: 'der', meanings: { ru: { preferred: 'стол', accepted: ['стол'] } }, acceptedGermanForms: [], examples: opts.examples ? [{ de: 'Der Tisch ist groß.', translations: { ru: 'Стол большой.' } }, { de: 'Das Buch liegt auf dem Tisch.', translations: { ru: 'Книга лежит на столе.' } }] : [], tags: [] } }, h.presentation, {
+      translationLanguage: 'ru', speechText: 'der Tisch', ...(opts.autoSpeak ? { autoSpeak: opts.autoSpeak } : {}), word: { schemaVersion: 1, contentVersion: 1, id: 'word-1', lemma: '<img src=x onerror=alert(1)>', partOfSpeech: 'noun', senseId: 'sense', article: 'der', meanings: { ru: { preferred: 'стол', accepted: ['стол'] } }, acceptedForms: [], examples: opts.examples ? [{ de: 'Der Tisch ist groß.', translations: { ru: 'Стол большой.' } }, { de: 'Das Buch liegt auf dem Tisch.', translations: { ru: 'Книга лежит на столе.' } }] : [], tags: [] } }, h.presentation, {
       onChange(state: unknown) { h.state = state; },
       onContinue(id: string) { h.continuations.push(id); },
       onSubmit(answer: unknown) {
@@ -260,7 +260,7 @@ test('speech waiting for voices cannot start after disposal, and English fallbac
   expect(result).toBe('cancelled');
   expect(await page.evaluate(() => window.voiceHarness.spoken.length)).toBe(0);
   await speechHarness(page, ['en-US']);
-  expect(await page.evaluate(() => window.voiceHarness.first.speak('Tisch'))).toBe('no-german-voice');
+  expect(await page.evaluate(() => window.voiceHarness.first.speak('Tisch'))).toBe('no-voice');
   expect(await page.evaluate(() => window.voiceHarness.spoken.length)).toBe(0);
 });
 

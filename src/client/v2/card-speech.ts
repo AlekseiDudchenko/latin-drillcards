@@ -1,7 +1,7 @@
 import { recordedSpeechUrl } from './recorded-audio.js';
-import { pickGermanVoice } from '../voice-selection.js';
+import { pickVoice, SPEECH_LANG } from '../voice-selection.js';
 
-export type SpeechResult = 'completed' | 'cancelled' | 'unavailable' | 'no-german-voice' | 'failed';
+export type SpeechResult = 'completed' | 'cancelled' | 'unavailable' | 'no-voice' | 'failed';
 export interface CardSpeech {
   speak(text: string): Promise<SpeechResult>;
   cancel(): void;
@@ -52,11 +52,11 @@ function createBrowserCardSpeech(): CardSpeech {
         const start = (voices: SpeechSynthesisVoice[]) => {
           clearTimeout(timer);
           synth.removeEventListener('voiceschanged', voicesReady);
-          const voice = pickGermanVoice(voices);
-          if (!voice) { finish('no-german-voice'); return; }
+          const voice = pickVoice(voices);
+          if (!voice) { finish('no-voice'); return; }
           try {
             utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'de-DE'; utterance.voice = voice; utterance.rate = 0.9;
+            utterance.lang = SPEECH_LANG; utterance.voice = voice; utterance.rate = 0.9;
             utterance.onend = () => finish('completed');
             utterance.onerror = () => finish('failed');
             // Replace existing speech, but this adapter only cancels playback it still owns.
@@ -84,7 +84,7 @@ function createBrowserCardSpeech(): CardSpeech {
           if (voices.length) start(voices);
           else {
             synth.addEventListener('voiceschanged', voicesReady);
-            timer = setTimeout(() => finish('no-german-voice'), 1500);
+            timer = setTimeout(() => finish('no-voice'), 1500);
           }
         } catch { finish('failed'); }
       });

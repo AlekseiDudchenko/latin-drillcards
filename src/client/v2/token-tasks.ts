@@ -37,7 +37,7 @@ export function sentenceAssemblyCard(item: SentenceSource, translationLanguage: 
   const prompt = translationLanguage === 'ru' ? item.translation_ru : item.translation_en;
   if (!prompt?.trim()) throw new RangeError(`${item.id}: missing ${translationLanguage} translation`);
   return { id: `sentence:${item.id}`, title: titles('sentenceAssemblyTitle'), prompt: { text: prompt, lang: translationLanguage },
-    input: { kind: 'tokens', answerLang: 'de', tokens: tokensOf(item.id, item.tokens, order), autoSubmit: true },
+    input: { kind: 'tokens', answerLang: 'la', tokens: tokensOf(item.id, item.tokens, order), autoSubmit: true },
     translationLanguage, speechText: item.target };
 }
 
@@ -46,7 +46,7 @@ export function sentenceAssemblyCard(item: SentenceSource, translationLanguage: 
  * checks explicitly. No speech: the prompt is a gapped sentence.
  */
 export function konjunktivTokenCard(item: KonjunktivSource, translationLanguage: TranslationLanguage, order?: readonly number[]): CardDefinition {
-  return { id: `konjunktiv2:${item.id}`, title: titles('konjunktivTokenTitle'), prompt: { text: item.sentence, lang: 'de' },
-    input: { kind: 'tokens', answerLang: 'de', tokens: tokensOf(item.id, item.tokens, order), autoSubmit: false },
+  return { id: `konjunktiv2:${item.id}`, title: titles('konjunktivTokenTitle'), prompt: { text: item.sentence, lang: 'la' },
+    input: { kind: 'tokens', answerLang: 'la', tokens: tokensOf(item.id, item.tokens, order), autoSubmit: false },
     translationLanguage };
 }

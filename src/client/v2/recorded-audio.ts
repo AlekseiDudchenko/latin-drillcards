@@ -3,7 +3,8 @@ import { assetUrl } from '../config.js';
 export function normalizeSpeechText(text: string): string {
   return text.normalize('NFC').trim().replace(/\s+/g, ' ');
 }
-const manifests = ['data/audio/words-b2.json', 'data/audio/sentences-a1.json'];
+/** Recorded audio manifests (data/audio/*.json); none yet for Latin: speech falls back to the device voice. */
+const manifests: string[] = [];
 let recordings: Promise<Map<string, string>> | undefined;
 
 async function loadManifest(path: string): Promise<[string, string][]> {

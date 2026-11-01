@@ -6,7 +6,7 @@ import { timestamp, type Rating } from './scheduler.js';
 
 export const EVIDENCE_POLICY_VERSION = 'evidence/1';
 const ALL = Object.freeze(['recognition', 'recall', 'spelling', 'article'] as const);
-const GERMAN = Object.freeze(['recall', 'spelling', 'article'] as const);
+const TARGET = Object.freeze(['recall', 'spelling', 'article'] as const);
 const NONE = Object.freeze([] as const);
 function wordRule(assessed: readonly Component[], prompt: readonly Component[], source: Evaluation['source']) {
   return Object.freeze({ assessed: Object.freeze([...assessed]), prompt: Object.freeze([...prompt]), source });
@@ -15,12 +15,12 @@ function wordRule(assessed: readonly Component[], prompt: readonly Component[], 
 /** Shared with exercise adapters: intrinsic prompt exposure is never a client assertion. */
 export const WORD_EXERCISE_RULES = Object.freeze({
   introduction: wordRule(['recognition'], ALL, 'automatic'),
-  'meaning-choice': wordRule(['recognition'], GERMAN, 'automatic'),
-  'german-choice': wordRule(['recognition'], GERMAN, 'automatic'),
-  'meaning-recall': wordRule(['recognition'], GERMAN, 'self-assessment'),
-  'german-type': wordRule(['recall', 'spelling'], NONE, 'automatic'),
+  'meaning-choice': wordRule(['recognition'], TARGET, 'automatic'),
+  'target-choice': wordRule(['recognition'], TARGET, 'automatic'),
+  'meaning-recall': wordRule(['recognition'], TARGET, 'self-assessment'),
+  'target-type': wordRule(['recall', 'spelling'], NONE, 'automatic'),
   'article-choice': wordRule(['article'], ['recall', 'spelling'], 'automatic'),
-  'german-with-article-type': wordRule(['recall', 'spelling', 'article'], NONE, 'automatic'),
+  'target-with-article-type': wordRule(['recall', 'spelling', 'article'], NONE, 'automatic'),
 } satisfies Record<string, {
   assessed: readonly Component[]; prompt: readonly Component[]; source: Evaluation['source'];
 }>);

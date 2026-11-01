@@ -7,7 +7,7 @@ import { answer } from '../packages/vocabulary-core/build-test/test/fixtures.js'
 function noun(id, de, ru, en = ru) {
   return { schemaVersion: 1, contentVersion: 1, id, lemma: de, article: 'der', partOfSpeech: 'noun', senseId: id,
     meanings: { ru: { preferred: ru, accepted: [ru] }, en: { preferred: en, accepted: [en] } },
-    acceptedGermanForms: [de], examples: [], tags: ['home'] };
+    acceptedForms: [de], examples: [], tags: ['home'] };
 }
 const words = [noun('tisch', 'Tisch', 'стол', 'table'), noun('stuhl', 'Stuhl', 'стул', 'chair'),
   noun('fenster', 'Fenster', 'окно', 'window'), noun('tuer', 'Tür', 'дверь', 'door'), noun('haus', 'Haus', 'дом', 'house')];
@@ -28,7 +28,7 @@ test('all four exercises use build/evaluate/applicability contracts with distinc
     assert.deepEqual(evaluation.components, id === 'introduction' ? {} : { recognition: 'correct' });
     assert.deepEqual(exercise.assessedComponents(words[0]), id === 'introduction' ? [] : ['recognition']);
   }
-  const reverse = r.get('german-choice').buildTask(words[0], context);
+  const reverse = r.get('target-choice').buildTask(words[0], context);
   assert.equal(reverse.specification.prompt.text, 'стол');
   assert.equal(reverse.specification.answer.lang, 'de');
   assert.equal(reverse.specification.answer.text, 'der Tisch');
@@ -43,15 +43,15 @@ test('options and labels are reproducible under catalog order, serialization and
   assert.equal(first.specification.options.length, 4);
   assert.equal(new Set(first.specification.options.map(o => o.id)).size, 4);
   assert.ok(Object.isFrozen(first.specification.options));
-  const layouts = new Set(Array.from({ length: 20 }, (_, i) => registry().get('german-choice').buildTask(words[0], { ...context, seed: `s-${i}` }).specification.options.map(o => o.id).join(',')));
+  const layouts = new Set(Array.from({ length: 20 }, (_, i) => registry().get('target-choice').buildTask(words[0], { ...context, seed: `s-${i}` }).specification.options.map(o => o.id).join(',')));
   assert.ok(layouts.size > 1);
 });
 
 test('verified alias overlap and identical German forms cannot be distractors', () => {
   const translationAlias = noun('alias', 'Esstisch', 'обеденный стол'); translationAlias.meanings.ru.accepted.push('стол');
-  const formAlias = noun('form-alias', 'Tafel', 'доска'); formAlias.acceptedGermanForms.push('Tisch');
+  const formAlias = noun('form-alias', 'Tafel', 'доска'); formAlias.acceptedForms.push('Tisch');
   const r = createWordExerciseRegistry([...words, translationAlias, formAlias], 'catalog/1');
-  for (const id of ['meaning-choice', 'german-choice']) {
+  for (const id of ['meaning-choice', 'target-choice']) {
     const task = r.get(id).buildTask(words[0], context);
     assert.ok(!task.specification.options.some(o => ['alias', 'form-alias'].includes(o.id)));
     const wrong = task.specification.options.find(o => o.id !== 'tisch');
@@ -74,14 +74,14 @@ test('same-part-of-speech options prefer common topics without mixing unrelated 
   const r = createWordExerciseRegistry([...words.slice(0, 4), unrelated, verb], 'catalog/1');
   const ids = r.get('meaning-choice').buildTask(words[0], context).specification.options.map(o => o.id);
   assert.deepEqual(new Set(ids), new Set(words.slice(0, 4).map(w => w.id)));
-  assert.equal(r.get('german-choice').isApplicable(verb, context), false);
+  assert.equal(r.get('target-choice').isApplicable(verb, context), false);
 });
 
 test('homonymous words keep separate identity and are excluded as ambiguous German distractors', () => {
   const volume = noun('band-volume', 'Band', 'том');
   const ribbon = { ...noun('band-ribbon', 'Band', 'лента'), article: 'das' };
   const r = createWordExerciseRegistry([...words, volume, ribbon], 'catalog/1');
-  const task = r.get('german-choice').buildTask(volume, context);
+  const task = r.get('target-choice').buildTask(volume, context);
   assert.equal(r.getWord('band-ribbon', 1).article, 'das');
   assert.equal(r.getWord('band-volume', 1).article, 'der');
   assert.ok(!task.specification.options.some(o => o.id === 'band-ribbon'));
@@ -115,12 +115,12 @@ test('canonical validation rejects forged solutions, changed labels/options, lan
     t => { t.specification.catalogVersion = 'other'; }];
   for (const mutate of mutations) { const t = copy(); mutate(t); assert.throws(() => r.validateTask(t), RangeError); }
   assert.throws(() => r.get('meaning-choice').evaluate(task, 'not-an-option'), /Unknown answer/);
-  assert.throws(() => r.get('german-choice').evaluate(task, 'tisch'), /mismatch/);
+  assert.throws(() => r.get('target-choice').evaluate(task, 'tisch'), /mismatch/);
   assert.throws(() => createWordExerciseRegistry([...words, words[0]], 'catalog/1'), /duplicate/);
 });
 
 test('trusted answer evaluation binds event metadata to the pinned task instead of trusting the client language or target', () => {
-  const r = registry(); const task = r.get('german-choice').buildTask(words[0], context);
+  const r = registry(); const task = r.get('target-choice').buildTask(words[0], context);
   const event = { ...answer, target: task.target, taskId: task.id, exerciseId: task.exerciseId, taskVersion: task.taskVersion,
     contentVersion: task.contentVersion, answerLanguage: task.specification.answerLanguage, rawAnswer: task.specification.correctOptionId };
   assert.equal(evaluateWordAnswer(r, task, event).outcome, 'correct');

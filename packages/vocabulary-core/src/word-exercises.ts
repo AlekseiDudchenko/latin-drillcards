@@ -2,10 +2,10 @@ import type { TranslationLanguage, Word } from './content.js';
 import type { BuildContext, Evaluation, ExerciseDefinition, JsonValue, Task } from './exercise.js';
 import { isLearningEvent, type LearningEvent } from './event.js';
 import { applicableComponents } from './progress.js';
-import { GERMAN_NORMALIZATION_VERSION, evaluateGermanProduction } from './german-answer.js';
+import { TARGET_NORMALIZATION_VERSION, evaluateTargetProduction } from './target-answer.js';
 import { EVIDENCE_POLICY_VERSION, WORD_EXERCISE_RULES } from './word-evidence.js';
 
-export const WORD_EXERCISE_IDS = Object.freeze(['meaning-choice', 'german-choice', 'meaning-recall', 'introduction', 'german-type', 'article-choice', 'german-with-article-type'] as const);
+export const WORD_EXERCISE_IDS = Object.freeze(['meaning-choice', 'target-choice', 'meaning-recall', 'introduction', 'target-type', 'article-choice', 'target-with-article-type'] as const);
 export type WordExerciseId = typeof WORD_EXERCISE_IDS[number];
 export const WORD_TASK_SCHEMA_VERSION = 1;
 export const CHOICE_OPTION_COUNT = 4;
@@ -68,11 +68,11 @@ function meaningAliases(word: Word, language: TranslationLanguage): Set<string> 
   }
   return result;
 }
-function germanAliases(word: Word): Set<string> {
-  return new Set([word.lemma, ...word.acceptedGermanForms].map(form => normalized(form).replace(/^(der|die|das)\s+/, '')));
+function targetAliases(word: Word): Set<string> {
+  return new Set([word.lemma, ...word.acceptedForms].map(form => normalized(form).replace(/^(der|die|das)\s+/, '')));
 }
 const overlap = (a: Set<string>, b: Set<string>): boolean => [...a].some(item => b.has(item));
-const germanLabel = (word: Word): string => [word.article, word.lemma].filter(Boolean).join(' ');
+const targetLabel = (word: Word): string => [word.article, word.lemma].filter(Boolean).join(' ');
 
 /** One immutable published catalog snapshot is used for construction and server re-evaluation. */
 export function createWordExerciseRegistry(source: readonly Word[], catalogVersion: string): WordExerciseRegistry {
@@ -97,15 +97,15 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     const key = JSON.stringify([context.seed, context.taskId, exerciseId, target.id, context.answerLanguage]);
     const selected = [target];
     const meaningSets = [meaningAliases(target, context.answerLanguage)];
-    const germanSets = [germanAliases(target)];
+    const targetSets = [targetAliases(target)];
     const candidates = pool.filter(word => word.id !== target.id && word.partOfSpeech === target.partOfSpeech && word.meanings[context.answerLanguage]?.preferred.trim());
     const topic = (word: Word): number => word.tags.filter(tag => target.tags.includes(tag)).length;
     candidates.sort((a, b) => topic(b) - topic(a) || hash(`${key}:${a.id}`) - hash(`${key}:${b.id}`) || compare(a.id, b.id));
     for (const candidate of candidates) {
       const meanings = meaningAliases(candidate, context.answerLanguage);
-      const german = germanAliases(candidate);
-      if (meaningSets.some(set => overlap(set, meanings)) || germanSets.some(set => overlap(set, german))) continue;
-      selected.push(candidate); meaningSets.push(meanings); germanSets.push(german);
+      const german = targetAliases(candidate);
+      if (meaningSets.some(set => overlap(set, meanings)) || targetSets.some(set => overlap(set, german))) continue;
+      selected.push(candidate); meaningSets.push(meanings); targetSets.push(german);
       if (selected.length === CHOICE_OPTION_COUNT) break;
     }
     return selected.sort((a, b) => hash(`${key}:layout:${a.id}`) - hash(`${key}:layout:${b.id}`) || compare(a.id, b.id));
@@ -116,9 +116,9 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     if (!word) return { available: false as const, reason: 'unknown-word' as const };
     if (word.contentVersion !== requested.contentVersion) return { available: false as const, reason: 'content-version' as const };
     if (exerciseId !== 'article-choice' && !word.meanings[context.answerLanguage]?.preferred.trim()) return { available: false as const, reason: 'missing-translation' as const };
-    if ((exerciseId === 'article-choice' || exerciseId === 'german-with-article-type') &&
+    if ((exerciseId === 'article-choice' || exerciseId === 'target-with-article-type') &&
         (word.partOfSpeech !== 'noun' || !word.article)) return { available: false as const, reason: 'article-not-applicable' as const };
-    if ((exerciseId === 'meaning-choice' || exerciseId === 'german-choice') && optionsFor(exerciseId, word, context).length < CHOICE_OPTION_COUNT) return { available: false as const, reason: 'insufficient-options' as const };
+    if ((exerciseId === 'meaning-choice' || exerciseId === 'target-choice') && optionsFor(exerciseId, word, context).length < CHOICE_OPTION_COUNT) return { available: false as const, reason: 'insufficient-options' as const };
     return { available: true as const };
   }
   function buildTask(exerciseId: WordExerciseId, requested: Word, context: BuildContext): WordExerciseTask {
@@ -126,18 +126,18 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     if (!available.available) throw new ExerciseUnavailable(exerciseId, available.reason);
     const word = catalog.get(requested.id)!;
     const articleChoice = exerciseId === 'article-choice';
-    const typed = exerciseId === 'german-type' || exerciseId === 'german-with-article-type';
+    const typed = exerciseId === 'target-type' || exerciseId === 'target-with-article-type';
     const choice = exerciseId.endsWith('-choice');
-    const reverse = exerciseId === 'german-choice' || typed;
-    const prompt = { text: articleChoice ? word.lemma : reverse ? word.meanings[context.answerLanguage]!.preferred : germanLabel(word), lang: reverse ? context.answerLanguage : 'de' };
-    const answer = { text: articleChoice ? word.article! : exerciseId === 'german-type' ? word.lemma : reverse ? germanLabel(word) : word.meanings[context.answerLanguage]!.preferred, lang: reverse || articleChoice ? 'de' : context.answerLanguage };
+    const reverse = exerciseId === 'target-choice' || typed;
+    const prompt = { text: articleChoice ? word.lemma : reverse ? word.meanings[context.answerLanguage]!.preferred : targetLabel(word), lang: reverse ? context.answerLanguage : 'de' };
+    const answer = { text: articleChoice ? word.article! : exerciseId === 'target-type' ? word.lemma : reverse ? targetLabel(word) : word.meanings[context.answerLanguage]!.preferred, lang: reverse || articleChoice ? 'de' : context.answerLanguage };
     const options = articleChoice ? ['der', 'die', 'das'].map(article => ({ id: article, label: article, wordId: word.id, contentVersion: word.contentVersion }))
-      : choice ? optionsFor(exerciseId, word, context).map(option => ({ id: option.id, label: reverse ? germanLabel(option) : option.meanings[context.answerLanguage]!.preferred, wordId: option.id, contentVersion: option.contentVersion })) : [];
+      : choice ? optionsFor(exerciseId, word, context).map(option => ({ id: option.id, label: reverse ? targetLabel(option) : option.meanings[context.answerLanguage]!.preferred, wordId: option.id, contentVersion: option.contentVersion })) : [];
     return freeze({ id: context.taskId, exerciseId, taskVersion: `${exerciseId}/1`, contentVersion: word.contentVersion,
       target: { kind: 'word', wordId: word.id }, input: choice ? 'choice' : typed ? 'text' : 'reveal',
       assessedComponents: exerciseId === 'introduction' ? [] : [...WORD_EXERCISE_RULES[exerciseId].assessed].filter(component => applicableComponents(word).includes(component)),
       specification: { schemaVersion: WORD_TASK_SCHEMA_VERSION, catalogVersion, seed: context.seed, answerLanguage: context.answerLanguage,
-        ...(typed ? { normalizationVersion: GERMAN_NORMALIZATION_VERSION } : {}), prompt, answer, options,
+        ...(typed ? { normalizationVersion: TARGET_NORMALIZATION_VERSION } : {}), prompt, answer, options,
         correctOptionId: articleChoice ? word.article! : choice ? word.id : null } });
   }
 
@@ -172,9 +172,9 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
         const outcome = raw === 'remembered' ? 'correct' : 'incorrect';
         return { outcome, source: 'self-assessment', components: { recognition: outcome } };
       }
-      if (exerciseId === 'german-type' || exerciseId === 'german-with-article-type') {
+      if (exerciseId === 'target-type' || exerciseId === 'target-with-article-type') {
         if (checked.target.kind !== 'word') throw new RangeError('Not a word task');
-        return evaluateGermanProduction(catalog.get(checked.target.wordId)!, raw, exerciseId === 'german-with-article-type', pool);
+        return evaluateTargetProduction(catalog.get(checked.target.wordId)!, raw, exerciseId === 'target-with-article-type', pool);
       }
       if (typeof raw !== 'string' || !checked.specification.options.some(option => option.id === raw)) throw new RangeError('Unknown answer option');
       const outcome = raw === checked.specification.correctOptionId ? 'correct' : 'incorrect';

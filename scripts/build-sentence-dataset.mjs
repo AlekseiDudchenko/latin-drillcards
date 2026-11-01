@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 
 // M1 (#333): the v1 sentence decks as one immutable ItemDataset. Deterministic: the same
 // sources give the same file and version; `--check` fails when the committed file is stale.
-export const SENTENCE_DECKS = Object.freeze(['a1', 'a2', 'b1', 'b2', 'c1', 'c2', 'beruf', 'arch']);
+export const SENTENCE_DECKS = Object.freeze(['basic']);
 export const SENTENCE_DATASET_PATH = 'public/data/items/sentences.json';
 const clean = value => typeof value === 'string' ? value.normalize('NFC').replace(/\s+/g, ' ').trim() : '';
 

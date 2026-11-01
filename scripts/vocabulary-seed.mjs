@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, readFileSync } from 'node:fs';
 
-// Seed of the shared v2 vocabulary catalog (F3 / #280), built from the v1 deck JSON.
+// Seed of the shared v2 vocabulary catalog (F3 / #280), built from the deck JSON in public/data.
 //
 // Identity is never derived at build time. content/vocabulary/identities.json is the
 // explicit table wordId → source entries ("deck:entryId"); only `npm run seed:assign`
@@ -9,16 +9,13 @@ import { existsSync, readFileSync } from 'node:fs';
 // word's sources into one published Word and fails if the table is stale.
 
 export const DECKS = Object.freeze([
-  ['a1', 'A1'], ['a2', 'A2'], ['b1', 'B1'], ['b2', 'B2'], ['c1', 'C1'],
-  ['beruf', 'Beruf'], ['arch', 'Softwarearchitektur'], ['kollokationen', 'Kollokationen'],
+  ['basic', 'Basic vocabulary'], ['verbs', 'Verbs'],
 ]);
 export const IDENTITIES_PATH = 'content/vocabulary/identities.json';
 export const REPORT_PATH = 'content/vocabulary/duplicates.md';
 export const SEED_VERSION = 'vocabulary-seed/1';
 
-const ARTICLES = new Set(['der', 'die', 'das']);
-const PHRASE_TAGS = new Set(['kollokation', 'nomen_verb', 'feste_wendung', 'adjektiv_nomen']);
-const VERB_TAGS = new Set(['verb', 'verben', 'trennbar', 'reflexiv']);
+const PARTS_OF_SPEECH = new Set(['noun', 'verb', 'adjective', 'adverb', 'other']);
 
 const sha256 = value => createHash('sha256').update(value).digest('hex');
 function canonical(value) {
@@ -46,27 +43,19 @@ export function loadSources(root = '.') {
   return { files, entries };
 }
 
-/** One v1 entry as a candidate sense: lemma, article, part of speech, glosses and examples. */
+/** One source entry as a candidate sense: lemma, part of speech, glosses and examples. */
 export function normalizeEntry(deck, entry, detail, position = 0) {
-  const de = clean(entry.de);
-  const rawArticle = clean(entry.article);
-  // "die (Pl.)" marks plural-only nouns; the article itself is "die".
-  const article = rawArticle.split(' ')[0];
-  if (article && !ARTICLES.has(article)) throw new RangeError(`${deck}:${entry.id}: unknown article ${rawArticle}`);
-  const lemma = article && de.startsWith(`${article} `) ? de.slice(article.length + 1) : de;
+  const lemma = clean(entry.la);
+  const partOfSpeech = clean(entry.pos) || 'other';
+  if (!PARTS_OF_SPEECH.has(partOfSpeech)) throw new RangeError(`${deck}:${entry.id}: unknown part of speech ${partOfSpeech}`);
   const tags = [...new Set((entry.tags ?? []).map(clean).filter(Boolean))];
-  if (rawArticle.includes('Pl.') && !tags.includes('plural')) tags.push('plural');
-  // v1 has no part of speech; it follows the article, then the deck's grammar tags. Phrases stay "other".
-  const partOfSpeech = article ? 'noun' : tags.some(t => PHRASE_TAGS.has(t)) ? 'other'
-    : tags.some(t => VERB_TAGS.has(t)) ? 'verb' : tags.includes('adjektiv') ? 'adjective'
-    : tags.includes('adverb') ? 'adverb' : 'other';
-  const examples = [{ id: `${deck}:${entry.id}:main`, de: entry.exampleDe, ru: entry.exampleRu, en: entry.exampleEn },
+  const examples = [{ id: `${deck}:${entry.id}:main`, text: entry.exampleLa, ru: entry.exampleRu, en: entry.exampleEn },
     // Detail example IDs follow the sentence, not its position: deleting one never renames another.
-    ...(detail?.examples ?? []).map(example => ({ id: `${deck}:${entry.id}:detail:${sha256(clean(example.de)).slice(0, 8)}`, ...example }))]
-    .map(example => ({ id: example.id, de: clean(example.de), translations: Object.fromEntries(
+    ...(detail?.examples ?? []).map(example => ({ id: `${deck}:${entry.id}:detail:${sha256(clean(example.text)).slice(0, 8)}`, ...example }))]
+    .map(example => ({ id: example.id, text: clean(example.text), translations: Object.fromEntries(
       [['ru', clean(example.ru)], ['en', clean(example.en)]].filter(([, value]) => value)) }))
-    .filter(example => example.de && Object.keys(example.translations).length);
-  return { source: `${deck}:${entry.id}`, deck, position, de, lemma, ...(article ? { article } : {}), partOfSpeech,
+    .filter(example => example.text && Object.keys(example.translations).length);
+  return { source: `${deck}:${entry.id}`, deck, position, lemma, partOfSpeech,
     ru: clean(entry.ru), en: clean(entry.en), tags, examples };
 }
 
@@ -75,7 +64,7 @@ function glossParts(gloss) {
   return new Set(gloss.replace(/\([^)]*\)/g, ' ').split(/[,;/]/).map(part => part.trim().toLowerCase()).filter(Boolean));
 }
 const overlaps = (a, b) => [...a].some(item => b.has(item));
-/** What identifies a sense: lemma, article, part of speech and glosses. Stored as each word's snapshot. */
+/** What identifies a sense: lemma, part of speech and glosses. Stored as each word's snapshot. */
 export const senseOf = (entry, partOfSpeech = entry.partOfSpeech) =>
   ({ lemma: entry.lemma, ...(entry.article ? { article: entry.article } : {}), partOfSpeech, ru: entry.ru, en: entry.en });
 /** Same lemma, article and part of speech, plus a shared RU or EN gloss. Spelling alone never merges.
@@ -97,19 +86,19 @@ const accepted = (word, entry) => {
 const conflictError = (word, conflicts, bySource) => new RangeError(conflicts.map(source => {
   const e = bySource.get(source);
   const known = word.senses.map(sense => `${sense.lemma} / ${sense.ru} / ${sense.en}`).join('; ');
-  return `${word.id}: ${source} (${e.de} / ${e.ru} / ${e.en}) no longer matches its sense (${known})`;
+  return `${word.id}: ${source} (${e.lemma} / ${e.ru} / ${e.en}) no longer matches its sense (${known})`;
 }).join('\n') + '\nMove the entry to another word in identities.json (or remove it there to get a new ID), ' +
   `or confirm the same meaning: npm run seed:assign -- --confirm ${word.id}`);
 /** Display lemmas may carry a disambiguator ("sie (Plural)"); the typed answer is the bare form. */
 const bareLemma = lemma => lemma.replace(/\s*\([^)]*\)/g, '').trim();
 
 function slug(lemma) {
-  return lemma.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
-    .normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'wort';
+  return lemma.toLowerCase().replace(/æ/g, 'ae').replace(/œ/g, 'oe')
+    .normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'verbum';
 }
 
 /** Merge the sources of one wordId into a published Word (without contentVersion).
- * A hand decision in the identity table may fix the part of speech the v1 tags left unclear. */
+ * A hand decision in the identity table may fix the part of speech the source left unclear. */
 export function mergeWord(id, sources, partOfSpeech = sources[0].partOfSpeech) {
   const [first] = sources;
   const gloss = lang => {
@@ -118,10 +107,10 @@ export function mergeWord(id, sources, partOfSpeech = sources[0].partOfSpeech) {
   };
   const meanings = Object.fromEntries(['ru', 'en'].map(lang => [lang, gloss(lang)]).filter(([, value]) => value));
   const examples = []; const seen = new Set();
-  for (const example of sources.flatMap(s => s.examples)) if (!seen.has(example.de)) { seen.add(example.de); examples.push(example); }
+  for (const example of sources.flatMap(s => s.examples)) if (!seen.has(example.text)) { seen.add(example.text); examples.push(example); }
   const bare = bareLemma(first.lemma);
   return { schemaVersion: 1, id, lemma: first.lemma, partOfSpeech, senseId: id,
-    ...(first.article ? { article: first.article } : {}), meanings, acceptedGermanForms: bare !== first.lemma ? [bare] : [],
+    ...(first.article ? { article: first.article } : {}), meanings, acceptedForms: bare !== first.lemma ? [bare] : [],
     examples, tags: [...new Set(sources.flatMap(s => s.tags))] };
 }
 export const contentHash = word => sha256(canonical(word)).slice(0, 16);
@@ -240,17 +229,17 @@ export function duplicateReport(identities, { entries }) {
     `Sources: ${entries.length} entries, ${live.length} words (${identities.words.length - live.length} retired). Merged: ${merged.length} words from`,
     `${merged.reduce((sum, word) => sum + word.sources.length, 0)} entries. Decided by hand: ${decided.length}. Same lemma kept apart: ${apart.length}.`,
     '',
-    '## Merged: same German form, article, part of speech and a shared translation',
+    '## Merged: same lemma, part of speech and a shared translation',
     '',
-    ...merged.flatMap(word => [`- \`${word.id}\` ${bySource.get(word.sources[0]).de}`, ...word.sources.map(s => `  - ${gloss(s)}`)]),
+    ...merged.flatMap(word => [`- \`${word.id}\` ${bySource.get(word.sources[0]).lemma}`, ...word.sources.map(s => `  - ${gloss(s)}`)]),
     '',
     '## Decided by hand in the identity table',
     '',
-    ...decided.flatMap(word => [`- \`${word.id}\` ${bySource.get(word.sources[0]).de}: ${word.note}`, ...word.sources.map(s => `  - ${gloss(s)}`)]),
+    ...decided.flatMap(word => [`- \`${word.id}\` ${bySource.get(word.sources[0]).lemma}: ${word.note}`, ...word.sources.map(s => `  - ${gloss(s)}`)]),
     '',
-    '## Kept apart: same lemma, different meaning, article or part of speech',
+    '## Kept apart: same lemma, different meaning or part of speech',
     '',
-    ...apart.flatMap(([key, words]) => [`- ${key}`, ...words.map(word => `  - \`${word.id}\` ${bySource.get(word.sources[0]).de}: ${word.sources.map(gloss).join('; ')}`)]),
+    ...apart.flatMap(([key, words]) => [`- ${key}`, ...words.map(word => `  - \`${word.id}\` ${bySource.get(word.sources[0]).lemma}: ${word.sources.map(gloss).join('; ')}`)]),
     '',
   ].join('\n');
 }

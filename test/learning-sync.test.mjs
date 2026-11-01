@@ -51,7 +51,7 @@ const now=()=>new Date().toISOString();
 const ingest=(userId,items,s=store)=>ingestLearningEvents({core,store:s,userId,items,now});
 let counter=0;
 const minutesAgo=m=>new Date(Math.floor(Date.now()/1000)*1000-m*60000).toISOString();
-function task(word,exerciseId='german-type',taskId=`task-${++counter}`) {
+function task(word,exerciseId='target-type',taskId=`task-${++counter}`) {
   return registry.get(exerciseId).buildTask(word,{answerLanguage:'ru',seed:`seed-${counter}`,taskId});
 }
 function answer(t,rawAnswer,over={}) {
@@ -136,7 +136,7 @@ describe('S1: server event intake and transactional projection',()=>{
   });
 
   test('concurrent revisions of one word are retried and keep both answers',async()=>{
-    const t1=task(noun,'german-type');const t2=task(noun,'article-choice');
+    const t1=task(noun,'target-type');const t2=task(noun,'article-choice');
     const e1=answer(t1,noun.lemma,{intent:'practice'});const e2=answer(t2,noun.article,{intent:'practice'});
     let interleaved=false;let commits=0;
     // The other device commits after this request read the journal but before it commits.

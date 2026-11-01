@@ -12,7 +12,7 @@ function catalog(n = 35) {
     schemaVersion: 1, contentVersion: 1, id: 'w' + String(i).padStart(2, '0'),
     lemma: 'Wort' + i, partOfSpeech: 'noun', article: 'der', senseId: 'sense-' + i,
     meanings: { ru: { preferred: 'слово-' + i, accepted: [] }, en: { preferred: 'word-' + i, accepted: [] } },
-    acceptedGermanForms: [], tags: [i % 2 ? 'odd' : 'even', 'common'], examples: [],
+    acceptedForms: [], tags: [i % 2 ? 'odd' : 'even', 'common'], examples: [],
   }));
 }
 function progress(word, components = applicableComponents(word), time = before) {
@@ -24,10 +24,10 @@ function input(patch = {}) {
   const words = patch.words ?? catalog();
   return { owner, sessionId: 'session', seed: 'fixed', catalogVersion: 'catalog/1', dataEpoch: 'v2',
     studyTimezone: 'Europe/Berlin', at, words, progress: [], deck: { id: 'deck', title: 'test', wordIds: words.map(w => w.id) },
-    request: { deckId: 'deck', intent: 'review-due', format: 'single', exerciseId: 'german-type', answerLanguage: 'ru' }, ...patch };
+    request: { deckId: 'deck', intent: 'review-due', format: 'single', exerciseId: 'target-type', answerLanguage: 'ru' }, ...patch };
 }
 function ready(i) { const result = planVocabularySession(i); assert.equal(result.kind, 'ready'); return result.plan; }
-function request(patch = {}) { return { deckId: 'deck', intent: 'review-due', format: 'single', exerciseId: 'german-type', answerLanguage: 'ru', ...patch }; }
+function request(patch = {}) { return { deckId: 'deck', intent: 'review-due', format: 'single', exerciseId: 'target-type', answerLanguage: 'ru', ...patch }; }
 function circuit(intent = 'review-due', scope = 'all-exercises') {
   return { deckId: 'deck', intent, format: 'circuit', circuitScope: scope, answerLanguage: 'ru' };
 }
@@ -38,14 +38,14 @@ test('seven due words remain seven, never padded by new words or duplicated for 
   const plan = ready(i);
   assert.deepEqual(plan.batch, { capacity: 20, wordIds: i.words.slice(0, 7).map(w => w.id) });
   assert.equal(plan.tasks.length, 7);
-  assert.ok(plan.tasks.every(t => t.exerciseId === 'german-type'));
+  assert.ok(plan.tasks.every(t => t.exerciseId === 'target-type'));
   assert.equal(plan.plannerVersion, VOCABULARY_PLANNER_VERSION);
 });
 
 test('single only selects components assessed by its exercise, with no silent alternative exercise', () => {
   const i = input();
   i.progress = [progress(i.words[0], ['recall']), progress(i.words[1], ['recognition']), progress(i.words[2], ['article'])];
-  i.request = request({ exerciseId: 'german-choice' });
+  i.request = request({ exerciseId: 'target-choice' });
   assert.deepEqual(ready(i).batch.wordIds, [i.words[1].id]);
   i.request = request({ exerciseId: 'article-choice' });
   assert.deepEqual(ready(i).batch.wordIds, [i.words[2].id]);
@@ -75,7 +75,7 @@ test('newness is per word; introductions precede the fixed batch, never rerun se
   for (const exercise of new Set(plan.tasks.map(t => t.exerciseId))) {
     assert.deepEqual(plan.tasks.filter(t => t.exerciseId === exercise).map(t => t.target.wordId).sort(), [...plan.batch.wordIds].sort());
   }
-  i.request = request({ intent: 'learn-new', exerciseId: 'german-type' });
+  i.request = request({ intent: 'learn-new', exerciseId: 'target-type' });
   const single = ready(i);
   assert.equal(single.batch.capacity, 5);
   assert.equal(single.tasks.length, 10);
@@ -107,7 +107,7 @@ test('small pools return explicit unavailability; circuit skips inapplicable sta
   words[0] = { ...words[0], partOfSpeech: 'verb', article: undefined };
   i.request = circuit('learn-new');
   const plan = ready(i);
-  assert.deepEqual(plan.tasks.map(t => t.exerciseId), ['introduction', 'german-type', 'meaning-recall']);
+  assert.deepEqual(plan.tasks.map(t => t.exerciseId), ['introduction', 'target-type', 'meaning-recall']);
   const skipped = planVocabularySession(i).omissions;
   assert.ok(skipped.some(s => s.exerciseId === 'article-choice' && s.reason === 'article-not-applicable'));
   assert.ok(skipped.some(s => s.exerciseId === 'meaning-choice' && s.reason === 'insufficient-options'));
@@ -120,7 +120,7 @@ test('due-components circuit only builds exercises assessing due components, inc
   const plan = ready(i);
   assert.equal(plan.batch.wordIds.length, 2);
   assert.deepEqual(plan.tasks.filter(t => t.target.wordId === words[0].id).map(t => t.exerciseId), ['article-choice']);
-  assert.deepEqual(plan.tasks.filter(t => t.target.wordId === words[1].id).map(t => t.exerciseId), ['german-with-article-type', 'german-type']);
+  assert.deepEqual(plan.tasks.filter(t => t.target.wordId === words[1].id).map(t => t.exerciseId), ['target-with-article-type', 'target-type']);
 });
 
 test('single article review works without translation while new words require a real introduction', () => {

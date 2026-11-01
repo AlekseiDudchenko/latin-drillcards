@@ -10,9 +10,9 @@ export function wordTaskCard(registry: WordExerciseRegistry, source: Task): Card
   const spec = task.specification;
   const input = task.exerciseId === 'introduction' ? { kind: 'introduction' as const }
     : task.input === 'choice' ? { kind: 'choice' as const, answerLang: spec.answer.lang, options: spec.options.map(option => ({ id: option.id, label: option.label })) }
-      : task.input === 'text' ? { kind: 'text' as const, answerLang: 'de' }
+      : task.input === 'text' ? { kind: 'text' as const, answerLang: 'la' }
       : { kind: 'reveal' as const, answer: spec.answer.text, answerLang: spec.answer.lang };
-  const titleKey = task.exerciseId === 'german-type' ? 'wordTypeTitle' : task.exerciseId === 'german-with-article-type' ? 'wordArticleTypeTitle' : task.exerciseId === 'article-choice' ? 'articleTitle' : undefined;
+  const titleKey = task.exerciseId === 'target-type' ? 'wordTypeTitle' : task.exerciseId === 'target-with-article-type' ? 'wordArticleTypeTitle' : task.exerciseId === 'article-choice' ? 'articleTitle' : undefined;
   const title = titleKey ? Object.fromEntries((['en', 'ru', 'de'] as const).map(lang => [lang, cardUiTranslations(lang)[titleKey]])) as Record<Lang, string> : undefined;
   return { ...(title ? { title } : {}), id: task.id, prompt: spec.prompt, input, word, translationLanguage: spec.answerLanguage,
     speechText: [word.article, word.lemma].filter(Boolean).join(' '),
@@ -35,7 +35,7 @@ export function wordExerciseUnavailable(reason: UnavailableReason, language: Lan
 /** The shell displays this text only after the Runner accepts the answer. */
 export function wordTaskFeedback(task: WordExerciseTask, evaluation: Evaluation, language: Lang): NonNullable<CardPresentation['feedback']> {
   const kind = evaluation.outcome === 'unobserved' ? 'info' : evaluation.outcome;
-  if (!['german-type', 'german-with-article-type', 'article-choice'].includes(task.exerciseId)) return { kind };
+  if (!['target-type', 'target-with-article-type', 'article-choice'].includes(task.exerciseId)) return { kind };
   const labels = cardUiTranslations(language);
   const names = { recall: labels.recallComponent, spelling: labels.spellingComponent, article: labels.articleComponent };
   const components = (['recall', 'spelling', 'article'] as const).flatMap(component => {

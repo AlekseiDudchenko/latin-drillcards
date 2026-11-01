@@ -6,8 +6,8 @@ import { selectItems, sentenceContent, summarizeExercise, type ExerciseProgressR
 export const SENTENCE_EXERCISE = 'sentence-assembly';
 export const SENTENCE_DATASET = 'sentences';
 /** v1 "all" covers the CEFR decks; the themed decks are chosen explicitly. */
-export const CEFR_DECKS = Object.freeze(['a1', 'a2', 'b1', 'b2', 'c1', 'c2']);
-export const SENTENCE_DECKS = Object.freeze([...CEFR_DECKS, 'beruf', 'arch']);
+export const LEVEL_DECKS = Object.freeze(['basic']);
+export const SENTENCE_DECKS = LEVEL_DECKS;
 export interface SentenceFilter { readonly deck: string; readonly tag?: string }
 
 const content = (item: LearningItem): SentenceContent => sentenceContent(item.content)!;
@@ -22,7 +22,7 @@ export function filterHash(filter: SentenceFilter): string {
   return `#${params.toString()}`;
 }
 export function inDeck(item: LearningItem, deck: string): boolean {
-  return deck === 'all' ? CEFR_DECKS.includes(content(item).deck) : content(item).deck === deck;
+  return deck === 'all' ? LEVEL_DECKS.includes(content(item).deck) : content(item).deck === deck;
 }
 export function tagsOf(dataset: ItemDataset, deck: string): string[] {
   return [...new Set(dataset.items.filter(item => inDeck(item, deck)).flatMap(item => content(item).tags))].sort();

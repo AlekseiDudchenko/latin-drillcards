@@ -15,11 +15,11 @@ for (const kind of ['regular', 'cloze'] as const) {
       if (kind === 'regular') {
         const path = '/v2/card-shell.js'; const { createCardShell } = await import(path);
         createCardShell(host, { id: 'regular', prompt: { text: 'Translate', lang: 'en' },
-          input: { kind: 'text', answerLang: 'de' }, translationLanguage: 'en' },
+          input: { kind: 'text', answerLang: 'la' }, translationLanguage: 'en' },
         { language: 'en', permissions: { reveal: false, details: false, speech: false } }, actions);
       } else {
         const path = '/v2/cloze-input.js'; const { createClozeCard } = await import(path);
-        createClozeCard(host, { id: 'cloze', answerLang: 'de', segments: [{ kind: 'slot', slotId: 'a' }],
+        createClozeCard(host, { id: 'cloze', answerLang: 'la', segments: [{ kind: 'slot', slotId: 'a' }],
           slots: [{ slotId: 'a', input: 'text' }] }, { language: 'en' }, actions);
       }
     }, kind);

@@ -60,16 +60,16 @@ async function answer(page:Page,server:Awaited<ReturnType<typeof backend>>):Prom
     const { LearningDatabase }=await import(modules.store);
     const core=await import(modules.core);
     const word={schemaVersion:1,contentVersion:1,id:'table',lemma:'Tisch',article:'der',partOfSpeech:'noun',senseId:'table',
-      meanings:{ru:{preferred:'стол',accepted:[]}},acceptedGermanForms:[],tags:[],examples:[]};
+      meanings:{ru:{preferred:'стол',accepted:[]}},acceptedForms:[],tags:[],examples:[]};
     const id=crypto.randomUUID();const at=new Date(Math.floor(Date.now()/1000)*1000-60000).toISOString();
-    const task=core.createWordExerciseRegistry([word],'catalog/1').get('german-type').buildTask(word,{taskId:'task-'+id,seed:'seed',answerLanguage:'ru'});
+    const task=core.createWordExerciseRegistry([word],'catalog/1').get('target-type').buildTask(word,{taskId:'task-'+id,seed:'seed',answerLanguage:'ru'});
     const owner={kind:'account',id:'account-A'};
     const state={status:'ready',revision:0,taskIndex:0,plan:{schemaVersion:1,sessionId:'session-'+id,owner,dataEpoch:epoch.dataEpoch,
       createdAt:at,studyTimezone:'UTC',seed:'seed',policyVersion:core.EVIDENCE_POLICY_VERSION,tasks:[task]}};
     const db=await LearningDatabase.open(indexedDB,name);const scope=await db.scope(owner,epoch);
     await scope.startSession({catalogVersion:'catalog/1',words:[word],state});
     const event={schemaVersion:1,kind:'answer',eventId:'event-'+id,commandId:'command-'+id,attemptId:'attempt-'+id,sessionId:'session-'+id,
-      taskId:task.id,target:task.target,exerciseId:'german-type',intent:'learn-new',answerLanguage:'ru',occurredAt:at,studyTimezone:'UTC',
+      taskId:task.id,target:task.target,exerciseId:'target-type',intent:'learn-new',answerLanguage:'ru',occurredAt:at,studyTimezone:'UTC',
       taskVersion:task.taskVersion,contentVersion:1,policyVersion:core.EVIDENCE_POLICY_VERSION,dataEpoch:epoch.dataEpoch,
       rawAnswer:'Tisch',assisted:false,exposure:[]};
     await scope.commit({owner,dataEpoch:epoch.dataEpoch,event,receivedAt:new Date().toISOString(),

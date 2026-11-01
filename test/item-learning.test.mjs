@@ -97,7 +97,7 @@ describe('G3: shared item contracts in the core',()=>{
     assert.throws(()=>core.replayWord(tisch,records,replay),/Invalid word event/);
     assert.equal(core.projectExerciseProgress(records,replay).items.length,1);
     const words=core.createWordExerciseRegistry(seed.words,seed.catalogVersion);
-    const wt=words.get('german-type').buildTask(tisch,ctx('m2'));
+    const wt=words.get('target-type').buildTask(tisch,ctx('m2'));
     const e={...answer(wt,tisch.lemma),target:wt.target,intent:'assessment',policyVersion:'evidence/1',taskVersion:wt.taskVersion,contentVersion:wt.contentVersion};
     const progress=core.replayWord(tisch,[{owner,event:e,receivedAt:e.occurredAt,evaluation:core.evaluateWordAnswer(words,wt,e)}],replay).progress;
     assert.equal(progress.introducedAt,null);

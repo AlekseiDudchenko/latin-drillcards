@@ -9,7 +9,7 @@ const catalog: Word[] = [
   ['fenster', 'Fenster', 'das', 'окно', 'window'], ['tuer', 'Tür', 'die', 'дверь', 'door'],
 ].map(([id, lemma, article, ru, en]) => ({ schemaVersion: 1, contentVersion: 1, id, lemma, article: article as Word['article'],
   partOfSpeech: 'noun', senseId: 'preview', meanings: { ru: { preferred: ru, accepted: [ru] }, en: { preferred: en, accepted: [en] } },
-  acceptedGermanForms: [lemma], tags: ['home'], examples: [] }));
+  acceptedForms: [lemma], tags: ['home'], examples: [] }));
 const registry = createWordExerciseRegistry(catalog, 'preview/1');
 let task: WordExerciseTask;
 let card: ReturnType<typeof createCardShell> | undefined;

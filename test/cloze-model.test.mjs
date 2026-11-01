@@ -7,7 +7,7 @@ import { parseClozeTemplate, validateClozeDefinition, emptyClozeState, validateC
 const bank = ['wird', 'wurde', 'ist', 'war', 'worden', 'werden'].map(label => ({ id: label, label }));
 function cloze(template, input = 'text', id = 'task', options = bank) {
   const { segments, slotIds } = parseClozeTemplate(template);
-  return validateClozeDefinition({ id, answerLang: 'de', segments,
+  return validateClozeDefinition({ id, answerLang: 'la', segments,
     slots: slotIds.map(slotId => input === 'choice' ? { slotId, input, options } : { slotId, input }) });
 }
 const keyOf = answers => ({ accepted: Object.fromEntries(answers.map((accepted, index) => [`slot-${index + 1}`, accepted])) });
@@ -23,17 +23,17 @@ test('templates produce stable positional slot IDs and keep surrounding text', (
 });
 
 test('definitions are copied and validated: unique slots, each placed once in order, usable options', () => {
-  const source = { id: 't', answerLang: 'de', segments: [{ kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'choice', options: bank }] };
+  const source = { id: 't', answerLang: 'la', segments: [{ kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'choice', options: bank }] };
   const copy = validateClozeDefinition(source);
   source.slots[0].options = [];
   assert.equal(copy.slots[0].options.length, 6);
   const bad = [
-    { id: 't', answerLang: 'de', segments: [], slots: [] },
-    { id: 't', answerLang: 'de', segments: [{ kind: 'slot', slotId: 'a' }, { kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'text' }, { slotId: 'a', input: 'text' }] },
-    { id: 't', answerLang: 'de', segments: [{ kind: 'slot', slotId: 'b' }, { kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'text' }, { slotId: 'b', input: 'text' }] },
-    { id: 't', answerLang: 'de', segments: [], slots: [{ slotId: 'a', input: 'text' }] },
-    { id: 't', answerLang: 'de', segments: [{ kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'choice', options: [] }] },
-    { id: 't', answerLang: 'de', segments: [{ kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'choice', options: [{ id: 'x', label: 'x' }, { id: 'x', label: 'y' }] }] },
+    { id: 't', answerLang: 'la', segments: [], slots: [] },
+    { id: 't', answerLang: 'la', segments: [{ kind: 'slot', slotId: 'a' }, { kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'text' }, { slotId: 'a', input: 'text' }] },
+    { id: 't', answerLang: 'la', segments: [{ kind: 'slot', slotId: 'b' }, { kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'text' }, { slotId: 'b', input: 'text' }] },
+    { id: 't', answerLang: 'la', segments: [], slots: [{ slotId: 'a', input: 'text' }] },
+    { id: 't', answerLang: 'la', segments: [{ kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'choice', options: [] }] },
+    { id: 't', answerLang: 'la', segments: [{ kind: 'slot', slotId: 'a' }], slots: [{ slotId: 'a', input: 'choice', options: [{ id: 'x', label: 'x' }, { id: 'x', label: 'y' }] }] },
   ];
   for (const definition of bad) assert.throws(() => validateClozeDefinition(definition), RangeError);
 });

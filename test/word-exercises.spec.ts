@@ -17,7 +17,7 @@ test('meaning-choice uses the real evaluator, preserves options and does not rev
 
 test('reverse choice checks stable word IDs and gates German audio until feedback', async ({ page }) => {
   await page.goto('/v2/word-exercises-demo.html');
-  await page.locator('#exercise').selectOption('german-choice');
+  await page.locator('#exercise').selectOption('target-choice');
   await expect(page.locator('.dc-prompt')).toHaveText('стол');
   await expect(page.locator('.dc-word-speech:enabled')).toHaveCount(0);
   await page.getByRole('radio', { name: 'der Stuhl', exact: true }).check();
@@ -56,7 +56,7 @@ test('introduction reuses WordDetails with no right/wrong answer or self-rating'
 
 test('typed German preserves the draft across locales and separates recall from spelling', async ({ page }) => {
   await page.goto('/v2/word-exercises-demo.html');
-  await page.locator('#exercise').selectOption('german-type');
+  await page.locator('#exercise').selectOption('target-type');
   await expect(page.locator('.dc-prompt')).toHaveText('стол');
   await expect(page.locator('.dc-word-speech:enabled')).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'О слове', exact: true })).toHaveCount(0);
@@ -77,7 +77,7 @@ test('typed German preserves the draft across locales and separates recall from 
 test('combined typing reports a wrong article without losing correct word and spelling', async ({ page }) => {
   await page.setViewportSize({ width: 360, height: 900 });
   await page.goto('/v2/word-exercises-demo.html');
-  await page.locator('#exercise').selectOption('german-with-article-type');
+  await page.locator('#exercise').selectOption('target-with-article-type');
   await page.getByRole('textbox').fill('die Tisch');
   await page.getByRole('button', { name: 'Проверить', exact: true }).click();
   await expect(page.locator('.dc-status')).toContainText('Знание слова: Правильно');
@@ -102,7 +102,7 @@ test('article choice shows a bare noun and article IDs while audio remains gated
 
 test('a wrong lexical answer does not show success for spelling or article', async ({ page }) => {
   await page.goto('/v2/word-exercises-demo.html');
-  await page.locator('#exercise').selectOption('german-with-article-type');
+  await page.locator('#exercise').selectOption('target-with-article-type');
   await page.getByRole('textbox').fill('der Stuhl');
   await page.getByRole('textbox').press('Enter');
   await expect(page.locator('.dc-status')).toContainText('Знание слова: Не совсем');

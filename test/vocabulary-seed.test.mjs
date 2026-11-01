@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { assertDecks, assertPublishedWord, createWordExerciseRegistry } from '../packages/vocabulary-core/dist/index.js';
 import { IDENTITIES_PATH, REPORT_PATH, assignIdentities, buildSeed, duplicateReport, loadSources,
   normalizeEntry, sameSense } from '../scripts/vocabulary-seed.mjs';
-import { evaluateGermanProduction } from '../packages/vocabulary-core/dist/index.js';
+import { evaluateTargetProduction } from '../packages/vocabulary-core/dist/index.js';
 
 const identities = JSON.parse(readFileSync(IDENTITIES_PATH, 'utf8'));
 const sources = loadSources();
@@ -145,8 +145,8 @@ test('new entries join hand-decided words and use their part of speech', () => {
 
 test('a disambiguated lemma accepts the bare typed form and the report groups same lemmas', () => {
   const sie = seed.words.find(w => w.id === 'w-sie-singular');
-  assert.deepEqual([sie.lemma, sie.acceptedGermanForms], ['sie (Singular)', ['sie']]);
-  assert.equal(evaluateGermanProduction(sie, 'sie', false, seed.words).components.recall, 'correct');
+  assert.deepEqual([sie.lemma, sie.acceptedForms], ['sie (Singular)', ['sie']]);
+  assert.equal(evaluateTargetProduction(sie, 'sie', false, seed.words).components.recall, 'correct');
   const report = readFileSync(REPORT_PATH, 'utf8');
   assert.match(report, /- morgen\n  - `w-morgen` der Morgen[^\n]*\n  - `w-morgen-2` morgen/);
   assert.match(report, /- sie\n(  - .*\n){3}/);

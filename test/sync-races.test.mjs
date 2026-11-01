@@ -15,14 +15,14 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
 
   test('a new item and a new answer to the item being sent stay pending after the old batch is acknowledged',async()=>{
     const net=network(server);const device=new Device({kind:'account',id:A});const timers=[];
-    const first=device.answer(noun,'german-type',noun.lemma,minutesAgo(50));
+    const first=device.answer(noun,'target-type',noun.lemma,minutesAgo(50));
     const held=net.hold('push'); // the old batch's ACK is late
     const sync=service(device,net,{timers});
     const pass=sync.sync();
     await held.arrived; // the server has committed the old batch, its response is still on the way
     net.fail('push','503'); // ...and the next push (the new answers) fails
     const sameItem=device.answer(noun,'article-choice',noun.article,minutesAgo(49));
-    const newItem=device.answer(verb,'german-type',verb.lemma,minutesAgo(48));
+    const newItem=device.answer(verb,'target-type',verb.lemma,minutesAgo(48));
     held.release();await pass;
     assert.deepEqual(device.data.outbox,ids([sameItem,newItem]),'only the acknowledged event left the outbox');
     assert.equal(device.data.facts.length,3,'local history is complete');
@@ -37,7 +37,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
 
   test('a partial ACK clears only confirmed events; a failing pull afterwards keeps all local history',async()=>{
     const net=network(server);const device=new Device({kind:'account',id:B});const timers=[];
-    const events=[device.answer(other,'german-type',other.lemma,minutesAgo(40)),
+    const events=[device.answer(other,'target-type',other.lemma,minutesAgo(40)),
       device.answer(other,'article-choice',other.article,minutesAgo(39)),device.answer(verb,'meaning-recall','forgotten',minutesAgo(38))];
     net.fail('push','truncate');
     const sync=service(device,net,{timers});
@@ -57,7 +57,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
   test('an owner switch during an in-flight request stops the queue; the late ACK touches only the original owner',async()=>{
     const net=network(server);let signedIn=A;
     const device=new Device({kind:'account',id:A});const timers=[];
-    const sent=device.answer(noun,'german-type',noun.lemma,minutesAgo(30));const queued=device.answer(verb,'german-type',verb.lemma,minutesAgo(29));
+    const sent=device.answer(noun,'target-type',noun.lemma,minutesAgo(30));const queued=device.answer(verb,'target-type',verb.lemma,minutesAgo(29));
     const held=net.hold('push');
     const sync=service(device,net,{user:()=>signedIn,timers,batchSize:1});
     const pass=sync.sync();await held.arrived;
@@ -71,7 +71,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
 
   test('an epoch reset during a send stops the service instead of writing or retrying into the retired scope',async()=>{
     const net=network(server);const device=new Device({kind:'account',id:A});const timers=[];
-    device.answer(noun,'german-type',noun.lemma,minutesAgo(25));
+    device.answer(noun,'target-type',noun.lemma,minutesAgo(25));
     const held=net.hold('push');
     const sync=service(device,net,{timers});
     const pass=sync.sync();await held.arrived;
@@ -85,7 +85,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
 
   test('two tabs sharing one outbox send each answer once under the per-owner lock',async()=>{
     const net=network(server);const device=new Device({kind:'account',id:B});const lock=mutex();
-    const events=[device.answer(noun,'german-type',noun.lemma,minutesAgo(20)),device.answer(verb,'german-type',verb.lemma,minutesAgo(19))];
+    const events=[device.answer(noun,'target-type',noun.lemma,minutesAgo(20)),device.answer(verb,'target-type',verb.lemma,minutesAgo(19))];
     const held=net.hold('push');
     const tabs=[service(device,net,{lock}),service(device,net,{lock})];
     const passes=tabs.map(tab=>tab.sync());
@@ -94,7 +94,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
     assert.equal(net.pushes().length,1);
     assert.ok(tabs.every(tab=>tab.status.pending===0 && tab.status.phase==='idle'));
     // Without coordination both tabs would send the same events (safe through S1, but twice).
-    const loose=network(server);const again=device.answer(other,'german-type',other.lemma,minutesAgo(18));
+    const loose=network(server);const again=device.answer(other,'target-type',other.lemma,minutesAgo(18));
     const hold=loose.hold('push');const both=[service(device,loose),service(device,loose)].map(tab=>tab.sync());
     await hold.arrived;await new Promise(r=>setTimeout(r,20));hold.release();await Promise.all(both);
     assert.equal(loose.pushes().filter(p=>p.eventIds?.includes(again.eventId)).length,2);
@@ -103,10 +103,10 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
   test('a server record that conflicts with a local event is set aside; sync continues and progress follows the server',async()=>{
     const net=network(server);
     const phone=new Device({kind:'account',id:A});const laptop=new Device({kind:'account',id:A});
-    const local=phone.answer(other,'german-type','Falsch',minutesAgo(15));
+    const local=phone.answer(other,'target-type','Falsch',minutesAgo(15));
     const sameCommand=phone.answer(other,'article-choice',other.article,minutesAgo(14));
     // Another device already stored different events under the same eventId / commandId (e.g. a restored backup).
-    laptop.answer(other,'german-type',other.lemma,minutesAgo(15),{patch:{eventId:local.eventId}});
+    laptop.answer(other,'target-type',other.lemma,minutesAgo(15),{patch:{eventId:local.eventId}});
     laptop.answer(other,'article-choice',other.article,minutesAgo(13),{patch:{commandId:sameCommand.commandId}});
     await service(laptop,net).sync();
     const statuses=[];const sync=service(phone,net,{statuses});
@@ -126,7 +126,7 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
     const sync=service(tablet,net,{timers,idleSyncMs:60_000});
     await sync.sync();
     assert.deepEqual(timers.map(t=>t.ms),[60_000]);
-    const elsewhere=desktop.answer(verb,'german-type',verb.lemma,minutesAgo(10));
+    const elsewhere=desktop.answer(verb,'target-type',verb.lemma,minutesAgo(10));
     await service(desktop,net).sync();
     timers.shift().run();await sync.sync();
     assert.ok(tablet.data.facts.some(f=>f.event.eventId===elsewhere.eventId));
@@ -136,8 +136,8 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
 
   test('server-refused answers stay in local history but not in local progress, as on the server',async()=>{
     const net=network(server);const device=new Device({kind:'account',id:B});
-    const accepted=device.answer(noun,'german-type',noun.lemma,minutesAgo(9));
-    const refused=device.answer(noun,'german-type','Falsch',minutesAgo(8),{catalogVersion:'not-on-server'});
+    const accepted=device.answer(noun,'target-type',noun.lemma,minutesAgo(9));
+    const refused=device.answer(noun,'target-type','Falsch',minutesAgo(8),{catalogVersion:'not-on-server'});
     const before=localProgress(device,noun.id);
     const sync=service(device,net);await sync.sync();
     assert.deepEqual(device.data.sync.rejected,[{eventId:refused.eventId,reason:'unknown-catalog'}]);
@@ -149,9 +149,9 @@ describe('S3: acknowledgement races, owner/epoch changes and recovery',()=>{
 
   test('local replay uses the word revision its facts were answered on, the same rule as the server',async()=>{
     const device=new Device({kind:'account',id:A});
-    device.answer(noun,'german-type',noun.lemma,minutesAgo(5));
+    device.answer(noun,'target-type',noun.lemma,minutesAgo(5));
     // A later catalog revision drops the article: the newest-known rule would drop the article component.
-    const revised={...noun,contentVersion:noun.contentVersion+1,acceptedGermanForms:[noun.lemma]};delete revised.article;
+    const revised={...noun,contentVersion:noun.contentVersion+1,acceptedForms:[noun.lemma]};delete revised.article;
     const merged=mergeRemoteInPartition(device.data,[],[revised],new Date().toISOString());
     assert.ok('article' in merged.projections.find(p=>p.progress.wordId===noun.id).progress.components);
     assert.ok(merged.sync.words.some(w=>w.contentVersion===revised.contentVersion));

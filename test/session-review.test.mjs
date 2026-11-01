@@ -8,7 +8,7 @@ const at = '2026-10-23T12:00:00.000Z';
 const owner = { kind: 'account', id: 'A' };
 const words = Array.from({ length: 8 }, (_, i) => ({ schemaVersion: 1, contentVersion: 1, id: 'w' + i, lemma: 'Wort' + i,
   partOfSpeech: 'noun', article: ['der', 'die', 'das'][i % 3], senseId: 's' + i,
-  meanings: { ru: { preferred: 'слово-' + i, accepted: [] } }, acceptedGermanForms: [], tags: [], examples: [] }));
+  meanings: { ru: { preferred: 'слово-' + i, accepted: [] } }, acceptedForms: [], tags: [], examples: [] }));
 const registry = createWordExerciseRegistry(words, 'catalog/1');
 function plan(request, progress = []) {
   const result = planVocabularySession({ owner, sessionId: 's1', seed: 'seed', catalogVersion: 'catalog/1', dataEpoch: 'v2',
@@ -44,7 +44,7 @@ test('a circuit keeps its five words through every applicable stage; corrections
   assert.equal(p.batch.wordIds.length, 5);
   assert.equal(p.tasks.length, 5 * 7, 'introduction plus six exercises per noun');
   const [first, second] = p.batch.wordIds;
-  const failed = task => task.exerciseId === 'german-type' && task.target.wordId === first ||
+  const failed = task => task.exerciseId === 'target-type' && task.target.wordId === first ||
     task.exerciseId === 'article-choice' && task.target.wordId === second;
   const facts = play(p, failed);
   const corrections = buildCorrectionTasks(p, registry, facts);
@@ -59,21 +59,21 @@ test('a circuit keeps its five words through every applicable stage; corrections
   const state = { plan: p, status: 'presenting', taskIndex: p.tasks.length, revision: 1, corrections };
   assert.equal(sessionTasks(state).length, 37);
   assert.deepEqual(buildCorrectionTasks(p, registry, play(p)), [], 'no mistakes, no round');
-  const single = plan({ intent: 'learn-new', format: 'single', exerciseId: 'german-type' });
+  const single = plan({ intent: 'learn-new', format: 'single', exerciseId: 'target-type' });
   assert.deepEqual(buildCorrectionTasks(single, registry, play(single, () => true)), [], 'single has no round');
 });
 
 test('summary shows components and mistakes; a later correct answer marks the mistake corrected', () => {
   const p = plan({ intent: 'learn-new', format: 'circuit', circuitScope: 'all-exercises' });
   const target = p.batch.wordIds[2];
-  const facts = play(p, task => task.target.wordId === target && task.exerciseId === 'german-choice');
+  const facts = play(p, task => task.target.wordId === target && task.exerciseId === 'target-choice');
   const [correction] = buildCorrectionTasks(p, registry, facts);
   const state = { plan: p, status: 'completed', taskIndex: 36, revision: 99, corrections: [correction] };
   const before = summarizeVocabularySession({ ...state, status: 'presenting', taskIndex: 35 }, registry, facts);
   const word = before.words.find(w => w.wordId === target);
   assert.equal(word.mistakes.length, 1);
   assert.equal(word.mistakes[0].corrected, false);
-  assert.equal(word.mistakes[0].expected, registry.validateTask(p.tasks.find(t => t.target.wordId === target && t.exerciseId === 'german-choice')).specification.answer.text);
+  assert.equal(word.mistakes[0].expected, registry.validateTask(p.tasks.find(t => t.target.wordId === target && t.exerciseId === 'target-choice')).specification.answer.text);
   // Component level: the later meaning-recall stage already confirmed recognition after the error.
   assert.equal(word.components.find(c => c.component === 'recognition').result, 'corrected');
   const after = summarizeVocabularySession(state, registry, [...facts, fact(p, registry.validateTask(correction), 'answer', right(correction))]);
@@ -99,7 +99,7 @@ test('review circuit: each word starts with its own diagnostic; later stages are
     const summary = summarizeVocabularySession({ plan: p, status: 'completed', taskIndex: p.tasks.length, revision: 1 }, registry, play(p));
     for (const word of summary.words) {
       const diagnostic = p.tasks.find(t => t.target.wordId === word.wordId);
-      const assessed = { 'german-with-article-type': ['recall', 'spelling', 'article'], 'meaning-choice': ['recognition'] }[diagnostic.exerciseId];
+      const assessed = { 'target-with-article-type': ['recall', 'spelling', 'article'], 'meaning-choice': ['recognition'] }[diagnostic.exerciseId];
       assert.ok(assessed, diagnostic.exerciseId);
       for (const c of word.components) assert.equal(c.first, assessed.includes(c.component) ? 'independent' : 'aided', `${scope} ${c.component}`);
     }
@@ -124,7 +124,7 @@ test('repeated review circuits alternate diagnostics, so no component stays due 
   const firsts = [];
   for (const [i, when] of ['2026-12-20T09:00:00.000Z', '2027-06-01T09:00:00.000Z', '2027-12-01T09:00:00.000Z', '2028-06-01T09:00:00.000Z'].entries())
     firsts.push(session('review-due', when, 'review-' + i).tasks[0].exerciseId);
-  assert.ok(firsts.includes('meaning-choice') && firsts.includes('german-with-article-type'), firsts.join());
+  assert.ok(firsts.includes('meaning-choice') && firsts.includes('target-with-article-type'), firsts.join());
   for (const p of progressAt('2028-06-02T09:00:00.000Z'))
     for (const [c, value] of Object.entries(p.components)) assert.ok(value.reviewCount >= 1, `${p.wordId} ${c} never reviewed`);
 });
@@ -144,10 +144,10 @@ test('a circuit skips stages a word cannot take and keeps the batch', () => {
   // Every stage is either planned for the verb or reported with its reason; article stages never apply.
   const planned = p.tasks.filter(t => t.target.wordId === 'verb').map(t => t.exerciseId);
   const skipped = Object.fromEntries(p.skippedExercises.filter(x => x.wordId === 'verb').map(x => [x.exerciseId, x.reason]));
-  for (const id of ['introduction', 'meaning-choice', 'german-choice', 'article-choice', 'german-type', 'german-with-article-type', 'meaning-recall'])
+  for (const id of ['introduction', 'meaning-choice', 'target-choice', 'article-choice', 'target-type', 'target-with-article-type', 'meaning-recall'])
     assert.ok(planned.includes(id) !== (id in skipped), id);
   assert.equal(skipped['article-choice'], 'article-not-applicable');
-  assert.equal(skipped['german-with-article-type'], 'article-not-applicable');
-  assert.ok(planned.includes('introduction') && planned.includes('german-type'));
+  assert.equal(skipped['target-with-article-type'], 'article-not-applicable');
+  assert.ok(planned.includes('introduction') && planned.includes('target-type'));
   assert.equal(p.tasks.length, 4 * 7 + planned.length);
 });

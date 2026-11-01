@@ -173,7 +173,7 @@ function render(): void {
   const active = runner!;
   const assisted = assistedSessions().includes(current.sessionId);
   card = createCardShell(host, { id: task.id, title: Object.fromEntries((['en', 'ru', 'de'] as const).map(lang => [lang, cardUiTranslations(lang).sentenceAssemblyTitle])) as Record<Lang, string>,
-    prompt: exercise.prompt, input: { kind: 'tokens', answerLang: 'de', tokens, autoSubmit: false }, translationLanguage: task.specification.answerLanguage,
+    prompt: exercise.prompt, input: { kind: 'tokens', answerLang: 'la', tokens, autoSubmit: false }, translationLanguage: task.specification.answerLanguage,
     speechText: exercise.target }, presentation, {
     async onSubmit(answer) {
       const result = await active.submit([...(answer.tokens ?? [])], { assisted });

@@ -39,10 +39,10 @@ CREATE TABLE catalog_private.word_revisions (
   lemma text NOT NULL CHECK (btrim(lemma) <> '' AND lemma=btrim(lemma) AND length(lemma) <= 500),
   part_of_speech text NOT NULL CHECK (part_of_speech IN ('noun','verb','adjective','adverb','other')),
   article text CHECK (article IN ('der','die','das')),
-  accepted_german_forms text[] NOT NULL DEFAULT '{}',
+  accepted_forms text[] NOT NULL DEFAULT '{}',
   tags text[] NOT NULL DEFAULT '{}',
   CHECK (article IS NULL OR part_of_speech = 'noun'),
-  CHECK (catalog_private.valid_text_array(accepted_german_forms)),
+  CHECK (catalog_private.valid_text_array(accepted_forms)),
   CHECK (catalog_private.valid_text_array(tags)),
   FOREIGN KEY (word_id,id,kind) REFERENCES catalog_private.content_revisions(word_id,id,kind),
   UNIQUE (word_id,id)
@@ -175,7 +175,7 @@ CREATE VIEW catalog_private.published_word_versions AS
 SELECT p.word_id, p.content_version,
   jsonb_build_object('schemaVersion',1,'id',w.id,'senseId',w.sense_id,
     'lemma',r.lemma,'partOfSpeech',r.part_of_speech,
-    'contentVersion',p.content_version,'acceptedGermanForms',to_jsonb(r.accepted_german_forms),
+    'contentVersion',p.content_version,'acceptedForms',to_jsonb(r.accepted_forms),
     'tags',to_jsonb(r.tags),'meanings',m.meanings,'examples',ex.examples)
     || CASE WHEN r.article IS NULL THEN '{}'::jsonb ELSE jsonb_build_object('article',r.article) END AS word
 FROM catalog_private.word_publications p
@@ -195,7 +195,7 @@ CROSS JOIN LATERAL (
   ) langs
 ) m
 CROSS JOIN LATERAL (
-  SELECT coalesce(jsonb_agg(jsonb_build_object('id',er.entity_id,'de',e.text,'translations',et.translations)
+  SELECT coalesce(jsonb_agg(jsonb_build_object('id',er.entity_id,'text',e.text,'translations',et.translations)
     ORDER BY ei.position),'[]'::jsonb) AS examples
   FROM catalog_private.publication_items ei
   JOIN catalog_private.examples e ON e.id=ei.revision_id
@@ -340,7 +340,7 @@ DECLARE model jsonb; BEGIN
     OR (SELECT count(*) FROM catalog_private.publication_items i
       WHERE i.word_id=NEW.word_id AND i.content_version=NEW.content_version AND i.kind='association')
       <> jsonb_array_length(model->'examples')
-    OR EXISTS (SELECT 1 FROM jsonb_array_elements(model->'examples') e GROUP BY e->>'de' HAVING count(*)>1)
+    OR EXISTS (SELECT 1 FROM jsonb_array_elements(model->'examples') e GROUP BY e->>'text' HAVING count(*)>1)
     OR EXISTS (SELECT 1 FROM catalog_private.publication_items i
       JOIN catalog_private.example_translations t ON t.id=i.revision_id
       WHERE i.word_id=NEW.word_id AND i.content_version=NEW.content_version

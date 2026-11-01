@@ -1,0 +1,278 @@
+[
+  {
+    "id": "w_basic_1",
+    "la": "rosa",
+    "pos": "noun",
+    "ru": "роза",
+    "en": "rose",
+    "exampleLa": "Rosa pulchra est.",
+    "exampleRu": "Роза прекрасна.",
+    "exampleEn": "The rose is beautiful.",
+    "tags": [
+      "1-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_2",
+    "la": "aqua",
+    "pos": "noun",
+    "ru": "вода",
+    "en": "water",
+    "exampleLa": "Aqua frigida est.",
+    "exampleRu": "Вода холодная.",
+    "exampleEn": "The water is cold.",
+    "tags": [
+      "1-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_3",
+    "la": "terra",
+    "pos": "noun",
+    "ru": "земля",
+    "en": "earth, land",
+    "exampleLa": "Terra magna est.",
+    "exampleRu": "Земля велика.",
+    "exampleEn": "The earth is large.",
+    "tags": [
+      "1-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_4",
+    "la": "via",
+    "pos": "noun",
+    "ru": "дорога",
+    "en": "road, way",
+    "exampleLa": "Via longa est.",
+    "exampleRu": "Дорога длинная.",
+    "exampleEn": "The road is long.",
+    "tags": [
+      "1-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_5",
+    "la": "puella",
+    "pos": "noun",
+    "ru": "девочка",
+    "en": "girl",
+    "exampleLa": "Puella in via ambulat.",
+    "exampleRu": "Девочка идёт по дороге.",
+    "exampleEn": "The girl walks on the road.",
+    "tags": [
+      "1-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_6",
+    "la": "puer",
+    "pos": "noun",
+    "ru": "мальчик",
+    "en": "boy",
+    "exampleLa": "Puer librum legit.",
+    "exampleRu": "Мальчик читает книгу.",
+    "exampleEn": "The boy reads a book.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_7",
+    "la": "dominus",
+    "pos": "noun",
+    "ru": "господин, хозяин",
+    "en": "master, lord",
+    "exampleLa": "Dominus servum vocat.",
+    "exampleRu": "Хозяин зовёт раба.",
+    "exampleEn": "The master calls the slave.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_8",
+    "la": "servus",
+    "pos": "noun",
+    "ru": "раб",
+    "en": "slave",
+    "exampleLa": "Servus dominum timet.",
+    "exampleRu": "Раб боится хозяина.",
+    "exampleEn": "The slave fears the master.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_9",
+    "la": "liber",
+    "pos": "noun",
+    "ru": "книга",
+    "en": "book",
+    "exampleLa": "Liber meus est.",
+    "exampleRu": "Это моя книга.",
+    "exampleEn": "The book is mine.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_10",
+    "la": "amicus",
+    "pos": "noun",
+    "ru": "друг",
+    "en": "friend",
+    "exampleLa": "Amicus meus bonus est.",
+    "exampleRu": "Мой друг хороший.",
+    "exampleEn": "My friend is good.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_11",
+    "la": "vir",
+    "pos": "noun",
+    "ru": "мужчина, муж",
+    "en": "man",
+    "exampleLa": "Vir fortis est.",
+    "exampleRu": "Мужчина храбр.",
+    "exampleEn": "The man is brave.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_12",
+    "la": "urbs",
+    "pos": "noun",
+    "ru": "город",
+    "en": "city",
+    "exampleLa": "Roma urbs magna est.",
+    "exampleRu": "Рим — большой город.",
+    "exampleEn": "Rome is a large city.",
+    "tags": [
+      "3-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_13",
+    "la": "rex",
+    "pos": "noun",
+    "ru": "царь, король",
+    "en": "king",
+    "exampleLa": "Rex populum regit.",
+    "exampleRu": "Царь правит народом.",
+    "exampleEn": "The king rules the people.",
+    "tags": [
+      "3-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_14",
+    "la": "populus",
+    "pos": "noun",
+    "ru": "народ",
+    "en": "people",
+    "exampleLa": "Populus Romanus fortis est.",
+    "exampleRu": "Римский народ храбр.",
+    "exampleEn": "The Roman people is brave.",
+    "tags": [
+      "2-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_15",
+    "la": "mater",
+    "pos": "noun",
+    "ru": "мать",
+    "en": "mother",
+    "exampleLa": "Mater filiam amat.",
+    "exampleRu": "Мать любит дочь.",
+    "exampleEn": "The mother loves her daughter.",
+    "tags": [
+      "3-skl",
+      "f"
+    ]
+  },
+  {
+    "id": "w_basic_16",
+    "la": "pater",
+    "pos": "noun",
+    "ru": "отец",
+    "en": "father",
+    "exampleLa": "Pater filium vocat.",
+    "exampleRu": "Отец зовёт сына.",
+    "exampleEn": "The father calls his son.",
+    "tags": [
+      "3-skl",
+      "m"
+    ]
+  },
+  {
+    "id": "w_basic_17",
+    "la": "bonus",
+    "pos": "adjective",
+    "ru": "хороший, добрый",
+    "en": "good",
+    "exampleLa": "Vir bonus est.",
+    "exampleRu": "Он хороший человек.",
+    "exampleEn": "He is a good man.",
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "id": "w_basic_18",
+    "la": "magnus",
+    "pos": "adjective",
+    "ru": "большой, великий",
+    "en": "large, great",
+    "exampleLa": "Magna urbs est.",
+    "exampleRu": "Это большой город.",
+    "exampleEn": "It is a large city.",
+    "tags": [
+      "adj"
+    ]
+  },
+  {
+    "id": "w_basic_19",
+    "la": "non",
+    "pos": "adverb",
+    "ru": "не",
+    "en": "not",
+    "exampleLa": "Non audio.",
+    "exampleRu": "Я не слышу.",
+    "exampleEn": "I do not hear.",
+    "tags": [
+      "adv"
+    ]
+  },
+  {
+    "id": "w_basic_20",
+    "la": "et",
+    "pos": "other",
+    "ru": "и",
+    "en": "and",
+    "exampleLa": "Pater et mater adsunt.",
+    "exampleRu": "Отец и мать здесь.",
+    "exampleEn": "The father and the mother are here.",
+    "tags": [
+      "konj"
+    ]
+  }
+]

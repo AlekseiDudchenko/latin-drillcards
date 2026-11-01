@@ -17,13 +17,13 @@ export function assertPublishedWord(word: Word): void {
     if (!meaning || !text(meaning.preferred) || !meaning.accepted.every(text) ||
         new Set([meaning.preferred, ...meaning.accepted]).size !== meaning.accepted.length + 1) fail('meaning');
   }
-  if (!word.acceptedGermanForms.every(text) || !word.tags.every(text) || new Set(word.tags).size !== word.tags.length) fail('forms/tags');
+  if (!word.acceptedForms.every(text) || !word.tags.every(text) || new Set(word.tags).size !== word.tags.length) fail('forms/tags');
   const ids = new Set<string>(); const sentences = new Set<string>();
   for (const example of word.examples) {
-    if (!text(example.id) || ids.has(example.id) || !text(example.de) || sentences.has(example.de)) fail('example identity/sentence');
+    if (!text(example.id) || ids.has(example.id) || !text(example.text) || sentences.has(example.text)) fail('example identity/sentence');
     const translations = Object.entries(example.translations);
     if (!translations.length || !translations.every(([lang, value]) => (lang === 'ru' || lang === 'en') && text(value))) fail('example translation');
-    ids.add(example.id); sentences.add(example.de);
+    ids.add(example.id); sentences.add(example.text);
   }
 }
 

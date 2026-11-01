@@ -24,7 +24,7 @@ async function openDeck(page: Page, deck = 'Zuhause') {
   await expect(page.getByRole('heading', { name: deck, exact: true })).toBeVisible();
 }
 // New words are always a circuit: five words, an introduction and then every exercise for each of them.
-const LEARNING_STAGES = ['meaning-choice', 'german-choice', 'article-choice', 'german-type', 'german-with-article-type', 'meaning-recall'];
+const LEARNING_STAGES = ['meaning-choice', 'target-choice', 'article-choice', 'target-type', 'target-with-article-type', 'meaning-recall'];
 const CIRCUIT_TASKS = 35;
 async function startLearning(page: Page) {
   await openDeck(page);
@@ -103,7 +103,7 @@ test('a failed save keeps the answer and can be retried without a second answer'
     };
   });
   await startLearning(page);
-  await reachExercise(page, 'german-type');
+  await reachExercise(page, 'target-type');
   const answered = (await storedAnswers(page)).answers;
   await page.getByLabel('Ваш ответ').fill('Fehler');
   await page.evaluate(() => { (window as unknown as { failNextPut: boolean }).failNextPut = true; });
@@ -140,7 +140,7 @@ async function storedAnswers(page: Page) {
 
 test('a submit that conflicts with another tab keeps the card answerable', async ({ page, context }) => {
   await startLearning(page);
-  const first = await reachExercise(page, 'german-type');
+  const first = await reachExercise(page, 'target-type');
   const answered = (await storedAnswers(page)).answers;
   const other = await context.newPage();
   await other.goto('/v2/session.html#session');
@@ -304,7 +304,7 @@ test('home, deck, session, summary and word card fit a phone screen without hori
   await page.goto('/v2/session.html');
   await expect(page.locator('#decks li')).toHaveCount(2); await fits();
   await startLearning(page); await fits();
-  await reachExercise(page, 'german-with-article-type');
+  await reachExercise(page, 'target-with-article-type');
   await expect(page.getByLabel('Ваш ответ')).toBeVisible(); await fits();
   await page.getByRole('button', { name: 'Завершить', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Итоги занятия' })).toBeVisible(); await fits();
@@ -361,7 +361,7 @@ test('disabled auto-speech also stays silent after a correct German answer', asy
   await stubSpeech(page);
   await page.addInitScript(() => localStorage.setItem('dc_v2_word_auto_speak', '0'));
   await startLearning(page);
-  await reachExercise(page, 'german-type');
+  await reachExercise(page, 'target-type');
   const prompt = (await page.locator('.dc-prompt').textContent())!.trim();
   const word = PREVIEW_WORDS.find(candidate => candidate.meanings.ru?.preferred === prompt)!;
   const toggle = page.getByRole('switch', { name: 'Озвучивать слова автоматически' });
@@ -417,7 +417,7 @@ test('from German the word is read when the question appears, not again on the f
 test('into German the word is read after a correct answer, on the feedback card', async ({ page }) => {
   await stubSpeech(page);
   await startLearning(page);
-  await reachExercise(page, 'german-type');
+  await reachExercise(page, 'target-type');
   await page.waitForTimeout(300);
   const before = await spokenWords(page);
   const prompt = (await page.locator('.dc-prompt').textContent())!.trim();
@@ -430,7 +430,7 @@ test('into German the word is read after a correct answer, on the feedback card'
 test('into German a wrong answer is not read', async ({ page }) => {
   await stubSpeech(page);
   await startLearning(page);
-  await reachExercise(page, 'german-type');
+  await reachExercise(page, 'target-type');
   await page.waitForTimeout(300);
   const before = await spokenWords(page);
   await page.getByLabel('Ваш ответ').fill('Fehlerhaft');

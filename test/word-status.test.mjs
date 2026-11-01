@@ -5,7 +5,7 @@ import { createWordProgress, initializeComponent, reviewComponent, applicableCom
 
 const owner = { kind: 'guest', id: 'G' };
 const noun = { schemaVersion: 1, contentVersion: 1, id: 'tisch', lemma: 'Tisch', article: 'der', partOfSpeech: 'noun', senseId: 'tisch',
-  meanings: { ru: { preferred: 'стол', accepted: [] } }, acceptedGermanForms: [], tags: [], examples: [] };
+  meanings: { ru: { preferred: 'стол', accepted: [] } }, acceptedForms: [], tags: [], examples: [] };
 const verb = { ...noun, id: 'gehen', lemma: 'gehen', article: undefined, partOfSpeech: 'verb', meanings: { ru: { preferred: 'идти', accepted: [] }, en: { preferred: 'go', accepted: [] } } };
 const day = n => new Date(Date.UTC(2026, 9, 1 + n, 12)).toISOString();
 
@@ -25,7 +25,7 @@ test('an unknown or never introduced word is new and every exercise starts at ze
     const status = describeWordStatus(noun, progress, 'ru');
     assert.equal(status.state, 'new');
     assert.deepEqual(status.exercises.map(item => item.exerciseId),
-      ['meaning-choice', 'german-choice', 'meaning-recall', 'german-type', 'article-choice', 'german-with-article-type']);
+      ['meaning-choice', 'target-choice', 'meaning-recall', 'target-type', 'article-choice', 'target-with-article-type']);
     assert.ok(status.exercises.every(item => item.available && item.reviews === 0 && !item.done && item.required === WORD_STATUS_POLICY.requiredReviews));
   }
 });
@@ -35,10 +35,10 @@ test('exercises report their weakest assessed component and are done only when a
   progress = initializeComponent(progress, noun, 'article', day(0));
   const status = describeWordStatus(noun, progress, 'ru');
   assert.equal(byExercise(status, 'meaning-choice').done, true);
-  assert.equal(byExercise(status, 'german-type').done, true);
+  assert.equal(byExercise(status, 'target-type').done, true);
   assert.equal(byExercise(status, 'article-choice').reviews, 0);
-  assert.equal(byExercise(status, 'german-with-article-type').reviews, 0);
-  assert.equal(byExercise(status, 'german-with-article-type').done, false);
+  assert.equal(byExercise(status, 'target-with-article-type').reviews, 0);
+  assert.equal(byExercise(status, 'target-with-article-type').done, false);
   assert.notEqual(status.state, 'learned');
 });
 
@@ -70,7 +70,7 @@ test('a word with a few reviews is still learning', () => {
 test('article exercises are unavailable without an article; a missing translation hides the others', () => {
   const status = describeWordStatus(verb, reviewed(verb, 4), 'ru');
   assert.equal(status.state, 'learned');
-  for (const id of ['article-choice', 'german-with-article-type']) {
+  for (const id of ['article-choice', 'target-with-article-type']) {
     assert.deepEqual([byExercise(status, id).available, byExercise(status, id).unavailableReason], [false, 'no-article']);
   }
   assert.equal(status.components.some(item => item.component === 'article'), false);

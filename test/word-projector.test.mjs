@@ -142,7 +142,7 @@ const deck = { id: 'deck-1', title: 'Test', wordIds: [word.id, words[1].id, word
 test('new queries preserve deck order, deduplicate membership and never treat a different exercise as newness', () => {
   const d = { ...deck, wordIds: [words[1].id, word.id, words[1].id] };
   assert.deepEqual(selectNewWords(d, query()).map(w => w.id), [words[1].id, word.id]);
-  assert.deepEqual(selectNewWords(d, query([started()], 'german-type')).map(w => w.id), [words[1].id]);
+  assert.deepEqual(selectNewWords(d, query([started()], 'target-type')).map(w => w.id), [words[1].id]);
   assert.equal(selectNewWords(d, query(), 1).length, 1);
   assert.equal(selectNewWords(d, query(), 0).length, 0);
   assert.equal(selectDueWords(d, query()).length, 0);
@@ -150,8 +150,8 @@ test('new queries preserve deck order, deduplicate membership and never treat a 
 
 test('due queries select started components actually assessed by the chosen exercise, without padding', () => {
   const recall = started(word, 'recall');
-  assert.equal(selectDueWords(deck, query([recall], 'german-choice')).length, 0);
-  const due = selectDueWords(deck, query([recall], 'german-type'));
+  assert.equal(selectDueWords(deck, query([recall], 'target-choice')).length, 0);
+  const due = selectDueWords(deck, query([recall], 'target-type'));
   assert.equal(due.length, 1);
   assert.deepEqual(due[0].dueComponents, ['recall']);
   assert.equal(due[0].dueAt, recall.components.recall.dueAt);
@@ -173,7 +173,7 @@ test('due queries prioritize learning/relearning, then earliest deadline and sta
 test('eligibility respects missing translations, parts of speech, tags and article applicability', () => {
   assert.deepEqual(selectNewWords(deck, { ...query(), answerLanguage: 'en' }).map(w => w.id), [word.id, words[2].id, words[3].id]);
   assert.deepEqual(selectNewWords(deck, query([], 'article-choice')).map(w => w.id), [word.id, words[2].id, words[3].id]);
-  assert.deepEqual(selectNewWords(deck, query([], 'german-with-article-type')).map(w => w.id), [word.id]);
+  assert.deepEqual(selectNewWords(deck, query([], 'target-with-article-type')).map(w => w.id), [word.id]);
   assert.deepEqual(selectNewWords(deck, { ...query(), filter: { partOfSpeech: ['verb'] } }).map(w => w.id), [words[1].id]);
   const tagged = { ...word, tags: ['topic', 'a1'] };
   assert.equal(selectNewWords({ ...deck, wordIds: [word.id] }, { ...query(), words: [tagged], filter: { tags: ['topic', 'a1'] } }).length, 1);

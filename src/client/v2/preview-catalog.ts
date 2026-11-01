@@ -9,5 +9,5 @@ export const PREVIEW_WORDS: readonly Word[] = ([
   ['schrank', 'Schrank', 'der', 'шкаф', 'wardrobe'], ['kueche', 'Küche', 'die', 'кухня', 'kitchen'],
 ] as const).map(([id, lemma, article, ru, en]): Word => ({ schemaVersion: 1, contentVersion: 1, id, lemma, article,
   partOfSpeech: 'noun', senseId: id, meanings: { ru: { preferred: ru, accepted: [] }, en: { preferred: en, accepted: [] } },
-  acceptedGermanForms: [lemma], tags: ['home'], examples: [] }));
+  acceptedForms: [lemma], tags: ['home'], examples: [] }));
 export const PREVIEW_DECK: Deck = { id: 'preview-home', title: 'Zuhause', wordIds: PREVIEW_WORDS.map(word => word.id) };

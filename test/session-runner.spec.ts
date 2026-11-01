@@ -117,7 +117,7 @@ test('single learn-new session commits introductions, one answer per submit and 
 test('a failed save keeps the command; retry and resubmission reuse its identity', async ({ page }) => {
   expect(await run(page, `
     const { port, control } = flaky(scope);
-    const runner = await SessionRunner.start(port, env, archive('german-type', 'learn-new', ['tisch']));
+    const runner = await SessionRunner.start(port, env, archive('target-type', 'learn-new', ['tisch']));
     await runner.next();
     const views = []; runner.subscribe(v => views.push(v));
     // Write rejected before anything is stored: nothing changes, the error is reported.
@@ -147,7 +147,7 @@ test('a failed save keeps the command; retry and resubmission reuse its identity
 test('resubmitting the same answer after a failure repeats the stored command', async ({ page }) => {
   expect(await run(page, `
     const { port, control } = flaky(scope);
-    const runner = await SessionRunner.start(port, env, archive('german-type', 'learn-new', ['tisch']));
+    const runner = await SessionRunner.start(port, env, archive('target-type', 'learn-new', ['tisch']));
     await runner.next();
     control.mode = 'after';
     await rejects(() => runner.submit('Tish'), /connection lost/);
@@ -184,7 +184,7 @@ test('self-assessment reveal, pause and resume survive reload in every phase', a
 
 test('a second tab cannot add another answer; the stale runner shows the saved state', async ({ page }) => {
   expect(await run(page, `
-    const a = await SessionRunner.start(scope, env, archive('german-type', 'learn-new', ['tisch']));
+    const a = await SessionRunner.start(scope, env, archive('target-type', 'learn-new', ['tisch']));
     await a.next();
     const b = await SessionRunner.open(scope, env, 'session');
     check(await a.submit('Tisch') === 'committed', 'first tab');
@@ -197,7 +197,7 @@ test('a second tab cannot add another answer; the stale runner shows the saved s
 
 test('dispose stops notifications and commands; a pending write still completes', async ({ page }) => {
   expect(await run(page, `
-    const runner = await SessionRunner.start(scope, env, archive('german-type', 'learn-new', ['tisch']));
+    const runner = await SessionRunner.start(scope, env, archive('target-type', 'learn-new', ['tisch']));
     let calls = 0; runner.subscribe(() => calls++);
     const pending = runner.next(); const before = calls;
     runner.dispose();
@@ -234,7 +234,7 @@ test('failed start or introduction saves are reported and retried; commands reje
   expect(await run(page, `
     const { port, control } = flaky(scope);
     control.save = 'before';
-    let runner = await SessionRunner.start(port, env, archive('german-type', 'learn-new', ['tisch']));
+    let runner = await SessionRunner.start(port, env, archive('target-type', 'learn-new', ['tisch']));
     check(runner.view.phase === 'ready' && runner.view.error === 'save', 'start failure ' + runner.view.phase);
     const paused = runner.pause(); check(paused instanceof Promise, 'pause threw synchronously');
     await rejects(() => paused, /Nothing to pause/);
@@ -242,10 +242,10 @@ test('failed start or introduction saves are reported and retried; commands reje
     // Retrying the start also commits the introduction before it can be shown.
     check(await runner.retry() === 'committed' && runner.view.phase === 'feedback' && runner.view.task.exerciseId === 'introduction', 'start retry');
     runner.dispose();
-    const second = await SessionRunner.start(port, env, archive('german-type', 'learn-new', ['stuhl'], 'second'));
+    const second = await SessionRunner.start(port, env, archive('target-type', 'learn-new', ['stuhl'], 'second'));
     await second.finish();
     control.commit = 'before';
-    runner = await SessionRunner.start(port, env, archive('german-type', 'learn-new', ['tuer'], 'third'));
+    runner = await SessionRunner.start(port, env, archive('target-type', 'learn-new', ['tuer'], 'third'));
     check(runner.view.phase === 'presenting' && runner.view.task.exerciseId === 'introduction' && runner.view.error === 'save', 'intro failure');
     check(await runner.retry() === 'committed' && runner.view.phase === 'feedback', 'intro retry');
     const kinds = (await scope.snapshot()).facts.filter(f => f.event.sessionId === 'third').map(f => f.event.kind).join();
@@ -260,7 +260,7 @@ test('a circuit runs every stage for its fixed words, then one correction round,
     let runner = await SessionRunner.start(scope, env, a);
     const planned = a.state.plan.tasks.length;
     check(planned === 14, 'planned ' + planned);
-    const failed = task => task.target.wordId === 'stuhl' && ['german-type', 'meaning-choice'].includes(task.exerciseId);
+    const failed = task => task.target.wordId === 'stuhl' && ['target-type', 'meaning-choice'].includes(task.exerciseId);
     await playPlanned(runner, failed);
     let view = runner.view;
     check(view.correction && view.total === planned + 2 && view.taskIndex === planned && view.phase === 'presenting', 'no correction round');
@@ -271,7 +271,7 @@ test('a circuit runs every stage for its fixed words, then one correction round,
     view = runner.view;
     check(view.correction && view.taskIndex === planned && JSON.stringify(view.task.specification.options) === options, 'correction resume');
     await runner.submit(correct(view)); await runner.next();
-    check(runner.view.task.exerciseId === 'german-type', 'second correction');
+    check(runner.view.task.exerciseId === 'target-type', 'second correction');
     await runner.submit('Falsch'); await runner.next();
     view = runner.view;
     check(view.phase === 'completed' && view.summary && !view.task, 'not completed');
@@ -280,7 +280,7 @@ test('a circuit runs every stage for its fixed words, then one correction round,
     check(s.tasks === planned + 2 && s.mistakes === 3, 'totals ' + s.tasks + '/' + s.mistakes);
     const stuhl = s.words.find(w => w.wordId === 'stuhl');
     const mistakes = stuhl.mistakes.map(m => m.exerciseId + ':' + m.corrected).join();
-    check(mistakes === 'meaning-choice:true,german-type:false,german-type:false', mistakes);
+    check(mistakes === 'meaning-choice:true,target-type:false,target-type:false', mistakes);
     check(s.words.find(w => w.wordId === 'tisch').mistakes.length === 0, 'tisch mistakes');
     // A single correction round only: the session ends instead of correcting the correction.
     const saved = (await scope.snapshot()).sessions[0].state;
@@ -315,7 +315,7 @@ test('storage rejects corrections that do not match the journal or come at the w
     // Corrections cannot be replaced afterwards, nor exist on single sessions.
     await rejects(() => scope.saveSession({ ...state, revision: state.revision + 1, status: 'paused',
       corrections: [forged(state.corrections[0])] }, state.revision), /append-once/);
-    const single = archive('german-type', 'learn-new', ['stuhl'], 'single');
+    const single = archive('target-type', 'learn-new', ['stuhl'], 'single');
     await rejects(() => scope.startSession({ ...single, state: { ...single.state, corrections: [] } }), /Only circuits/);
     // A round that does not match the mistakes in the journal is refused when appended.
     const b = circuitArchive(['stuhl'], 'other'); const other = await SessionRunner.start(scope, env, b);
@@ -338,8 +338,8 @@ test('storage refuses a correction round at start, an empty one, or a missing/ab
   expect(await run(page, `
     const registry = core.createWordExerciseRegistry(PREVIEW_WORDS, PREVIEW_CATALOG_VERSION);
     const a = circuitArchive(['tisch']);
-    const foreign = registry.get('german-type').buildTask(PREVIEW_WORDS.find(w => w.id === 'lampe'),
-      { taskId: core.correctionTaskId('circuit', 'lampe', 'german-type'), seed: 'x', answerLanguage: 'ru' });
+    const foreign = registry.get('target-type').buildTask(PREVIEW_WORDS.find(w => w.id === 'lampe'),
+      { taskId: core.correctionTaskId('circuit', 'lampe', 'target-type'), seed: 'x', answerLanguage: 'ru' });
     await rejects(() => scope.startSession({ ...a, state: { ...a.state, corrections: [foreign] } }), /Invalid initial session/);
     const runner = await SessionRunner.start(scope, env, a);
     let state = (await scope.snapshot()).sessions[0].state;

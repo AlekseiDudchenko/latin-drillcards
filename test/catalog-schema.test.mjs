@@ -312,7 +312,7 @@ describe('fresh v2 catalog: real PostgreSQL schema, complete seed and API permis
       await role('service_role',null,'UPDATE catalog_private.words SET published_version=999 WHERE id=$1',[word.id]);
       const model=(await role('anon',null,'SELECT word FROM public.catalog_words WHERE id=$1',[word.id])).rows[0].word;
       assertPublishedWord(model);
-      assert.deepEqual(model.examples,[{id:'next-example',de:'Das ist ein Beispiel.',translations:{en:'This is an example.'}}]);
+      assert.deepEqual(model.examples,[{id:'next-example',text:'Das ist ein Beispiel.',translations:{en:'This is an example.'}}]);
     });
   });
 
@@ -337,7 +337,7 @@ describe('fresh v2 catalog: real PostgreSQL schema, complete seed and API permis
     await assert.rejects(rolledBack(()=>db.query(`INSERT INTO public.deck_memberships SELECT * FROM public.deck_memberships LIMIT 1`)),{code:'23505'});
     for(const [pos,article,forms] of [['verb','der',[]],['other',null,[' ']],['other',null,['x','x']]]) {
       await assert.rejects(rolledBack(()=>stage('invalid-word','word','word_revisions',
-        ['lemma','part_of_speech','article','accepted_german_forms'],['test',pos,article,forms])),{code:'23514'});
+        ['lemma','part_of_speech','article','accepted_forms'],['test',pos,article,forms])),{code:'23514'});
     }
     await assert.rejects(role('public_probe',null,'SELECT * FROM public.catalog_words'),{code:'42501'});
     await assert.rejects(role('anon',null,"INSERT INTO public.decks VALUES ('anon','Anon',NULL)"),{code:'42501'});

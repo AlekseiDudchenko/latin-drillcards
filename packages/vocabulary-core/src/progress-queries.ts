@@ -113,7 +113,7 @@ function candidates(deck: Deck, context: WordQueryContext, limit: number): { wor
     if (context.filter?.partOfSpeech && !context.filter.partOfSpeech.includes(word.partOfSpeech)) continue;
     if (context.filter?.tags && !context.filter.tags.every(tag => word.tags.includes(tag))) continue;
     const articleOnly = context.exerciseId === 'article-choice';
-    if ((articleOnly || context.exerciseId === 'german-with-article-type') &&
+    if ((articleOnly || context.exerciseId === 'target-with-article-type') &&
         !applicableComponents(word).includes('article')) continue;
     if (!articleOnly && !word.meanings[context.answerLanguage]?.preferred.trim()) continue;
     result.push({ word, progress });

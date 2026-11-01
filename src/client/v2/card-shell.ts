@@ -70,7 +70,7 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
   let disposed = false;
   let pending = false;
   let operationError = false;
-  let speechMessage: 'ttsUnavailable' | 'ttsNoGermanVoice' | 'ttsFailed' | null = null;
+  let speechMessage: 'ttsUnavailable' | 'ttsNoVoice' | 'ttsFailed' | null = null;
   let speechGeneration = 0;
   let speaking = false;
   let activeSpeechText: string | undefined;
@@ -171,7 +171,7 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
       void adapters.speech.speak(text).then(result => {
         if (disposed || generation !== speechGeneration) return;
         speaking = false;
-        speechMessage = auto ? null : result === 'unavailable' ? 'ttsUnavailable' : result === 'no-german-voice' ? 'ttsNoGermanVoice' : result === 'failed' ? 'ttsFailed' : null;
+        speechMessage = auto ? null : result === 'unavailable' ? 'ttsUnavailable' : result === 'no-voice' ? 'ttsNoVoice' : result === 'failed' ? 'ttsFailed' : null;
         render();
       }).catch(() => {
         if (!disposed && generation === speechGeneration) { speaking = false; speechMessage = auto ? null : 'ttsFailed'; render(); }
@@ -193,7 +193,7 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
     const labels = adapters.labels(presentation.language);
     const wordPlayback = !!definition.autoSpeak && !!definition.word && !!definition.speechText;
     function pronounceWord(text: string, speechText = definition.speechText, focusKey = 'speech'): HTMLButtonElement {
-      const word = button(text); word.className = 'dc-word-speech'; word.lang = 'de'; word.dataset.focusKey = focusKey;
+      const word = button(text); word.className = 'dc-word-speech'; word.lang = 'la'; word.dataset.focusKey = focusKey;
       word.setAttribute('aria-label', `${labels.listen}: ${text}`); word.title = labels.listen;
       word.setAttribute('aria-pressed', String(speaking && activeSpeechText === speechText));
       word.disabled = !speaking && (pending || !!presentation.busy || !presentation.permissions.speech);
@@ -276,7 +276,7 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
       const details = WordDetails(definition.word, definition.translationLanguage, labels, definition.input.kind !== 'introduction'); details.id = `${uid}-details`; root.insertBefore(details, form);
       const headword = details.querySelector('h3');
       if (wordPlayback && headword) headword.replaceChildren(pronounceWord(headword.textContent!));
-      details.querySelectorAll<HTMLElement>('blockquote > p[lang="de"]').forEach((example, index) => {
+      details.querySelectorAll<HTMLElement>('blockquote > p[lang="la"]').forEach((example, index) => {
         const text = example.textContent!;
         const play = pronounceWord(text, text, `example-speech-${index}`); play.classList.add('dc-example-speech');
         example.replaceChildren(play);

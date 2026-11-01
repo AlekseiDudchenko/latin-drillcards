@@ -17,10 +17,10 @@ export interface Word {
     readonly preferred: string;
     readonly accepted: readonly string[];
   }>>>;
-  readonly acceptedGermanForms: readonly string[];
+  readonly acceptedForms: readonly string[];
   readonly examples: readonly {
     readonly id: string;
-    readonly de: string;
+    readonly text: string;
     readonly translations: Readonly<Partial<Record<TranslationLanguage, string>>>;
   }[];
   readonly tags: readonly string[];

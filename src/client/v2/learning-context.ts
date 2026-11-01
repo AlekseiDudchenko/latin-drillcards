@@ -25,7 +25,7 @@ const IDLE_SYNC_MS = 60_000;
 const WORD_BATCH = 100;
 /** The shared decks in the seed's curated order (scripts/vocabulary-seed.mjs DECKS); the server has no deck position.
  * The home and a word's first deck depend on it, so hosted and local builds show the same order. */
-export const SHARED_DECK_ORDER = Object.freeze(['a1', 'a2', 'b1', 'b2', 'c1', 'beruf', 'arch', 'kollokationen']);
+export const SHARED_DECK_ORDER = Object.freeze(['basic', 'verbs']);
 
 export type LearningMode = 'local' | 'hosted';
 /** What the account bar shows; `local` has no account and no sync. */

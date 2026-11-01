@@ -1,0 +1,202 @@
+[
+  {
+    "id": "s1",
+    "target": "Puer librum legit.",
+    "tokens": [
+      "Puer",
+      "librum",
+      "legit"
+    ],
+    "type": "drag",
+    "explanation": "Nominative subject, accusative object, verb last.",
+    "translation_en": "The boy reads a book.",
+    "translation_ru": "Мальчик читает книгу.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s2",
+    "target": "Puella rosam amat.",
+    "tokens": [
+      "Puella",
+      "rosam",
+      "amat"
+    ],
+    "type": "drag",
+    "explanation": "Subject – object (accusative -am) – verb.",
+    "translation_en": "The girl loves the rose.",
+    "translation_ru": "Девочка любит розу.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s3",
+    "target": "Pater filium vocat.",
+    "tokens": [
+      "Pater",
+      "filium",
+      "vocat"
+    ],
+    "type": "drag",
+    "explanation": "Accusative -um marks the direct object of a 2nd-declension noun.",
+    "translation_en": "The father calls his son.",
+    "translation_ru": "Отец зовёт сына.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s4",
+    "target": "Mater filiam amat.",
+    "tokens": [
+      "Mater",
+      "filiam",
+      "amat"
+    ],
+    "type": "drag",
+    "explanation": "Accusative singular of the 1st declension ends in -am.",
+    "translation_en": "The mother loves her daughter.",
+    "translation_ru": "Мать любит дочь.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s5",
+    "target": "Magister puerum laudat.",
+    "tokens": [
+      "Magister",
+      "puerum",
+      "laudat"
+    ],
+    "type": "drag",
+    "explanation": "Accusative singular of the 2nd declension ends in -um.",
+    "translation_en": "The teacher praises the boy.",
+    "translation_ru": "Учитель хвалит мальчика.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s6",
+    "target": "Servus dominum timet.",
+    "tokens": [
+      "Servus",
+      "dominum",
+      "timet"
+    ],
+    "type": "drag",
+    "explanation": "Word order is free; endings show the roles.",
+    "translation_en": "The slave fears the master.",
+    "translation_ru": "Раб боится хозяина.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s7",
+    "target": "Roma urbs magna est.",
+    "tokens": [
+      "Roma",
+      "urbs",
+      "magna",
+      "est"
+    ],
+    "type": "drag",
+    "explanation": "Nominative predicate with sum.",
+    "translation_en": "Rome is a large city.",
+    "translation_ru": "Рим — большой город.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s8",
+    "target": "Vir bonus amicum adiuvat.",
+    "tokens": [
+      "Vir",
+      "bonus",
+      "amicum",
+      "adiuvat"
+    ],
+    "type": "drag",
+    "explanation": "The adjective agrees with its noun.",
+    "translation_en": "The good man helps his friend.",
+    "translation_ru": "Хороший человек помогает другу.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s9",
+    "target": "Puella in via ambulat.",
+    "tokens": [
+      "Puella",
+      "in",
+      "via",
+      "ambulat"
+    ],
+    "type": "drag",
+    "explanation": "in + ablative answers 'where?'.",
+    "translation_en": "The girl walks on the road.",
+    "translation_ru": "Девочка идёт по дороге.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s10",
+    "target": "Rex populum regit.",
+    "tokens": [
+      "Rex",
+      "populum",
+      "regit"
+    ],
+    "type": "drag",
+    "explanation": "Third-declension nominative rex; accusative populum.",
+    "translation_en": "The king rules the people.",
+    "translation_ru": "Царь правит народом.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s11",
+    "target": "Aqua frigida est.",
+    "tokens": [
+      "Aqua",
+      "frigida",
+      "est"
+    ],
+    "type": "drag",
+    "explanation": "Feminine adjective agrees with aqua.",
+    "translation_en": "The water is cold.",
+    "translation_ru": "Вода холодная.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s12",
+    "target": "Ego te video.",
+    "tokens": [
+      "Ego",
+      "te",
+      "video"
+    ],
+    "type": "drag",
+    "explanation": "Personal pronouns: ego (nominative), te (accusative).",
+    "translation_en": "I see you.",
+    "translation_ru": "Я вижу тебя.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s13",
+    "target": "Marcus Iuliam amat.",
+    "tokens": [
+      "Marcus",
+      "Iuliam",
+      "amat"
+    ],
+    "type": "drag",
+    "explanation": "Proper names decline like other nouns.",
+    "translation_en": "Marcus loves Julia.",
+    "translation_ru": "Марк любит Юлию.",
+    "level": "BASIC"
+  },
+  {
+    "id": "s14",
+    "target": "Nauta in insula habitat.",
+    "tokens": [
+      "Nauta",
+      "in",
+      "insula",
+      "habitat"
+    ],
+    "type": "drag",
+    "explanation": "in + ablative; habitat is the 3rd person singular.",
+    "translation_en": "The sailor lives on the island.",
+    "translation_ru": "Моряк живёт на острове.",
+    "level": "BASIC"
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "w_verbs_1",
+    "la": "amo",
+    "pos": "verb",
+    "ru": "любить",
+    "en": "to love",
+    "exampleLa": "Puer matrem amat.",
+    "exampleRu": "Мальчик любит мать.",
+    "exampleEn": "The boy loves his mother.",
+    "tags": [
+      "1-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_2",
+    "la": "laudo",
+    "pos": "verb",
+    "ru": "хвалить",
+    "en": "to praise",
+    "exampleLa": "Magister puerum laudat.",
+    "exampleRu": "Учитель хвалит мальчика.",
+    "exampleEn": "The teacher praises the boy.",
+    "tags": [
+      "1-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_3",
+    "la": "video",
+    "pos": "verb",
+    "ru": "видеть",
+    "en": "to see",
+    "exampleLa": "Video puellam.",
+    "exampleRu": "Я вижу девочку.",
+    "exampleEn": "I see the girl.",
+    "tags": [
+      "2-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_4",
+    "la": "habeo",
+    "pos": "verb",
+    "ru": "иметь",
+    "en": "to have",
+    "exampleLa": "Habeo librum.",
+    "exampleRu": "У меня есть книга.",
+    "exampleEn": "I have a book.",
+    "tags": [
+      "2-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_5",
+    "la": "timeo",
+    "pos": "verb",
+    "ru": "бояться",
+    "en": "to fear",
+    "exampleLa": "Servus dominum timet.",
+    "exampleRu": "Раб боится хозяина.",
+    "exampleEn": "The slave fears the master.",
+    "tags": [
+      "2-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_6",
+    "la": "lego",
+    "pos": "verb",
+    "ru": "читать",
+    "en": "to read",
+    "exampleLa": "Puer librum legit.",
+    "exampleRu": "Мальчик читает книгу.",
+    "exampleEn": "The boy reads a book.",
+    "tags": [
+      "3-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_7",
+    "la": "scribo",
+    "pos": "verb",
+    "ru": "писать",
+    "en": "to write",
+    "exampleLa": "Scribo epistulam.",
+    "exampleRu": "Я пишу письмо.",
+    "exampleEn": "I write a letter.",
+    "tags": [
+      "3-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_8",
+    "la": "rego",
+    "pos": "verb",
+    "ru": "править, управлять",
+    "en": "to rule",
+    "exampleLa": "Rex populum regit.",
+    "exampleRu": "Царь правит народом.",
+    "exampleEn": "The king rules the people.",
+    "tags": [
+      "3-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_9",
+    "la": "audio",
+    "pos": "verb",
+    "ru": "слышать, слушать",
+    "en": "to hear",
+    "exampleLa": "Audio magistrum.",
+    "exampleRu": "Я слушаю учителя.",
+    "exampleEn": "I hear the teacher.",
+    "tags": [
+      "4-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_10",
+    "la": "venio",
+    "pos": "verb",
+    "ru": "приходить",
+    "en": "to come",
+    "exampleLa": "Venio ad urbem.",
+    "exampleRu": "Я иду в город.",
+    "exampleEn": "I come to the city.",
+    "tags": [
+      "4-sprj"
+    ]
+  },
+  {
+    "id": "w_verbs_11",
+    "la": "do",
+    "pos": "verb",
+    "ru": "давать",
+    "en": "to give",
+    "exampleLa": "Pater puero librum dat.",
+    "exampleRu": "Отец даёт мальчику книгу.",
+    "exampleEn": "The father gives the boy a book.",
+    "tags": [
+      "1-sprj",
+      "unreg"
+    ]
+  },
+  {
+    "id": "w_verbs_12",
+    "la": "sum",
+    "pos": "verb",
+    "ru": "быть",
+    "en": "to be",
+    "exampleLa": "Ego sum Marcus.",
+    "exampleRu": "Я — Марк.",
+    "exampleEn": "I am Marcus.",
+    "tags": [
+      "unreg"
+    ]
+  }
+]

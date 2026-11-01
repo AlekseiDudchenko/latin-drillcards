@@ -49,7 +49,7 @@ export function searchDecks(decks: readonly Deck[], query: string): readonly Dec
 export function searchWords(words: readonly Word[], query: string): readonly Word[] {
   const q = fold(query);
   if (!q) return words;
-  return words.filter(word => [[word.article, word.lemma].filter(Boolean).join(' '), ...word.acceptedGermanForms,
+  return words.filter(word => [[word.article, word.lemma].filter(Boolean).join(' '), ...word.acceptedForms,
     ...Object.values(word.meanings).flatMap(meaning => meaning ? [meaning.preferred, ...meaning.accepted] : [])]
     .some(text => fold(text).includes(q)));
 }

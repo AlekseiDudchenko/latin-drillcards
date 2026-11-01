@@ -75,8 +75,8 @@ const headword = (word: Word): string => [word.article, word.lemma].filter(Boole
 const translation = (): TranslationLanguage => $<HTMLSelectElement>('translation').value as TranslationLanguage;
 const exerciseNames = (): Record<Exclude<WordExerciseId, 'introduction'>, string> => {
   const cards = cardUiTranslations(language); const lang = translation().toUpperCase();
-  return { 'meaning-choice': `DE → ${lang}`, 'german-choice': `${lang} → DE`, 'meaning-recall': cards.revealTitle,
-    'german-type': cards.wordTypeTitle, 'article-choice': cards.articleTitle, 'german-with-article-type': cards.wordArticleTypeTitle };
+  return { 'meaning-choice': `DE → ${lang}`, 'target-choice': `${lang} → DE`, 'meaning-recall': cards.revealTitle,
+    'target-type': cards.wordTypeTitle, 'article-choice': cards.articleTitle, 'target-with-article-type': cards.wordArticleTypeTitle };
 };
 function componentNames(): Record<Component, string> {
   const labels = sessionUiTranslations(language); const cards = cardUiTranslations(language);
@@ -140,7 +140,7 @@ function renderSummary(result: VocabularySessionSummary | undefined, deckId: str
   const title = node('h2', labels.summaryTitle); title.id = 'summaryTitle';
   const totals = node('p', fill(labels.summaryTotals, { tasks: String(result.tasks), answered: String(result.answered), mistakes: String(result.mistakes) }));
   const words = result.words.map(word => {
-    const article = node('article'); article.lang = 'de';
+    const article = node('article'); article.lang = 'la';
     const components = node('ul');
     for (const item of word.components) {
       const line = node('li', `${names[item.component]}: ${results[item.result]}`); line.dataset.result = item.result; line.lang = language;
@@ -384,7 +384,7 @@ function wordStatusDetails(word: Word): HTMLDetailsElement {
   const status = describeWordStatus(word, projections.find(item => item.wordId === word.id), translation());
   const exercises = exerciseNames(); const components = componentNames();
   const details = node('details', undefined, 'dc-wstatus'); const summary = node('summary');
-  const name = node('span', headword(word), 'dc-word-name'); name.lang = 'de';
+  const name = node('span', headword(word), 'dc-word-name'); name.lang = 'la';
   const meaning = node('span', word.meanings[translation()]?.preferred ?? '', 'dc-word-meaning'); meaning.lang = translation();
   const heading = node('span', undefined, 'dc-word-heading'); heading.append(name, meaning);
   summary.append(heading);
@@ -457,7 +457,7 @@ function renderWord(index: CatalogIndex): void {
   document.title = `DrillCards · ${headword(word)}`;
   $('wordBack').textContent = home.backToDeck;
   ($<HTMLAnchorElement>('wordBack')).href = routeHash({ view: 'deck', deckId });
-  const title = node('h2', headword(word)); title.lang = 'de';
+  const title = node('h2', headword(word)); title.lang = 'la';
   const state = node('span', home[STATE_LABELS[result.state]], 'dc-state'); state.dataset.state = result.state;
   title.append(' ', state);
   const status = node('p', result.state === 'new' ? home.notStarted : result.state === 'due' ? home.dueNow

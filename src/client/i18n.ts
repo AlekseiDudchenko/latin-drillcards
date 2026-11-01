@@ -9,7 +9,7 @@ export interface CardUiTranslations {
     choose: string; yourAnswer: string; submit: string; next: string; reveal: string;
     remembered: string; forgotten: string; showDetails: string; hideDetails: string;
     wordDetails: string; examples: string; missingTranslation: string; listen: string; autoReadWords: string;
-    ttsUnavailable: string; ttsNoGermanVoice: string; ttsFailed: string;
+    ttsUnavailable: string; ttsNoVoice: string; ttsFailed: string;
     saving: string; submitted: string; error: string; correct: string; incorrect: string; info: string;
     clozeTitle: string; clozeSlot: string; clozeEmpty: string; clozeReset: string; clozeResults: string; clozeSlotCorrect: string; clozeSlotIncorrect: string;
     tokensTitle: string; sentenceAssemblyTitle: string; konjunktivTokenTitle: string;
@@ -472,7 +472,7 @@ const EN: Translations = {
         choose: "Choose one option", yourAnswer: "Your answer", submit: "Check", next: "Next", reveal: "Show answer",
         remembered: "Remembered", forgotten: "Didn't remember", showDetails: "Word details", hideDetails: "Hide details",
         wordDetails: "Word details", examples: "Examples", missingTranslation: "No confirmed translation", listen: "Listen in German", autoReadWords: "Read words automatically",
-        ttsUnavailable: "Speech is not available on this device.", ttsNoGermanVoice: "Install a German voice in your device settings.",
+        ttsUnavailable: "Speech is not available on this device.", ttsNoVoice: "Install a German voice in your device settings.",
         ttsFailed: "Could not play the audio. Try again.", saving: "Please wait…", submitted: "Answer accepted",
         error: "Could not complete the action. Try again.", correct: "Correct", incorrect: "Not quite", info: "Answer accepted",
         clozeTitle: "Fill in the gaps", clozeSlot: "Gap {n} of {total}", clozeEmpty: "empty", clozeReset: "Clear answers", clozeResults: "Results by gap", clozeSlotCorrect: "correct", clozeSlotIncorrect: "not quite",
@@ -878,7 +878,7 @@ const RU: Translations = {
         choose: "Выберите один вариант", yourAnswer: "Ваш ответ", submit: "Проверить", next: "Дальше", reveal: "Показать ответ",
         remembered: "Помню", forgotten: "Не помню", showDetails: "О слове", hideDetails: "Скрыть подробности",
         wordDetails: "О слове", examples: "Примеры", missingTranslation: "Нет подтверждённого перевода", listen: "Прослушать по-немецки", autoReadWords: "Озвучивать слова автоматически",
-        ttsUnavailable: "Озвучивание недоступно на этом устройстве.", ttsNoGermanVoice: "Установите немецкий голос в настройках устройства.",
+        ttsUnavailable: "Озвучивание недоступно на этом устройстве.", ttsNoVoice: "Установите немецкий голос в настройках устройства.",
         ttsFailed: "Не удалось воспроизвести звук. Попробуйте ещё раз.", saving: "Подождите…", submitted: "Ответ принят",
         error: "Не удалось выполнить действие. Попробуйте ещё раз.", correct: "Правильно", incorrect: "Не совсем", info: "Ответ принят",
         clozeTitle: "Заполните пропуски", clozeSlot: "Пропуск {n} из {total}", clozeEmpty: "пусто", clozeReset: "Очистить ответы", clozeResults: "Результат по пропускам", clozeSlotCorrect: "верно", clozeSlotIncorrect: "неверно",
@@ -1284,7 +1284,7 @@ const DE: Translations = {
         choose: "Wähle eine Option", yourAnswer: "Deine Antwort", submit: "Prüfen", next: "Weiter", reveal: "Antwort zeigen",
         remembered: "Gewusst", forgotten: "Nicht gewusst", showDetails: "Wortdetails", hideDetails: "Details ausblenden",
         wordDetails: "Wortdetails", examples: "Beispiele", missingTranslation: "Keine bestätigte Übersetzung", listen: "Auf Deutsch anhören", autoReadWords: "Wörter automatisch vorlesen",
-        ttsUnavailable: "Die Sprachausgabe ist auf diesem Gerät nicht verfügbar.", ttsNoGermanVoice: "Installiere eine deutsche Stimme in den Geräteeinstellungen.",
+        ttsUnavailable: "Die Sprachausgabe ist auf diesem Gerät nicht verfügbar.", ttsNoVoice: "Installiere eine deutsche Stimme in den Geräteeinstellungen.",
         ttsFailed: "Die Wiedergabe ist fehlgeschlagen. Versuche es erneut.", saving: "Bitte warten…", submitted: "Antwort angenommen",
         error: "Die Aktion konnte nicht ausgeführt werden. Versuche es erneut.", correct: "Richtig", incorrect: "Nicht ganz", info: "Antwort angenommen",
         clozeTitle: "Fülle die Lücken aus", clozeSlot: "Lücke {n} von {total}", clozeEmpty: "leer", clozeReset: "Antworten löschen", clozeResults: "Ergebnis pro Lücke", clozeSlotCorrect: "richtig", clozeSlotIncorrect: "nicht ganz",

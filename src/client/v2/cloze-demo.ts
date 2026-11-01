@@ -13,7 +13,7 @@ function fromTemplate(id: string, template: string, answers: readonly (readonly 
   const { segments, slotIds } = parseClozeTemplate(template);
   const options = bank.map(label => ({ id: label, label }));
   const slots = slotIds.map(slotId => input === 'choice' ? { slotId, input, options } : { slotId, input });
-  return { definition: { id, answerLang: 'de', segments, slots, ...extra },
+  return { definition: { id, answerLang: 'la', segments, slots, ...extra },
     key: { accepted: Object.fromEntries(slotIds.map((slotId, index) => [slotId, answers[index]!])) } };
 }
 const passivPerfekt = (input: 'text' | 'choice') => fromTemplate(`pg_1_perf-${input}`, 'Das Gebäude ___ komplett renoviert ___.',

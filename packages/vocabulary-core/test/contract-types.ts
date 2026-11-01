@@ -21,5 +21,5 @@ document.querySelector('body');
 fetch('/api');
 void [missingExercise, reveal, assessment, progress];
 // @ts-expect-error Extra practice requires explicit word IDs; it is never an implicit due fallback.
-const implicitPractice: SessionRequest = { deckId: 'a1', intent: 'practice', answerLanguage: 'ru', format: 'single', exerciseId: 'german-type' };
+const implicitPractice: SessionRequest = { deckId: 'a1', intent: 'practice', answerLanguage: 'ru', format: 'single', exerciseId: 'target-type' };
 void implicitPractice;
