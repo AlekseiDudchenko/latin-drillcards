@@ -12,7 +12,7 @@ this file and it ever disagree. A release is one small PR that bumps `VERSION`.
 installed clients drop the old scripts and styles. Merging to `main` does **not**
 deploy: there is no GitHub CI and the Cloudflare Git integration is off. A release
 goes live when `npm run deploy` is run from an up-to-date `main`, which uploads
-`public/` to Cloudflare Pages (drillcards.org). Nothing else is part of a release.
+`public/` to Cloudflare Pages (latin.drillcards.org). Nothing else is part of a release.
 
 Talk to the user in Russian. **Merging a release PR and deploying are
 production-facing: ask and wait for a clear yes for each, every time** ("Слить"
@@ -41,7 +41,7 @@ merge other people's PRs as a side effect of a release.
 
 ```bash
 git fetch origin -q
-git show origin/main:VERSION; curl -s https://drillcards.org/version.json
+git show origin/main:VERSION; curl -s https://latin.drillcards.org/version.json
 L=$(git log origin/main --format=%H --grep='^Release ' -1); git log --oneline $L..origin/main
 gh pr list --state open --json number,title,headRefName,mergeable
 ```
@@ -75,9 +75,10 @@ echo X.Y.Z > VERSION && npm run build
 git status --short   # exactly: VERSION, public/404.html, public/index.html, public/sw.js
 ```
 
-Do not `git stash pop` (the stash is shared between worktrees); do not `git add`
-the `node_modules` symlink — add the four files by name. Remove the worktree
-when done.
+Do not `git stash pop` (the stash is shared between worktrees); add the four files
+by name (the symlink is git-ignored). Remove the worktree when done. The symlink may
+point at a checkout whose `node_modules` is stale (seen: no `@types/node`, so the spec
+typecheck fails): if a tool is missing, run `npm ci` in the worktree instead.
 
 ## 3. Verify locally
 
@@ -105,6 +106,10 @@ stop it. Running on another port only works for specs that do not hard-code
 `http://localhost:5173` — `sync-races`, `sync-service`, `v2-account`,
 `v2-environment` do — so those cannot be verified that way. If a part of e2e could not
 be run, say so in the PR body and in the report; update the body if you run it later.
+
+A red e2e test that is not yours: run the same e2e on a clean `origin/main` worktree and
+`diff` the two lists of failed tests (`… | grep -E '^\s+test/.*›' | sort`). An identical
+list means the release adds nothing; say so in the PR body with the counts.
 
 For a red test: re-run it alone with `--repeat-each=4` on the release branch
 **and** on a clean `origin/main`. Same result on both and passing on rerun is a
@@ -146,27 +151,40 @@ branches), test results, the proposed version — and ask for the merge.
 gh pr merge N --squash --subject "Release X.Y.Z: … (#N)" --body "<one line>\n\nCo-Authored-By: …"
 ```
 
+Do not add `--delete-branch` while `main` is checked out in another worktree: the merge
+succeeds on GitHub but `gh` then fails to switch the local checkout to `main`.
+
 The merge ships nothing. Report it, then ask separately whether to deploy. On a
-yes, in a checkout on `main` (clean, `git pull --ff-only` first):
+yes, from a clean checkout at `origin/main` (the script needs `HEAD == origin/main` and
+a clean tree; `main` itself is often held by another worktree, so a detached
+`git worktree add --detach ../dc-deploy origin/main` with the `node_modules` symlink works):
 
 ```bash
-npm run deploy      # build with .env.v2.production, npm test, wrangler pages deploy, check /version.json
+node -v                      # wrangler@4 needs Node >= 22 (Homebrew: /opt/homebrew/opt/node@22/bin)
+ls .env.v2.production         # git-ignored; see docs/deploy-latin.md and the environment rule below
+npm run deploy -- --dry-run  # build, test and the environment check; uploads nothing
+npm run deploy               # the same, then wrangler pages deploy, then polls /version.json
 ```
 
-`npm run deploy -- --dry-run` does everything except the upload. The script needs
-`.env.v2.production` (the five production `V2_*` values, git-ignored) and a
-Wrangler login (`npx wrangler@4 login`, or `CLOUDFLARE_API_TOKEN` +
-`CLOUDFLARE_ACCOUNT_ID`); if either is missing it says so — tell the user, never
-invent or ask for the values in chat. It ends by polling `version.json`; confirm
-by hand too:
+**The environment must match the live site.** A client compares its environment and data
+epoch with the server's `v2_environment` row and stops on a mismatch, so a build that
+differs from the live one breaks the site. `.env.v2.production` carries the five public
+`V2_*` values (and optionally `DRILLCARDS_V2_ENV`, default `production`); the script reads
+`https://latin.drillcards.org/v2/environment.json` and refuses to deploy if `environment`,
+`supabaseUrl`, `siteUrl`, `dataEpoch` or `epochStartedAt` differ. Pass
+`--allow-environment-change` only for a deliberate change (server row and client together)
+or the very first deploy, when there is no live site yet. Never invent or ask for values in
+chat; if Wrangler is
+not logged in (`npx wrangler@4 login`, or `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`)
+tell the user — `wrangler login` needs them at the browser. By hand, confirm too:
 
 ```bash
-curl -s https://drillcards.org/version.json          # {"version":"X.Y.Z"}
-curl -s https://drillcards.org/sw.js | grep 'const VERSION'
+curl -s https://latin.drillcards.org/version.json          # {"version":"X.Y.Z"}
+curl -s https://latin.drillcards.org/sw.js | grep 'const VERSION'
 ```
 
 Report the live version. A bad deploy is undone with a rollback in the Cloudflare
-dashboard (Pages → drillcards → Deployments), then fix forward.
+dashboard (Pages → latin-drillcards → Deployments), then fix forward.
 
 If the page misbehaves for a user right after a release (blank cards, console
 error in `session-page.js`), suspect a stale cached script first, then ship a

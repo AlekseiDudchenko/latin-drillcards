@@ -16,5 +16,7 @@ Own infrastructure only: never reuse the German project's Supabase, Cloudflare P
 6. **Cloudflare Pages**: `npx wrangler login` (or `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`),
    `npx wrangler pages project create latin-drillcards --production-branch=main`, add the custom domain
    `latin.drillcards.org` (Pages → Custom domains; the DNS CNAME is created in the drillcards.org zone).
-7. **Release**: from a clean, up-to-date `main`: `npm run deploy` (builds, tests, uploads `public/`, checks
-   `/version.json`). Use `npm run deploy -- --dry-run` first.
+7. **Release**: from a clean checkout at `origin/main` with Node >= 22: `npm run deploy` (builds, tests,
+   uploads `public/`, checks `/version.json`). Use `npm run deploy -- --dry-run` first. The script refuses a
+   build whose environment or epoch differs from the live `/v2/environment.json`; the first deploy (no live
+   site yet) and deliberate changes need `-- --allow-environment-change`.
