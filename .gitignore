@@ -1,5 +1,5 @@
-# Node
-node_modules/
+# Node (no trailing slash: a symlinked node_modules in a worktree must be ignored too)
+node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

@@ -12,5 +12,8 @@ There is no v1 and no legacy compatibility.
 - Word IDs are permanent. Validate content (empty strings, duplicates) before committing.
 - The `article` component is dormant (Latin has no articles); it may become noun gender later.
 - Speech uses the device voice (`la`, falling back to `it`); there is no recorded audio yet.
-- Deploys are manual (`npm run deploy`) to a separate Cloudflare Pages project; never merge or deploy
-  without the user's go-ahead.
+- Deploys are manual (`npm run deploy`) to a separate Cloudflare Pages project, from a clean checkout
+  at `origin/main` (Node >= 22). The script builds with `.env.v2.production`, refuses a build whose
+  environment or epoch differs from the live site (`--allow-environment-change` for a deliberate change
+  or the first deploy), runs the tests, uploads `public/` and checks `/version.json`. Never merge or
+  deploy without the user's go-ahead.
