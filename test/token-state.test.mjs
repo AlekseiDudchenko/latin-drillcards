@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { answerTokens, arrangeTokens, becameFilled, dropIndex, initialTokenState, placeToken, resetTokens, returnToken,
   shiftToken, shuffledOrder, tokenAnswerText, toggleToken, validateTokens, validateTokenState } from '../public/v2/token-state.js';
-import { konjunktivTokenCard, sentenceAssemblyCard } from '../public/v2/token-tasks.js';
+import { sentenceAssemblyCard } from '../public/v2/token-tasks.js';
 
 // "ich" twice: identity must come from the ID, not the text.
 const tokens = answerTokens('s', ['Weil', 'ich', 'heute', 'habe,', 'kann', 'ich', 'kommen']);
@@ -112,9 +112,8 @@ test('drop index follows reading order across wrapped rows', () => {
   assert.equal(dropIndex([], 0, 0), 0);
 });
 
-test('two families map published content onto the same token input', () => {
+test('published sentences map onto the token input', () => {
   const sentences = JSON.parse(readFileSync(new URL('../public/data/sentences-a2.json', import.meta.url), 'utf8'));
-  const k2 = JSON.parse(readFileSync(new URL('../public/data/konjunktiv2-transformation.json', import.meta.url), 'utf8'));
   const sentence = sentenceAssemblyCard(sentences.find(item => item.id === 's_a2_1'), 'ru', [1, 0, 2, 3, 4, 5, 6, 7, 8]);
   assert.equal(sentence.input.kind, 'tokens');
   assert.equal(sentence.input.autoSubmit, true);
@@ -126,23 +125,10 @@ test('two families map published content onto the same token input', () => {
   assert.throws(() => sentenceAssemblyCard({ ...sentences[0], translation_en: '' }, 'en'), RangeError);
   assert.deepEqual(Object.keys(sentence.title).sort(), ['de', 'en', 'ru']);
 
-  const konjunktiv = konjunktivTokenCard(k2[0], 'ru');
-  assert.equal(konjunktiv.input.kind, 'tokens');
-  assert.equal(konjunktiv.input.autoSubmit, false, 'distractors: the learner checks explicitly');
-  assert.equal(konjunktiv.prompt.lang, 'de');
-  assert.equal(konjunktiv.speechText, undefined);
-  assert.deepEqual(konjunktiv.input.tokens.map(token => token.text).sort(), [...k2[0].tokens].sort());
-  assert.throws(() => konjunktivTokenCard({ id: 'x', sentence: 'y' }, 'ru'), RangeError);
-
   // Every published record of both families maps onto valid tokens.
   for (const file of ['a1', 'a2', 'b1', 'b2', 'c1', 'c2', 'arch', 'beruf']) {
     for (const item of JSON.parse(readFileSync(new URL(`../public/data/sentences-${file}.json`, import.meta.url), 'utf8'))) {
       validateTokens(sentenceAssemblyCard(item, 'ru').input.tokens);
-    }
-  }
-  for (const file of ['transformation', 'conditional', 'polite', 'past']) {
-    for (const item of JSON.parse(readFileSync(new URL(`../public/data/konjunktiv2-${file}.json`, import.meta.url), 'utf8'))) {
-      validateTokens(konjunktivTokenCard(item, 'ru').input.tokens);
     }
   }
 });

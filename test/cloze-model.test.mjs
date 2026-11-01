@@ -115,19 +115,3 @@ test('interchangeable slots accept any order but use each answer once', () => {
   assert.throws(() => evaluateCloze(definition, { ...key, interchangeable: [['slot-1', 'slot-9']] }, {}), RangeError);
   assert.throws(() => evaluateCloze(definition, { ...key, interchangeable: [['slot-1'], ['slot-1', 'slot-2']] }, {}), RangeError);
 });
-
-test('every v1 gaps.json and passiv-gaps.json item maps onto the same mechanism in both modes', () => {
-  const gaps = JSON.parse(readFileSync(new URL('../public/data/gaps.json', import.meta.url), 'utf8'));
-  const passiv = JSON.parse(readFileSync(new URL('../public/data/passiv-gaps.json', import.meta.url), 'utf8'));
-  const items = [...gaps.map(g => ({ id: `gap-${g.id}`, template: g.sentence, answers: [g.answer] })),
-    ...passiv.map(p => ({ id: p.id, template: p.template, answers: p.answers }))];
-  assert.ok(items.length > 50);
-  for (const item of items) for (const input of ['text', 'choice']) {
-    const options = [...new Set([...bank.map(option => option.id), ...item.answers])].map(label => ({ id: label, label }));
-    const definition = cloze(item.template, input, item.id, options);
-    assert.equal(definition.slots.length, item.answers.length, item.id);
-    const key = keyOf(item.answers.map(answer => [answer]));
-    const values = Object.fromEntries(definition.slots.map((slot, index) => [slot.slotId, item.answers[index]]));
-    assert.equal(evaluateCloze(definition, key, values).correct, true, item.id);
-  }
-});

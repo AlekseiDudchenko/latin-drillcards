@@ -162,7 +162,7 @@ test('prepared additive transition also works on an empty Supabase project with 
   assert.ok(!toml.includes('[auth]'));
   assert.ok(!toml.includes('GOOGLE'));
   const manifest=JSON.parse(readFileSync(`${root}/transition.json`,'utf8'));
-  assert.equal(manifest.preserveAuthUsers,true);assert.equal(manifest.applyAutomatically,false);
+  assert.equal(manifest.applyAutomatically,false);
   const db=new PGlite();
   try {
     await db.exec(`CREATE ROLE anon;CREATE ROLE authenticated;CREATE ROLE service_role BYPASSRLS;

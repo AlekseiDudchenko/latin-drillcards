@@ -18,13 +18,8 @@
     "catalog:import": "npm run build:core && node scripts/catalog-import.mjs",
     "catalog:datasets": "npm run build:core && node scripts/item-dataset-sql.mjs",
     "items:sentences": "node scripts/build-sentence-dataset.mjs",
-    "items:konjunktiv2": "node scripts/build-konjunktiv2-datasets.mjs",
-    "items:phrases": "node scripts/build-phrase-dataset.mjs",
-    "items:level-test": "node scripts/build-level-test-dataset.mjs",
-    "items:videos": "node scripts/build-video-datasets.mjs",
     "deploy": "node scripts/deploy.mjs",
-    "v2:prepare":"npm run build && node scripts/prepare-v2-deployment.mjs",
-    "audio:b2": "node scripts/word-audio-b2.mjs"
+    "v2:prepare": "npm run build && node scripts/prepare-v2-deployment.mjs"
   },
   "devDependencies": {
     "@electric-sql/pglite": "0.5.11",

@@ -4,8 +4,6 @@ import { openLearningPage } from './account-bar.js';
 import { startedCount, type CatalogIndex } from './home-model.js';
 import type { PageLearning } from './learning-context.js';
 import { SessionRunner, type RunnerEnvironment, type RunnerStore } from './session-runner.js';
-import { renderLevelResult, updateLevelResult } from './families/level-test/level-test-home.js';
-import { latestLevelResult, levelTestRuns } from './families/level-test/level-test-model.js';
 import { HUBS, SECTIONS } from './site-nav-model.js';
 import { dailyProgress, dueDeck, focusDeck, type DailyProgress } from './today-model.js';
 import { count, fill, TODAY_TEXT } from './today-i18n.js';
@@ -43,9 +41,6 @@ async function load(learned: PageLearning): Promise<Today> {
   const [index, data]: [CatalogIndex, Awaited<ReturnType<RunnerStore['restore']>>] = await Promise.all([learned.catalog.index(), store.restore(at)]);
   const progress = data.projections.map(item => item.progress);
   const context = { owner: store.owner, ...store.epoch, asOf: at };
-  updateLevelResult(data, context);
-  let recommended: string | undefined;
-  try { recommended = latestLevelResult(levelTestRuns(data, context))?.score.estimate?.start; } catch { /* no usable result */ }
   const answerLanguage = language === 'en' ? 'en' : 'ru';
   // One failed deck must not hide the others; its row simply has no due words.
   const files = await Promise.all(index.decks.map(deck => learned.catalog.deck(deck.id).catch(() => undefined)));
@@ -64,7 +59,7 @@ async function load(learned: PageLearning): Promise<Today> {
   const last = [...vocabulary].sort((a, b) => b.state.plan.createdAt.localeCompare(a.state.plan.createdAt))[0];
   const unfinished = vocabulary.filter(s => s.state.status !== 'completed' && s.state.status !== 'abandoned')
     .sort((a, b) => b.state.plan.createdAt.localeCompare(a.state.plan.createdAt))[0];
-  const focusId = focusDeck(decks, last ? (last.state.plan as VocabularySessionPlan).request.deckId : undefined, recommended);
+  const focusId = focusDeck(decks, last ? (last.state.plan as VocabularySessionPlan).request.deckId : undefined);
   const focus = decks.find(deck => deck.id === focusId);
   const mostDue = dueDeck(new Map(decks.map(deck => [deck.id, deck.due])));
   return { daily: dailyProgress(data.facts, at, Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'), decks,
@@ -87,9 +82,6 @@ function render(): void {
   $('title').textContent = t.title; $('languageLabel').textContent = sessionUiTranslations(language).interfaceLanguage;
   $('goalLabel').textContent = t.goal; $('streakLabel').textContent = t.streak; $('dueLabel').textContent = t.due;
   $('practiceLabel').textContent = t.practice; $('decksLabel').textContent = t.decks;
-  renderLevelResult($('levelResult'), language);
-  // The level-test line links to a deck by hash; on this page that means the deck screen.
-  const levelLink = $('levelResult').querySelector('a'); if (levelLink) levelLink.href = deckHref(levelLink.getAttribute('href')!.replace('#deck=', ''));
   renderPractice();
   if (!today) return;
   const { daily } = today; const left = Math.max(0, daily.goal - daily.today);
@@ -103,9 +95,7 @@ function render(): void {
 
 function renderPractice(): void {
   const groups = HUBS.practice.groups; const section = (id: string): string => groups.find(group => group.id === id)!.title[language];
-  const video = SECTIONS.find(item => item.id === 'video')!;
-  const links: [string, string][] = [['./sentences.html', section('sentences')], ['./listening.html', section('listening')],
-    ['./practice.html#group-grammar', section('grammar')], [`./${video.page}`, video.label[language]]];
+  const links: [string, string][] = [['./sentences.html', section('sentences')]];
   $('practiceLinks').replaceChildren(...links.map(([href, label]) => { const item = node('li'); const a = node('a', label); a.href = href; item.append(a); return item; }));
 }
 

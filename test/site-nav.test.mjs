@@ -4,8 +4,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { HUBS, SECTIONS, pageName, sectionFor } from '../public/v2/site-nav-model.js';
 
 test('every page of a section resolves to it, in any URL spelling', () => {
-  for (const [path, id] of [['/v2/session', 'words'], ['/v2/session.html', 'words'], ['./kasus.html', 'practice'], ['/v2/practice', 'practice'],
-    ['/v2/today.html', 'today'], ['/v2/video.html', 'video'], ['/v2/level-test.html', 'progress'], ['/v2/progress', 'progress']]) assert.equal(sectionFor(path), id, path);
+  for (const [path, id] of [['/v2/session', 'words'], ['/v2/session.html', 'words'], ['./sentences.html', 'practice'], ['/v2/practice', 'practice'],
+    ['/v2/today.html', 'today'], ['/v2/progress', 'progress']]) assert.equal(sectionFor(path), id, path);
   assert.equal(sectionFor('/v2/environment.html'), undefined);
   assert.equal(pageName('/v2/'), 'v2');
 });
@@ -32,10 +32,10 @@ test('hub links point at existing pages, are unique, and carry text in every lan
   for (const item of HUBS.practice.groups.flatMap(group => group.items)) { assert.ok(!seen.has(item.href), item.href); seen.add(item.href); }
 });
 
-test('every exercise page is reachable from the Practice hub, Progress or the Video section', () => {
+test('every exercise page is reachable from the Practice hub, or Progress', () => {
   const linked = new Set(Object.values(HUBS).flatMap(hub => hub.groups.flatMap(group => group.items.map(item => item.href.slice(2)))));
   for (const section of SECTIONS) linked.add(section.page);
-  for (const page of ['sentences', 'listening', 'gaps', 'kasus', 'konjunktiv2', 'redemittel', 'level-test', 'video', 'today', 'session']) assert.ok(linked.has(`${page}.html`), page);
+  for (const page of ['sentences', 'today', 'session']) assert.ok(linked.has(`${page}.html`), page);
 });
 
 test('hub pages declare their hub and load the hub module', () => {

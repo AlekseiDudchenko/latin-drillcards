@@ -9,7 +9,6 @@ import { SessionRunner, type CommandResult, type RunnerEnvironment, type RunnerS
 import { openLearningPage } from './account-bar.js';
 import type { CatalogSource, PageLearning } from './learning-context.js';
 import { WordDetails } from './word-details.js';
-import { renderLevelResult, updateLevelResult } from './families/level-test/level-test-home.js';
 import { wordTaskCard, wordTaskFeedback, wordTaskPresentation } from './word-task-card.js';
 
 const env: RunnerEnvironment = { now: () => new Date().toISOString(), id: () => crypto.randomUUID() };
@@ -300,7 +299,6 @@ async function plan(scope: RunnerStore, file: DeckFile, intent: 'learn-new' | 'r
 async function refreshProgress(scope: RunnerStore): Promise<void> {
   const data = await scope.restore(env.now());
   projections = data.projections.map(item => item.progress);
-  updateLevelResult(data, { owner: scope.owner, ...scope.epoch, asOf: env.now() });
   // Item sessions (M1–M8) continue on their family's page.
   const open = data.sessions.filter(s => !isItemSessionPlan(s.state.plan) && s.state.status !== 'completed' && s.state.status !== 'abandoned')
     .sort((a, b) => b.state.plan.createdAt.localeCompare(a.state.plan.createdAt))[0];
@@ -326,7 +324,6 @@ async function renderContinue(): Promise<void> {
 async function renderHome(): Promise<void> {
   const home = homeUiTranslations(language);
   document.title = `DrillCards · ${home.homeTitle}`;
-  renderLevelResult($('levelResult'), language);
   const list = $<HTMLUListElement>('decks');
   const index = await loadCatalog();
   const decks = searchDecks(index.decks, $<HTMLInputElement>('deckSearch').value);

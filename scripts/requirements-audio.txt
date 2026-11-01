@@ -1,2 +1,0 @@
-# Optional authoring dependency; never bundled into the client.
-edge-tts==7.3.1

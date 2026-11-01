@@ -10,7 +10,6 @@
 const base = location.pathname === '/de-trainer' || location.pathname.startsWith('/de-trainer/') ? '/de-trainer/' : '/';
 const target = base + 'v2/today.html';
 document.getElementById('continue').href = target;
-await import(base + 'retire-v1.js');
 location.replace(target);
 </script>
 </body></html>

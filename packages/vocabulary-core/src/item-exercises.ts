@@ -3,12 +3,6 @@ import { isLearningEvent, type LearningEvent } from './event.js';
 import type { BuildContext, Evaluation, InputKind, JsonValue, Task } from './exercise.js';
 import { germanSpellingForm, MAX_GERMAN_ANSWER_LENGTH } from './german-answer.js';
 import { SENTENCE_ASSEMBLY } from './families/sentences.js';
-import { GAP_SELECT, GAP_TYPE } from './families/gaps.js';
-import { LISTENING_TEXT, LISTENING_TOKENS } from './families/listening.js';
-import { KASUS_ARTICLE, KASUS_CASE, KASUS_QUESTION } from './families/kasus.js';
-import { KONJUNKTIV2_EXERCISES } from './families/konjunktiv2.js';
-import { PHRASE_RECALL } from './families/redemittel.js';
-import { LEVEL_TEST_CHOICE } from './families/level-test.js';
 
 /** G3 (#332): every non-word family (sentences, grammar, phrases, audio/video, tests) shares
  * one content port, one Task/Evaluation contract and one journal with the word exercises.
@@ -261,10 +255,5 @@ export const ITEM_SELF_CHECK: ItemExerciseDefinition = Object.freeze({
 });
 /** Definitions the server knows. A family adds its adapter here, so both sides evaluate the same way. */
 export const ITEM_EXERCISES: readonly ItemExerciseDefinition[] = Object.freeze([ITEM_CHOICE, ITEM_TEXT, ITEM_SELF_CHECK,
-  SENTENCE_ASSEMBLY, GAP_TYPE, GAP_SELECT,
-  LISTENING_TOKENS, LISTENING_TEXT,
-  KASUS_ARTICLE, KASUS_CASE, KASUS_QUESTION,
-  ...KONJUNKTIV2_EXERCISES,
-  PHRASE_RECALL,
-  LEVEL_TEST_CHOICE,
+  SENTENCE_ASSEMBLY,
 ]);
