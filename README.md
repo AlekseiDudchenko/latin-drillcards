@@ -1,12 +1,11 @@
-# DrillCards
+# Latin DrillCards
 
-German practice with vocabulary, sentence building, grammar, listening and video.
+Latin vocabulary and sentence practice with spaced repetition (FSRS), built on the
+[DrillCards](https://github.com/AlekseiDudchenko/de-trainer) platform: local-first, optional
+Google sign-in with cloud sync, RU/EN translations.
 
-**[drillcards.org](https://drillcards.org)** · **v2 is the only active application**
-
-V1 has been retired. The root and obsolete URLs open `/v2/today.html`.
-There is no v1 compatibility, dual runtime or old-progress import requirement.
-Existing Auth accounts and Google configuration are retained.
+Content is organised by the sections of the textbook lessons (Lectio I · A, B, T, …). Glosses
+are translated from the textbook's German and should be checked against a dictionary.
 
 ## Development
 
@@ -14,25 +13,23 @@ Existing Auth accounts and Google configuration are retained.
 npm ci
 npm run build
 npm test
-npx tsc -p test/tsconfig.json
-npm run test:e2e
-npm start
+npm start      # serves port 5173
 ```
 
-`npm start` serves port 5173. Tests import compiled modules: always build first.
-The build removes obsolete compiled v1 files before compiling the active client.
-V2 source lives in `src/client/v2/`, HTML in `public/v2/`, shared content in
-`public/data/`, and the learning model in `packages/vocabulary-core/`.
+Tests import compiled modules: always build first. V2 source lives in `src/client/v2/`,
+HTML in `public/v2/`, content in `public/data/`, and the learning model in
+`packages/vocabulary-core/`.
+
+## Adding vocabulary
+
+Add entries to `public/data/words-<deck>.json` (`id`, `la`, `pos`, `ru`, `en`, optional
+`exampleLa`/`exampleRu`/`exampleEn`, `tags`), register a new deck in `DECKS`
+(`scripts/vocabulary-seed.mjs`) and `SHARED_DECK_ORDER` (`src/client/v2/learning-context.ts`), then run
+`npm run seed:assign` and commit the updated `content/vocabulary/`. Word IDs are permanent.
+Macrons are optional when typing; case and u/v, i/j differences are recalled but not spelled.
 
 ## Deployment
 
-Deploy `public/` using the existing hosting configuration. Configure the v2
-backend explicitly; an unconfigured build is a local guest preview, not an online
-production deployment. See [v2 environments](docs/v2-environments.md).
-
-Apply [v1 API retirement](docs/v1-retirement.md) to the existing Supabase project.
-The prepared deployment includes `disable-v1.sql`. Static publication alone cannot
-close the old backend to previously opened tabs. Do not reapply historical v1
-migrations or reset the database/Auth.
-
-See [AGENTS.md](AGENTS.md) for the current development and release policy.
+Deploy `public/` to a separate Cloudflare Pages project on a subdomain, with its own Supabase
+project (fresh bootstrap: `docs/catalog-schema.md`, `docs/v2-environments.md`). An unconfigured
+build is a local guest preview. See [AGENTS.md](AGENTS.md).
