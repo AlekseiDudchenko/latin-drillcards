@@ -118,7 +118,7 @@ async function tryAgain(): Promise<void> {
 function localize(): void {
   const labels = sentenceUiTranslations(language);
   document.documentElement.lang = language;
-  document.title = `DrillCards · ${labels.title}`;
+  document.title = `Latin DrillCards · ${labels.title}`;
   $('title').textContent = labels.title;
   $('languageLabel').textContent = labels.interfaceLanguage;
   $('translationLabel').textContent = labels.translation;

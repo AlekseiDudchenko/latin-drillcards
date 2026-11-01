@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drillcards.org/sitemap.xml
+Sitemap: https://latin.drillcards.org/sitemap.xml

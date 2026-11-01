@@ -11,7 +11,7 @@ function detectBasePath(): string {
     const path = new URL(href, location.origin).pathname;
     return normalizePath(path);
   }
-  return IS_GH_PAGES ? '/de-trainer/' : '/';
+  return IS_GH_PAGES ? '/latin-drillcards/' : '/';
 }
 
 export const BASE: string = detectBasePath();

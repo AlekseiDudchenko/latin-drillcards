@@ -1,5 +1,5 @@
 // Pure, DOM-free cloze (gap) model: definitions, slot state and per-slot evaluation.
-// Knows nothing about German grammar topics, SRS, storage or the server.
+// Knows nothing about grammar topics, SRS, storage or the server.
 
 export interface ClozeOption { readonly id: string; readonly label: string }
 export type ClozeSegment = { readonly kind: 'text'; readonly text: string } | { readonly kind: 'slot'; readonly slotId: string };

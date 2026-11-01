@@ -78,7 +78,7 @@ function show(action: HTMLAnchorElement, label: string, href: string | undefined
 
 function render(): void {
   const t = TODAY_TEXT[language];
-  document.documentElement.lang = language; document.title = `DrillCards · ${t.title}`;
+  document.documentElement.lang = language; document.title = `Latin DrillCards · ${t.title}`;
   $('title').textContent = t.title; $('languageLabel').textContent = sessionUiTranslations(language).interfaceLanguage;
   $('goalLabel').textContent = t.goal; $('streakLabel').textContent = t.streak; $('dueLabel').textContent = t.due;
   $('practiceLabel').textContent = t.practice; $('decksLabel').textContent = t.decks;

@@ -1,7 +1,7 @@
 {
-  "name": "DrillCards \u2014 Train German until it clicks",
-  "short_name": "DrillCards",
-  "description": "Train German with DrillCards v2.",
+  "name": "Latin DrillCards — Learn Latin until it clicks",
+  "short_name": "Latin Drill",
+  "description": "Learn Latin vocabulary and sentences with spaced repetition.",
   "id": "/",
   "start_url": "/v2/today.html",
   "scope": "/",

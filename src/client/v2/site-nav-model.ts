@@ -40,7 +40,7 @@ export const HUBS: Readonly<Record<Hub['id'], Hub>> = {
     groups: [
       { id: 'sentences', title: { ru: 'Предложения', en: 'Sentences', de: 'Sätze' }, items: [
         { href: './sentences.html', title: { ru: 'Сборка предложений', en: 'Sentence building', de: 'Satzbau' },
-          hint: { ru: 'Расставьте слова по порядку; уровни и грамматические темы', en: 'Put the words in order; levels and grammar topics', de: 'Wörter ordnen; Niveaus und Grammatikthemen' } }] },
+          hint: { ru: 'Расставьте слова по порядку; колоды и грамматические темы', en: 'Put the words in order; decks and grammar topics', de: 'Wörter ordnen; Decks und Grammatikthemen' } }] },
     ],
   },
   progress: {
@@ -48,7 +48,7 @@ export const HUBS: Readonly<Record<Hub['id'], Hub>> = {
     groups: [
       { id: 'words', title: { ru: 'Слова', en: 'Words', de: 'Wörter' }, items: [
         { href: './session.html', title: { ru: 'Мои слова', en: 'My words', de: 'Meine Wörter' },
-          hint: { ru: 'Колоды A1–B2 и прогресс по каждому слову', en: 'Decks A1–B2 and progress for every word', de: 'Decks A1–B2 und der Fortschritt je Wort' } }] },
+          hint: { ru: 'Колоды уроков и прогресс по каждому слову', en: 'Lesson decks and progress for every word', de: 'Lektionsdecks und der Fortschritt je Wort' } }] },
     ],
   },
 };

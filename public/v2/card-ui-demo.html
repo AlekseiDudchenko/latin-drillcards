@@ -2,16 +2,16 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex"><title>DrillCards · карточки</title>
+  <meta name="robots" content="noindex"><title>Latin DrillCards · карточки</title>
   <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
   <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 </head>
 <body><main class="dc-demo">
-  <header><strong>DrillCards · Preview</strong><div>
+  <header><strong>Latin DrillCards · Preview</strong><div>
     <label><span id="languageLabel">Язык интерфейса</span> <select id="language" aria-labelledby="languageLabel"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
     <button id="theme" type="button" aria-label="Сменить тему">◐</button>
   </div></header>
   <nav aria-label="Карточки"><button id="choice" type="button">Выбор</button><button id="text" type="button">Ввод</button><button id="reveal" type="button">Вспомнить</button><button id="sentence" type="button">Предложение</button><button id="konjunktiv" type="button">Konjunktiv II</button></nav>
   <div id="card"></div><button id="restart" type="button">Ещё раз</button>
-</main><script type="module">await import("../retire-v1.js"); await import("./card-ui-demo.js");</script></body>
+</main><script type="module">await import("./card-ui-demo.js");</script></body>
 </html>

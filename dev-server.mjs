@@ -16,7 +16,7 @@ app.get(/.*/, (_req, res) => {
   res.sendFile(path.join(pub, 'index.html'))
 })
 
-const PORT = 5173
+const PORT = Number(process.env.PORT) || 5173
 app.listen(PORT, () => {
   console.log(`Local: http://localhost:${PORT}/`)
 })

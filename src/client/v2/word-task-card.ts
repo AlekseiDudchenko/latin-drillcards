@@ -16,7 +16,7 @@ export function wordTaskCard(registry: WordExerciseRegistry, source: Task): Card
   const title = titleKey ? Object.fromEntries((['en', 'ru', 'de'] as const).map(lang => [lang, cardUiTranslations(lang)[titleKey]])) as Record<Lang, string> : undefined;
   return { ...(title ? { title } : {}), id: task.id, prompt: spec.prompt, input, word, translationLanguage: spec.answerLanguage,
     speechText: [word.article, word.lemma].filter(Boolean).join(' '),
-    // Introduction and from German: read up front. Into German: read after a correct answer.
+    // Introduction and from Latin: read up front. Into Latin: read after a correct answer.
     autoSpeak: task.exerciseId === 'introduction' || task.exerciseId === 'meaning-choice' || task.exerciseId === 'meaning-recall' ? 'start' : 'correct' };
 }
 

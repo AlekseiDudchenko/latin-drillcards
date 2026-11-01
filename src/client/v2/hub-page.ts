@@ -12,7 +12,7 @@ let language = stored();
 
 function render(): void {
   document.documentElement.lang = language;
-  document.title = `DrillCards · ${hub.title[language]}`;
+  document.title = `Latin DrillCards · ${hub.title[language]}`;
   $('title').textContent = hub.title[language];
   $('languageLabel').textContent = sessionUiTranslations(language).interfaceLanguage;
   const groups = $('groups'); groups.replaceChildren();

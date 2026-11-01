@@ -10,9 +10,9 @@ const DISMISS_KEY = 'install_dismissed';
 const IOS_HINT_DELAY_MS = 4000;
 
 const labels = {
-  ru: { text: 'Установите DrillCards — быстрый доступ и занятия офлайн.', ios: 'Чтобы установить: нажмите «Поделиться», затем «На экран „Домой“».', install: 'Установить', later: 'Позже' },
-  en: { text: 'Install DrillCards for quick access and offline practice.', ios: 'To install: tap the Share button, then “Add to Home Screen”.', install: 'Install', later: 'Not now' },
-  de: { text: 'Installiere DrillCards für schnellen Zugriff und Üben offline.', ios: 'Zum Installieren: auf „Teilen“ tippen, dann „Zum Home-Bildschirm“.', install: 'Installieren', later: 'Später' },
+  ru: { text: 'Установите Latin DrillCards — быстрый доступ и занятия офлайн.', ios: 'Чтобы установить: нажмите «Поделиться», затем «На экран „Домой“».', install: 'Установить', later: 'Позже' },
+  en: { text: 'Install Latin DrillCards for quick access and offline practice.', ios: 'To install: tap the Share button, then “Add to Home Screen”.', install: 'Install', later: 'Not now' },
+  de: { text: 'Installiere Latin DrillCards für schnellen Zugriff und Üben offline.', ios: 'Zum Installieren: auf „Teilen“ tippen, dann „Zum Home-Bildschirm“.', install: 'Installieren', later: 'Später' },
 } satisfies Record<Lang, Record<string, string>>;
 
 function isStandalone(): boolean {
@@ -52,7 +52,7 @@ export function mountInstallPrompt(): () => void {
     mode = next;
     if (banner) { render(); return; }
     banner = document.createElement('div'); banner.id = 'install-banner'; banner.className = 'install-banner';
-    banner.setAttribute('role', 'dialog'); banner.setAttribute('aria-label', 'DrillCards');
+    banner.setAttribute('role', 'dialog'); banner.setAttribute('aria-label', 'Latin DrillCards');
     const text = document.createElement('span'); text.className = 'install-text';
     const actions = document.createElement('span'); actions.className = 'install-actions';
     const accept = document.createElement('button'); accept.type = 'button'; accept.className = 'install-accept';

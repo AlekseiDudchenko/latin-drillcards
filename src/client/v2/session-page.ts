@@ -75,7 +75,7 @@ const headword = (word: Word): string => [word.article, word.lemma].filter(Boole
 const translation = (): TranslationLanguage => $<HTMLSelectElement>('translation').value as TranslationLanguage;
 const exerciseNames = (): Record<Exclude<WordExerciseId, 'introduction'>, string> => {
   const cards = cardUiTranslations(language); const lang = translation().toUpperCase();
-  return { 'meaning-choice': `DE → ${lang}`, 'target-choice': `${lang} → DE`, 'meaning-recall': cards.revealTitle,
+  return { 'meaning-choice': `LA → ${lang}`, 'target-choice': `${lang} → LA`, 'meaning-recall': cards.revealTitle,
     'target-type': cards.wordTypeTitle, 'article-choice': cards.articleTitle, 'target-with-article-type': cards.wordArticleTypeTitle };
 };
 function componentNames(): Record<Component, string> {
@@ -323,7 +323,7 @@ async function renderContinue(): Promise<void> {
 
 async function renderHome(): Promise<void> {
   const home = homeUiTranslations(language);
-  document.title = `DrillCards · ${home.homeTitle}`;
+  document.title = `Latin DrillCards · ${home.homeTitle}`;
   const list = $<HTMLUListElement>('decks');
   const index = await loadCatalog();
   const decks = searchDecks(index.decks, $<HTMLInputElement>('deckSearch').value);
@@ -351,7 +351,7 @@ function renderDeck(): void {
   if (!shownDeck || !scope) return;
   const home = homeUiTranslations(language);
   const stats = overview();
-  document.title = `DrillCards · ${shownDeck.deck.title}`;
+  document.title = `Latin DrillCards · ${shownDeck.deck.title}`;
   $('deckBack').textContent = home.allDecks;
   $('deckTitle').textContent = shownDeck.deck.title;
   $('deckStats').textContent = fill(home.deckStats, { total: String(stats.total), started: String(stats.started),
@@ -454,7 +454,7 @@ function renderWord(index: CatalogIndex): void {
   const result = wordSummary(word, projections, env.now());
   const stages = { unintroduced: home.stageUnintroduced, learning: home.stageLearning, review: home.stageReview, relearning: home.stageRelearning };
   const names = componentNames();
-  document.title = `DrillCards · ${headword(word)}`;
+  document.title = `Latin DrillCards · ${headword(word)}`;
   $('wordBack').textContent = home.backToDeck;
   ($<HTMLAnchorElement>('wordBack')).href = routeHash({ view: 'deck', deckId });
   const title = node('h2', headword(word)); title.lang = 'la';
@@ -487,7 +487,7 @@ async function openRoute(route: Route, scope: RunnerStore, seq: number): Promise
       if (seq !== navigation) { resumed.dispose(); return; }
       attach(resumed);
     }
-    document.title = `DrillCards · ${sessionUiTranslations(language).title}`;
+    document.title = `Latin DrillCards · ${sessionUiTranslations(language).title}`;
     show('session'); render(runner!.view); return;
   }
   await refreshProgress(scope);
@@ -567,7 +567,7 @@ $('wordSearch').addEventListener('input', renderWords, { signal });
 for (const id of ['wordPart', 'wordSort']) $(id).addEventListener('change', renderWords, { signal });
 $('language').addEventListener('change', event => {
   language = (event.target as HTMLSelectElement).value as Lang; localize();
-  if (current.view === 'session') { document.title = `DrillCards · ${sessionUiTranslations(language).title}`; render(runner?.view); }
+  if (current.view === 'session') { document.title = `Latin DrillCards · ${sessionUiTranslations(language).title}`; render(runner?.view); }
   else void navigate();
 }, { signal });
 $('translation').addEventListener('change', () => { localize(); renderDeck(); renderWords(); }, { signal });

@@ -45,7 +45,7 @@ export function searchDecks(decks: readonly Deck[], query: string): readonly Dec
   return q ? decks.filter(deck => fold(deck.title).includes(q) || fold(deck.id).includes(q)) : decks;
 }
 
-/** German headword (with article) or any published translation. */
+/** Headword (with article, if any) or any published translation. */
 export function searchWords(words: readonly Word[], query: string): readonly Word[] {
   const q = fold(query);
   if (!q) return words;
