@@ -1,16 +1,8 @@
 # V2 environments, Google login and deployment (F4 / #308)
 
-> **Current policy — 2026-10-30:** V1 is retired. Any requirement below to keep
-> its client/API working, defer retirement to R3 or verify v1 before releasing v2
-> is superseded by [v1-retirement.md](v1-retirement.md) and [AGENTS.md](../AGENTS.md).
-> Auth/accounts and historical rows stay; v1 compatibility and parallel operation
-> are not release requirements. Run `disable-v1.sql` on the existing project.
-
-Deployment now targets the **existing** Supabase project `xdwacapyjeeeeemlkaqq`.
-The current plan and application steps are in
-[v2-existing-project-transition.md](v2-existing-project-transition.md). Existing
-Auth accounts, Google provider settings and v1 data remain intact. No new project,
-DB reset or provider credential replacement is required by this preparation.
+> **Latin DrillCards:** this project deploys to its own Supabase project and Cloudflare Pages
+> project (`latin-drillcards`, `https://latin.drillcards.org`). See [deploy-latin.md](deploy-latin.md).
+> Sections below that mention an "existing project", v1 or `disable-v1.sql` are historical.
 
 ## Public configuration and build
 
@@ -31,13 +23,13 @@ server/provider secrets and arbitrary JSON fields remain excluded. Client storag
 is still separated by environment/project/epoch, even when Auth UUIDs and API URL
 are shared with v1. No old local Auth/progress/outbox is silently imported.
 
-The checked-in `config/v2/existing-preview.env.example` contains only already-public
+The checked-in `.env.v2.production` contains only already-public
 settings for the current project and `/v2/` on the existing site. It is opt-in:
 
 ```sh
 npm run build
-node --env-file=config/v2/existing-preview.env.example scripts/build-v2-environment.mjs
-node --env-file=config/v2/existing-preview.env.example scripts/prepare-v2-deployment.mjs
+node --env-file=.env.v2.production scripts/build-v2-environment.mjs
+node --env-file=.env.v2.production scripts/prepare-v2-deployment.mjs
 ```
 
 Use a private copy for another preview origin. Preparation only generates files;
@@ -87,7 +79,7 @@ Deployment uses an explicit `--project-ref`; the complete commands and ordering
 are in the transition runbook. After deployment:
 
 ```sh
-node --env-file=config/v2/existing-preview.env.example scripts/v2-smoke.mjs
+node --env-file=.env.v2.production scripts/v2-smoke.mjs
 ```
 
 An optional private `V2_TEST_ACCESS_TOKEN` stays in headers/memory and is never

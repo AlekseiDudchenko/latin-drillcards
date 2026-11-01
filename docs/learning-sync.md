@@ -98,7 +98,7 @@ are fixtures; a live preview check of the deployed function is still needed.
 
 ```sh
 npx --yes --package=deno deno check --check-js supabase/v2/functions/v2-learning-events/handler.js
-node --env-file=config/v2/existing-preview.env.example scripts/prepare-v2-deployment.mjs
+node --env-file=.env.v2.production scripts/prepare-v2-deployment.mjs
 npx --yes --package=deno deno check build/v2/preview/supabase/functions/v2-learning-events/index.ts
 ```
 

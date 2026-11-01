@@ -3,8 +3,8 @@ import { existsSync, readFileSync } from 'node:fs';
 
 // Production deploy straight to Cloudflare Pages from this machine: no CI, no Git integration.
 // Usage: npm run deploy [-- --dry-run]. Needs `wrangler login` (or CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID).
-const PROJECT = 'drillcards';
-const SITE = 'https://drillcards.org';
+const PROJECT = 'latin-drillcards'; // its own Cloudflare Pages project: never the German 'drillcards' one
+const SITE = 'https://latin.drillcards.org';
 const ENV_FILE = '.env.v2.production'; // git-ignored (.env.v2.*): the five public V2_* values of the hosted build
 const KEYS = ['V2_SUPABASE_URL', 'V2_SUPABASE_PUBLISHABLE_KEY', 'V2_SITE_URL', 'V2_DATA_EPOCH', 'V2_EPOCH_STARTED_AT'];
 const dryRun = process.argv.includes('--dry-run');
