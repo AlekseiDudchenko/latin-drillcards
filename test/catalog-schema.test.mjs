@@ -4,7 +4,8 @@ import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
 import { assertDecks, assertPublishedWord } from '../packages/vocabulary-core/dist/index.js';
-import { buildSeed, loadSources, IDENTITIES_PATH } from '../scripts/vocabulary-seed.mjs';
+import { buildSeed } from '../scripts/vocabulary-seed.mjs';
+import { sampleIdentities, sampleSources } from './fixtures/sample-seed.mjs';
 import { catalogSeedSql } from '../scripts/catalog-bootstrap.mjs';
 
 const A='00000000-0000-4000-8000-000000000001';
@@ -12,7 +13,7 @@ const B='00000000-0000-4000-8000-000000000002';
 const REF='7db7afee5acec66afd8612f186281dfe97b0cbf1';
 const schema=readFileSync(new URL('../supabase/v2/transition/fresh-project-preflight.sql',import.meta.url),'utf8')+
   readFileSync(new URL('../supabase/v2/migrations/001_catalog.sql',import.meta.url),'utf8');
-const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
+const seed=buildSeed(sampleIdentities,sampleSources);
 const seedSql=catalogSeedSql(seed,{sourceRef:REF});
 let db;
 let txDepth=0;

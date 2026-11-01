@@ -5,8 +5,9 @@ import { assertDecks, assertPublishedWord, createWordExerciseRegistry, evaluateT
 import { IDENTITIES_PATH, REPORT_PATH, assignIdentities, buildSeed, duplicateReport, loadSources,
   normalizeEntry, sameSense } from '../scripts/vocabulary-seed.mjs';
 
-const identities = JSON.parse(readFileSync(IDENTITIES_PATH, 'utf8'));
-const sources = loadSources();
+import { sampleIdentities as identities, sampleSources as sources } from './fixtures/sample-seed.mjs';
+
+const committed = JSON.parse(readFileSync(IDENTITIES_PATH, 'utf8'));
 const seed = buildSeed(identities, sources);
 const byId = new Map(seed.words.map(word => [word.id, word]));
 const wordOf = source => identities.words.find(word => word.sources.includes(source))?.id;
@@ -14,12 +15,13 @@ const entry = (patch, id = 'x1', deck = 'basic') => normalizeEntry(deck, { id, l
   exampleLa: 'Liber meus est.', exampleRu: 'Это моя книга.', exampleEn: 'The book is mine.', tags: [], ...patch });
 
 test('the committed identity table and report are current: seed:assign would change nothing', () => {
-  assert.deepEqual(assignIdentities(identities, sources), identities);
-  assert.equal(readFileSync(REPORT_PATH, 'utf8'), duplicateReport(identities, sources));
+  const published = loadSources();
+  assert.deepEqual(assignIdentities(committed, published), committed);
+  assert.equal(readFileSync(REPORT_PATH, 'utf8'), duplicateReport(committed, published));
 });
 
 test('the seed is repeatable and every source entry belongs to exactly one word', () => {
-  assert.equal(JSON.stringify(buildSeed(identities, loadSources())), JSON.stringify(seed));
+  assert.equal(JSON.stringify(buildSeed(identities, sources)), JSON.stringify(seed));
   const mapped = identities.words.flatMap(word => word.sources);
   assert.equal(new Set(mapped).size, mapped.length);
   assert.deepEqual(new Set(mapped), new Set(sources.entries.map(e => e.source)));

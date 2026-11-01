@@ -1,0 +1,20 @@
+{
+  "w_l1a_7": {
+    "examples": [
+      {
+        "text": "Etiam domina ibi est.",
+        "ru": "Госпожа тоже там.",
+        "en": "The mistress is also there."
+      }
+    ]
+  },
+  "w_l1a_8": {
+    "examples": [
+      {
+        "text": "Et Syrus ibi est.",
+        "ru": "И Сир там.",
+        "en": "Syrus is there too."
+      }
+    ]
+  }
+}

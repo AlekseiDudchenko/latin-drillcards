@@ -675,122 +675,8 @@
    "contentHash": "f86c4e3d1b6dbe2d"
   },
   {
-   "id": "w-rosa",
-   "sources": [
-    "basic:w_basic_1"
-   ],
-   "senses": [
-    {
-     "lemma": "rosa",
-     "partOfSpeech": "noun",
-     "ru": "роза",
-     "en": "rose"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "72e7c70b6ea718d3"
-  },
-  {
-   "id": "w-aqua",
-   "sources": [
-    "basic:w_basic_2"
-   ],
-   "senses": [
-    {
-     "lemma": "aqua",
-     "partOfSpeech": "noun",
-     "ru": "вода",
-     "en": "water"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "f1b941f4fdb4c6b5"
-  },
-  {
-   "id": "w-terra",
-   "sources": [
-    "basic:w_basic_3"
-   ],
-   "senses": [
-    {
-     "lemma": "terra",
-     "partOfSpeech": "noun",
-     "ru": "земля",
-     "en": "earth, land"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "1252af27e1913d3c"
-  },
-  {
-   "id": "w-via",
-   "sources": [
-    "basic:w_basic_4"
-   ],
-   "senses": [
-    {
-     "lemma": "via",
-     "partOfSpeech": "noun",
-     "ru": "дорога",
-     "en": "road, way"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "818b2e3055fbf7f6"
-  },
-  {
-   "id": "w-puella",
-   "sources": [
-    "basic:w_basic_5"
-   ],
-   "senses": [
-    {
-     "lemma": "puella",
-     "partOfSpeech": "noun",
-     "ru": "девочка",
-     "en": "girl"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "5d5a627d71f66cf3"
-  },
-  {
-   "id": "w-puer",
-   "sources": [
-    "basic:w_basic_6"
-   ],
-   "senses": [
-    {
-     "lemma": "puer",
-     "partOfSpeech": "noun",
-     "ru": "мальчик",
-     "en": "boy"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "feebdb8b28915ab0"
-  },
-  {
-   "id": "w-liber",
-   "sources": [
-    "basic:w_basic_9"
-   ],
-   "senses": [
-    {
-     "lemma": "liber",
-     "partOfSpeech": "noun",
-     "ru": "книга",
-     "en": "book"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "93780ce164f98843"
-  },
-  {
    "id": "w-amicus",
-   "sources": [
-    "basic:w_basic_10"
-   ],
+   "sources": [],
    "senses": [
     {
      "lemma": "amicus",
@@ -800,126 +686,12 @@
     }
    ],
    "contentVersion": 1,
-   "contentHash": "cf4dba7890588ed2"
-  },
-  {
-   "id": "w-vir",
-   "sources": [
-    "basic:w_basic_11"
-   ],
-   "senses": [
-    {
-     "lemma": "vir",
-     "partOfSpeech": "noun",
-     "ru": "мужчина, муж",
-     "en": "man"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "c2b370b02b1fd2c8"
-  },
-  {
-   "id": "w-urbs",
-   "sources": [
-    "basic:w_basic_12"
-   ],
-   "senses": [
-    {
-     "lemma": "urbs",
-     "partOfSpeech": "noun",
-     "ru": "город",
-     "en": "city"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "c14290ed7423db47"
-  },
-  {
-   "id": "w-rex",
-   "sources": [
-    "basic:w_basic_13"
-   ],
-   "senses": [
-    {
-     "lemma": "rex",
-     "partOfSpeech": "noun",
-     "ru": "царь, король",
-     "en": "king"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "a845f0124a4438fb"
-  },
-  {
-   "id": "w-mater",
-   "sources": [
-    "basic:w_basic_15"
-   ],
-   "senses": [
-    {
-     "lemma": "mater",
-     "partOfSpeech": "noun",
-     "ru": "мать",
-     "en": "mother"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "e94ea85587b151a9"
-  },
-  {
-   "id": "w-pater",
-   "sources": [
-    "basic:w_basic_16"
-   ],
-   "senses": [
-    {
-     "lemma": "pater",
-     "partOfSpeech": "noun",
-     "ru": "отец",
-     "en": "father"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "87b6dd11250965d1"
-  },
-  {
-   "id": "w-bonus",
-   "sources": [
-    "basic:w_basic_17"
-   ],
-   "senses": [
-    {
-     "lemma": "bonus",
-     "partOfSpeech": "adjective",
-     "ru": "хороший, добрый",
-     "en": "good"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "eb681d816e401671"
-  },
-  {
-   "id": "w-magnus",
-   "sources": [
-    "basic:w_basic_18"
-   ],
-   "senses": [
-    {
-     "lemma": "magnus",
-     "partOfSpeech": "adjective",
-     "ru": "большой, великий",
-     "en": "large, great"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "ea53611fe6ae732c"
+   "contentHash": "cf4dba7890588ed2",
+   "retired": true
   },
   {
    "id": "w-amo",
-   "sources": [
-    "verbs:w_verbs_1",
-    "verbs:w_verbs_13"
-   ],
+   "sources": [],
    "senses": [
     {
      "lemma": "amo",
@@ -935,125 +707,27 @@
     }
    ],
    "contentVersion": 1,
-   "contentHash": "4b9e8607a7e1acc0"
+   "contentHash": "4b9e8607a7e1acc0",
+   "retired": true
   },
   {
-   "id": "w-laudo",
-   "sources": [
-    "verbs:w_verbs_2"
-   ],
+   "id": "w-aqua",
+   "sources": [],
    "senses": [
     {
-     "lemma": "laudo",
-     "partOfSpeech": "verb",
-     "ru": "хвалить",
-     "en": "to praise"
+     "lemma": "aqua",
+     "partOfSpeech": "noun",
+     "ru": "вода",
+     "en": "water"
     }
    ],
    "contentVersion": 1,
-   "contentHash": "a2f3b82738d1d403"
-  },
-  {
-   "id": "w-video",
-   "sources": [
-    "verbs:w_verbs_3"
-   ],
-   "senses": [
-    {
-     "lemma": "video",
-     "partOfSpeech": "verb",
-     "ru": "видеть",
-     "en": "to see"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "dce4ce35a881e970"
-  },
-  {
-   "id": "w-habeo",
-   "sources": [
-    "verbs:w_verbs_4"
-   ],
-   "senses": [
-    {
-     "lemma": "habeo",
-     "partOfSpeech": "verb",
-     "ru": "иметь",
-     "en": "to have"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "d0dbcad4d961b6a4"
-  },
-  {
-   "id": "w-timeo",
-   "sources": [
-    "verbs:w_verbs_5"
-   ],
-   "senses": [
-    {
-     "lemma": "timeo",
-     "partOfSpeech": "verb",
-     "ru": "бояться",
-     "en": "to fear"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "fc463945d02b78e7"
-  },
-  {
-   "id": "w-lego",
-   "sources": [
-    "verbs:w_verbs_6"
-   ],
-   "senses": [
-    {
-     "lemma": "lego",
-     "partOfSpeech": "verb",
-     "ru": "читать",
-     "en": "to read"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "c5c764ae9dac2647"
-  },
-  {
-   "id": "w-scribo",
-   "sources": [
-    "verbs:w_verbs_7"
-   ],
-   "senses": [
-    {
-     "lemma": "scribo",
-     "partOfSpeech": "verb",
-     "ru": "писать",
-     "en": "to write"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "8637021ac1185efc"
-  },
-  {
-   "id": "w-rego",
-   "sources": [
-    "verbs:w_verbs_8"
-   ],
-   "senses": [
-    {
-     "lemma": "rego",
-     "partOfSpeech": "verb",
-     "ru": "править, управлять",
-     "en": "to rule"
-    }
-   ],
-   "contentVersion": 1,
-   "contentHash": "3336593916a89bed"
+   "contentHash": "f1b941f4fdb4c6b5",
+   "retired": true
   },
   {
    "id": "w-audio",
-   "sources": [
-    "verbs:w_verbs_9"
-   ],
+   "sources": [],
    "senses": [
     {
      "lemma": "audio",
@@ -1063,29 +737,27 @@
     }
    ],
    "contentVersion": 1,
-   "contentHash": "32f6d4b621ee500d"
+   "contentHash": "32f6d4b621ee500d",
+   "retired": true
   },
   {
-   "id": "w-venio",
-   "sources": [
-    "verbs:w_verbs_10"
-   ],
+   "id": "w-bonus",
+   "sources": [],
    "senses": [
     {
-     "lemma": "venio",
-     "partOfSpeech": "verb",
-     "ru": "приходить",
-     "en": "to come"
+     "lemma": "bonus",
+     "partOfSpeech": "adjective",
+     "ru": "хороший, добрый",
+     "en": "good"
     }
    ],
    "contentVersion": 1,
-   "contentHash": "fe24337704f73011"
+   "contentHash": "eb681d816e401671",
+   "retired": true
   },
   {
    "id": "w-do",
-   "sources": [
-    "verbs:w_verbs_11"
-   ],
+   "sources": [],
    "senses": [
     {
      "lemma": "do",
@@ -1095,13 +767,207 @@
     }
    ],
    "contentVersion": 1,
-   "contentHash": "f5610838eb172a01"
+   "contentHash": "f5610838eb172a01",
+   "retired": true
+  },
+  {
+   "id": "w-habeo",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "habeo",
+     "partOfSpeech": "verb",
+     "ru": "иметь",
+     "en": "to have"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "d0dbcad4d961b6a4",
+   "retired": true
+  },
+  {
+   "id": "w-laudo",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "laudo",
+     "partOfSpeech": "verb",
+     "ru": "хвалить",
+     "en": "to praise"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "a2f3b82738d1d403",
+   "retired": true
+  },
+  {
+   "id": "w-lego",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "lego",
+     "partOfSpeech": "verb",
+     "ru": "читать",
+     "en": "to read"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "c5c764ae9dac2647",
+   "retired": true
+  },
+  {
+   "id": "w-liber",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "liber",
+     "partOfSpeech": "noun",
+     "ru": "книга",
+     "en": "book"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "93780ce164f98843",
+   "retired": true
+  },
+  {
+   "id": "w-magnus",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "magnus",
+     "partOfSpeech": "adjective",
+     "ru": "большой, великий",
+     "en": "large, great"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "ea53611fe6ae732c",
+   "retired": true
+  },
+  {
+   "id": "w-mater",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "mater",
+     "partOfSpeech": "noun",
+     "ru": "мать",
+     "en": "mother"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "e94ea85587b151a9",
+   "retired": true
+  },
+  {
+   "id": "w-pater",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "pater",
+     "partOfSpeech": "noun",
+     "ru": "отец",
+     "en": "father"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "87b6dd11250965d1",
+   "retired": true
+  },
+  {
+   "id": "w-puella",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "puella",
+     "partOfSpeech": "noun",
+     "ru": "девочка",
+     "en": "girl"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "5d5a627d71f66cf3",
+   "retired": true
+  },
+  {
+   "id": "w-puer",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "puer",
+     "partOfSpeech": "noun",
+     "ru": "мальчик",
+     "en": "boy"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "feebdb8b28915ab0",
+   "retired": true
+  },
+  {
+   "id": "w-rego",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "rego",
+     "partOfSpeech": "verb",
+     "ru": "править, управлять",
+     "en": "to rule"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "3336593916a89bed",
+   "retired": true
+  },
+  {
+   "id": "w-rex",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "rex",
+     "partOfSpeech": "noun",
+     "ru": "царь, король",
+     "en": "king"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "a845f0124a4438fb",
+   "retired": true
+  },
+  {
+   "id": "w-rosa",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "rosa",
+     "partOfSpeech": "noun",
+     "ru": "роза",
+     "en": "rose"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "72e7c70b6ea718d3",
+   "retired": true
+  },
+  {
+   "id": "w-scribo",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "scribo",
+     "partOfSpeech": "verb",
+     "ru": "писать",
+     "en": "to write"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "8637021ac1185efc",
+   "retired": true
   },
   {
    "id": "w-sum",
-   "sources": [
-    "verbs:w_verbs_12"
-   ],
+   "sources": [],
    "senses": [
     {
      "lemma": "sum",
@@ -1111,7 +977,113 @@
     }
    ],
    "contentVersion": 1,
-   "contentHash": "bdc405d8163d02e4"
+   "contentHash": "bdc405d8163d02e4",
+   "retired": true
+  },
+  {
+   "id": "w-terra",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "terra",
+     "partOfSpeech": "noun",
+     "ru": "земля",
+     "en": "earth, land"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "1252af27e1913d3c",
+   "retired": true
+  },
+  {
+   "id": "w-timeo",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "timeo",
+     "partOfSpeech": "verb",
+     "ru": "бояться",
+     "en": "to fear"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "fc463945d02b78e7",
+   "retired": true
+  },
+  {
+   "id": "w-urbs",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "urbs",
+     "partOfSpeech": "noun",
+     "ru": "город",
+     "en": "city"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "c14290ed7423db47",
+   "retired": true
+  },
+  {
+   "id": "w-venio",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "venio",
+     "partOfSpeech": "verb",
+     "ru": "приходить",
+     "en": "to come"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "fe24337704f73011",
+   "retired": true
+  },
+  {
+   "id": "w-via",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "via",
+     "partOfSpeech": "noun",
+     "ru": "дорога",
+     "en": "road, way"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "818b2e3055fbf7f6",
+   "retired": true
+  },
+  {
+   "id": "w-video",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "video",
+     "partOfSpeech": "verb",
+     "ru": "видеть",
+     "en": "to see"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "dce4ce35a881e970",
+   "retired": true
+  },
+  {
+   "id": "w-vir",
+   "sources": [],
+   "senses": [
+    {
+     "lemma": "vir",
+     "partOfSpeech": "noun",
+     "ru": "мужчина, муж",
+     "en": "man"
+    }
+   ],
+   "contentVersion": 1,
+   "contentHash": "c2b370b02b1fd2c8",
+   "retired": true
   }
  ]
 }

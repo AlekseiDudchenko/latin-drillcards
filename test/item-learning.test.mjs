@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
 import * as core from '../packages/vocabulary-core/dist/index.js';
-import { buildSeed, loadSources, IDENTITIES_PATH } from '../scripts/vocabulary-seed.mjs';
+import { buildSeed } from '../scripts/vocabulary-seed.mjs';
+import { sampleIdentities, sampleSources } from './fixtures/sample-seed.mjs';
 import { catalogSeedSql } from '../scripts/catalog-bootstrap.mjs';
 import { itemDatasetSql } from '../scripts/item-dataset-sql.mjs';
 import { ingestLearningEvents } from '../supabase/v2/functions/v2-learning-events/handler.js';
@@ -88,7 +89,7 @@ describe('G3: shared item contracts in the core',()=>{
   });
 
   test('a word an item mentions gets no SRS progress, and a word assessment is not SRS evidence',()=>{
-    const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
+    const seed=buildSeed(sampleIdentities,sampleSources);
     const rosa=seed.words.find(w=>w.id==='w-rosa');
     const t=items.buildTask('item-choice','sample-sentences','s1',ctx('m1'));
     assert.deepEqual(items.getItem('sample-sentences','s1').wordIds,['w-rosa']);
@@ -198,7 +199,7 @@ describe('G3: server intake of item events (migrations 001–004)',()=>{
       INSERT INTO auth.users VALUES ('${A}'),('${B}');
       ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO anon,authenticated,service_role;
       ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT EXECUTE ON FUNCTIONS TO anon,authenticated;`);
-    const seed=buildSeed(JSON.parse(readFileSync(IDENTITIES_PATH,'utf8')),loadSources());
+    const seed=buildSeed(sampleIdentities,sampleSources);
     await db.exec('BEGIN;\n'+read('transition/fresh-project-preflight.sql')+read('migrations/001_catalog.sql')+read('migrations/002_environment.sql')+
       catalogSeedSql(seed,{sourceRef:REF})+`INSERT INTO public.v2_environment VALUES (true,1,'local','${EPOCH.dataEpoch}','${EPOCH.epochStartedAt}');\nCOMMIT;`);
     await db.exec('BEGIN;\n'+read('transition/learning-preflight.sql')+read('migrations/003_learning.sql')+'\nCOMMIT;');

@@ -2,7 +2,8 @@ import { after, before, describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
-import { assignIdentities, buildSeed, loadSources, normalizeEntry, IDENTITIES_PATH } from '../scripts/vocabulary-seed.mjs';
+import { assignIdentities, buildSeed, normalizeEntry } from '../scripts/vocabulary-seed.mjs';
+import { sampleIdentities, sampleSources } from './fixtures/sample-seed.mjs';
 import { catalogSeedSql } from '../scripts/catalog-bootstrap.mjs';
 import { catalogImportSql, catalogStateQuery, planCatalogImport } from '../scripts/catalog-import.mjs';
 
@@ -11,8 +12,8 @@ const REF='7db7afee5acec66afd8612f186281dfe97b0cbf1';
 const NEXT='a23d2d2c0ffee0000000000000000000000000aa';
 const schema=readFileSync(new URL('../supabase/v2/transition/fresh-project-preflight.sql',import.meta.url),'utf8')+
   readFileSync(new URL('../supabase/v2/migrations/001_catalog.sql',import.meta.url),'utf8');
-const identities=JSON.parse(readFileSync(IDENTITIES_PATH,'utf8'));
-const sources=loadSources();
+const identities=sampleIdentities;
+const sources=sampleSources;
 const seed=buildSeed(identities,sources);
 
 // The next seed, made the way an editor makes it: edit a deck, then `seed:assign`.
@@ -25,7 +26,7 @@ const lampe=entries.findIndex(e=>e.source==='basic:w_basic_3');
 entries.splice(entries.findIndex(e=>e.source==='basic:w_basic_2'),1); // aqua leaves every deck
 entries.splice(lampe+1,0,normalizeEntry('basic',{id:'w_basic_test',la:'testarbor',pos:'noun',ru:'тестовое дерево',
   en:'test tree',exampleLa:'Testarbor viridis est.',exampleRu:'Тестовое дерево зелёное.',exampleEn:'The test tree is green.',tags:[]}));
-const next=buildSeed(assignIdentities(identities,{entries}),{files:sources.files,entries});
+const next=buildSeed(assignIdentities(identities,{entries}),{...sources,entries});
 
 let db;
 const byId=(a,b)=>a.id<b.id?-1:1;

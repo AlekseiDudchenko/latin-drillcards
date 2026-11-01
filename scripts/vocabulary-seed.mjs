@@ -10,7 +10,6 @@ import { existsSync, readFileSync } from 'node:fs';
 
 export const DECKS = Object.freeze([
   ['l1-a', 'Lectio I · A'], ['l1-b', 'Lectio I · B'], ['l1-t', 'Lectio I · T'],
-  ['basic', 'Sample: basic vocabulary'], ['verbs', 'Sample: verbs'],
 ]);
 export const IDENTITIES_PATH = 'content/vocabulary/identities.json';
 export const REPORT_PATH = 'content/vocabulary/duplicates.md';
@@ -28,10 +27,10 @@ function canonical(value) {
 const clean = value => typeof value === 'string' ? value.normalize('NFC').replace(/\s+/g, ' ').trim() : '';
 
 /** Read every deck in priority order (lowest CEFR first, themed decks last). */
-export function loadSources(root = '.') {
+export function loadSources(root = '.', decks = DECKS) {
   const files = {};
   const entries = [];
-  for (const [deck] of DECKS) {
+  for (const [deck] of decks) {
     const path = `public/data/words-${deck}.json`;
     const detailPath = `public/data/words-${deck}-detail.json`;
     const raw = readFileSync(`${root}/${path}`, 'utf8');
@@ -41,7 +40,7 @@ export function loadSources(root = '.') {
     const detail = details ? JSON.parse(details) : {};
     JSON.parse(raw).forEach((entry, position) => entries.push(normalizeEntry(deck, entry, detail[entry.id], position)));
   }
-  return { files, entries };
+  return { files, entries, decks };
 }
 
 /** One source entry as a candidate sense: lemma, part of speech, glosses and examples. */
@@ -169,7 +168,7 @@ export function assignIdentities(previous, { entries }, { confirm = [] } = {}) {
 }
 
 /** Deterministic seed from the identity table. Throws when the table no longer matches the sources. */
-export function buildSeed(identities, { files, entries }) {
+export function buildSeed(identities, { files, entries, decks: sourceDecks = DECKS }) {
   const bySource = new Map(entries.map(entry => [entry.source, entry]));
   const owner = new Map();
   const published = identities.words.filter(word => !word.retired);
@@ -190,7 +189,7 @@ export function buildSeed(identities, { files, entries }) {
     if (contentHash(word) !== identity.contentHash) throw new RangeError(`Content of ${identity.id} changed; run npm run seed:assign`);
     return { ...word, contentVersion: identity.contentVersion };
   });
-  const decks = DECKS.map(([id, title]) => ({ id, title,
+  const decks = sourceDecks.map(([id, title]) => ({ id, title,
     wordIds: [...new Set(entries.filter(entry => entry.deck === id).map(entry => owner.get(entry.source)))] }));
   const provenance = Object.fromEntries(published.map(word => [word.id, word.sources]));
   // Each published gloss credits only the entries that actually wrote it.

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "w_l1a_1",
+    "la": "ecce",
+    "pos": "other",
+    "ru": "смотри! смотрите!",
+    "en": "look! behold!",
+    "tags": []
+  },
+  {
+    "id": "w_l1a_2",
+    "la": "ibi",
+    "pos": "adverb",
+    "ru": "там",
+    "en": "there",
+    "tags": [],
+    "exampleLa": "Ibi Dāvus est.",
+    "exampleRu": "Там Давус.",
+    "exampleEn": "Davus is there."
+  },
+  {
+    "id": "w_l1a_3",
+    "la": "esse",
+    "pos": "verb",
+    "ru": "быть, находиться",
+    "en": "to be, to be located",
+    "tags": []
+  },
+  {
+    "id": "w_l1a_4",
+    "la": "est",
+    "pos": "verb",
+    "ru": "он (она, оно) есть, находится",
+    "en": "he (she, it) is, is located",
+    "tags": [
+      "3sg"
+    ],
+    "exampleLa": "Ibi Dāvus est.",
+    "exampleRu": "Там Давус.",
+    "exampleEn": "Davus is there."
+  },
+  {
+    "id": "w_l1a_5",
+    "la": "sunt",
+    "pos": "verb",
+    "ru": "они есть, находятся",
+    "en": "they are, are located",
+    "tags": [
+      "3pl"
+    ],
+    "exampleLa": "Ibi Dāvus et Syrus sunt.",
+    "exampleRu": "Там Давус и Сир.",
+    "exampleEn": "Davus and Syrus are there."
+  },
+  {
+    "id": "w_l1a_6",
+    "la": "servus",
+    "pos": "noun",
+    "ru": "раб, слуга",
+    "en": "slave, servant",
+    "tags": [
+      "m"
+    ]
+  },
+  {
+    "id": "w_l1a_7",
+    "la": "etiam",
+    "pos": "adverb",
+    "ru": "также, даже",
+    "en": "also, even",
+    "tags": [],
+    "exampleLa": "Etiam Syrus servus est.",
+    "exampleRu": "Сир тоже раб.",
+    "exampleEn": "Syrus is also a slave."
+  },
+  {
+    "id": "w_l1a_8",
+    "la": "et",
+    "pos": "other",
+    "ru": "и, также",
+    "en": "and, also",
+    "tags": [],
+    "exampleLa": "Dāvus et Syrus",
+    "exampleRu": "Давус и Сир",
+    "exampleEn": "Davus and Syrus"
+  },
+  {
+    "id": "w_l1a_9",
+    "la": "domina",
+    "pos": "noun",
+    "ru": "госпожа, хозяйка, дама",
+    "en": "mistress, lady",
+    "tags": [
+      "f"
+    ]
+  },
+  {
+    "id": "w_l1a_10",
+    "la": "serva",
+    "pos": "noun",
+    "ru": "рабыня, служанка",
+    "en": "female slave, maid",
+    "tags": [
+      "f"
+    ]
+  },
+  {
+    "id": "w_l1a_11",
+    "la": "stāre",
+    "pos": "verb",
+    "ru": "стоять",
+    "en": "to stand",
+    "tags": []
+  },
+  {
+    "id": "w_l1a_12",
+    "la": "cōgitāre",
+    "pos": "verb",
+    "ru": "думать, размышлять, намереваться",
+    "en": "to think, to reflect, to intend",
+    "tags": []
+  },
+  {
+    "id": "w_l1a_13",
+    "la": "clāmāre",
+    "pos": "verb",
+    "ru": "громко звать, кричать",
+    "en": "to shout, to cry out",
+    "tags": []
+  }
+]

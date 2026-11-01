@@ -60,9 +60,9 @@ test('the server catalog maps to the home index and keeps deck order for publish
 
 test('shared decks keep the seed order on the server too; personal decks follow by ID', () => {
   assert.deepEqual([...SHARED_DECK_ORDER], DECKS.map(([id]) => id), 'keep in step with scripts/vocabulary-seed.mjs');
-  const rows = ['uid:z', 'verbs', 'l1-t', 'uid:a', 'l1-a', 'basic', 'l1-b'].map(id => ({ id, title: id, wordIds: [] }));
+  const rows = ['uid:z', 'l1-t', 'uid:a', 'l1-a', 'l1-b'].map(id => ({ id, title: id, wordIds: [] }));
   assert.deepEqual(catalogIndexFromRows([{ catalog_version: 'c' }], rows).decks.map(d => d.id),
-    ['l1-a', 'l1-b', 'l1-t', 'basic', 'verbs', 'uid:a', 'uid:z']);
+    ['l1-a', 'l1-b', 'l1-t', 'uid:a', 'uid:z']);
 });
 
 test('a missing release or a malformed row is an error, not an empty catalog', () => {
