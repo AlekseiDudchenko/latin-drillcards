@@ -1,0 +1,46 @@
+[
+  {
+    "schemaVersion": 1, "id": "sample-sentences", "version": "2026-10-29.1", "kind": "sentence", "title": "Sample sentences",
+    "items": [
+      { "id": "s1", "contentVersion": 1, "wordIds": ["w-tisch"], "content": {
+        "prompt": { "text": "Der Tisch ist groß.", "lang": "de" },
+        "options": [ { "id": "a", "label": "The table is big." }, { "id": "b", "label": "The chair is big." }, { "id": "c", "label": "The table is small." } ],
+        "correctOptionId": "a" } },
+      { "id": "s2", "contentVersion": 1, "wordIds": ["w-buch"], "content": {
+        "prompt": { "text": "Das Buch ist neu.", "lang": "de" },
+        "options": [ { "id": "a", "label": "The book is old." }, { "id": "b", "label": "The book is new." } ],
+        "correctOptionId": "b" } },
+      { "id": "s3", "contentVersion": 2, "wordIds": [], "content": {
+        "prompt": { "text": "Ich lerne Deutsch.", "lang": "de" },
+        "options": [ { "id": "a", "label": "I learn German." }, { "id": "b", "label": "I teach German." } ],
+        "correctOptionId": "a" } }
+    ]
+  },
+  {
+    "schemaVersion": 1, "id": "sample-passiv", "version": "1", "kind": "grammar-item", "title": "Sample Passiv",
+    "items": [
+      { "id": "p1", "contentVersion": 1, "wordIds": [], "content": {
+        "prompt": { "text": "Das Haus ___ gebaut. (Präsens)", "lang": "de" }, "answers": ["wird"] } },
+      { "id": "p2", "contentVersion": 1, "wordIds": [], "content": {
+        "prompt": { "text": "Die Briefe ___ geschrieben. (Präteritum)", "lang": "de" }, "answers": ["wurden"] } }
+    ]
+  },
+  {
+    "schemaVersion": 1, "id": "sample-video", "version": "1", "kind": "video-segment", "title": "Sample video segments",
+    "items": [
+      { "id": "v1", "contentVersion": 1, "wordIds": ["w-tisch"], "content": {
+        "prompt": { "text": "00:12–00:18", "lang": "de" }, "answer": { "text": "Der Tisch steht in der Küche.", "lang": "de" } } }
+    ]
+  },
+  {
+    "schemaVersion": 1, "id": "sample-level-test", "version": "1", "kind": "assessment", "title": "Sample level test",
+    "items": [
+      { "id": "q1", "contentVersion": 1, "wordIds": ["w-tisch"], "content": {
+        "prompt": { "text": "der ___ (table)", "lang": "de" },
+        "options": [ { "id": "tisch", "label": "Tisch" }, { "id": "stuhl", "label": "Stuhl" } ], "correctOptionId": "tisch" } },
+      { "id": "q2", "contentVersion": 1, "wordIds": [], "content": {
+        "prompt": { "text": "Ich ___ müde.", "lang": "de" },
+        "options": [ { "id": "bin", "label": "bin" }, { "id": "bist", "label": "bist" } ], "correctOptionId": "bin" } }
+    ]
+  }
+]

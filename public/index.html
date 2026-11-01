@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DrillCards</title><link rel="icon" href="./favicon.svg" type="image/svg+xml">
+</head><body>
+<main><p>DrillCards v1 has been retired. <a id="continue" href="./v2/today.html">Open DrillCards v2</a></p></main>
+<footer id="app-footer" data-version="v2.57.2"></footer>
+<script type="module">
+// Relative to the known app base, including old deep links served via 404.html.
+const base = location.pathname === '/de-trainer' || location.pathname.startsWith('/de-trainer/') ? '/de-trainer/' : '/';
+const target = base + 'v2/today.html';
+document.getElementById('continue').href = target;
+await import(base + 'retire-v1.js');
+location.replace(target);
+</script>
+</body></html>

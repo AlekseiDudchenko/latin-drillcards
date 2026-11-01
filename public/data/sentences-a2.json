@@ -1,0 +1,4597 @@
+[
+  {
+    "id": "s_a2_1",
+    "target": "Weil ich heute Spätdienst habe, kann ich nicht kommen.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "heute",
+      "Spätdienst",
+      "habe,",
+      "kann",
+      "ich",
+      "nicht",
+      "kommen"
+    ],
+    "type": "drag",
+    "explanation": "Subordinate clause with 'weil': verb at the end, then main clause.",
+    "translation_en": "Because I have late shift today, I cannot come.",
+    "translation_ru": "Так как у меня сегодня поздняя смена, я не могу прийти.",
+    "level": "A2",
+    "translation_es": "Como tengo turno de tarde hoy, no puedo venir.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_1v"
+  },
+  {
+    "id": "s_a2_1v",
+    "target": "Ich kann nicht kommen, weil ich heute Spätdienst habe.",
+    "tokens": [
+      "Ich",
+      "kann",
+      "nicht",
+      "kommen,",
+      "weil",
+      "ich",
+      "heute",
+      "Spätdienst",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_1",
+    "translation_en": "I cannot come because I have late shift today.",
+    "translation_ru": "Я не могу прийти, так как у меня сегодня поздняя смена.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "translation_es": "Como tengo turno de tarde hoy, no puedo venir."
+  },
+  {
+    "id": "s_a2_2",
+    "target": "Wenn es morgen regnet, bleiben wir zu Hause.",
+    "tokens": [
+      "Wenn",
+      "es",
+      "morgen",
+      "regnet,",
+      "bleiben",
+      "wir",
+      "zu",
+      "Hause"
+    ],
+    "type": "drag",
+    "explanation": "Conditional clause with 'wenn' + main clause.",
+    "translation_en": "If it rains tomorrow, we stay at home.",
+    "translation_ru": "Если завтра пойдёт дождь, мы останемся дома.",
+    "level": "A2",
+    "translation_es": "Si mañana llueve, nos quedamos en casa.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_2v"
+  },
+  {
+    "id": "s_a2_2v",
+    "target": "Wir bleiben zu Hause, wenn es morgen regnet.",
+    "tokens": [
+      "Wir",
+      "bleiben",
+      "zu",
+      "Hause,",
+      "wenn",
+      "es",
+      "morgen",
+      "regnet"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_2",
+    "translation_en": "We stay at home if it rains tomorrow.",
+    "translation_ru": "Мы останемся дома, если завтра пойдёт дождь.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ],
+    "translation_es": "Si mañana llueve, nos quedamos en casa."
+  },
+  {
+    "id": "s_a2_3",
+    "target": "Als ich klein war, habe ich in Bonn gewohnt.",
+    "tokens": [
+      "Als",
+      "ich",
+      "klein",
+      "war,",
+      "habe",
+      "ich",
+      "in",
+      "Bonn",
+      "gewohnt"
+    ],
+    "type": "drag",
+    "explanation": "'Als' for a single past situation.",
+    "translation_en": "When I was little, I lived in Bonn.",
+    "translation_ru": "Когда я был маленьким, я жил в Бонне.",
+    "level": "A2",
+    "translation_es": "Cuando era pequeño, vivía en Bonn.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_3v"
+  },
+  {
+    "id": "s_a2_3v",
+    "target": "Ich habe in Bonn gewohnt, als ich klein war.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "in",
+      "Bonn",
+      "gewohnt,",
+      "als",
+      "ich",
+      "klein",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_3",
+    "translation_en": "I lived in Bonn when I was little.",
+    "translation_ru": "Я жил в Бонне, когда я был маленьким.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ],
+    "translation_es": "Cuando era pequeño, vivía en Bonn."
+  },
+  {
+    "id": "s_a2_4",
+    "target": "Obwohl es kalt ist, geht er spazieren.",
+    "tokens": [
+      "Obwohl",
+      "es",
+      "kalt",
+      "ist,",
+      "geht",
+      "er",
+      "spazieren"
+    ],
+    "type": "drag",
+    "explanation": "'obwohl' = contrast, verb at the end.",
+    "translation_en": "Although it is cold, he goes for a walk.",
+    "translation_ru": "Хотя холодно, он идёт на прогулку.",
+    "level": "A2",
+    "translation_es": "Aunque hace frío, él sale a pasear.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_4v"
+  },
+  {
+    "id": "s_a2_4v",
+    "target": "Er geht spazieren, obwohl es kalt ist.",
+    "tokens": [
+      "Er",
+      "geht",
+      "spazieren,",
+      "obwohl",
+      "es",
+      "kalt",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_4",
+    "translation_en": "He goes for a walk although it is cold.",
+    "translation_ru": "Он идёт на прогулку, хотя холодно.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ],
+    "translation_es": "Aunque hace frío, él sale a pasear."
+  },
+  {
+    "id": "s_a2_5",
+    "target": "Ich glaube, dass er heute später kommt.",
+    "tokens": [
+      "Ich",
+      "glaube,",
+      "dass",
+      "er",
+      "heute",
+      "später",
+      "kommt"
+    ],
+    "type": "drag",
+    "explanation": "Reported statement with 'dass'.",
+    "translation_en": "I think that he will come later today.",
+    "translation_ru": "Я думаю, что он сегодня придёт позже.",
+    "level": "A2",
+    "translation_es": "Creo que él llegará más tarde hoy.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_6",
+    "target": "Sie sagt, dass sie keine Zeit hat.",
+    "tokens": [
+      "Sie",
+      "sagt,",
+      "dass",
+      "sie",
+      "keine",
+      "Zeit",
+      "hat"
+    ],
+    "type": "drag",
+    "explanation": "'dass' clause → verb at the end.",
+    "translation_en": "She says that she has no time.",
+    "translation_ru": "Она говорит, что у неё нет времени.",
+    "level": "A2",
+    "translation_es": "Ella dice que no tiene tiempo.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_7",
+    "target": "Bevor ich zur Arbeit fahre, trinke ich Kaffee.",
+    "tokens": [
+      "Bevor",
+      "ich",
+      "zur",
+      "Arbeit",
+      "fahre,",
+      "trinke",
+      "ich",
+      "Kaffee"
+    ],
+    "type": "drag",
+    "explanation": "'bevor' = earlier action.",
+    "translation_en": "Before I go to work, I drink coffee.",
+    "translation_ru": "Перед тем как поехать на работу, я пью кофе.",
+    "level": "A2",
+    "translation_es": "Antes de ir al trabajo, tomo café.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_7v"
+  },
+  {
+    "id": "s_a2_7v",
+    "target": "Ich trinke Kaffee, bevor ich zur Arbeit fahre.",
+    "tokens": [
+      "Ich",
+      "trinke",
+      "Kaffee,",
+      "bevor",
+      "ich",
+      "zur",
+      "Arbeit",
+      "fahre"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_7",
+    "translation_en": "I drink coffee before I go to work.",
+    "translation_ru": "Я пью кофе перед тем, как поехать на работу.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ],
+    "translation_es": "Antes de ir al trabajo, tomo café."
+  },
+  {
+    "id": "s_a2_8",
+    "target": "Nachdem wir gegessen haben, machen wir einen Spaziergang.",
+    "tokens": [
+      "Nachdem",
+      "wir",
+      "gegessen",
+      "haben,",
+      "machen",
+      "wir",
+      "einen",
+      "Spaziergang"
+    ],
+    "type": "drag",
+    "explanation": "'nachdem' + Perfekt in subclause.",
+    "translation_en": "After we have eaten, we go for a walk.",
+    "translation_ru": "После того как мы поели, мы идём на прогулку.",
+    "level": "A2",
+    "translation_es": "Después de comer, damos un paseo.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_8v"
+  },
+  {
+    "id": "s_a2_8v",
+    "target": "Wir machen einen Spaziergang, nachdem wir gegessen haben.",
+    "tokens": [
+      "Wir",
+      "machen",
+      "einen",
+      "Spaziergang,",
+      "nachdem",
+      "wir",
+      "gegessen",
+      "haben"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_8",
+    "translation_en": "We go for a walk after we have eaten.",
+    "translation_ru": "Мы идём на прогулку после того, как мы поели.",
+    "level": "A2",
+    "translation_es": "Damos un paseo después de comer.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_9",
+    "target": "Wenn du willst, können wir zusammen lernen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "willst,",
+      "können",
+      "wir",
+      "zusammen",
+      "lernen"
+    ],
+    "type": "drag",
+    "explanation": "Condition + modal verb.",
+    "translation_en": "If you want, we can study together.",
+    "translation_ru": "Если хочешь, мы можем заниматься вместе.",
+    "level": "A2",
+    "translation_es": "Si quieres, podemos estudiar juntos.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_9v"
+  },
+  {
+    "id": "s_a2_9v",
+    "target": "Wir können zusammen lernen, wenn du willst.",
+    "tokens": [
+      "Wir",
+      "können",
+      "zusammen",
+      "lernen,",
+      "wenn",
+      "du",
+      "willst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_9",
+    "translation_en": "We can study together if you want.",
+    "translation_ru": "Мы можем заниматься вместе, если хочешь.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "translation_es": "Si quieres, podemos estudiar juntos."
+  },
+  {
+    "id": "s_a2_10",
+    "target": "Weil ich kein Auto habe, fahre ich mit dem Bus.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "kein",
+      "Auto",
+      "habe,",
+      "fahre",
+      "ich",
+      "mit",
+      "dem",
+      "Bus"
+    ],
+    "type": "drag",
+    "explanation": "Reason with 'weil'.",
+    "translation_en": "Because I do not have a car, I go by bus.",
+    "translation_ru": "Поскольку у меня нет машины, я езжу на автобусе.",
+    "level": "A2",
+    "translation_es": "Como no tengo coche, voy en autobús.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_10v"
+  },
+  {
+    "id": "s_a2_10v",
+    "target": "Ich fahre mit dem Bus, weil ich kein Auto habe.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "mit",
+      "dem",
+      "Bus,",
+      "weil",
+      "ich",
+      "kein",
+      "Auto",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_10",
+    "translation_en": "I go by bus because I do not have a car.",
+    "translation_ru": "Я езжу на автобусе, поскольку у меня нет машины.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ],
+    "translation_es": "Como no tengo coche, voy en autobús."
+  },
+  {
+    "id": "s_a2_11",
+    "target": "Ich weiß nicht, ob er heute kommt.",
+    "tokens": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "ob",
+      "er",
+      "heute",
+      "kommt"
+    ],
+    "type": "drag",
+    "explanation": "Indirect yes/no question with 'ob'.",
+    "translation_en": "I do not know whether he is coming today.",
+    "translation_ru": "Я не знаю, придёт ли он сегодня.",
+    "level": "A2",
+    "translation_es": "No sé si él viene hoy.",
+    "tags": [
+      "indirekte_frage"
+    ]
+  },
+  {
+    "id": "s_a2_12",
+    "target": "Sag mir bitte, wann du Zeit hast.",
+    "tokens": [
+      "Sag",
+      "mir",
+      "bitte,",
+      "wann",
+      "du",
+      "Zeit",
+      "hast"
+    ],
+    "type": "drag",
+    "explanation": "Indirect question with 'wann'.",
+    "translation_en": "Please tell me when you have time.",
+    "translation_ru": "Скажи мне, пожалуйста, когда у тебя будет время.",
+    "level": "A2",
+    "translation_es": "Dime, por favor, cuándo tienes tiempo.",
+    "tags": [
+      "indirekte_frage"
+    ]
+  },
+  {
+    "id": "s_a2_13",
+    "target": "Als wir in München waren, haben wir das Museum besucht.",
+    "tokens": [
+      "Als",
+      "wir",
+      "in",
+      "München",
+      "waren,",
+      "haben",
+      "wir",
+      "das",
+      "Museum",
+      "besucht"
+    ],
+    "type": "drag",
+    "explanation": "Past time with 'als'.",
+    "translation_en": "When we were in Munich, we visited the museum.",
+    "translation_ru": "Когда мы были в Мюнхене, мы посетили музей.",
+    "level": "A2",
+    "translation_es": "Cuando estuvimos en Múnich, visitamos el museo.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_13v"
+  },
+  {
+    "id": "s_a2_13v",
+    "target": "Wir haben das Museum besucht, als wir in München waren.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "das",
+      "Museum",
+      "besucht,",
+      "als",
+      "wir",
+      "in",
+      "München",
+      "waren"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_13",
+    "translation_en": "We visited the museum when we were in Munich.",
+    "translation_ru": "Мы посетили музей, когда мы были в Мюнхене.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_14",
+    "target": "Wenn du krank bist, musst du zu Hause bleiben.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "krank",
+      "bist,",
+      "musst",
+      "du",
+      "zu",
+      "Hause",
+      "bleiben"
+    ],
+    "type": "drag",
+    "explanation": "Condition + obligation.",
+    "translation_en": "If you are ill, you must stay at home.",
+    "translation_ru": "Если ты болен, тебе нужно оставаться дома.",
+    "level": "A2",
+    "translation_es": "Si estás enfermo, debes quedarte en casa.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_14v"
+  },
+  {
+    "id": "s_a2_14v",
+    "target": "Du musst zu Hause bleiben, wenn du krank bist.",
+    "tokens": [
+      "Du",
+      "musst",
+      "zu",
+      "Hause",
+      "bleiben,",
+      "wenn",
+      "du",
+      "krank",
+      "bist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_14",
+    "translation_en": "You must stay at home if you are ill.",
+    "translation_ru": "Тебе нужно оставаться дома, если ты болен.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "translation_es": "Si estás enfermo, debes quedarte en casa."
+  },
+  {
+    "id": "s_a2_15",
+    "target": "Ich hoffe, dass wir uns bald sehen.",
+    "tokens": [
+      "Ich",
+      "hoffe,",
+      "dass",
+      "wir",
+      "uns",
+      "bald",
+      "sehen"
+    ],
+    "type": "drag",
+    "explanation": "Hope with 'dass'.",
+    "translation_en": "I hope that we will see each other soon.",
+    "translation_ru": "Я надеюсь, что мы скоро увидимся.",
+    "level": "A2",
+    "translation_es": "Espero que nos veamos pronto.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_16",
+    "target": "Weil der Zug Verspätung hat, komme ich später.",
+    "tokens": [
+      "Weil",
+      "der",
+      "Zug",
+      "Verspätung",
+      "hat,",
+      "komme",
+      "ich",
+      "später"
+    ],
+    "type": "drag",
+    "explanation": "Reason in first position.",
+    "translation_en": "Because the train is delayed, I will come later.",
+    "translation_ru": "Потому что поезд задерживается, я приду позже.",
+    "level": "A2",
+    "translation_es": "Como el tren tiene retraso, llegaré más tarde.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_16v"
+  },
+  {
+    "id": "s_a2_16v",
+    "target": "Ich komme später, weil der Zug Verspätung hat.",
+    "tokens": [
+      "Ich",
+      "komme",
+      "später,",
+      "weil",
+      "der",
+      "Zug",
+      "Verspätung",
+      "hat"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_16",
+    "translation_en": "I will come later because the train is delayed.",
+    "translation_ru": "Я приду позже, потому что поезд задерживается.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ],
+    "translation_es": "Como el tren tiene retraso, llegaré más tarde."
+  },
+  {
+    "id": "s_a2_17",
+    "target": "Wenn ich Zeit habe, besuche ich meine Freunde.",
+    "tokens": [
+      "Wenn",
+      "ich",
+      "Zeit",
+      "habe,",
+      "besuche",
+      "ich",
+      "meine",
+      "Freunde"
+    ],
+    "type": "drag",
+    "explanation": "Routine condition.",
+    "translation_en": "When I have time, I visit my friends.",
+    "translation_ru": "Когда у меня есть время, я навещаю своих друзей.",
+    "level": "A2",
+    "translation_es": "Cuando tengo tiempo, visito a mis amigos.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_17v"
+  },
+  {
+    "id": "s_a2_17v",
+    "target": "Ich besuche meine Freunde, wenn ich Zeit habe.",
+    "tokens": [
+      "Ich",
+      "besuche",
+      "meine",
+      "Freunde,",
+      "wenn",
+      "ich",
+      "Zeit",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_17",
+    "translation_en": "I visit my friends when I have time.",
+    "translation_ru": "Я навещаю своих друзей, когда у меня есть время.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ],
+    "translation_es": "Cuando tengo tiempo, visito a mis amigos."
+  },
+  {
+    "id": "s_a2_18",
+    "target": "Seit ich in Deutschland bin, spreche ich mehr Deutsch.",
+    "tokens": [
+      "Seit",
+      "ich",
+      "in",
+      "Deutschland",
+      "bin,",
+      "spreche",
+      "ich",
+      "mehr",
+      "Deutsch"
+    ],
+    "type": "drag",
+    "explanation": "'seit' + present for ongoing action.",
+    "translation_en": "Since I have been in Germany, I speak more German.",
+    "translation_ru": "С тех пор как я живу в Германии, я больше говорю по-немецки.",
+    "level": "A2",
+    "translation_es": "Desde que estoy en Alemania, hablo más alemán.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_18v"
+  },
+  {
+    "id": "s_a2_18v",
+    "target": "Ich spreche mehr Deutsch, seit ich in Deutschland bin.",
+    "tokens": [
+      "Ich",
+      "spreche",
+      "mehr",
+      "Deutsch,",
+      "seit",
+      "ich",
+      "in",
+      "Deutschland",
+      "bin"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_18",
+    "translation_en": "I speak more German since I have been in Germany.",
+    "translation_ru": "Я больше говорю по-немецки с тех пор, как живу в Германии.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_19",
+    "target": "Weil es so laut war, konnte ich nicht schlafen.",
+    "tokens": [
+      "Weil",
+      "es",
+      "so",
+      "laut",
+      "war,",
+      "konnte",
+      "ich",
+      "nicht",
+      "schlafen"
+    ],
+    "type": "drag",
+    "explanation": "Past reason + modal in main clause.",
+    "translation_en": "Because it was so loud, I could not sleep.",
+    "translation_ru": "Потому что было так шумно, я не мог уснуть.",
+    "level": "A2",
+    "translation_es": "Como había tanto ruido, no podía dormir.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_19v"
+  },
+  {
+    "id": "s_a2_19v",
+    "target": "Ich konnte nicht schlafen, weil es so laut war.",
+    "tokens": [
+      "Ich",
+      "konnte",
+      "nicht",
+      "schlafen,",
+      "weil",
+      "es",
+      "so",
+      "laut",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_19",
+    "translation_en": "I could not sleep because it was so loud.",
+    "translation_ru": "Я не мог уснуть, потому что было так шумно.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "translation_es": "Como había tanto ruido, no podía dormir."
+  },
+  {
+    "id": "s_a2_20",
+    "target": "Obwohl ich müde war, habe ich weitergearbeitet.",
+    "tokens": [
+      "Obwohl",
+      "ich",
+      "müde",
+      "war,",
+      "habe",
+      "ich",
+      "weitergearbeitet"
+    ],
+    "type": "drag",
+    "explanation": "Concession in past.",
+    "translation_en": "Although I was tired, I kept working.",
+    "translation_ru": "Хотя я устал, я продолжал работать.",
+    "level": "A2",
+    "translation_es": "Aunque estaba cansado, seguí trabajando.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_20v"
+  },
+  {
+    "id": "s_a2_20v",
+    "target": "Ich habe weitergearbeitet, obwohl ich müde war.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "weitergearbeitet,",
+      "obwohl",
+      "ich",
+      "müde",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_20",
+    "translation_en": "I kept working although I was tired.",
+    "translation_ru": "Я продолжал работать, хотя я устал.",
+    "level": "A2",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "translation_es": "Aunque estaba cansado, seguí trabajando."
+  },
+  {
+    "id": "s_a2_21",
+    "target": "Wenn das Wetter schön ist, fahren wir an den See.",
+    "tokens": [
+      "Wenn",
+      "das",
+      "Wetter",
+      "schön",
+      "ist,",
+      "fahren",
+      "wir",
+      "an",
+      "den",
+      "See"
+    ],
+    "type": "drag",
+    "explanation": "Condition + movement.",
+    "translation_en": "If the weather is nice, we go to the lake.",
+    "translation_ru": "Если погода хорошая, мы едем на озеро.",
+    "level": "A2",
+    "translation_es": "Si el tiempo está bueno, vamos al lago.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_21v"
+  },
+  {
+    "id": "s_a2_21v",
+    "target": "Wir fahren an den See, wenn das Wetter schön ist.",
+    "tokens": [
+      "Wir",
+      "fahren",
+      "an",
+      "den",
+      "See,",
+      "wenn",
+      "das",
+      "Wetter",
+      "schön",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_21",
+    "translation_en": "We go to the lake if the weather is nice.",
+    "translation_ru": "Мы едем на озеро, если погода хорошая.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ],
+    "translation_es": "Si el tiempo está bueno, vamos al lago."
+  },
+  {
+    "id": "s_a2_22",
+    "target": "Weil ich viel lernen muss, treffe ich mich nicht mit Freunden.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "viel",
+      "lernen",
+      "muss,",
+      "treffe",
+      "ich",
+      "mich",
+      "nicht",
+      "mit",
+      "Freunden"
+    ],
+    "type": "drag",
+    "explanation": "Reason + modal + reflexive in main clause.",
+    "translation_en": "Because I have to study a lot, I do not meet with friends.",
+    "translation_ru": "Так как мне нужно много учиться, я не встречаюсь с друзьями.",
+    "level": "A2",
+    "translation_es": "Como tengo que estudiar mucho, no quedo con amigos.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_22v"
+  },
+  {
+    "id": "s_a2_22v",
+    "target": "Ich treffe mich nicht mit Freunden, weil ich viel lernen muss.",
+    "tokens": [
+      "Ich",
+      "treffe",
+      "mich",
+      "nicht",
+      "mit",
+      "Freunden,",
+      "weil",
+      "ich",
+      "viel",
+      "lernen",
+      "muss"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_22",
+    "translation_en": "I do not meet with friends because I have to study a lot.",
+    "translation_ru": "Я не встречаюсь с друзьями, так как мне нужно много учиться.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "translation_es": "Como tengo que estudiar mucho, no quedo con amigos."
+  },
+  {
+    "id": "s_a2_23",
+    "target": "Ich weiß, dass du gestern nicht da warst.",
+    "tokens": [
+      "Ich",
+      "weiß,",
+      "dass",
+      "du",
+      "gestern",
+      "nicht",
+      "da",
+      "warst"
+    ],
+    "type": "drag",
+    "explanation": "Reported statement in past.",
+    "translation_en": "I know that you were not there yesterday.",
+    "translation_ru": "Я знаю, что тебя вчера не было.",
+    "level": "A2",
+    "translation_es": "Sé que ayer no estuviste allí.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_24",
+    "target": "Als ich nach Hause kam, war niemand da.",
+    "tokens": [
+      "Als",
+      "ich",
+      "nach",
+      "Hause",
+      "kam,",
+      "war",
+      "niemand",
+      "da"
+    ],
+    "type": "drag",
+    "explanation": "'als' + Präteritum, main clause follows.",
+    "translation_en": "When I came home, nobody was there.",
+    "translation_ru": "Когда я пришёл домой, никого не было.",
+    "level": "A2",
+    "translation_es": "Cuando llegué a casa, no había nadie.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_24v"
+  },
+  {
+    "id": "s_a2_24v",
+    "target": "Niemand war da, als ich nach Hause kam.",
+    "tokens": [
+      "Niemand",
+      "war",
+      "da,",
+      "als",
+      "ich",
+      "nach",
+      "Hause",
+      "kam"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_24",
+    "translation_en": "Nobody was there when I came home.",
+    "translation_ru": "Никого не было, когда я пришёл домой.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_25",
+    "target": "Nachdem er angerufen hat, fahren wir los.",
+    "tokens": [
+      "Nachdem",
+      "er",
+      "angerufen",
+      "hat,",
+      "fahren",
+      "wir",
+      "los"
+    ],
+    "type": "drag",
+    "explanation": "'nachdem' + Perfekt, then main clause.",
+    "translation_en": "After he has called, we will leave.",
+    "translation_ru": "После того как он позвонит, мы поедем.",
+    "level": "A2",
+    "translation_es": "Después de que él llame, nos vamos.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_25v"
+  },
+  {
+    "id": "s_a2_25v",
+    "target": "Wir fahren los, nachdem er angerufen hat.",
+    "tokens": [
+      "Wir",
+      "fahren",
+      "los,",
+      "nachdem",
+      "er",
+      "angerufen",
+      "hat"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_25",
+    "translation_en": "We will leave after he has called.",
+    "translation_ru": "Мы поедем после того, как он позвонит.",
+    "level": "A2",
+    "translation_es": "Nos vamos después de que él llame.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_26",
+    "target": "Weil ich kein Geld dabei habe, kaufe ich es morgen.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "kein",
+      "Geld",
+      "dabei",
+      "habe,",
+      "kaufe",
+      "ich",
+      "es",
+      "morgen"
+    ],
+    "type": "drag",
+    "explanation": "Reason + time adverb at the end.",
+    "translation_en": "Because I do not have money with me, I will buy it tomorrow.",
+    "translation_ru": "Так как у меня с собой нет денег, я куплю это завтра.",
+    "level": "A2",
+    "translation_es": "Como no llevo dinero encima, lo compraré mañana.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_26v"
+  },
+  {
+    "id": "s_a2_26v",
+    "target": "Ich kaufe es morgen, weil ich kein Geld dabei habe.",
+    "tokens": [
+      "Ich",
+      "kaufe",
+      "es",
+      "morgen,",
+      "weil",
+      "ich",
+      "kein",
+      "Geld",
+      "dabei",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_26",
+    "translation_en": "I will buy it tomorrow because I do not have money with me.",
+    "translation_ru": "Я куплю это завтра, так как у меня с собой нет денег.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ],
+    "translation_es": "Como no llevo dinero encima, lo compraré mañana."
+  },
+  {
+    "id": "s_a2_27",
+    "target": "Wenn du früher kommst, können wir zusammen essen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "früher",
+      "kommst,",
+      "können",
+      "wir",
+      "zusammen",
+      "essen"
+    ],
+    "type": "drag",
+    "explanation": "Condition + modal + infinitive.",
+    "translation_en": "If you come earlier, we can eat together.",
+    "translation_ru": "Если ты придёшь раньше, мы сможем поесть вместе.",
+    "level": "A2",
+    "translation_es": "Si vienes antes, podemos comer juntos.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_27v"
+  },
+  {
+    "id": "s_a2_27v",
+    "target": "Wir können zusammen essen, wenn du früher kommst.",
+    "tokens": [
+      "Wir",
+      "können",
+      "zusammen",
+      "essen,",
+      "wenn",
+      "du",
+      "früher",
+      "kommst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_27",
+    "translation_en": "We can eat together if you come earlier.",
+    "translation_ru": "Мы сможем поесть вместе, если ты придёшь раньше.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "translation_es": "Si vienes antes, podemos comer juntos."
+  },
+  {
+    "id": "s_a2_28",
+    "target": "Obwohl er in Deutschland lebt, spricht er wenig Deutsch.",
+    "tokens": [
+      "Obwohl",
+      "er",
+      "in",
+      "Deutschland",
+      "lebt,",
+      "spricht",
+      "er",
+      "wenig",
+      "Deutsch"
+    ],
+    "type": "drag",
+    "explanation": "Contrast between place and ability.",
+    "translation_en": "Although he lives in Germany, he speaks little German.",
+    "translation_ru": "Хотя он живёт в Германии, он мало говорит по-немецки.",
+    "level": "A2",
+    "translation_es": "Aunque vive en Alemania, habla poco alemán.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_28v"
+  },
+  {
+    "id": "s_a2_28v",
+    "target": "Er spricht wenig Deutsch, obwohl er in Deutschland lebt.",
+    "tokens": [
+      "Er",
+      "spricht",
+      "wenig",
+      "Deutsch,",
+      "obwohl",
+      "er",
+      "in",
+      "Deutschland",
+      "lebt"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_28",
+    "translation_en": "He speaks little German although he lives in Germany.",
+    "translation_ru": "Он мало говорит по-немецки, хотя он живёт в Германии.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ],
+    "translation_es": "Aunque vive en Alemania, habla poco alemán."
+  },
+  {
+    "id": "s_a2_29",
+    "target": "Ich bin sicher, dass wir die Prüfung schaffen.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "sicher,",
+      "dass",
+      "wir",
+      "die",
+      "Prüfung",
+      "schaffen"
+    ],
+    "type": "drag",
+    "explanation": "Opinion + 'dass' clause.",
+    "translation_en": "I am sure that we will pass the exam.",
+    "translation_ru": "Я уверен(а), что мы сдадим экзамен.",
+    "level": "A2",
+    "translation_es": "Estoy seguro de que aprobaremos el examen.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_30",
+    "target": "Weil mein Fahrrad kaputt ist, fahre ich mit der Bahn.",
+    "tokens": [
+      "Weil",
+      "mein",
+      "Fahrrad",
+      "kaputt",
+      "ist,",
+      "fahre",
+      "ich",
+      "mit",
+      "der",
+      "Bahn"
+    ],
+    "type": "drag",
+    "explanation": "Reason for choosing transport.",
+    "translation_en": "Because my bike is broken, I take the train.",
+    "translation_ru": "Поскольку мой велосипед сломан, я еду на поезде.",
+    "level": "A2",
+    "translation_es": "Como mi bicicleta está rota, voy en tren.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_30v"
+  },
+  {
+    "id": "s_a2_30v",
+    "target": "Ich fahre mit der Bahn, weil mein Fahrrad kaputt ist.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "mit",
+      "der",
+      "Bahn,",
+      "weil",
+      "mein",
+      "Fahrrad",
+      "kaputt",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_30",
+    "translation_en": "I take the train because my bike is broken.",
+    "translation_ru": "Я еду на поезде, поскольку мой велосипед сломан.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ],
+    "translation_es": "Como mi bicicleta está rota, voy en tren."
+  },
+  {
+    "id": "s_a2_31",
+    "target": "Wenn du möchtest, kann ich dir helfen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "möchtest,",
+      "kann",
+      "ich",
+      "dir",
+      "helfen"
+    ],
+    "type": "drag",
+    "explanation": "Polite offer with condition.",
+    "translation_en": "If you want, I can help you.",
+    "translation_ru": "Если хочешь, я могу тебе помочь.",
+    "level": "A2",
+    "translation_es": "Si quieres, puedo ayudarte.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_31v"
+  },
+  {
+    "id": "s_a2_31v",
+    "target": "Ich kann dir helfen, wenn du möchtest.",
+    "tokens": [
+      "Ich",
+      "kann",
+      "dir",
+      "helfen,",
+      "wenn",
+      "du",
+      "möchtest"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_31",
+    "translation_en": "I can help you if you want.",
+    "translation_ru": "Я могу тебе помочь, если хочешь.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_32",
+    "target": "Als ich in der Schule war, habe ich viel Sport gemacht.",
+    "tokens": [
+      "Als",
+      "ich",
+      "in",
+      "der",
+      "Schule",
+      "war,",
+      "habe",
+      "ich",
+      "viel",
+      "Sport",
+      "gemacht"
+    ],
+    "type": "drag",
+    "explanation": "Past habit with 'als'.",
+    "translation_en": "When I was at school, I did a lot of sports.",
+    "translation_ru": "Когда я учился в школе, я много занимался спортом.",
+    "level": "A2",
+    "translation_es": "Cuando estaba en la escuela, hacía mucho deporte.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_32v"
+  },
+  {
+    "id": "s_a2_32v",
+    "target": "Ich habe viel Sport gemacht, als ich in der Schule war.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "viel",
+      "Sport",
+      "gemacht,",
+      "als",
+      "ich",
+      "in",
+      "der",
+      "Schule",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_32",
+    "translation_en": "I did a lot of sports when I was at school.",
+    "translation_ru": "Я много занимался спортом, когда учился в школе.",
+    "level": "A2",
+    "translation_es": "Hacía mucho deporte cuando estaba en la escuela.",
+    "tags": [
+      "temporalsatz",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_33",
+    "target": "Weil wir keinen Schlüssel hatten, konnten wir nicht hinein.",
+    "tokens": [
+      "Weil",
+      "wir",
+      "keinen",
+      "Schlüssel",
+      "hatten,",
+      "konnten",
+      "wir",
+      "nicht",
+      "hinein"
+    ],
+    "type": "drag",
+    "explanation": "Past reason + modal.",
+    "translation_en": "Because we did not have a key, we could not go in.",
+    "translation_ru": "Поскольку у нас не было ключа, мы не могли войти.",
+    "level": "A2",
+    "translation_es": "Como no teníamos llave, no pudimos entrar.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_33v"
+  },
+  {
+    "id": "s_a2_33v",
+    "target": "Wir konnten nicht hinein, weil wir keinen Schlüssel hatten.",
+    "tokens": [
+      "Wir",
+      "konnten",
+      "nicht",
+      "hinein,",
+      "weil",
+      "wir",
+      "keinen",
+      "Schlüssel",
+      "hatten"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_33",
+    "translation_en": "We could not go in because we did not have a key.",
+    "translation_ru": "Мы не могли войти, поскольку у нас не было ключа.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_34",
+    "target": "Wenn ihr fertig seid, beginnen wir mit dem Spiel.",
+    "tokens": [
+      "Wenn",
+      "ihr",
+      "fertig",
+      "seid,",
+      "beginnen",
+      "wir",
+      "mit",
+      "dem",
+      "Spiel"
+    ],
+    "type": "drag",
+    "explanation": "Condition with 'ihr'.",
+    "translation_en": "When you are ready, we start the game.",
+    "translation_ru": "Когда вы будете готовы, мы начнём игру.",
+    "level": "A2",
+    "translation_es": "Cuando estéis listos, empezamos el juego.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_34v"
+  },
+  {
+    "id": "s_a2_34v",
+    "target": "Wir beginnen mit dem Spiel, wenn ihr fertig seid.",
+    "tokens": [
+      "Wir",
+      "beginnen",
+      "mit",
+      "dem",
+      "Spiel,",
+      "wenn",
+      "ihr",
+      "fertig",
+      "seid"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_34",
+    "translation_en": "We start the game when you are ready.",
+    "translation_ru": "Мы начнём игру, когда вы будете готовы.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_35",
+    "target": "Obwohl ich wenig geschlafen habe, bin ich gut gelaunt.",
+    "tokens": [
+      "Obwohl",
+      "ich",
+      "wenig",
+      "geschlafen",
+      "habe,",
+      "bin",
+      "ich",
+      "gut",
+      "gelaunt"
+    ],
+    "type": "drag",
+    "explanation": "Contrast between sleep and mood.",
+    "translation_en": "Although I slept little, I am in a good mood.",
+    "translation_ru": "Хотя я мало поспал(а), у меня хорошее настроение.",
+    "level": "A2",
+    "translation_es": "Aunque dormí poco, estoy de buen humor.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_35v"
+  },
+  {
+    "id": "s_a2_35v",
+    "target": "Ich bin gut gelaunt, obwohl ich wenig geschlafen habe.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "gut",
+      "gelaunt,",
+      "obwohl",
+      "ich",
+      "wenig",
+      "geschlafen",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_35",
+    "translation_en": "I am in a good mood although I slept little.",
+    "translation_ru": "У меня хорошее настроение, хотя я мало поспал(а).",
+    "level": "A2",
+    "translation_es": "Estoy de buen humor, aunque dormí poco.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_36",
+    "target": "Weil das Wetter so schön ist, gehen wir heute wandern.",
+    "tokens": [
+      "Weil",
+      "das",
+      "Wetter",
+      "so",
+      "schön",
+      "ist,",
+      "gehen",
+      "wir",
+      "heute",
+      "wandern"
+    ],
+    "type": "drag",
+    "explanation": "Reason for outdoor activity.",
+    "translation_en": "Because the weather is so nice, we go hiking today.",
+    "translation_ru": "Потому что погода такая хорошая, мы сегодня идём в поход.",
+    "level": "A2",
+    "translation_es": "Como hace tan buen tiempo, hoy vamos de excursión.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_36v"
+  },
+  {
+    "id": "s_a2_36v",
+    "target": "Wir gehen heute wandern, weil das Wetter so schön ist.",
+    "tokens": [
+      "Wir",
+      "gehen",
+      "heute",
+      "wandern,",
+      "weil",
+      "das",
+      "Wetter",
+      "so",
+      "schön",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_36",
+    "translation_en": "We go hiking today because the weather is so nice.",
+    "translation_ru": "Мы сегодня идём в поход, потому что погода такая хорошая.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_37",
+    "target": "Nachdem ich geduscht habe, frühstücke ich.",
+    "tokens": [
+      "Nachdem",
+      "ich",
+      "geduscht",
+      "habe,",
+      "frühstücke",
+      "ich"
+    ],
+    "type": "drag",
+    "explanation": "Sequence of actions.",
+    "translation_en": "After I have showered, I have breakfast.",
+    "translation_ru": "После того как я приму душ, я завтракаю.",
+    "level": "A2",
+    "translation_es": "Después de ducharme, desayuno.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_37v"
+  },
+  {
+    "id": "s_a2_37v",
+    "target": "Ich frühstücke, nachdem ich geduscht habe.",
+    "tokens": [
+      "Ich",
+      "frühstücke,",
+      "nachdem",
+      "ich",
+      "geduscht",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_37",
+    "translation_en": "I have breakfast after I have showered.",
+    "translation_ru": "Я завтракаю после того, как приму душ.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_38",
+    "target": "Ich bin froh, dass du gekommen bist.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "froh,",
+      "dass",
+      "du",
+      "gekommen",
+      "bist"
+    ],
+    "type": "drag",
+    "explanation": "Emotion + 'dass' clause.",
+    "translation_en": "I am glad that you came.",
+    "translation_ru": "Я рад(а), что ты пришёл(а).",
+    "level": "A2",
+    "translation_es": "Me alegro de que hayas venido.",
+    "tags": [
+      "dass",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_38v"
+  },
+  {
+    "id": "s_a2_38v",
+    "target": "Dass du gekommen bist, macht mich froh.",
+    "tokens": [
+      "Dass",
+      "du",
+      "gekommen",
+      "bist,",
+      "macht",
+      "mich",
+      "froh"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_38",
+    "translation_en": "That you came makes me happy.",
+    "translation_ru": "То, что ты пришёл(а), меня радует.",
+    "level": "A2",
+    "translation_es": "Que hayas venido me alegra.",
+    "tags": [
+      "dass",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_39",
+    "target": "Weil ich gestern lange gearbeitet habe, bin ich heute müde.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "gestern",
+      "lange",
+      "gearbeitet",
+      "habe,",
+      "bin",
+      "ich",
+      "heute",
+      "müde"
+    ],
+    "type": "drag",
+    "explanation": "Past reason → present result.",
+    "translation_en": "Because I worked for a long time yesterday, I am tired today.",
+    "translation_ru": "Поскольку вчера я долго работал(а), сегодня я устал(а).",
+    "level": "A2",
+    "translation_es": "Como ayer trabajé mucho tiempo, hoy estoy cansado.",
+    "tags": [
+      "weil",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_39v"
+  },
+  {
+    "id": "s_a2_39v",
+    "target": "Ich bin heute müde, weil ich gestern lange gearbeitet habe.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "heute",
+      "müde,",
+      "weil",
+      "ich",
+      "gestern",
+      "lange",
+      "gearbeitet",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_39",
+    "translation_en": "I am tired today because I worked for a long time yesterday.",
+    "translation_ru": "Сегодня я устал(а), потому что вчера я долго работал(а).",
+    "level": "A2",
+    "translation_es": "Hoy estoy cansado porque ayer trabajé mucho tiempo.",
+    "tags": [
+      "weil",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_40",
+    "target": "Wenn du Deutsch übst, lernst du schneller.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "Deutsch",
+      "übst,",
+      "lernst",
+      "du",
+      "schneller"
+    ],
+    "type": "drag",
+    "explanation": "Condition showing result.",
+    "translation_en": "If you practice German, you learn faster.",
+    "translation_ru": "Если ты занимаешься немецким, ты будешь учиться быстрее.",
+    "level": "A2",
+    "translation_es": "Si practicas alemán, aprendes más rápido.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_40v"
+  },
+  {
+    "id": "s_a2_40v",
+    "target": "Du lernst schneller, wenn du Deutsch übst.",
+    "tokens": [
+      "Du",
+      "lernst",
+      "schneller,",
+      "wenn",
+      "du",
+      "Deutsch",
+      "übst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_40",
+    "translation_en": "You learn faster if you practice German.",
+    "translation_ru": "Ты будешь учиться быстрее, если занимаешься немецким.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_41",
+    "target": "Obwohl wir wenig Zeit hatten, haben wir alles geschafft.",
+    "tokens": [
+      "Obwohl",
+      "wir",
+      "wenig",
+      "Zeit",
+      "hatten,",
+      "haben",
+      "wir",
+      "alles",
+      "geschafft"
+    ],
+    "type": "drag",
+    "explanation": "Concession in past.",
+    "translation_en": "Although we had little time, we did everything.",
+    "translation_ru": "Хотя у нас было мало времени, мы всё успели.",
+    "level": "A2",
+    "translation_es": "Aunque teníamos poco tiempo, lo conseguimos todo.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_41v"
+  },
+  {
+    "id": "s_a2_41v",
+    "target": "Wir haben alles geschafft, obwohl wir wenig Zeit hatten.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "alles",
+      "geschafft,",
+      "obwohl",
+      "wir",
+      "wenig",
+      "Zeit",
+      "hatten"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_41",
+    "translation_en": "We did everything although we had little time.",
+    "translation_ru": "Мы всё успели, хотя у нас было мало времени.",
+    "level": "A2",
+    "translation_es": "Lo conseguimos todo, aunque teníamos poco tiempo.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_42",
+    "target": "Weil mein Handy kaputt ist, schreibe ich dir vom Laptop.",
+    "tokens": [
+      "Weil",
+      "mein",
+      "Handy",
+      "kaputt",
+      "ist,",
+      "schreibe",
+      "ich",
+      "dir",
+      "vom",
+      "Laptop"
+    ],
+    "type": "drag",
+    "explanation": "Reason + alternative.",
+    "translation_en": "Because my phone is broken, I am writing to you from the laptop.",
+    "translation_ru": "Потому что мой телефон сломан, я пишу тебе с ноутбука.",
+    "level": "A2",
+    "translation_es": "Como mi móvil está roto, te escribo desde el portátil.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_42v"
+  },
+  {
+    "id": "s_a2_42v",
+    "target": "Ich schreibe dir vom Laptop, weil mein Handy kaputt ist.",
+    "tokens": [
+      "Ich",
+      "schreibe",
+      "dir",
+      "vom",
+      "Laptop,",
+      "weil",
+      "mein",
+      "Handy",
+      "kaputt",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_42",
+    "translation_en": "I am writing to you from the laptop because my phone is broken.",
+    "translation_ru": "Я пишу тебе с ноутбука, потому что мой телефон сломан.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_43",
+    "target": "Wenn wir Urlaub haben, fahren wir ans Meer.",
+    "tokens": [
+      "Wenn",
+      "wir",
+      "Urlaub",
+      "haben,",
+      "fahren",
+      "wir",
+      "ans",
+      "Meer"
+    ],
+    "type": "drag",
+    "explanation": "Condition with 'wir'.",
+    "translation_en": "When we have vacation, we go to the sea.",
+    "translation_ru": "Когда у нас отпуск, мы едем на море.",
+    "level": "A2",
+    "translation_es": "Cuando tenemos vacaciones, vamos al mar.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_43v"
+  },
+  {
+    "id": "s_a2_43v",
+    "target": "Wir fahren ans Meer, wenn wir Urlaub haben.",
+    "tokens": [
+      "Wir",
+      "fahren",
+      "ans",
+      "Meer,",
+      "wenn",
+      "wir",
+      "Urlaub",
+      "haben"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_43",
+    "translation_en": "We go to the sea when we have vacation.",
+    "translation_ru": "Мы едем на море, когда у нас отпуск.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_44",
+    "target": "Nachdem sie die E-Mail gelesen hat, ruft sie den Kunden an.",
+    "tokens": [
+      "Nachdem",
+      "sie",
+      "die",
+      "E-Mail",
+      "gelesen",
+      "hat,",
+      "ruft",
+      "sie",
+      "den",
+      "Kunden",
+      "an"
+    ],
+    "type": "drag",
+    "explanation": "Business-like sequence.",
+    "translation_en": "After she has read the email, she calls the customer.",
+    "translation_ru": "После того как она прочтёт письмо, она позвонит клиенту.",
+    "level": "A2",
+    "translation_es": "Después de leer el correo, ella llama al cliente.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_44v"
+  },
+  {
+    "id": "s_a2_44v",
+    "target": "Sie ruft den Kunden an, nachdem sie die E-Mail gelesen hat.",
+    "tokens": [
+      "Sie",
+      "ruft",
+      "den",
+      "Kunden",
+      "an,",
+      "nachdem",
+      "sie",
+      "die",
+      "E-Mail",
+      "gelesen",
+      "hat"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_44",
+    "translation_en": "She calls the customer after she has read the email.",
+    "translation_ru": "Она позвонит клиенту после того, как прочтёт письмо.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_45",
+    "target": "Ich finde, dass dieser Film sehr interessant ist.",
+    "tokens": [
+      "Ich",
+      "finde,",
+      "dass",
+      "dieser",
+      "Film",
+      "sehr",
+      "interessant",
+      "ist"
+    ],
+    "type": "drag",
+    "explanation": "Opinion + 'dass'.",
+    "translation_en": "I think that this film is very interesting.",
+    "translation_ru": "Я считаю, что этот фильм очень интересный.",
+    "level": "A2",
+    "translation_es": "Creo que esta película es muy interesante.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_46",
+    "target": "Weil wir umziehen wollen, suchen wir eine neue Wohnung.",
+    "tokens": [
+      "Weil",
+      "wir",
+      "umziehen",
+      "wollen,",
+      "suchen",
+      "wir",
+      "eine",
+      "neue",
+      "Wohnung"
+    ],
+    "type": "drag",
+    "explanation": "Reason with modal in subclause.",
+    "translation_en": "Because we want to move, we are looking for a new flat.",
+    "translation_ru": "Так как мы хотим переехать, мы ищем новую квартиру.",
+    "level": "A2",
+    "translation_es": "Como queremos mudarnos, buscamos un piso nuevo.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_46v"
+  },
+  {
+    "id": "s_a2_46v",
+    "target": "Wir suchen eine neue Wohnung, weil wir umziehen wollen.",
+    "tokens": [
+      "Wir",
+      "suchen",
+      "eine",
+      "neue",
+      "Wohnung,",
+      "weil",
+      "wir",
+      "umziehen",
+      "wollen"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_46",
+    "translation_en": "We are looking for a new flat because we want to move.",
+    "translation_ru": "Мы ищем новую квартиру, так как хотим переехать.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_47",
+    "target": "Wenn du Fragen hast, kannst du mich anrufen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "Fragen",
+      "hast,",
+      "kannst",
+      "du",
+      "mich",
+      "anrufen"
+    ],
+    "type": "drag",
+    "explanation": "Condition + modal + separable verb.",
+    "translation_en": "If you have questions, you can call me.",
+    "translation_ru": "Если у тебя есть вопросы, ты можешь мне позвонить.",
+    "level": "A2",
+    "translation_es": "Si tienes preguntas, puedes llamarme.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_47v"
+  },
+  {
+    "id": "s_a2_47v",
+    "target": "Du kannst mich anrufen, wenn du Fragen hast.",
+    "tokens": [
+      "Du",
+      "kannst",
+      "mich",
+      "anrufen,",
+      "wenn",
+      "du",
+      "Fragen",
+      "hast"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_47",
+    "translation_en": "You can call me if you have questions.",
+    "translation_ru": "Ты можешь мне позвонить, если у тебя есть вопросы.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_48",
+    "target": "Obwohl er wenig verdient, hilft er seiner Familie.",
+    "tokens": [
+      "Obwohl",
+      "er",
+      "wenig",
+      "verdient,",
+      "hilft",
+      "er",
+      "seiner",
+      "Familie"
+    ],
+    "type": "drag",
+    "explanation": "Contrast of money and help.",
+    "translation_en": "Although he earns little, he helps his family.",
+    "translation_ru": "Хотя он мало зарабатывает, он помогает своей семье.",
+    "level": "A2",
+    "translation_es": "Aunque gana poco, ayuda a su familia.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_48v"
+  },
+  {
+    "id": "s_a2_48v",
+    "target": "Er hilft seiner Familie, obwohl er wenig verdient.",
+    "tokens": [
+      "Er",
+      "hilft",
+      "seiner",
+      "Familie,",
+      "obwohl",
+      "er",
+      "wenig",
+      "verdient"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_48",
+    "translation_en": "He helps his family although he earns little.",
+    "translation_ru": "Он помогает своей семье, хотя мало зарабатывает.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_49",
+    "target": "Seit wir ein Kind haben, ist unser Leben anders.",
+    "tokens": [
+      "Seit",
+      "wir",
+      "ein",
+      "Kind",
+      "haben,",
+      "ist",
+      "unser",
+      "Leben",
+      "anders"
+    ],
+    "type": "drag",
+    "explanation": "Ongoing change with 'seit'.",
+    "translation_en": "Since we have a child, our life is different.",
+    "translation_ru": "С тех пор как у нас появился ребёнок, наша жизнь изменилась.",
+    "level": "A2",
+    "translation_es": "Desde que tenemos un hijo, nuestra vida es diferente.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_49v"
+  },
+  {
+    "id": "s_a2_49v",
+    "target": "Unser Leben ist anders, seit wir ein Kind haben.",
+    "tokens": [
+      "Unser",
+      "Leben",
+      "ist",
+      "anders,",
+      "seit",
+      "wir",
+      "ein",
+      "Kind",
+      "haben"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_49",
+    "translation_en": "Our life is different since we have a child.",
+    "translation_ru": "Наша жизнь изменилась с тех пор, как у нас появился ребёнок.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_50",
+    "target": "Weil du mir geholfen hast, danke ich dir sehr.",
+    "tokens": [
+      "Weil",
+      "du",
+      "mir",
+      "geholfen",
+      "hast,",
+      "danke",
+      "ich",
+      "dir",
+      "sehr"
+    ],
+    "type": "drag",
+    "explanation": "Reason in past + present thanks.",
+    "translation_en": "Because you helped me, I thank you very much.",
+    "translation_ru": "Так как ты мне помог(ла), я очень благодарен(на) тебе.",
+    "level": "A2",
+    "translation_es": "Como me ayudaste, te lo agradezco mucho.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_50v"
+  },
+  {
+    "id": "s_a2_50v",
+    "target": "Ich danke dir sehr, weil du mir geholfen hast.",
+    "tokens": [
+      "Ich",
+      "danke",
+      "dir",
+      "sehr,",
+      "weil",
+      "du",
+      "mir",
+      "geholfen",
+      "hast"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_50",
+    "translation_en": "I thank you very much because you helped me.",
+    "translation_ru": "Я очень благодарен(на) тебе, так как ты мне помог(ла).",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_51",
+    "target": "Damit du alles verstehst, spreche ich langsamer.",
+    "tokens": [
+      "Damit",
+      "du",
+      "alles",
+      "verstehst,",
+      "spreche",
+      "ich",
+      "langsamer"
+    ],
+    "type": "drag",
+    "explanation": "'damit' = purpose, verb at the end.",
+    "translation_en": "So that you understand everything, I speak more slowly.",
+    "translation_ru": "Чтобы ты всё понимал(а), я говорю медленнее.",
+    "level": "A2",
+    "translation_es": "Para que lo entiendas todo, hablo más despacio.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_51v"
+  },
+  {
+    "id": "s_a2_51v",
+    "target": "Ich spreche langsamer, damit du alles verstehst.",
+    "tokens": [
+      "Ich",
+      "spreche",
+      "langsamer,",
+      "damit",
+      "du",
+      "alles",
+      "verstehst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_51",
+    "translation_en": "I speak more slowly so that you understand everything.",
+    "translation_ru": "Я говорю медленнее, чтобы ты всё понимал(а).",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_52",
+    "target": "Während ich koche, räumt er die Küche auf.",
+    "tokens": [
+      "Während",
+      "ich",
+      "koche,",
+      "räumt",
+      "er",
+      "die",
+      "Küche",
+      "auf"
+    ],
+    "type": "drag",
+    "explanation": "'während' for simultaneous actions.",
+    "translation_en": "While I am cooking, he tidies up the kitchen.",
+    "translation_ru": "Пока я готовлю, он убирает на кухне.",
+    "level": "A2",
+    "translation_es": "Mientras yo cocino, él ordena la cocina.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_52v"
+  },
+  {
+    "id": "s_a2_52v",
+    "target": "Er räumt die Küche auf, während ich koche.",
+    "tokens": [
+      "Er",
+      "räumt",
+      "die",
+      "Küche",
+      "auf,",
+      "während",
+      "ich",
+      "koche"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_52",
+    "translation_en": "He tidies up the kitchen while I am cooking.",
+    "translation_ru": "Он убирает на кухне, пока я готовлю.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_53",
+    "target": "Solange es noch warm ist, sitzen wir draußen.",
+    "tokens": [
+      "Solange",
+      "es",
+      "noch",
+      "warm",
+      "ist,",
+      "sitzen",
+      "wir",
+      "draußen"
+    ],
+    "type": "drag",
+    "explanation": "'solange' = for the duration of something.",
+    "translation_en": "As long as it is still warm, we sit outside.",
+    "translation_ru": "Пока ещё тепло, мы сидим на улице.",
+    "level": "A2",
+    "translation_es": "Mientras haga calor, nos sentamos fuera.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_53v"
+  },
+  {
+    "id": "s_a2_53v",
+    "target": "Wir sitzen draußen, solange es noch warm ist.",
+    "tokens": [
+      "Wir",
+      "sitzen",
+      "draußen,",
+      "solange",
+      "es",
+      "noch",
+      "warm",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_53",
+    "translation_en": "We sit outside as long as it is still warm.",
+    "translation_ru": "Мы сидим на улице, пока ещё тепло.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_54",
+    "target": "Bis der Bus kommt, warten wir an der Haltestelle.",
+    "tokens": [
+      "Bis",
+      "der",
+      "Bus",
+      "kommt,",
+      "warten",
+      "wir",
+      "an",
+      "der",
+      "Haltestelle"
+    ],
+    "type": "drag",
+    "explanation": "'bis' = until, subclause first.",
+    "translation_en": "Until the bus comes, we wait at the stop.",
+    "translation_ru": "Пока автобус не придёт, мы ждём на остановке.",
+    "level": "A2",
+    "translation_es": "Hasta que llegue el autobús, esperamos en la parada.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_54v"
+  },
+  {
+    "id": "s_a2_54v",
+    "target": "Wir warten an der Haltestelle, bis der Bus kommt.",
+    "tokens": [
+      "Wir",
+      "warten",
+      "an",
+      "der",
+      "Haltestelle,",
+      "bis",
+      "der",
+      "Bus",
+      "kommt"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_54",
+    "translation_en": "We wait at the stop until the bus comes.",
+    "translation_ru": "Мы ждём на остановке, пока не придёт автобус.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_55",
+    "target": "Ich denke, dass sie schon unterwegs ist.",
+    "tokens": [
+      "Ich",
+      "denke,",
+      "dass",
+      "sie",
+      "schon",
+      "unterwegs",
+      "ist"
+    ],
+    "type": "drag",
+    "explanation": "Opinion + 'dass'.",
+    "translation_en": "I think that she is already on the way.",
+    "translation_ru": "Я думаю, что она уже в пути.",
+    "level": "A2",
+    "translation_es": "Creo que ella ya está en camino.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_56",
+    "target": "Weil wir früh aufstehen müssen, gehen wir jetzt schlafen.",
+    "tokens": [
+      "Weil",
+      "wir",
+      "früh",
+      "aufstehen",
+      "müssen,",
+      "gehen",
+      "wir",
+      "jetzt",
+      "schlafen"
+    ],
+    "type": "drag",
+    "explanation": "Reason + modal in subclause.",
+    "translation_en": "Because we have to get up early, we go to sleep now.",
+    "translation_ru": "Потому что нам нужно рано вставать, мы сейчас идём спать.",
+    "level": "A2",
+    "translation_es": "Como tenemos que madrugar, nos vamos a dormir ahora.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_56v"
+  },
+  {
+    "id": "s_a2_56v",
+    "target": "Wir gehen jetzt schlafen, weil wir früh aufstehen müssen.",
+    "tokens": [
+      "Wir",
+      "gehen",
+      "jetzt",
+      "schlafen,",
+      "weil",
+      "wir",
+      "früh",
+      "aufstehen",
+      "müssen"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_56",
+    "translation_en": "We go to sleep now because we have to get up early.",
+    "translation_ru": "Мы сейчас идём спать, потому что нам нужно рано вставать.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_57",
+    "target": "Wenn du Lust hast, können wir spazieren gehen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "Lust",
+      "hast,",
+      "können",
+      "wir",
+      "spazieren",
+      "gehen"
+    ],
+    "type": "drag",
+    "explanation": "Invitation with condition.",
+    "translation_en": "If you feel like it, we can go for a walk.",
+    "translation_ru": "Если у тебя есть желание, мы можем пойти на прогулку.",
+    "level": "A2",
+    "translation_es": "Si te apetece, podemos ir a pasear.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_57v"
+  },
+  {
+    "id": "s_a2_57v",
+    "target": "Wir können spazieren gehen, wenn du Lust hast.",
+    "tokens": [
+      "Wir",
+      "können",
+      "spazieren",
+      "gehen,",
+      "wenn",
+      "du",
+      "Lust",
+      "hast"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_57",
+    "translation_en": "We can go for a walk if you feel like it.",
+    "translation_ru": "Мы можем пойти на прогулку, если у тебя есть желание.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_58",
+    "target": "Obwohl sie viel arbeitet, hat sie Zeit für ihre Familie.",
+    "tokens": [
+      "Obwohl",
+      "sie",
+      "viel",
+      "arbeitet,",
+      "hat",
+      "sie",
+      "Zeit",
+      "für",
+      "ihre",
+      "Familie"
+    ],
+    "type": "drag",
+    "explanation": "Contrast between work and family.",
+    "translation_en": "Although she works a lot, she has time for her family.",
+    "translation_ru": "Хотя она много работает, у неё есть время для семьи.",
+    "level": "A2",
+    "translation_es": "Aunque trabaja mucho, tiene tiempo para su familia.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_58v"
+  },
+  {
+    "id": "s_a2_58v",
+    "target": "Sie hat Zeit für ihre Familie, obwohl sie viel arbeitet.",
+    "tokens": [
+      "Sie",
+      "hat",
+      "Zeit",
+      "für",
+      "ihre",
+      "Familie,",
+      "obwohl",
+      "sie",
+      "viel",
+      "arbeitet"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_58",
+    "translation_en": "She has time for her family although she works a lot.",
+    "translation_ru": "У неё есть время для семьи, хотя она много работает.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_59",
+    "target": "Wenn du mitkommst, wird es lustiger.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "mitkommst,",
+      "wird",
+      "es",
+      "lustiger"
+    ],
+    "type": "drag",
+    "explanation": "Condition → comparative adjective.",
+    "translation_en": "If you come along, it will be more fun.",
+    "translation_ru": "Если ты пойдёшь с нами, будет веселее.",
+    "level": "A2",
+    "translation_es": "Si vienes con nosotros, será más divertido.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_59v"
+  },
+  {
+    "id": "s_a2_59v",
+    "target": "Es wird lustiger, wenn du mitkommst.",
+    "tokens": [
+      "Es",
+      "wird",
+      "lustiger,",
+      "wenn",
+      "du",
+      "mitkommst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_59",
+    "translation_en": "It will be more fun if you come along.",
+    "translation_ru": "Будет веселее, если ты пойдёшь с нами.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_60",
+    "target": "Weil ich meine Brille vergessen habe, sehe ich schlecht.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "meine",
+      "Brille",
+      "vergessen",
+      "habe,",
+      "sehe",
+      "ich",
+      "schlecht"
+    ],
+    "type": "drag",
+    "explanation": "Past reason, present result.",
+    "translation_en": "Because I forgot my glasses, I see badly.",
+    "translation_ru": "Потому что я забыл(а) свои очки, я плохо вижу.",
+    "level": "A2",
+    "translation_es": "Como olvidé mis gafas, veo mal.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_60v"
+  },
+  {
+    "id": "s_a2_60v",
+    "target": "Ich sehe schlecht, weil ich meine Brille vergessen habe.",
+    "tokens": [
+      "Ich",
+      "sehe",
+      "schlecht,",
+      "weil",
+      "ich",
+      "meine",
+      "Brille",
+      "vergessen",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_60",
+    "translation_en": "I see badly because I forgot my glasses.",
+    "translation_ru": "Я плохо вижу, потому что забыл(а) свои очки.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_61",
+    "target": "Ich glaube, dass er uns später anruft.",
+    "tokens": [
+      "Ich",
+      "glaube,",
+      "dass",
+      "er",
+      "uns",
+      "später",
+      "anruft"
+    ],
+    "type": "drag",
+    "explanation": "Reported future action.",
+    "translation_en": "I think that he will call us later.",
+    "translation_ru": "Я думаю, что он нам позже позвонит.",
+    "level": "A2",
+    "translation_es": "Creo que nos llamará más tarde.",
+    "tags": [
+      "dass"
+    ]
+  },
+  {
+    "id": "s_a2_62",
+    "target": "Wenn ihr leise seid, kann das Baby schlafen.",
+    "tokens": [
+      "Wenn",
+      "ihr",
+      "leise",
+      "seid,",
+      "kann",
+      "das",
+      "Baby",
+      "schlafen"
+    ],
+    "type": "drag",
+    "explanation": "Condition with plural 'ihr'.",
+    "translation_en": "If you are quiet, the baby can sleep.",
+    "translation_ru": "Если вы будете вести себя тихо, малыш сможет спать.",
+    "level": "A2",
+    "translation_es": "Si estáis en silencio, el bebé puede dormir.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_62v"
+  },
+  {
+    "id": "s_a2_62v",
+    "target": "Das Baby kann schlafen, wenn ihr leise seid.",
+    "tokens": [
+      "Das",
+      "Baby",
+      "kann",
+      "schlafen,",
+      "wenn",
+      "ihr",
+      "leise",
+      "seid"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_62",
+    "translation_en": "The baby can sleep if you are quiet.",
+    "translation_ru": "Малыш сможет спать, если вы будете вести себя тихо.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_63",
+    "target": "Weil er einen Termin hat, kommt er später ins Büro.",
+    "tokens": [
+      "Weil",
+      "er",
+      "einen",
+      "Termin",
+      "hat,",
+      "kommt",
+      "er",
+      "später",
+      "ins",
+      "Büro"
+    ],
+    "type": "drag",
+    "explanation": "Work context reason.",
+    "translation_en": "Because he has an appointment, he will come to the office later.",
+    "translation_ru": "Потому что у него встреча, он придёт в офис позже.",
+    "level": "A2",
+    "translation_es": "Como tiene una cita, llegará más tarde a la oficina.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_63v"
+  },
+  {
+    "id": "s_a2_63v",
+    "target": "Er kommt später ins Büro, weil er einen Termin hat.",
+    "tokens": [
+      "Er",
+      "kommt",
+      "später",
+      "ins",
+      "Büro,",
+      "weil",
+      "er",
+      "einen",
+      "Termin",
+      "hat"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_63",
+    "translation_en": "He will come to the office later because he has an appointment.",
+    "translation_ru": "Он придёт в офис позже, потому что у него встреча.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_64",
+    "target": "Obwohl es spät ist, sehen wir noch einen Film.",
+    "tokens": [
+      "Obwohl",
+      "es",
+      "spät",
+      "ist,",
+      "sehen",
+      "wir",
+      "noch",
+      "einen",
+      "Film"
+    ],
+    "type": "drag",
+    "explanation": "Concession with 'obwohl'.",
+    "translation_en": "Although it is late, we watch another film.",
+    "translation_ru": "Хотя уже поздно, мы посмотрим ещё один фильм.",
+    "level": "A2",
+    "translation_es": "Aunque es tarde, vemos otra película.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_64v"
+  },
+  {
+    "id": "s_a2_64v",
+    "target": "Wir sehen noch einen Film, obwohl es spät ist.",
+    "tokens": [
+      "Wir",
+      "sehen",
+      "noch",
+      "einen",
+      "Film,",
+      "obwohl",
+      "es",
+      "spät",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_64",
+    "translation_en": "We watch another film although it is late.",
+    "translation_ru": "Мы посмотрим ещё один фильм, хотя уже поздно.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_65",
+    "target": "Wenn du angekommen bist, schreib mir bitte.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "angekommen",
+      "bist,",
+      "schreib",
+      "mir",
+      "bitte"
+    ],
+    "type": "drag",
+    "explanation": "Temporal condition + imperative main clause.",
+    "translation_en": "When you have arrived, please write to me.",
+    "translation_ru": "Когда приедешь, пожалуйста, напиши мне.",
+    "level": "A2",
+    "translation_es": "Cuando hayas llegado, escríbeme por favor.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_65v"
+  },
+  {
+    "id": "s_a2_65v",
+    "target": "Schreib mir bitte, wenn du angekommen bist.",
+    "tokens": [
+      "Schreib",
+      "mir",
+      "bitte,",
+      "wenn",
+      "du",
+      "angekommen",
+      "bist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_65",
+    "translation_en": "Please write to me when you have arrived.",
+    "translation_ru": "Напиши мне, пожалуйста, когда приедешь.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_66",
+    "target": "Weil unsere Nachbarn feiern, ist es sehr laut.",
+    "tokens": [
+      "Weil",
+      "unsere",
+      "Nachbarn",
+      "feiern,",
+      "ist",
+      "es",
+      "sehr",
+      "laut"
+    ],
+    "type": "drag",
+    "explanation": "Cause of noise.",
+    "translation_en": "Because our neighbours are celebrating, it is very loud.",
+    "translation_ru": "Потому что наши соседи празднуют, очень шумно.",
+    "level": "A2",
+    "translation_es": "Como nuestros vecinos están de fiesta, hay mucho ruido.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_66v"
+  },
+  {
+    "id": "s_a2_66v",
+    "target": "Es ist sehr laut, weil unsere Nachbarn feiern.",
+    "tokens": [
+      "Es",
+      "ist",
+      "sehr",
+      "laut,",
+      "weil",
+      "unsere",
+      "Nachbarn",
+      "feiern"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_66",
+    "translation_en": "It is very loud because our neighbours are celebrating.",
+    "translation_ru": "Очень шумно, потому что наши соседи празднуют.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_67",
+    "target": "Solange du lernst, störe ich dich nicht.",
+    "tokens": [
+      "Solange",
+      "du",
+      "lernst,",
+      "störe",
+      "ich",
+      "dich",
+      "nicht"
+    ],
+    "type": "drag",
+    "explanation": "Duration with 'solange'.",
+    "translation_en": "As long as you are studying, I will not disturb you.",
+    "translation_ru": "Пока ты учишься, я не буду тебя беспокоить.",
+    "level": "A2",
+    "translation_es": "Mientras estés estudiando, no te molesto.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_67v"
+  },
+  {
+    "id": "s_a2_67v",
+    "target": "Ich störe dich nicht, solange du lernst.",
+    "tokens": [
+      "Ich",
+      "störe",
+      "dich",
+      "nicht,",
+      "solange",
+      "du",
+      "lernst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_67",
+    "translation_en": "I will not disturb you as long as you are studying.",
+    "translation_ru": "Я не буду тебя беспокоить, пока ты учишься.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_68",
+    "target": "Während er telefoniert, macht sie das Abendessen.",
+    "tokens": [
+      "Während",
+      "er",
+      "telefoniert,",
+      "macht",
+      "sie",
+      "das",
+      "Abendessen"
+    ],
+    "type": "drag",
+    "explanation": "Two actions at the same time.",
+    "translation_en": "While he is on the phone, she makes dinner.",
+    "translation_ru": "Пока он разговаривает по телефону, она готовит ужин.",
+    "level": "A2",
+    "translation_es": "Mientras él habla por teléfono, ella prepara la cena.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_68v"
+  },
+  {
+    "id": "s_a2_68v",
+    "target": "Sie macht das Abendessen, während er telefoniert.",
+    "tokens": [
+      "Sie",
+      "macht",
+      "das",
+      "Abendessen,",
+      "während",
+      "er",
+      "telefoniert"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_68",
+    "translation_en": "She makes dinner while he is on the phone.",
+    "translation_ru": "Она готовит ужин, пока он разговаривает по телефону.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_69",
+    "target": "Nachdem wir umgezogen sind, lernen wir die Nachbarn kennen.",
+    "tokens": [
+      "Nachdem",
+      "wir",
+      "umgezogen",
+      "sind,",
+      "lernen",
+      "wir",
+      "die",
+      "Nachbarn",
+      "kennen"
+    ],
+    "type": "drag",
+    "explanation": "Sequence after moving.",
+    "translation_en": "After we have moved, we get to know the neighbours.",
+    "translation_ru": "После того как мы переедем, мы познакомимся с соседями.",
+    "level": "A2",
+    "translation_es": "Después de mudarnos, conocemos a los vecinos.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_69v"
+  },
+  {
+    "id": "s_a2_69v",
+    "target": "Wir lernen die Nachbarn kennen, nachdem wir umgezogen sind.",
+    "tokens": [
+      "Wir",
+      "lernen",
+      "die",
+      "Nachbarn",
+      "kennen,",
+      "nachdem",
+      "wir",
+      "umgezogen",
+      "sind"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_69",
+    "translation_en": "We get to know the neighbours after we have moved.",
+    "translation_ru": "Мы познакомимся с соседями после того, как переедем.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_70",
+    "target": "Ich bin froh, dass alles gut geklappt hat.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "froh,",
+      "dass",
+      "alles",
+      "gut",
+      "geklappt",
+      "hat"
+    ],
+    "type": "drag",
+    "explanation": "Emotion + past 'dass' clause.",
+    "translation_en": "I am happy that everything worked well.",
+    "translation_ru": "Я рад(а), что всё хорошо получилось.",
+    "level": "A2",
+    "translation_es": "Me alegro de que todo haya salido bien.",
+    "tags": [
+      "dass",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_70v"
+  },
+  {
+    "id": "s_a2_70v",
+    "target": "Dass alles gut geklappt hat, macht mich froh.",
+    "tokens": [
+      "Dass",
+      "alles",
+      "gut",
+      "geklappt",
+      "hat,",
+      "macht",
+      "mich",
+      "froh"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_70",
+    "translation_en": "That everything worked well makes me happy.",
+    "translation_ru": "То, что всё хорошо получилось, меня радует.",
+    "level": "A2",
+    "translation_es": "Que todo haya salido bien me alegra.",
+    "tags": [
+      "dass",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_71",
+    "target": "Weil wir Besuch bekommen, räume ich die Wohnung auf.",
+    "tokens": [
+      "Weil",
+      "wir",
+      "Besuch",
+      "bekommen,",
+      "räume",
+      "ich",
+      "die",
+      "Wohnung",
+      "auf"
+    ],
+    "type": "drag",
+    "explanation": "Reason → separable verb in main clause.",
+    "translation_en": "Because we are having visitors, I clean up the flat.",
+    "translation_ru": "Потому что к нам придут гости, я прибираюсь в квартире.",
+    "level": "A2",
+    "translation_es": "Como vamos a recibir visita, ordeno el piso.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_71v"
+  },
+  {
+    "id": "s_a2_71v",
+    "target": "Ich räume die Wohnung auf, weil wir Besuch bekommen.",
+    "tokens": [
+      "Ich",
+      "räume",
+      "die",
+      "Wohnung",
+      "auf,",
+      "weil",
+      "wir",
+      "Besuch",
+      "bekommen"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_71",
+    "translation_en": "I clean up the flat because we are having visitors.",
+    "translation_ru": "Я прибираюсь в квартире, потому что к нам придут гости.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_72",
+    "target": "Wenn das Meeting vorbei ist, machen wir eine Pause.",
+    "tokens": [
+      "Wenn",
+      "das",
+      "Meeting",
+      "vorbei",
+      "ist,",
+      "machen",
+      "wir",
+      "eine",
+      "Pause"
+    ],
+    "type": "drag",
+    "explanation": "Condition/when → break.",
+    "translation_en": "When the meeting is over, we take a break.",
+    "translation_ru": "Когда встреча закончится, мы сделаем перерыв.",
+    "level": "A2",
+    "translation_es": "Cuando termine la reunión, hacemos un descanso.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_72v"
+  },
+  {
+    "id": "s_a2_72v",
+    "target": "Wir machen eine Pause, wenn das Meeting vorbei ist.",
+    "tokens": [
+      "Wir",
+      "machen",
+      "eine",
+      "Pause,",
+      "wenn",
+      "das",
+      "Meeting",
+      "vorbei",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_72",
+    "translation_en": "We take a break when the meeting is over.",
+    "translation_ru": "Мы сделаем перерыв, когда встреча закончится.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_73",
+    "target": "Obwohl ich kein Italienisch spreche, fahre ich nach Rom.",
+    "tokens": [
+      "Obwohl",
+      "ich",
+      "kein",
+      "Italienisch",
+      "spreche,",
+      "fahre",
+      "ich",
+      "nach",
+      "Rom"
+    ],
+    "type": "drag",
+    "explanation": "Contrast language vs travel.",
+    "translation_en": "Although I do not speak Italian, I travel to Rome.",
+    "translation_ru": "Хотя я не говорю по-итальянски, я еду в Рим.",
+    "level": "A2",
+    "translation_es": "Aunque no hablo italiano, viajo a Roma.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_73v"
+  },
+  {
+    "id": "s_a2_73v",
+    "target": "Ich fahre nach Rom, obwohl ich kein Italienisch spreche.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "nach",
+      "Rom,",
+      "obwohl",
+      "ich",
+      "kein",
+      "Italienisch",
+      "spreche"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_73",
+    "translation_en": "I travel to Rome although I do not speak Italian.",
+    "translation_ru": "Я еду в Рим, хотя не говорю по-итальянски.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_74",
+    "target": "Weil mein Chef zufrieden war, habe ich eine Prämie bekommen.",
+    "tokens": [
+      "Weil",
+      "mein",
+      "Chef",
+      "zufrieden",
+      "war,",
+      "habe",
+      "ich",
+      "eine",
+      "Prämie",
+      "bekommen"
+    ],
+    "type": "drag",
+    "explanation": "Past reason → Perfekt main clause.",
+    "translation_en": "Because my boss was satisfied, I received a bonus.",
+    "translation_ru": "Потому что мой начальник был доволен, я получил(а) премию.",
+    "level": "A2",
+    "translation_es": "Como mi jefe estaba contento, recibí una prima.",
+    "tags": [
+      "weil",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_74v"
+  },
+  {
+    "id": "s_a2_74v",
+    "target": "Ich habe eine Prämie bekommen, weil mein Chef zufrieden war.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "eine",
+      "Prämie",
+      "bekommen,",
+      "weil",
+      "mein",
+      "Chef",
+      "zufrieden",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_74",
+    "translation_en": "I received a bonus because my boss was satisfied.",
+    "translation_ru": "Я получил(а) премию, потому что мой начальник был доволен.",
+    "level": "A2",
+    "translation_es": "Recibí una prima porque mi jefe estaba contento.",
+    "tags": [
+      "weil",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_75",
+    "target": "Wenn du schnell bist, erreichst du noch den Zug.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "schnell",
+      "bist,",
+      "erreichst",
+      "du",
+      "noch",
+      "den",
+      "Zug"
+    ],
+    "type": "drag",
+    "explanation": "Condition for catching transport.",
+    "translation_en": "If you are quick, you can still catch the train.",
+    "translation_ru": "Если ты поторопишься, ты ещё успеешь на поезд.",
+    "level": "A2",
+    "translation_es": "Si te das prisa, aún alcanzas el tren.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_75v"
+  },
+  {
+    "id": "s_a2_75v",
+    "target": "Du erreichst noch den Zug, wenn du schnell bist.",
+    "tokens": [
+      "Du",
+      "erreichst",
+      "noch",
+      "den",
+      "Zug,",
+      "wenn",
+      "du",
+      "schnell",
+      "bist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_75",
+    "translation_en": "You can still catch the train if you are quick.",
+    "translation_ru": "Ты ещё успеешь на поезд, если поторопишься.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_76",
+    "target": "Weil wir sparen wollen, kochen wir zu Hause.",
+    "tokens": [
+      "Weil",
+      "wir",
+      "sparen",
+      "wollen,",
+      "kochen",
+      "wir",
+      "zu",
+      "Hause"
+    ],
+    "type": "drag",
+    "explanation": "Reason with modal in subclause.",
+    "translation_en": "Because we want to save money, we cook at home.",
+    "translation_ru": "Потому что мы хотим экономить, мы готовим дома.",
+    "level": "A2",
+    "translation_es": "Como queremos ahorrar, cocinamos en casa.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_76v"
+  },
+  {
+    "id": "s_a2_76v",
+    "target": "Wir kochen zu Hause, weil wir sparen wollen.",
+    "tokens": [
+      "Wir",
+      "kochen",
+      "zu",
+      "Hause,",
+      "weil",
+      "wir",
+      "sparen",
+      "wollen"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_76",
+    "translation_en": "We cook at home because we want to save money.",
+    "translation_ru": "Мы готовим дома, потому что хотим экономить.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_77",
+    "target": "Obwohl er sehr müde ist, fährt er noch zur Arbeit.",
+    "tokens": [
+      "Obwohl",
+      "er",
+      "sehr",
+      "müde",
+      "ist,",
+      "fährt",
+      "er",
+      "noch",
+      "zur",
+      "Arbeit"
+    ],
+    "type": "drag",
+    "explanation": "Concession with 'obwohl'.",
+    "translation_en": "Although he is very tired, he still goes to work.",
+    "translation_ru": "Хотя он очень устал, он всё равно едет на работу.",
+    "level": "A2",
+    "translation_es": "Aunque está muy cansado, todavía va al trabajo.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_77v"
+  },
+  {
+    "id": "s_a2_77v",
+    "target": "Er fährt noch zur Arbeit, obwohl er sehr müde ist.",
+    "tokens": [
+      "Er",
+      "fährt",
+      "noch",
+      "zur",
+      "Arbeit,",
+      "obwohl",
+      "er",
+      "sehr",
+      "müde",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_77",
+    "translation_en": "He still goes to work although he is very tired.",
+    "translation_ru": "Он всё равно едет на работу, хотя очень устал.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_78",
+    "target": "Wenn ich genug Geld habe, kaufe ich mir ein neues Handy.",
+    "tokens": [
+      "Wenn",
+      "ich",
+      "genug",
+      "Geld",
+      "habe,",
+      "kaufe",
+      "ich",
+      "mir",
+      "ein",
+      "neues",
+      "Handy"
+    ],
+    "type": "drag",
+    "explanation": "Condition + reflexive 'mir'.",
+    "translation_en": "If I have enough money, I will buy myself a new phone.",
+    "translation_ru": "Если у меня будет достаточно денег, я куплю себе новый телефон.",
+    "level": "A2",
+    "translation_es": "Si tengo suficiente dinero, me compraré un móvil nuevo.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_78v"
+  },
+  {
+    "id": "s_a2_78v",
+    "target": "Ich kaufe mir ein neues Handy, wenn ich genug Geld habe.",
+    "tokens": [
+      "Ich",
+      "kaufe",
+      "mir",
+      "ein",
+      "neues",
+      "Handy,",
+      "wenn",
+      "ich",
+      "genug",
+      "Geld",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_78",
+    "translation_en": "I will buy myself a new phone if I have enough money.",
+    "translation_ru": "Я куплю себе новый телефон, если у меня будет достаточно денег.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_79",
+    "target": "Weil der Film so lang war, sind wir spät nach Hause gekommen.",
+    "tokens": [
+      "Weil",
+      "der",
+      "Film",
+      "so",
+      "lang",
+      "war,",
+      "sind",
+      "wir",
+      "spät",
+      "nach",
+      "Hause",
+      "gekommen"
+    ],
+    "type": "drag",
+    "explanation": "Past cause → Perfekt with 'sein'.",
+    "translation_en": "Because the movie was so long, we came home late.",
+    "translation_ru": "Потому что фильм был таким длинным, мы поздно пришли домой.",
+    "level": "A2",
+    "translation_es": "Como la película era tan larga, llegamos tarde a casa.",
+    "tags": [
+      "weil",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_79v"
+  },
+  {
+    "id": "s_a2_79v",
+    "target": "Wir sind spät nach Hause gekommen, weil der Film so lang war.",
+    "tokens": [
+      "Wir",
+      "sind",
+      "spät",
+      "nach",
+      "Hause",
+      "gekommen,",
+      "weil",
+      "der",
+      "Film",
+      "so",
+      "lang",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_79",
+    "translation_en": "We came home late because the movie was so long.",
+    "translation_ru": "Мы поздно пришли домой, потому что фильм был таким длинным.",
+    "level": "A2",
+    "translation_es": "Llegamos tarde a casa porque la película era tan larga.",
+    "tags": [
+      "weil",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_80",
+    "target": "Obwohl das Wetter schlecht war, hatten wir Spaß.",
+    "tokens": [
+      "Obwohl",
+      "das",
+      "Wetter",
+      "schlecht",
+      "war,",
+      "hatten",
+      "wir",
+      "Spaß"
+    ],
+    "type": "drag",
+    "explanation": "Bad weather vs positive outcome.",
+    "translation_en": "Although the weather was bad, we had fun.",
+    "translation_ru": "Хотя погода была плохой, нам было весело.",
+    "level": "A2",
+    "translation_es": "Aunque el tiempo era malo, nos divertimos.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_80v"
+  },
+  {
+    "id": "s_a2_80v",
+    "target": "Wir hatten Spaß, obwohl das Wetter schlecht war.",
+    "tokens": [
+      "Wir",
+      "hatten",
+      "Spaß,",
+      "obwohl",
+      "das",
+      "Wetter",
+      "schlecht",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_80",
+    "translation_en": "We had fun although the weather was bad.",
+    "translation_ru": "Нам было весело, хотя погода была плохой.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_81",
+    "target": "Wenn du fertig bist, schick mir die Datei.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "fertig",
+      "bist,",
+      "schick",
+      "mir",
+      "die",
+      "Datei"
+    ],
+    "type": "drag",
+    "explanation": "Temporal condition + imperative.",
+    "translation_en": "When you are finished, send me the file.",
+    "translation_ru": "Когда закончишь, пришли мне файл.",
+    "level": "A2",
+    "translation_es": "Cuando termines, envíame el archivo.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_81v"
+  },
+  {
+    "id": "s_a2_81v",
+    "target": "Schick mir die Datei, wenn du fertig bist.",
+    "tokens": [
+      "Schick",
+      "mir",
+      "die",
+      "Datei,",
+      "wenn",
+      "du",
+      "fertig",
+      "bist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_81",
+    "translation_en": "Send me the file when you are finished.",
+    "translation_ru": "Пришли мне файл, когда закончишь.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_82",
+    "target": "Seit ich Sport mache, fühle ich mich besser.",
+    "tokens": [
+      "Seit",
+      "ich",
+      "Sport",
+      "mache,",
+      "fühle",
+      "ich",
+      "mich",
+      "besser"
+    ],
+    "type": "drag",
+    "explanation": "Ongoing change with 'seit'.",
+    "translation_en": "Since I started doing sports, I feel better.",
+    "translation_ru": "С тех пор как я занимаюсь спортом, я чувствую себя лучше.",
+    "level": "A2",
+    "translation_es": "Desde que hago deporte, me siento mejor.",
+    "tags": [
+      "temporalsatz"
+    ],
+    "variant_of": "s_a2_82v"
+  },
+  {
+    "id": "s_a2_82v",
+    "target": "Ich fühle mich besser, seit ich Sport mache.",
+    "tokens": [
+      "Ich",
+      "fühle",
+      "mich",
+      "besser,",
+      "seit",
+      "ich",
+      "Sport",
+      "mache"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_82",
+    "translation_en": "I feel better since I started doing sports.",
+    "translation_ru": "Я чувствую себя лучше с тех пор, как занимаюсь спортом.",
+    "level": "A2",
+    "tags": [
+      "temporalsatz"
+    ]
+  },
+  {
+    "id": "s_a2_83",
+    "target": "Weil mein Laptop sehr alt ist, funktioniert er langsam.",
+    "tokens": [
+      "Weil",
+      "mein",
+      "Laptop",
+      "sehr",
+      "alt",
+      "ist,",
+      "funktioniert",
+      "er",
+      "langsam"
+    ],
+    "type": "drag",
+    "explanation": "Cause → slow performance.",
+    "translation_en": "Because my laptop is very old, it works slowly.",
+    "translation_ru": "Потому что мой ноутбук очень старый, он работает медленно.",
+    "level": "A2",
+    "translation_es": "Como mi portátil es muy viejo, funciona lento.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_83v"
+  },
+  {
+    "id": "s_a2_83v",
+    "target": "Er funktioniert langsam, weil mein Laptop sehr alt ist.",
+    "tokens": [
+      "Er",
+      "funktioniert",
+      "langsam,",
+      "weil",
+      "mein",
+      "Laptop",
+      "sehr",
+      "alt",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_83",
+    "translation_en": "It works slowly because my laptop is very old.",
+    "translation_ru": "Он работает медленно, потому что очень старый.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_84",
+    "target": "Obwohl sie krank war, ist sie zur Prüfung gegangen.",
+    "tokens": [
+      "Obwohl",
+      "sie",
+      "krank",
+      "war,",
+      "ist",
+      "sie",
+      "zur",
+      "Prüfung",
+      "gegangen"
+    ],
+    "type": "drag",
+    "explanation": "Past concession with movement.",
+    "translation_en": "Although she was ill, she went to the exam.",
+    "translation_ru": "Хотя она была больна, она пошла на экзамен.",
+    "level": "A2",
+    "translation_es": "Aunque estaba enferma, fue al examen.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_84v"
+  },
+  {
+    "id": "s_a2_84v",
+    "target": "Sie ist zur Prüfung gegangen, obwohl sie krank war.",
+    "tokens": [
+      "Sie",
+      "ist",
+      "zur",
+      "Prüfung",
+      "gegangen,",
+      "obwohl",
+      "sie",
+      "krank",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_84",
+    "translation_en": "She went to the exam although she was ill.",
+    "translation_ru": "Она пошла на экзамен, хотя была больна.",
+    "level": "A2",
+    "translation_es": "Fue al examen, aunque estaba enferma.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_85",
+    "target": "Wenn wir genug Zeit haben, besuchen wir auch das Museum.",
+    "tokens": [
+      "Wenn",
+      "wir",
+      "genug",
+      "Zeit",
+      "haben,",
+      "besuchen",
+      "wir",
+      "auch",
+      "das",
+      "Museum"
+    ],
+    "type": "drag",
+    "explanation": "Condition with optional activity.",
+    "translation_en": "If we have enough time, we will also visit the museum.",
+    "translation_ru": "Если у нас будет достаточно времени, мы также посетим музей.",
+    "level": "A2",
+    "translation_es": "Si tenemos suficiente tiempo, también visitaremos el museo.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_85v"
+  },
+  {
+    "id": "s_a2_85v",
+    "target": "Wir besuchen auch das Museum, wenn wir genug Zeit haben.",
+    "tokens": [
+      "Wir",
+      "besuchen",
+      "auch",
+      "das",
+      "Museum,",
+      "wenn",
+      "wir",
+      "genug",
+      "Zeit",
+      "haben"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_85",
+    "translation_en": "We will also visit the museum if we have enough time.",
+    "translation_ru": "Мы также посетим музей, если у нас будет достаточно времени.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_86",
+    "target": "Weil die Kinder Hunger haben, kocht die Mutter sofort.",
+    "tokens": [
+      "Weil",
+      "die",
+      "Kinder",
+      "Hunger",
+      "haben,",
+      "kocht",
+      "die",
+      "Mutter",
+      "sofort"
+    ],
+    "type": "drag",
+    "explanation": "Family context cause.",
+    "translation_en": "Because the children are hungry, the mother cooks immediately.",
+    "translation_ru": "Потому что дети голодны, мама сразу готовит.",
+    "level": "A2",
+    "translation_es": "Como los niños tienen hambre, la madre cocina enseguida.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_86v"
+  },
+  {
+    "id": "s_a2_86v",
+    "target": "Die Mutter kocht sofort, weil die Kinder Hunger haben.",
+    "tokens": [
+      "Die",
+      "Mutter",
+      "kocht",
+      "sofort,",
+      "weil",
+      "die",
+      "Kinder",
+      "Hunger",
+      "haben"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_86",
+    "translation_en": "The mother cooks immediately because the children are hungry.",
+    "translation_ru": "Мама сразу готовит, потому что дети голодны.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_87",
+    "target": "Obwohl ich Angst hatte, habe ich mitgemacht.",
+    "tokens": [
+      "Obwohl",
+      "ich",
+      "Angst",
+      "hatte,",
+      "habe",
+      "ich",
+      "mitgemacht"
+    ],
+    "type": "drag",
+    "explanation": "Concession + Perfekt.",
+    "translation_en": "Although I was afraid, I took part.",
+    "translation_ru": "Хотя мне было страшно, я поучаствовал(а).",
+    "level": "A2",
+    "translation_es": "Aunque tenía miedo, participé.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_87v"
+  },
+  {
+    "id": "s_a2_87v",
+    "target": "Ich habe mitgemacht, obwohl ich Angst hatte.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "mitgemacht,",
+      "obwohl",
+      "ich",
+      "Angst",
+      "hatte"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_87",
+    "translation_en": "I took part although I was afraid.",
+    "translation_ru": "Я поучаствовал(а), хотя мне было страшно.",
+    "level": "A2",
+    "translation_es": "Participé, aunque tenía miedo.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_88",
+    "target": "Wenn das Paket angekommen ist, bringe ich es dir.",
+    "tokens": [
+      "Wenn",
+      "das",
+      "Paket",
+      "angekommen",
+      "ist,",
+      "bringe",
+      "ich",
+      "es",
+      "dir"
+    ],
+    "type": "drag",
+    "explanation": "Delivery condition.",
+    "translation_en": "When the parcel has arrived, I will bring it to you.",
+    "translation_ru": "Когда посылка придёт, я принесу её тебе.",
+    "level": "A2",
+    "translation_es": "Cuando llegue el paquete, te lo llevo.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_88v"
+  },
+  {
+    "id": "s_a2_88v",
+    "target": "Ich bringe es dir, wenn das Paket angekommen ist.",
+    "tokens": [
+      "Ich",
+      "bringe",
+      "es",
+      "dir,",
+      "wenn",
+      "das",
+      "Paket",
+      "angekommen",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_88",
+    "translation_en": "I will bring it to you when the parcel has arrived.",
+    "translation_ru": "Я принесу её тебе, когда посылка придёт.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_89",
+    "target": "Weil ich keinen Führerschein habe, fahre ich immer mit dem Fahrrad.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "keinen",
+      "Führerschein",
+      "habe,",
+      "fahre",
+      "ich",
+      "immer",
+      "mit",
+      "dem",
+      "Fahrrad"
+    ],
+    "type": "drag",
+    "explanation": "Reason for transport choice.",
+    "translation_en": "Because I do not have a driving licence, I always go by bike.",
+    "translation_ru": "Потому что у меня нет водительских прав, я всегда езжу на велосипеде.",
+    "level": "A2",
+    "translation_es": "Como no tengo carné de conducir, siempre voy en bici.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_89v"
+  },
+  {
+    "id": "s_a2_89v",
+    "target": "Ich fahre immer mit dem Fahrrad, weil ich keinen Führerschein habe.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "immer",
+      "mit",
+      "dem",
+      "Fahrrad,",
+      "weil",
+      "ich",
+      "keinen",
+      "Führerschein",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_89",
+    "translation_en": "I always go by bike because I do not have a driving licence.",
+    "translation_ru": "Я всегда езжу на велосипеде, потому что у меня нет водительских прав.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_90",
+    "target": "Obwohl es teuer war, haben wir das Haus gekauft.",
+    "tokens": [
+      "Obwohl",
+      "es",
+      "teuer",
+      "war,",
+      "haben",
+      "wir",
+      "das",
+      "Haus",
+      "gekauft"
+    ],
+    "type": "drag",
+    "explanation": "Concession with purchase.",
+    "translation_en": "Although it was expensive, we bought the house.",
+    "translation_ru": "Хотя это было дорого, мы купили дом.",
+    "level": "A2",
+    "translation_es": "Aunque era caro, compramos la casa.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_90v"
+  },
+  {
+    "id": "s_a2_90v",
+    "target": "Wir haben das Haus gekauft, obwohl es teuer war.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "das",
+      "Haus",
+      "gekauft,",
+      "obwohl",
+      "es",
+      "teuer",
+      "war"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_90",
+    "translation_en": "We bought the house although it was expensive.",
+    "translation_ru": "Мы купили дом, хотя это было дорого.",
+    "level": "A2",
+    "translation_es": "Compramos la casa, aunque era caro.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_91",
+    "target": "Wenn du leiser sprichst, verstehe ich dich besser.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "leiser",
+      "sprichst,",
+      "verstehe",
+      "ich",
+      "dich",
+      "besser"
+    ],
+    "type": "drag",
+    "explanation": "Condition affecting understanding.",
+    "translation_en": "If you speak more quietly, I understand you better.",
+    "translation_ru": "Если ты будешь говорить тише, я буду лучше тебя понимать.",
+    "level": "A2",
+    "translation_es": "Si hablas más bajo, te entiendo mejor.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_91v"
+  },
+  {
+    "id": "s_a2_91v",
+    "target": "Ich verstehe dich besser, wenn du leiser sprichst.",
+    "tokens": [
+      "Ich",
+      "verstehe",
+      "dich",
+      "besser,",
+      "wenn",
+      "du",
+      "leiser",
+      "sprichst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_91",
+    "translation_en": "I understand you better if you speak more quietly.",
+    "translation_ru": "Я буду лучше тебя понимать, если ты будешь говорить тише.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_92",
+    "target": "Weil wir kein Internet hatten, konnten wir nicht arbeiten.",
+    "tokens": [
+      "Weil",
+      "wir",
+      "kein",
+      "Internet",
+      "hatten,",
+      "konnten",
+      "wir",
+      "nicht",
+      "arbeiten"
+    ],
+    "type": "drag",
+    "explanation": "Past reason + modal.",
+    "translation_en": "Because we had no internet, we could not work.",
+    "translation_ru": "Потому что у нас не было интернета, мы не могли работать.",
+    "level": "A2",
+    "translation_es": "Como no teníamos internet, no pudimos trabajar.",
+    "tags": [
+      "weil",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_92v"
+  },
+  {
+    "id": "s_a2_92v",
+    "target": "Wir konnten nicht arbeiten, weil wir kein Internet hatten.",
+    "tokens": [
+      "Wir",
+      "konnten",
+      "nicht",
+      "arbeiten,",
+      "weil",
+      "wir",
+      "kein",
+      "Internet",
+      "hatten"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_92",
+    "translation_en": "We could not work because we had no internet.",
+    "translation_ru": "Мы не могли работать, потому что у нас не было интернета.",
+    "level": "A2",
+    "tags": [
+      "weil",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_93",
+    "target": "Obwohl sie wenig Zeit hat, hilft sie immer allen.",
+    "tokens": [
+      "Obwohl",
+      "sie",
+      "wenig",
+      "Zeit",
+      "hat,",
+      "hilft",
+      "sie",
+      "immer",
+      "allen"
+    ],
+    "type": "drag",
+    "explanation": "Concession about time.",
+    "translation_en": "Although she has little time, she always helps everyone.",
+    "translation_ru": "Хотя у неё мало времени, она всегда всем помогает.",
+    "level": "A2",
+    "translation_es": "Aunque tiene poco tiempo, siempre ayuda a todos.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_93v"
+  },
+  {
+    "id": "s_a2_93v",
+    "target": "Sie hilft immer allen, obwohl sie wenig Zeit hat.",
+    "tokens": [
+      "Sie",
+      "hilft",
+      "immer",
+      "allen,",
+      "obwohl",
+      "sie",
+      "wenig",
+      "Zeit",
+      "hat"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_93",
+    "translation_en": "She always helps everyone although she has little time.",
+    "translation_ru": "Она всегда всем помогает, хотя у неё мало времени.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_94",
+    "target": "Wenn das Licht grün ist, darfst du fahren.",
+    "tokens": [
+      "Wenn",
+      "das",
+      "Licht",
+      "grün",
+      "ist,",
+      "darfst",
+      "du",
+      "fahren"
+    ],
+    "type": "drag",
+    "explanation": "Traffic rule with modal.",
+    "translation_en": "When the light is green, you may drive.",
+    "translation_ru": "Когда горит зелёный, тебе можно ехать.",
+    "level": "A2",
+    "translation_es": "Cuando el semáforo está en verde, puedes pasar.",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ],
+    "variant_of": "s_a2_94v"
+  },
+  {
+    "id": "s_a2_94v",
+    "target": "Du darfst fahren, wenn das Licht grün ist.",
+    "tokens": [
+      "Du",
+      "darfst",
+      "fahren,",
+      "wenn",
+      "das",
+      "Licht",
+      "grün",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_94",
+    "translation_en": "You may drive when the light is green.",
+    "translation_ru": "Тебе можно ехать, когда горит зелёный.",
+    "level": "A2",
+    "tags": [
+      "wenn",
+      "modalverben"
+    ]
+  },
+  {
+    "id": "s_a2_95",
+    "target": "Weil ich den Bus verpasst habe, komme ich zu spät.",
+    "tokens": [
+      "Weil",
+      "ich",
+      "den",
+      "Bus",
+      "verpasst",
+      "habe,",
+      "komme",
+      "ich",
+      "zu",
+      "spät"
+    ],
+    "type": "drag",
+    "explanation": "Common delay reason.",
+    "translation_en": "Because I missed the bus, I am coming late.",
+    "translation_ru": "Потому что я пропустил(а) автобус, я опаздываю.",
+    "level": "A2",
+    "translation_es": "Como perdí el autobús, llego tarde.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_95v"
+  },
+  {
+    "id": "s_a2_95v",
+    "target": "Ich komme zu spät, weil ich den Bus verpasst habe.",
+    "tokens": [
+      "Ich",
+      "komme",
+      "zu",
+      "spät,",
+      "weil",
+      "ich",
+      "den",
+      "Bus",
+      "verpasst",
+      "habe"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_95",
+    "translation_en": "I am coming late because I missed the bus.",
+    "translation_ru": "Я опаздываю, потому что пропустил(а) автобус.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_96",
+    "target": "Obwohl er Hilfe braucht, fragt er niemanden.",
+    "tokens": [
+      "Obwohl",
+      "er",
+      "Hilfe",
+      "braucht,",
+      "fragt",
+      "er",
+      "niemanden"
+    ],
+    "type": "drag",
+    "explanation": "Concession with 'niemanden'.",
+    "translation_en": "Although he needs help, he does not ask anyone.",
+    "translation_ru": "Хотя ему нужна помощь, он ни у кого не просит.",
+    "level": "A2",
+    "translation_es": "Aunque necesita ayuda, no se la pide a nadie.",
+    "tags": [
+      "obwohl"
+    ],
+    "variant_of": "s_a2_96v"
+  },
+  {
+    "id": "s_a2_96v",
+    "target": "Er fragt niemanden, obwohl er Hilfe braucht.",
+    "tokens": [
+      "Er",
+      "fragt",
+      "niemanden,",
+      "obwohl",
+      "er",
+      "Hilfe",
+      "braucht"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_96",
+    "translation_en": "He does not ask anyone although he needs help.",
+    "translation_ru": "Он ни у кого не просит, хотя ему нужна помощь.",
+    "level": "A2",
+    "tags": [
+      "obwohl"
+    ]
+  },
+  {
+    "id": "s_a2_97",
+    "target": "Wenn du gestern gekommen wärst, hättest du ihn gesehen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "gestern",
+      "gekommen",
+      "wärst,",
+      "hättest",
+      "du",
+      "ihn",
+      "gesehen"
+    ],
+    "type": "drag",
+    "explanation": "A2 level conditional in past context.",
+    "translation_en": "If you had come yesterday, you would have seen him.",
+    "translation_ru": "Если бы ты пришёл(а) вчера, ты бы его увидел(а).",
+    "level": "A2",
+    "translation_es": "Si hubieras venido ayer, lo habrías visto.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_97v"
+  },
+  {
+    "id": "s_a2_97v",
+    "target": "Du hättest ihn gesehen, wenn du gestern gekommen wärst.",
+    "tokens": [
+      "Du",
+      "hättest",
+      "ihn",
+      "gesehen,",
+      "wenn",
+      "du",
+      "gestern",
+      "gekommen",
+      "wärst"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_97",
+    "translation_en": "You would have seen him if you had come yesterday.",
+    "translation_ru": "Ты бы его увидел(а), если бы пришёл(а) вчера.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  },
+  {
+    "id": "s_a2_98",
+    "target": "Weil mein Deutsch besser geworden ist, verstehe ich mehr im Unterricht.",
+    "tokens": [
+      "Weil",
+      "mein",
+      "Deutsch",
+      "besser",
+      "geworden",
+      "ist,",
+      "verstehe",
+      "ich",
+      "mehr",
+      "im",
+      "Unterricht"
+    ],
+    "type": "drag",
+    "explanation": "Improvement → result.",
+    "translation_en": "Because my German has become better, I understand more in class.",
+    "translation_ru": "Потому что мой немецкий стал лучше, я больше понимаю на уроке.",
+    "level": "A2",
+    "translation_es": "Como mi alemán ha mejorado, entiendo más en clase.",
+    "tags": [
+      "weil"
+    ],
+    "variant_of": "s_a2_98v"
+  },
+  {
+    "id": "s_a2_98v",
+    "target": "Ich verstehe mehr im Unterricht, weil mein Deutsch besser geworden ist.",
+    "tokens": [
+      "Ich",
+      "verstehe",
+      "mehr",
+      "im",
+      "Unterricht,",
+      "weil",
+      "mein",
+      "Deutsch",
+      "besser",
+      "geworden",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_98",
+    "translation_en": "I understand more in class because my German has become better.",
+    "translation_ru": "Я больше понимаю на уроке, потому что мой немецкий стал лучше.",
+    "level": "A2",
+    "tags": [
+      "weil"
+    ]
+  },
+  {
+    "id": "s_a2_99",
+    "target": "Obwohl wir lange gesucht haben, haben wir die Adresse nicht gefunden.",
+    "tokens": [
+      "Obwohl",
+      "wir",
+      "lange",
+      "gesucht",
+      "haben,",
+      "haben",
+      "wir",
+      "die",
+      "Adresse",
+      "nicht",
+      "gefunden"
+    ],
+    "type": "drag",
+    "explanation": "Concession with negative result.",
+    "translation_en": "Although we searched for a long time, we did not find the address.",
+    "translation_ru": "Хотя мы долго искали, мы не нашли адрес.",
+    "level": "A2",
+    "translation_es": "Aunque buscamos durante mucho tiempo, no encontramos la dirección.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ],
+    "variant_of": "s_a2_99v"
+  },
+  {
+    "id": "s_a2_99v",
+    "target": "Wir haben die Adresse nicht gefunden, obwohl wir lange gesucht haben.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "die",
+      "Adresse",
+      "nicht",
+      "gefunden,",
+      "obwohl",
+      "wir",
+      "lange",
+      "gesucht",
+      "haben"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_99",
+    "translation_en": "We did not find the address although we searched for a long time.",
+    "translation_ru": "Мы не нашли адрес, хотя долго искали.",
+    "level": "A2",
+    "translation_es": "No encontramos la dirección, aunque buscamos durante mucho tiempo.",
+    "tags": [
+      "obwohl",
+      "perfekt"
+    ]
+  },
+  {
+    "id": "s_a2_100",
+    "target": "Wenn du mir früher geschrieben hättest, hätte ich dir geholfen.",
+    "tokens": [
+      "Wenn",
+      "du",
+      "mir",
+      "früher",
+      "geschrieben",
+      "hättest,",
+      "hätte",
+      "ich",
+      "dir",
+      "geholfen"
+    ],
+    "type": "drag",
+    "explanation": "Unreal condition in the past, still useful at A2 upper.",
+    "translation_en": "If you had written to me earlier, I would have helped you.",
+    "translation_ru": "Если бы ты написал(а) мне раньше, я бы тебе помог(ла).",
+    "level": "A2",
+    "translation_es": "Si me hubieras escrito antes, te habría ayudado.",
+    "tags": [
+      "wenn"
+    ],
+    "variant_of": "s_a2_100v"
+  },
+  {
+    "id": "s_a2_100v",
+    "target": "Ich hätte dir geholfen, wenn du mir früher geschrieben hättest.",
+    "tokens": [
+      "Ich",
+      "hätte",
+      "dir",
+      "geholfen,",
+      "wenn",
+      "du",
+      "mir",
+      "früher",
+      "geschrieben",
+      "hättest"
+    ],
+    "type": "drag",
+    "variant_of": "s_a2_100",
+    "translation_en": "I would have helped you if you had written to me earlier.",
+    "translation_ru": "Я бы тебе помог(ла), если бы ты написал(а) мне раньше.",
+    "level": "A2",
+    "tags": [
+      "wenn"
+    ]
+  }
+]

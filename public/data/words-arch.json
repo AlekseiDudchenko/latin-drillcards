@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "w_arch_001",
+    "de": "die Softwarearchitektur",
+    "article": "die",
+    "ru": "архитектура ПО",
+    "en": "software architecture",
+    "exampleDe": "Die Softwarearchitektur legt die Grundstruktur des Systems fest.",
+    "exampleRu": "Архитектура ПО определяет базовую структуру системы.",
+    "exampleEn": "The software architecture defines the basic structure of the system.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_002",
+    "de": "der Entwurf",
+    "article": "der",
+    "ru": "проект, эскиз, проектирование",
+    "en": "design, draft",
+    "exampleDe": "Der Entwurf entsteht in mehreren Iterationen.",
+    "exampleRu": "Проект возникает за несколько итераций.",
+    "exampleEn": "The design emerges over several iterations.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_003",
+    "de": "entwerfen",
+    "article": "",
+    "ru": "проектировать, разрабатывать",
+    "en": "to design",
+    "exampleDe": "Wir entwerfen die Schnittstellen, bevor wir implementieren.",
+    "exampleRu": "Мы проектируем интерфейсы до того, как писать код.",
+    "exampleEn": "We design the interfaces before we implement.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_004",
+    "de": "der Baustein",
+    "article": "der",
+    "ru": "строительный блок, компонент",
+    "en": "building block",
+    "exampleDe": "Jeder Baustein hat eine klar abgegrenzte Aufgabe.",
+    "exampleRu": "У каждого блока есть чётко очерченная задача.",
+    "exampleEn": "Each building block has a clearly delimited task.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_005",
+    "de": "die Schnittstelle",
+    "article": "die",
+    "ru": "интерфейс, стык",
+    "en": "interface",
+    "exampleDe": "Über diese Schnittstelle kommunizieren beide Systeme.",
+    "exampleRu": "Через этот интерфейс обе системы обмениваются данными.",
+    "exampleEn": "The two systems communicate through this interface.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_006",
+    "de": "die Abhängigkeit",
+    "article": "die",
+    "ru": "зависимость",
+    "en": "dependency",
+    "exampleDe": "Zyklische Abhängigkeiten erschweren jede Änderung.",
+    "exampleRu": "Циклические зависимости усложняют любое изменение.",
+    "exampleEn": "Cyclic dependencies make every change harder.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_007",
+    "de": "die Kopplung",
+    "article": "die",
+    "ru": "связанность, сцепление",
+    "en": "coupling",
+    "exampleDe": "Eine lose Kopplung macht die Bausteine austauschbar.",
+    "exampleRu": "Слабая связанность делает компоненты заменяемыми.",
+    "exampleEn": "Loose coupling makes the building blocks replaceable.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_008",
+    "de": "die Kohäsion",
+    "article": "die",
+    "ru": "связность (внутри модуля)",
+    "en": "cohesion",
+    "exampleDe": "Hohe Kohäsion bedeutet, dass ein Modul nur eine Sache tut.",
+    "exampleRu": "Высокая связность означает, что модуль делает только одно.",
+    "exampleEn": "High cohesion means a module does only one thing.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_009",
+    "de": "die Zerlegung",
+    "article": "die",
+    "ru": "декомпозиция, разбиение",
+    "en": "decomposition",
+    "exampleDe": "Die Zerlegung in Teilprobleme senkt die Komplexität.",
+    "exampleRu": "Декомпозиция на подзадачи снижает сложность.",
+    "exampleEn": "Decomposition into subproblems lowers complexity.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_010",
+    "de": "zerlegen",
+    "article": "",
+    "ru": "разлагать, декомпозировать",
+    "en": "to decompose, break down",
+    "exampleDe": "Wir zerlegen das System in überschaubare Teile.",
+    "exampleRu": "Мы разбиваем систему на обозримые части.",
+    "exampleEn": "We break the system down into manageable parts.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_011",
+    "de": "die Kapselung",
+    "article": "die",
+    "ru": "инкапсуляция",
+    "en": "encapsulation",
+    "exampleDe": "Die Kapselung verbirgt die inneren Details eines Moduls.",
+    "exampleRu": "Инкапсуляция скрывает внутренние детали модуля.",
+    "exampleEn": "Encapsulation hides the internal details of a module.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_012",
+    "de": "kapseln",
+    "article": "",
+    "ru": "инкапсулировать, скрывать",
+    "en": "to encapsulate",
+    "exampleDe": "Der Baustein kapselt seine Datenstruktur vollständig.",
+    "exampleRu": "Компонент полностью инкапсулирует свою структуру данных.",
+    "exampleEn": "The building block fully encapsulates its data structure.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_013",
+    "de": "die Abstraktion",
+    "article": "die",
+    "ru": "абстракция",
+    "en": "abstraction",
+    "exampleDe": "Gute Abstraktionen überleben viele Änderungen.",
+    "exampleRu": "Хорошие абстракции переживают множество изменений.",
+    "exampleEn": "Good abstractions survive many changes.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_014",
+    "de": "abstrahieren",
+    "article": "",
+    "ru": "абстрагировать(ся)",
+    "en": "to abstract",
+    "exampleDe": "Wir abstrahieren von der konkreten Technologie.",
+    "exampleRu": "Мы абстрагируемся от конкретной технологии.",
+    "exampleEn": "We abstract away from the concrete technology.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_015",
+    "de": "die Vererbung",
+    "article": "die",
+    "ru": "наследование",
+    "en": "inheritance",
+    "exampleDe": "Vererbung koppelt Unterklasse und Oberklasse sehr stark.",
+    "exampleRu": "Наследование очень сильно связывает подкласс и суперкласс.",
+    "exampleEn": "Inheritance couples subclass and superclass very tightly.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_016",
+    "de": "das Muster",
+    "article": "das",
+    "ru": "паттерн, образец",
+    "en": "pattern",
+    "exampleDe": "Bewährte Muster lösen wiederkehrende Entwurfsprobleme.",
+    "exampleRu": "Проверенные паттерны решают повторяющиеся задачи проектирования.",
+    "exampleEn": "Proven patterns solve recurring design problems.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_017",
+    "de": "das Architekturmuster",
+    "article": "das",
+    "ru": "архитектурный паттерн",
+    "en": "architectural pattern",
+    "exampleDe": "Schichten sind das bekannteste Architekturmuster.",
+    "exampleRu": "Слои — самый известный архитектурный паттерн.",
+    "exampleEn": "Layers are the best-known architectural pattern.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_018",
+    "de": "das Entwurfsprinzip",
+    "article": "das",
+    "ru": "принцип проектирования",
+    "en": "design principle",
+    "exampleDe": "Dieses Entwurfsprinzip gilt unabhängig von der Sprache.",
+    "exampleRu": "Этот принцип проектирования действует независимо от языка.",
+    "exampleEn": "This design principle holds regardless of the language.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_019",
+    "de": "die Entwurfsentscheidung",
+    "article": "die",
+    "ru": "проектное решение",
+    "en": "design decision",
+    "exampleDe": "Jede Entwurfsentscheidung sollte begründet dokumentiert werden.",
+    "exampleRu": "Каждое проектное решение стоит документировать с обоснованием.",
+    "exampleEn": "Every design decision should be documented with a rationale.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_020",
+    "de": "die Verfeinerung",
+    "article": "die",
+    "ru": "уточнение, детализация",
+    "en": "refinement",
+    "exampleDe": "In der nächsten Verfeinerung entstehen die inneren Bausteine.",
+    "exampleRu": "На следующем уровне детализации появляются внутренние компоненты.",
+    "exampleEn": "The inner building blocks emerge in the next refinement.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_021",
+    "de": "verfeinern",
+    "article": "",
+    "ru": "уточнять, детализировать",
+    "en": "to refine",
+    "exampleDe": "Wir verfeinern den Entwurf schrittweise.",
+    "exampleRu": "Мы уточняем проект шаг за шагом.",
+    "exampleEn": "We refine the design step by step.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_022",
+    "de": "die Granularität",
+    "article": "die",
+    "ru": "гранулярность, степень дробности",
+    "en": "granularity",
+    "exampleDe": "Die Granularität der Bausteine bestimmt den Aufwand der Integration.",
+    "exampleRu": "Гранулярность компонентов определяет трудоёмкость интеграции.",
+    "exampleEn": "The granularity of the building blocks determines the integration effort.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_023",
+    "de": "die Komplexität",
+    "article": "die",
+    "ru": "сложность",
+    "en": "complexity",
+    "exampleDe": "Die Komplexität wächst schneller als die Zahl der Bausteine.",
+    "exampleRu": "Сложность растёт быстрее, чем число компонентов.",
+    "exampleEn": "Complexity grows faster than the number of building blocks.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_024",
+    "de": "entkoppeln",
+    "article": "",
+    "ru": "развязывать, ослаблять связь",
+    "en": "to decouple",
+    "exampleDe": "Ein Ereignisbus entkoppelt Sender und Empfänger.",
+    "exampleRu": "Шина событий развязывает отправителя и получателя.",
+    "exampleEn": "An event bus decouples sender and receiver.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_025",
+    "de": "die Trennung",
+    "article": "die",
+    "ru": "разделение, разграничение",
+    "en": "separation",
+    "exampleDe": "Die Trennung der Verantwortlichkeiten hält den Code lesbar.",
+    "exampleRu": "Разделение ответственностей сохраняет код читаемым.",
+    "exampleEn": "The separation of responsibilities keeps the code readable.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_026",
+    "de": "die Verantwortlichkeit",
+    "article": "die",
+    "ru": "ответственность (зона)",
+    "en": "responsibility",
+    "exampleDe": "Jedes Modul hat genau eine Verantwortlichkeit.",
+    "exampleRu": "У каждого модуля ровно одна зона ответственности.",
+    "exampleEn": "Each module has exactly one responsibility.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "entwurf",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_027",
+    "de": "die Zuständigkeit",
+    "article": "die",
+    "ru": "компетенция, зона ответственности",
+    "en": "remit, area of responsibility",
+    "exampleDe": "Die Zuständigkeiten im Team sind klar verteilt.",
+    "exampleRu": "Зоны ответственности в команде чётко распределены.",
+    "exampleEn": "Responsibilities in the team are clearly distributed.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_028",
+    "de": "die Sicht",
+    "article": "die",
+    "ru": "представление, ракурс",
+    "en": "view",
+    "exampleDe": "Jede Sicht zeigt einen anderen Aspekt derselben Architektur.",
+    "exampleRu": "Каждое представление показывает другой аспект той же архитектуры.",
+    "exampleEn": "Each view shows a different aspect of the same architecture.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_029",
+    "de": "die Bausteinsicht",
+    "article": "die",
+    "ru": "представление компонентов",
+    "en": "building block view",
+    "exampleDe": "Die Bausteinsicht zeigt die statische Struktur.",
+    "exampleRu": "Представление компонентов показывает статическую структуру.",
+    "exampleEn": "The building block view shows the static structure.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_030",
+    "de": "die Laufzeitsicht",
+    "article": "die",
+    "ru": "представление времени выполнения",
+    "en": "runtime view",
+    "exampleDe": "Die Laufzeitsicht beschreibt das Zusammenwirken zur Laufzeit.",
+    "exampleRu": "Представление времени выполнения описывает взаимодействие во время работы.",
+    "exampleEn": "The runtime view describes the interaction at runtime.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_031",
+    "de": "die Kontextsicht",
+    "article": "die",
+    "ru": "контекстное представление",
+    "en": "context view",
+    "exampleDe": "Die Kontextsicht grenzt das System von seiner Umgebung ab.",
+    "exampleRu": "Контекстное представление отделяет систему от её окружения.",
+    "exampleEn": "The context view delimits the system from its environment.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_032",
+    "de": "die Kontextabgrenzung",
+    "article": "die",
+    "ru": "определение границ системы",
+    "en": "scope definition",
+    "exampleDe": "Ohne saubere Kontextabgrenzung ufert der Umfang aus.",
+    "exampleRu": "Без чёткого определения границ объём работ расползается.",
+    "exampleEn": "Without a clean scope definition the scope gets out of hand.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_033",
+    "de": "das Nachbarsystem",
+    "article": "das",
+    "ru": "смежная система",
+    "en": "neighbouring system",
+    "exampleDe": "Alle Nachbarsysteme liefern Daten über eine REST-Schnittstelle.",
+    "exampleRu": "Все смежные системы отдают данные через REST-интерфейс.",
+    "exampleEn": "All neighbouring systems supply data via a REST interface.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_034",
+    "de": "die Laufzeit",
+    "article": "die",
+    "ru": "время выполнения",
+    "en": "runtime",
+    "exampleDe": "Zur Laufzeit werden die Instanzen dynamisch erzeugt.",
+    "exampleRu": "Во время выполнения экземпляры создаются динамически.",
+    "exampleEn": "At runtime the instances are created dynamically.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_035",
+    "de": "die Verteilung",
+    "article": "die",
+    "ru": "распределение, развёртывание",
+    "en": "distribution, deployment",
+    "exampleDe": "Die Verteilung auf mehrere Rechnerknoten erhöht die Verfügbarkeit.",
+    "exampleRu": "Распределение по нескольким узлам повышает доступность.",
+    "exampleEn": "Distribution across several nodes increases availability.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_036",
+    "de": "der Rechnerknoten",
+    "article": "der",
+    "ru": "вычислительный узел",
+    "en": "compute node",
+    "exampleDe": "Jeder Rechnerknoten führt dieselbe Anwendung aus.",
+    "exampleRu": "Каждый вычислительный узел выполняет одно и то же приложение.",
+    "exampleEn": "Each compute node runs the same application.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_037",
+    "de": "die Architekturbeschreibung",
+    "article": "die",
+    "ru": "описание архитектуры",
+    "en": "architecture description",
+    "exampleDe": "Die Architekturbeschreibung richtet sich an mehrere Zielgruppen.",
+    "exampleRu": "Описание архитектуры адресовано нескольким аудиториям.",
+    "exampleEn": "The architecture description addresses several audiences.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_038",
+    "de": "die Darstellung",
+    "article": "die",
+    "ru": "изображение, представление",
+    "en": "representation, depiction",
+    "exampleDe": "Eine grafische Darstellung sagt mehr als drei Seiten Text.",
+    "exampleRu": "Графическое представление говорит больше, чем три страницы текста.",
+    "exampleEn": "A graphical representation says more than three pages of text.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_039",
+    "de": "die Vorgabe",
+    "article": "die",
+    "ru": "предписание, установка",
+    "en": "specification, guideline",
+    "exampleDe": "Diese Vorgaben sind für alle Teams verbindlich.",
+    "exampleRu": "Эти предписания обязательны для всех команд.",
+    "exampleEn": "These guidelines are binding for all teams.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_040",
+    "de": "die Randbedingung",
+    "article": "die",
+    "ru": "граничное условие, ограничение",
+    "en": "constraint",
+    "exampleDe": "Technische Randbedingungen schränken den Lösungsraum ein.",
+    "exampleRu": "Технические ограничения сужают пространство решений.",
+    "exampleEn": "Technical constraints narrow the solution space.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "anforderungen",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_041",
+    "de": "die Anforderung",
+    "article": "die",
+    "ru": "требование",
+    "en": "requirement",
+    "exampleDe": "Nichtfunktionale Anforderungen prägen die Architektur am stärksten.",
+    "exampleRu": "Нефункциональные требования сильнее всего определяют архитектуру.",
+    "exampleEn": "Non-functional requirements shape the architecture the most.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "anforderungen",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_042",
+    "de": "das Qualitätsmerkmal",
+    "article": "das",
+    "ru": "показатель качества",
+    "en": "quality attribute",
+    "exampleDe": "Performance und Sicherheit sind konkurrierende Qualitätsmerkmale.",
+    "exampleRu": "Производительность и безопасность — конкурирующие показатели качества.",
+    "exampleEn": "Performance and security are competing quality attributes.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_043",
+    "de": "die Wartbarkeit",
+    "article": "die",
+    "ru": "сопровождаемость",
+    "en": "maintainability",
+    "exampleDe": "Schlechte Wartbarkeit kostet über Jahre mehr als die Entwicklung.",
+    "exampleRu": "Плохая сопровождаемость обходится за годы дороже разработки.",
+    "exampleEn": "Poor maintainability costs more over the years than development.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_044",
+    "de": "die Änderbarkeit",
+    "article": "die",
+    "ru": "изменяемость",
+    "en": "modifiability",
+    "exampleDe": "Die Änderbarkeit hängt direkt von der Kopplung ab.",
+    "exampleRu": "Изменяемость напрямую зависит от связанности.",
+    "exampleEn": "Modifiability depends directly on coupling.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_045",
+    "de": "die Erweiterbarkeit",
+    "article": "die",
+    "ru": "расширяемость",
+    "en": "extensibility",
+    "exampleDe": "Plug-ins sichern die Erweiterbarkeit der Anwendung.",
+    "exampleRu": "Плагины обеспечивают расширяемость приложения.",
+    "exampleEn": "Plug-ins secure the extensibility of the application.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_046",
+    "de": "die Testbarkeit",
+    "article": "die",
+    "ru": "тестируемость",
+    "en": "testability",
+    "exampleDe": "Enge Kopplung zerstört die Testbarkeit.",
+    "exampleRu": "Тесная связанность разрушает тестируемость.",
+    "exampleEn": "Tight coupling destroys testability.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_047",
+    "de": "die Übertragbarkeit",
+    "article": "die",
+    "ru": "переносимость",
+    "en": "portability",
+    "exampleDe": "Container verbessern die Übertragbarkeit zwischen Umgebungen.",
+    "exampleRu": "Контейнеры улучшают переносимость между средами.",
+    "exampleEn": "Containers improve portability between environments.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_048",
+    "de": "die Wiederverwendbarkeit",
+    "article": "die",
+    "ru": "переиспользуемость",
+    "en": "reusability",
+    "exampleDe": "Wiederverwendbarkeit entsteht nicht von allein.",
+    "exampleRu": "Переиспользуемость не возникает сама собой.",
+    "exampleEn": "Reusability does not come about by itself.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_049",
+    "de": "die Verfügbarkeit",
+    "article": "die",
+    "ru": "доступность",
+    "en": "availability",
+    "exampleDe": "Die geforderte Verfügbarkeit liegt bei 99,9 Prozent.",
+    "exampleRu": "Требуемая доступность составляет 99,9 процента.",
+    "exampleEn": "The required availability is 99.9 percent.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_050",
+    "de": "die Zuverlässigkeit",
+    "article": "die",
+    "ru": "надёжность",
+    "en": "reliability",
+    "exampleDe": "Redundanz erhöht die Zuverlässigkeit des Betriebs.",
+    "exampleRu": "Резервирование повышает надёжность эксплуатации.",
+    "exampleEn": "Redundancy increases the reliability of operations.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_051",
+    "de": "die Fehlertoleranz",
+    "article": "die",
+    "ru": "отказоустойчивость",
+    "en": "fault tolerance",
+    "exampleDe": "Fehlertoleranz bedeutet, trotz Ausfällen weiterzuarbeiten.",
+    "exampleRu": "Отказоустойчивость означает продолжать работу несмотря на сбои.",
+    "exampleEn": "Fault tolerance means continuing to work despite failures.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_052",
+    "de": "die Wiederherstellbarkeit",
+    "article": "die",
+    "ru": "восстанавливаемость",
+    "en": "recoverability",
+    "exampleDe": "Ohne getestete Backups gibt es keine Wiederherstellbarkeit.",
+    "exampleRu": "Без проверенных резервных копий нет восстанавливаемости.",
+    "exampleEn": "Without tested backups there is no recoverability.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_053",
+    "de": "die Benutzbarkeit",
+    "article": "die",
+    "ru": "удобство использования",
+    "en": "usability",
+    "exampleDe": "Die Benutzbarkeit wird mit echten Nutzern geprüft.",
+    "exampleRu": "Удобство использования проверяется на реальных пользователях.",
+    "exampleEn": "Usability is tested with real users.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_054",
+    "de": "die Vertraulichkeit",
+    "article": "die",
+    "ru": "конфиденциальность",
+    "en": "confidentiality",
+    "exampleDe": "Verschlüsselung schützt die Vertraulichkeit der Daten.",
+    "exampleRu": "Шифрование защищает конфиденциальность данных.",
+    "exampleEn": "Encryption protects the confidentiality of the data.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_055",
+    "de": "die Integrität",
+    "article": "die",
+    "ru": "целостность",
+    "en": "integrity",
+    "exampleDe": "Prüfsummen sichern die Integrität der Übertragung.",
+    "exampleRu": "Контрольные суммы обеспечивают целостность передачи.",
+    "exampleEn": "Checksums ensure the integrity of the transfer.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_056",
+    "de": "die Eignung",
+    "article": "die",
+    "ru": "пригодность",
+    "en": "suitability",
+    "exampleDe": "Die funktionale Eignung wird gegen die Anforderungen geprüft.",
+    "exampleRu": "Функциональная пригодность проверяется по требованиям.",
+    "exampleEn": "Functional suitability is checked against the requirements.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_057",
+    "de": "die Angemessenheit",
+    "article": "die",
+    "ru": "уместность, соразмерность",
+    "en": "appropriateness",
+    "exampleDe": "Die Angemessenheit der Lösung hängt vom Kontext ab.",
+    "exampleRu": "Соразмерность решения зависит от контекста.",
+    "exampleEn": "The appropriateness of the solution depends on the context.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_058",
+    "de": "das Zeitverhalten",
+    "article": "das",
+    "ru": "временные характеристики",
+    "en": "time behaviour",
+    "exampleDe": "Das Zeitverhalten wird unter Last gemessen.",
+    "exampleRu": "Временные характеристики измеряются под нагрузкой.",
+    "exampleEn": "The time behaviour is measured under load.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_059",
+    "de": "angemessen",
+    "article": "",
+    "ru": "соразмерный, адекватный",
+    "en": "appropriate, adequate",
+    "exampleDe": "Der Aufwand muss zum Risiko angemessen sein.",
+    "exampleRu": "Затраты должны быть соразмерны риску.",
+    "exampleEn": "The effort must be appropriate to the risk.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "qualitaet",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_060",
+    "de": "die Bewertung",
+    "article": "die",
+    "ru": "оценка",
+    "en": "evaluation, assessment",
+    "exampleDe": "Die Bewertung der Architektur erfolgt szenariobasiert.",
+    "exampleRu": "Оценка архитектуры проводится на основе сценариев.",
+    "exampleEn": "The evaluation of the architecture is scenario-based.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_061",
+    "de": "bewerten",
+    "article": "",
+    "ru": "оценивать",
+    "en": "to evaluate, assess",
+    "exampleDe": "Wir bewerten jede Alternative anhand derselben Kriterien.",
+    "exampleRu": "Мы оцениваем каждую альтернативу по одним и тем же критериям.",
+    "exampleEn": "We assess every alternative against the same criteria.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_062",
+    "de": "die Architekturbewertung",
+    "article": "die",
+    "ru": "оценка архитектуры",
+    "en": "architecture evaluation",
+    "exampleDe": "Eine frühe Architekturbewertung deckt teure Fehler auf.",
+    "exampleRu": "Ранняя оценка архитектуры вскрывает дорогие ошибки.",
+    "exampleEn": "An early architecture evaluation uncovers expensive mistakes.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_063",
+    "de": "das Szenario",
+    "article": "das",
+    "ru": "сценарий",
+    "en": "scenario",
+    "exampleDe": "Jedes Szenario beschreibt eine konkrete Belastung des Systems.",
+    "exampleRu": "Каждый сценарий описывает конкретную нагрузку на систему.",
+    "exampleEn": "Each scenario describes a concrete stress on the system.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_064",
+    "de": "der Kompromiss",
+    "article": "der",
+    "ru": "компромисс",
+    "en": "trade-off, compromise",
+    "exampleDe": "Jede Architektur ist ein Kompromiss zwischen widersprüchlichen Zielen.",
+    "exampleRu": "Любая архитектура — компромисс между противоречивыми целями.",
+    "exampleEn": "Every architecture is a trade-off between conflicting goals.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_065",
+    "de": "das Risiko",
+    "article": "das",
+    "ru": "риск",
+    "en": "risk",
+    "exampleDe": "Die Analyse macht verborgene Risiken sichtbar.",
+    "exampleRu": "Анализ делает скрытые риски видимыми.",
+    "exampleEn": "The analysis makes hidden risks visible.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_066",
+    "de": "die Auswertung",
+    "article": "die",
+    "ru": "анализ, обработка результатов",
+    "en": "analysis, evaluation of results",
+    "exampleDe": "Die Auswertung der Messungen dauert einen Tag.",
+    "exampleRu": "Обработка результатов измерений занимает день.",
+    "exampleEn": "Analysing the measurements takes a day.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_067",
+    "de": "die Ermittlung",
+    "article": "die",
+    "ru": "выявление, определение",
+    "en": "identification, determination",
+    "exampleDe": "Die Ermittlung der Qualitätsziele steht am Anfang.",
+    "exampleRu": "Выявление целей по качеству стоит в начале.",
+    "exampleEn": "Identifying the quality goals comes first.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_068",
+    "de": "ermitteln",
+    "article": "",
+    "ru": "выявлять, устанавливать",
+    "en": "to determine, identify",
+    "exampleDe": "Zuerst ermitteln wir die wichtigsten Stakeholder.",
+    "exampleRu": "Сначала мы выявляем ключевых стейкхолдеров.",
+    "exampleEn": "First we identify the key stakeholders.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_069",
+    "de": "die Gewichtung",
+    "article": "die",
+    "ru": "взвешивание, расстановка приоритетов",
+    "en": "weighting",
+    "exampleDe": "Die Gewichtung der Ziele entscheidet über den Entwurf.",
+    "exampleRu": "Взвешивание целей определяет проектное решение.",
+    "exampleEn": "The weighting of the goals decides the design.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_070",
+    "de": "die Metrik",
+    "article": "die",
+    "ru": "метрика",
+    "en": "metric",
+    "exampleDe": "Metriken ersetzen kein Urteil, sie unterstützen es.",
+    "exampleRu": "Метрики не заменяют суждение, а поддерживают его.",
+    "exampleEn": "Metrics do not replace judgement, they support it.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_071",
+    "de": "die Auffälligkeit",
+    "article": "die",
+    "ru": "отклонение, аномалия",
+    "en": "anomaly, conspicuous finding",
+    "exampleDe": "Die statische Analyse meldet mehrere Auffälligkeiten.",
+    "exampleRu": "Статический анализ сообщает о нескольких аномалиях.",
+    "exampleEn": "The static analysis reports several anomalies.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_072",
+    "de": "aufdecken",
+    "article": "",
+    "ru": "вскрывать, выявлять",
+    "en": "to uncover, reveal",
+    "exampleDe": "Reviews decken Schwachstellen früh auf.",
+    "exampleRu": "Ревью рано вскрывают слабые места.",
+    "exampleEn": "Reviews uncover weaknesses early.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_073",
+    "de": "untersuchen",
+    "article": "",
+    "ru": "исследовать, изучать",
+    "en": "to examine, investigate",
+    "exampleDe": "Wir untersuchen, welche Bausteine am häufigsten geändert werden.",
+    "exampleRu": "Мы изучаем, какие компоненты меняются чаще всего.",
+    "exampleEn": "We examine which building blocks change most often.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "bewertung",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_074",
+    "de": "der Stakeholder",
+    "article": "der",
+    "ru": "заинтересованная сторона",
+    "en": "stakeholder",
+    "exampleDe": "Jeder Stakeholder hat eigene Erwartungen an das System.",
+    "exampleRu": "У каждой заинтересованной стороны свои ожидания от системы.",
+    "exampleEn": "Every stakeholder has their own expectations of the system.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_075",
+    "de": "der Auftraggeber",
+    "article": "der",
+    "ru": "заказчик",
+    "en": "client, principal",
+    "exampleDe": "Der Auftraggeber entscheidet über den Umfang.",
+    "exampleRu": "Заказчик решает вопрос об объёме работ.",
+    "exampleEn": "The client decides on the scope.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_076",
+    "de": "der Auftragnehmer",
+    "article": "der",
+    "ru": "подрядчик, исполнитель",
+    "en": "contractor",
+    "exampleDe": "Der Auftragnehmer haftet für die vereinbarte Qualität.",
+    "exampleRu": "Подрядчик отвечает за согласованное качество.",
+    "exampleEn": "The contractor is liable for the agreed quality.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_077",
+    "de": "die Umsetzung",
+    "article": "die",
+    "ru": "реализация, воплощение",
+    "en": "implementation",
+    "exampleDe": "Zwischen Entwurf und Umsetzung liegen viele Entscheidungen.",
+    "exampleRu": "Между проектированием и реализацией лежит много решений.",
+    "exampleEn": "Many decisions lie between design and implementation.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_078",
+    "de": "umsetzen",
+    "article": "",
+    "ru": "реализовывать, воплощать",
+    "en": "to implement, put into practice",
+    "exampleDe": "Das Team setzt die Vorgaben konsequent um.",
+    "exampleRu": "Команда последовательно реализует предписания.",
+    "exampleEn": "The team implements the guidelines consistently.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_079",
+    "de": "das Vorgehen",
+    "article": "das",
+    "ru": "образ действий, подход",
+    "en": "procedure, approach",
+    "exampleDe": "Das Vorgehen wird auf den Projektkontext zugeschnitten.",
+    "exampleRu": "Подход подгоняется под контекст проекта.",
+    "exampleEn": "The procedure is tailored to the project context.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_080",
+    "de": "der Ansatz",
+    "article": "der",
+    "ru": "подход",
+    "en": "approach",
+    "exampleDe": "Beide Ansätze lassen sich sinnvoll kombinieren.",
+    "exampleRu": "Оба подхода можно осмысленно комбинировать.",
+    "exampleEn": "Both approaches can be combined sensibly.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_081",
+    "de": "das Verfahren",
+    "article": "das",
+    "ru": "метод, процедура",
+    "en": "method, procedure",
+    "exampleDe": "Für die Bewertung existieren mehrere etablierte Verfahren.",
+    "exampleRu": "Для оценки существует несколько устоявшихся методов.",
+    "exampleEn": "Several established methods exist for the evaluation.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_082",
+    "de": "die Maßnahme",
+    "article": "die",
+    "ru": "мера, мероприятие",
+    "en": "measure, action",
+    "exampleDe": "Diese Maßnahme reduziert das Risiko deutlich.",
+    "exampleRu": "Эта мера заметно снижает риск.",
+    "exampleEn": "This measure reduces the risk considerably.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_083",
+    "de": "die Voraussetzung",
+    "article": "die",
+    "ru": "предпосылка, условие",
+    "en": "prerequisite",
+    "exampleDe": "Klare Ziele sind die Voraussetzung für jede Bewertung.",
+    "exampleRu": "Ясные цели — предпосылка любой оценки.",
+    "exampleEn": "Clear goals are the prerequisite for any evaluation.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_084",
+    "de": "die Einhaltung",
+    "article": "die",
+    "ru": "соблюдение",
+    "en": "compliance, adherence",
+    "exampleDe": "Die Einhaltung der Architekturregeln wird automatisiert geprüft.",
+    "exampleRu": "Соблюдение архитектурных правил проверяется автоматически.",
+    "exampleEn": "Adherence to the architecture rules is checked automatically.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_085",
+    "de": "die Berücksichtigung",
+    "article": "die",
+    "ru": "учёт, принятие во внимание",
+    "en": "consideration",
+    "exampleDe": "Unter Berücksichtigung der Kosten wählen wir die einfachere Variante.",
+    "exampleRu": "С учётом затрат мы выбираем более простой вариант.",
+    "exampleEn": "Taking the costs into consideration, we choose the simpler variant.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_086",
+    "de": "die Arbeitsteilung",
+    "article": "die",
+    "ru": "разделение труда",
+    "en": "division of labour",
+    "exampleDe": "Die Architektur ermöglicht eine saubere Arbeitsteilung.",
+    "exampleRu": "Архитектура делает возможным чёткое разделение труда.",
+    "exampleEn": "The architecture enables a clean division of labour.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_087",
+    "de": "die Herausforderung",
+    "article": "die",
+    "ru": "вызов, сложная задача",
+    "en": "challenge",
+    "exampleDe": "Die größte Herausforderung ist die Migration der Altdaten.",
+    "exampleRu": "Самая большая сложность — миграция старых данных.",
+    "exampleEn": "The biggest challenge is migrating the legacy data.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_088",
+    "de": "der Betrieb",
+    "article": "der",
+    "ru": "эксплуатация",
+    "en": "operations",
+    "exampleDe": "Der Betrieb stellt eigene Anforderungen an die Architektur.",
+    "exampleRu": "Эксплуатация предъявляет к архитектуре собственные требования.",
+    "exampleEn": "Operations place their own requirements on the architecture.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_089",
+    "de": "die Pflege",
+    "article": "die",
+    "ru": "сопровождение, поддержка",
+    "en": "maintenance, upkeep",
+    "exampleDe": "Die Pflege der Dokumentation gehört zur Entwicklung.",
+    "exampleRu": "Сопровождение документации — часть разработки.",
+    "exampleEn": "Maintaining the documentation is part of development.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_090",
+    "de": "delegieren",
+    "article": "",
+    "ru": "делегировать",
+    "en": "to delegate",
+    "exampleDe": "Der Baustein delegiert die Berechnung an einen Dienst.",
+    "exampleRu": "Компонент делегирует вычисление сервису.",
+    "exampleEn": "The building block delegates the computation to a service.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_091",
+    "de": "erarbeiten",
+    "article": "",
+    "ru": "разрабатывать, вырабатывать",
+    "en": "to work out, develop",
+    "exampleDe": "Das Team erarbeitet gemeinsam eine tragfähige Lösung.",
+    "exampleRu": "Команда совместно вырабатывает жизнеспособное решение.",
+    "exampleEn": "The team jointly works out a viable solution.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "prozess",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_092",
+    "de": "der Quellcode",
+    "article": "der",
+    "ru": "исходный код",
+    "en": "source code",
+    "exampleDe": "Der Quellcode liegt in einem gemeinsamen Repository.",
+    "exampleRu": "Исходный код лежит в общем репозитории.",
+    "exampleEn": "The source code lives in a shared repository.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_093",
+    "de": "die Codeanalyse",
+    "article": "die",
+    "ru": "анализ кода",
+    "en": "code analysis",
+    "exampleDe": "Die statische Codeanalyse läuft bei jedem Commit.",
+    "exampleRu": "Статический анализ кода запускается при каждом коммите.",
+    "exampleEn": "Static code analysis runs on every commit.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_094",
+    "de": "die Codedublette",
+    "article": "die",
+    "ru": "дубликат кода",
+    "en": "code duplicate",
+    "exampleDe": "Das Werkzeug findet Codedubletten über Modulgrenzen hinweg.",
+    "exampleRu": "Инструмент находит дубликаты кода через границы модулей.",
+    "exampleEn": "The tool finds code duplicates across module boundaries.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_095",
+    "de": "die Versionierung",
+    "article": "die",
+    "ru": "версионирование",
+    "en": "versioning",
+    "exampleDe": "Ohne saubere Versionierung ist kein Rollback möglich.",
+    "exampleRu": "Без аккуратного версионирования откат невозможен.",
+    "exampleEn": "Without clean versioning no rollback is possible.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_096",
+    "de": "die Generierung",
+    "article": "die",
+    "ru": "генерация",
+    "en": "generation",
+    "exampleDe": "Die Generierung des Codes spart wiederkehrende Arbeit.",
+    "exampleRu": "Генерация кода экономит повторяющуюся работу.",
+    "exampleEn": "Generating the code saves repetitive work.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_097",
+    "de": "generieren",
+    "article": "",
+    "ru": "генерировать, порождать",
+    "en": "to generate",
+    "exampleDe": "Aus dem Modell generieren wir die Schnittstellen.",
+    "exampleRu": "Из модели мы генерируем интерфейсы.",
+    "exampleEn": "We generate the interfaces from the model.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_098",
+    "de": "die Modellierung",
+    "article": "die",
+    "ru": "моделирование",
+    "en": "modelling",
+    "exampleDe": "Die Modellierung hilft, Missverständnisse früh zu erkennen.",
+    "exampleRu": "Моделирование помогает рано распознать недопонимание.",
+    "exampleEn": "Modelling helps to spot misunderstandings early.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_099",
+    "de": "die Laufzeitumgebung",
+    "article": "die",
+    "ru": "среда выполнения",
+    "en": "runtime environment",
+    "exampleDe": "Die Laufzeitumgebung ist in allen Stufen identisch.",
+    "exampleRu": "Среда выполнения одинакова на всех стадиях.",
+    "exampleEn": "The runtime environment is identical in all stages.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_100",
+    "de": "die Entwicklungsumgebung",
+    "article": "die",
+    "ru": "среда разработки",
+    "en": "development environment",
+    "exampleDe": "Eine integrierte Entwicklungsumgebung beschleunigt das Refactoring.",
+    "exampleRu": "Интегрированная среда разработки ускоряет рефакторинг.",
+    "exampleEn": "An integrated development environment speeds up refactoring.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_101",
+    "de": "der Integrationstest",
+    "article": "der",
+    "ru": "интеграционный тест",
+    "en": "integration test",
+    "exampleDe": "Integrationstests prüfen das Zusammenspiel der Bausteine.",
+    "exampleRu": "Интеграционные тесты проверяют взаимодействие компонентов.",
+    "exampleEn": "Integration tests check the interplay of the building blocks.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_102",
+    "de": "der Lasttest",
+    "article": "der",
+    "ru": "нагрузочный тест",
+    "en": "load test",
+    "exampleDe": "Der Lasttest deckt Engpässe in der Datenbank auf.",
+    "exampleRu": "Нагрузочный тест вскрывает узкие места в базе данных.",
+    "exampleEn": "The load test uncovers bottlenecks in the database.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_103",
+    "de": "das Zusammenspiel",
+    "article": "das",
+    "ru": "взаимодействие, слаженность",
+    "en": "interplay",
+    "exampleDe": "Das Zusammenspiel der Dienste ist schwer zu debuggen.",
+    "exampleRu": "Взаимодействие сервисов трудно отлаживать.",
+    "exampleEn": "The interplay of the services is hard to debug.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_104",
+    "de": "die Werkzeugunterstützung",
+    "article": "die",
+    "ru": "инструментальная поддержка",
+    "en": "tool support",
+    "exampleDe": "Ohne Werkzeugunterstützung skaliert dieses Vorgehen nicht.",
+    "exampleRu": "Без инструментальной поддержки этот подход не масштабируется.",
+    "exampleEn": "Without tool support this procedure does not scale.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "werkzeuge",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_105",
+    "de": "der Zugriff",
+    "article": "der",
+    "ru": "доступ",
+    "en": "access",
+    "exampleDe": "Der Zugriff auf die Datenbank läuft über eine einzige Schicht.",
+    "exampleRu": "Доступ к базе данных идёт через единственный слой.",
+    "exampleEn": "Access to the database goes through a single layer.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "betrieb",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_106",
+    "de": "beeinflussen",
+    "article": "",
+    "ru": "влиять на",
+    "en": "to influence",
+    "exampleDe": "Frühe Entscheidungen beeinflussen das gesamte Projekt.",
+    "exampleRu": "Ранние решения влияют на весь проект.",
+    "exampleEn": "Early decisions influence the entire project.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_107",
+    "de": "erschweren",
+    "article": "",
+    "ru": "затруднять, усложнять",
+    "en": "to make harder, impede",
+    "exampleDe": "Fehlende Dokumentation erschwert jede Übergabe.",
+    "exampleRu": "Отсутствие документации затрудняет любую передачу дел.",
+    "exampleEn": "Missing documentation impedes every handover.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_108",
+    "de": "gefährden",
+    "article": "",
+    "ru": "ставить под угрозу",
+    "en": "to jeopardize",
+    "exampleDe": "Ein einziger Engpass gefährdet die Verfügbarkeit.",
+    "exampleRu": "Одно узкое место ставит под угрозу доступность.",
+    "exampleEn": "A single bottleneck jeopardizes availability.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_109",
+    "de": "vermeiden",
+    "article": "",
+    "ru": "избегать",
+    "en": "to avoid",
+    "exampleDe": "Zyklen zwischen Modulen sollte man konsequent vermeiden.",
+    "exampleRu": "Циклов между модулями следует последовательно избегать.",
+    "exampleEn": "Cycles between modules should be consistently avoided.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_110",
+    "de": "verhindern",
+    "article": "",
+    "ru": "предотвращать",
+    "en": "to prevent",
+    "exampleDe": "Klare Regeln verhindern den schleichenden Verfall.",
+    "exampleRu": "Ясные правила предотвращают постепенную деградацию.",
+    "exampleEn": "Clear rules prevent gradual decay.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_111",
+    "de": "unterliegen",
+    "article": "",
+    "ru": "подлежать, подчиняться",
+    "en": "to be subject to",
+    "exampleDe": "Alle Änderungen unterliegen einem Review.",
+    "exampleRu": "Все изменения подлежат ревью.",
+    "exampleEn": "All changes are subject to a review.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_112",
+    "de": "zurückführen auf",
+    "article": "",
+    "ru": "сводить к, объяснять чем-л.",
+    "en": "to trace back to",
+    "exampleDe": "Die Ausfälle lassen sich auf eine einzige Ursache zurückführen.",
+    "exampleRu": "Сбои можно свести к единственной причине.",
+    "exampleEn": "The outages can be traced back to a single cause.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_113",
+    "de": "hervorheben",
+    "article": "",
+    "ru": "подчёркивать, выделять",
+    "en": "to emphasize, highlight",
+    "exampleDe": "Der Autor hebt die Bedeutung der Kommunikation hervor.",
+    "exampleRu": "Автор подчёркивает значение коммуникации.",
+    "exampleEn": "The author emphasizes the importance of communication.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_114",
+    "de": "bezeichnen als",
+    "article": "",
+    "ru": "называть, обозначать как",
+    "en": "to refer to as",
+    "exampleDe": "Diesen Ansatz bezeichnet man als schrittweise Verfeinerung.",
+    "exampleRu": "Этот подход называют пошаговой детализацией.",
+    "exampleEn": "This approach is referred to as stepwise refinement.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_115",
+    "de": "besagen",
+    "article": "",
+    "ru": "гласить, означать",
+    "en": "to state, say",
+    "exampleDe": "Das Prinzip besagt, dass jedes Modul sein Wissen verbirgt.",
+    "exampleRu": "Принцип гласит, что каждый модуль скрывает своё знание.",
+    "exampleEn": "The principle states that every module hides its knowledge.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_116",
+    "de": "adressieren",
+    "article": "",
+    "ru": "адресовать, затрагивать",
+    "en": "to address",
+    "exampleDe": "Dieser Abschnitt adressiert vor allem Einsteiger.",
+    "exampleRu": "Этот раздел адресован прежде всего новичкам.",
+    "exampleEn": "This section addresses beginners above all.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_117",
+    "de": "wesentlich",
+    "article": "",
+    "ru": "существенный, значительный",
+    "en": "essential, substantial",
+    "exampleDe": "Die wesentlichen Entscheidungen fallen sehr früh.",
+    "exampleRu": "Существенные решения принимаются очень рано.",
+    "exampleEn": "The essential decisions are made very early.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_118",
+    "de": "fachlich",
+    "article": "",
+    "ru": "предметный, содержательный",
+    "en": "domain-related, professional",
+    "exampleDe": "Fachliche und technische Sicht müssen zusammenpassen.",
+    "exampleRu": "Предметный и технический взгляд должны сходиться.",
+    "exampleEn": "The domain view and the technical view must match.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_119",
+    "de": "querschnittlich",
+    "article": "",
+    "ru": "сквозной, кросс-функциональный",
+    "en": "cross-cutting",
+    "exampleDe": "Logging ist ein querschnittliches Thema.",
+    "exampleRu": "Логирование — сквозная тема.",
+    "exampleEn": "Logging is a cross-cutting concern.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_120",
+    "de": "nichtfunktional",
+    "article": "",
+    "ru": "нефункциональный",
+    "en": "non-functional",
+    "exampleDe": "Nichtfunktionale Anforderungen werden oft zu spät erhoben.",
+    "exampleRu": "Нефункциональные требования часто собирают слишком поздно.",
+    "exampleEn": "Non-functional requirements are often gathered too late.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "anforderungen",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_121",
+    "de": "eigenständig",
+    "article": "",
+    "ru": "самостоятельный, автономный",
+    "en": "autonomous, self-contained",
+    "exampleDe": "Jeder Dienst ist eigenständig deploybar.",
+    "exampleRu": "Каждый сервис развёртывается самостоятельно.",
+    "exampleEn": "Each service is independently deployable.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_122",
+    "de": "bewährt",
+    "article": "",
+    "ru": "проверенный, зарекомендовавший себя",
+    "en": "proven, tried and tested",
+    "exampleDe": "Wir setzen auf bewährte Technologien statt auf Experimente.",
+    "exampleRu": "Мы делаем ставку на проверенные технологии, а не на эксперименты.",
+    "exampleEn": "We rely on proven technologies rather than experiments.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_123",
+    "de": "umfassend",
+    "article": "",
+    "ru": "всеобъемлющий, исчерпывающий",
+    "en": "comprehensive",
+    "exampleDe": "Eine umfassende Dokumentation liest niemand.",
+    "exampleRu": "Исчерпывающую документацию никто не читает.",
+    "exampleEn": "Nobody reads comprehensive documentation.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_124",
+    "de": "maßgeblich",
+    "article": "",
+    "ru": "определяющий, решающий",
+    "en": "decisive, authoritative",
+    "exampleDe": "Die Kopplung ist maßgeblich für die Wartbarkeit.",
+    "exampleRu": "Связанность решающим образом влияет на сопровождаемость.",
+    "exampleEn": "Coupling is decisive for maintainability.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_125",
+    "de": "weitreichend",
+    "article": "",
+    "ru": "далеко идущий",
+    "en": "far-reaching",
+    "exampleDe": "Diese Entscheidung hat weitreichende Folgen.",
+    "exampleRu": "У этого решения далеко идущие последствия.",
+    "exampleEn": "This decision has far-reaching consequences.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_126",
+    "de": "gegenseitig",
+    "article": "",
+    "ru": "взаимный",
+    "en": "mutual",
+    "exampleDe": "Die gegenseitigen Abhängigkeiten sind schwer aufzulösen.",
+    "exampleRu": "Взаимные зависимости трудно разорвать.",
+    "exampleEn": "The mutual dependencies are hard to untangle.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_127",
+    "de": "explizit",
+    "article": "",
+    "ru": "явный, эксплицитный",
+    "en": "explicit",
+    "exampleDe": "Annahmen sollten explizit festgehalten werden.",
+    "exampleRu": "Допущения следует фиксировать явно.",
+    "exampleEn": "Assumptions should be recorded explicitly.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_128",
+    "de": "zyklisch",
+    "article": "",
+    "ru": "циклический",
+    "en": "cyclic",
+    "exampleDe": "Zyklische Beziehungen zwischen Schichten sind verboten.",
+    "exampleRu": "Циклические связи между слоями запрещены.",
+    "exampleEn": "Cyclic relationships between layers are forbidden.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "architektur",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_129",
+    "de": "verständlich",
+    "article": "",
+    "ru": "понятный, доходчивый",
+    "en": "comprehensible",
+    "exampleDe": "Eine Architektur ist nur so gut wie ihre verständliche Beschreibung.",
+    "exampleRu": "Архитектура настолько хороша, насколько понятно её описание.",
+    "exampleEn": "An architecture is only as good as its comprehensible description.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "dokumentation",
+      "softwarearchitektur"
+    ]
+  },
+  {
+    "id": "w_arch_130",
+    "de": "prinzipiell",
+    "article": "",
+    "ru": "в принципе, принципиальный",
+    "en": "in principle, fundamental",
+    "exampleDe": "Prinzipiell ist jede Schnittstelle austauschbar.",
+    "exampleRu": "В принципе любой интерфейс заменяем.",
+    "exampleEn": "In principle every interface is replaceable.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "allgemein",
+      "softwarearchitektur"
+    ]
+  }
+]

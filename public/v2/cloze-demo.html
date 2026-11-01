@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>DrillCards · пропуски</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head>
+<body><main class="dc-demo">
+  <header><strong>DrillCards · Preview</strong><div>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language" aria-labelledby="languageLabel"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+    <button id="theme" type="button" aria-label="Сменить тему">◐</button>
+  </div></header>
+  <nav aria-label="Задания"><button id="gap" type="button">Пропуск</button><button id="passivChoice" type="button">Passiv · выбор</button><button id="passivText" type="button">Passiv · ввод</button><button id="repeated" type="button">Повтор варианта</button></nav>
+  <div id="card"></div><button id="restart" type="button">Ещё раз</button>
+</main><script type="module">await import("../retire-v1.js"); await import("./cloze-demo.js");</script></body>
+</html>

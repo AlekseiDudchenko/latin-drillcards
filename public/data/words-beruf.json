@@ -1,0 +1,2194 @@
+[
+  {
+    "id": "w_beruf_1",
+    "de": "die Architektur",
+    "article": "die",
+    "ru": "архитектура",
+    "en": "architecture",
+    "exampleDe": "Er entwirft die Architektur des Systems.",
+    "exampleRu": "Он проектирует архитектуру системы.",
+    "exampleEn": "He designs the architecture of the system.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_2",
+    "de": "die Schnittstelle",
+    "article": "die",
+    "ru": "интерфейс, стык",
+    "en": "interface",
+    "exampleDe": "Die Schnittstelle verbindet zwei Module.",
+    "exampleRu": "Интерфейс соединяет два модуля.",
+    "exampleEn": "The interface connects two modules.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_3",
+    "de": "der Datenfluss",
+    "article": "der",
+    "ru": "поток данных",
+    "en": "data flow",
+    "exampleDe": "Wir analysieren den Datenfluss im System.",
+    "exampleRu": "Мы анализируем поток данных в системе.",
+    "exampleEn": "We analyze the data flow in the system.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_4",
+    "de": "die Persistenz",
+    "article": "die",
+    "ru": "персистентность, хранение",
+    "en": "persistence",
+    "exampleDe": "Die Persistenz der Daten ist gesichert.",
+    "exampleRu": "Сохранение данных обеспечено.",
+    "exampleEn": "Data persistence is ensured.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_5",
+    "de": "die Skalierbarkeit",
+    "article": "die",
+    "ru": "масштабируемость",
+    "en": "scalability",
+    "exampleDe": "Skalierbarkeit ist für uns entscheidend.",
+    "exampleRu": "Масштабируемость для нас решающа.",
+    "exampleEn": "Scalability is decisive for us.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_6",
+    "de": "die Anforderung",
+    "article": "die",
+    "ru": "требование",
+    "en": "requirement",
+    "exampleDe": "Wir erfassen die Anforderungen des Kunden.",
+    "exampleRu": "Мы фиксируем требования клиента.",
+    "exampleEn": "We capture the client's requirements.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_7",
+    "de": "das Konzept",
+    "article": "das",
+    "ru": "концепция",
+    "en": "concept",
+    "exampleDe": "Er erstellt ein technisches Konzept.",
+    "exampleRu": "Он составляет техническую концепцию.",
+    "exampleEn": "He creates a technical concept.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_8",
+    "de": "die Modellierung",
+    "article": "die",
+    "ru": "моделирование",
+    "en": "modeling",
+    "exampleDe": "Die Modellierung der Daten ist komplex.",
+    "exampleRu": "Моделирование данных сложное.",
+    "exampleEn": "The data modeling is complex.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_9",
+    "de": "die Komponente",
+    "article": "die",
+    "ru": "компонент",
+    "en": "component",
+    "exampleDe": "Jede Komponente hat eine klare Aufgabe.",
+    "exampleRu": "У каждого компонента ясная задача.",
+    "exampleEn": "Each component has a clear task.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_10",
+    "de": "das Modul",
+    "article": "das",
+    "ru": "модуль",
+    "en": "module",
+    "exampleDe": "Das System besteht aus mehreren Modulen.",
+    "exampleRu": "Система состоит из нескольких модулей.",
+    "exampleEn": "The system consists of several modules.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_11",
+    "de": "die Infrastruktur",
+    "article": "die",
+    "ru": "инфраструктура",
+    "en": "infrastructure",
+    "exampleDe": "Die Infrastruktur läuft in der Cloud.",
+    "exampleRu": "Инфраструктура работает в облаке.",
+    "exampleEn": "The infrastructure runs in the cloud.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_12",
+    "de": "die Sicherheit",
+    "article": "die",
+    "ru": "безопасность",
+    "en": "security",
+    "exampleDe": "Sicherheit hat höchste Priorität.",
+    "exampleRu": "Безопасность имеет высший приоритет.",
+    "exampleEn": "Security has top priority.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_13",
+    "de": "die Datenbank",
+    "article": "die",
+    "ru": "база данных",
+    "en": "database",
+    "exampleDe": "Die Daten liegen in einer Datenbank.",
+    "exampleRu": "Данные лежат в базе данных.",
+    "exampleEn": "The data is stored in a database.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_14",
+    "de": "der Entwurf",
+    "article": "der",
+    "ru": "эскиз, проект",
+    "en": "design, draft",
+    "exampleDe": "Der Entwurf wurde vom Team geprüft.",
+    "exampleRu": "Проект был проверен командой.",
+    "exampleEn": "The draft was reviewed by the team.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_15",
+    "de": "die Wartbarkeit",
+    "article": "die",
+    "ru": "поддерживаемость",
+    "en": "maintainability",
+    "exampleDe": "Gute Wartbarkeit senkt die Kosten.",
+    "exampleRu": "Хорошая поддерживаемость снижает затраты.",
+    "exampleEn": "Good maintainability reduces costs.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_16",
+    "de": "die Verfügbarkeit",
+    "article": "die",
+    "ru": "доступность",
+    "en": "availability",
+    "exampleDe": "Die Verfügbarkeit des Systems ist hoch.",
+    "exampleRu": "Доступность системы высокая.",
+    "exampleEn": "The availability of the system is high.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_17",
+    "de": "die Abhängigkeit",
+    "article": "die",
+    "ru": "зависимость",
+    "en": "dependency",
+    "exampleDe": "Wir reduzieren die Abhängigkeiten zwischen Modulen.",
+    "exampleRu": "Мы сокращаем зависимости между модулями.",
+    "exampleEn": "We reduce dependencies between modules.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_18",
+    "de": "die Schicht",
+    "article": "die",
+    "ru": "слой, уровень",
+    "en": "layer",
+    "exampleDe": "Die Anwendung ist in Schichten aufgebaut.",
+    "exampleRu": "Приложение построено по слоям.",
+    "exampleEn": "The application is built in layers.",
+    "level": "B2",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_19",
+    "de": "das Backend",
+    "article": "das",
+    "ru": "бэкенд",
+    "en": "backend",
+    "exampleDe": "Das Backend verarbeitet die Anfragen.",
+    "exampleRu": "Бэкенд обрабатывает запросы.",
+    "exampleEn": "The backend processes the requests.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_20",
+    "de": "das Frontend",
+    "article": "das",
+    "ru": "фронтенд",
+    "en": "frontend",
+    "exampleDe": "Das Frontend ist mit Angular gebaut.",
+    "exampleRu": "Фронтенд построен на Angular.",
+    "exampleEn": "The frontend is built with Angular.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_21",
+    "de": "die Bereitstellung",
+    "article": "die",
+    "ru": "развёртывание, предоставление",
+    "en": "deployment, provision",
+    "exampleDe": "Die Bereitstellung erfolgt automatisch.",
+    "exampleRu": "Развёртывание происходит автоматически.",
+    "exampleEn": "The deployment happens automatically.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "entwicklung"
+    ]
+  },
+  {
+    "id": "w_beruf_22",
+    "de": "die Referenzarchitektur",
+    "article": "die",
+    "ru": "эталонная архитектура",
+    "en": "reference architecture",
+    "exampleDe": "Wir definieren eine Referenzarchitektur.",
+    "exampleRu": "Мы определяем эталонную архитектуру.",
+    "exampleEn": "We define a reference architecture.",
+    "level": "C1",
+    "tags": [
+      "architektur"
+    ]
+  },
+  {
+    "id": "w_beruf_23",
+    "de": "die Dokumentation",
+    "article": "die",
+    "ru": "документация",
+    "en": "documentation",
+    "exampleDe": "Die Dokumentation ist stets aktuell.",
+    "exampleRu": "Документация всегда актуальна.",
+    "exampleEn": "The documentation is always up to date.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_24",
+    "de": "der Standard",
+    "article": "der",
+    "ru": "стандарт",
+    "en": "standard",
+    "exampleDe": "Wir halten uns an gängige Standards.",
+    "exampleRu": "Мы придерживаемся общепринятых стандартов.",
+    "exampleEn": "We adhere to common standards.",
+    "level": "B1",
+    "tags": [
+      "architektur",
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_25",
+    "de": "die Interoperabilität",
+    "article": "die",
+    "ru": "совместимость, интероперабельность",
+    "en": "interoperability",
+    "exampleDe": "Interoperabilität ist im Gesundheitswesen zentral.",
+    "exampleRu": "Интероперабельность в здравоохранении ключевая.",
+    "exampleEn": "Interoperability is central in healthcare.",
+    "level": "C1",
+    "tags": [
+      "architektur",
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_26",
+    "de": "entwickeln",
+    "article": "",
+    "ru": "разрабатывать",
+    "en": "to develop",
+    "exampleDe": "Wir entwickeln eine mobile Anwendung.",
+    "exampleRu": "Мы разрабатываем мобильное приложение.",
+    "exampleEn": "We are developing a mobile application.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "verben"
+    ]
+  },
+  {
+    "id": "w_beruf_27",
+    "de": "implementieren",
+    "article": "",
+    "ru": "реализовывать",
+    "en": "to implement",
+    "exampleDe": "Das Team implementiert die neue Funktion.",
+    "exampleRu": "Команда реализует новую функцию.",
+    "exampleEn": "The team implements the new feature.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "verben"
+    ]
+  },
+  {
+    "id": "w_beruf_28",
+    "de": "testen",
+    "article": "",
+    "ru": "тестировать",
+    "en": "to test",
+    "exampleDe": "Wir testen den Code vor dem Release.",
+    "exampleRu": "Мы тестируем код перед релизом.",
+    "exampleEn": "We test the code before the release.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "verben"
+    ]
+  },
+  {
+    "id": "w_beruf_29",
+    "de": "das Code-Review",
+    "article": "das",
+    "ru": "код-ревью",
+    "en": "code review",
+    "exampleDe": "Er führt ein Code-Review durch.",
+    "exampleRu": "Он проводит код-ревью.",
+    "exampleEn": "He carries out a code review.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_30",
+    "de": "der Fehler",
+    "article": "der",
+    "ru": "ошибка",
+    "en": "error, bug",
+    "exampleDe": "Wir haben den Fehler schnell behoben.",
+    "exampleRu": "Мы быстро исправили ошибку.",
+    "exampleEn": "We fixed the bug quickly.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_31",
+    "de": "die Anwendung",
+    "article": "die",
+    "ru": "приложение",
+    "en": "application",
+    "exampleDe": "Die Anwendung läuft stabil.",
+    "exampleRu": "Приложение работает стабильно.",
+    "exampleEn": "The application runs stably.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_32",
+    "de": "die Programmiersprache",
+    "article": "die",
+    "ru": "язык программирования",
+    "en": "programming language",
+    "exampleDe": "Java ist eine verbreitete Programmiersprache.",
+    "exampleRu": "Java — распространённый язык программирования.",
+    "exampleEn": "Java is a widespread programming language.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_33",
+    "de": "das Framework",
+    "article": "das",
+    "ru": "фреймворк",
+    "en": "framework",
+    "exampleDe": "Wir nutzen ein modernes Framework.",
+    "exampleRu": "Мы используем современный фреймворк.",
+    "exampleEn": "We use a modern framework.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_34",
+    "de": "die Bibliothek",
+    "article": "die",
+    "ru": "библиотека",
+    "en": "library",
+    "exampleDe": "Die Bibliothek vereinfacht die Arbeit.",
+    "exampleRu": "Библиотека упрощает работу.",
+    "exampleEn": "The library simplifies the work.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_35",
+    "de": "agil",
+    "article": "",
+    "ru": "гибкий, agile",
+    "en": "agile",
+    "exampleDe": "Wir arbeiten nach agilen Methoden.",
+    "exampleRu": "Мы работаем по гибким методологиям.",
+    "exampleEn": "We work with agile methods.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_36",
+    "de": "der Sprint",
+    "article": "der",
+    "ru": "спринт",
+    "en": "sprint",
+    "exampleDe": "Der Sprint dauert zwei Wochen.",
+    "exampleRu": "Спринт длится две недели.",
+    "exampleEn": "The sprint lasts two weeks.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_37",
+    "de": "die Umsetzung",
+    "article": "die",
+    "ru": "реализация",
+    "en": "implementation",
+    "exampleDe": "Die Umsetzung des Projekts beginnt bald.",
+    "exampleRu": "Реализация проекта скоро начнётся.",
+    "exampleEn": "The implementation of the project starts soon.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_38",
+    "de": "die Wartung",
+    "article": "die",
+    "ru": "обслуживание, поддержка",
+    "en": "maintenance",
+    "exampleDe": "Die Wartung erfolgt regelmäßig.",
+    "exampleRu": "Обслуживание проводится регулярно.",
+    "exampleEn": "Maintenance is carried out regularly.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_39",
+    "de": "das Deployment",
+    "article": "das",
+    "ru": "деплой",
+    "en": "deployment",
+    "exampleDe": "Das Deployment lief ohne Probleme.",
+    "exampleRu": "Деплой прошёл без проблем.",
+    "exampleEn": "The deployment went without problems.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_40",
+    "de": "refaktorieren",
+    "article": "",
+    "ru": "рефакторить",
+    "en": "to refactor",
+    "exampleDe": "Wir refaktorieren den alten Code.",
+    "exampleRu": "Мы рефакторим старый код.",
+    "exampleEn": "We refactor the old code.",
+    "level": "C1",
+    "tags": [
+      "entwicklung",
+      "verben"
+    ]
+  },
+  {
+    "id": "w_beruf_41",
+    "de": "die Testabdeckung",
+    "article": "die",
+    "ru": "покрытие тестами",
+    "en": "test coverage",
+    "exampleDe": "Die Testabdeckung liegt bei 90 Prozent.",
+    "exampleRu": "Покрытие тестами составляет 90 процентов.",
+    "exampleEn": "The test coverage is at 90 percent.",
+    "level": "C1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_42",
+    "de": "die Leistung",
+    "article": "die",
+    "ru": "производительность",
+    "en": "performance",
+    "exampleDe": "Wir verbessern die Leistung der Anwendung.",
+    "exampleRu": "Мы улучшаем производительность приложения.",
+    "exampleEn": "We improve the performance of the application.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_43",
+    "de": "die Optimierung",
+    "article": "die",
+    "ru": "оптимизация",
+    "en": "optimization",
+    "exampleDe": "Die Optimierung spart Rechenzeit.",
+    "exampleRu": "Оптимизация экономит вычислительное время.",
+    "exampleEn": "The optimization saves computing time.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_44",
+    "de": "die Automatisierung",
+    "article": "die",
+    "ru": "автоматизация",
+    "en": "automation",
+    "exampleDe": "Automatisierung reduziert manuelle Fehler.",
+    "exampleRu": "Автоматизация снижает ручные ошибки.",
+    "exampleEn": "Automation reduces manual errors.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_45",
+    "de": "die Versionsverwaltung",
+    "article": "die",
+    "ru": "система контроля версий",
+    "en": "version control",
+    "exampleDe": "Wir nutzen Git zur Versionsverwaltung.",
+    "exampleRu": "Мы используем Git для контроля версий.",
+    "exampleEn": "We use Git for version control.",
+    "level": "C1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_46",
+    "de": "die Anfrage",
+    "article": "die",
+    "ru": "запрос",
+    "en": "request",
+    "exampleDe": "Der Server beantwortet jede Anfrage.",
+    "exampleRu": "Сервер отвечает на каждый запрос.",
+    "exampleEn": "The server answers every request.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_47",
+    "de": "die Funktion",
+    "article": "die",
+    "ru": "функция",
+    "en": "feature, function",
+    "exampleDe": "Diese Funktion ist neu.",
+    "exampleRu": "Эта функция новая.",
+    "exampleEn": "This feature is new.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_48",
+    "de": "die Lösung",
+    "article": "die",
+    "ru": "решение",
+    "en": "solution",
+    "exampleDe": "Wir suchen eine skalierbare Lösung.",
+    "exampleRu": "Мы ищем масштабируемое решение.",
+    "exampleEn": "We are looking for a scalable solution.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_49",
+    "de": "die Qualität",
+    "article": "die",
+    "ru": "качество",
+    "en": "quality",
+    "exampleDe": "Die Qualität des Codes ist hoch.",
+    "exampleRu": "Качество кода высокое.",
+    "exampleEn": "The quality of the code is high.",
+    "level": "B1",
+    "tags": [
+      "entwicklung",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_50",
+    "de": "die Freigabe",
+    "article": "die",
+    "ru": "релиз, утверждение",
+    "en": "release, approval",
+    "exampleDe": "Nach der Freigabe geht die Version live.",
+    "exampleRu": "После утверждения версия выходит в прод.",
+    "exampleEn": "After approval the version goes live.",
+    "level": "B2",
+    "tags": [
+      "entwicklung",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_51",
+    "de": "das Gesundheitswesen",
+    "article": "das",
+    "ru": "здравоохранение",
+    "en": "healthcare system",
+    "exampleDe": "Wir digitalisieren das Gesundheitswesen.",
+    "exampleRu": "Мы цифровизируем здравоохранение.",
+    "exampleEn": "We are digitalizing the healthcare system.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_52",
+    "de": "die Patientendaten",
+    "article": "die",
+    "ru": "данные пациентов",
+    "en": "patient data",
+    "exampleDe": "Patientendaten sind besonders schützenswert.",
+    "exampleRu": "Данные пациентов особенно нуждаются в защите.",
+    "exampleEn": "Patient data is especially worth protecting.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_53",
+    "de": "die Patientenakte",
+    "article": "die",
+    "ru": "карта пациента",
+    "en": "patient record",
+    "exampleDe": "Die elektronische Patientenakte spart Zeit.",
+    "exampleRu": "Электронная карта пациента экономит время.",
+    "exampleEn": "The electronic patient record saves time.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_54",
+    "de": "der Datenschutz",
+    "article": "der",
+    "ru": "защита данных",
+    "en": "data protection",
+    "exampleDe": "Der Datenschutz hat oberste Priorität.",
+    "exampleRu": "Защита данных имеет высший приоритет.",
+    "exampleEn": "Data protection has top priority.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_55",
+    "de": "die Datensicherheit",
+    "article": "die",
+    "ru": "безопасность данных",
+    "en": "data security",
+    "exampleDe": "Datensicherheit ist gesetzlich vorgeschrieben.",
+    "exampleRu": "Безопасность данных предписана законом.",
+    "exampleEn": "Data security is legally required.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_56",
+    "de": "die Telemedizin",
+    "article": "die",
+    "ru": "телемедицина",
+    "en": "telemedicine",
+    "exampleDe": "Telemedizin erreicht auch ländliche Regionen.",
+    "exampleRu": "Телемедицина достигает и сельских регионов.",
+    "exampleEn": "Telemedicine also reaches rural regions.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_57",
+    "de": "die Digitalisierung",
+    "article": "die",
+    "ru": "цифровизация",
+    "en": "digitalization",
+    "exampleDe": "Die Digitalisierung verändert die Versorgung.",
+    "exampleRu": "Цифровизация меняет медицинское обслуживание.",
+    "exampleEn": "Digitalization changes healthcare provision.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_58",
+    "de": "die Zulassung",
+    "article": "die",
+    "ru": "допуск, сертификация",
+    "en": "approval, certification",
+    "exampleDe": "Das Gerät erhielt die Zulassung.",
+    "exampleRu": "Устройство получило сертификацию.",
+    "exampleEn": "The device received approval.",
+    "level": "C1",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_59",
+    "de": "die Verwaltung",
+    "article": "die",
+    "ru": "администрация, управление",
+    "en": "administration",
+    "exampleDe": "Wir arbeiten für die öffentliche Verwaltung.",
+    "exampleRu": "Мы работаем на государственную администрацию.",
+    "exampleEn": "We work for public administration.",
+    "level": "B2",
+    "tags": [
+      "health",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_60",
+    "de": "die Behörde",
+    "article": "die",
+    "ru": "ведомство",
+    "en": "authority, agency",
+    "exampleDe": "Die Behörde stellt neue Anforderungen.",
+    "exampleRu": "Ведомство выдвигает новые требования.",
+    "exampleEn": "The authority sets new requirements.",
+    "level": "B2",
+    "tags": [
+      "health",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_61",
+    "de": "die Krankenkasse",
+    "article": "die",
+    "ru": "больничная касса",
+    "en": "health insurance fund",
+    "exampleDe": "Die Krankenkasse übernimmt die Kosten.",
+    "exampleRu": "Больничная касса покрывает расходы.",
+    "exampleEn": "The health insurance fund covers the costs.",
+    "level": "B1",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_62",
+    "de": "die Versorgung",
+    "article": "die",
+    "ru": "обеспечение, обслуживание",
+    "en": "care, provision",
+    "exampleDe": "Die medizinische Versorgung wird besser.",
+    "exampleRu": "Медицинское обслуживание улучшается.",
+    "exampleEn": "Medical care is improving.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_63",
+    "de": "die Diagnose",
+    "article": "die",
+    "ru": "диагноз",
+    "en": "diagnosis",
+    "exampleDe": "Die Diagnose war eindeutig.",
+    "exampleRu": "Диагноз был однозначным.",
+    "exampleEn": "The diagnosis was clear.",
+    "level": "B1",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_64",
+    "de": "die Verschlüsselung",
+    "article": "die",
+    "ru": "шифрование",
+    "en": "encryption",
+    "exampleDe": "Die Daten werden per Verschlüsselung geschützt.",
+    "exampleRu": "Данные защищены шифрованием.",
+    "exampleEn": "The data is protected by encryption.",
+    "level": "C1",
+    "tags": [
+      "health",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_65",
+    "de": "die Einwilligung",
+    "article": "die",
+    "ru": "согласие",
+    "en": "consent",
+    "exampleDe": "Ohne Einwilligung dürfen wir keine Daten speichern.",
+    "exampleRu": "Без согласия мы не можем хранить данные.",
+    "exampleEn": "Without consent we may not store data.",
+    "level": "C1",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_66",
+    "de": "die Richtlinie",
+    "article": "die",
+    "ru": "директива, руководство",
+    "en": "guideline, directive",
+    "exampleDe": "Wir befolgen die europäischen Richtlinien.",
+    "exampleRu": "Мы соблюдаем европейские директивы.",
+    "exampleEn": "We follow the European guidelines.",
+    "level": "B2",
+    "tags": [
+      "health",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_67",
+    "de": "die Vorschrift",
+    "article": "die",
+    "ru": "предписание, правило",
+    "en": "regulation",
+    "exampleDe": "Die gesetzlichen Vorschriften sind streng.",
+    "exampleRu": "Законодательные предписания строгие.",
+    "exampleEn": "The legal regulations are strict.",
+    "level": "B2",
+    "tags": [
+      "health",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_68",
+    "de": "die Vernetzung",
+    "article": "die",
+    "ru": "объединение в сеть",
+    "en": "networking, connectivity",
+    "exampleDe": "Die Vernetzung der Systeme ist eine Herausforderung.",
+    "exampleRu": "Объединение систем в сеть — вызов.",
+    "exampleEn": "Networking the systems is a challenge.",
+    "level": "C1",
+    "tags": [
+      "health",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_69",
+    "de": "die Plattform",
+    "article": "die",
+    "ru": "платформа",
+    "en": "platform",
+    "exampleDe": "Die Plattform verbindet Ärzte und Patienten.",
+    "exampleRu": "Платформа соединяет врачей и пациентов.",
+    "exampleEn": "The platform connects doctors and patients.",
+    "level": "B1",
+    "tags": [
+      "health",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_70",
+    "de": "die Effizienz",
+    "article": "die",
+    "ru": "эффективность",
+    "en": "efficiency",
+    "exampleDe": "Digitale Prozesse steigern die Effizienz.",
+    "exampleRu": "Цифровые процессы повышают эффективность.",
+    "exampleEn": "Digital processes increase efficiency.",
+    "level": "B2",
+    "tags": [
+      "health",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_71",
+    "de": "der Anbieter",
+    "article": "der",
+    "ru": "поставщик",
+    "en": "provider",
+    "exampleDe": "Der Anbieter garantiert hohe Verfügbarkeit.",
+    "exampleRu": "Поставщик гарантирует высокую доступность.",
+    "exampleEn": "The provider guarantees high availability.",
+    "level": "B2",
+    "tags": [
+      "health",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_72",
+    "de": "das Krankenhaus",
+    "article": "das",
+    "ru": "больница",
+    "en": "hospital",
+    "exampleDe": "Das Krankenhaus führt eine neue Software ein.",
+    "exampleRu": "Больница внедряет новое ПО.",
+    "exampleEn": "The hospital introduces new software.",
+    "level": "B1",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_73",
+    "de": "die Gesundheit",
+    "article": "die",
+    "ru": "здоровье",
+    "en": "health",
+    "exampleDe": "Digitale Lösungen fördern die Gesundheit.",
+    "exampleRu": "Цифровые решения способствуют здоровью.",
+    "exampleEn": "Digital solutions promote health.",
+    "level": "B1",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_74",
+    "de": "die Akte",
+    "article": "die",
+    "ru": "дело, досье",
+    "en": "file, record",
+    "exampleDe": "Jede Akte wird digital gespeichert.",
+    "exampleRu": "Каждое дело хранится в цифровом виде.",
+    "exampleEn": "Each file is stored digitally.",
+    "level": "B2",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "w_beruf_75",
+    "de": "die Beratung",
+    "article": "die",
+    "ru": "консультирование",
+    "en": "consulting",
+    "exampleDe": "Wir bieten technische Beratung an.",
+    "exampleRu": "Мы предлагаем техническое консультирование.",
+    "exampleEn": "We offer technical consulting.",
+    "level": "B2",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_76",
+    "de": "der Mandant",
+    "article": "der",
+    "ru": "клиент (в консалтинге)",
+    "en": "client",
+    "exampleDe": "Unser Mandant ist eine große Behörde.",
+    "exampleRu": "Наш клиент — крупное ведомство.",
+    "exampleEn": "Our client is a large authority.",
+    "level": "C1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_77",
+    "de": "das Projekt",
+    "article": "das",
+    "ru": "проект",
+    "en": "project",
+    "exampleDe": "Das Projekt läuft seit einem Jahr.",
+    "exampleRu": "Проект идёт уже год.",
+    "exampleEn": "The project has been running for a year.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_78",
+    "de": "der Projektmanager",
+    "article": "der",
+    "ru": "руководитель проекта",
+    "en": "project manager",
+    "exampleDe": "Der Projektmanager koordiniert das Team.",
+    "exampleRu": "Руководитель проекта координирует команду.",
+    "exampleEn": "The project manager coordinates the team.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_79",
+    "de": "der Stakeholder",
+    "article": "der",
+    "ru": "заинтересованная сторона",
+    "en": "stakeholder",
+    "exampleDe": "Wir stimmen uns mit allen Stakeholdern ab.",
+    "exampleRu": "Мы согласуем со всеми заинтересованными сторонами.",
+    "exampleEn": "We coordinate with all stakeholders.",
+    "level": "C1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_80",
+    "de": "die Anforderungsanalyse",
+    "article": "die",
+    "ru": "анализ требований",
+    "en": "requirements analysis",
+    "exampleDe": "Die Anforderungsanalyse dauert zwei Wochen.",
+    "exampleRu": "Анализ требований длится две недели.",
+    "exampleEn": "The requirements analysis takes two weeks.",
+    "level": "C1",
+    "tags": [
+      "consulting",
+      "architektur"
+    ]
+  },
+  {
+    "id": "w_beruf_81",
+    "de": "der Zeitplan",
+    "article": "der",
+    "ru": "график, план сроков",
+    "en": "schedule",
+    "exampleDe": "Wir halten den Zeitplan ein.",
+    "exampleRu": "Мы соблюдаем график.",
+    "exampleEn": "We keep to the schedule.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_82",
+    "de": "das Budget",
+    "article": "das",
+    "ru": "бюджет",
+    "en": "budget",
+    "exampleDe": "Das Budget ist begrenzt.",
+    "exampleRu": "Бюджет ограничен.",
+    "exampleEn": "The budget is limited.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_83",
+    "de": "die Frist",
+    "article": "die",
+    "ru": "срок",
+    "en": "deadline",
+    "exampleDe": "Wir müssen die Frist einhalten.",
+    "exampleRu": "Мы должны соблюсти срок.",
+    "exampleEn": "We have to meet the deadline.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_84",
+    "de": "das Ergebnis",
+    "article": "das",
+    "ru": "результат",
+    "en": "result",
+    "exampleDe": "Das Ergebnis überzeugte den Kunden.",
+    "exampleRu": "Результат убедил клиента.",
+    "exampleEn": "The result convinced the client.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_85",
+    "de": "die Präsentation",
+    "article": "die",
+    "ru": "презентация",
+    "en": "presentation",
+    "exampleDe": "Die Präsentation war überzeugend.",
+    "exampleRu": "Презентация была убедительной.",
+    "exampleEn": "The presentation was convincing.",
+    "level": "B1",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_86",
+    "de": "die Verhandlung",
+    "article": "die",
+    "ru": "переговоры",
+    "en": "negotiation",
+    "exampleDe": "Die Verhandlung verlief erfolgreich.",
+    "exampleRu": "Переговоры прошли успешно.",
+    "exampleEn": "The negotiation was successful.",
+    "level": "B2",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_87",
+    "de": "die Zusammenarbeit",
+    "article": "die",
+    "ru": "сотрудничество",
+    "en": "collaboration",
+    "exampleDe": "Die Zusammenarbeit im Team ist eng.",
+    "exampleRu": "Сотрудничество в команде тесное.",
+    "exampleEn": "The collaboration in the team is close.",
+    "level": "B1",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_88",
+    "de": "die Verantwortung",
+    "article": "die",
+    "ru": "ответственность",
+    "en": "responsibility",
+    "exampleDe": "Er übernimmt die Verantwortung für das Projekt.",
+    "exampleRu": "Он берёт ответственность за проект.",
+    "exampleEn": "He takes responsibility for the project.",
+    "level": "B2",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_89",
+    "de": "die Herausforderung",
+    "article": "die",
+    "ru": "вызов, задача",
+    "en": "challenge",
+    "exampleDe": "Jedes Projekt bringt neue Herausforderungen.",
+    "exampleRu": "Каждый проект приносит новые вызовы.",
+    "exampleEn": "Every project brings new challenges.",
+    "level": "B2",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_90",
+    "de": "der Vorschlag",
+    "article": "der",
+    "ru": "предложение",
+    "en": "proposal",
+    "exampleDe": "Ich habe einen konkreten Vorschlag.",
+    "exampleRu": "У меня есть конкретное предложение.",
+    "exampleEn": "I have a concrete proposal.",
+    "level": "B1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_91",
+    "de": "die Empfehlung",
+    "article": "die",
+    "ru": "рекомендация",
+    "en": "recommendation",
+    "exampleDe": "Wir geben eine klare Empfehlung ab.",
+    "exampleRu": "Мы даём чёткую рекомендацию.",
+    "exampleEn": "We give a clear recommendation.",
+    "level": "B2",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_92",
+    "de": "die Strategie",
+    "article": "die",
+    "ru": "стратегия",
+    "en": "strategy",
+    "exampleDe": "Die Strategie richtet sich am Kunden aus.",
+    "exampleRu": "Стратегия ориентирована на клиента.",
+    "exampleEn": "The strategy is aligned with the client.",
+    "level": "B2",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_93",
+    "de": "der Mehrwert",
+    "article": "der",
+    "ru": "добавленная ценность",
+    "en": "added value",
+    "exampleDe": "Die Lösung schafft echten Mehrwert.",
+    "exampleRu": "Решение создаёт реальную ценность.",
+    "exampleEn": "The solution creates real added value.",
+    "level": "C1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_94",
+    "de": "das Ziel",
+    "article": "das",
+    "ru": "цель",
+    "en": "goal",
+    "exampleDe": "Wir verfolgen ein gemeinsames Ziel.",
+    "exampleRu": "Мы преследуем общую цель.",
+    "exampleEn": "We pursue a common goal.",
+    "level": "B1",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_95",
+    "de": "die Abstimmung",
+    "article": "die",
+    "ru": "согласование",
+    "en": "coordination, alignment",
+    "exampleDe": "Die Abstimmung mit dem Kunden ist wichtig.",
+    "exampleRu": "Согласование с клиентом важно.",
+    "exampleEn": "Coordination with the client is important.",
+    "level": "B2",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_96",
+    "de": "der Ansprechpartner",
+    "article": "der",
+    "ru": "контактное лицо",
+    "en": "contact person",
+    "exampleDe": "Ich bin Ihr Ansprechpartner für Fragen.",
+    "exampleRu": "Я ваше контактное лицо по вопросам.",
+    "exampleEn": "I am your contact person for questions.",
+    "level": "B2",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_97",
+    "de": "die Effektivität",
+    "article": "die",
+    "ru": "результативность",
+    "en": "effectiveness",
+    "exampleDe": "Wir messen die Effektivität der Maßnahmen.",
+    "exampleRu": "Мы измеряем результативность мер.",
+    "exampleEn": "We measure the effectiveness of the measures.",
+    "level": "C1",
+    "tags": [
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_98",
+    "de": "der Termin",
+    "article": "der",
+    "ru": "встреча, срок",
+    "en": "appointment",
+    "exampleDe": "Wir vereinbaren einen Termin.",
+    "exampleRu": "Мы договариваемся о встрече.",
+    "exampleEn": "We arrange an appointment.",
+    "level": "B1",
+    "tags": [
+      "consulting",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_99",
+    "de": "das Vorstellungsgespräch",
+    "article": "das",
+    "ru": "собеседование",
+    "en": "job interview",
+    "exampleDe": "Das Vorstellungsgespräch verlief gut.",
+    "exampleRu": "Собеседование прошло хорошо.",
+    "exampleEn": "The job interview went well.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_100",
+    "de": "die Bewerbung",
+    "article": "die",
+    "ru": "заявка, отклик",
+    "en": "application",
+    "exampleDe": "Meine Bewerbung ist vollständig.",
+    "exampleRu": "Моя заявка полная.",
+    "exampleEn": "My application is complete.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_101",
+    "de": "der Lebenslauf",
+    "article": "der",
+    "ru": "резюме",
+    "en": "CV, résumé",
+    "exampleDe": "Mein Lebenslauf zeigt meine Erfahrung.",
+    "exampleRu": "Моё резюме показывает мой опыт.",
+    "exampleEn": "My CV shows my experience.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_102",
+    "de": "die Erfahrung",
+    "article": "die",
+    "ru": "опыт",
+    "en": "experience",
+    "exampleDe": "Ich habe mehrjährige Erfahrung in der IT.",
+    "exampleRu": "У меня многолетний опыт в ИТ.",
+    "exampleEn": "I have several years of experience in IT.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_103",
+    "de": "die Stärke",
+    "article": "die",
+    "ru": "сильная сторона",
+    "en": "strength",
+    "exampleDe": "Meine größte Stärke ist Analyse.",
+    "exampleRu": "Моя главная сильная сторона — анализ.",
+    "exampleEn": "My greatest strength is analysis.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_104",
+    "de": "die Schwäche",
+    "article": "die",
+    "ru": "слабая сторона",
+    "en": "weakness",
+    "exampleDe": "An dieser Schwäche arbeite ich aktiv.",
+    "exampleRu": "Над этой слабостью я активно работаю.",
+    "exampleEn": "I am actively working on this weakness.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_105",
+    "de": "die Motivation",
+    "article": "die",
+    "ru": "мотивация",
+    "en": "motivation",
+    "exampleDe": "Meine Motivation ist sehr hoch.",
+    "exampleRu": "Моя мотивация очень высокая.",
+    "exampleEn": "My motivation is very high.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_106",
+    "de": "die Fähigkeit",
+    "article": "die",
+    "ru": "способность",
+    "en": "ability",
+    "exampleDe": "Diese Fähigkeit habe ich im Beruf entwickelt.",
+    "exampleRu": "Эту способность я развил в профессии.",
+    "exampleEn": "I developed this ability at work.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_107",
+    "de": "die Kompetenz",
+    "article": "die",
+    "ru": "компетенция",
+    "en": "competence",
+    "exampleDe": "Fachliche Kompetenz ist entscheidend.",
+    "exampleRu": "Профессиональная компетенция решающа.",
+    "exampleEn": "Professional competence is decisive.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_108",
+    "de": "die Qualifikation",
+    "article": "die",
+    "ru": "квалификация",
+    "en": "qualification",
+    "exampleDe": "Ich bringe die nötige Qualifikation mit.",
+    "exampleRu": "Я обладаю необходимой квалификацией.",
+    "exampleEn": "I bring the necessary qualification.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_109",
+    "de": "der Werdegang",
+    "article": "der",
+    "ru": "карьерный путь",
+    "en": "career path",
+    "exampleDe": "Mein Werdegang ist technisch geprägt.",
+    "exampleRu": "Мой карьерный путь технический.",
+    "exampleEn": "My career path is technically shaped.",
+    "level": "C1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_110",
+    "de": "die Weiterbildung",
+    "article": "die",
+    "ru": "повышение квалификации",
+    "en": "further training",
+    "exampleDe": "Weiterbildung ist mir sehr wichtig.",
+    "exampleRu": "Повышение квалификации для меня важно.",
+    "exampleEn": "Further training is very important to me.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_111",
+    "de": "teamfähig",
+    "article": "",
+    "ru": "командный, умеющий работать в команде",
+    "en": "team-oriented",
+    "exampleDe": "Ich bin teamfähig und kommunikativ.",
+    "exampleRu": "Я командный и коммуникабельный.",
+    "exampleEn": "I am team-oriented and communicative.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_112",
+    "de": "kommunikativ",
+    "article": "",
+    "ru": "коммуникабельный",
+    "en": "communicative",
+    "exampleDe": "Sie ist offen und kommunikativ.",
+    "exampleRu": "Она открытая и коммуникабельная.",
+    "exampleEn": "She is open and communicative.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_113",
+    "de": "zuverlässig",
+    "article": "",
+    "ru": "надёжный",
+    "en": "reliable",
+    "exampleDe": "Ich arbeite sorgfältig und zuverlässig.",
+    "exampleRu": "Я работаю тщательно и надёжно.",
+    "exampleEn": "I work carefully and reliably.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_114",
+    "de": "belastbar",
+    "article": "",
+    "ru": "стрессоустойчивый",
+    "en": "resilient",
+    "exampleDe": "Auch unter Druck bin ich belastbar.",
+    "exampleRu": "Даже под давлением я стрессоустойчив.",
+    "exampleEn": "Even under pressure I am resilient.",
+    "level": "C1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_115",
+    "de": "engagiert",
+    "article": "",
+    "ru": "активный, увлечённый",
+    "en": "committed",
+    "exampleDe": "Ich bin engagiert und lernbereit.",
+    "exampleRu": "Я увлечён и готов учиться.",
+    "exampleEn": "I am committed and willing to learn.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_116",
+    "de": "ehrgeizig",
+    "article": "",
+    "ru": "амбициозный",
+    "en": "ambitious",
+    "exampleDe": "Ich bin ehrgeizig, aber teamorientiert.",
+    "exampleRu": "Я амбициозен, но ориентирован на команду.",
+    "exampleEn": "I am ambitious but team-oriented.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_117",
+    "de": "flexibel",
+    "article": "",
+    "ru": "гибкий",
+    "en": "flexible",
+    "exampleDe": "Ich bin räumlich und zeitlich flexibel.",
+    "exampleRu": "Я гибок по месту и времени.",
+    "exampleEn": "I am flexible in location and time.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_118",
+    "de": "selbstständig",
+    "article": "",
+    "ru": "самостоятельный",
+    "en": "independent",
+    "exampleDe": "Ich arbeite gern selbstständig.",
+    "exampleRu": "Я люблю работать самостоятельно.",
+    "exampleEn": "I like to work independently.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_119",
+    "de": "lernbereit",
+    "article": "",
+    "ru": "готовый учиться",
+    "en": "eager to learn",
+    "exampleDe": "Neue Technologien reizen mich, ich bin lernbereit.",
+    "exampleRu": "Новые технологии меня привлекают, я готов учиться.",
+    "exampleEn": "New technologies appeal to me, I am eager to learn.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_120",
+    "de": "die Führung",
+    "article": "die",
+    "ru": "руководство",
+    "en": "leadership",
+    "exampleDe": "Ich habe Erfahrung in der fachlichen Führung.",
+    "exampleRu": "У меня есть опыт профессионального руководства.",
+    "exampleEn": "I have experience in technical leadership.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_121",
+    "de": "das Gehalt",
+    "article": "das",
+    "ru": "зарплата",
+    "en": "salary",
+    "exampleDe": "Über das Gehalt sprechen wir später.",
+    "exampleRu": "О зарплате мы поговорим позже.",
+    "exampleEn": "We'll talk about the salary later.",
+    "level": "B1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_122",
+    "de": "die Kündigungsfrist",
+    "article": "die",
+    "ru": "срок уведомления об увольнении",
+    "en": "notice period",
+    "exampleDe": "Meine Kündigungsfrist beträgt drei Monate.",
+    "exampleRu": "Мой срок уведомления составляет три месяца.",
+    "exampleEn": "My notice period is three months.",
+    "level": "C1",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_123",
+    "de": "sich bewerben",
+    "article": "",
+    "ru": "подавать заявку",
+    "en": "to apply",
+    "exampleDe": "Ich bewerbe mich auf diese Stelle.",
+    "exampleRu": "Я подаю заявку на эту должность.",
+    "exampleEn": "I am applying for this position.",
+    "level": "B1",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_124",
+    "de": "einstellen",
+    "article": "",
+    "ru": "нанимать",
+    "en": "to hire",
+    "exampleDe": "Die Firma stellt neue Fachkräfte ein.",
+    "exampleRu": "Фирма нанимает новых специалистов.",
+    "exampleEn": "The company is hiring new specialists.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_125",
+    "de": "leiten",
+    "article": "",
+    "ru": "руководить",
+    "en": "to lead",
+    "exampleDe": "Er leitet ein internationales Team.",
+    "exampleRu": "Он руководит международной командой.",
+    "exampleEn": "He leads an international team.",
+    "level": "B1",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_126",
+    "de": "betreuen",
+    "article": "",
+    "ru": "курировать, вести",
+    "en": "to supervise, to support",
+    "exampleDe": "Ich betreue mehrere Projekte gleichzeitig.",
+    "exampleRu": "Я веду несколько проектов одновременно.",
+    "exampleEn": "I supervise several projects at once.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_127",
+    "de": "koordinieren",
+    "article": "",
+    "ru": "координировать",
+    "en": "to coordinate",
+    "exampleDe": "Sie koordiniert die Zusammenarbeit.",
+    "exampleRu": "Она координирует сотрудничество.",
+    "exampleEn": "She coordinates the collaboration.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_128",
+    "de": "abstimmen",
+    "article": "",
+    "ru": "согласовывать",
+    "en": "to coordinate, to align",
+    "exampleDe": "Wir stimmen die Anforderungen ab.",
+    "exampleRu": "Мы согласуем требования.",
+    "exampleEn": "We align the requirements.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_129",
+    "de": "umsetzen",
+    "article": "",
+    "ru": "реализовывать",
+    "en": "to implement",
+    "exampleDe": "Wir setzen die Idee in die Praxis um.",
+    "exampleRu": "Мы реализуем идею на практике.",
+    "exampleEn": "We put the idea into practice.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_130",
+    "de": "gewährleisten",
+    "article": "",
+    "ru": "обеспечивать, гарантировать",
+    "en": "to ensure",
+    "exampleDe": "Wir gewährleisten hohe Qualität.",
+    "exampleRu": "Мы обеспечиваем высокое качество.",
+    "exampleEn": "We ensure high quality.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_131",
+    "de": "sicherstellen",
+    "article": "",
+    "ru": "обеспечивать",
+    "en": "to make sure",
+    "exampleDe": "Wir stellen die Einhaltung der Standards sicher.",
+    "exampleRu": "Мы обеспечиваем соблюдение стандартов.",
+    "exampleEn": "We ensure compliance with the standards.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_132",
+    "de": "erläutern",
+    "article": "",
+    "ru": "разъяснять",
+    "en": "to explain",
+    "exampleDe": "Ich erläutere das Konzept dem Kunden.",
+    "exampleRu": "Я разъясняю концепцию клиенту.",
+    "exampleEn": "I explain the concept to the client.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_133",
+    "de": "präsentieren",
+    "article": "",
+    "ru": "презентовать",
+    "en": "to present",
+    "exampleDe": "Er präsentiert die Ergebnisse dem Vorstand.",
+    "exampleRu": "Он презентует результаты правлению.",
+    "exampleEn": "He presents the results to the board.",
+    "level": "B1",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_134",
+    "de": "verhandeln",
+    "article": "",
+    "ru": "вести переговоры",
+    "en": "to negotiate",
+    "exampleDe": "Wir verhandeln über den Vertrag.",
+    "exampleRu": "Мы ведём переговоры по договору.",
+    "exampleEn": "We negotiate about the contract.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_135",
+    "de": "überzeugen",
+    "article": "",
+    "ru": "убеждать",
+    "en": "to convince",
+    "exampleDe": "Ich überzeuge mit klaren Argumenten.",
+    "exampleRu": "Я убеждаю ясными аргументами.",
+    "exampleEn": "I convince with clear arguments.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_136",
+    "de": "sich einarbeiten",
+    "article": "",
+    "ru": "входить в курс дела",
+    "en": "to get up to speed",
+    "exampleDe": "Ich arbeite mich schnell in neue Themen ein.",
+    "exampleRu": "Я быстро вхожу в курс новых тем.",
+    "exampleEn": "I get up to speed with new topics quickly.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_137",
+    "de": "sich weiterentwickeln",
+    "article": "",
+    "ru": "развиваться дальше",
+    "en": "to develop further",
+    "exampleDe": "Ich möchte mich fachlich weiterentwickeln.",
+    "exampleRu": "Я хочу развиваться профессионально.",
+    "exampleEn": "I want to develop further professionally.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_138",
+    "de": "priorisieren",
+    "article": "",
+    "ru": "приоритизировать",
+    "en": "to prioritize",
+    "exampleDe": "Wir priorisieren die wichtigsten Aufgaben.",
+    "exampleRu": "Мы приоритизируем важнейшие задачи.",
+    "exampleEn": "We prioritize the most important tasks.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_139",
+    "de": "dokumentieren",
+    "article": "",
+    "ru": "документировать",
+    "en": "to document",
+    "exampleDe": "Wir dokumentieren jede Entscheidung.",
+    "exampleRu": "Мы документируем каждое решение.",
+    "exampleEn": "We document every decision.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "it"
+    ]
+  },
+  {
+    "id": "w_beruf_140",
+    "de": "analysieren",
+    "article": "",
+    "ru": "анализировать",
+    "en": "to analyze",
+    "exampleDe": "Ich analysiere die Anforderungen genau.",
+    "exampleRu": "Я тщательно анализирую требования.",
+    "exampleEn": "I analyze the requirements carefully.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_141",
+    "de": "konzipieren",
+    "article": "",
+    "ru": "проектировать, разрабатывать концепцию",
+    "en": "to design, to conceive",
+    "exampleDe": "Wir konzipieren eine neue Lösung.",
+    "exampleRu": "Мы разрабатываем концепцию нового решения.",
+    "exampleEn": "We conceive a new solution.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "architektur"
+    ]
+  },
+  {
+    "id": "w_beruf_142",
+    "de": "beraten",
+    "article": "",
+    "ru": "консультировать",
+    "en": "to advise",
+    "exampleDe": "Wir beraten den Kunden zu Technologie-Trends.",
+    "exampleRu": "Мы консультируем клиента по техно-трендам.",
+    "exampleEn": "We advise the client on technology trends.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_143",
+    "de": "unterstützen",
+    "article": "",
+    "ru": "поддерживать",
+    "en": "to support",
+    "exampleDe": "Ich unterstütze das Team bei der Umsetzung.",
+    "exampleRu": "Я поддерживаю команду при реализации.",
+    "exampleEn": "I support the team with the implementation.",
+    "level": "B1",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_144",
+    "de": "optimieren",
+    "article": "",
+    "ru": "оптимизировать",
+    "en": "to optimize",
+    "exampleDe": "Wir optimieren die Prozesse laufend.",
+    "exampleRu": "Мы постоянно оптимизируем процессы.",
+    "exampleEn": "We continuously optimize the processes.",
+    "level": "B2",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_145",
+    "de": "evaluieren",
+    "article": "",
+    "ru": "оценивать",
+    "en": "to evaluate",
+    "exampleDe": "Wir evaluieren verschiedene Ansätze.",
+    "exampleRu": "Мы оцениваем разные подходы.",
+    "exampleEn": "We evaluate different approaches.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_146",
+    "de": "delegieren",
+    "article": "",
+    "ru": "делегировать",
+    "en": "to delegate",
+    "exampleDe": "Eine gute Führungskraft kann delegieren.",
+    "exampleRu": "Хороший руководитель умеет делегировать.",
+    "exampleEn": "A good leader can delegate.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_147",
+    "de": "verantworten",
+    "article": "",
+    "ru": "отвечать за",
+    "en": "to be responsible for",
+    "exampleDe": "Ich verantworte die technische Umsetzung.",
+    "exampleRu": "Я отвечаю за техническую реализацию.",
+    "exampleEn": "I am responsible for the technical implementation.",
+    "level": "C1",
+    "tags": [
+      "verben",
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_148",
+    "de": "die Fachkraft",
+    "article": "die",
+    "ru": "специалист",
+    "en": "skilled worker",
+    "exampleDe": "Wir suchen eine erfahrene Fachkraft.",
+    "exampleRu": "Мы ищем опытного специалиста.",
+    "exampleEn": "We are looking for an experienced specialist.",
+    "level": "B2",
+    "tags": [
+      "bewerbung"
+    ]
+  },
+  {
+    "id": "w_beruf_149",
+    "de": "der Vertrag",
+    "article": "der",
+    "ru": "договор",
+    "en": "contract",
+    "exampleDe": "Der Vertrag wird unbefristet abgeschlossen.",
+    "exampleRu": "Договор заключается бессрочно.",
+    "exampleEn": "The contract is concluded permanently.",
+    "level": "B1",
+    "tags": [
+      "bewerbung",
+      "consulting"
+    ]
+  },
+  {
+    "id": "w_beruf_150",
+    "de": "die Einarbeitung",
+    "article": "die",
+    "ru": "адаптация, ввод в должность",
+    "en": "onboarding",
+    "exampleDe": "Die Einarbeitung dauert etwa einen Monat.",
+    "exampleRu": "Ввод в должность длится примерно месяц.",
+    "exampleEn": "The onboarding takes about a month.",
+    "level": "C1",
+    "tags": [
+      "bewerbung"
+    ]
+  }
+]

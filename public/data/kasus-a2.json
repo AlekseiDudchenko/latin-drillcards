@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "ka_art_01",
+    "type": "article",
+    "sentence": "Ich sehe ___ Mann dort.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "die"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«sehen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Mann ist maskulin: der → den. Ergebnis: Ich sehe den Mann dort.",
+      "ru": "«sehen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Mann — мужской род: der → den. Итог: Ich sehe den Mann dort.",
+      "en": "«sehen» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Mann is masculine: der → den. Result: Ich sehe den Mann dort."
+    },
+    "translation_ru": "Я вижу там мужчину.",
+    "translation_en": "I see the man over there.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_02",
+    "type": "article",
+    "sentence": "Wir kaufen ___ Zeitung am Kiosk.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«kaufen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. die Zeitung ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Wir kaufen die Zeitung am Kiosk.",
+      "ru": "«kaufen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. die Zeitung — женский род: die → die (форма совпадает с номинативом). Итог: Wir kaufen die Zeitung am Kiosk.",
+      "en": "«kaufen» takes a direct object — it answers Wen? / Was? and stands in the accusative. die Zeitung is feminine: die → die (same form as the nominative). Result: Wir kaufen die Zeitung am Kiosk."
+    },
+    "translation_ru": "Мы покупаем газету в киоске.",
+    "translation_en": "We buy the newspaper at the kiosk.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_03",
+    "type": "article",
+    "sentence": "Er liest ___ Buch zu Ende.",
+    "options": [
+      "das",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«lesen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. das Buch ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Er liest das Buch zu Ende.",
+      "ru": "«lesen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. das Buch — средний род: das → das (форма совпадает с номинативом). Итог: Er liest das Buch zu Ende.",
+      "en": "«lesen» takes a direct object — it answers Wen? / Was? and stands in the accusative. das Buch is neuter: das → das (same form as the nominative). Result: Er liest das Buch zu Ende."
+    },
+    "translation_ru": "Он дочитывает книгу.",
+    "translation_en": "He is finishing the book.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_04",
+    "type": "article",
+    "sentence": "Ich brauche ___ Schlüssel für die Wohnung.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«brauchen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Schlüssel ist maskulin: der → den. Ergebnis: Ich brauche den Schlüssel für die Wohnung.",
+      "ru": "«brauchen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Schlüssel — мужской род: der → den. Итог: Ich brauche den Schlüssel für die Wohnung.",
+      "en": "«brauchen» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Schlüssel is masculine: der → den. Result: Ich brauche den Schlüssel für die Wohnung."
+    },
+    "translation_ru": "Мне нужен ключ от квартиры.",
+    "translation_en": "I need the key to the flat.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_05",
+    "type": "article",
+    "sentence": "Sie besucht ___ Freundin in Hamburg.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«besuchen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. die Freundin ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Sie besucht die Freundin in Hamburg.",
+      "ru": "«besuchen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. die Freundin — женский род: die → die (форма совпадает с номинативом). Итог: Sie besucht die Freundin in Hamburg.",
+      "en": "«besuchen» takes a direct object — it answers Wen? / Was? and stands in the accusative. die Freundin is feminine: die → die (same form as the nominative). Result: Sie besucht die Freundin in Hamburg."
+    },
+    "translation_ru": "Она навещает подругу в Гамбурге.",
+    "translation_en": "She visits her friend in Hamburg.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_06",
+    "type": "article",
+    "sentence": "Wir essen ___ Kuchen zusammen.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«essen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Kuchen ist maskulin: der → den. Ergebnis: Wir essen den Kuchen zusammen.",
+      "ru": "«essen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Kuchen — мужской род: der → den. Итог: Wir essen den Kuchen zusammen.",
+      "en": "«essen» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Kuchen is masculine: der → den. Result: Wir essen den Kuchen zusammen."
+    },
+    "translation_ru": "Мы едим пирог вместе.",
+    "translation_en": "We eat the cake together.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_07",
+    "type": "article",
+    "sentence": "Ich suche ___ Bahnhof.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«suchen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Bahnhof ist maskulin: der → den. Ergebnis: Ich suche den Bahnhof.",
+      "ru": "«suchen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Bahnhof — мужской род: der → den. Итог: Ich suche den Bahnhof.",
+      "en": "«suchen» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Bahnhof is masculine: der → den. Result: Ich suche den Bahnhof."
+    },
+    "translation_ru": "Я ищу вокзал.",
+    "translation_en": "I am looking for the train station.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_08",
+    "type": "article",
+    "sentence": "Kennst du ___ Lehrerin aus dem Kurs?",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«kennen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. die Lehrerin ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Kennst du die Lehrerin aus dem Kurs?",
+      "ru": "«kennen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. die Lehrerin — женский род: die → die (форма совпадает с номинативом). Итог: Kennst du die Lehrerin aus dem Kurs?",
+      "en": "«kennen» takes a direct object — it answers Wen? / Was? and stands in the accusative. die Lehrerin is feminine: die → die (same form as the nominative). Result: Kennst du die Lehrerin aus dem Kurs?"
+    },
+    "translation_ru": "Ты знаешь учительницу с курса?",
+    "translation_en": "Do you know the teacher from the course?",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_09",
+    "type": "article",
+    "sentence": "Ich nehme ___ Bus um acht.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«nehmen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Bus ist maskulin: der → den. Ergebnis: Ich nehme den Bus um acht.",
+      "ru": "«nehmen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Bus — мужской род: der → den. Итог: Ich nehme den Bus um acht.",
+      "en": "«nehmen» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Bus is masculine: der → den. Result: Ich nehme den Bus um acht."
+    },
+    "translation_ru": "Я поеду на автобусе в восемь.",
+    "translation_en": "I'm taking the eight o'clock bus.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_10",
+    "type": "article",
+    "sentence": "Das Kind trinkt ___ Wasser aus.",
+    "options": [
+      "das",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«austrinken» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. das Wasser ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Das Kind trinkt das Wasser aus.",
+      "ru": "«austrinken» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. das Wasser — средний род: das → das (форма совпадает с номинативом). Итог: Das Kind trinkt das Wasser aus.",
+      "en": "«austrinken» takes a direct object — it answers Wen? / Was? and stands in the accusative. das Wasser is neuter: das → das (same form as the nominative). Result: Das Kind trinkt das Wasser aus."
+    },
+    "translation_ru": "Ребёнок допивает воду.",
+    "translation_en": "The child drinks up the water.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_11",
+    "type": "article",
+    "sentence": "Wir fragen ___ Nachbarn nach dem Weg.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«fragen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Nachbar ist maskulin: der → den. Nachbar folgt der n-Deklination: außer im Nominativ endet es auf -n (Nachbarn). Ergebnis: Wir fragen den Nachbarn nach dem Weg.",
+      "ru": "«fragen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Nachbar — мужской род: der → den. Nachbar — слабое склонение (n-Deklination): во всех падежах, кроме номинатива, оно получает -n (Nachbarn). Итог: Wir fragen den Nachbarn nach dem Weg.",
+      "en": "«fragen» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Nachbar is masculine: der → den. Nachbar follows the n-declension: outside the nominative it ends in -n (Nachbarn). Result: Wir fragen den Nachbarn nach dem Weg."
+    },
+    "translation_ru": "Мы спрашиваем дорогу у соседа.",
+    "translation_en": "We ask the neighbour for directions.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_12",
+    "type": "article",
+    "sentence": "Ich verstehe ___ Frage nicht.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«verstehen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. die Frage ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Ich verstehe die Frage nicht.",
+      "ru": "«verstehen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. die Frage — женский род: die → die (форма совпадает с номинативом). Итог: Ich verstehe die Frage nicht.",
+      "en": "«verstehen» takes a direct object — it answers Wen? / Was? and stands in the accusative. die Frage is feminine: die → die (same form as the nominative). Result: Ich verstehe die Frage nicht."
+    },
+    "translation_ru": "Я не понимаю вопрос.",
+    "translation_en": "I don't understand the question.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_13",
+    "type": "article",
+    "sentence": "Mach bitte ___ Fenster zu!",
+    "options": [
+      "das",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«zumachen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. das Fenster ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Mach bitte das Fenster zu!",
+      "ru": "«zumachen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. das Fenster — средний род: das → das (форма совпадает с номинативом). Итог: Mach bitte das Fenster zu!",
+      "en": "«zumachen» takes a direct object — it answers Wen? / Was? and stands in the accusative. das Fenster is neuter: das → das (same form as the nominative). Result: Mach bitte das Fenster zu!"
+    },
+    "translation_ru": "Закрой, пожалуйста, окно!",
+    "translation_en": "Please close the window!",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_14",
+    "type": "article",
+    "sentence": "Ich hole ___ Kinder um vier ab.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«abholen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. die Kinder ist Plural: die → die (gleiche Form wie im Nominativ). Ergebnis: Ich hole die Kinder um vier ab.",
+      "ru": "«abholen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. die Kinder — множественное число: die → die (форма совпадает с номинативом). Итог: Ich hole die Kinder um vier ab.",
+      "en": "«abholen» takes a direct object — it answers Wen? / Was? and stands in the accusative. die Kinder is plural: die → die (same form as the nominative). Result: Ich hole die Kinder um vier ab."
+    },
+    "translation_ru": "Я забираю детей в четыре.",
+    "translation_en": "I pick up the children at four.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_15",
+    "type": "article",
+    "sentence": "Ich habe ___ Bruder in Berlin.",
+    "options": [
+      "einen",
+      "ein",
+      "eine",
+      "einem"
+    ],
+    "answer": "einen",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«haben» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. ein Bruder ist maskulin: ein → einen. Ergebnis: Ich habe einen Bruder in Berlin.",
+      "ru": "«haben» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. ein Bruder — мужской род: ein → einen. Итог: Ich habe einen Bruder in Berlin.",
+      "en": "«haben» takes a direct object — it answers Wen? / Was? and stands in the accusative. ein Bruder is masculine: ein → einen. Result: Ich habe einen Bruder in Berlin."
+    },
+    "translation_ru": "У меня есть брат в Берлине.",
+    "translation_en": "I have a brother in Berlin.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_16",
+    "type": "article",
+    "sentence": "Wir suchen ___ Wohnung im Zentrum.",
+    "options": [
+      "eine",
+      "ein",
+      "einen",
+      "einer"
+    ],
+    "answer": "eine",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«suchen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. eine Wohnung ist feminin: eine → eine (gleiche Form wie im Nominativ). Ergebnis: Wir suchen eine Wohnung im Zentrum.",
+      "ru": "«suchen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. eine Wohnung — женский род: eine → eine (форма совпадает с номинативом). Итог: Wir suchen eine Wohnung im Zentrum.",
+      "en": "«suchen» takes a direct object — it answers Wen? / Was? and stands in the accusative. eine Wohnung is feminine: eine → eine (same form as the nominative). Result: Wir suchen eine Wohnung im Zentrum."
+    },
+    "translation_ru": "Мы ищем квартиру в центре.",
+    "translation_en": "We are looking for a flat in the centre.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_17",
+    "type": "article",
+    "sentence": "Er kauft ___ Auto.",
+    "options": [
+      "ein",
+      "einen",
+      "eine",
+      "einem"
+    ],
+    "answer": "ein",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«kaufen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. ein Auto ist neutrum: ein → ein (gleiche Form wie im Nominativ). Ergebnis: Er kauft ein Auto.",
+      "ru": "«kaufen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. ein Auto — средний род: ein → ein (форма совпадает с номинативом). Итог: Er kauft ein Auto.",
+      "en": "«kaufen» takes a direct object — it answers Wen? / Was? and stands in the accusative. ein Auto is neuter: ein → ein (same form as the nominative). Result: Er kauft ein Auto."
+    },
+    "translation_ru": "Он покупает машину.",
+    "translation_en": "He is buying a car.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_18",
+    "type": "article",
+    "sentence": "Ich habe ___ Hunger.",
+    "options": [
+      "keinen",
+      "kein",
+      "keine",
+      "keinem"
+    ],
+    "answer": "keinen",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«haben» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. der Hunger ist maskulin: kein → keinen. Ergebnis: Ich habe keinen Hunger.",
+      "ru": "«haben» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. der Hunger — мужской род: kein → keinen. Итог: Ich habe keinen Hunger.",
+      "en": "«haben» takes a direct object — it answers Wen? / Was? and stands in the accusative. der Hunger is masculine: kein → keinen. Result: Ich habe keinen Hunger."
+    },
+    "translation_ru": "Я не голоден.",
+    "translation_en": "I'm not hungry.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_19",
+    "type": "article",
+    "sentence": "Sie hat heute ___ Zeit.",
+    "options": [
+      "keine",
+      "kein",
+      "keinen",
+      "keiner"
+    ],
+    "answer": "keine",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«haben» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. die Zeit ist feminin: keine → keine (gleiche Form wie im Nominativ). Ergebnis: Sie hat heute keine Zeit.",
+      "ru": "«haben» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. die Zeit — женский род: keine → keine (форма совпадает с номинативом). Итог: Sie hat heute keine Zeit.",
+      "en": "«haben» takes a direct object — it answers Wen? / Was? and stands in the accusative. die Zeit is feminine: keine → keine (same form as the nominative). Result: Sie hat heute keine Zeit."
+    },
+    "translation_ru": "У неё сегодня нет времени.",
+    "translation_en": "She has no time today.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_20",
+    "type": "article",
+    "sentence": "Wir haben ___ Auto.",
+    "options": [
+      "kein",
+      "keinen",
+      "keine",
+      "keinem"
+    ],
+    "answer": "kein",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«haben» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. das Auto ist neutrum: kein → kein (gleiche Form wie im Nominativ). Ergebnis: Wir haben kein Auto.",
+      "ru": "«haben» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. das Auto — средний род: kein → kein (форма совпадает с номинативом). Итог: Wir haben kein Auto.",
+      "en": "«haben» takes a direct object — it answers Wen? / Was? and stands in the accusative. das Auto is neuter: kein → kein (same form as the nominative). Result: Wir haben kein Auto."
+    },
+    "translation_ru": "У нас нет машины.",
+    "translation_en": "We don't have a car.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_21",
+    "type": "article",
+    "sentence": "Ich rufe ___ Bruder an.",
+    "options": [
+      "meinen",
+      "mein",
+      "meine",
+      "meinem"
+    ],
+    "answer": "meinen",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«anrufen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. mein Bruder ist maskulin: mein → meinen. Ergebnis: Ich rufe meinen Bruder an.",
+      "ru": "«anrufen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. mein Bruder — мужской род: mein → meinen. Итог: Ich rufe meinen Bruder an.",
+      "en": "«anrufen» takes a direct object — it answers Wen? / Was? and stands in the accusative. mein Bruder is masculine: mein → meinen. Result: Ich rufe meinen Bruder an."
+    },
+    "translation_ru": "Я звоню своему брату.",
+    "translation_en": "I'm calling my brother.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_22",
+    "type": "article",
+    "sentence": "Er besucht ___ Schwester in Köln.",
+    "options": [
+      "seine",
+      "sein",
+      "seinen",
+      "seinem"
+    ],
+    "answer": "seine",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«besuchen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. seine Schwester ist feminin: seine → seine (gleiche Form wie im Nominativ). Ergebnis: Er besucht seine Schwester in Köln.",
+      "ru": "«besuchen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. seine Schwester — женский род: seine → seine (форма совпадает с номинативом). Итог: Er besucht seine Schwester in Köln.",
+      "en": "«besuchen» takes a direct object — it answers Wen? / Was? and stands in the accusative. seine Schwester is feminine: seine → seine (same form as the nominative). Result: Er besucht seine Schwester in Köln."
+    },
+    "translation_ru": "Он навещает свою сестру в Кёльне.",
+    "translation_en": "He visits his sister in Cologne.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_23",
+    "type": "article",
+    "sentence": "Ich brauche ___ Stift.",
+    "options": [
+      "einen",
+      "ein",
+      "eine",
+      "einem"
+    ],
+    "answer": "einen",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«brauchen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. ein Stift ist maskulin: ein → einen. Ergebnis: Ich brauche einen Stift.",
+      "ru": "«brauchen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. ein Stift — мужской род: ein → einen. Итог: Ich brauche einen Stift.",
+      "en": "«brauchen» takes a direct object — it answers Wen? / Was? and stands in the accusative. ein Stift is masculine: ein → einen. Result: Ich brauche einen Stift."
+    },
+    "translation_ru": "Мне нужна ручка.",
+    "translation_en": "I need a pen.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_24",
+    "type": "article",
+    "sentence": "Sie schreibt ___ E-Mail an die Firma.",
+    "options": [
+      "eine",
+      "ein",
+      "einen",
+      "einer"
+    ],
+    "answer": "eine",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«schreiben» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. eine E-Mail ist feminin: eine → eine (gleiche Form wie im Nominativ). Ergebnis: Sie schreibt eine E-Mail an die Firma.",
+      "ru": "«schreiben» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. eine E-Mail — женский род: eine → eine (форма совпадает с номинативом). Итог: Sie schreibt eine E-Mail an die Firma.",
+      "en": "«schreiben» takes a direct object — it answers Wen? / Was? and stands in the accusative. eine E-Mail is feminine: eine → eine (same form as the nominative). Result: Sie schreibt eine E-Mail an die Firma."
+    },
+    "translation_ru": "Она пишет письмо в фирму.",
+    "translation_en": "She is writing an email to the company.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_25",
+    "type": "article",
+    "sentence": "Wir bestellen ___ Pizza.",
+    "options": [
+      "eine",
+      "ein",
+      "einen",
+      "einer"
+    ],
+    "answer": "eine",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«bestellen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. eine Pizza ist feminin: eine → eine (gleiche Form wie im Nominativ). Ergebnis: Wir bestellen eine Pizza.",
+      "ru": "«bestellen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. eine Pizza — женский род: eine → eine (форма совпадает с номинативом). Итог: Wir bestellen eine Pizza.",
+      "en": "«bestellen» takes a direct object — it answers Wen? / Was? and stands in the accusative. eine Pizza is feminine: eine → eine (same form as the nominative). Result: Wir bestellen eine Pizza."
+    },
+    "translation_ru": "Мы заказываем пиццу.",
+    "translation_en": "We are ordering a pizza.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_26",
+    "type": "article",
+    "sentence": "Ich sehe ___ Fahrrad vor dem Haus.",
+    "options": [
+      "ein",
+      "einen",
+      "eine",
+      "einem"
+    ],
+    "answer": "ein",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«sehen» hat ein direktes Objekt — es antwortet auf Wen? / Was? und steht im Akkusativ. ein Fahrrad ist neutrum: ein → ein (gleiche Form wie im Nominativ). Ergebnis: Ich sehe ein Fahrrad vor dem Haus.",
+      "ru": "«sehen» — переходный глагол: его прямое дополнение отвечает на Wen? / Was? и стоит в аккузативе. ein Fahrrad — средний род: ein → ein (форма совпадает с номинативом). Итог: Ich sehe ein Fahrrad vor dem Haus.",
+      "en": "«sehen» takes a direct object — it answers Wen? / Was? and stands in the accusative. ein Fahrrad is neuter: ein → ein (same form as the nominative). Result: Ich sehe ein Fahrrad vor dem Haus."
+    },
+    "translation_ru": "Я вижу велосипед перед домом.",
+    "translation_en": "I see a bicycle in front of the house.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_art_27",
+    "type": "article",
+    "sentence": "Ich helfe ___ Mann mit den Taschen.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«helfen» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. der Mann ist maskulin: der → dem. Ergebnis: Ich helfe dem Mann mit den Taschen.",
+      "ru": "«helfen» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. der Mann — мужской род: der → dem. Итог: Ich helfe dem Mann mit den Taschen.",
+      "en": "«helfen» is one of the dative verbs: you ask Wem?, not Wen?. der Mann is masculine: der → dem. Result: Ich helfe dem Mann mit den Taschen."
+    },
+    "translation_ru": "Я помогаю мужчине с сумками.",
+    "translation_en": "I help the man with the bags.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_28",
+    "type": "article",
+    "sentence": "Er dankt ___ Lehrerin für die Hilfe.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«danken» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. die Lehrerin ist feminin: die → der. Ergebnis: Er dankt der Lehrerin für die Hilfe.",
+      "ru": "«danken» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. die Lehrerin — женский род: die → der. Итог: Er dankt der Lehrerin für die Hilfe.",
+      "en": "«danken» is one of the dative verbs: you ask Wem?, not Wen?. die Lehrerin is feminine: die → der. Result: Er dankt der Lehrerin für die Hilfe."
+    },
+    "translation_ru": "Он благодарит учительницу за помощь.",
+    "translation_en": "He thanks the teacher for her help.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_29",
+    "type": "article",
+    "sentence": "Das Buch gehört ___ Kind.",
+    "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gehören» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. das Kind ist neutrum: das → dem. Ergebnis: Das Buch gehört dem Kind.",
+      "ru": "«gehören» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. das Kind — средний род: das → dem. Итог: Das Buch gehört dem Kind.",
+      "en": "«gehören» is one of the dative verbs: you ask Wem?, not Wen?. das Kind is neuter: das → dem. Result: Das Buch gehört dem Kind."
+    },
+    "translation_ru": "Книга принадлежит ребёнку.",
+    "translation_en": "The book belongs to the child.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_30",
+    "type": "article",
+    "sentence": "Die Stadt gefällt ___ Touristen sehr.",
+    "options": [
+      "den",
+      "die",
+      "der",
+      "dem"
+    ],
+    "answer": "den",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gefallen» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. die Touristen ist Plural: die → den. Ergebnis: Die Stadt gefällt den Touristen sehr.",
+      "ru": "«gefallen» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. die Touristen — множественное число: die → den. Итог: Die Stadt gefällt den Touristen sehr.",
+      "en": "«gefallen» is one of the dative verbs: you ask Wem?, not Wen?. die Touristen is plural: die → den. Result: Die Stadt gefällt den Touristen sehr."
+    },
+    "translation_ru": "Город очень нравится туристам.",
+    "translation_en": "The tourists like the city a lot.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_31",
+    "type": "article",
+    "sentence": "Ich antworte ___ Chef morgen.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«antworten» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. der Chef ist maskulin: der → dem. Ergebnis: Ich antworte dem Chef morgen.",
+      "ru": "«antworten» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. der Chef — мужской род: der → dem. Итог: Ich antworte dem Chef morgen.",
+      "en": "«antworten» is one of the dative verbs: you ask Wem?, not Wen?. der Chef is masculine: der → dem. Result: Ich antworte dem Chef morgen."
+    },
+    "translation_ru": "Я отвечу шефу завтра.",
+    "translation_en": "I'll answer the boss tomorrow.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_32",
+    "type": "article",
+    "sentence": "Der Film gefällt ___ Kindern.",
+    "options": [
+      "den",
+      "die",
+      "der",
+      "dem"
+    ],
+    "answer": "den",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gefallen» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. die Kinder ist Plural: die → den. Im Dativ Plural bekommt das Nomen zusätzlich ein -n: Kinder → Kindern. Ergebnis: Der Film gefällt den Kindern.",
+      "ru": "«gefallen» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. die Kinder — множественное число: die → den. В дативе множественного числа существительное получает ещё и -n: Kinder → Kindern. Итог: Der Film gefällt den Kindern.",
+      "en": "«gefallen» is one of the dative verbs: you ask Wem?, not Wen?. die Kinder is plural: die → den. In the dative plural the noun also takes an -n: Kinder → Kindern. Result: Der Film gefällt den Kindern."
+    },
+    "translation_ru": "Фильм нравится детям.",
+    "translation_en": "The children like the film.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_33",
+    "type": "article",
+    "sentence": "Die Jacke passt ___ Frau gut.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«passen» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. die Frau ist feminin: die → der. Ergebnis: Die Jacke passt der Frau gut.",
+      "ru": "«passen» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. die Frau — женский род: die → der. Итог: Die Jacke passt der Frau gut.",
+      "en": "«passen» is one of the dative verbs: you ask Wem?, not Wen?. die Frau is feminine: die → der. Result: Die Jacke passt der Frau gut."
+    },
+    "translation_ru": "Куртка хорошо сидит на женщине.",
+    "translation_en": "The jacket fits the woman well.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_34",
+    "type": "article",
+    "sentence": "Das Essen schmeckt ___ Gästen.",
+    "options": [
+      "den",
+      "die",
+      "der",
+      "dem"
+    ],
+    "answer": "den",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«schmecken» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. die Gäste ist Plural: die → den. Im Dativ Plural bekommt das Nomen zusätzlich ein -n: Gäste → Gästen. Ergebnis: Das Essen schmeckt den Gästen.",
+      "ru": "«schmecken» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. die Gäste — множественное число: die → den. В дативе множественного числа существительное получает ещё и -n: Gäste → Gästen. Итог: Das Essen schmeckt den Gästen.",
+      "en": "«schmecken» is one of the dative verbs: you ask Wem?, not Wen?. die Gäste is plural: die → den. In the dative plural the noun also takes an -n: Gäste → Gästen. Result: Das Essen schmeckt den Gästen."
+    },
+    "translation_ru": "Еда нравится гостям.",
+    "translation_en": "The guests like the food.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_35",
+    "type": "article",
+    "sentence": "Ich glaube ___ Nachbarn nicht.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«glauben» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. der Nachbar ist maskulin: der → dem. Nachbar folgt der n-Deklination: außer im Nominativ endet es auf -n (Nachbarn). Ergebnis: Ich glaube dem Nachbarn nicht.",
+      "ru": "«glauben» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. der Nachbar — мужской род: der → dem. Nachbar — слабое склонение (n-Deklination): во всех падежах, кроме номинатива, оно получает -n (Nachbarn). Итог: Ich glaube dem Nachbarn nicht.",
+      "en": "«glauben» is one of the dative verbs: you ask Wem?, not Wen?. der Nachbar is masculine: der → dem. Nachbar follows the n-declension: outside the nominative it ends in -n (Nachbarn). Result: Ich glaube dem Nachbarn nicht."
+    },
+    "translation_ru": "Я не верю соседу.",
+    "translation_en": "I don't believe the neighbour.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_36",
+    "type": "article",
+    "sentence": "Wir helfen ___ Kollegin beim Umzug.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«helfen» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. die Kollegin ist feminin: die → der. Ergebnis: Wir helfen der Kollegin beim Umzug.",
+      "ru": "«helfen» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. die Kollegin — женский род: die → der. Итог: Wir helfen der Kollegin beim Umzug.",
+      "en": "«helfen» is one of the dative verbs: you ask Wem?, not Wen?. die Kollegin is feminine: die → der. Result: Wir helfen der Kollegin beim Umzug."
+    },
+    "translation_ru": "Мы помогаем коллеге с переездом.",
+    "translation_en": "We help our colleague with the move.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_37",
+    "type": "article",
+    "sentence": "Das Fahrrad gehört ___ Bruder.",
+    "options": [
+      "meinem",
+      "mein",
+      "meinen",
+      "meiner"
+    ],
+    "answer": "meinem",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gehören» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. mein Bruder ist maskulin: mein → meinem. Ergebnis: Das Fahrrad gehört meinem Bruder.",
+      "ru": "«gehören» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. mein Bruder — мужской род: mein → meinem. Итог: Das Fahrrad gehört meinem Bruder.",
+      "en": "«gehören» is one of the dative verbs: you ask Wem?, not Wen?. mein Bruder is masculine: mein → meinem. Result: Das Fahrrad gehört meinem Bruder."
+    },
+    "translation_ru": "Велосипед принадлежит моему брату.",
+    "translation_en": "The bicycle belongs to my brother.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_38",
+    "type": "article",
+    "sentence": "Diese Musik gefällt ___ Vater nicht.",
+    "options": [
+      "meinem",
+      "mein",
+      "meinen",
+      "meiner"
+    ],
+    "answer": "meinem",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gefallen» gehört zu den Verben mit Dativ: man fragt Wem?, nicht Wen?. mein Vater ist maskulin: mein → meinem. Ergebnis: Diese Musik gefällt meinem Vater nicht.",
+      "ru": "«gefallen» — один из глаголов, которые управляют дативом: вопрос Wem? (кому?), а не Wen?. mein Vater — мужской род: mein → meinem. Итог: Diese Musik gefällt meinem Vater nicht.",
+      "en": "«gefallen» is one of the dative verbs: you ask Wem?, not Wen?. mein Vater is masculine: mein → meinem. Result: Diese Musik gefällt meinem Vater nicht."
+    },
+    "translation_ru": "Эта музыка не нравится моему отцу.",
+    "translation_en": "My father doesn't like this music.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_art_39",
+    "type": "article",
+    "sentence": "Ich schenke ___ Mutter Blumen.",
+    "options": [
+      "meiner",
+      "meine",
+      "meinen",
+      "meinem"
+    ],
+    "answer": "meiner",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«schenken» hat zwei Objekte: die Sache im Akkusativ, den Empfänger im Dativ. Hier ist meine Mutter der Empfänger (Wem?). meine Mutter ist feminin: meine → meiner. Ergebnis: Ich schenke meiner Mutter Blumen.",
+      "ru": "У «schenken» два дополнения: предмет в аккузативе и адресат в дативе. Здесь meine Mutter — адресат (Wem? кому?). meine Mutter — женский род: meine → meiner. Итог: Ich schenke meiner Mutter Blumen.",
+      "en": "«schenken» has two objects: the thing in the accusative, the recipient in the dative. Here meine Mutter is the recipient (Wem?). meine Mutter is feminine: meine → meiner. Result: Ich schenke meiner Mutter Blumen."
+    },
+    "translation_ru": "Я дарю маме цветы.",
+    "translation_en": "I give my mother flowers.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_art_40",
+    "type": "article",
+    "sentence": "Er zeigt ___ Touristen den Weg.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«zeigen» hat zwei Objekte: die Sache im Akkusativ, den Empfänger im Dativ. Hier ist der Tourist der Empfänger (Wem?). der Tourist ist maskulin: der → dem. Tourist folgt der n-Deklination: außer im Nominativ endet es auf -n (Touristen). Ergebnis: Er zeigt dem Touristen den Weg.",
+      "ru": "У «zeigen» два дополнения: предмет в аккузативе и адресат в дативе. Здесь der Tourist — адресат (Wem? кому?). der Tourist — мужской род: der → dem. Tourist — слабое склонение (n-Deklination): во всех падежах, кроме номинатива, оно получает -n (Touristen). Итог: Er zeigt dem Touristen den Weg.",
+      "en": "«zeigen» has two objects: the thing in the accusative, the recipient in the dative. Here der Tourist is the recipient (Wem?). der Tourist is masculine: der → dem. Tourist follows the n-declension: outside the nominative it ends in -n (Touristen). Result: Er zeigt dem Touristen den Weg."
+    },
+    "translation_ru": "Он показывает туристу дорогу.",
+    "translation_en": "He shows the tourist the way.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_art_41",
+    "type": "article",
+    "sentence": "Wir schicken ___ Kunden eine Rechnung.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«schicken» hat zwei Objekte: die Sache im Akkusativ, den Empfänger im Dativ. Hier ist der Kunde der Empfänger (Wem?). der Kunde ist maskulin: der → dem. Kunde folgt der n-Deklination: außer im Nominativ endet es auf -n (Kunden). Ergebnis: Wir schicken dem Kunden eine Rechnung.",
+      "ru": "У «schicken» два дополнения: предмет в аккузативе и адресат в дативе. Здесь der Kunde — адресат (Wem? кому?). der Kunde — мужской род: der → dem. Kunde — слабое склонение (n-Deklination): во всех падежах, кроме номинатива, оно получает -n (Kunden). Итог: Wir schicken dem Kunden eine Rechnung.",
+      "en": "«schicken» has two objects: the thing in the accusative, the recipient in the dative. Here der Kunde is the recipient (Wem?). der Kunde is masculine: der → dem. Kunde follows the n-declension: outside the nominative it ends in -n (Kunden). Result: Wir schicken dem Kunden eine Rechnung."
+    },
+    "translation_ru": "Мы отправляем клиенту счёт.",
+    "translation_en": "We send the customer an invoice.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_art_42",
+    "type": "article",
+    "sentence": "Sie erklärt ___ Kindern die Regel.",
+    "options": [
+      "den",
+      "die",
+      "der",
+      "dem"
+    ],
+    "answer": "den",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«erklären» hat zwei Objekte: die Sache im Akkusativ, den Empfänger im Dativ. Hier ist die Kinder der Empfänger (Wem?). die Kinder ist Plural: die → den. Im Dativ Plural bekommt das Nomen zusätzlich ein -n: Kinder → Kindern. Ergebnis: Sie erklärt den Kindern die Regel.",
+      "ru": "У «erklären» два дополнения: предмет в аккузативе и адресат в дативе. Здесь die Kinder — адресат (Wem? кому?). die Kinder — множественное число: die → den. В дативе множественного числа существительное получает ещё и -n: Kinder → Kindern. Итог: Sie erklärt den Kindern die Regel.",
+      "en": "«erklären» has two objects: the thing in the accusative, the recipient in the dative. Here die Kinder is the recipient (Wem?). die Kinder is plural: die → den. In the dative plural the noun also takes an -n: Kinder → Kindern. Result: Sie erklärt den Kindern die Regel."
+    },
+    "translation_ru": "Она объясняет детям правило.",
+    "translation_en": "She explains the rule to the children.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_art_43",
+    "type": "article",
+    "sentence": "Ich gebe ___ Kollegin den Schlüssel.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«geben» hat zwei Objekte: die Sache im Akkusativ, den Empfänger im Dativ. Hier ist die Kollegin der Empfänger (Wem?). die Kollegin ist feminin: die → der. Ergebnis: Ich gebe der Kollegin den Schlüssel.",
+      "ru": "У «geben» два дополнения: предмет в аккузативе и адресат в дативе. Здесь die Kollegin — адресат (Wem? кому?). die Kollegin — женский род: die → der. Итог: Ich gebe der Kollegin den Schlüssel.",
+      "en": "«geben» has two objects: the thing in the accusative, the recipient in the dative. Here die Kollegin is the recipient (Wem?). die Kollegin is feminine: die → der. Result: Ich gebe der Kollegin den Schlüssel."
+    },
+    "translation_ru": "Я даю коллеге ключ.",
+    "translation_en": "I give the colleague the key.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_art_44",
+    "type": "article",
+    "sentence": "Kannst du ___ Gast das Zimmer zeigen?",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«zeigen» hat zwei Objekte: die Sache im Akkusativ, den Empfänger im Dativ. Hier ist der Gast der Empfänger (Wem?). der Gast ist maskulin: der → dem. Ergebnis: Kannst du dem Gast das Zimmer zeigen?",
+      "ru": "У «zeigen» два дополнения: предмет в аккузативе и адресат в дативе. Здесь der Gast — адресат (Wem? кому?). der Gast — мужской род: der → dem. Итог: Kannst du dem Gast das Zimmer zeigen?",
+      "en": "«zeigen» has two objects: the thing in the accusative, the recipient in the dative. Here der Gast is the recipient (Wem?). der Gast is masculine: der → dem. Result: Kannst du dem Gast das Zimmer zeigen?"
+    },
+    "translation_ru": "Ты можешь показать гостю комнату?",
+    "translation_en": "Can you show the guest the room?",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_art_45",
+    "type": "article",
+    "sentence": "Das Geschenk ist für ___ Mutter.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«für» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. die Mutter ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Das Geschenk ist für die Mutter.",
+      "ru": "«für» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. die Mutter — женский род: die → die (форма совпадает с номинативом). Итог: Das Geschenk ist für die Mutter.",
+      "en": "«für» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. die Mutter is feminine: die → die (same form as the nominative). Result: Das Geschenk ist für die Mutter."
+    },
+    "translation_ru": "Подарок для мамы.",
+    "translation_en": "The present is for the mother.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_46",
+    "type": "article",
+    "sentence": "Ich gehe nie ohne ___ Regenschirm aus dem Haus.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«ohne» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. der Regenschirm ist maskulin: der → den. Ergebnis: Ich gehe nie ohne den Regenschirm aus dem Haus.",
+      "ru": "«ohne» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. der Regenschirm — мужской род: der → den. Итог: Ich gehe nie ohne den Regenschirm aus dem Haus.",
+      "en": "«ohne» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. der Regenschirm is masculine: der → den. Result: Ich gehe nie ohne den Regenschirm aus dem Haus."
+    },
+    "translation_ru": "Я никогда не выхожу из дома без зонта.",
+    "translation_en": "I never leave the house without the umbrella.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_47",
+    "type": "article",
+    "sentence": "Wir fahren durch ___ Tunnel.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«durch» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. der Tunnel ist maskulin: der → den. Ergebnis: Wir fahren durch den Tunnel.",
+      "ru": "«durch» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. der Tunnel — мужской род: der → den. Итог: Wir fahren durch den Tunnel.",
+      "en": "«durch» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. der Tunnel is masculine: der → den. Result: Wir fahren durch den Tunnel."
+    },
+    "translation_ru": "Мы едем через туннель.",
+    "translation_en": "We drive through the tunnel.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_48",
+    "type": "article",
+    "sentence": "Sie kommt gerade um ___ Ecke.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«um» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. die Ecke ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Sie kommt gerade um die Ecke.",
+      "ru": "«um» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. die Ecke — женский род: die → die (форма совпадает с номинативом). Итог: Sie kommt gerade um die Ecke.",
+      "en": "«um» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. die Ecke is feminine: die → die (same form as the nominative). Result: Sie kommt gerade um die Ecke."
+    },
+    "translation_ru": "Она как раз выходит из-за угла.",
+    "translation_en": "She's just coming around the corner.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_49",
+    "type": "article",
+    "sentence": "Ich habe nichts gegen ___ Plan.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«gegen» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. der Plan ist maskulin: der → den. Ergebnis: Ich habe nichts gegen den Plan.",
+      "ru": "«gegen» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. der Plan — мужской род: der → den. Итог: Ich habe nichts gegen den Plan.",
+      "en": "«gegen» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. der Plan is masculine: der → den. Result: Ich habe nichts gegen den Plan."
+    },
+    "translation_ru": "Я ничего не имею против плана.",
+    "translation_en": "I have nothing against the plan.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_50",
+    "type": "article",
+    "sentence": "Das ist ein Geschenk für ___ Kind.",
+    "options": [
+      "das",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«für» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. das Kind ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Das ist ein Geschenk für das Kind.",
+      "ru": "«für» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. das Kind — средний род: das → das (форма совпадает с номинативом). Итог: Das ist ein Geschenk für das Kind.",
+      "en": "«für» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. das Kind is neuter: das → das (same form as the nominative). Result: Das ist ein Geschenk für das Kind."
+    },
+    "translation_ru": "Это подарок для ребёнка.",
+    "translation_en": "This is a present for the child.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_51",
+    "type": "article",
+    "sentence": "Ohne ___ Ticket darfst du nicht fahren.",
+    "options": [
+      "das",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«ohne» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. das Ticket ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Ohne das Ticket darfst du nicht fahren.",
+      "ru": "«ohne» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. das Ticket — средний род: das → das (форма совпадает с номинативом). Итог: Ohne das Ticket darfst du nicht fahren.",
+      "en": "«ohne» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. das Ticket is neuter: das → das (same form as the nominative). Result: Ohne das Ticket darfst du nicht fahren."
+    },
+    "translation_ru": "Без билета тебе нельзя ехать.",
+    "translation_en": "Without the ticket you may not travel.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_52",
+    "type": "article",
+    "sentence": "Wir laufen durch ___ Park.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«durch» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. der Park ist maskulin: der → den. Ergebnis: Wir laufen durch den Park.",
+      "ru": "«durch» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. der Park — мужской род: der → den. Итог: Wir laufen durch den Park.",
+      "en": "«durch» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. der Park is masculine: der → den. Result: Wir laufen durch den Park."
+    },
+    "translation_ru": "Мы идём через парк.",
+    "translation_en": "We walk through the park.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_53",
+    "type": "article",
+    "sentence": "Sie arbeitet für ___ Firma in München.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«für» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. die Firma ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Sie arbeitet für die Firma in München.",
+      "ru": "«für» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. die Firma — женский род: die → die (форма совпадает с номинативом). Итог: Sie arbeitet für die Firma in München.",
+      "en": "«für» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. die Firma is feminine: die → die (same form as the nominative). Result: Sie arbeitet für die Firma in München."
+    },
+    "translation_ru": "Она работает на фирму в Мюнхене.",
+    "translation_en": "She works for the company in Munich.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_54",
+    "type": "article",
+    "sentence": "Ich mache das für ___ Freunde.",
+    "options": [
+      "meine",
+      "mein",
+      "meinen",
+      "meinem"
+    ],
+    "answer": "meine",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«für» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. meine Freunde ist Plural: meine → meine (gleiche Form wie im Nominativ). Ergebnis: Ich mache das für meine Freunde.",
+      "ru": "«für» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. meine Freunde — множественное число: meine → meine (форма совпадает с номинативом). Итог: Ich mache das für meine Freunde.",
+      "en": "«für» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. meine Freunde is plural: meine → meine (same form as the nominative). Result: Ich mache das für meine Freunde."
+    },
+    "translation_ru": "Я делаю это для своих друзей.",
+    "translation_en": "I'm doing this for my friends.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_55",
+    "type": "article",
+    "sentence": "Er geht ohne ___ Freundin ins Kino.",
+    "options": [
+      "seine",
+      "sein",
+      "seinen",
+      "seiner"
+    ],
+    "answer": "seine",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«ohne» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. seine Freundin ist feminin: seine → seine (gleiche Form wie im Nominativ). Ergebnis: Er geht ohne seine Freundin ins Kino.",
+      "ru": "«ohne» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. seine Freundin — женский род: seine → seine (форма совпадает с номинативом). Итог: Er geht ohne seine Freundin ins Kino.",
+      "en": "«ohne» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. seine Freundin is feminine: seine → seine (same form as the nominative). Result: Er geht ohne seine Freundin ins Kino."
+    },
+    "translation_ru": "Он идёт в кино без своей девушки.",
+    "translation_en": "He goes to the cinema without his girlfriend.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_56",
+    "type": "article",
+    "sentence": "Das Auto fährt gegen ___ Baum.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "«gegen» gehört zu durch, für, gegen, ohne, um — nach diesen Präpositionen steht immer der Akkusativ. der Baum ist maskulin: der → den. Ergebnis: Das Auto fährt gegen den Baum.",
+      "ru": "«gegen» — из группы durch, für, gegen, ohne, um: после этих предлогов всегда аккузатив. der Baum — мужской род: der → den. Итог: Das Auto fährt gegen den Baum.",
+      "en": "«gegen» belongs to durch, für, gegen, ohne, um — these prepositions always take the accusative. der Baum is masculine: der → den. Result: Das Auto fährt gegen den Baum."
+    },
+    "translation_ru": "Машина врезается в дерево.",
+    "translation_en": "The car crashes into the tree.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_art_57",
+    "type": "article",
+    "sentence": "Ich fahre mit ___ Bus zur Arbeit.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«mit» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. der Bus ist maskulin: der → dem. Ergebnis: Ich fahre mit dem Bus zur Arbeit.",
+      "ru": "«mit» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. der Bus — мужской род: der → dem. Итог: Ich fahre mit dem Bus zur Arbeit.",
+      "en": "«mit» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. der Bus is masculine: der → dem. Result: Ich fahre mit dem Bus zur Arbeit."
+    },
+    "translation_ru": "Я езжу на работу на автобусе.",
+    "translation_en": "I go to work by bus.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_58",
+    "type": "article",
+    "sentence": "Wir wohnen noch bei ___ Eltern.",
+    "options": [
+      "den",
+      "die",
+      "der",
+      "dem"
+    ],
+    "answer": "den",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«bei» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. die Eltern ist Plural: die → den. Ergebnis: Wir wohnen noch bei den Eltern.",
+      "ru": "«bei» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. die Eltern — множественное число: die → den. Итог: Wir wohnen noch bei den Eltern.",
+      "en": "«bei» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. die Eltern is plural: die → den. Result: Wir wohnen noch bei den Eltern."
+    },
+    "translation_ru": "Мы всё ещё живём у родителей.",
+    "translation_en": "We still live with our parents.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_59",
+    "type": "article",
+    "sentence": "Nach ___ Arbeit gehe ich schwimmen.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«nach» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. die Arbeit ist feminin: die → der. Ergebnis: Nach der Arbeit gehe ich schwimmen.",
+      "ru": "«nach» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. die Arbeit — женский род: die → der. Итог: Nach der Arbeit gehe ich schwimmen.",
+      "en": "«nach» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. die Arbeit is feminine: die → der. Result: Nach der Arbeit gehe ich schwimmen."
+    },
+    "translation_ru": "После работы я иду плавать.",
+    "translation_en": "After work I go swimming.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_60",
+    "type": "article",
+    "sentence": "Sie kommt aus ___ Türkei.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«aus» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. die Türkei ist feminin: die → der. Ergebnis: Sie kommt aus der Türkei.",
+      "ru": "«aus» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. die Türkei — женский род: die → der. Итог: Sie kommt aus der Türkei.",
+      "en": "«aus» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. die Türkei is feminine: die → der. Result: Sie kommt aus der Türkei."
+    },
+    "translation_ru": "Она из Турции.",
+    "translation_en": "She comes from Turkey.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_61",
+    "type": "article",
+    "sentence": "Ich gehe morgen zu ___ Arzt.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«zu» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. der Arzt ist maskulin: der → dem. Ergebnis: Ich gehe morgen zu dem Arzt.",
+      "ru": "«zu» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. der Arzt — мужской род: der → dem. Итог: Ich gehe morgen zu dem Arzt.",
+      "en": "«zu» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. der Arzt is masculine: der → dem. Result: Ich gehe morgen zu dem Arzt."
+    },
+    "translation_ru": "Завтра я иду к врачу.",
+    "translation_en": "I'm going to the doctor tomorrow.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_62",
+    "type": "article",
+    "sentence": "Seit ___ Woche bin ich krank.",
+    "options": [
+      "einer",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "einer",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«seit» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. eine Woche ist feminin: eine → einer. Ergebnis: Seit einer Woche bin ich krank.",
+      "ru": "«seit» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. eine Woche — женский род: eine → einer. Итог: Seit einer Woche bin ich krank.",
+      "en": "«seit» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. eine Woche is feminine: eine → einer. Result: Seit einer Woche bin ich krank."
+    },
+    "translation_ru": "Я болею уже неделю.",
+    "translation_en": "I've been ill for a week.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_63",
+    "type": "article",
+    "sentence": "Das ist ein Geschenk von ___ Kollegin.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«von» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. die Kollegin ist feminin: die → der. Ergebnis: Das ist ein Geschenk von der Kollegin.",
+      "ru": "«von» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. die Kollegin — женский род: die → der. Итог: Das ist ein Geschenk von der Kollegin.",
+      "en": "«von» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. die Kollegin is feminine: die → der. Result: Das ist ein Geschenk von der Kollegin."
+    },
+    "translation_ru": "Это подарок от коллеги.",
+    "translation_en": "This is a present from my colleague.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_64",
+    "type": "article",
+    "sentence": "Wir sprechen mit ___ Lehrer.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«mit» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. der Lehrer ist maskulin: der → dem. Ergebnis: Wir sprechen mit dem Lehrer.",
+      "ru": "«mit» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. der Lehrer — мужской род: der → dem. Итог: Wir sprechen mit dem Lehrer.",
+      "en": "«mit» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. der Lehrer is masculine: der → dem. Result: Wir sprechen mit dem Lehrer."
+    },
+    "translation_ru": "Мы разговариваем с учителем.",
+    "translation_en": "We are talking to the teacher.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_65",
+    "type": "article",
+    "sentence": "Nach ___ Essen trinke ich Kaffee.",
+    "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«nach» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. das Essen ist neutrum: das → dem. Ergebnis: Nach dem Essen trinke ich Kaffee.",
+      "ru": "«nach» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. das Essen — средний род: das → dem. Итог: Nach dem Essen trinke ich Kaffee.",
+      "en": "«nach» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. das Essen is neuter: das → dem. Result: Nach dem Essen trinke ich Kaffee."
+    },
+    "translation_ru": "После еды я пью кофе.",
+    "translation_en": "After the meal I drink coffee.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_66",
+    "type": "article",
+    "sentence": "Ich fahre mit ___ Freunden nach Berlin.",
+    "options": [
+      "meinen",
+      "meine",
+      "meinem",
+      "meiner"
+    ],
+    "answer": "meinen",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«mit» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. meine Freunde ist Plural: meine → meinen. Im Dativ Plural bekommt das Nomen zusätzlich ein -n: Freunde → Freunden. Ergebnis: Ich fahre mit meinen Freunden nach Berlin.",
+      "ru": "«mit» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. meine Freunde — множественное число: meine → meinen. В дативе множественного числа существительное получает ещё и -n: Freunde → Freunden. Итог: Ich fahre mit meinen Freunden nach Berlin.",
+      "en": "«mit» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. meine Freunde is plural: meine → meinen. In the dative plural the noun also takes an -n: Freunde → Freunden. Result: Ich fahre mit meinen Freunden nach Berlin."
+    },
+    "translation_ru": "Я еду в Берлин с друзьями.",
+    "translation_en": "I'm going to Berlin with my friends.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_67",
+    "type": "article",
+    "sentence": "Sie wohnt bei ___ Schwester.",
+    "options": [
+      "ihrer",
+      "ihre",
+      "ihren",
+      "ihrem"
+    ],
+    "answer": "ihrer",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«bei» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. ihre Schwester ist feminin: ihre → ihrer. Ergebnis: Sie wohnt bei ihrer Schwester.",
+      "ru": "«bei» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. ihre Schwester — женский род: ihre → ihrer. Итог: Sie wohnt bei ihrer Schwester.",
+      "en": "«bei» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. ihre Schwester is feminine: ihre → ihrer. Result: Sie wohnt bei ihrer Schwester."
+    },
+    "translation_ru": "Она живёт у своей сестры.",
+    "translation_en": "She lives at her sister's.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_68",
+    "type": "article",
+    "sentence": "Aus ___ Fenster sieht man den Park.",
+    "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "«aus» gehört zu aus, bei, mit, nach, seit, von, zu — nach diesen Präpositionen steht immer der Dativ. das Fenster ist neutrum: das → dem. Ergebnis: Aus dem Fenster sieht man den Park.",
+      "ru": "«aus» — из группы aus, bei, mit, nach, seit, von, zu: после этих предлогов всегда датив. das Fenster — средний род: das → dem. Итог: Aus dem Fenster sieht man den Park.",
+      "en": "«aus» belongs to aus, bei, mit, nach, seit, von, zu — these prepositions always take the dative. das Fenster is neuter: das → dem. Result: Aus dem Fenster sieht man den Park."
+    },
+    "translation_ru": "Из окна виден парк.",
+    "translation_en": "You can see the park from the window.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_art_69",
+    "type": "article",
+    "sentence": "Ich stelle die Flasche auf ___ Tisch.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«auf» kann beide Kasus nehmen. Das Verb «stellen» beschreibt eine Bewegung an einen neuen Ort — Frage Wohin?, also Akkusativ. der Tisch ist maskulin: der → den. Ergebnis: Ich stelle die Flasche auf den Tisch.",
+      "ru": "«auf» может управлять обоими падежами. Глагол «stellen» описывает перемещение в новое место — вопрос Wohin? (куда?), значит аккузатив. der Tisch — мужской род: der → den. Итог: Ich stelle die Flasche auf den Tisch.",
+      "en": "«auf» can govern either case. The verb «stellen» describes movement to a new place — the question is Wohin?, so accusative. der Tisch is masculine: der → den. Result: Ich stelle die Flasche auf den Tisch."
+    },
+    "translation_ru": "Я ставлю бутылку на стол.",
+    "translation_en": "I put the bottle on the table.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_art_70",
+    "type": "article",
+    "sentence": "Die Flasche steht auf ___ Tisch.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«auf» kann beide Kasus nehmen. Das Verb «stehen» beschreibt einen Ort, keinen Ortswechsel — Frage Wo?, also Dativ. der Tisch ist maskulin: der → dem. Ergebnis: Die Flasche steht auf dem Tisch.",
+      "ru": "«auf» может управлять обоими падежами. Глагол «stehen» описывает положение, а не смену места — вопрос Wo? (где?), значит датив. der Tisch — мужской род: der → dem. Итог: Die Flasche steht auf dem Tisch.",
+      "en": "«auf» can govern either case. The verb «stehen» describes a location, not a change of place — the question is Wo?, so dative. der Tisch is masculine: der → dem. Result: Die Flasche steht auf dem Tisch."
+    },
+    "translation_ru": "Бутылка стоит на столе.",
+    "translation_en": "The bottle is standing on the table.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_art_71",
+    "type": "article",
+    "sentence": "Wir gehen heute in ___ Kino.",
+    "options": [
+      "das",
+      "dem",
+      "den",
+      "der"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«in» kann beide Kasus nehmen. Das Verb «gehen» beschreibt eine Bewegung an einen neuen Ort — Frage Wohin?, also Akkusativ. das Kino ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Wir gehen heute in das Kino.",
+      "ru": "«in» может управлять обоими падежами. Глагол «gehen» описывает перемещение в новое место — вопрос Wohin? (куда?), значит аккузатив. das Kino — средний род: das → das (форма совпадает с номинативом). Итог: Wir gehen heute in das Kino.",
+      "en": "«in» can govern either case. The verb «gehen» describes movement to a new place — the question is Wohin?, so accusative. das Kino is neuter: das → das (same form as the nominative). Result: Wir gehen heute in das Kino."
+    },
+    "translation_ru": "Сегодня мы идём в кино.",
+    "translation_en": "We're going to the cinema today.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_art_72",
+    "type": "article",
+    "sentence": "Wir sind gerade in ___ Kino.",
+    "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«in» kann beide Kasus nehmen. Das Verb «sein» beschreibt einen Ort, keinen Ortswechsel — Frage Wo?, also Dativ. das Kino ist neutrum: das → dem. Ergebnis: Wir sind gerade in dem Kino.",
+      "ru": "«in» может управлять обоими падежами. Глагол «sein» описывает положение, а не смену места — вопрос Wo? (где?), значит датив. das Kino — средний род: das → dem. Итог: Wir sind gerade in dem Kino.",
+      "en": "«in» can govern either case. The verb «sein» describes a location, not a change of place — the question is Wo?, so dative. das Kino is neuter: das → dem. Result: Wir sind gerade in dem Kino."
+    },
+    "translation_ru": "Мы сейчас в кино.",
+    "translation_en": "We're at the cinema right now.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_art_73",
+    "type": "article",
+    "sentence": "Häng das Bild bitte an ___ Wand!",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«an» kann beide Kasus nehmen. Das Verb «hängen» beschreibt eine Bewegung an einen neuen Ort — Frage Wohin?, also Akkusativ. die Wand ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Häng das Bild bitte an die Wand!",
+      "ru": "«an» может управлять обоими падежами. Глагол «hängen» описывает перемещение в новое место — вопрос Wohin? (куда?), значит аккузатив. die Wand — женский род: die → die (форма совпадает с номинативом). Итог: Häng das Bild bitte an die Wand!",
+      "en": "«an» can govern either case. The verb «hängen» describes movement to a new place — the question is Wohin?, so accusative. die Wand is feminine: die → die (same form as the nominative). Result: Häng das Bild bitte an die Wand!"
+    },
+    "translation_ru": "Повесь картину на стену, пожалуйста!",
+    "translation_en": "Please hang the picture on the wall!",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_art_74",
+    "type": "article",
+    "sentence": "Das Bild hängt an ___ Wand.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«an» kann beide Kasus nehmen. Das Verb «hängen» beschreibt einen Ort, keinen Ortswechsel — Frage Wo?, also Dativ. die Wand ist feminin: die → der. Ergebnis: Das Bild hängt an der Wand.",
+      "ru": "«an» может управлять обоими падежами. Глагол «hängen» описывает положение, а не смену места — вопрос Wo? (где?), значит датив. die Wand — женский род: die → der. Итог: Das Bild hängt an der Wand.",
+      "en": "«an» can govern either case. The verb «hängen» describes a location, not a change of place — the question is Wo?, so dative. die Wand is feminine: die → der. Result: Das Bild hängt an der Wand."
+    },
+    "translation_ru": "Картина висит на стене.",
+    "translation_en": "The picture is hanging on the wall.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_art_75",
+    "type": "article",
+    "sentence": "Ich schiebe die Kiste unter ___ Bett.",
+    "options": [
+      "das",
+      "dem",
+      "den",
+      "der"
+    ],
+    "answer": "das",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«unter» kann beide Kasus nehmen. Das Verb «schieben» beschreibt eine Bewegung an einen neuen Ort — Frage Wohin?, also Akkusativ. das Bett ist neutrum: das → das (gleiche Form wie im Nominativ). Ergebnis: Ich schiebe die Kiste unter das Bett.",
+      "ru": "«unter» может управлять обоими падежами. Глагол «schieben» описывает перемещение в новое место — вопрос Wohin? (куда?), значит аккузатив. das Bett — средний род: das → das (форма совпадает с номинативом). Итог: Ich schiebe die Kiste unter das Bett.",
+      "en": "«unter» can govern either case. The verb «schieben» describes movement to a new place — the question is Wohin?, so accusative. das Bett is neuter: das → das (same form as the nominative). Result: Ich schiebe die Kiste unter das Bett."
+    },
+    "translation_ru": "Я задвигаю ящик под кровать.",
+    "translation_en": "I push the box under the bed.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_art_76",
+    "type": "article",
+    "sentence": "Die Kiste steht unter ___ Bett.",
+    "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«unter» kann beide Kasus nehmen. Das Verb «stehen» beschreibt einen Ort, keinen Ortswechsel — Frage Wo?, also Dativ. das Bett ist neutrum: das → dem. Ergebnis: Die Kiste steht unter dem Bett.",
+      "ru": "«unter» может управлять обоими падежами. Глагол «stehen» описывает положение, а не смену места — вопрос Wo? (где?), значит датив. das Bett — средний род: das → dem. Итог: Die Kiste steht unter dem Bett.",
+      "en": "«unter» can govern either case. The verb «stehen» describes a location, not a change of place — the question is Wo?, so dative. das Bett is neuter: das → dem. Result: Die Kiste steht unter dem Bett."
+    },
+    "translation_ru": "Ящик стоит под кроватью.",
+    "translation_en": "The box is under the bed.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_art_77",
+    "type": "article",
+    "sentence": "Ich lege das Buch neben ___ Computer.",
+    "options": [
+      "den",
+      "der",
+      "dem",
+      "das"
+    ],
+    "answer": "den",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«neben» kann beide Kasus nehmen. Das Verb «legen» beschreibt eine Bewegung an einen neuen Ort — Frage Wohin?, also Akkusativ. der Computer ist maskulin: der → den. Ergebnis: Ich lege das Buch neben den Computer.",
+      "ru": "«neben» может управлять обоими падежами. Глагол «legen» описывает перемещение в новое место — вопрос Wohin? (куда?), значит аккузатив. der Computer — мужской род: der → den. Итог: Ich lege das Buch neben den Computer.",
+      "en": "«neben» can govern either case. The verb «legen» describes movement to a new place — the question is Wohin?, so accusative. der Computer is masculine: der → den. Result: Ich lege das Buch neben den Computer."
+    },
+    "translation_ru": "Я кладу книгу рядом с компьютером.",
+    "translation_en": "I put the book next to the computer.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_art_78",
+    "type": "article",
+    "sentence": "Das Buch liegt neben ___ Computer.",
+    "options": [
+      "dem",
+      "den",
+      "der",
+      "das"
+    ],
+    "answer": "dem",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«neben» kann beide Kasus nehmen. Das Verb «liegen» beschreibt einen Ort, keinen Ortswechsel — Frage Wo?, also Dativ. der Computer ist maskulin: der → dem. Ergebnis: Das Buch liegt neben dem Computer.",
+      "ru": "«neben» может управлять обоими падежами. Глагол «liegen» описывает положение, а не смену места — вопрос Wo? (где?), значит датив. der Computer — мужской род: der → dem. Итог: Das Buch liegt neben dem Computer.",
+      "en": "«neben» can govern either case. The verb «liegen» describes a location, not a change of place — the question is Wo?, so dative. der Computer is masculine: der → dem. Result: Das Buch liegt neben dem Computer."
+    },
+    "translation_ru": "Книга лежит рядом с компьютером.",
+    "translation_en": "The book is lying next to the computer.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_art_79",
+    "type": "article",
+    "sentence": "Er stellt das Auto vor ___ Garage.",
+    "options": [
+      "die",
+      "der",
+      "den",
+      "dem"
+    ],
+    "answer": "die",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«vor» kann beide Kasus nehmen. Das Verb «stellen» beschreibt eine Bewegung an einen neuen Ort — Frage Wohin?, also Akkusativ. die Garage ist feminin: die → die (gleiche Form wie im Nominativ). Ergebnis: Er stellt das Auto vor die Garage.",
+      "ru": "«vor» может управлять обоими падежами. Глагол «stellen» описывает перемещение в новое место — вопрос Wohin? (куда?), значит аккузатив. die Garage — женский род: die → die (форма совпадает с номинативом). Итог: Er stellt das Auto vor die Garage.",
+      "en": "«vor» can govern either case. The verb «stellen» describes movement to a new place — the question is Wohin?, so accusative. die Garage is feminine: die → die (same form as the nominative). Result: Er stellt das Auto vor die Garage."
+    },
+    "translation_ru": "Он ставит машину перед гаражом.",
+    "translation_en": "He parks the car in front of the garage.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_art_80",
+    "type": "article",
+    "sentence": "Das Auto steht vor ___ Garage.",
+    "options": [
+      "der",
+      "die",
+      "den",
+      "dem"
+    ],
+    "answer": "der",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«vor» kann beide Kasus nehmen. Das Verb «stehen» beschreibt einen Ort, keinen Ortswechsel — Frage Wo?, also Dativ. die Garage ist feminin: die → der. Ergebnis: Das Auto steht vor der Garage.",
+      "ru": "«vor» может управлять обоими падежами. Глагол «stehen» описывает положение, а не смену места — вопрос Wo? (где?), значит датив. die Garage — женский род: die → der. Итог: Das Auto steht vor der Garage.",
+      "en": "«vor» can govern either case. The verb «stehen» describes a location, not a change of place — the question is Wo?, so dative. die Garage is feminine: die → der. Result: Das Auto steht vor der Garage."
+    },
+    "translation_ru": "Машина стоит перед гаражом.",
+    "translation_en": "The car is parked in front of the garage.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_kas_01",
+    "type": "case",
+    "sentence": "Ich sehe den Hund.",
+    "focus": "den Hund",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«sehen» hat ein direktes Objekt, und «den Hund» antwortet auf Wen? / Was? — deshalb Akkusativ.",
+      "ru": "«sehen» — переходный глагол, и «den Hund» отвечает на вопрос Wen? / Was? — поэтому аккузатив.",
+      "en": "«sehen» takes a direct object, and «den Hund» answers Wen? / Was? — hence the accusative."
+    },
+    "translation_ru": "Я вижу собаку.",
+    "translation_en": "I see the dog.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_02",
+    "type": "case",
+    "sentence": "Ich helfe dem Hund.",
+    "focus": "dem Hund",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«helfen» ist ein Verb mit Dativ: nach «dem Hund» fragt man Wem?, nicht Wen? — deshalb Dativ.",
+      "ru": "«helfen» — глагол с дативом: к «dem Hund» ставится вопрос Wem? (кому?), а не Wen? — поэтому датив.",
+      "en": "«helfen» is a dative verb: you ask Wem? after «dem Hund», not Wen? — hence the dative."
+    },
+    "translation_ru": "Я помогаю собаке.",
+    "translation_en": "I help the dog.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_03",
+    "type": "case",
+    "sentence": "Das Geschenk ist für die Kinder.",
+    "focus": "für die Kinder",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "Die Präposition «für» steht immer mit dem Akkusativ — «für die Kinder» kann gar nichts anderes sein.",
+      "ru": "Предлог «für» всегда требует аккузатива — «für die Kinder» просто не может стоять в другом падеже.",
+      "en": "The preposition «für» always takes the accusative — «für die Kinder» cannot be anything else."
+    },
+    "translation_ru": "Подарок для детей.",
+    "translation_en": "The present is for the children.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_kas_04",
+    "type": "case",
+    "sentence": "Wir fahren mit dem Zug nach Hamburg.",
+    "focus": "mit dem Zug",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "Die Präposition «mit» steht immer mit dem Dativ — «mit dem Zug» kann gar nichts anderes sein.",
+      "ru": "Предлог «mit» всегда требует датива — «mit dem Zug» просто не может стоять в другом падеже.",
+      "en": "The preposition «mit» always takes the dative — «mit dem Zug» cannot be anything else."
+    },
+    "translation_ru": "Мы едем в Гамбург на поезде.",
+    "translation_en": "We are going to Hamburg by train.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_kas_05",
+    "type": "case",
+    "sentence": "Er legt das Handy auf den Tisch.",
+    "focus": "auf den Tisch",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "Das Verb «legen» beschreibt eine Bewegung: Wohin? Bei einer Wechselpräposition heißt das Akkusativ — «auf den Tisch».",
+      "ru": "Глагол «legen» описывает перемещение: вопрос Wohin? (куда?). У Wechselpräposition это даёт аккузатив — «auf den Tisch».",
+      "en": "The verb «legen» describes movement: Wohin? With a two-way preposition that means accusative — «auf den Tisch»."
+    },
+    "translation_ru": "Он кладёт телефон на стол.",
+    "translation_en": "He puts the phone on the table.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_kas_06",
+    "type": "case",
+    "sentence": "Das Handy liegt auf dem Tisch.",
+    "focus": "auf dem Tisch",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "Das Verb «liegen» beschreibt einen Ort: Wo? Bei einer Wechselpräposition heißt das Dativ — «auf dem Tisch».",
+      "ru": "Глагол «liegen» описывает положение: вопрос Wo? (где?). У Wechselpräposition это даёт датив — «auf dem Tisch».",
+      "en": "The verb «liegen» describes a location: Wo? With a two-way preposition that means dative — «auf dem Tisch»."
+    },
+    "translation_ru": "Телефон лежит на столе.",
+    "translation_en": "The phone is lying on the table.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_kas_07",
+    "type": "case",
+    "sentence": "Ich schreibe meiner Schwester eine E-Mail.",
+    "focus": "meiner Schwester",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "Bei «schreiben» ist «meiner Schwester» der Empfänger (Wem?), nicht die übergebene Sache — deshalb Dativ.",
+      "ru": "При «schreiben» «meiner Schwester» — адресат (Wem? кому?), а не то, что передают, — поэтому датив.",
+      "en": "With «schreiben», «meiner Schwester» is the recipient (Wem?), not the thing handed over — hence the dative."
+    },
+    "translation_ru": "Я пишу сестре письмо.",
+    "translation_en": "I'm writing my sister an email.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_kas_08",
+    "type": "case",
+    "sentence": "Ich schreibe meiner Schwester eine E-Mail.",
+    "focus": "eine E-Mail",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«schreiben» hat ein direktes Objekt, und «eine E-Mail» antwortet auf Wen? / Was? — deshalb Akkusativ.",
+      "ru": "«schreiben» — переходный глагол, и «eine E-Mail» отвечает на вопрос Wen? / Was? — поэтому аккузатив.",
+      "en": "«schreiben» takes a direct object, and «eine E-Mail» answers Wen? / Was? — hence the accusative."
+    },
+    "translation_ru": "Я пишу сестре письмо.",
+    "translation_en": "I'm writing my sister an email.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_09",
+    "type": "case",
+    "sentence": "Der Film gefällt meinen Eltern.",
+    "focus": "meinen Eltern",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gefallen» ist ein Verb mit Dativ: nach «meinen Eltern» fragt man Wem?, nicht Wen? — deshalb Dativ.",
+      "ru": "«gefallen» — глагол с дативом: к «meinen Eltern» ставится вопрос Wem? (кому?), а не Wen? — поэтому датив.",
+      "en": "«gefallen» is a dative verb: you ask Wem? after «meinen Eltern», not Wen? — hence the dative."
+    },
+    "translation_ru": "Фильм нравится моим родителям.",
+    "translation_en": "My parents like the film.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_10",
+    "type": "case",
+    "sentence": "Wir suchen eine neue Wohnung.",
+    "focus": "eine neue Wohnung",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«suchen» hat ein direktes Objekt, und «eine neue Wohnung» antwortet auf Wen? / Was? — deshalb Akkusativ.",
+      "ru": "«suchen» — переходный глагол, и «eine neue Wohnung» отвечает на вопрос Wen? / Was? — поэтому аккузатив.",
+      "en": "«suchen» takes a direct object, and «eine neue Wohnung» answers Wen? / Was? — hence the accusative."
+    },
+    "translation_ru": "Мы ищем новую квартиру.",
+    "translation_en": "We are looking for a new flat.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_11",
+    "type": "case",
+    "sentence": "Nach der Arbeit gehe ich einkaufen.",
+    "focus": "Nach der Arbeit",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "Die Präposition «nach» steht immer mit dem Dativ — «Nach der Arbeit» kann gar nichts anderes sein.",
+      "ru": "Предлог «nach» всегда требует датива — «Nach der Arbeit» просто не может стоять в другом падеже.",
+      "en": "The preposition «nach» always takes the dative — «Nach der Arbeit» cannot be anything else."
+    },
+    "translation_ru": "После работы я иду за покупками.",
+    "translation_en": "After work I go shopping.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_kas_12",
+    "type": "case",
+    "sentence": "Sie geht ohne ihren Mann ins Konzert.",
+    "focus": "ohne ihren Mann",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "Die Präposition «ohne» steht immer mit dem Akkusativ — «ohne ihren Mann» kann gar nichts anderes sein.",
+      "ru": "Предлог «ohne» всегда требует аккузатива — «ohne ihren Mann» просто не может стоять в другом падеже.",
+      "en": "The preposition «ohne» always takes the accusative — «ohne ihren Mann» cannot be anything else."
+    },
+    "translation_ru": "Она идёт на концерт без мужа.",
+    "translation_en": "She goes to the concert without her husband.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_kas_13",
+    "type": "case",
+    "sentence": "Das Buch gehört dem Lehrer.",
+    "focus": "dem Lehrer",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gehören» ist ein Verb mit Dativ: nach «dem Lehrer» fragt man Wem?, nicht Wen? — deshalb Dativ.",
+      "ru": "«gehören» — глагол с дативом: к «dem Lehrer» ставится вопрос Wem? (кому?), а не Wen? — поэтому датив.",
+      "en": "«gehören» is a dative verb: you ask Wem? after «dem Lehrer», not Wen? — hence the dative."
+    },
+    "translation_ru": "Книга принадлежит учителю.",
+    "translation_en": "The book belongs to the teacher.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_14",
+    "type": "case",
+    "sentence": "Ich stelle die Blumen in die Vase.",
+    "focus": "in die Vase",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "Das Verb «stellen» beschreibt eine Bewegung: Wohin? Bei einer Wechselpräposition heißt das Akkusativ — «in die Vase».",
+      "ru": "Глагол «stellen» описывает перемещение: вопрос Wohin? (куда?). У Wechselpräposition это даёт аккузатив — «in die Vase».",
+      "en": "The verb «stellen» describes movement: Wohin? With a two-way preposition that means accusative — «in die Vase»."
+    },
+    "translation_ru": "Я ставлю цветы в вазу.",
+    "translation_en": "I put the flowers in the vase.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_kas_15",
+    "type": "case",
+    "sentence": "Die Blumen stehen in der Vase.",
+    "focus": "in der Vase",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "Das Verb «stehen» beschreibt einen Ort: Wo? Bei einer Wechselpräposition heißt das Dativ — «in der Vase».",
+      "ru": "Глагол «stehen» описывает положение: вопрос Wo? (где?). У Wechselpräposition это даёт датив — «in der Vase».",
+      "en": "The verb «stehen» describes a location: Wo? With a two-way preposition that means dative — «in der Vase»."
+    },
+    "translation_ru": "Цветы стоят в вазе.",
+    "translation_en": "The flowers are in the vase.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_kas_16",
+    "type": "case",
+    "sentence": "Wir laufen durch den Wald.",
+    "focus": "durch den Wald",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_prep",
+    "explanation": {
+      "de": "Die Präposition «durch» steht immer mit dem Akkusativ — «durch den Wald» kann gar nichts anderes sein.",
+      "ru": "Предлог «durch» всегда требует аккузатива — «durch den Wald» просто не может стоять в другом падеже.",
+      "en": "The preposition «durch» always takes the accusative — «durch den Wald» cannot be anything else."
+    },
+    "translation_ru": "Мы идём через лес.",
+    "translation_en": "We walk through the forest.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_prep"
+    ]
+  },
+  {
+    "id": "ka_kas_17",
+    "type": "case",
+    "sentence": "Er wohnt bei seinen Großeltern.",
+    "focus": "bei seinen Großeltern",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_prep",
+    "explanation": {
+      "de": "Die Präposition «bei» steht immer mit dem Dativ — «bei seinen Großeltern» kann gar nichts anderes sein.",
+      "ru": "Предлог «bei» всегда требует датива — «bei seinen Großeltern» просто не может стоять в другом падеже.",
+      "en": "The preposition «bei» always takes the dative — «bei seinen Großeltern» cannot be anything else."
+    },
+    "translation_ru": "Он живёт у бабушки с дедушкой.",
+    "translation_en": "He lives with his grandparents.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_prep"
+    ]
+  },
+  {
+    "id": "ka_kas_18",
+    "type": "case",
+    "sentence": "Ich rufe meinen Chef an.",
+    "focus": "meinen Chef",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«anrufen» hat ein direktes Objekt, und «meinen Chef» antwortet auf Wen? / Was? — deshalb Akkusativ.",
+      "ru": "«anrufen» — переходный глагол, и «meinen Chef» отвечает на вопрос Wen? / Was? — поэтому аккузатив.",
+      "en": "«anrufen» takes a direct object, and «meinen Chef» answers Wen? / Was? — hence the accusative."
+    },
+    "translation_ru": "Я звоню своему шефу.",
+    "translation_en": "I'm calling my boss.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_19",
+    "type": "case",
+    "sentence": "Das Kleid passt der Frau gut.",
+    "focus": "der Frau",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«passen» ist ein Verb mit Dativ: nach «der Frau» fragt man Wem?, nicht Wen? — deshalb Dativ.",
+      "ru": "«passen» — глагол с дативом: к «der Frau» ставится вопрос Wem? (кому?), а не Wen? — поэтому датив.",
+      "en": "«passen» is a dative verb: you ask Wem? after «der Frau», not Wen? — hence the dative."
+    },
+    "translation_ru": "Платье хорошо сидит на женщине.",
+    "translation_en": "The dress fits the woman well.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_20",
+    "type": "case",
+    "sentence": "Kannst du den Kindern helfen?",
+    "focus": "den Kindern",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Dativ",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«helfen» ist ein Verb mit Dativ: nach «den Kindern» fragt man Wem?, nicht Wen? — deshalb Dativ.",
+      "ru": "«helfen» — глагол с дативом: к «den Kindern» ставится вопрос Wem? (кому?), а не Wen? — поэтому датив.",
+      "en": "«helfen» is a dative verb: you ask Wem? after «den Kindern», not Wen? — hence the dative."
+    },
+    "translation_ru": "Ты можешь помочь детям?",
+    "translation_en": "Can you help the children?",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_21",
+    "type": "case",
+    "sentence": "Wir bestellen einen Kaffee und ein Wasser.",
+    "focus": "einen Kaffee",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«bestellen» hat ein direktes Objekt, und «einen Kaffee» antwortet auf Wen? / Was? — deshalb Akkusativ.",
+      "ru": "«bestellen» — переходный глагол, и «einen Kaffee» отвечает на вопрос Wen? / Was? — поэтому аккузатив.",
+      "en": "«bestellen» takes a direct object, and «einen Kaffee» answers Wen? / Was? — hence the accusative."
+    },
+    "translation_ru": "Мы заказываем кофе и воду.",
+    "translation_en": "We order a coffee and a water.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_kas_22",
+    "type": "case",
+    "sentence": "Sie hängt das Foto über das Sofa.",
+    "focus": "über das Sofa",
+    "options": [
+      "Akkusativ",
+      "Dativ"
+    ],
+    "answer": "Akkusativ",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "Das Verb «hängen» beschreibt eine Bewegung: Wohin? Bei einer Wechselpräposition heißt das Akkusativ — «über das Sofa».",
+      "ru": "Глагол «hängen» описывает перемещение: вопрос Wohin? (куда?). У Wechselpräposition это даёт аккузатив — «über das Sofa».",
+      "en": "The verb «hängen» describes movement: Wohin? With a two-way preposition that means accusative — «über das Sofa»."
+    },
+    "translation_ru": "Она вешает фото над диваном.",
+    "translation_en": "She hangs the photo above the sofa.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_frg_01",
+    "type": "question",
+    "sentence": "Ich sehe den Mann.",
+    "focus": "den Mann",
+    "options": [
+      "Wen?",
+      "Wem?",
+      "Was?"
+    ],
+    "answer": "Wen?",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«den Mann» ist das direkte Objekt von «sehen» und steht im Akkusativ. Es geht um eine Person, deshalb Wen? und nicht Was?",
+      "ru": "«den Mann» — прямое дополнение глагола «sehen» в аккузативе. Речь о человеке, поэтому вопрос Wen? (кого?), а не Was?",
+      "en": "«den Mann» is the direct object of «sehen» and stands in the accusative. It refers to a person, so Wen? rather than Was?"
+    },
+    "translation_ru": "Я вижу мужчину.",
+    "translation_en": "I see the man.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_02",
+    "type": "question",
+    "sentence": "Ich helfe dem Mann.",
+    "focus": "dem Mann",
+    "options": [
+      "Wem?",
+      "Wen?",
+      "Was?"
+    ],
+    "answer": "Wem?",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«helfen» verlangt den Dativ, und «dem Mann» ist der Empfänger der Handlung. Dem Dativ entspricht die Frage Wem?",
+      "ru": "«helfen» требует датива, а «dem Mann» — адресат действия. Дативу соответствует вопрос Wem? (кому?)",
+      "en": "«helfen» calls for the dative, and «dem Mann» is the recipient of the action. The dative answers Wem?"
+    },
+    "translation_ru": "Я помогаю мужчине.",
+    "translation_en": "I help the man.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_03",
+    "type": "question",
+    "sentence": "Er kauft ein Auto.",
+    "focus": "ein Auto",
+    "options": [
+      "Was?",
+      "Wen?",
+      "Wem?"
+    ],
+    "answer": "Was?",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«ein Auto» ist das direkte Objekt von «kaufen» und steht im Akkusativ. Es geht um eine Sache, deshalb Was? und nicht Wen?",
+      "ru": "«ein Auto» — прямое дополнение глагола «kaufen» в аккузативе. Речь о предмете, поэтому вопрос Was? (что?), а не Wen?",
+      "en": "«ein Auto» is the direct object of «kaufen» and stands in the accusative. It refers to a thing, so Was? rather than Wen?"
+    },
+    "translation_ru": "Он покупает машину.",
+    "translation_en": "He is buying a car.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_04",
+    "type": "question",
+    "sentence": "Wir gehen ins Kino.",
+    "focus": "ins Kino",
+    "options": [
+      "Wohin?",
+      "Wo?",
+      "Wem?"
+    ],
+    "answer": "Wohin?",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«gehen» beschreibt eine Bewegung an einen neuen Ort, deshalb antwortet «ins Kino» auf Wohin? — und steht im Akkusativ.",
+      "ru": "«gehen» описывает перемещение в новое место, поэтому «ins Kino» отвечает на вопрос Wohin? (куда?) и стоит в аккузативе.",
+      "en": "«gehen» describes movement to a new place, so «ins Kino» answers Wohin? — and stands in the accusative."
+    },
+    "translation_ru": "Мы идём в кино.",
+    "translation_en": "We're going to the cinema.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_frg_05",
+    "type": "question",
+    "sentence": "Wir sind im Kino.",
+    "focus": "im Kino",
+    "options": [
+      "Wo?",
+      "Wohin?",
+      "Wen?"
+    ],
+    "answer": "Wo?",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«sein» beschreibt keinen Ortswechsel, deshalb antwortet «im Kino» auf Wo? — und steht im Dativ.",
+      "ru": "«sein» не описывает смену места, поэтому «im Kino» отвечает на вопрос Wo? (где?) и стоит в дативе.",
+      "en": "«sein» describes no change of place, so «im Kino» answers Wo? — and stands in the dative."
+    },
+    "translation_ru": "Мы в кино.",
+    "translation_en": "We're at the cinema.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_frg_06",
+    "type": "question",
+    "sentence": "Sie schenkt ihrem Vater eine Uhr.",
+    "focus": "ihrem Vater",
+    "options": [
+      "Wem?",
+      "Wen?",
+      "Was?"
+    ],
+    "answer": "Wem?",
+    "case": "dativ",
+    "rule": "dat_indirect",
+    "explanation": {
+      "de": "«schenken» verlangt den Dativ, und «ihrem Vater» ist der Empfänger der Handlung. Dem Dativ entspricht die Frage Wem?",
+      "ru": "«schenken» требует датива, а «ihrem Vater» — адресат действия. Дативу соответствует вопрос Wem? (кому?)",
+      "en": "«schenken» calls for the dative, and «ihrem Vater» is the recipient of the action. The dative answers Wem?"
+    },
+    "translation_ru": "Она дарит отцу часы.",
+    "translation_en": "She gives her father a watch.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_indirect"
+    ]
+  },
+  {
+    "id": "ka_frg_07",
+    "type": "question",
+    "sentence": "Sie schenkt ihrem Vater eine Uhr.",
+    "focus": "eine Uhr",
+    "options": [
+      "Was?",
+      "Wen?",
+      "Wem?"
+    ],
+    "answer": "Was?",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«eine Uhr» ist das direkte Objekt von «schenken» und steht im Akkusativ. Es geht um eine Sache, deshalb Was? und nicht Wen?",
+      "ru": "«eine Uhr» — прямое дополнение глагола «schenken» в аккузативе. Речь о предмете, поэтому вопрос Was? (что?), а не Wen?",
+      "en": "«eine Uhr» is the direct object of «schenken» and stands in the accusative. It refers to a thing, so Was? rather than Wen?"
+    },
+    "translation_ru": "Она дарит отцу часы.",
+    "translation_en": "She gives her father a watch.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_08",
+    "type": "question",
+    "sentence": "Ich lege das Buch auf den Tisch.",
+    "focus": "auf den Tisch",
+    "options": [
+      "Wohin?",
+      "Wo?",
+      "Was?"
+    ],
+    "answer": "Wohin?",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«legen» beschreibt eine Bewegung an einen neuen Ort, deshalb antwortet «auf den Tisch» auf Wohin? — und steht im Akkusativ.",
+      "ru": "«legen» описывает перемещение в новое место, поэтому «auf den Tisch» отвечает на вопрос Wohin? (куда?) и стоит в аккузативе.",
+      "en": "«legen» describes movement to a new place, so «auf den Tisch» answers Wohin? — and stands in the accusative."
+    },
+    "translation_ru": "Я кладу книгу на стол.",
+    "translation_en": "I put the book on the table.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_frg_09",
+    "type": "question",
+    "sentence": "Das Buch liegt auf dem Tisch.",
+    "focus": "auf dem Tisch",
+    "options": [
+      "Wo?",
+      "Wohin?",
+      "Was?"
+    ],
+    "answer": "Wo?",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«liegen» beschreibt keinen Ortswechsel, deshalb antwortet «auf dem Tisch» auf Wo? — und steht im Dativ.",
+      "ru": "«liegen» не описывает смену места, поэтому «auf dem Tisch» отвечает на вопрос Wo? (где?) и стоит в дативе.",
+      "en": "«liegen» describes no change of place, so «auf dem Tisch» answers Wo? — and stands in the dative."
+    },
+    "translation_ru": "Книга лежит на столе.",
+    "translation_en": "The book is lying on the table.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_frg_10",
+    "type": "question",
+    "sentence": "Wir besuchen unsere Großeltern.",
+    "focus": "unsere Großeltern",
+    "options": [
+      "Wen?",
+      "Wem?",
+      "Was?"
+    ],
+    "answer": "Wen?",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«unsere Großeltern» ist das direkte Objekt von «besuchen» und steht im Akkusativ. Es geht um eine Person, deshalb Wen? und nicht Was?",
+      "ru": "«unsere Großeltern» — прямое дополнение глагола «besuchen» в аккузативе. Речь о человеке, поэтому вопрос Wen? (кого?), а не Was?",
+      "en": "«unsere Großeltern» is the direct object of «besuchen» and stands in the accusative. It refers to a person, so Wen? rather than Was?"
+    },
+    "translation_ru": "Мы навещаем бабушку с дедушкой.",
+    "translation_en": "We are visiting our grandparents.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_11",
+    "type": "question",
+    "sentence": "Das Auto gehört meiner Schwester.",
+    "focus": "meiner Schwester",
+    "options": [
+      "Wem?",
+      "Wen?",
+      "Was?"
+    ],
+    "answer": "Wem?",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«gehören» verlangt den Dativ, und «meiner Schwester» ist der Empfänger der Handlung. Dem Dativ entspricht die Frage Wem?",
+      "ru": "«gehören» требует датива, а «meiner Schwester» — адресат действия. Дативу соответствует вопрос Wem? (кому?)",
+      "en": "«gehören» calls for the dative, and «meiner Schwester» is the recipient of the action. The dative answers Wem?"
+    },
+    "translation_ru": "Машина принадлежит моей сестре.",
+    "translation_en": "The car belongs to my sister.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_12",
+    "type": "question",
+    "sentence": "Er trinkt einen Kaffee.",
+    "focus": "einen Kaffee",
+    "options": [
+      "Was?",
+      "Wen?",
+      "Wem?"
+    ],
+    "answer": "Was?",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«einen Kaffee» ist das direkte Objekt von «trinken» und steht im Akkusativ. Es geht um eine Sache, deshalb Was? und nicht Wen?",
+      "ru": "«einen Kaffee» — прямое дополнение глагола «trinken» в аккузативе. Речь о предмете, поэтому вопрос Was? (что?), а не Wen?",
+      "en": "«einen Kaffee» is the direct object of «trinken» and stands in the accusative. It refers to a thing, so Was? rather than Wen?"
+    },
+    "translation_ru": "Он пьёт кофе.",
+    "translation_en": "He is drinking a coffee.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_13",
+    "type": "question",
+    "sentence": "Die Katze springt auf das Sofa.",
+    "focus": "auf das Sofa",
+    "options": [
+      "Wohin?",
+      "Wo?",
+      "Wem?"
+    ],
+    "answer": "Wohin?",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«springen» beschreibt eine Bewegung an einen neuen Ort, deshalb antwortet «auf das Sofa» auf Wohin? — und steht im Akkusativ.",
+      "ru": "«springen» описывает перемещение в новое место, поэтому «auf das Sofa» отвечает на вопрос Wohin? (куда?) и стоит в аккузативе.",
+      "en": "«springen» describes movement to a new place, so «auf das Sofa» answers Wohin? — and stands in the accusative."
+    },
+    "translation_ru": "Кошка запрыгивает на диван.",
+    "translation_en": "The cat jumps onto the sofa.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_frg_14",
+    "type": "question",
+    "sentence": "Die Katze schläft auf dem Sofa.",
+    "focus": "auf dem Sofa",
+    "options": [
+      "Wo?",
+      "Wohin?",
+      "Wem?"
+    ],
+    "answer": "Wo?",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«schlafen» beschreibt keinen Ortswechsel, deshalb antwortet «auf dem Sofa» auf Wo? — und steht im Dativ.",
+      "ru": "«schlafen» не описывает смену места, поэтому «auf dem Sofa» отвечает на вопрос Wo? (где?) и стоит в дативе.",
+      "en": "«schlafen» describes no change of place, so «auf dem Sofa» answers Wo? — and stands in the dative."
+    },
+    "translation_ru": "Кошка спит на диване.",
+    "translation_en": "The cat is sleeping on the sofa.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  },
+  {
+    "id": "ka_frg_15",
+    "type": "question",
+    "sentence": "Ich frage den Lehrer.",
+    "focus": "den Lehrer",
+    "options": [
+      "Wen?",
+      "Wem?",
+      "Was?"
+    ],
+    "answer": "Wen?",
+    "case": "akkusativ",
+    "rule": "akk_verb",
+    "explanation": {
+      "de": "«den Lehrer» ist das direkte Objekt von «fragen» und steht im Akkusativ. Es geht um eine Person, deshalb Wen? und nicht Was?",
+      "ru": "«den Lehrer» — прямое дополнение глагола «fragen» в аккузативе. Речь о человеке, поэтому вопрос Wen? (кого?), а не Was?",
+      "en": "«den Lehrer» is the direct object of «fragen» and stands in the accusative. It refers to a person, so Wen? rather than Was?"
+    },
+    "translation_ru": "Я спрашиваю учителя.",
+    "translation_en": "I ask the teacher.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "akk_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_16",
+    "type": "question",
+    "sentence": "Das Essen schmeckt den Gästen.",
+    "focus": "den Gästen",
+    "options": [
+      "Wem?",
+      "Wen?",
+      "Wo?"
+    ],
+    "answer": "Wem?",
+    "case": "dativ",
+    "rule": "dat_verb",
+    "explanation": {
+      "de": "«schmecken» verlangt den Dativ, und «den Gästen» ist der Empfänger der Handlung. Dem Dativ entspricht die Frage Wem?",
+      "ru": "«schmecken» требует датива, а «den Gästen» — адресат действия. Дативу соответствует вопрос Wem? (кому?)",
+      "en": "«schmecken» calls for the dative, and «den Gästen» is the recipient of the action. The dative answers Wem?"
+    },
+    "translation_ru": "Еда нравится гостям.",
+    "translation_en": "The guests like the food.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "dat_verb"
+    ]
+  },
+  {
+    "id": "ka_frg_17",
+    "type": "question",
+    "sentence": "Sie stellt die Tasche unter den Stuhl.",
+    "focus": "unter den Stuhl",
+    "options": [
+      "Wohin?",
+      "Wo?",
+      "Was?"
+    ],
+    "answer": "Wohin?",
+    "case": "akkusativ",
+    "rule": "wechsel_akk",
+    "explanation": {
+      "de": "«stellen» beschreibt eine Bewegung an einen neuen Ort, deshalb antwortet «unter den Stuhl» auf Wohin? — und steht im Akkusativ.",
+      "ru": "«stellen» описывает перемещение в новое место, поэтому «unter den Stuhl» отвечает на вопрос Wohin? (куда?) и стоит в аккузативе.",
+      "en": "«stellen» describes movement to a new place, so «unter den Stuhl» answers Wohin? — and stands in the accusative."
+    },
+    "translation_ru": "Она ставит сумку под стул.",
+    "translation_en": "She puts the bag under the chair.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_akk"
+    ]
+  },
+  {
+    "id": "ka_frg_18",
+    "type": "question",
+    "sentence": "Die Tasche steht unter dem Stuhl.",
+    "focus": "unter dem Stuhl",
+    "options": [
+      "Wo?",
+      "Wohin?",
+      "Was?"
+    ],
+    "answer": "Wo?",
+    "case": "dativ",
+    "rule": "wechsel_dat",
+    "explanation": {
+      "de": "«stehen» beschreibt keinen Ortswechsel, deshalb antwortet «unter dem Stuhl» auf Wo? — und steht im Dativ.",
+      "ru": "«stehen» не описывает смену места, поэтому «unter dem Stuhl» отвечает на вопрос Wo? (где?) и стоит в дативе.",
+      "en": "«stehen» describes no change of place, so «unter dem Stuhl» answers Wo? — and stands in the dative."
+    },
+    "translation_ru": "Сумка стоит под стулом.",
+    "translation_en": "The bag is under the chair.",
+    "level": "A2",
+    "tags": [
+      "kasus",
+      "wechsel_dat"
+    ]
+  }
+]

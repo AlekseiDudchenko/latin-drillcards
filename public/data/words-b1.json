@@ -1,0 +1,2531 @@
+[
+  {
+    "id": "w_b1_001",
+    "de": "die Erfahrung",
+    "article": "die",
+    "ru": "опыт",
+    "en": "experience",
+    "exampleDe": "Ich habe in diesem Beruf schon viel Erfahrung gesammelt.",
+    "exampleRu": "Я уже набрался большого опыта в этой профессии.",
+    "exampleEn": "I have already gained a lot of experience in this job.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_002",
+    "de": "die Ausbildung",
+    "article": "die",
+    "ru": "обучение, профобразование",
+    "en": "training, vocational education",
+    "exampleDe": "Nach der Schule möchte sie eine Ausbildung zur Krankenschwester machen.",
+    "exampleRu": "После школы она хочет пройти обучение на медсестру.",
+    "exampleEn": "After school she wants to do training to become a nurse.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_005",
+    "de": "die Gelegenheit",
+    "article": "die",
+    "ru": "возможность, удобный случай",
+    "en": "opportunity",
+    "exampleDe": "Ich hatte bisher keine Gelegenheit, mit ihm zu sprechen.",
+    "exampleRu": "У меня пока не было возможности с ним поговорить.",
+    "exampleEn": "I haven’t had an opportunity to talk to him yet.",
+    "level": "B1",
+    "tags": [
+      "substantiv"
+    ]
+  },
+  {
+    "id": "w_b1_006",
+    "de": "die Möglichkeit",
+    "article": "die",
+    "ru": "возможность",
+    "en": "possibility",
+    "exampleDe": "Es gibt die Möglichkeit, von zu Hause aus zu arbeiten.",
+    "exampleRu": "Есть возможность работать из дома.",
+    "exampleEn": "There is the possibility to work from home.",
+    "level": "B1",
+    "tags": [
+      "substantiv"
+    ]
+  },
+  {
+    "id": "w_b1_007",
+    "de": "die Entwicklung",
+    "article": "die",
+    "ru": "развитие",
+    "en": "development",
+    "exampleDe": "Die wirtschaftliche Entwicklung in der Region ist positiv.",
+    "exampleRu": "Экономическое развитие в регионе положительное.",
+    "exampleEn": "The economic development in the region is positive.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b1_008",
+    "de": "die Verbesserung",
+    "article": "die",
+    "ru": "улучшение",
+    "en": "improvement",
+    "exampleDe": "Wir sehen eine deutliche Verbesserung der Ergebnisse.",
+    "exampleRu": "Мы видим явное улучшение результатов.",
+    "exampleEn": "We can see a clear improvement in the results.",
+    "level": "B1",
+    "tags": [
+      "substantiv"
+    ]
+  },
+  {
+    "id": "w_b1_009",
+    "de": "die Verschlechterung",
+    "article": "die",
+    "ru": "ухудшение",
+    "en": "deterioration",
+    "exampleDe": "Eine weitere Verschlechterung der Lage muss verhindert werden.",
+    "exampleRu": "Нужно предотвратить дальнейшее ухудшение ситуации.",
+    "exampleEn": "A further deterioration of the situation must be prevented.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b1_010",
+    "de": "die Beziehung",
+    "article": "die",
+    "ru": "отношение, связь",
+    "en": "relationship",
+    "exampleDe": "Zu meinen Kollegen habe ich ein gutes Verhältnis, aber die Beziehung zu meinem Chef ist schwierig.",
+    "exampleRu": "С коллегами у меня хорошие отношения, но с начальником — сложные.",
+    "exampleEn": "I have a good relationship with my colleagues, but the relationship with my boss is difficult.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_011",
+    "de": "der Einfluss",
+    "article": "der",
+    "ru": "влияние",
+    "en": "influence",
+    "exampleDe": "Das Wetter hat großen Einfluss auf meine Stimmung.",
+    "exampleRu": "Погода сильно влияет на моё настроение.",
+    "exampleEn": "The weather has a big influence on my mood.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "abstrakt"
+    ]
+  },
+  {
+    "id": "w_b1_014",
+    "de": "das Verhalten",
+    "article": "das",
+    "ru": "поведение",
+    "en": "behaviour",
+    "exampleDe": "Sein Verhalten im Meeting war nicht professionell.",
+    "exampleRu": "Его поведение на встрече было непрофессиональным.",
+    "exampleEn": "His behaviour in the meeting was not professional.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_015",
+    "de": "das Ergebnis",
+    "article": "das",
+    "ru": "результат",
+    "en": "result",
+    "exampleDe": "Das Ergebnis der Prüfung wird nächste Woche bekanntgegeben.",
+    "exampleRu": "Результат экзамена объявят на следующей неделе.",
+    "exampleEn": "The result of the exam will be announced next week.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_016",
+    "de": "die Bewerbung",
+    "article": "die",
+    "ru": "заявление, заявка (на работу)",
+    "en": "application",
+    "exampleDe": "Ihre Bewerbung für die Stelle war sehr überzeugend.",
+    "exampleRu": "Её заявление на должность было очень убедительным.",
+    "exampleEn": "Her application for the position was very convincing.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_017",
+    "de": "die Unterlagen",
+    "article": "die (Pl.)",
+    "ru": "документы",
+    "en": "documents",
+    "exampleDe": "Bitte schicken Sie uns Ihre vollständigen Unterlagen bis Freitag.",
+    "exampleRu": "Пожалуйста, пришлите нам ваши полные документы до пятницы.",
+    "exampleEn": "Please send us your complete documents by Friday.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "amt"
+    ]
+  },
+  {
+    "id": "w_b1_018",
+    "de": "die Stellenanzeige",
+    "article": "die",
+    "ru": "объявление о вакансии",
+    "en": "job advertisement",
+    "exampleDe": "Ich habe die Stellenanzeige im Internet gefunden.",
+    "exampleRu": "Я нашёл объявление о вакансии в интернете.",
+    "exampleEn": "I found the job advertisement on the internet.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_019",
+    "de": "die Teilzeit",
+    "article": "die",
+    "ru": "неполный рабочий день",
+    "en": "part-time",
+    "exampleDe": "Viele Eltern arbeiten in Teilzeit.",
+    "exampleRu": "Многие родители работают неполный день.",
+    "exampleEn": "Many parents work part-time.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_020",
+    "de": "die Vollzeit",
+    "article": "die",
+    "ru": "полный рабочий день",
+    "en": "full-time",
+    "exampleDe": "Er sucht eine Stelle in Vollzeit.",
+    "exampleRu": "Он ищет работу на полный день.",
+    "exampleEn": "He is looking for a full-time job.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_021",
+    "de": "geeignet",
+    "article": "",
+    "ru": "подходящий",
+    "en": "suitable",
+    "exampleDe": "Dieses Programm ist besonders für Anfänger geeignet.",
+    "exampleRu": "Эта программа особенно подходит для начинающих.",
+    "exampleEn": "This program is especially suitable for beginners.",
+    "level": "B1",
+    "tags": [
+      "adjektiv"
+    ]
+  },
+  {
+    "id": "w_b1_022",
+    "de": "sich bewerben",
+    "article": "",
+    "ru": "подавать заявление",
+    "en": "to apply",
+    "exampleDe": "Er möchte sich um die freie Stelle bewerben.",
+    "exampleRu": "Он хочет податься на свободную должность.",
+    "exampleEn": "He wants to apply for the vacant position.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "refl"
+    ]
+  },
+  {
+    "id": "w_b1_023",
+    "de": "unterstützen",
+    "article": "",
+    "ru": "поддерживать",
+    "en": "to support",
+    "exampleDe": "Die Kolleginnen haben mich bei dem Projekt sehr unterstützt.",
+    "exampleRu": "Коллеги очень меня поддержали в этом проекте.",
+    "exampleEn": "The colleagues supported me a lot with the project.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_024",
+    "de": "kündigen",
+    "article": "",
+    "ru": "увольняться, расторгать",
+    "en": "to resign, to terminate",
+    "exampleDe": "Sie hat zum Ende des Monats gekündigt.",
+    "exampleRu": "Она уволилась в конце месяца.",
+    "exampleEn": "She resigned at the end of the month.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_025",
+    "de": "einstellen",
+    "article": "",
+    "ru": "нанимать",
+    "en": "to hire",
+    "exampleDe": "Die Firma stellt neue Mitarbeitende ein.",
+    "exampleRu": "Компания нанимает новых сотрудников.",
+    "exampleEn": "The company is hiring new employees.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_026",
+    "de": "erledigen",
+    "article": "",
+    "ru": "сделать, уладить",
+    "en": "to deal with, to take care of",
+    "exampleDe": "Ich muss heute noch ein paar Sachen erledigen.",
+    "exampleRu": "Мне нужно сегодня ещё кое-что уладить.",
+    "exampleEn": "I still have to take care of a few things today.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "alltag"
+    ]
+  },
+  {
+    "id": "w_b1_027",
+    "de": "die Umgebung",
+    "article": "die",
+    "ru": "окрестность",
+    "en": "surroundings, area",
+    "exampleDe": "Die Wohnung liegt in einer sehr ruhigen Umgebung.",
+    "exampleRu": "Квартира находится в очень тихом районе.",
+    "exampleEn": "The flat is in a very quiet area.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "wohnen"
+    ]
+  },
+  {
+    "id": "w_b1_028",
+    "de": "die Unterkunft",
+    "article": "die",
+    "ru": "жильё, место проживания",
+    "en": "accommodation",
+    "exampleDe": "Haben Sie schon eine Unterkunft für die Reise gefunden?",
+    "exampleRu": "Вы уже нашли жильё для поездки?",
+    "exampleEn": "Have you already found accommodation for the trip?",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "reisen"
+    ]
+  },
+  {
+    "id": "w_b1_029",
+    "de": "die Nebenkosten",
+    "article": "die (Pl.)",
+    "ru": "коммунальные расходы",
+    "en": "additional costs, utilities",
+    "exampleDe": "Die Miete ist günstig, aber die Nebenkosten sind hoch.",
+    "exampleRu": "Аренда недорогая, но коммунальные расходы высокие.",
+    "exampleEn": "The rent is cheap, but the additional costs are high.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "wohnen"
+    ]
+  },
+  {
+    "id": "w_b1_030",
+    "de": "vorhanden sein",
+    "article": "",
+    "ru": "иметься в наличии",
+    "en": "to be available",
+    "exampleDe": "In der Küche ist bereits alles vorhanden.",
+    "exampleRu": "На кухне уже всё есть.",
+    "exampleEn": "Everything is already available in the kitchen.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "wohnen"
+    ]
+  },
+  {
+    "id": "w_b1_031",
+    "de": "beantragen",
+    "article": "",
+    "ru": "подавать заявление",
+    "en": "to apply for",
+    "exampleDe": "Sie müssen das Visum rechtzeitig beantragen.",
+    "exampleRu": "Вам нужно подать заявление на визу вовремя.",
+    "exampleEn": "You have to apply for the visa in time.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "amt"
+    ]
+  },
+  {
+    "id": "w_b1_032",
+    "de": "verlängern",
+    "article": "",
+    "ru": "продлевать",
+    "en": "to extend",
+    "exampleDe": "Ich möchte meinen Aufenthalt um zwei Wochen verlängern.",
+    "exampleRu": "Я хочу продлить своё пребывание на две недели.",
+    "exampleEn": "I want to extend my stay by two weeks.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "amt",
+      "reisen"
+    ]
+  },
+  {
+    "id": "w_b1_033",
+    "de": "rechtzeitig",
+    "article": "",
+    "ru": "своевременно",
+    "en": "in time",
+    "exampleDe": "Bitte kommen Sie rechtzeitig zum Termin.",
+    "exampleRu": "Пожалуйста, приходите на приём вовремя.",
+    "exampleEn": "Please come to the appointment in time.",
+    "level": "B1",
+    "tags": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "w_b1_034",
+    "de": "spätestens",
+    "article": "",
+    "ru": "не позднее",
+    "en": "at the latest",
+    "exampleDe": "Schicken Sie uns die Dokumente spätestens am Montag.",
+    "exampleRu": "Пришлите нам документы не позднее понедельника.",
+    "exampleEn": "Send us the documents on Monday at the latest.",
+    "level": "B1",
+    "tags": [
+      "adverb",
+      "amt"
+    ]
+  },
+  {
+    "id": "w_b1_035",
+    "de": "unterwegs",
+    "article": "",
+    "ru": "в пути",
+    "en": "on the way",
+    "exampleDe": "Ich bin gerade unterwegs und rufe später zurück.",
+    "exampleRu": "Я сейчас в пути, перезвоню позже.",
+    "exampleEn": "I am on the way right now and will call back later.",
+    "level": "B1",
+    "tags": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "w_b1_038",
+    "de": "die Untersuchung",
+    "article": "die",
+    "ru": "обследование",
+    "en": "examination",
+    "exampleDe": "Der Arzt hat eine gründliche Untersuchung gemacht.",
+    "exampleRu": "Врач провёл тщательное обследование.",
+    "exampleEn": "The doctor did a thorough examination.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesundheit"
+    ]
+  },
+  {
+    "id": "w_b1_040",
+    "de": "ausreichend",
+    "article": "",
+    "ru": "достаточный",
+    "en": "sufficient",
+    "exampleDe": "Trinken Sie ausreichend Wasser.",
+    "exampleRu": "Пейте достаточно воды.",
+    "exampleEn": "Drink sufficient water.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "gesundheit"
+    ]
+  },
+  {
+    "id": "w_b1_041",
+    "de": "regelmäßig",
+    "article": "",
+    "ru": "регулярно",
+    "en": "regularly",
+    "exampleDe": "Er macht regelmäßig Sport.",
+    "exampleRu": "Он регулярно занимается спортом.",
+    "exampleEn": "He does sports regularly.",
+    "level": "B1",
+    "tags": [
+      "adverb",
+      "gesundheit"
+    ]
+  },
+  {
+    "id": "w_b1_042",
+    "de": "die Stimmung",
+    "article": "die",
+    "ru": "настроение",
+    "en": "mood",
+    "exampleDe": "Heute ist die Stimmung im Büro sehr gut.",
+    "exampleRu": "Сегодня в офисе очень хорошее настроение.",
+    "exampleEn": "The mood in the office is very good today.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_043",
+    "de": "die Rückmeldung",
+    "article": "die",
+    "ru": "обратная связь",
+    "en": "feedback",
+    "exampleDe": "Ich freue mich auf Ihre Rückmeldung.",
+    "exampleRu": "Буду рад вашему отзыву.",
+    "exampleEn": "I am looking forward to your feedback.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b1_044",
+    "de": "sich beschweren",
+    "article": "",
+    "ru": "жаловаться",
+    "en": "to complain",
+    "exampleDe": "Er hat sich über den Lärm beschwert.",
+    "exampleRu": "Он пожаловался на шум.",
+    "exampleEn": "He complained about the noise.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "refl",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b1_045",
+    "de": "zustimmen",
+    "article": "",
+    "ru": "соглашаться",
+    "en": "to agree",
+    "exampleDe": "Dem Vorschlag kann ich zustimmen.",
+    "exampleRu": "С этим предложением я могу согласиться.",
+    "exampleEn": "I can agree to this proposal.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_046",
+    "de": "ablehnen",
+    "article": "",
+    "ru": "отклонять",
+    "en": "to reject",
+    "exampleDe": "Leider müssen wir Ihre Anfrage ablehnen.",
+    "exampleRu": "К сожалению, мы вынуждены отклонить ваш запрос.",
+    "exampleEn": "Unfortunately, we have to reject your request.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_047",
+    "de": "überzeugen",
+    "article": "",
+    "ru": "убеждать",
+    "en": "to convince",
+    "exampleDe": "Sie konnte ihn mit guten Argumenten überzeugen.",
+    "exampleRu": "Она смогла убедить его хорошими аргументами.",
+    "exampleEn": "She was able to convince him with good arguments.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_050",
+    "de": "verhindern",
+    "article": "",
+    "ru": "предотвращать",
+    "en": "to prevent",
+    "exampleDe": "Wir wollen einen Unfall verhindern.",
+    "exampleRu": "Мы хотим предотвратить аварию.",
+    "exampleEn": "We want to prevent an accident.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b1_052",
+    "de": "bestehen aus",
+    "article": "",
+    "ru": "состоять из",
+    "en": "to consist of",
+    "exampleDe": "Das Team besteht aus fünf Personen.",
+    "exampleRu": "Команда состоит из пяти человек.",
+    "exampleEn": "The team consists of five people.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "trennbar?=nein"
+    ]
+  },
+  {
+    "id": "w_b1_053",
+    "de": "auftreten",
+    "article": "",
+    "ru": "возникать, появляться, выступать",
+    "en": "to occur, to appear, to perform",
+    "exampleDe": "Solche Probleme treten häufig im Winter auf.",
+    "exampleRu": "Такие проблемы часто возникают зимой.",
+    "exampleEn": "Such problems often occur in winter.",
+    "level": "B1",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "id": "w_b1_055",
+    "de": "ausreichen",
+    "article": "",
+    "ru": "быть достаточным",
+    "en": "to be enough",
+    "exampleDe": "Ihr Deutsch reicht für den Kurs aus.",
+    "exampleRu": "Вашего немецкого хватает для курса.",
+    "exampleEn": "Your German is sufficient for the course.",
+    "level": "B1",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "id": "w_b1_056",
+    "de": "deutlich",
+    "article": "",
+    "ru": "ясный, отчётливый",
+    "en": "clear",
+    "exampleDe": "Können Sie bitte etwas deutlicher sprechen?",
+    "exampleRu": "Можете говорить чуть яснее?",
+    "exampleEn": "Could you please speak a bit more clearly?",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b1_057",
+    "de": "zuverlässig",
+    "article": "",
+    "ru": "надёжный",
+    "en": "reliable",
+    "exampleDe": "Sie ist sehr zuverlässig und immer pünktlich.",
+    "exampleRu": "Она очень надёжная и всегда пунктуальна.",
+    "exampleEn": "She is very reliable and always on time.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_058",
+    "de": "notwendig",
+    "article": "",
+    "ru": "необходимый",
+    "en": "necessary",
+    "exampleDe": "Für die Reise sind keine Impfungen notwendig.",
+    "exampleRu": "Для поездки прививки не нужны.",
+    "exampleEn": "No vaccinations are necessary for the trip.",
+    "level": "B1",
+    "tags": [
+      "adjektiv"
+    ]
+  },
+  {
+    "id": "w_b1_059",
+    "de": "verfügbar",
+    "article": "",
+    "ru": "доступный, в наличии",
+    "en": "available",
+    "exampleDe": "Das Produkt ist ab nächster Woche verfügbar.",
+    "exampleRu": "Товар будет доступен с следующей недели.",
+    "exampleEn": "The product will be available from next week.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b1_060",
+    "de": "durchschnittlich",
+    "article": "",
+    "ru": "средний",
+    "en": "average",
+    "exampleDe": "Die Mieten sind hier nur durchschnittlich hoch.",
+    "exampleRu": "Аренда здесь только средняя по уровню.",
+    "exampleEn": "Rents here are only average.",
+    "level": "B1",
+    "tags": [
+      "adjektiv"
+    ]
+  },
+  {
+    "id": "w_b1_061",
+    "de": "sinnvoll",
+    "article": "",
+    "ru": "целесообразный, разумный",
+    "en": "sensible",
+    "exampleDe": "Es ist sinnvoll, früh mit dem Lernen anzufangen.",
+    "exampleRu": "Разумно начать учиться заранее.",
+    "exampleEn": "It is sensible to start studying early.",
+    "level": "B1",
+    "tags": [
+      "adjektiv"
+    ]
+  },
+  {
+    "id": "w_b1_062",
+    "de": "obwohl",
+    "article": "",
+    "ru": "хотя",
+    "en": "although",
+    "exampleDe": "Obwohl es regnet, gehen wir spazieren.",
+    "exampleRu": "Хотя идёт дождь, мы идём гулять.",
+    "exampleEn": "Although it is raining, we are going for a walk.",
+    "level": "B1",
+    "tags": [
+      "konjunktion"
+    ]
+  },
+  {
+    "id": "w_b1_063",
+    "de": "während",
+    "article": "",
+    "ru": "в то время как",
+    "en": "while, whereas",
+    "exampleDe": "Während er arbeitet, hört er Musik.",
+    "exampleRu": "Пока он работает, он слушает музыку.",
+    "exampleEn": "While he is working, he listens to music.",
+    "level": "B1",
+    "tags": [
+      "konjunktion"
+    ]
+  },
+  {
+    "id": "w_b1_065",
+    "de": "trotzdem",
+    "article": "",
+    "ru": "несмотря на это",
+    "en": "nevertheless",
+    "exampleDe": "Es war kalt, trotzdem sind wir geschwommen.",
+    "exampleRu": "Было холодно, однако мы купались.",
+    "exampleEn": "It was cold, nevertheless we went swimming.",
+    "level": "B1",
+    "tags": [
+      "adverb",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b1_067",
+    "de": "jedoch",
+    "article": "",
+    "ru": "однако",
+    "en": "however",
+    "exampleDe": "Das Angebot ist gut, jedoch etwas teuer.",
+    "exampleRu": "Предложение хорошее, однако немного дорогое.",
+    "exampleEn": "The offer is good, however a bit expensive.",
+    "level": "B1",
+    "tags": [
+      "adverb",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b1_069",
+    "de": "weder ... noch",
+    "article": "",
+    "ru": "ни ... ни",
+    "en": "neither ... nor",
+    "exampleDe": "Er hat weder Zeit noch Geld.",
+    "exampleRu": "У него нет ни времени, ни денег.",
+    "exampleEn": "He has neither time nor money.",
+    "level": "B1",
+    "tags": [
+      "konjunktion",
+      "struktur"
+    ]
+  },
+  {
+    "id": "w_b1_070",
+    "de": "aufgrund",
+    "article": "",
+    "ru": "из-за, по причине",
+    "en": "due to",
+    "exampleDe": "Aufgrund des Wetters fällt das Fest aus.",
+    "exampleRu": "Из-за погоды праздник отменяется.",
+    "exampleEn": "Due to the weather, the celebration is cancelled.",
+    "level": "B1",
+    "tags": [
+      "präposition",
+      "genitiv"
+    ]
+  },
+  {
+    "id": "w_b1_073",
+    "de": "zumindest",
+    "article": "",
+    "ru": "по крайней мере",
+    "en": "at least",
+    "exampleDe": "Du solltest zumindest eine kurze Nachricht schreiben.",
+    "exampleRu": "Тебе стоит хотя бы коротко написать.",
+    "exampleEn": "You should at least write a short message.",
+    "level": "B1",
+    "tags": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "w_b1_074",
+    "de": "wahrscheinlich",
+    "article": "",
+    "ru": "вероятно",
+    "en": "probably",
+    "exampleDe": "Er kommt wahrscheinlich später.",
+    "exampleRu": "Он, вероятно, придёт позже.",
+    "exampleEn": "He will probably come later.",
+    "level": "B1",
+    "tags": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "w_b1_075",
+    "de": "die Veranstaltung",
+    "article": "die",
+    "ru": "мероприятие",
+    "en": "event",
+    "exampleDe": "Die Veranstaltung beginnt um 19 Uhr.",
+    "exampleRu": "Мероприятие начинается в 19 часов.",
+    "exampleEn": "The event starts at 7 pm.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "freizeit"
+    ]
+  },
+  {
+    "id": "w_b1_076",
+    "de": "die Anmeldung",
+    "article": "die",
+    "ru": "регистрация, запись",
+    "en": "registration",
+    "exampleDe": "Die Anmeldung zum Kurs ist noch möglich.",
+    "exampleRu": "Регистрация на курс ещё возможна.",
+    "exampleEn": "Registration for the course is still possible.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "amt",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_077",
+    "de": "zusagen",
+    "article": "",
+    "ru": "подтвердить участие",
+    "en": "to accept, to confirm",
+    "exampleDe": "Kannst du mir bis morgen zusagen?",
+    "exampleRu": "Сможешь подтвердить до завтра?",
+    "exampleEn": "Can you confirm by tomorrow?",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b1_078",
+    "de": "absagen",
+    "article": "",
+    "ru": "отменять, отказывать",
+    "en": "to cancel, to decline",
+    "exampleDe": "Leider muss ich den Termin absagen.",
+    "exampleRu": "К сожалению, мне нужно отменить встречу.",
+    "exampleEn": "Unfortunately, I have to cancel the appointment.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b1_079",
+    "de": "zur Verfügung stehen",
+    "article": "",
+    "ru": "быть в распоряжении",
+    "en": "to be available",
+    "exampleDe": "Das Auto steht Ihnen morgen zur Verfügung.",
+    "exampleRu": "Машина будет в вашем распоряжении завтра.",
+    "exampleEn": "The car will be at your disposal tomorrow.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_080",
+    "de": "erstellen",
+    "article": "",
+    "ru": "составлять, создавать",
+    "en": "to create, to prepare",
+    "exampleDe": "Wir müssen einen neuen Bericht erstellen.",
+    "exampleRu": "Нам нужно составить новый отчёт.",
+    "exampleEn": "We have to create a new report.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_081",
+    "de": "die Persönlichkeit",
+    "article": "die",
+    "ru": "личность",
+    "en": "personality",
+    "exampleDe": "Er hat eine starke Persönlichkeit.",
+    "exampleRu": "У него сильная личность.",
+    "exampleEn": "He has a strong personality.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b1_082",
+    "de": "die Kreativität",
+    "article": "die",
+    "ru": "креативность, творчество",
+    "en": "creativity",
+    "exampleDe": "Kreativität ist in diesem Beruf sehr wichtig.",
+    "exampleRu": "Креативность очень важна в этой профессии.",
+    "exampleEn": "Creativity is very important in this profession.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "kunst"
+    ]
+  },
+  {
+    "id": "w_b1_083",
+    "de": "die Motivation",
+    "article": "die",
+    "ru": "мотивация",
+    "en": "motivation",
+    "exampleDe": "Seine Motivation zum Lernen ist sehr hoch.",
+    "exampleRu": "Его мотивация к учёбе очень высока.",
+    "exampleEn": "His motivation to learn is very high.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "psychologie",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_084",
+    "de": "die Nachhaltigkeit",
+    "article": "die",
+    "ru": "устойчивость, экологичность",
+    "en": "sustainability",
+    "exampleDe": "Nachhaltigkeit wird in der Wirtschaft immer wichtiger.",
+    "exampleRu": "Устойчивое развитие становится всё важнее в экономике.",
+    "exampleEn": "Sustainability is becoming increasingly important in the economy.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "umwelt",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b1_085",
+    "de": "die Vereinbarkeit",
+    "article": "die",
+    "ru": "совместимость",
+    "en": "compatibility",
+    "exampleDe": "Die Vereinbarkeit von Familie und Beruf ist ein wichtiges Thema.",
+    "exampleRu": "Совмещение семьи и работы — важная тема.",
+    "exampleEn": "Work-life balance is an important topic.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "familie"
+    ]
+  },
+  {
+    "id": "w_b1_086",
+    "de": "die Wertschätzung",
+    "article": "die",
+    "ru": "уважение, признание",
+    "en": "appreciation",
+    "exampleDe": "Er zeigt große Wertschätzung für die Arbeit seiner Kollegen.",
+    "exampleRu": "Он проявляет большое уважение к работе своих коллег.",
+    "exampleEn": "He shows great appreciation for his colleagues' work.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_087",
+    "de": "die Atmosphäre",
+    "article": "die",
+    "ru": "атмосфера",
+    "en": "atmosphere",
+    "exampleDe": "Die Atmosphäre im Team ist sehr angenehm.",
+    "exampleRu": "Атмосфера в команде очень приятная.",
+    "exampleEn": "The atmosphere in the team is very pleasant.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "sozial"
+    ]
+  },
+  {
+    "id": "w_b1_088",
+    "de": "die Auswirkung",
+    "article": "die",
+    "ru": "влияние, последствие",
+    "en": "effect, impact",
+    "exampleDe": "Die Auswirkungen dieser Entscheidung waren sehr positiv.",
+    "exampleRu": "Последствия этого решения были очень позитивными.",
+    "exampleEn": "The effects of this decision were very positive.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "wirtschaft",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b1_089",
+    "de": "die Eigenschaft",
+    "article": "die",
+    "ru": "свойство, качество",
+    "en": "characteristic, trait",
+    "exampleDe": "Geduld ist eine wichtige Eigenschaft für Lehrer.",
+    "exampleRu": "Терпение — важное качество для учителя.",
+    "exampleEn": "Patience is an important characteristic for teachers.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_090",
+    "de": "die Anforderung",
+    "article": "die",
+    "ru": "требование",
+    "en": "requirement, demand",
+    "exampleDe": "Die Anforderungen für diese Stelle sind sehr hoch.",
+    "exampleRu": "Требования к этой должности очень высокие.",
+    "exampleEn": "The requirements for this position are very high.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_b1_091",
+    "de": "nachhaltig",
+    "article": "",
+    "ru": "устойчивый, долговременный",
+    "en": "sustainable, lasting",
+    "exampleDe": "Wir suchen nach nachhaltigen Lösungen.",
+    "exampleRu": "Мы ищем устойчивые решения.",
+    "exampleEn": "We are looking for sustainable solutions.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "umwelt",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b1_092",
+    "de": "ausgewogen",
+    "article": "",
+    "ru": "сбалансированный",
+    "en": "balanced",
+    "exampleDe": "Eine ausgewogene Ernährung ist wichtig für die Gesundheit.",
+    "exampleRu": "Сбалансированное питание важно для здоровья.",
+    "exampleEn": "A balanced diet is important for health.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "gesundheit",
+      "ernährung"
+    ]
+  },
+  {
+    "id": "w_b1_093",
+    "de": "umsetzen",
+    "article": "",
+    "ru": "реализовать, воплощать",
+    "en": "to implement, to put into practice",
+    "exampleDe": "Wir müssen diese Idee in die Praxis umsetzen.",
+    "exampleRu": "Нам нужно воплотить эту идею на практике.",
+    "exampleEn": "We need to put this idea into practice.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b1_094",
+    "de": "beitragen zu",
+    "article": "",
+    "ru": "способствовать, вносить вклад",
+    "en": "to contribute to",
+    "exampleDe": "Jeder kann zum Umweltschutz beitragen.",
+    "exampleRu": "Каждый может внести вклад в защиту окружающей среды.",
+    "exampleEn": "Everyone can contribute to environmental protection.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "gesellschaft",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b1_095",
+    "de": "sich engagieren",
+    "article": "",
+    "ru": "активно участвовать",
+    "en": "to be involved, to be committed",
+    "exampleDe": "Sie engagiert sich sehr in sozialen Projekten.",
+    "exampleRu": "Она активно участвует в социальных проектах.",
+    "exampleEn": "She is very involved in social projects.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "gesellschaft",
+      "refl"
+    ]
+  },
+  {
+    "id": "w_b1_096",
+    "de": "die Lebensqualität",
+    "article": "die",
+    "ru": "качество жизни",
+    "en": "quality of life",
+    "exampleDe": "Sport verbessert die Lebensqualität.",
+    "exampleRu": "Спорт улучшает качество жизни.",
+    "exampleEn": "Sports improves the quality of life.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesundheit",
+      "leben"
+    ]
+  },
+  {
+    "id": "w_b1_097",
+    "de": "die Flexibilität",
+    "article": "die",
+    "ru": "гибкость",
+    "en": "flexibility",
+    "exampleDe": "Moderne Arbeitgeber bieten mehr Flexibilität bei den Arbeitszeiten.",
+    "exampleRu": "Современные работодатели предлагают больше гибкости в рабочем времени.",
+    "exampleEn": "Modern employers offer more flexibility in working hours.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "modern"
+    ]
+  },
+  {
+    "id": "w_b1_098",
+    "de": "die Digitalisierung",
+    "article": "die",
+    "ru": "цифровизация",
+    "en": "digitalization",
+    "exampleDe": "Die Digitalisierung verändert unsere Arbeitswelt.",
+    "exampleRu": "Цифровизация меняет наш рабочий мир.",
+    "exampleEn": "Digitalization is changing our working world.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "technik",
+      "arbeit",
+      "modern"
+    ]
+  },
+  {
+    "id": "w_b1_099",
+    "de": "der Fortschritt",
+    "article": "der",
+    "ru": "прогресс",
+    "en": "progress",
+    "exampleDe": "Wir sehen große Fortschritte in ihrer Entwicklung.",
+    "exampleRu": "Мы видим большой прогресс в её развитии.",
+    "exampleEn": "We see great progress in her development.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "entwicklung",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_b1_100",
+    "de": "die Integration",
+    "article": "die",
+    "ru": "интеграция",
+    "en": "integration",
+    "exampleDe": "Die Integration von Migranten ist eine wichtige Aufgabe.",
+    "exampleRu": "Интеграция мигрантов — важная задача.",
+    "exampleEn": "The integration of migrants is an important task.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b1_101",
+    "de": "erreichen",
+    "article": "",
+    "ru": "достигать",
+    "en": "to achieve, reach",
+    "exampleDe": "Ich erreiche mein Ziel.",
+    "exampleRu": "Я достигаю своей цели.",
+    "exampleEn": "I achieve my goal.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "ziel"
+    ]
+  },
+  {
+    "id": "w_b1_102",
+    "de": "vermeiden",
+    "article": "",
+    "ru": "избегать",
+    "en": "to avoid",
+    "exampleDe": "Wir sollten Fehler vermeiden.",
+    "exampleRu": "Нам следует избегать ошибок.",
+    "exampleEn": "We should avoid mistakes.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_103",
+    "de": "erklären",
+    "article": "",
+    "ru": "объяснять",
+    "en": "to explain",
+    "exampleDe": "Die Lehrerin erklärt die Regel.",
+    "exampleRu": "Учительница объясняет правило.",
+    "exampleEn": "The teacher explains the rule.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_104",
+    "de": "beschreiben",
+    "article": "",
+    "ru": "описывать",
+    "en": "to describe",
+    "exampleDe": "Beschreibe die Grafik genau.",
+    "exampleRu": "Опиши график точно.",
+    "exampleEn": "Describe the chart precisely.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_105",
+    "de": "begründen",
+    "article": "",
+    "ru": "обосновывать",
+    "en": "to justify, give reasons",
+    "exampleDe": "Begründe deine Meinung.",
+    "exampleRu": "Обоснуй своё мнение.",
+    "exampleEn": "Justify your opinion.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b1_106",
+    "de": "entwickeln",
+    "article": "",
+    "ru": "разрабатывать, развивать",
+    "en": "to develop",
+    "exampleDe": "Die Firma entwickelt ein neues Produkt.",
+    "exampleRu": "Компания разрабатывает новый продукт.",
+    "exampleEn": "The company is developing a new product.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "technik"
+    ]
+  },
+  {
+    "id": "w_b1_107",
+    "de": "verbessern",
+    "article": "",
+    "ru": "улучшать",
+    "en": "to improve",
+    "exampleDe": "Wir wollen unseren Service verbessern.",
+    "exampleRu": "Мы хотим улучшить наш сервис.",
+    "exampleEn": "We want to improve our service.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_108",
+    "de": "verschlechtern",
+    "article": "",
+    "ru": "ухудшать(ся)",
+    "en": "to worsen",
+    "exampleDe": "Das Wetter verschlechtert sich.",
+    "exampleRu": "Погода ухудшается.",
+    "exampleEn": "The weather is getting worse.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "wetter"
+    ]
+  },
+  {
+    "id": "w_b1_109",
+    "de": "vergleichen",
+    "article": "",
+    "ru": "сравнивать",
+    "en": "to compare",
+    "exampleDe": "Ich vergleiche die Angebote.",
+    "exampleRu": "Я сравниваю предложения.",
+    "exampleEn": "I compare the offers.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "einkaufen"
+    ]
+  },
+  {
+    "id": "w_b1_110",
+    "de": "entstehen",
+    "article": "",
+    "ru": "возникать",
+    "en": "to arise, emerge",
+    "exampleDe": "Bei dem Projekt entstehen neue Ideen.",
+    "exampleRu": "В ходе проекта возникают новые идеи.",
+    "exampleEn": "New ideas arise during the project.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_111",
+    "de": "stattfinden",
+    "article": "",
+    "ru": "состояться, проходить",
+    "en": "to take place",
+    "exampleDe": "Das Treffen findet morgen statt.",
+    "exampleEn": "The meeting takes place tomorrow.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "termin",
+      "trennbar"
+    ],
+    "exampleRu": "Встреча состоится завтра."
+  },
+  {
+    "id": "w_b1_112",
+    "de": "zunehmen",
+    "article": "",
+    "ru": "увеличиваться, набирать",
+    "en": "to increase",
+    "exampleDe": "Die Preise nehmen weiter zu.",
+    "exampleRu": "Цены продолжают расти.",
+    "exampleEn": "Prices continue to increase.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "wirtschaft",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b1_113",
+    "de": "abnehmen",
+    "article": "",
+    "ru": "уменьшаться, худеть",
+    "en": "to decrease, to lose weight",
+    "exampleDe": "Die Temperaturen nehmen ab.",
+    "exampleRu": "Температуры понижаются.",
+    "exampleEn": "Temperatures are decreasing.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "wetter",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b1_114",
+    "de": "herstellen",
+    "article": "",
+    "ru": "производить",
+    "en": "to manufacture, produce",
+    "exampleDe": "Die Firma stellt Maschinen her.",
+    "exampleRu": "Фирма производит машины.",
+    "exampleEn": "The company manufactures machines.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b1_115",
+    "de": "feststellen",
+    "article": "",
+    "ru": "устанавливать, выявлять",
+    "en": "to determine, detect",
+    "exampleDe": "Der Techniker stellt einen Fehler fest.",
+    "exampleRu": "Техник выявляет ошибку.",
+    "exampleEn": "The technician detects an error.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b1_116",
+    "de": "vorstellen",
+    "article": "",
+    "ru": "представлять (что-то)",
+    "en": "to present",
+    "exampleDe": "Ich stelle das Projekt vor.",
+    "exampleRu": "Я представляю проект.",
+    "exampleEn": "I present the project.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b1_117",
+    "de": "darstellen",
+    "article": "",
+    "ru": "изображать, представлять",
+    "en": "to depict, represent",
+    "exampleDe": "Die Grafik stellt die Daten dar.",
+    "exampleRu": "График представляет данные.",
+    "exampleEn": "The chart represents the data.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "schule",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b1_118",
+    "de": "sich erinnern an",
+    "article": "",
+    "ru": "вспоминать о",
+    "en": "to remember",
+    "exampleDe": "Ich erinnere mich an den Urlaub.",
+    "exampleRu": "Я помню отпуск.",
+    "exampleEn": "I remember the vacation.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "akkusativ",
+      "refl"
+    ]
+  },
+  {
+    "id": "w_b1_119",
+    "de": "sich gewöhnen an",
+    "article": "",
+    "ru": "привыкать к",
+    "en": "to get used to",
+    "exampleDe": "Ich gewöhne mich an das Klima.",
+    "exampleRu": "Я привыкаю к климату.",
+    "exampleEn": "I’m getting used to the climate.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "w_b1_120",
+    "de": "sich bewerben um",
+    "article": "",
+    "ru": "подавать заявку на",
+    "en": "to apply for",
+    "exampleDe": "Ich bewerbe mich um die Stelle.",
+    "exampleRu": "Я подаю заявку на должность.",
+    "exampleEn": "I am applying for the position.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "reflexiv",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "w_b1_121",
+    "de": "sich entscheiden für",
+    "article": "",
+    "ru": "решаться на, выбирать",
+    "en": "to decide on",
+    "exampleDe": "Wir entscheiden uns für das Haus.",
+    "exampleRu": "Мы выбираем этот дом.",
+    "exampleEn": "We decide on the house.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "w_b1_122",
+    "de": "außerdem",
+    "article": "",
+    "ru": "кроме того",
+    "en": "besides, moreover",
+    "exampleDe": "Es ist teuer und außerdem langsam.",
+    "exampleRu": "Это дорого и к тому же медленно.",
+    "exampleEn": "It’s expensive and, besides, slow.",
+    "level": "B1",
+    "tags": [
+      "adverb",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b1_123",
+    "de": "daher",
+    "article": "",
+    "ru": "поэтому, оттого",
+    "en": "therefore, hence",
+    "exampleDe": "Ich habe viel gearbeitet, daher bin ich müde.",
+    "exampleRu": "Я много работал, поэтому устал.",
+    "exampleEn": "I worked a lot; therefore, I’m tired.",
+    "level": "B1",
+    "tags": [
+      "adverb",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b1_124",
+    "de": "damit",
+    "article": "",
+    "ru": "чтобы",
+    "en": "so that, in order that",
+    "exampleDe": "Ich lerne viel, damit ich die Prüfung bestehe.",
+    "exampleRu": "Я много учусь, чтобы сдать экзамен.",
+    "exampleEn": "I study a lot so that I pass the exam.",
+    "level": "B1",
+    "tags": [
+      "konjunktion",
+      "zweck"
+    ]
+  },
+  {
+    "id": "w_b1_125",
+    "de": "sodass",
+    "article": "",
+    "ru": "так что",
+    "en": "so that (result)",
+    "exampleDe": "Es regnete stark, sodass wir zu Hause blieben.",
+    "exampleRu": "Сильно шёл дождь, так что мы остались дома.",
+    "exampleEn": "It rained heavily so that we stayed home.",
+    "level": "B1",
+    "tags": [
+      "konjunktion",
+      "folge"
+    ]
+  },
+  {
+    "id": "w_b1_126",
+    "de": "falls",
+    "article": "",
+    "ru": "в случае если",
+    "en": "in case",
+    "exampleDe": "Falls du Zeit hast, komm vorbei.",
+    "exampleRu": "Если у тебя будет время, заходи.",
+    "exampleEn": "In case you have time, drop by.",
+    "level": "B1",
+    "tags": [
+      "konjunktion",
+      "bedingung"
+    ]
+  },
+  {
+    "id": "w_b1_127",
+    "de": "ob",
+    "article": "",
+    "ru": "ли",
+    "en": "whether, if",
+    "exampleDe": "Ich weiß nicht, ob er kommt.",
+    "exampleRu": "Я не знаю, придёт ли он.",
+    "exampleEn": "I don’t know whether he is coming.",
+    "level": "B1",
+    "tags": [
+      "konjunktion",
+      "nebensatz"
+    ]
+  },
+  {
+    "id": "w_b1_128",
+    "de": "trotz",
+    "article": "",
+    "ru": "несмотря на",
+    "en": "despite",
+    "exampleDe": "Trotz des Regens gehen wir joggen.",
+    "exampleRu": "Несмотря на дождь, мы идём бегать.",
+    "exampleEn": "Despite the rain, we go jogging.",
+    "level": "B1",
+    "tags": [
+      "präposition",
+      "genitiv"
+    ]
+  },
+  {
+    "id": "w_b1_129",
+    "de": "innerhalb von",
+    "article": "",
+    "ru": "в течение (какого-то периода)",
+    "en": "within",
+    "exampleDe": "Bitte antworten Sie innerhalb von zwei Tagen.",
+    "exampleRu": "Пожалуйста, ответьте в течение двух дней.",
+    "exampleEn": "Please reply within two days.",
+    "level": "B1",
+    "tags": [
+      "präposition",
+      "zeit"
+    ]
+  },
+  {
+    "id": "w_b1_130",
+    "de": "sowohl ... als auch",
+    "article": "",
+    "ru": "как ..., так и ...",
+    "en": "both ... and ...",
+    "exampleDe": "Er spricht sowohl Deutsch als auch Englisch.",
+    "exampleRu": "Он говорит как по-немецки, так и по-английски.",
+    "exampleEn": "He speaks both German and English.",
+    "level": "B1",
+    "tags": [
+      "korrelativ",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b1_131",
+    "de": "entweder ... oder",
+    "article": "",
+    "ru": "либо ..., либо ...",
+    "en": "either ... or",
+    "exampleDe": "Wir fahren entweder mit dem Zug oder mit dem Bus.",
+    "exampleRu": "Мы поедем либо на поезде, либо на автобусе.",
+    "exampleEn": "We will go either by train or by bus.",
+    "level": "B1",
+    "tags": [
+      "korrelativ",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b1_132",
+    "de": "die Toleranz",
+    "article": "die",
+    "ru": "терпимость",
+    "en": "tolerance",
+    "exampleDe": "Toleranz ist wichtig in einer multikulturellen Gesellschaft.",
+    "exampleRu": "Терпимость важна в мультикультурном обществе.",
+    "exampleEn": "Tolerance is important in a multicultural society.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "sozial"
+    ]
+  },
+  {
+    "id": "w_b1_133",
+    "de": "die Verantwortung",
+    "article": "die",
+    "ru": "ответственность",
+    "en": "responsibility",
+    "exampleDe": "Ich übernehme die Verantwortung.",
+    "exampleRu": "Я беру на себя ответственность.",
+    "exampleEn": "I take responsibility.",
+    "level": "B1",
+    "tags": [
+      "arbeit",
+      "gesellschaft",
+      "substantiv"
+    ]
+  },
+  {
+    "id": "w_b1_134",
+    "de": "die Voraussetzung",
+    "article": "die",
+    "ru": "предпосылка, требование",
+    "en": "requirement, prerequisite",
+    "exampleDe": "Deutschkenntnisse sind eine Voraussetzung.",
+    "exampleRu": "Знание немецкого — одно из требований.",
+    "exampleEn": "German skills are a prerequisite.",
+    "level": "B1",
+    "tags": [
+      "arbeit",
+      "bildung",
+      "substantiv"
+    ]
+  },
+  {
+    "id": "w_b1_135",
+    "de": "die Herausforderung",
+    "article": "die",
+    "ru": "вызов, сложная задача",
+    "en": "challenge",
+    "exampleDe": "Die Aufgabe ist eine große Herausforderung.",
+    "exampleRu": "Задание — серьёзный вызов.",
+    "exampleEn": "The task is a big challenge.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "schule"
+    ]
+  },
+  {
+    "id": "w_b1_136",
+    "de": "der Vorteil",
+    "article": "der",
+    "ru": "преимущество",
+    "en": "advantage",
+    "exampleDe": "Ein Vorteil ist der niedrige Preis.",
+    "exampleRu": "Преимущество — низкая цена.",
+    "exampleEn": "One advantage is the low price.",
+    "level": "B1",
+    "tags": [
+      "argumentation",
+      "substantiv",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_137",
+    "de": "der Nachteil",
+    "article": "der",
+    "ru": "недостаток",
+    "en": "disadvantage",
+    "exampleDe": "Ein Nachteil ist die lange Fahrtzeit.",
+    "exampleRu": "Недостаток — долгое время в пути.",
+    "exampleEn": "A disadvantage is the long travel time.",
+    "level": "B1",
+    "tags": [
+      "argumentation",
+      "substantiv",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_138",
+    "de": "die Zukunft",
+    "article": "die",
+    "ru": "будущее",
+    "en": "future",
+    "exampleDe": "In Zukunft möchte ich mehr reisen.",
+    "exampleRu": "В будущем я хочу больше путешествовать.",
+    "exampleEn": "In the future I want to travel more.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "zeit"
+    ]
+  },
+  {
+    "id": "w_b1_139",
+    "de": "die Gegenwart",
+    "article": "die",
+    "ru": "настоящее (время)",
+    "en": "present (time)",
+    "exampleDe": "Wir leben in der Gegenwart.",
+    "exampleRu": "Мы живём в настоящем.",
+    "exampleEn": "We live in the present.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "zeit"
+    ]
+  },
+  {
+    "id": "w_b1_140",
+    "de": "die Vergangenheit",
+    "article": "die",
+    "ru": "прошлое",
+    "en": "past",
+    "exampleDe": "Er spricht über die Vergangenheit.",
+    "exampleRu": "Он говорит о прошлом.",
+    "exampleEn": "He talks about the past.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "zeit"
+    ]
+  },
+  {
+    "id": "w_b1_141",
+    "de": "die Umwelt",
+    "article": "die",
+    "ru": "окружающая среда",
+    "en": "environment",
+    "exampleDe": "Wir müssen die Umwelt schützen.",
+    "exampleRu": "Мы должны защищать окружающую среду.",
+    "exampleEn": "We must protect the environment.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b1_142",
+    "de": "der Umweltschutz",
+    "article": "der",
+    "ru": "защита окружающей среды",
+    "en": "environmental protection",
+    "exampleDe": "Umweltschutz ist wichtig.",
+    "exampleRu": "Защита окружающей среды важна.",
+    "exampleEn": "Environmental protection is important.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "umwelt",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b1_143",
+    "de": "die Verschmutzung",
+    "article": "die",
+    "ru": "загрязнение",
+    "en": "pollution",
+    "exampleDe": "Die Verschmutzung nimmt zu.",
+    "exampleRu": "Загрязнение увеличивается.",
+    "exampleEn": "Pollution is increasing.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b1_144",
+    "de": "das Recycling",
+    "article": "das",
+    "ru": "переработка",
+    "en": "recycling",
+    "exampleDe": "Recycling spart Ressourcen.",
+    "exampleRu": "Переработка экономит ресурсы.",
+    "exampleEn": "Recycling saves resources.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b1_145",
+    "de": "der Klimawandel",
+    "article": "der",
+    "ru": "изменение климата",
+    "en": "climate change",
+    "exampleDe": "Der Klimawandel ist ein globales Problem.",
+    "exampleRu": "Изменение климата — глобальная проблема.",
+    "exampleEn": "Climate change is a global problem.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b1_146",
+    "de": "die Ernährung",
+    "article": "die",
+    "ru": "питание",
+    "en": "nutrition, diet",
+    "exampleDe": "Gesunde Ernährung ist wichtig.",
+    "exampleRu": "Здоровое питание важно.",
+    "exampleEn": "Healthy nutrition is important.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesundheit",
+      "leben"
+    ]
+  },
+  {
+    "id": "w_b1_147",
+    "de": "die Bewegung",
+    "article": "die",
+    "ru": "движение, физическая активность",
+    "en": "exercise, movement",
+    "exampleDe": "Tägliche Bewegung tut gut.",
+    "exampleRu": "Ежедневная активность полезна.",
+    "exampleEn": "Daily exercise is good for you.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesundheit",
+      "sport"
+    ]
+  },
+  {
+    "id": "w_b1_148",
+    "de": "die Gewohnheit",
+    "article": "die",
+    "ru": "привычка",
+    "en": "habit",
+    "exampleDe": "Rauchen ist eine schlechte Gewohnheit.",
+    "exampleRu": "Курение — плохая привычка.",
+    "exampleEn": "Smoking is a bad habit.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "leben",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b1_149",
+    "de": "die Fähigkeit",
+    "article": "die",
+    "ru": "способность, навык",
+    "en": "ability, skill",
+    "exampleDe": "Teamarbeit ist eine wichtige Fähigkeit.",
+    "exampleRu": "Умение работать в команде — важная способность.",
+    "exampleEn": "Teamwork is an important skill.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_b1_150",
+    "de": "die Bedingung",
+    "article": "die",
+    "ru": "условие",
+    "en": "condition, requirement",
+    "exampleDe": "Unter dieser Bedingung stimme ich zu.",
+    "exampleRu": "При этом условии я согласен.",
+    "exampleEn": "I agree under this condition.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "argumentation",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b1_151",
+    "de": "das Fernweh",
+    "article": "das",
+    "ru": "тяга к дальним странам",
+    "en": "wanderlust, longing for far-off places",
+    "exampleDe": "Im Winter packt mich regelmäßig das Fernweh.",
+    "exampleRu": "Зимой меня регулярно тянет в дальние края.",
+    "exampleEn": "In winter I am regularly seized by wanderlust.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gefühle",
+      "reise"
+    ]
+  },
+  {
+    "id": "w_b1_152",
+    "de": "der Zufall",
+    "article": "der",
+    "ru": "случайность, случай",
+    "en": "coincidence, chance",
+    "exampleDe": "Wir haben uns durch einen reinen Zufall getroffen.",
+    "exampleRu": "Мы встретились по чистой случайности.",
+    "exampleEn": "We met by pure chance.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "alltag",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b1_153",
+    "de": "die Rücksicht",
+    "article": "die",
+    "ru": "внимание к другим, деликатность",
+    "en": "consideration, regard",
+    "exampleDe": "Bitte nimm Rücksicht auf die Nachbarn.",
+    "exampleRu": "Пожалуйста, считайся с соседями.",
+    "exampleEn": "Please show consideration for the neighbours.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_154",
+    "de": "das Bedürfnis",
+    "article": "das",
+    "ru": "потребность",
+    "en": "need",
+    "exampleDe": "Jeder Mensch hat das Bedürfnis nach Sicherheit.",
+    "exampleRu": "У каждого человека есть потребность в безопасности.",
+    "exampleEn": "Every person has a need for security.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b1_155",
+    "de": "die Entscheidung",
+    "article": "die",
+    "ru": "решение",
+    "en": "decision",
+    "exampleDe": "Die Entscheidung fällt erst nächste Woche.",
+    "exampleRu": "Решение будет принято только на следующей неделе.",
+    "exampleEn": "The decision will only be made next week.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_156",
+    "de": "das Missverständnis",
+    "article": "das",
+    "ru": "недоразумение",
+    "en": "misunderstanding",
+    "exampleDe": "Der Streit beruhte auf einem Missverständnis.",
+    "exampleRu": "Ссора была основана на недоразумении.",
+    "exampleEn": "The argument was based on a misunderstanding.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "kommunikation",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_157",
+    "de": "das Vorbild",
+    "article": "das",
+    "ru": "пример для подражания, образец",
+    "en": "role model, example",
+    "exampleDe": "Ihre Mutter ist für sie ein großes Vorbild.",
+    "exampleRu": "Мать для неё большой пример для подражания.",
+    "exampleEn": "Her mother is a great role model for her.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_b1_158",
+    "de": "die Geduld",
+    "article": "die",
+    "ru": "терпение",
+    "en": "patience",
+    "exampleDe": "Für diese Arbeit braucht man viel Geduld.",
+    "exampleRu": "Для этой работы нужно много терпения.",
+    "exampleEn": "This work requires a lot of patience.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gefühle",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_159",
+    "de": "die Neugier",
+    "article": "die",
+    "ru": "любопытство",
+    "en": "curiosity",
+    "exampleDe": "Aus Neugier habe ich das Paket geöffnet.",
+    "exampleRu": "Из любопытства я открыл посылку.",
+    "exampleEn": "Out of curiosity I opened the parcel.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gefühle",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_160",
+    "de": "der Widerspruch",
+    "article": "der",
+    "ru": "противоречие; возражение",
+    "en": "contradiction; objection",
+    "exampleDe": "In seiner Aussage steckt ein klarer Widerspruch.",
+    "exampleRu": "В его высказывании есть явное противоречие.",
+    "exampleEn": "There is a clear contradiction in his statement.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "diskussion",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b1_161",
+    "de": "der Anspruch",
+    "article": "der",
+    "ru": "притязание, требование; право",
+    "en": "claim; demand",
+    "exampleDe": "Sie hat Anspruch auf eine Rückzahlung.",
+    "exampleRu": "Она имеет право на возврат денег.",
+    "exampleEn": "She is entitled to a refund.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "recht",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_162",
+    "de": "die Sehnsucht",
+    "article": "die",
+    "ru": "тоска, страстное желание",
+    "en": "longing, yearning",
+    "exampleDe": "Er spürte große Sehnsucht nach seiner Familie.",
+    "exampleRu": "Он испытывал сильную тоску по своей семье.",
+    "exampleEn": "He felt a great longing for his family.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gefühle",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_163",
+    "de": "der Umzug",
+    "article": "der",
+    "ru": "переезд",
+    "en": "move, relocation",
+    "exampleDe": "Der Umzug in die neue Wohnung war anstrengend.",
+    "exampleRu": "Переезд в новую квартиру был утомительным.",
+    "exampleEn": "The move to the new flat was exhausting.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "wohnen",
+      "alltag"
+    ]
+  },
+  {
+    "id": "w_b1_164",
+    "de": "das Vertrauen",
+    "article": "das",
+    "ru": "доверие",
+    "en": "trust",
+    "exampleDe": "Ohne Vertrauen funktioniert kein Team.",
+    "exampleRu": "Без доверия ни одна команда не работает.",
+    "exampleEn": "No team works without trust.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "menschen",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_165",
+    "de": "das Erlebnis",
+    "article": "das",
+    "ru": "переживание, впечатление",
+    "en": "experience",
+    "exampleDe": "Die Reise war ein unvergessliches Erlebnis.",
+    "exampleRu": "Поездка стала незабываемым впечатлением.",
+    "exampleEn": "The trip was an unforgettable experience.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "freizeit",
+      "gefühle"
+    ]
+  },
+  {
+    "id": "w_b1_166",
+    "de": "die Wirkung",
+    "article": "die",
+    "ru": "действие, воздействие, эффект",
+    "en": "effect",
+    "exampleDe": "Das Medikament zeigt schon nach einer Stunde Wirkung.",
+    "exampleRu": "Лекарство действует уже через час.",
+    "exampleEn": "The medicine takes effect after just an hour.",
+    "level": "B1",
+    "tags": [
+      "substantiv",
+      "gesundheit",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b1_167",
+    "de": "behaupten",
+    "article": "",
+    "ru": "утверждать",
+    "en": "to claim, to assert",
+    "exampleDe": "Er behauptet, nichts davon gewusst zu haben.",
+    "exampleRu": "Он утверждает, что ничего об этом не знал.",
+    "exampleEn": "He claims not to have known anything about it.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "diskussion",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b1_168",
+    "de": "erwähnen",
+    "article": "",
+    "ru": "упоминать",
+    "en": "to mention",
+    "exampleDe": "Sie hat den Termin gestern kurz erwähnt.",
+    "exampleRu": "Вчера она коротко упомянула о встрече.",
+    "exampleEn": "She briefly mentioned the appointment yesterday.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "kommunikation",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b1_169",
+    "de": "verzichten",
+    "article": "",
+    "ru": "отказываться (от чего-то)",
+    "en": "to do without, to give up",
+    "exampleDe": "Ich verzichte heute auf den Nachtisch.",
+    "exampleRu": "Сегодня я откажусь от десерта.",
+    "exampleEn": "I will do without dessert today.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "alltag",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b1_170",
+    "de": "beobachten",
+    "article": "",
+    "ru": "наблюдать",
+    "en": "to observe, to watch",
+    "exampleDe": "Wir beobachten die Vögel im Garten.",
+    "exampleRu": "Мы наблюдаем за птицами в саду.",
+    "exampleEn": "We are watching the birds in the garden.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "wissenschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b1_171",
+    "de": "zweifeln",
+    "article": "",
+    "ru": "сомневаться",
+    "en": "to doubt",
+    "exampleDe": "Ich zweifle an seiner Erklärung.",
+    "exampleRu": "Я сомневаюсь в его объяснении.",
+    "exampleEn": "I doubt his explanation.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "diskussion",
+      "gefühle"
+    ]
+  },
+  {
+    "id": "w_b1_172",
+    "de": "erwarten",
+    "article": "",
+    "ru": "ожидать",
+    "en": "to expect",
+    "exampleDe": "Wir erwarten die Gäste gegen sieben Uhr.",
+    "exampleRu": "Мы ждём гостей около семи часов.",
+    "exampleEn": "We are expecting the guests around seven o'clock.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "alltag",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b1_173",
+    "de": "gestehen",
+    "article": "",
+    "ru": "признаваться",
+    "en": "to confess, to admit",
+    "exampleDe": "Er gestand seinen Fehler sofort.",
+    "exampleRu": "Он сразу признал свою ошибку.",
+    "exampleEn": "He confessed his mistake immediately.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "kommunikation",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b1_174",
+    "de": "verschieben",
+    "article": "",
+    "ru": "переносить (по времени); сдвигать",
+    "en": "to postpone; to move",
+    "exampleDe": "Wir verschieben das Treffen auf nächste Woche.",
+    "exampleRu": "Мы переносим встречу на следующую неделю.",
+    "exampleEn": "We are postponing the meeting to next week.",
+    "level": "B1",
+    "tags": [
+      "verb",
+      "arbeit",
+      "zeit"
+    ]
+  },
+  {
+    "id": "w_b1_175",
+    "de": "anstrengend",
+    "article": "",
+    "ru": "утомительный, тяжёлый",
+    "en": "exhausting, strenuous",
+    "exampleDe": "Der Umzug war körperlich sehr anstrengend.",
+    "exampleRu": "Переезд был физически очень утомительным.",
+    "exampleEn": "The move was physically very exhausting.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "gesundheit"
+    ]
+  },
+  {
+    "id": "w_b1_176",
+    "de": "selbstverständlich",
+    "article": "",
+    "ru": "само собой разумеющийся; конечно",
+    "en": "self-evident; of course",
+    "exampleDe": "Es ist selbstverständlich, dass wir helfen.",
+    "exampleRu": "Само собой разумеется, что мы поможем.",
+    "exampleEn": "It goes without saying that we will help.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "gesellschaft",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b1_177",
+    "de": "aufmerksam",
+    "article": "",
+    "ru": "внимательный",
+    "en": "attentive",
+    "exampleDe": "Die Schüler hörten aufmerksam zu.",
+    "exampleRu": "Ученики внимательно слушали.",
+    "exampleEn": "The pupils listened attentively.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "bildung",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_178",
+    "de": "erstaunlich",
+    "article": "",
+    "ru": "удивительный",
+    "en": "astonishing",
+    "exampleDe": "Sie spricht erstaunlich gut Japanisch.",
+    "exampleRu": "Она удивительно хорошо говорит по-японски.",
+    "exampleEn": "She speaks Japanese astonishingly well.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "bewertung",
+      "gefühle"
+    ]
+  },
+  {
+    "id": "w_b1_179",
+    "de": "gelassen",
+    "article": "",
+    "ru": "спокойный, невозмутимый",
+    "en": "calm, composed",
+    "exampleDe": "Sie blieb auch in der Prüfung ganz gelassen.",
+    "exampleRu": "Она и на экзамене оставалась совершенно спокойной.",
+    "exampleEn": "She remained completely calm even in the exam.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "gefühle",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b1_180",
+    "de": "beliebt",
+    "article": "",
+    "ru": "популярный, любимый",
+    "en": "popular",
+    "exampleDe": "Dieses Café ist bei Studenten sehr beliebt.",
+    "exampleRu": "Это кафе очень популярно у студентов.",
+    "exampleEn": "This café is very popular with students.",
+    "level": "B1",
+    "tags": [
+      "adjektiv",
+      "gesellschaft",
+      "bewertung"
+    ]
+  }
+]

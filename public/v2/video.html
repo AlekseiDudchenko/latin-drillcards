@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>DrillCards · Видео</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head><body><main class="dc-demo dc-sentences dc-video">
+  <header><strong><a class="dc-brand" href="./today.html">DrillCards</a> · <span id="title">Видео</span></strong>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+  </header>
+  <nav class="dc-sentence-filters">
+    <label><span id="videoLabel">Видео</span> <select id="video"></select></label>
+    <label><span id="translationLabel">Язык перевода</span> <select id="translation"><option value="ru">RU</option><option value="en">EN</option></select></label>
+    <span class="dc-listening-modes" role="group" aria-labelledby="taskLabel"><span id="taskLabel">Задание</span>
+      <button id="viewDictation" type="button" aria-pressed="true"></button><button id="viewSentences" type="button" aria-pressed="false"></button></span>
+    <span id="modeGroup" class="dc-listening-modes" role="group" aria-labelledby="modeLabel"><span id="modeLabel">Ответ</span>
+      <button id="modeTokens" type="button" aria-pressed="true"></button><button id="modeText" type="button" aria-pressed="false"></button></span>
+  </nav>
+  <p id="noAssembly" class="dc-sentence-meta"></p>
+  <div id="player" class="dc-video-player" hidden></div>
+  <div id="mediaNotice" class="dc-speech-warning" role="status" hidden><span id="mediaMessage"></span>
+    <button id="mediaRetry" type="button" hidden></button> <button id="speakFallback" type="button" hidden></button></div>
+  <p id="meta" class="dc-sentence-meta"></p>
+  <div class="dc-listening-audio"><button id="replay" type="button" hidden disabled></button></div>
+  <div id="card"></div>
+  <div id="finished" class="dc-video-finished" hidden><p id="finishedText" class="dc-status" data-kind="correct"></p><button id="restart" type="button"></button></div>
+  <div class="dc-session-actions">
+    <button id="tryAgain" type="button" hidden></button>
+    <button id="previous" type="button"></button><button id="retrySave" type="button" hidden></button>
+  </div>
+  <div id="extra" class="dc-sentence-extra"></div>
+  <p id="stats" class="dc-sentence-stats"></p>
+  <p id="keyboard" class="dc-sentence-keys"></p>
+  <p id="notice" class="dc-session-notice" role="status" aria-live="polite"></p>
+</main><script type="module">await import("../retire-v1.js"); await import("./families/video/video-page.js");</script></body></html>

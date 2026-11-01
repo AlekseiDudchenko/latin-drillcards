@@ -1,0 +1,1920 @@
+[
+  {
+    "id": "s_b2_1",
+    "target": "Hätte ich das vorher gewusst, hätte ich mich anders entschieden.",
+    "tokens": [
+      "Hätte",
+      "ich",
+      "das",
+      "vorher",
+      "gewusst,",
+      "hätte",
+      "ich",
+      "mich",
+      "anders",
+      "entschieden"
+    ],
+    "type": "drag",
+    "explanation": "Konjunktiv II Vergangenheit: irrealer Bedingungssatz im Plusquamperfekt.",
+    "translation_en": "If I had known that before, I would have decided differently.",
+    "translation_ru": "Если бы я знал это раньше, я бы решил иначе.",
+    "level": "B2",
+    "tags": [
+      "konjunktiv_ii"
+    ]
+  },
+  {
+    "id": "s_b2_2",
+    "target": "Wäre die Lage nicht so ernst, könnte man darüber lachen.",
+    "tokens": [
+      "Wäre",
+      "die",
+      "Lage",
+      "nicht",
+      "so",
+      "ernst,",
+      "könnte",
+      "man",
+      "darüber",
+      "lachen"
+    ],
+    "type": "drag",
+    "explanation": "Konjunktiv II Gegenwart mit Inversion: irreale Bedingung ohne 'wenn'.",
+    "translation_en": "If the situation weren't so serious, one could laugh about it.",
+    "translation_ru": "Если бы ситуация не была такой серьёзной, можно было бы посмеяться.",
+    "level": "B2",
+    "tags": [
+      "konjunktiv_ii"
+    ]
+  },
+  {
+    "id": "s_b2_3",
+    "target": "Das Problem muss so schnell wie möglich gelöst werden.",
+    "tokens": [
+      "Das",
+      "Problem",
+      "muss",
+      "so",
+      "schnell",
+      "wie",
+      "möglich",
+      "gelöst",
+      "werden"
+    ],
+    "type": "drag",
+    "explanation": "Passiv mit Modalverb: müssen + Partizip II + werden.",
+    "translation_en": "The problem must be solved as quickly as possible.",
+    "translation_ru": "Проблема должна быть решена как можно быстрее.",
+    "level": "B2",
+    "tags": [
+      "passiv"
+    ]
+  },
+  {
+    "id": "s_b2_4",
+    "target": "Die Ergebnisse lassen sich nicht ohne Weiteres auf andere Bereiche übertragen.",
+    "tokens": [
+      "Die",
+      "Ergebnisse",
+      "lassen",
+      "sich",
+      "nicht",
+      "ohne",
+      "Weiteres",
+      "auf",
+      "andere",
+      "Bereiche",
+      "übertragen"
+    ],
+    "type": "drag",
+    "explanation": "Passiversatz mit 'sich lassen': alternative Passivkonstruktion.",
+    "translation_en": "The results cannot easily be transferred to other areas.",
+    "translation_ru": "Результаты нельзя без дальнейшего перенести на другие области.",
+    "level": "B2",
+    "tags": [
+      "passiv"
+    ]
+  },
+  {
+    "id": "s_b2_5",
+    "target": "Die steigenden Energiepreise belasten vor allem einkommensschwache Haushalte.",
+    "tokens": [
+      "Die",
+      "steigenden",
+      "Energiepreise",
+      "belasten",
+      "vor",
+      "allem",
+      "einkommensschwache",
+      "Haushalte"
+    ],
+    "type": "drag",
+    "explanation": "Partizip I als Attribut: 'steigend' vor dem Nomen.",
+    "translation_en": "The rising energy prices burden low-income households in particular.",
+    "translation_ru": "Растущие цены на энергоносители обременяют прежде всего малообеспеченные домохозяйства.",
+    "level": "B2",
+    "tags": [
+      "partizip"
+    ]
+  },
+  {
+    "id": "s_b2_6",
+    "target": "Der kürzlich veröffentlichte Bericht enthält überraschende Ergebnisse.",
+    "tokens": [
+      "Der",
+      "kürzlich",
+      "veröffentlichte",
+      "Bericht",
+      "enthält",
+      "überraschende",
+      "Ergebnisse"
+    ],
+    "type": "drag",
+    "explanation": "Partizip II als Attribut: 'veröffentlicht' + Partizip I 'überraschend' als Adjektive.",
+    "translation_en": "The recently published report contains surprising results.",
+    "translation_ru": "Недавно опубликованный отчёт содержит удивительные результаты.",
+    "level": "B2",
+    "tags": [
+      "partizip"
+    ]
+  },
+  {
+    "id": "s_b2_7",
+    "target": "Die Verbesserung der Infrastruktur erfordert erhebliche Investitionen.",
+    "tokens": [
+      "Die",
+      "Verbesserung",
+      "der",
+      "Infrastruktur",
+      "erfordert",
+      "erhebliche",
+      "Investitionen"
+    ],
+    "type": "drag",
+    "explanation": "Nominalisierung: 'die Verbesserung' statt 'verbessern' — typisch für formelle Texte.",
+    "translation_en": "The improvement of infrastructure requires considerable investments.",
+    "translation_ru": "Улучшение инфраструктуры требует значительных инвестиций.",
+    "level": "B2",
+    "tags": [
+      "nominalisierung"
+    ]
+  },
+  {
+    "id": "s_b2_8",
+    "target": "Zur Vermeidung von Missverständnissen sollten alle Vereinbarungen schriftlich festgehalten werden.",
+    "tokens": [
+      "Zur",
+      "Vermeidung",
+      "von",
+      "Missverständnissen",
+      "sollten",
+      "alle",
+      "Vereinbarungen",
+      "schriftlich",
+      "festgehalten",
+      "werden"
+    ],
+    "type": "drag",
+    "explanation": "Nominalisierung mit Präposition: 'zur Vermeidung' statt 'um zu vermeiden'.",
+    "translation_en": "To avoid misunderstandings, all agreements should be recorded in writing.",
+    "translation_ru": "Во избежание недоразумений все договорённости следует фиксировать письменно.",
+    "level": "B2",
+    "tags": [
+      "nominalisierung"
+    ]
+  },
+  {
+    "id": "s_b2_9",
+    "target": "Je länger man wartet, desto schwieriger wird die Lösung des Problems.",
+    "tokens": [
+      "Je",
+      "länger",
+      "man",
+      "wartet,",
+      "desto",
+      "schwieriger",
+      "wird",
+      "die",
+      "Lösung",
+      "des",
+      "Problems"
+    ],
+    "type": "drag",
+    "explanation": "Zweiteiliger Konnektor 'je...desto' mit Komparativ.",
+    "translation_en": "The longer one waits, the more difficult the solution of the problem becomes.",
+    "translation_ru": "Чем дольше ждёшь, тем сложнее становится решение проблемы.",
+    "level": "B2",
+    "tags": [
+      "konnektoren"
+    ]
+  },
+  {
+    "id": "s_b2_10",
+    "target": "Weder die Regierung noch die Opposition konnte einen überzeugenden Vorschlag vorlegen.",
+    "tokens": [
+      "Weder",
+      "die",
+      "Regierung",
+      "noch",
+      "die",
+      "Opposition",
+      "konnte",
+      "einen",
+      "überzeugenden",
+      "Vorschlag",
+      "vorlegen"
+    ],
+    "type": "drag",
+    "explanation": "Zweiteiliger Konnektor 'weder...noch': doppelte Verneinung.",
+    "translation_en": "Neither the government nor the opposition could present a convincing proposal.",
+    "translation_ru": "Ни правительство, ни оппозиция не смогли представить убедительное предложение.",
+    "level": "B2",
+    "tags": [
+      "konnektoren"
+    ]
+  },
+  {
+    "id": "s_b2_11",
+    "target": "Obwohl er sich gründlich vorbereitet hatte, fiel die Prüfung schwerer als erwartet.",
+    "tokens": [
+      "Obwohl",
+      "er",
+      "sich",
+      "gründlich",
+      "vorbereitet",
+      "hatte,",
+      "fiel",
+      "die",
+      "Prüfung",
+      "schwerer",
+      "als",
+      "erwartet"
+    ],
+    "type": "drag",
+    "explanation": "Konzessivsatz mit 'obwohl' + Plusquamperfekt im Nebensatz.",
+    "translation_en": "Although he had prepared thoroughly, the exam was harder than expected.",
+    "translation_ru": "Хотя он тщательно подготовился, экзамен оказался сложнее, чем ожидалось.",
+    "level": "B2",
+    "tags": [
+      "konzessivsatz"
+    ],
+    "variant_of": "s_b2_11v"
+  },
+  {
+    "id": "s_b2_11v",
+    "target": "Die Prüfung fiel schwerer als erwartet, obwohl er sich gründlich vorbereitet hatte.",
+    "tokens": [
+      "Die",
+      "Prüfung",
+      "fiel",
+      "schwerer",
+      "als",
+      "erwartet,",
+      "obwohl",
+      "er",
+      "sich",
+      "gründlich",
+      "vorbereitet",
+      "hatte"
+    ],
+    "type": "drag",
+    "variant_of": "s_b2_11",
+    "translation_en": "The exam was harder than expected, although he had prepared thoroughly.",
+    "translation_ru": "Экзамен оказался сложнее, чем ожидалось, хотя он тщательно подготовился.",
+    "level": "B2",
+    "tags": [
+      "konzessivsatz"
+    ]
+  },
+  {
+    "id": "s_b2_12",
+    "target": "Wenngleich die Kritik berechtigt ist, sollte man die erzielten Fortschritte nicht übersehen.",
+    "tokens": [
+      "Wenngleich",
+      "die",
+      "Kritik",
+      "berechtigt",
+      "ist,",
+      "sollte",
+      "man",
+      "die",
+      "erzielten",
+      "Fortschritte",
+      "nicht",
+      "übersehen"
+    ],
+    "type": "drag",
+    "explanation": "Formaler Konzessivsatz mit 'wenngleich' — gehobene Alternative zu 'obwohl'.",
+    "translation_en": "Although the criticism is justified, one should not overlook the progress achieved.",
+    "translation_ru": "Хотя критика обоснована, не следует упускать из виду достигнутый прогресс.",
+    "level": "B2",
+    "tags": [
+      "konzessivsatz"
+    ],
+    "variant_of": "s_b2_12v"
+  },
+  {
+    "id": "s_b2_12v",
+    "target": "Man sollte die erzielten Fortschritte nicht übersehen, wenngleich die Kritik berechtigt ist.",
+    "tokens": [
+      "Man",
+      "sollte",
+      "die",
+      "erzielten",
+      "Fortschritte",
+      "nicht",
+      "übersehen,",
+      "wenngleich",
+      "die",
+      "Kritik",
+      "berechtigt",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_b2_12",
+    "translation_en": "One should not overlook the progress achieved, although the criticism is justified.",
+    "translation_ru": "Не следует упускать из виду достигнутый прогресс, хотя критика обоснована.",
+    "level": "B2",
+    "tags": [
+      "konzessivsatz"
+    ]
+  },
+  {
+    "id": "s_b2_13",
+    "target": "Sofern alle Unterlagen vollständig eingereicht werden, erfolgt die Bearbeitung innerhalb von zwei Wochen.",
+    "tokens": [
+      "Sofern",
+      "alle",
+      "Unterlagen",
+      "vollständig",
+      "eingereicht",
+      "werden,",
+      "erfolgt",
+      "die",
+      "Bearbeitung",
+      "innerhalb",
+      "von",
+      "zwei",
+      "Wochen"
+    ],
+    "type": "drag",
+    "explanation": "Formaler Konditionalsatz mit 'sofern' — gehobene Alternative zu 'wenn'.",
+    "translation_en": "Provided that all documents are submitted in full, processing will take place within two weeks.",
+    "translation_ru": "При условии, что все документы поданы в полном объёме, обработка займёт не более двух недель.",
+    "level": "B2",
+    "tags": [
+      "konditionalsatz"
+    ],
+    "variant_of": "s_b2_13v"
+  },
+  {
+    "id": "s_b2_13v",
+    "target": "Die Bearbeitung erfolgt innerhalb von zwei Wochen, sofern alle Unterlagen vollständig eingereicht werden.",
+    "tokens": [
+      "Die",
+      "Bearbeitung",
+      "erfolgt",
+      "innerhalb",
+      "von",
+      "zwei",
+      "Wochen,",
+      "sofern",
+      "alle",
+      "Unterlagen",
+      "vollständig",
+      "eingereicht",
+      "werden"
+    ],
+    "type": "drag",
+    "variant_of": "s_b2_13",
+    "translation_en": "Processing will take place within two weeks, provided that all documents are submitted in full.",
+    "translation_ru": "Обработка займёт не более двух недель, при условии, что все документы поданы в полном объёме.",
+    "level": "B2",
+    "tags": [
+      "konditionalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_14",
+    "target": "Sollten Sie weitere Fragen haben, stehen wir Ihnen jederzeit zur Verfügung.",
+    "tokens": [
+      "Sollten",
+      "Sie",
+      "weitere",
+      "Fragen",
+      "haben,",
+      "stehen",
+      "wir",
+      "Ihnen",
+      "jederzeit",
+      "zur",
+      "Verfügung"
+    ],
+    "type": "drag",
+    "explanation": "Konditionalsatz mit Inversion: 'sollte' am Satzanfang statt 'wenn...sollte'.",
+    "translation_en": "Should you have any further questions, we are at your disposal at any time.",
+    "translation_ru": "Если у вас возникнут дополнительные вопросы, мы всегда к вашим услугам.",
+    "level": "B2",
+    "tags": [
+      "konditionalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_15",
+    "target": "Die Konferenz wurde verschoben, damit alle Teilnehmer ausreichend Zeit zur Vorbereitung haben.",
+    "tokens": [
+      "Die",
+      "Konferenz",
+      "wurde",
+      "verschoben,",
+      "damit",
+      "alle",
+      "Teilnehmer",
+      "ausreichend",
+      "Zeit",
+      "zur",
+      "Vorbereitung",
+      "haben"
+    ],
+    "type": "drag",
+    "explanation": "Finalsatz mit 'damit' — Zweck/Ziel mit eigenem Subjekt im Nebensatz.",
+    "translation_en": "The conference was postponed so that all participants have enough time to prepare.",
+    "translation_ru": "Конференция была перенесена, чтобы у всех участников было достаточно времени на подготовку.",
+    "level": "B2",
+    "tags": [
+      "finalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_16",
+    "target": "Er hat das Land verlassen, um einer Strafverfolgung zu entgehen.",
+    "tokens": [
+      "Er",
+      "hat",
+      "das",
+      "Land",
+      "verlassen,",
+      "um",
+      "einer",
+      "Strafverfolgung",
+      "zu",
+      "entgehen"
+    ],
+    "type": "drag",
+    "explanation": "Finalsatz mit 'um...zu' + Dativ: gleiches Subjekt in Haupt- und Nebensatz.",
+    "translation_en": "He left the country in order to escape criminal prosecution.",
+    "translation_ru": "Он покинул страну, чтобы избежать уголовного преследования.",
+    "level": "B2",
+    "tags": [
+      "finalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_17",
+    "target": "Indem man regelmäßig Feedback einholt, kann man die Zusammenarbeit nachhaltig verbessern.",
+    "tokens": [
+      "Indem",
+      "man",
+      "regelmäßig",
+      "Feedback",
+      "einholt,",
+      "kann",
+      "man",
+      "die",
+      "Zusammenarbeit",
+      "nachhaltig",
+      "verbessern"
+    ],
+    "type": "drag",
+    "explanation": "Modalsatz mit 'indem': beschreibt die Art und Weise einer Handlung.",
+    "translation_en": "By regularly obtaining feedback, one can sustainably improve cooperation.",
+    "translation_ru": "Регулярно запрашивая обратную связь, можно устойчиво улучшить сотрудничество.",
+    "level": "B2",
+    "tags": [
+      "modalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_18",
+    "target": "Er verließ das Gebäude, ohne sich von seinen Kollegen zu verabschieden.",
+    "tokens": [
+      "Er",
+      "verließ",
+      "das",
+      "Gebäude,",
+      "ohne",
+      "sich",
+      "von",
+      "seinen",
+      "Kollegen",
+      "zu",
+      "verabschieden"
+    ],
+    "type": "drag",
+    "explanation": "Modalsatz mit 'ohne...zu': negierte Begleithandlung.",
+    "translation_en": "He left the building without saying goodbye to his colleagues.",
+    "translation_ru": "Он покинул здание, не попрощавшись с коллегами.",
+    "level": "B2",
+    "tags": [
+      "modalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_19",
+    "target": "Aufgrund der anhaltenden Trockenheit mussten zahlreiche Ernten vorzeitig abgebrochen werden.",
+    "tokens": [
+      "Aufgrund",
+      "der",
+      "anhaltenden",
+      "Trockenheit",
+      "mussten",
+      "zahlreiche",
+      "Ernten",
+      "vorzeitig",
+      "abgebrochen",
+      "werden"
+    ],
+    "type": "drag",
+    "explanation": "Kausale Präposition 'aufgrund' + Genitiv + Passiv mit Modalverb.",
+    "translation_en": "Due to the persistent drought, numerous harvests had to be terminated prematurely.",
+    "translation_ru": "Из-за продолжающейся засухи многие сборы урожая пришлось досрочно прекратить.",
+    "level": "B2",
+    "tags": [
+      "kausalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_20",
+    "target": "Da die Nachfrage stark gestiegen ist, werden die Lieferzeiten voraussichtlich länger ausfallen.",
+    "tokens": [
+      "Da",
+      "die",
+      "Nachfrage",
+      "stark",
+      "gestiegen",
+      "ist,",
+      "werden",
+      "die",
+      "Lieferzeiten",
+      "voraussichtlich",
+      "länger",
+      "ausfallen"
+    ],
+    "type": "drag",
+    "explanation": "Kausalsatz mit 'da' + Perfekt im Nebensatz; formeller als 'weil'.",
+    "translation_en": "Since demand has risen sharply, delivery times will presumably be longer.",
+    "translation_ru": "Поскольку спрос сильно вырос, сроки поставки, вероятно, увеличатся.",
+    "level": "B2",
+    "tags": [
+      "kausalsatz"
+    ],
+    "variant_of": "s_b2_20v"
+  },
+  {
+    "id": "s_b2_20v",
+    "target": "Die Lieferzeiten werden voraussichtlich länger ausfallen, da die Nachfrage stark gestiegen ist.",
+    "tokens": [
+      "Die",
+      "Lieferzeiten",
+      "werden",
+      "voraussichtlich",
+      "länger",
+      "ausfallen,",
+      "da",
+      "die",
+      "Nachfrage",
+      "stark",
+      "gestiegen",
+      "ist"
+    ],
+    "type": "drag",
+    "variant_of": "s_b2_20",
+    "translation_en": "Delivery times will presumably be longer since demand has risen sharply.",
+    "translation_ru": "Сроки поставки, вероятно, увеличатся, поскольку спрос сильно вырос.",
+    "level": "B2",
+    "tags": [
+      "kausalsatz"
+    ]
+  },
+  {
+    "id": "s_b2_21",
+    "target": "Das ist ein Thema, worüber in der Öffentlichkeit kaum gesprochen wird.",
+    "tokens": [
+      "Das",
+      "ist",
+      "ein",
+      "Thema,",
+      "worüber",
+      "in",
+      "der",
+      "Öffentlichkeit",
+      "kaum",
+      "gesprochen",
+      "wird"
+    ],
+    "type": "drag",
+    "explanation": "Relativsatz mit 'worüber' statt 'über das' — Pronominaladverb als Relativpronomen.",
+    "translation_en": "This is a topic that is hardly discussed in public.",
+    "translation_ru": "Это тема, о которой в обществе почти не говорят.",
+    "level": "B2",
+    "tags": [
+      "relativsatz"
+    ]
+  },
+  {
+    "id": "s_b2_22",
+    "target": "Er bekam die Stelle, was niemanden in der Abteilung überraschte.",
+    "tokens": [
+      "Er",
+      "bekam",
+      "die",
+      "Stelle,",
+      "was",
+      "niemanden",
+      "in",
+      "der",
+      "Abteilung",
+      "überraschte"
+    ],
+    "type": "drag",
+    "explanation": "Weiterführender Relativsatz mit 'was' — bezieht sich auf den ganzen Hauptsatz.",
+    "translation_en": "He got the position, which surprised nobody in the department.",
+    "translation_ru": "Он получил должность, что никого в отделе не удивило.",
+    "level": "B2",
+    "tags": [
+      "relativsatz"
+    ]
+  },
+  {
+    "id": "s_b2_23",
+    "target": "Der Minister erklärte, die Regierung werde alle notwendigen Maßnahmen ergreifen.",
+    "tokens": [
+      "Der",
+      "Minister",
+      "erklärte,",
+      "die",
+      "Regierung",
+      "werde",
+      "alle",
+      "notwendigen",
+      "Maßnahmen",
+      "ergreifen"
+    ],
+    "type": "drag",
+    "explanation": "Indirekte Rede mit Konjunktiv I: 'werde' statt 'wird'.",
+    "translation_en": "The minister stated that the government would take all necessary measures.",
+    "translation_ru": "Министр заявил, что правительство примет все необходимые меры.",
+    "level": "B2",
+    "tags": [
+      "indirekte_rede"
+    ]
+  },
+  {
+    "id": "s_b2_24",
+    "target": "Die Sprecherin betonte, man habe bereits erste Schritte eingeleitet.",
+    "tokens": [
+      "Die",
+      "Sprecherin",
+      "betonte,",
+      "man",
+      "habe",
+      "bereits",
+      "erste",
+      "Schritte",
+      "eingeleitet"
+    ],
+    "type": "drag",
+    "explanation": "Indirekte Rede mit Konjunktiv I Perfekt: 'habe eingeleitet'.",
+    "translation_en": "The spokesperson emphasized that initial steps had already been taken.",
+    "translation_ru": "Представительница подчеркнула, что первые шаги уже были предприняты.",
+    "level": "B2",
+    "tags": [
+      "indirekte_rede"
+    ]
+  },
+  {
+    "id": "s_b2_25",
+    "target": "Die Ergebnisse sollten in Betracht gezogen werden, bevor eine Entscheidung getroffen wird.",
+    "tokens": [
+      "Die",
+      "Ergebnisse",
+      "sollten",
+      "in",
+      "Betracht",
+      "gezogen",
+      "werden,",
+      "bevor",
+      "eine",
+      "Entscheidung",
+      "getroffen",
+      "wird"
+    ],
+    "type": "drag",
+    "explanation": "Nomen-Verb-Verbindung: 'in Betracht ziehen' + 'eine Entscheidung treffen'.",
+    "translation_en": "The results should be taken into consideration before a decision is made.",
+    "translation_ru": "Результаты следует принять во внимание, прежде чем будет принято решение.",
+    "level": "B2",
+    "tags": [
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "s_b2_26",
+    "target": "Die Firma hat die Entscheidung getroffen, den Standort zu verlagern.",
+    "tokens": [
+      "Die",
+      "Firma",
+      "hat",
+      "die",
+      "Entscheidung",
+      "getroffen,",
+      "den",
+      "Standort",
+      "zu",
+      "verlagern"
+    ],
+    "type": "drag",
+    "explanation": "Nomen-Verb-Verbindung: 'eine Entscheidung treffen' + Infinitiv mit 'zu'.",
+    "translation_en": "The company has made the decision to relocate its site.",
+    "translation_ru": "Фирма приняла решение перенести местоположение.",
+    "level": "B2",
+    "tags": [
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "s_b2_27",
+    "target": "Angesichts der wachsenden Unzufriedenheit sah sich die Leitung zum Handeln gezwungen.",
+    "tokens": [
+      "Angesichts",
+      "der",
+      "wachsenden",
+      "Unzufriedenheit",
+      "sah",
+      "sich",
+      "die",
+      "Leitung",
+      "zum",
+      "Handeln",
+      "gezwungen"
+    ],
+    "type": "drag",
+    "explanation": "Genitivpräposition 'angesichts' + Partizip I als Attribut + reflexive Konstruktion.",
+    "translation_en": "In view of the growing dissatisfaction, the management felt compelled to act.",
+    "translation_ru": "Ввиду растущего недовольства руководство было вынуждено действовать.",
+    "level": "B2",
+    "tags": [
+      "praepositionen"
+    ]
+  },
+  {
+    "id": "s_b2_28",
+    "target": "Infolge des technischen Defekts kam es zu erheblichen Verzögerungen im Betriebsablauf.",
+    "tokens": [
+      "Infolge",
+      "des",
+      "technischen",
+      "Defekts",
+      "kam",
+      "es",
+      "zu",
+      "erheblichen",
+      "Verzögerungen",
+      "im",
+      "Betriebsablauf"
+    ],
+    "type": "drag",
+    "explanation": "Genitivpräposition 'infolge' + unpersönliches 'es kam zu' + Dativ.",
+    "translation_en": "As a result of the technical defect, there were considerable delays in operations.",
+    "translation_ru": "Вследствие технической неисправности произошли значительные задержки в рабочем процессе.",
+    "level": "B2",
+    "tags": [
+      "praepositionen"
+    ]
+  },
+  {
+    "id": "s_b2_29",
+    "target": "Da könnten die Temperaturen von Südwesteuropa her noch mal deutlich ansteigen.",
+    "tokens": [
+      "Da",
+      "könnten",
+      "die",
+      "Temperaturen",
+      "von",
+      "Südwesteuropa",
+      "her",
+      "noch",
+      "mal",
+      "deutlich",
+      "ansteigen."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "konjunktiv_ii"
+    ],
+    "explanation": "Konjunktiv II (könnten) expressing possibility; separable verb 'ansteigen'.",
+    "translation_en": "Temperatures could rise significantly again, coming from southwestern Europe.",
+    "translation_ru": "Там температура может снова значительно повыситься, поступая из юго-западной Европы."
+  },
+  {
+    "id": "s_b2_30",
+    "target": "Ob es noch mal bei uns die 40 Grad werden, das ist auch komplett unsicher.",
+    "tokens": [
+      "Ob",
+      "es",
+      "noch",
+      "mal",
+      "bei",
+      "uns",
+      "die",
+      "40",
+      "Grad",
+      "werden,",
+      "das",
+      "ist",
+      "auch",
+      "komplett",
+      "unsicher."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "indirekte_rede"
+    ],
+    "explanation": "ob-Satz as subject clause; 'das' as cataphoric pronoun resuming the ob-clause.",
+    "translation_en": "Whether temperatures will reach 40 degrees here again is also completely uncertain.",
+    "translation_ru": "Будет ли у нас снова 40 градусов — это тоже совершенно неясно."
+  },
+  {
+    "id": "s_b2_31",
+    "target": "Uniqlo hat in den vergangenen Jahren einen krassen Aufstieg hingelegt.",
+    "tokens": [
+      "Uniqlo",
+      "hat",
+      "in",
+      "den",
+      "vergangenen",
+      "Jahren",
+      "einen",
+      "krassen",
+      "Aufstieg",
+      "hingelegt."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "nomen_verb"
+    ],
+    "explanation": "Nomen-Verb-Verbindung: 'einen Aufstieg hinlegen' = to achieve a rise.",
+    "translation_en": "Uniqlo has achieved a dramatic rise in recent years.",
+    "translation_ru": "За последние годы Uniqlo добилась впечатляющего роста."
+  },
+  {
+    "id": "s_b2_32",
+    "target": "Dabei wäre Uniqlo mit ihrer Expansion in den Westen beinahe krachend gescheitert.",
+    "tokens": [
+      "Dabei",
+      "wäre",
+      "Uniqlo",
+      "mit",
+      "ihrer",
+      "Expansion",
+      "in",
+      "den",
+      "Westen",
+      "beinahe",
+      "krachend",
+      "gescheitert."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "konjunktiv_ii"
+    ],
+    "explanation": "Konjunktiv II Perfekt (wäre...gescheitert) expressing a near-failure that didn't happen.",
+    "translation_en": "Yet Uniqlo nearly failed catastrophically with its expansion into the West.",
+    "translation_ru": "При этом Uniqlo едва не потерпела сокрушительный провал при расширении на Запад."
+  },
+  {
+    "id": "s_b2_33",
+    "target": "Wenn ihr in einer deutschen Großstadt wohnt, sind euch in den vergangenen Monaten vielleicht große Schlangen vor bestimmten Geschäften aufgefallen.",
+    "tokens": [
+      "Wenn",
+      "ihr",
+      "in",
+      "einer",
+      "deutschen",
+      "Großstadt",
+      "wohnt,",
+      "sind",
+      "euch",
+      "in",
+      "den",
+      "vergangenen",
+      "Monaten",
+      "vielleicht",
+      "große",
+      "Schlangen",
+      "vor",
+      "bestimmten",
+      "Geschäften",
+      "aufgefallen."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "konditionalsatz"
+    ],
+    "explanation": "Conditional wenn-clause; dative 'euch' with separable verb 'auffallen' in Perfekt.",
+    "translation_en": "If you live in a major German city, you may have noticed long queues outside certain stores in recent months.",
+    "translation_ru": "Если вы живёте в крупном немецком городе, то в последние месяцы, возможно, заметили длинные очереди перед некоторыми магазинами."
+  },
+  {
+    "id": "s_b2_34",
+    "target": "So richtig durch die Decke geht Uniqlo aber erst in den 90ern.",
+    "tokens": [
+      "So",
+      "richtig",
+      "durch",
+      "die",
+      "Decke",
+      "geht",
+      "Uniqlo",
+      "aber",
+      "erst",
+      "in",
+      "den",
+      "90ern."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "konnektoren"
+    ],
+    "explanation": "Idiomatic 'durch die Decke gehen' (to skyrocket); inversion after fronted adverbial.",
+    "translation_en": "But Uniqlo didn't really take off until the 1990s.",
+    "translation_ru": "Но по-настоящему Uniqlo взлетел лишь в 90-е."
+  },
+  {
+    "id": "s_b2_35",
+    "target": "Denn aufgrund der Wirtschaftskrise sind günstige Klamotten in Japan auf einmal gefragter denn je.",
+    "tokens": [
+      "Denn",
+      "aufgrund",
+      "der",
+      "Wirtschaftskrise",
+      "sind",
+      "günstige",
+      "Klamotten",
+      "in",
+      "Japan",
+      "auf",
+      "einmal",
+      "gefragter",
+      "denn",
+      "je."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "kausalsatz",
+      "praepositionen"
+    ],
+    "explanation": "'aufgrund' (Genitivpräposition) + comparative 'gefragter denn je' (more in demand than ever).",
+    "translation_en": "Because of the economic crisis, affordable clothing in Japan suddenly became more in demand than ever.",
+    "translation_ru": "Ведь из-за экономического кризиса дешёвая одежда в Японии вдруг стала востребованнее, чем когда-либо."
+  },
+  {
+    "id": "s_b2_36",
+    "target": "Die 90er werden deshalb auch als Japans verlorenes Jahrzehnt bezeichnet.",
+    "tokens": [
+      "Die",
+      "90er",
+      "werden",
+      "deshalb",
+      "auch",
+      "als",
+      "Japans",
+      "verlorenes",
+      "Jahrzehnt",
+      "bezeichnet."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "passiv"
+    ],
+    "explanation": "Vorgangspassiv (werden + Partizip II); 'als' introducing a predicative appositive.",
+    "translation_en": "The 1990s are therefore also referred to as Japan's lost decade.",
+    "translation_ru": "Поэтому 90-е годы также называют «потерянным десятилетием Японии»."
+  },
+  {
+    "id": "s_b2_37",
+    "target": "Die Idee, kaufen sei immer besser als mieten, sei ein hartnäckiger Mythos.",
+    "tokens": [
+      "Die",
+      "Idee,",
+      "kaufen",
+      "sei",
+      "immer",
+      "besser",
+      "als",
+      "mieten,",
+      "sei",
+      "ein",
+      "hartnäckiger",
+      "Mythos."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "indirekte_rede"
+    ],
+    "explanation": "Konjunktiv I (sei) for reported speech in both the embedded clause and the main predication.",
+    "translation_en": "The idea that buying is always better than renting is a persistent myth.",
+    "translation_ru": "Идея о том, что покупка всегда лучше аренды, является устойчивым мифом."
+  },
+  {
+    "id": "s_b2_38",
+    "target": "Je mehr Eigenkapital du hast, desto geringer das Risiko für die Bank.",
+    "tokens": [
+      "Je",
+      "mehr",
+      "Eigenkapital",
+      "du",
+      "hast,",
+      "desto",
+      "geringer",
+      "das",
+      "Risiko",
+      "für",
+      "die",
+      "Bank."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "konditionalsatz"
+    ],
+    "explanation": "je...desto construction expressing proportional relationship.",
+    "translation_en": "The more equity you have, the lower the risk for the bank.",
+    "translation_ru": "Чем больше у тебя собственного капитала, тем меньше риск для банка."
+  },
+  {
+    "id": "s_b2_39",
+    "target": "Im schlimmsten Fall zahlst du weiter für ein Haus, in dem du nicht mehr wohnst.",
+    "tokens": [
+      "Im",
+      "schlimmsten",
+      "Fall",
+      "zahlst",
+      "du",
+      "weiter",
+      "für",
+      "ein",
+      "Haus,",
+      "in",
+      "dem",
+      "du",
+      "nicht",
+      "mehr",
+      "wohnst."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "relativsatz"
+    ],
+    "explanation": "Relativsatz with dative preposition 'in dem' (= worin).",
+    "translation_en": "In the worst case, you keep paying for a house you no longer live in.",
+    "translation_ru": "В худшем случае ты продолжаешь платить за дом, в котором больше не живёшь."
+  },
+  {
+    "id": "s_b2_40",
+    "target": "Sinkende Zinsen bedeuten niedrigere Raten, steigende Zinsen aber höhere.",
+    "tokens": [
+      "Sinkende",
+      "Zinsen",
+      "bedeuten",
+      "niedrigere",
+      "Raten,",
+      "steigende",
+      "Zinsen",
+      "aber",
+      "höhere."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "partizip"
+    ],
+    "explanation": "Partizip I as attributive adjective (sinkende, steigende); ellipsis of 'Raten' in second clause.",
+    "translation_en": "Falling interest rates mean lower payments, but rising interest rates mean higher ones.",
+    "translation_ru": "Снижение процентных ставок означает более низкие платежи, а рост ставок — более высокие."
+  },
+  {
+    "id": "s_b2_41",
+    "target": "Ohne Grundbucheintrag gehört dir das Haus offiziell gar nicht.",
+    "tokens": [
+      "Ohne",
+      "Grundbucheintrag",
+      "gehört",
+      "dir",
+      "das",
+      "Haus",
+      "offiziell",
+      "gar",
+      "nicht."
+    ],
+    "type": "drag",
+    "level": "B2",
+    "tags": [
+      "praepositionen"
+    ],
+    "explanation": "'ohne' + Akkusativ expressing the condition of absence; dative 'dir' with gehören.",
+    "translation_en": "Without a land registry entry, the house doesn't officially belong to you at all.",
+    "translation_ru": "Без записи в реестре недвижимости дом официально вовсе тебе не принадлежит."
+  },
+  {
+    "id": "s_b2_42",
+    "target": "Die Ergebnisse widersprechen der Theorie.",
+    "tokens": [
+      "Die",
+      "Ergebnisse",
+      "widersprechen",
+      "der",
+      "Theorie"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: widersprechen",
+    "translation_en": "The results contradict the theory.",
+    "translation_ru": "Результаты противоречат теории.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_43",
+    "target": "Der Kurs setzt Grundkenntnisse voraus.",
+    "tokens": [
+      "Der",
+      "Kurs",
+      "setzt",
+      "Grundkenntnisse",
+      "voraus"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: voraussetzen",
+    "translation_en": "The course presupposes basic knowledge.",
+    "translation_ru": "Курс предполагает базовые знания.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_44",
+    "target": "Stress kann die Leistung beeinflussen.",
+    "tokens": [
+      "Stress",
+      "kann",
+      "die",
+      "Leistung",
+      "beeinflussen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: beeinflussen",
+    "translation_en": "Stress can influence performance.",
+    "translation_ru": "Стресс может влиять на результативность.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_45",
+    "target": "Sie entwirft ein neues Konzept.",
+    "tokens": [
+      "Sie",
+      "entwirft",
+      "ein",
+      "neues",
+      "Konzept"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: entwerfen",
+    "translation_en": "She is drafting a new concept.",
+    "translation_ru": "Она разрабатывает новую концепцию.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_46",
+    "target": "Er überzeugte mich mit starken Argumenten.",
+    "tokens": [
+      "Er",
+      "überzeugte",
+      "mich",
+      "mit",
+      "starken",
+      "Argumenten"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: überzeugen",
+    "translation_en": "He convinced me with strong arguments.",
+    "translation_ru": "Он убедил меня вескими аргументами.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_47",
+    "target": "Sie lehnte das Angebot höflich ab.",
+    "tokens": [
+      "Sie",
+      "lehnte",
+      "das",
+      "Angebot",
+      "höflich",
+      "ab"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: ablehnen",
+    "translation_en": "She politely declined the offer.",
+    "translation_ru": "Она вежливо отклонила предложение.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_48",
+    "target": "Ich stimme deinem Vorschlag zu.",
+    "tokens": [
+      "Ich",
+      "stimme",
+      "deinem",
+      "Vorschlag",
+      "zu"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: zustimmen",
+    "translation_en": "I agree with your proposal.",
+    "translation_ru": "Я согласен с твоим предложением.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_49",
+    "target": "Die Maßnahme trägt zur Verbesserung bei.",
+    "tokens": [
+      "Die",
+      "Maßnahme",
+      "trägt",
+      "zur",
+      "Verbesserung",
+      "bei"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: beitragen zu",
+    "translation_en": "The measure contributes to improvement.",
+    "translation_ru": "Мера способствует улучшению.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_50",
+    "target": "Die Studie weist auf Risiken hin.",
+    "tokens": [
+      "Die",
+      "Studie",
+      "weist",
+      "auf",
+      "Risiken",
+      "hin"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: hinweisen auf",
+    "translation_en": "The study points to risks.",
+    "translation_ru": "Исследование указывает на риски.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_51",
+    "target": "Das Team verfügt über viel Erfahrung.",
+    "tokens": [
+      "Das",
+      "Team",
+      "verfügt",
+      "über",
+      "viel",
+      "Erfahrung"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: verfügen über",
+    "translation_en": "The team has a lot of experience.",
+    "translation_ru": "Команда располагает большим опытом.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_52",
+    "target": "Bitte berücksichtigen Sie die Hinweise.",
+    "tokens": [
+      "Bitte",
+      "berücksichtigen",
+      "Sie",
+      "die",
+      "Hinweise"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: berücksichtigen",
+    "translation_en": "Please take the notes into account.",
+    "translation_ru": "Пожалуйста, учитывайте указания.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_53",
+    "target": "Er konnte seine Qualifikation nachweisen.",
+    "tokens": [
+      "Er",
+      "konnte",
+      "seine",
+      "Qualifikation",
+      "nachweisen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: nachweisen",
+    "translation_en": "He was able to prove his qualification.",
+    "translation_ru": "Он смог доказать свою квалификацию.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_54",
+    "target": "Die Firma führt ein neues System ein.",
+    "tokens": [
+      "Die",
+      "Firma",
+      "führt",
+      "ein",
+      "neues",
+      "System",
+      "ein"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: einführen",
+    "translation_en": "The company is introducing a new system.",
+    "translation_ru": "Компания внедряет новую систему.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_55",
+    "target": "Wir ermitteln die Ursache des Fehlers.",
+    "tokens": [
+      "Wir",
+      "ermitteln",
+      "die",
+      "Ursache",
+      "des",
+      "Fehlers"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: ermitteln",
+    "translation_en": "We determine the cause of the error.",
+    "translation_ru": "Мы выясняем причину ошибки.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_56",
+    "target": "Das System erfasst die Daten automatisch.",
+    "tokens": [
+      "Das",
+      "System",
+      "erfasst",
+      "die",
+      "Daten",
+      "automatisch"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: erfassen",
+    "translation_en": "The system records the data automatically.",
+    "translation_ru": "Система автоматически фиксирует данные.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_57",
+    "target": "Die Parteien verhandeln über den Vertrag.",
+    "tokens": [
+      "Die",
+      "Parteien",
+      "verhandeln",
+      "über",
+      "den",
+      "Vertrag"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: verhandeln",
+    "translation_en": "The parties are negotiating the contract.",
+    "translation_ru": "Стороны ведут переговоры по договору.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_58",
+    "target": "Es lohnt sich, früh zu buchen.",
+    "tokens": [
+      "Es",
+      "lohnt",
+      "sich,",
+      "früh",
+      "zu",
+      "buchen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: sich lohnen",
+    "translation_en": "It’s worth booking early.",
+    "translation_ru": "Имеет смысл бронировать заранее.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_59",
+    "target": "Wir halten die Frist ein.",
+    "tokens": [
+      "Wir",
+      "halten",
+      "die",
+      "Frist",
+      "ein"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: einhalten",
+    "translation_en": "We comply with the deadline.",
+    "translation_ru": "Мы соблюдаем срок.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_60",
+    "target": "Die Kosten überschreiten das Budget.",
+    "tokens": [
+      "Die",
+      "Kosten",
+      "überschreiten",
+      "das",
+      "Budget"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: überschreiten",
+    "translation_en": "The costs exceed the budget.",
+    "translation_ru": "Затраты превышают бюджет.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_61",
+    "target": "Der Kurs besteht aus drei Modulen.",
+    "tokens": [
+      "Der",
+      "Kurs",
+      "besteht",
+      "aus",
+      "drei",
+      "Modulen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: bestehen aus",
+    "translation_en": "The course consists of three modules.",
+    "translation_ru": "Курс состоит из трёх модулей.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_62",
+    "target": "Das Ergebnis entspricht den Erwartungen.",
+    "tokens": [
+      "Das",
+      "Ergebnis",
+      "entspricht",
+      "den",
+      "Erwartungen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: entsprechen",
+    "translation_en": "The result corresponds to expectations.",
+    "translation_ru": "Результат соответствует ожиданиям.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_63",
+    "target": "Ein Beispiel verdeutlicht den Unterschied.",
+    "tokens": [
+      "Ein",
+      "Beispiel",
+      "verdeutlicht",
+      "den",
+      "Unterschied"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: verdeutlichen",
+    "translation_en": "An example illustrates the difference.",
+    "translation_ru": "Пример проясняет разницу.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_64",
+    "target": "Wir überwinden die Schwierigkeiten gemeinsam.",
+    "tokens": [
+      "Wir",
+      "überwinden",
+      "die",
+      "Schwierigkeiten",
+      "gemeinsam"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: überwinden",
+    "translation_en": "We overcome the difficulties together.",
+    "translation_ru": "Мы преодолеваем трудности вместе.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_65",
+    "target": "Wir beziehen alle Stakeholder ein.",
+    "tokens": [
+      "Wir",
+      "beziehen",
+      "alle",
+      "Stakeholder",
+      "ein"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: einbeziehen",
+    "translation_en": "We include all stakeholders.",
+    "translation_ru": "Мы привлекаем всех заинтересованных лиц.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_66",
+    "target": "Die Firma weitet das Angebot aus.",
+    "tokens": [
+      "Die",
+      "Firma",
+      "weitet",
+      "das",
+      "Angebot",
+      "aus"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: ausweiten",
+    "translation_en": "The company is expanding its offering.",
+    "translation_ru": "Компания расширяет предложение.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_67",
+    "target": "Die Stadt ergreift neue Maßnahmen gegen Lärm.",
+    "tokens": [
+      "Die",
+      "Stadt",
+      "ergreift",
+      "neue",
+      "Maßnahmen",
+      "gegen",
+      "Lärm"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: die Maßnahme",
+    "translation_en": "The city is taking new measures against noise.",
+    "translation_ru": "Город принимает новые меры против шума.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_68",
+    "target": "Zuverlässigkeit ist eine wichtige Eigenschaft.",
+    "tokens": [
+      "Zuverlässigkeit",
+      "ist",
+      "eine",
+      "wichtige",
+      "Eigenschaft"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: die Eigenschaft",
+    "translation_en": "Reliability is an important characteristic.",
+    "translation_ru": "Надёжность — важное качество.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_69",
+    "target": "Die Medizin macht große Fortschritte.",
+    "tokens": [
+      "Die",
+      "Medizin",
+      "macht",
+      "große",
+      "Fortschritte"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: der Fortschritt",
+    "translation_en": "Medicine is making great progress.",
+    "translation_ru": "Медицина делает большие успехи.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_70",
+    "target": "Wir beobachten einen Rückgang der Verkäufe.",
+    "tokens": [
+      "Wir",
+      "beobachten",
+      "einen",
+      "Rückgang",
+      "der",
+      "Verkäufe"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: der Rückgang",
+    "translation_en": "We are seeing a decline in sales.",
+    "translation_ru": "Мы наблюдаем спад продаж.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_71",
+    "target": "Die Nachfrage nach Elektroautos steigt.",
+    "tokens": [
+      "Die",
+      "Nachfrage",
+      "nach",
+      "Elektroautos",
+      "steigt"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: die Nachfrage",
+    "translation_en": "Demand for electric cars is rising.",
+    "translation_ru": "Спрос на электромобили растёт.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_72",
+    "target": "Der Wettbewerb zwischen den Firmen ist hart.",
+    "tokens": [
+      "Der",
+      "Wettbewerb",
+      "zwischen",
+      "den",
+      "Firmen",
+      "ist",
+      "hart"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: der Wettbewerb",
+    "translation_en": "Competition between the companies is fierce.",
+    "translation_ru": "Конкуренция между фирмами жёсткая.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_73",
+    "target": "Er übernimmt die Verantwortung für das Projekt.",
+    "tokens": [
+      "Er",
+      "übernimmt",
+      "die",
+      "Verantwortung",
+      "für",
+      "das",
+      "Projekt"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: die Verantwortung",
+    "translation_en": "He takes responsibility for the project.",
+    "translation_ru": "Он берёт на себя ответственность за проект.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_74",
+    "target": "Wir müssen gegen Vorurteile ankämpfen.",
+    "tokens": [
+      "Wir",
+      "müssen",
+      "gegen",
+      "Vorurteile",
+      "ankämpfen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: das Vorurteil",
+    "translation_en": "We must fight against prejudice.",
+    "translation_ru": "Мы должны бороться с предрассудками.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_75",
+    "target": "Wir wählen einen pragmatischen Ansatz.",
+    "tokens": [
+      "Wir",
+      "wählen",
+      "einen",
+      "pragmatischen",
+      "Ansatz"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: der Ansatz",
+    "translation_en": "We choose a pragmatic approach.",
+    "translation_ru": "Мы выбираем прагматичный подход.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_76",
+    "target": "Der Klimawandel ist eine große Herausforderung.",
+    "tokens": [
+      "Der",
+      "Klimawandel",
+      "ist",
+      "eine",
+      "große",
+      "Herausforderung"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: die Herausforderung",
+    "translation_en": "Climate change is a major challenge.",
+    "translation_ru": "Изменение климата — большой вызов.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_77",
+    "target": "Kosten sind ein wesentlicher Faktor.",
+    "tokens": [
+      "Kosten",
+      "sind",
+      "ein",
+      "wesentlicher",
+      "Faktor"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: wesentlich",
+    "translation_en": "Costs are an essential factor.",
+    "translation_ru": "Затраты — существенный фактор.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_78",
+    "target": "Wir suchen nach nachhaltigen Lösungen.",
+    "tokens": [
+      "Wir",
+      "suchen",
+      "nach",
+      "nachhaltigen",
+      "Lösungen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: nachhaltig",
+    "translation_en": "We are looking for sustainable solutions.",
+    "translation_ru": "Мы ищем устойчивые решения.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_79",
+    "target": "Die Nachfrage ist erheblich gestiegen.",
+    "tokens": [
+      "Die",
+      "Nachfrage",
+      "ist",
+      "erheblich",
+      "gestiegen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: erheblich",
+    "translation_en": "Demand has increased considerably.",
+    "translation_ru": "Спрос значительно вырос.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_80",
+    "target": "Wir brauchen eine umfassende Analyse.",
+    "tokens": [
+      "Wir",
+      "brauchen",
+      "eine",
+      "umfassende",
+      "Analyse"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: umfassend",
+    "translation_en": "We need a comprehensive analysis.",
+    "translation_ru": "Нам нужен всесторонний анализ.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  },
+  {
+    "id": "s_b2_81",
+    "target": "Der Ton war nicht angemessen.",
+    "tokens": [
+      "Der",
+      "Ton",
+      "war",
+      "nicht",
+      "angemessen"
+    ],
+    "type": "drag",
+    "explanation": "B2-Wortschatz: angemessen",
+    "translation_en": "The tone was not appropriate.",
+    "translation_ru": "Тон был неуместным.",
+    "level": "B2",
+    "tags": [
+      "wortschatz"
+    ]
+  }
+]

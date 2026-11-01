@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "provider": "microsoft-edge",
+  "entries": [
+    {
+      "text": "Ich heiße Anna.",
+      "url": "audio/sentences/a1/e3d167a856abc6c0d7ee93e4a5d256aff78c36162a561dc47062518d36b350e0.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.992
+    },
+    {
+      "text": "Ich komme aus Deutschland.",
+      "url": "audio/sentences/a1/e653f68dbbe10945368632646a2cb0c04a0e71584c2ea604759aef37004d4e9e.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.304
+    },
+    {
+      "text": "Ich wohne in Berlin.",
+      "url": "audio/sentences/a1/05da470b5c0699d7528d98ab7d74db7ae98a7d6f59c3de163a59582fee7003ca.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.208
+    },
+    {
+      "text": "Ich bin müde.",
+      "url": "audio/sentences/a1/8ce839f8ff8ef42b231c1bd9eddb37b8c0259f1c1d92b34abad8e8362bbbe5f3.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich bin glücklich.",
+      "url": "audio/sentences/a1/5b6ec0d2f9d167b831f58be28d4238b3ae81ddec113ec02b6a9763e625c6decf.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.968
+    },
+    {
+      "text": "Ich habe einen Bruder.",
+      "url": "audio/sentences/a1/0712e48a87fd49fe5ab4eaa292b7b54995ddb941f20bc0023907b9e30ec44cd6.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.184
+    },
+    {
+      "text": "Ich habe eine Schwester.",
+      "url": "audio/sentences/a1/3f77f51a5174970774374ab4469c77d3b1da690952e7377c6f6500b2d86f8418.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.208
+    },
+    {
+      "text": "Das ist mein Freund.",
+      "url": "audio/sentences/a1/f77b75d95036ae955fd8e022ec2a37f6e6db7944ec6241ba9e7de04d1795b989.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.04
+    },
+    {
+      "text": "Das ist meine Mutter.",
+      "url": "audio/sentences/a1/3b0cf8b7eaae55cd8c34b91a760a66608e9c0e3759c525580b740533519208ee.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.208
+    },
+    {
+      "text": "Das ist mein Vater.",
+      "url": "audio/sentences/a1/594d3101efd6c17f78a2cd643d05c8be8114e36e4a4df065f5d9826bd788c863.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.136
+    },
+    {
+      "text": "Ich trinke Wasser.",
+      "url": "audio/sentences/a1/bae4fe4ae8b2cd00520d94e5fff871d8b6d9e815e50607e003bf188a628b2cd8.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.088
+    },
+    {
+      "text": "Ich esse Brot.",
+      "url": "audio/sentences/a1/23ee291a2243464d01a37823e89ac0390afee4192fcfb842a438776555bba0eb.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich lerne Deutsch.",
+      "url": "audio/sentences/a1/efc84fdc44f949478a3e0bfd2bc2e0fa705a35d307806413dfe593409212005a.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.992
+    },
+    {
+      "text": "Ich spreche Englisch.",
+      "url": "audio/sentences/a1/ac4132d6da2b0cde7855ce7ed44575d5d170e978ea2ecb31dd28fa12e4cd808a.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.088
+    },
+    {
+      "text": "Ich arbeite viel.",
+      "url": "audio/sentences/a1/9fc341c1f556673e42a7c47fe9cf442b44083181546d09ca69a95a2566791fd6.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich studiere Informatik.",
+      "url": "audio/sentences/a1/1a811ee310cf953188641fd35fd6b482653ff6a0acecf720f2c599451bd54b27.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.376
+    },
+    {
+      "text": "Ich fahre mit dem Bus.",
+      "url": "audio/sentences/a1/b598d1f8a9e284975a5cb3bdc40c17bd6b95c44c37e0b347d1c36e75b880ab9f.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.136
+    },
+    {
+      "text": "Ich gehe zur Arbeit.",
+      "url": "audio/sentences/a1/778af4b4d270ca6bd88734b21fa737685793046d09e48df73087e87f3b71c0dd.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.16
+    },
+    {
+      "text": "Ich gehe nach Hause.",
+      "url": "audio/sentences/a1/ccc640ccd7c9444dd1ee420f0b05f6ab707a7ffc15ce4401ced4832a1c56cc11.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.088
+    },
+    {
+      "text": "Ich gehe ins Kino.",
+      "url": "audio/sentences/a1/a2638c3fee66d7842b5c0dd74c2edbdb55561f241784ec2105b5d78211e32044.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich mag Kaffee.",
+      "url": "audio/sentences/a1/482e69a9de5ecd3d286953efa35154e4c1ac8944b7be8bc3bfc11aea3051a8e8.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich mag Tee.",
+      "url": "audio/sentences/a1/0376cccff508bbf810b8eb177aaba0e163816fe571ffc03213dc4ebffad6ed58.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich mag Musik.",
+      "url": "audio/sentences/a1/249537bd4b4a672c8d5791e6e7a56c5c0d9ba571998964c087a3fa988f28311c.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.944
+    },
+    {
+      "text": "Ich kaufe Obst.",
+      "url": "audio/sentences/a1/2ce879195f7bcf9c08c77746c11a4ca906a04e6b36f63c39778e84e00a248e6f.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.944
+    },
+    {
+      "text": "Ich kaufe Brot.",
+      "url": "audio/sentences/a1/277b1f737113ed6ee845129968932ea83feda2f86a995ff9e79ff1d550f93a68.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.064
+    },
+    {
+      "text": "Ich lese ein Buch.",
+      "url": "audio/sentences/a1/a44985e33d174217743a6e43b48dc09eec610439b7f35c5a2c406cd4ec5327bc.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.016
+    },
+    {
+      "text": "Ich sehe einen Film.",
+      "url": "audio/sentences/a1/6e9b47d43c14515251525cf51d31b0b739aedd5ec027471e27f8b7144bcd339b.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.256
+    },
+    {
+      "text": "Ich höre Musik.",
+      "url": "audio/sentences/a1/eba9a266789f65df95b4ac86d2a50cab98ad98b3d013af092a41de0c7ba0d569.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.896
+    },
+    {
+      "text": "Ich spiele Fußball.",
+      "url": "audio/sentences/a1/b4ef65dd3387bb233e0b7cdfabcacfc2156ac3037e7ebfe50630591e3985c661.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich spiele Gitarre.",
+      "url": "audio/sentences/a1/2f3fc1ce05a29efdfb62af894f30e6074b046007dd15664c40836da65acbb490.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich schlafe gut.",
+      "url": "audio/sentences/a1/f3e0d499ecc3d6bcd94bcb9ef0fddc1a7d5667c4af83c5562d25a1d93b0cfeca.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.92
+    },
+    {
+      "text": "Ich stehe früh auf.",
+      "url": "audio/sentences/a1/81bd6987ddfaa9e65ebd1b9cf93b7d3a78c3cb239a6b0d04e08776b9448831dd.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.04
+    },
+    {
+      "text": "Ich rufe dich an.",
+      "url": "audio/sentences/a1/7616fefb57c309d1c2388e6274dddbc21d1ce7a7fb924cd15dcaf48d616b9b80.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.136
+    },
+    {
+      "text": "Ich mache Sport.",
+      "url": "audio/sentences/a1/639c366151ada5916c82e659f68acdc942b84ae6ad1a5077d8edf51e99f5b8ff.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.92
+    },
+    {
+      "text": "Ich mache Hausaufgaben.",
+      "url": "audio/sentences/a1/19c81bda1fec025a5fdb12048da3432f3ec8b3426e01a0228e23a4a5ad6f8899.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.4
+    },
+    {
+      "text": "Ich putze die Wohnung.",
+      "url": "audio/sentences/a1/d2c1c72e2d144fa3cbb7da6c1e1d79b90781d651c64467d091af513c3d51a519.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich koche heute.",
+      "url": "audio/sentences/a1/fd768a0e9f9c1b7d1adef6bf3013957823091803466d3eb7ba7e7a314b1f2df3.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.992
+    },
+    {
+      "text": "Ich lerne jeden Tag.",
+      "url": "audio/sentences/a1/d0bb776cab1db440b416d1ba2daf3a43e5a97172957bac72fc9c2a1478abd069.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.208
+    },
+    {
+      "text": "Ich fahre morgen nach Hamburg.",
+      "url": "audio/sentences/a1/4b429a4ed72690eac812c46f86e888ff11b40dd8ac0ed113f5552f5f1297a2e8.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.616
+    },
+    {
+      "text": "Ich komme später.",
+      "url": "audio/sentences/a1/26ba64c80958e9d11e8341e21a44c428ef73da38e9c73507d7638d0cb22a35cd.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.016
+    },
+    {
+      "text": "Ich bin zu Hause.",
+      "url": "audio/sentences/a1/755be4952360e28a09510cc4d5d6b9bafdac0fbe9c077333b228a3b9bc32b356.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.016
+    },
+    {
+      "text": "Ich bin in der Schule.",
+      "url": "audio/sentences/a1/db255f5fe5e7dbcf5131e3a6e70de0a02d2b68b3cd26014c1b3b295db462cd58.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich bin im Büro.",
+      "url": "audio/sentences/a1/ae64d0a58484a1139a68c5089140d53da956580bcd16aff3a39e96a5b8e5dcd3.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.896
+    },
+    {
+      "text": "Ich bin im Park.",
+      "url": "audio/sentences/a1/bd8e06ce36410e4eb79d3c7f6e7d174f88470ce89a7ac21f4d3292d379465e13.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich bin krank.",
+      "url": "audio/sentences/a1/09bf288b5c08fdb0e774e2e369dc3a91dadb7289e0217d53ea5a98211d76c638.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.896
+    },
+    {
+      "text": "Ich bin hungrig.",
+      "url": "audio/sentences/a1/f7dc99c684fbef21726af6108937885c372a1e7044e8c70c7dfdf630fbf2b7e5.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich bin durstig.",
+      "url": "audio/sentences/a1/3508ed8b626f4a88b89d42761c3c9dd2acc9861b07c1a8d329c0b66ac3a7693f.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.016
+    },
+    {
+      "text": "Ich habe Zeit.",
+      "url": "audio/sentences/a1/9238e84f8645714c0e41f97db62d23a7f713f0675233ec32ac049183afe23f53.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich habe kein Geld.",
+      "url": "audio/sentences/a1/884bff834d5db3850bcd1c33053d7c65f9d878da48f3d0afe74924a817a257c1.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.088
+    },
+    {
+      "text": "Ich habe keine Zeit.",
+      "url": "audio/sentences/a1/e3e896534f425e064693da10bf86ddcccacbb6588f9a4eb316abb543f9554460.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.136
+    },
+    {
+      "text": "Ich brauche Hilfe.",
+      "url": "audio/sentences/a1/099dd28d51186e7a9e8550cc5d4ceff84c2a01055798e9772eda0ca912a9ab08.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich suche meine Tasche.",
+      "url": "audio/sentences/a1/db9ac42c03a27a52dcdcd94ea4ba966cab0de64e96aa1ba4f97e8622e2f9323a.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.256
+    },
+    {
+      "text": "Ich war gestern zu Hause.",
+      "url": "audio/sentences/a1/588a56aad07d2dbbfa644032764cc24c3d43e8c1a510ac99b8d3a59cb0555ace.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.4
+    },
+    {
+      "text": "Ich war gestern krank.",
+      "url": "audio/sentences/a1/8fa8434976d7c784142d01604504b5dfe81e9bddc1d447690fcdbc21374e8625.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.136
+    },
+    {
+      "text": "Ich war im Kino.",
+      "url": "audio/sentences/a1/108fe7e24a17ffec03363345c25f842051a1ed6701cc6efe937db125eb431696.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.016
+    },
+    {
+      "text": "Ich kann schwimmen.",
+      "url": "audio/sentences/a1/08d26d29fb70fd202d7bbc0fe662b00f6b9da166b2200cddefe987d916422235.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Ich kann Deutsch sprechen.",
+      "url": "audio/sentences/a1/d6f27a6dd68f6b6745318c4c9c242635f0dc205104c7ade3406e7e455132ba22.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.256
+    },
+    {
+      "text": "Ich will jetzt essen.",
+      "url": "audio/sentences/a1/645798c5253b4f188d7306b7d808de590360c0f877ee4ba1f2702ee280deb07a.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Ich möchte einen Kaffee.",
+      "url": "audio/sentences/a1/c9166247d71b79970ab817bbf6192f7134589d0b3b64ee3526c36b66ec130052.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.328
+    },
+    {
+      "text": "Ich muss arbeiten.",
+      "url": "audio/sentences/a1/a48c9fe1534c1f499bd33803ec26c1eabbb7db4305fa976e81ac25c87d2000e3.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.088
+    },
+    {
+      "text": "Wir wohnen in Köln.",
+      "url": "audio/sentences/a1/bd3ab292a05b34bd3bc3c278461cc50508fbb988895e8412cc3c589a5479a120.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.328
+    },
+    {
+      "text": "Wir kommen aus der Türkei.",
+      "url": "audio/sentences/a1/b5c24d2d9b5d1c9222425ace1baa0e21ac527070c9c28a3c36b07de69b11762f.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.496
+    },
+    {
+      "text": "Wir gehen einkaufen.",
+      "url": "audio/sentences/a1/01eab8ad0e3d670ddf125934e21d7a53cbe37c30d0a55b448b771ffccbe0f6d7.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.4
+    },
+    {
+      "text": "Wir spielen im Park.",
+      "url": "audio/sentences/a1/5edb5d2d46fad95050398916d09e92f76771e0d52a8d9c7cccfc07205e1e8e16.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.232
+    },
+    {
+      "text": "Wir essen zusammen.",
+      "url": "audio/sentences/a1/c1721bf21efdf9fa22019de26131c57994ba8ffd4beb15afc355ac79cae4ee93.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.232
+    },
+    {
+      "text": "Wir fahren nach München.",
+      "url": "audio/sentences/a1/2083bbb0e4527bef1514511d6259efeb4b92f4c01b6a663b488b39a6f4119967.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.28
+    },
+    {
+      "text": "Wir haben ein Auto.",
+      "url": "audio/sentences/a1/e74a869af5de346b4fbd50f6560f89542804ebde7d35107e77928bbf7acca21e.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.136
+    },
+    {
+      "text": "Wir haben zwei Kinder.",
+      "url": "audio/sentences/a1/8aad3359ce225ad109928f871025304d470359700503a1aefbaf2622b3e8d105.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.352
+    },
+    {
+      "text": "Wir machen eine Pause.",
+      "url": "audio/sentences/a1/6e6cf393b354916e72eec4259ee5321ddd98900a4e2b127a21f44133902f24dc.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.376
+    },
+    {
+      "text": "Wir lesen die Zeitung.",
+      "url": "audio/sentences/a1/8a048d73d044a5bcabbe125d7aa2443a1bcba28513ae15af5817977a6b5744b8.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.304
+    },
+    {
+      "text": "Er heißt Tom.",
+      "url": "audio/sentences/a1/80c57c52cc937cb353579ef2be5593a70b20f2f68de545be723eb616f45fc921.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Er arbeitet hier.",
+      "url": "audio/sentences/a1/0429ca381e93a50b0607f5d3a0f4e41154d82ccc50fd03a66b6772726acaf50f.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.04
+    },
+    {
+      "text": "Er wohnt allein.",
+      "url": "audio/sentences/a1/71736d9dac0664a6649c515f3180fcc2a7b8d62f91cd928dc0609255bd3adccb.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.92
+    },
+    {
+      "text": "Er fährt Auto.",
+      "url": "audio/sentences/a1/13c51c72cc1f2d1380e261b45ff139b55963acee6d0f2a4f676bda4dc4cda38c.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.968
+    },
+    {
+      "text": "Er spielt Tennis.",
+      "url": "audio/sentences/a1/11a34cecba53f7b506cc4647809d2cedc09d1e18367abde1de92c706a8f0c879.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.04
+    },
+    {
+      "text": "Sie heißt Maria.",
+      "url": "audio/sentences/a1/f6af179dd001a5e1ce291b44132e5fcd59bf6f4341fb3ceb77a791a9479731e1.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.064
+    },
+    {
+      "text": "Sie arbeitet viel.",
+      "url": "audio/sentences/a1/207b4ce2f6366de3ec97214b794a1bc3b9e56ebb04e9033b212cc97093e41d69.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.232
+    },
+    {
+      "text": "Sie lernt Deutsch.",
+      "url": "audio/sentences/a1/f40f3c35e798c96cf5a7a6b75d30e8c007b2048ef811d73cafb7440329975795.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Sie kommt später.",
+      "url": "audio/sentences/a1/d2711974554191dd58c1d28fc7bf05087dce4f52494e8c509dccfb36c4b2d8fb.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.016
+    },
+    {
+      "text": "Sie kocht gern.",
+      "url": "audio/sentences/a1/ce5a4dbc205f56f9a8f94267125ddc39ec885e95d24cda8ed055810d8cb3f6c7.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.944
+    },
+    {
+      "text": "Es regnet heute.",
+      "url": "audio/sentences/a1/d564ce9f0734af0336a18aaa20a1bcbd679f7e48d569d72292e1b2549612fc5b.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.16
+    },
+    {
+      "text": "Es ist kalt.",
+      "url": "audio/sentences/a1/79f641f2ad3f80f021b84d33a1354729228d18ce3c32d13dc29a240f356490a3.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Es ist warm.",
+      "url": "audio/sentences/a1/05f590dd3a4298dcb901a84ad53139f4afcfb3e44e43d71e217ad2a99135a1ff.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Es ist sonnig.",
+      "url": "audio/sentences/a1/9c83e4696ff919a19faaf19f051333157251021be576725d1d525c87d3d3bc10.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Es ist Montag.",
+      "url": "audio/sentences/a1/581475ae113754f6864bd6e65a4151e3b87a75fe4426e832be18994f6eee6636.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.04
+    },
+    {
+      "text": "Heute ist Dienstag.",
+      "url": "audio/sentences/a1/8b34bfceac63f0a4c7a8b93e5775caf3c4d7fb5343a8d0b55308d309a8b438d4.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Morgen ist Mittwoch.",
+      "url": "audio/sentences/a1/1fbb03d779dcfbb99461bd69e2785d4321e111849e2ac1beba4e2dc14729a074.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.256
+    },
+    {
+      "text": "Am Sonntag schlafe ich lange.",
+      "url": "audio/sentences/a1/2b93ddc3ed9cfbfeda355c7e9e5d65f9273ffe58ec7549f7e0478ebc4094787a.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.616
+    },
+    {
+      "text": "Am Abend lese ich.",
+      "url": "audio/sentences/a1/507b0751f4c8cd9938436b74fe478d1869afc4c0d5928bf802001c39bda8c073.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.256
+    },
+    {
+      "text": "In der Pause esse ich.",
+      "url": "audio/sentences/a1/a311e6a70886b9a34bb03099b4ebb5de637956630ae4ef22cae03974f6a209e3.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.16
+    },
+    {
+      "text": "Wo wohnst du?",
+      "url": "audio/sentences/a1/8d6b7216eb4e451c7ed8d9366c83bb61fecae2f43cb30210f1aabacd7a4b6f7a.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Wie heißt du?",
+      "url": "audio/sentences/a1/bec46cb58876897dde673369693cc34e123bd6451e4cc3791ed302eb6cc29bac.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Woher kommst du?",
+      "url": "audio/sentences/a1/b4371eadadc691401a6c28f2c088f92db26b61f2a9b0547e725425b02b87dcc2.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Was machst du?",
+      "url": "audio/sentences/a1/50a2850088ef4b6550542ef56cd542ce8eb814d5bb4ec64020a6978fce63b86d.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Wann kommst du?",
+      "url": "audio/sentences/a1/072533ef294a08c69e9a6c454dae0e13089a5f67993d794fcd565161460761aa.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Hast du Geschwister?",
+      "url": "audio/sentences/a1/95a6020155816911d9df950bc4687395af37497d5ff19796e065b49c38c36d67.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.112
+    },
+    {
+      "text": "Magst du Kaffee?",
+      "url": "audio/sentences/a1/57f6425bc21e00c6fcdffe5b2c210fd283b09833125cd49ec601d4908b645cf2.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Kannst du kommen?",
+      "url": "audio/sentences/a1/079a6918f0bafbb1a9f10d501475cdcdc7714df479c8b8a16586797eff1d2fca.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 1.944
+    },
+    {
+      "text": "Wohnst du hier?",
+      "url": "audio/sentences/a1/f596d370ce2ad6d21b39dcea2dff89290a995dbf25576ff665abcf8ee62a7793.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 1.872
+    },
+    {
+      "text": "Arbeitest du heute?",
+      "url": "audio/sentences/a1/5a294bada367155e1caa2e5b927a32bd4d0dc07122266d9d1a270ba579c5ea17.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.208
+    },
+    {
+      "text": "Ich trinke am Morgen einen Kaffee.",
+      "url": "audio/sentences/a1/8eb954dabe5d9f12ba36baeceb83e73c1e9144eb66578063cc1ccd1692a14145.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.832
+    },
+    {
+      "text": "Wir gehen heute in den Park.",
+      "url": "audio/sentences/a1/1e3ed9dee7d4501514b954c3d5b2ddf5dec199095fa54f1f352ba617bb133dba.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.544
+    },
+    {
+      "text": "Er kommt morgen nach Berlin.",
+      "url": "audio/sentences/a1/8fa48346614e3d6ef623847555c4a7fcd5ccdf779d05978a488ce610759115fd.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.568
+    },
+    {
+      "text": "Ich lerne am Abend Deutsch.",
+      "url": "audio/sentences/a1/69ac2107a0e25311290d14d70b50a8e585012a12c12d468e57fff0635fc259b4.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.352
+    },
+    {
+      "text": "Sie arbeitet jeden Tag im Büro.",
+      "url": "audio/sentences/a1/63606765750742e7ad783c713e49461c9e35fc3fa67bcc2cc0c4c65cd6c9ec19.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.976
+    },
+    {
+      "text": "Am Wochenende gehe ich einkaufen.",
+      "url": "audio/sentences/a1/e5a9fa9f30fa8facf4a1b1a69b834959bfb88fad5892cf8bc63547422eb4a52a.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.88
+    },
+    {
+      "text": "Ich esse mittags in der Kantine.",
+      "url": "audio/sentences/a1/fedf9b6857508f2d71f7ef786c7b926002848586e4d6524c77abc7ed7c8625af.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.832
+    },
+    {
+      "text": "Die Kinder spielen am Nachmittag draußen.",
+      "url": "audio/sentences/a1/a504a19070b4cf626b1292ea25dc3810e61e647620a882b356467b77acb339f9.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 3.168
+    },
+    {
+      "text": "Meine Familie wohnt in einer kleinen Stadt.",
+      "url": "audio/sentences/a1/ced82fe0300731856af320064cf3f01f913bdd35b8034353dabde39a5ba72372.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 3.624
+    },
+    {
+      "text": "Wir essen heute Abend im Restaurant.",
+      "url": "audio/sentences/a1/be2896ad101d725b5f18a9c3d39d6786adb6761575fe1851f23f15b026bf6ef4.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.976
+    },
+    {
+      "text": "Die Katze schläft auf dem Sofa.",
+      "url": "audio/sentences/a1/223ff87b2b0671a5bb99fd292b89e3d574b18e3ac104262910942d87ed9870ec.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.808
+    },
+    {
+      "text": "Ich kaufe Brot in der Bäckerei.",
+      "url": "audio/sentences/a1/0308f8519ba53ab3259dcf42779686eacfe376091c8b3b664a129d99e2e89ebb.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.664
+    },
+    {
+      "text": "Wo wohnst du in Deutschland?",
+      "url": "audio/sentences/a1/78dd3f659d505ff95d13740adb2fe24c88b01a1b8fa5bd111dfcc5467a6b6a13.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.4
+    },
+    {
+      "text": "Wann fährt der Zug nach München?",
+      "url": "audio/sentences/a1/e66680f0433c0a133a828a903d6771d94d209702b857d895b709f14cf20bd491.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.736
+    },
+    {
+      "text": "Was machst du am Wochenende?",
+      "url": "audio/sentences/a1/c4f0f9a0ca84a7e85541c4a0560542b6a5332eed802c78b487228108d0264e52.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.496
+    },
+    {
+      "text": "Wie viel kostet das T-Shirt?",
+      "url": "audio/sentences/a1/5e7886161403da7b17b89ad1dae1a7dd267a6c22f229b53e5e85cf278c21404d.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.616
+    },
+    {
+      "text": "Woher kommst du und wo wohnst du?",
+      "url": "audio/sentences/a1/ef2c7d72016bf274e6a49edf08cf3f902b23ca142cbcb81a6e04f2e0517057cd.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.544
+    },
+    {
+      "text": "Wie heißt dein Bruder und wie alt ist er?",
+      "url": "audio/sentences/a1/609aa3c510ebeab27f4b78dd0f3ef9a97a9b8182e54c588ce5f96e76e9f94dfb.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 3.288
+    },
+    {
+      "text": "Ich fahre mit dem Bus zur Arbeit.",
+      "url": "audio/sentences/a1/d2b4104d199e65f7659e8dab95c1018408cf2193deb9ab4b5e9cbbf3f721d740.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.856
+    },
+    {
+      "text": "Mein Freund spricht sehr gut Deutsch.",
+      "url": "audio/sentences/a1/4f46fbd437fd2ff1c45080e3a3ba43540fc436a972ede6f35b05b4aefb51f367.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.736
+    },
+    {
+      "text": "Ich möchte ein Glas Wasser bitte.",
+      "url": "audio/sentences/a1/56170a6634551c2405687ada0c376b38d64ccd378d1f178b06968d8f6864e9b7.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.784
+    },
+    {
+      "text": "Am Montag habe ich einen Deutschkurs.",
+      "url": "audio/sentences/a1/2414c3a35b759885c2166564341177771f64e7437b69cc02abf4aed2375ebd1f.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.904
+    },
+    {
+      "text": "Kannst du mir bitte das Salz geben?",
+      "url": "audio/sentences/a1/14cc9f0c2abb45d66398a8010c08b9530d3bf3bcc72b264cc694a9e8c6b5d293.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.832
+    },
+    {
+      "text": "Ich gehe jetzt in den Supermarkt.",
+      "url": "audio/sentences/a1/ee59fe803f2b45c78b54aef856f9a9ae3d004a735076104115396c42c97f0eb0.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.688
+    },
+    {
+      "text": "Das Wetter ist heute sehr schön.",
+      "url": "audio/sentences/a1/3dce7c37f3684188c6859e95a692712e52f0d46ebabe8875ea99d655bb41c9ce.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 2.784
+    },
+    {
+      "text": "Meine Schwester hat zwei kleine Kinder.",
+      "url": "audio/sentences/a1/07f0332563c12fc86823de5ee8f07c4ed76b1e8f7fe36bcc50c2fb07d1ed7b29.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 3.048
+    },
+    {
+      "text": "Ich verstehe das nicht, können Sie wiederholen",
+      "url": "audio/sentences/a1/26de239f1cbd8a51c6fb99d5c6c00062e11a84e18b939c546cba348812535bfd.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 3.576
+    },
+    {
+      "text": "Um acht Uhr beginnt mein Unterricht.",
+      "url": "audio/sentences/a1/3c1bc2d632c47160be41616fccc95252082735a041cdef646328165c74166139.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 2.808
+    },
+    {
+      "text": "Nach der Arbeit gehe ich ins Fitnessstudio.",
+      "url": "audio/sentences/a1/13ede26530609c65e8dfc31fbbeb9e56d04ff76bd55b5c22a006c1a3b061e1dc.mp3",
+      "voice": "de-DE-KatjaNeural",
+      "durationSeconds": 3.288
+    },
+    {
+      "text": "Meine Eltern kommen nächste Woche zu Besuch.",
+      "url": "audio/sentences/a1/8c95d3c0d7a3b2d4eb44738a0431a2d918bc4845ea92a5ef4f560f8cad41056d.mp3",
+      "voice": "de-DE-ConradNeural",
+      "durationSeconds": 3.216
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "k2v_001",
+    "sentence": "Wenn ich das (wissen) ___, hätte ich anders gehandelt.",
+    "answers": ["gewusst hätte"],
+    "hint": "wissen → gewusst hätte",
+    "tokens": ["gewusst", "hätte", "wusste", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_002",
+    "sentence": "Wenn sie früher (kommen) ___, hätten wir zusammen essen können.",
+    "answers": ["gekommen wäre"],
+    "hint": "kommen → gekommen wäre",
+    "tokens": ["gekommen", "wäre", "käme", "wären", "hätte", "würde"]
+  },
+  {
+    "id": "k2v_003",
+    "sentence": "Wenn wir mehr (üben) ___, hätten wir die Prüfung bestanden.",
+    "answers": ["geübt hätten"],
+    "hint": "üben → geübt hätten",
+    "tokens": ["geübt", "hätten", "übten", "hätte", "hättet", "wären"]
+  },
+  {
+    "id": "k2v_004",
+    "sentence": "Wenn er nicht krank (sein) ___, wäre er mitgekommen.",
+    "answers": ["gewesen wäre"],
+    "hint": "sein → gewesen wäre",
+    "tokens": ["gewesen", "wäre", "war", "wären", "hätte", "würde"]
+  },
+  {
+    "id": "k2v_005",
+    "sentence": "Wenn ich das Buch (lesen) ___, hätte ich die Antwort gewusst.",
+    "answers": ["gelesen hätte"],
+    "hint": "lesen → gelesen hätte",
+    "tokens": ["gelesen", "hätte", "las", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_006",
+    "sentence": "Wenn du mich (fragen) ___, hätte ich dir geholfen.",
+    "answers": ["gefragt hättest"],
+    "hint": "fragen → gefragt hättest",
+    "tokens": ["gefragt", "hättest", "fragte", "hätte", "hättet", "wäre"]
+  },
+  {
+    "id": "k2v_007",
+    "sentence": "Wenn wir den Zug (nehmen) ___, wären wir pünktlich gewesen.",
+    "answers": ["genommen hätten"],
+    "hint": "nehmen → genommen hätten",
+    "tokens": ["genommen", "hätten", "nahmen", "hätte", "hättet", "wären"]
+  },
+  {
+    "id": "k2v_008",
+    "sentence": "Wenn ich mehr Geld (haben) ___, hätte ich ein Haus gekauft.",
+    "answers": ["gehabt hätte"],
+    "hint": "haben → gehabt hätte",
+    "tokens": ["gehabt", "hätte", "hatte", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_009",
+    "sentence": "Wenn sie die Anleitung (lesen) ___, wäre nichts schiefgegangen.",
+    "answers": ["gelesen hätte"],
+    "hint": "lesen → gelesen hätte",
+    "tokens": ["gelesen", "hätte", "las", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_010",
+    "sentence": "Wenn wir die Tickets früher (kaufen) ___, hätten wir Geld gespart.",
+    "answers": ["gekauft hätten"],
+    "hint": "kaufen → gekauft hätten",
+    "tokens": ["gekauft", "hätten", "kauften", "hätte", "hättet", "wären"]
+  },
+  {
+    "id": "k2v_011",
+    "sentence": "Wenn er besser (aufpassen) ___, hätte er den Fehler bemerkt.",
+    "answers": ["aufgepasst hätte"],
+    "hint": "aufpassen → aufgepasst hätte",
+    "tokens": ["aufgepasst", "hätte", "passte", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_012",
+    "sentence": "Wenn ich den Wecker (hören) ___, wäre ich nicht zu spät gekommen.",
+    "answers": ["gehört hätte"],
+    "hint": "hören → gehört hätte",
+    "tokens": ["gehört", "hätte", "hörte", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_013",
+    "sentence": "Wenn du die E-Mail (schreiben) ___, hätte er geantwortet.",
+    "answers": ["geschrieben hättest"],
+    "hint": "schreiben → geschrieben hättest",
+    "tokens": ["geschrieben", "hättest", "schrieb", "hätte", "hättet", "wäre"]
+  },
+  {
+    "id": "k2v_014",
+    "sentence": "Wenn wir früher (losfahren) ___, hätten wir den Stau vermieden.",
+    "answers": ["losgefahren wären"],
+    "hint": "losfahren → losgefahren wären",
+    "tokens": ["losgefahren", "wären", "fuhren", "wäre", "hätten", "würden"]
+  },
+  {
+    "id": "k2v_015",
+    "sentence": "Wenn ich die Wahrheit (sagen) ___, hätte er mir vertraut.",
+    "answers": ["gesagt hätte"],
+    "hint": "sagen → gesagt hätte",
+    "tokens": ["gesagt", "hätte", "sagte", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_016",
+    "sentence": "Wenn sie nicht (umziehen) ___, hätten wir uns öfter gesehen.",
+    "answers": ["umgezogen wäre"],
+    "hint": "umziehen → umgezogen wäre",
+    "tokens": ["umgezogen", "wäre", "zog", "wären", "hätte", "würde"]
+  },
+  {
+    "id": "k2v_017",
+    "sentence": "Wenn ihr euch (beeilen) ___, hättet ihr den Bus noch erwischt.",
+    "answers": ["beeilt hättet"],
+    "hint": "beeilen → beeilt hättet",
+    "tokens": ["beeilt", "hättet", "beeilte", "hätte", "hätten", "wäre"]
+  },
+  {
+    "id": "k2v_018",
+    "sentence": "Wenn ich die Stelle (bekommen) ___, wäre ich nach München gezogen.",
+    "answers": ["bekommen hätte"],
+    "hint": "bekommen → bekommen hätte",
+    "tokens": ["bekommen", "hätte", "bekam", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_019",
+    "sentence": "Wenn er den Rat (befolgen) ___, wäre alles gut gelaufen.",
+    "answers": ["befolgt hätte"],
+    "hint": "befolgen → befolgt hätte",
+    "tokens": ["befolgt", "hätte", "befolgte", "hätten", "hättest", "wäre"]
+  },
+  {
+    "id": "k2v_020",
+    "sentence": "Wenn ich nicht so nervös (sein) ___, hätte ich besser gespielt.",
+    "answers": ["gewesen wäre"],
+    "hint": "sein → gewesen wäre",
+    "tokens": ["gewesen", "wäre", "war", "wären", "hätte", "würde"]
+  }
+]

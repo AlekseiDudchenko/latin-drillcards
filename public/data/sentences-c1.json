@@ -1,0 +1,252 @@
+[
+  {
+    "id": "s_c1_1",
+    "target": "Angesichts der begrenzten Ressourcen entschieden wir uns dafür, die Ziele zu priorisieren, wobei langfristige Risiken ausdrücklich berücksichtigt wurden.",
+    "tokens": ["Angesichts", "der", "begrenzten", "Ressourcen", "entschieden", "wir", "uns", "dafür,", "die", "Ziele", "zu", "priorisieren,", "wobei", "langfristige", "Risiken", "ausdrücklich", "berücksichtigt", "wurden"],
+    "type": "drag",
+    "explanation": "C1: Prepositional frame 'angesichts' + infinitive construction; non-restrictive 'wobei' clause with passive participle.",
+    "translation_en": "In view of the limited resources, we decided to prioritize the goals, with long-term risks explicitly taken into account.",
+    "translation_ru": "Учитывая ограниченные ресурсы, мы решили приоритизировать цели, при этом долгосрочные риски были явно учтены.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_2",
+    "target": "Hätte das Team früher reagiert, wären die Verzögerungen vermutlich geringer ausgefallen.",
+    "tokens": ["Hätte", "das", "Team", "früher", "reagiert,", "wären", "die", "Verzögerungen", "vermutlich", "geringer", "ausgefallen"],
+    "type": "drag",
+    "explanation": "C1: Unreal past conditional (Konjunktiv II) with fronted auxiliary; hypothetical result in the main clause.",
+    "translation_en": "Had the team reacted earlier, the delays would probably have been smaller.",
+    "translation_ru": "Если бы команда отреагировала раньше, задержки, вероятно, были бы меньше.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_3",
+    "target": "Kaum hatte ich den Bericht abgeschickt, meldete sich die Kundin mit Rückfragen.",
+    "tokens": ["Kaum", "hatte", "ich", "den", "Bericht", "abgeschickt,", "meldete", "sich", "die", "Kundin", "mit", "Rückfragen"],
+    "type": "drag",
+    "explanation": "C1: Inverted temporal focus with 'Kaum ... , ...'; Plusquamperfekt followed by Präteritum.",
+    "translation_en": "Hardly had I sent the report when the client got back with follow-up questions.",
+    "translation_ru": "Едва я отправил отчёт, как клиентка сразу связалась с уточняющими вопросами.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_4",
+    "target": "Indem wir die Annahmen transparent machen, verhindern wir, dass sich implizite Fehler fortschreiben.",
+    "tokens": ["Indem", "wir", "die", "Annahmen", "transparent", "machen,", "verhindern", "wir,", "dass", "sich", "implizite", "Fehler", "fortschreiben"],
+    "type": "drag",
+    "explanation": "C1: Instrumental clause with 'indem' + subordinate 'dass'-clause; reflexive verb 'fortschreiben'.",
+    "translation_en": "By making the assumptions transparent, we prevent implicit errors from perpetuating.",
+    "translation_ru": "Делая допущения прозрачными, мы предотвращаем дальнейшее закрепление скрытых ошибок.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_5",
+    "target": "So sehr die Kritik auch berechtigt ist, darf man die bisherigen Fortschritte nicht unterschlagen.",
+    "tokens": ["So", "sehr", "die", "Kritik", "auch", "berechtigt", "ist,", "darf", "man", "die", "bisherigen", "Fortschritte", "nicht", "unterschlagen"],
+    "type": "drag",
+    "explanation": "C1: Concessive 'so ... auch' construction plus modal 'dürfen' to express a normative restriction.",
+    "translation_en": "As justified as the criticism may be, one must not gloss over the progress made so far.",
+    "translation_ru": "Как бы ни была обоснована критика, нельзя замалчивать достигнутый прогресс.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_6",
+    "target": "Wir sollten das Konzept überarbeiten, zumal sich die Rahmenbedingungen kurzfristig geändert haben.",
+    "tokens": ["Wir", "sollten", "das", "Konzept", "überarbeiten,", "zumal", "sich", "die", "Rahmenbedingungen", "kurzfristig", "geändert", "haben"],
+    "type": "drag",
+    "explanation": "C1: Causal nuance with 'zumal' to strengthen the reason; perfect tense in the subordinate clause.",
+    "translation_en": "We should revise the concept, especially since the general conditions have changed at short notice.",
+    "translation_ru": "Нам следует переработать концепцию, тем более что рамочные условия внезапно изменились.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_7",
+    "target": "Der Bericht behauptet, die Zahlen seien eindeutig und bedürften keiner weiteren Prüfung.",
+    "tokens": ["Der", "Bericht", "behauptet,", "die", "Zahlen", "seien", "eindeutig", "und", "bedürften", "keiner", "weiteren", "Prüfung"],
+    "type": "drag",
+    "explanation": "C1: Reported speech with Konjunktiv I ('seien', 'bedürften'); genitive object with 'bedürfen'.",
+    "translation_en": "The report claims that the figures are unequivocal and require no further review.",
+    "translation_ru": "В отчёте утверждается, что цифры однозначны и не требуют дальнейшей проверки.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_8",
+    "target": "Von unerwarteten Ausfällen betroffen, musste das Team die Prioritäten neu ordnen.",
+    "tokens": ["Von", "unerwarteten", "Ausfällen", "betroffen,", "musste", "das", "Team", "die", "Prioritäten", "neu", "ordnen"],
+    "type": "drag",
+    "explanation": "C1: Preposed participial construction for concise causal background.",
+    "translation_en": "Affected by unexpected outages, the team had to reorder its priorities.",
+    "translation_ru": "Столкнувшись с неожиданными сбоями, команда была вынуждена заново расставить приоритеты.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_9",
+    "target": "Wir können die Qualität derzeit nicht erhöhen, geschweige denn zusätzliche Funktionen liefern.",
+    "tokens": ["Wir", "können", "die", "Qualität", "derzeit", "nicht", "erhöhen,", "geschweige", "denn", "zusätzliche", "Funktionen", "liefern"],
+    "type": "drag",
+    "explanation": "C1: Escalating negation with 'geschweige denn' to express an even less feasible option.",
+    "translation_en": "We cannot improve quality at the moment, let alone deliver additional features.",
+    "translation_ru": "Сейчас мы не можем повысить качество, не говоря уже о поставке дополнительных функций.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_10",
+    "target": "Er tut so, als ob die Entscheidung bereits gefallen wäre.",
+    "tokens": ["Er", "tut", "so,", "als", "ob", "die", "Entscheidung", "bereits", "gefallen", "wäre"],
+    "type": "drag",
+    "explanation": "C1: Irrealis comparison with 'als ob' + Konjunktiv II Perfekt.",
+    "translation_en": "He acts as if the decision had already been made.",
+    "translation_ru": "Он ведёт себя так, как будто решение уже принято.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_11",
+    "target": "Nur wenn alle Beteiligten zustimmen, lässt sich die Maßnahme rechtzeitig umsetzen.",
+    "tokens": ["Nur", "wenn", "alle", "Beteiligten", "zustimmen,", "lässt", "sich", "die", "Maßnahme", "rechtzeitig", "umsetzen"],
+    "type": "drag",
+    "explanation": "C1: Conditional fronting with inversion in the main clause; passive-reflexive 'lassen'.",
+    "translation_en": "Only if all stakeholders agree can the measure be implemented in time.",
+    "translation_ru": "Только если все участники согласны, меру можно будет вовремя реализовать.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_12",
+    "target": "Nicht zuletzt aufgrund rechtlicher Vorgaben sind transparente Prozesse unerlässlich.",
+    "tokens": ["Nicht", "zuletzt", "aufgrund", "rechtlicher", "Vorgaben", "sind", "transparente", "Prozesse", "unerlässlich"],
+    "type": "drag",
+    "explanation": "C1: Sentence-initial adverbial frame 'Nicht zuletzt' for argumentative emphasis.",
+    "translation_en": "Not least because of legal requirements, transparent processes are indispensable.",
+    "translation_ru": "Не в последнюю очередь из-за правовых требований прозрачные процессы незаменимы.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_13",
+    "target": "Ohne die Risiken klar zu benennen, riskiert man Fehlentscheidungen im großen Stil.",
+    "tokens": ["Ohne", "die", "Risiken", "klar", "zu", "benennen,", "riskiert", "man", "Fehlentscheidungen", "im", "großen", "Stil"],
+    "type": "drag",
+    "explanation": "C1: Infinitive clause with 'ohne ... zu' expressing a negative condition.",
+    "translation_en": "Without clearly naming the risks, one risks large-scale misjudgments.",
+    "translation_ru": "Не обозначив чётко риски, можно допустить ошибки крупного масштаба.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_14",
+    "target": "Mag der Ansatz auch umstritten sein, überzeugt er durch seine praktische Umsetzbarkeit.",
+    "tokens": ["Mag", "der", "Ansatz", "auch", "umstritten", "sein,", "überzeugt", "er", "durch", "seine", "praktische", "Umsetzbarkeit"],
+    "type": "drag",
+    "explanation": "C1: Concessive inversion with 'Mag ... auch ...', high-register alternative to 'obwohl'.",
+    "translation_en": "Controversial as the approach may be, it convinces through its practical feasibility.",
+    "translation_ru": "Как бы спорным ни был подход, он убеждает своей практической осуществимостью.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_15",
+    "target": "Die Studie ist überzeugend, insofern als sie Langzeitdaten berücksichtigt.",
+    "tokens": ["Die", "Studie", "ist", "überzeugend,", "insofern", "als", "sie", "Langzeitdaten", "berücksichtigt"],
+    "type": "drag",
+    "explanation": "C1: Limiting clause with 'insofern als' to specify the scope of validity.",
+    "translation_en": "The study is convincing insofar as it takes long-term data into account.",
+    "translation_ru": "Исследование убедительно постольку, поскольку учитывает долгосрочные данные.",
+    "level": "C1"
+  }, 
+    {
+    "id": "s_c1_16",
+    "target": "Soweit ich das überblicke, ließe sich das Problem durch eine klarere Zuständigkeit vermeiden.",
+    "tokens": ["Soweit", "ich", "das", "überblicke,", "ließe", "sich", "das", "Problem", "durch", "eine", "klarere", "Zuständigkeit", "vermeiden"],
+    "type": "drag",
+    "explanation": "C1: Limiting clause with 'soweit' + potential Konjunktiv II ('ließe sich'); nominalization 'Zuständigkeit'.",
+    "translation_en": "As far as I can see, the problem could be avoided by clearer responsibilities.",
+    "translation_ru": "Насколько я могу судить, проблему можно было бы избежать при более чётком распределении зон ответственности.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_17",
+    "target": "Wir müssen den Umfang reduzieren, es sei denn, wir erhalten kurzfristig zusätzliche Mittel.",
+    "tokens": ["Wir", "müssen", "den", "Umfang", "reduzieren,", "es", "sei", "denn,", "wir", "erhalten", "kurzfristig", "zusätzliche", "Mittel"],
+    "type": "drag",
+    "explanation": "C1: Exception clause with 'es sei denn'; main clause with modal necessity.",
+    "translation_en": "We have to reduce the scope unless we receive additional funds at short notice.",
+    "translation_ru": "Нам придётся сократить объём, если только мы не получим в ближайшее время дополнительные средства.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_18",
+    "target": "Nicht dass der Plan schlecht wäre, doch die Risiken sind unterschätzt.",
+    "tokens": ["Nicht", "dass", "der", "Plan", "schlecht", "wäre,", "doch", "die", "Risiken", "sind", "unterschätzt"],
+    "type": "drag",
+    "explanation": "C1: Concessive-turn construction 'Nicht dass ...' with Konjunktiv II to soften a negation.",
+    "translation_en": "Not that the plan would be bad, but the risks are underestimated.",
+    "translation_ru": "Не то чтобы план был плох, но риски недооценены.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_19",
+    "target": "Anstatt die Symptome zu bekämpfen, sollten wir die Ursachen systematisch analysieren.",
+    "tokens": ["Anstatt", "die", "Symptome", "zu", "bekämpfen,", "sollten", "wir", "die", "Ursachen", "systematisch", "analysieren"],
+    "type": "drag",
+    "explanation": "C1: Contrastive infinitive clause with 'anstatt ... zu' + recommendation with 'sollten'.",
+    "translation_en": "Instead of fighting the symptoms, we should systematically analyze the causes.",
+    "translation_ru": "Вместо того чтобы бороться с симптомами, нам следует системно проанализировать причины.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_20",
+    "target": "Der Vorschlag, auf den sich die Mehrheit stützt, ist zwar ambitioniert, aber praktikabel.",
+    "tokens": ["Der", "Vorschlag,", "auf", "den", "sich", "die", "Mehrheit", "stützt,", "ist", "zwar", "ambitioniert,", "aber", "praktikabel"],
+    "type": "drag",
+    "explanation": "C1: Relative clause with preposition fronting ('auf den … stützt') + concessive frame 'zwar … aber'.",
+    "translation_en": "The proposal on which the majority relies is indeed ambitious but practicable.",
+    "translation_ru": "Предложение, на которое опирается большинство, хотя и амбициозное, но реализуемое.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_21",
+    "target": "Wäre die Kommunikation von Beginn an transparent gewesen, hätten wir zahlreiche Konflikte vermieden.",
+    "tokens": ["Wäre", "die", "Kommunikation", "von", "Beginn", "an", "transparent", "gewesen,", "hätten", "wir", "zahlreiche", "Konflikte", "vermieden"],
+    "type": "drag",
+    "explanation": "C1: Unreal past conditional with inverted Konjunktiv II ('wäre … gewesen' / 'hätten … vermieden').",
+    "translation_en": "Had communication been transparent from the start, we would have avoided numerous conflicts.",
+    "translation_ru": "Если бы коммуникация с самого начала была прозрачной, мы бы избежали множества конфликтов.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_22",
+    "target": "Nicht so sehr die Kosten als vielmehr die Abhängigkeit von Lieferanten bereitet mir Sorgen.",
+    "tokens": ["Nicht", "so", "sehr", "die", "Kosten", "als", "vielmehr", "die", "Abhängigkeit", "von", "Lieferanten", "bereitet", "mir", "Sorgen"],
+    "type": "drag",
+    "explanation": "C1: Correlative contrast 'nicht so sehr … als vielmehr …' with singular verb agreement.",
+    "translation_en": "It is not so much the costs as the dependence on suppliers that worries me.",
+    "translation_ru": "Меня беспокоят не столько расходы, сколько зависимость от поставщиков.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_23",
+    "target": "Es versteht sich von selbst, dass sensible Daten verschlüsselt übertragen werden.",
+    "tokens": ["Es", "versteht", "sich", "von", "selbst,", "dass", "sensible", "Daten", "verschlüsselt", "übertragen", "werden"],
+    "type": "drag",
+    "explanation": "C1: Fixed idiom 'Es versteht sich von selbst, dass …' + passive construction.",
+    "translation_en": "It goes without saying that sensitive data are transmitted in encrypted form.",
+    "translation_ru": "Само собой разумеется, что конфиденциальные данные передаются в зашифрованном виде.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_24",
+    "target": "Sei es aus Zeitdruck, sei es aus Bequemlichkeit, werden Standards oft vernachlässigt.",
+    "tokens": ["Sei", "es", "aus", "Zeitdruck,", "sei", "es", "aus", "Bequemlichkeit,", "werden", "Standards", "oft", "vernachlässigt"],
+    "type": "drag",
+    "explanation": "C1: Parallel concessive alternatives 'Sei es …, sei es …' + passive voice.",
+    "translation_en": "Be it due to time pressure or to convenience, standards are often neglected.",
+    "translation_ru": "Будь то из-за дефицита времени или из-за удобства, стандарты часто игнорируются.",
+    "level": "C1"
+  },
+  {
+    "id": "s_c1_25",
+    "target": "Davon abgesehen, dass die Frist unrealistisch ist, fehlen uns klare Spezifikationen.",
+    "tokens": ["Davon", "abgesehen,", "dass", "die", "Frist", "unrealistisch", "ist,", "fehlen", "uns", "klare", "Spezifikationen"],
+    "type": "drag",
+    "explanation": "C1: Framing clause 'Davon abgesehen, dass …' introducing a concessive/limiting premise.",
+    "translation_en": "Apart from the fact that the deadline is unrealistic, we lack clear specifications.",
+    "translation_ru": "Помимо того, что срок нереалистичен, у нас нет чётких спецификаций.",
+    "level": "C1"
+  }
+]

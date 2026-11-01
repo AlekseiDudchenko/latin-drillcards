@@ -1,0 +1,3193 @@
+[
+  {
+    "id": "w_b2_1",
+    "de": "sich auseinandersetzen mit",
+    "article": "",
+    "ru": "разбираться с, заниматься чем-то",
+    "en": "to grapple with, engage with",
+    "exampleDe": "Wir setzen uns intensiv mit dem Thema auseinander.",
+    "exampleRu": "Мы основательно разбираемся с этой темой.",
+    "exampleEn": "We are engaging intensively with the topic.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "mit+Dativ",
+      "studium"
+    ]
+  },
+  {
+    "id": "w_b2_2",
+    "de": "widersprechen",
+    "article": "",
+    "ru": "противоречить",
+    "en": "to contradict",
+    "exampleDe": "Die Ergebnisse widersprechen der Theorie.",
+    "exampleRu": "Результаты противоречат теории.",
+    "exampleEn": "The results contradict the theory.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "Dativ",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_3",
+    "de": "voraussetzen",
+    "article": "",
+    "ru": "предполагать, требовать как условие",
+    "en": "to presuppose, require",
+    "exampleDe": "Der Kurs setzt Grundkenntnisse voraus.",
+    "exampleRu": "Курс предполагает базовые знания.",
+    "exampleEn": "The course presupposes basic knowledge.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_b2_4",
+    "de": "beeinflussen",
+    "article": "",
+    "ru": "влиять",
+    "en": "to influence, affect",
+    "exampleDe": "Stress kann die Leistung beeinflussen.",
+    "exampleRu": "Стресс может влиять на результативность.",
+    "exampleEn": "Stress can influence performance.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_5",
+    "de": "entwerfen",
+    "article": "",
+    "ru": "проектировать, разрабатывать",
+    "en": "to design, draft",
+    "exampleDe": "Sie entwirft ein neues Konzept.",
+    "exampleRu": "Она разрабатывает новую концепцию.",
+    "exampleEn": "She is drafting a new concept.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit",
+      "technik"
+    ]
+  },
+  {
+    "id": "w_b2_6",
+    "de": "sich auswirken auf",
+    "article": "",
+    "ru": "сказываться на, влиять на",
+    "en": "to have an effect on",
+    "exampleDe": "Die Änderung wirkt sich auf die Kosten aus.",
+    "exampleRu": "Изменение сказывается на расходах.",
+    "exampleEn": "The change affects the costs.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "auf+Akk"
+    ]
+  },
+  {
+    "id": "w_b2_7",
+    "de": "überzeugen",
+    "article": "",
+    "ru": "убеждать",
+    "en": "to convince, persuade",
+    "exampleDe": "Er überzeugte mich mit starken Argumenten.",
+    "exampleRu": "Он убедил меня вескими аргументами.",
+    "exampleEn": "He convinced me with strong arguments.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_8",
+    "de": "ablehnen",
+    "article": "",
+    "ru": "отклонять, отказываться",
+    "en": "to reject, decline",
+    "exampleDe": "Sie lehnte das Angebot höflich ab.",
+    "exampleRu": "Она вежливо отклонила предложение.",
+    "exampleEn": "She politely declined the offer.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_9",
+    "de": "zustimmen",
+    "article": "",
+    "ru": "соглашаться",
+    "en": "to agree, approve",
+    "exampleDe": "Ich stimme deinem Vorschlag zu.",
+    "exampleRu": "Я согласен с твоим предложением.",
+    "exampleEn": "I agree with your proposal.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "Dativ",
+      "meeting"
+    ]
+  },
+  {
+    "id": "w_b2_10",
+    "de": "beitragen zu",
+    "article": "",
+    "ru": "способствовать чему-то",
+    "en": "to contribute to",
+    "exampleDe": "Die Maßnahme trägt zur Verbesserung bei.",
+    "exampleRu": "Мера способствует улучшению.",
+    "exampleEn": "The measure contributes to improvement.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "zu+Dativ",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_11",
+    "de": "hinweisen auf",
+    "article": "",
+    "ru": "указывать на",
+    "en": "to point to, indicate",
+    "exampleDe": "Die Studie weist auf Risiken hin.",
+    "exampleRu": "Исследование указывает на риски.",
+    "exampleEn": "The study points to risks.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "auf+Akk",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_12",
+    "de": "verfügen über",
+    "article": "",
+    "ru": "располагать чем-то",
+    "en": "to have at one’s disposal",
+    "exampleDe": "Das Team verfügt über viel Erfahrung.",
+    "exampleRu": "Команда располагает большим опытом.",
+    "exampleEn": "The team has a lot of experience.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "über+Akk",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_13",
+    "de": "darüber hinaus",
+    "article": "",
+    "ru": "кроме того, сверх того",
+    "en": "moreover, besides",
+    "exampleDe": "Der Plan ist solide; darüber hinaus ist er flexibel.",
+    "exampleRu": "План надёжен; кроме того, он гибкий.",
+    "exampleEn": "The plan is solid; moreover, it is flexible.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "konnektor"
+    ]
+  },
+  {
+    "id": "w_b2_14",
+    "de": "infolgedessen",
+    "article": "",
+    "ru": "вследствие этого",
+    "en": "as a result, consequently",
+    "exampleDe": "Der Zug fiel aus, infolgedessen kamen wir zu spät.",
+    "exampleRu": "Поезд отменили, вследствие этого мы опоздали.",
+    "exampleEn": "The train was canceled; as a result, we were late.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "konnektor",
+      "folge"
+    ]
+  },
+  {
+    "id": "w_b2_15",
+    "de": "hingegen",
+    "article": "",
+    "ru": "напротив, зато",
+    "en": "by contrast, whereas",
+    "exampleDe": "Er spart, sie hingegen gibt viel aus.",
+    "exampleRu": "Он экономит, она же много тратит.",
+    "exampleEn": "He saves money; she, by contrast, spends a lot.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "konnektor",
+      "kontrast"
+    ]
+  },
+  {
+    "id": "w_b2_16",
+    "de": "somit",
+    "article": "",
+    "ru": "таким образом",
+    "en": "thus, therefore",
+    "exampleDe": "Alle Daten liegen vor, somit können wir starten.",
+    "exampleRu": "Все данные на руках, таким образом, мы можем начать.",
+    "exampleEn": "All data are available; thus we can start.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "konnektor",
+      "schluss"
+    ]
+  },
+  {
+    "id": "w_b2_17",
+    "de": "je ... desto (umso)",
+    "article": "",
+    "ru": "чем ..., тем ...",
+    "en": "the ... the ...",
+    "exampleDe": "Je mehr du übst, desto besser wirst du.",
+    "exampleRu": "Чем больше ты тренируешься, тем лучше становишься.",
+    "exampleEn": "The more you practice, the better you get.",
+    "level": "B2",
+    "tags": [
+      "korrelativ",
+      "struktur"
+    ]
+  },
+  {
+    "id": "w_b2_18",
+    "de": "insbesondere",
+    "article": "",
+    "ru": "в частности",
+    "en": "in particular, especially",
+    "exampleDe": "Ich esse gern Obst, insbesondere Äpfel.",
+    "exampleRu": "Я люблю фрукты, в частности яблоки.",
+    "exampleEn": "I like fruit, in particular apples.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "fokus"
+    ]
+  },
+  {
+    "id": "w_b2_19",
+    "de": "die Maßnahme",
+    "article": "die",
+    "ru": "мера, мероприятие",
+    "en": "measure, action",
+    "exampleDe": "Die Stadt ergreift neue Maßnahmen gegen Lärm.",
+    "exampleRu": "Город принимает новые меры против шума.",
+    "exampleEn": "The city is taking new measures against noise.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "politik",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_20",
+    "de": "die Konsequenz",
+    "article": "die",
+    "ru": "последствие",
+    "en": "consequence",
+    "exampleDe": "Handlungen haben Konsequenzen.",
+    "exampleRu": "Поступки имеют последствия.",
+    "exampleEn": "Actions have consequences.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "folge"
+    ]
+  },
+  {
+    "id": "w_b2_21",
+    "de": "der Zusammenhang",
+    "article": "der",
+    "ru": "связь, контекст",
+    "en": "connection, context",
+    "exampleDe": "Bitte erkläre den Zusammenhang der Zahlen.",
+    "exampleRu": "Поясни, как связаны эти цифры.",
+    "exampleEn": "Please explain the connection between the figures.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_22",
+    "de": "die Eigenschaft",
+    "article": "die",
+    "ru": "свойство, качество",
+    "en": "property, characteristic",
+    "exampleDe": "Zuverlässigkeit ist eine wichtige Eigenschaft.",
+    "exampleRu": "Надёжность — важное качество.",
+    "exampleEn": "Reliability is an important characteristic.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "beschreibung"
+    ]
+  },
+  {
+    "id": "w_b2_23",
+    "de": "wesentlich",
+    "article": "",
+    "ru": "существенный, важный",
+    "en": "essential, fundamental",
+    "exampleDe": "Kosten sind ein wesentlicher Faktor.",
+    "exampleRu": "Затраты — существенный фактор.",
+    "exampleEn": "Costs are an essential factor.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_24",
+    "de": "umstritten",
+    "article": "",
+    "ru": "спорный, неоднозначный",
+    "en": "controversial, disputed",
+    "exampleDe": "Das Thema ist politisch umstritten.",
+    "exampleRu": "Тема политически спорная.",
+    "exampleEn": "The topic is politically controversial.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "politik",
+      "debate"
+    ]
+  },
+  {
+    "id": "w_b2_25",
+    "de": "nachhaltig",
+    "article": "",
+    "ru": "устойчивый, экологичный",
+    "en": "sustainable",
+    "exampleDe": "Wir suchen nach nachhaltigen Lösungen.",
+    "exampleRu": "Мы ищем устойчивые решения.",
+    "exampleEn": "We are looking for sustainable solutions.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "umwelt",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_26",
+    "de": "gewährleisten",
+    "article": "",
+    "ru": "гарантировать, обеспечивать",
+    "en": "to ensure, guarantee",
+    "exampleDe": "Die Software gewährleistet Datensicherheit.",
+    "exampleRu": "Программа обеспечивает безопасность данных.",
+    "exampleEn": "The software ensures data security.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit",
+      "it"
+    ]
+  },
+  {
+    "id": "w_b2_27",
+    "de": "beeinträchtigen",
+    "article": "",
+    "ru": "ухудшать, мешать",
+    "en": "to impair, adversely affect",
+    "exampleDe": "Lärm beeinträchtigt die Konzentration.",
+    "exampleRu": "Шум ухудшает концентрацию.",
+    "exampleEn": "Noise impairs concentration.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_28",
+    "de": "berücksichtigen",
+    "article": "",
+    "ru": "учитывать",
+    "en": "to take into account",
+    "exampleDe": "Bitte berücksichtigen Sie die Hinweise.",
+    "exampleRu": "Пожалуйста, учитывайте указания.",
+    "exampleEn": "Please take the notes into account.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "formal"
+    ]
+  },
+  {
+    "id": "w_b2_29",
+    "de": "vorliegen",
+    "article": "",
+    "ru": "иметься в наличии",
+    "en": "to be available, to exist",
+    "exampleDe": "Alle Unterlagen liegen vor.",
+    "exampleRu": "Все документы в наличии.",
+    "exampleEn": "All documents are available.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "amt"
+    ]
+  },
+  {
+    "id": "w_b2_30",
+    "de": "nachweisen",
+    "article": "",
+    "ru": "доказывать, подтверждать",
+    "en": "to prove, demonstrate",
+    "exampleDe": "Er konnte seine Qualifikation nachweisen.",
+    "exampleRu": "Он смог доказать свою квалификацию.",
+    "exampleEn": "He was able to prove his qualification.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_31",
+    "de": "einführen",
+    "article": "",
+    "ru": "внедрять, вводить",
+    "en": "to introduce, implement",
+    "exampleDe": "Die Firma führt ein neues System ein.",
+    "exampleRu": "Компания внедряет новую систему.",
+    "exampleEn": "The company is introducing a new system.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_32",
+    "de": "abschätzen",
+    "article": "",
+    "ru": "оценивать, прикидывать",
+    "en": "to estimate, gauge",
+    "exampleDe": "Die Kosten lassen sich schwer abschätzen.",
+    "exampleRu": "Затраты трудно оценить.",
+    "exampleEn": "The costs are hard to estimate.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_33",
+    "de": "bewerten",
+    "article": "",
+    "ru": "оценивать",
+    "en": "to evaluate, assess",
+    "exampleDe": "Wir bewerten die Ergebnisse objektiv.",
+    "exampleRu": "Мы объективно оцениваем результаты.",
+    "exampleEn": "We evaluate the results objectively.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_34",
+    "de": "beantragen",
+    "article": "",
+    "ru": "подавать заявление",
+    "en": "to apply for (officially)",
+    "exampleDe": "Ich beantrage eine Verlängerung.",
+    "exampleRu": "Я подаю заявление на продление.",
+    "exampleEn": "I am applying for an extension.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "amt"
+    ]
+  },
+  {
+    "id": "w_b2_35",
+    "de": "ermitteln",
+    "article": "",
+    "ru": "устанавливать, выяснять",
+    "en": "to determine, ascertain",
+    "exampleDe": "Wir ermitteln die Ursache des Fehlers.",
+    "exampleRu": "Мы выясняем причину ошибки.",
+    "exampleEn": "We determine the cause of the error.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "technik"
+    ]
+  },
+  {
+    "id": "w_b2_36",
+    "de": "erfassen",
+    "article": "",
+    "ru": "вводить, фиксировать (данные)",
+    "en": "to capture, record",
+    "exampleDe": "Das System erfasst die Daten automatisch.",
+    "exampleRu": "Система автоматически фиксирует данные.",
+    "exampleEn": "The system records the data automatically.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "it",
+      "daten"
+    ]
+  },
+  {
+    "id": "w_b2_37",
+    "de": "verhandeln",
+    "article": "",
+    "ru": "вести переговоры",
+    "en": "to negotiate",
+    "exampleDe": "Die Parteien verhandeln über den Vertrag.",
+    "exampleRu": "Стороны ведут переговоры по договору.",
+    "exampleEn": "The parties are negotiating the contract.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b2_38",
+    "de": "befürworten",
+    "article": "",
+    "ru": "поддерживать, одобрять",
+    "en": "to advocate, approve",
+    "exampleDe": "Viele Experten befürworten die Maßnahme.",
+    "exampleRu": "Многие эксперты одобряют эту меру.",
+    "exampleEn": "Many experts support the measure.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_39",
+    "de": "sich eignen für",
+    "article": "",
+    "ru": "подходить для",
+    "en": "to be suitable for",
+    "exampleDe": "Das Modell eignet sich für Anfänger.",
+    "exampleRu": "Эта модель подходит для начинающих.",
+    "exampleEn": "The model is suitable for beginners.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "für+Akk"
+    ]
+  },
+  {
+    "id": "w_b2_40",
+    "de": "sich lohnen",
+    "article": "",
+    "ru": "иметь смысл, окупаться",
+    "en": "to be worth it, pay off",
+    "exampleDe": "Es lohnt sich, früh zu buchen.",
+    "exampleRu": "Имеет смысл бронировать заранее.",
+    "exampleEn": "It’s worth booking early.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "alltag"
+    ]
+  },
+  {
+    "id": "w_b2_41",
+    "de": "erheblich",
+    "article": "",
+    "ru": "существенный, значительный",
+    "en": "considerable, significant",
+    "exampleDe": "Die Nachfrage ist erheblich gestiegen.",
+    "exampleRu": "Спрос значительно вырос.",
+    "exampleEn": "Demand has increased considerably.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_42",
+    "de": "geringfügig",
+    "article": "",
+    "ru": "незначительный",
+    "en": "slight, marginal",
+    "exampleDe": "Die Abweichung ist nur geringfügig.",
+    "exampleRu": "Отклонение лишь незначительное.",
+    "exampleEn": "The deviation is only marginal.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_43",
+    "de": "voraussichtlich",
+    "article": "",
+    "ru": "предположительно, ожидается",
+    "en": "expected, likely",
+    "exampleDe": "Die Lieferung kommt voraussichtlich morgen.",
+    "exampleRu": "Поставка ожидается завтра.",
+    "exampleEn": "The delivery is likely to arrive tomorrow.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "zeit",
+      "formal"
+    ]
+  },
+  {
+    "id": "w_b2_44",
+    "de": "eindeutig",
+    "article": "",
+    "ru": "однозначный, ясный",
+    "en": "clear, unambiguous",
+    "exampleDe": "Die Ergebnisse sind eindeutig.",
+    "exampleRu": "Результаты однозначны.",
+    "exampleEn": "The results are unambiguous.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_45",
+    "de": "umfassend",
+    "article": "",
+    "ru": "всесторонний, комплексный",
+    "en": "comprehensive, thorough",
+    "exampleDe": "Wir brauchen eine umfassende Analyse.",
+    "exampleRu": "Нам нужен всесторонний анализ.",
+    "exampleEn": "We need a comprehensive analysis.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_46",
+    "de": "zuverlässig",
+    "article": "",
+    "ru": "надёжный",
+    "en": "reliable",
+    "exampleDe": "Die Quelle ist zuverlässig.",
+    "exampleRu": "Источник надёжный.",
+    "exampleEn": "The source is reliable.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_47",
+    "de": "die Einschränkung",
+    "article": "die",
+    "ru": "ограничение",
+    "en": "restriction, limitation",
+    "exampleDe": "Es gibt zeitliche Einschränkungen.",
+    "exampleRu": "Есть временные ограничения.",
+    "exampleEn": "There are time restrictions.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "recht",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_48",
+    "de": "die Umsetzung",
+    "article": "die",
+    "ru": "реализация, внедрение",
+    "en": "implementation, execution",
+    "exampleDe": "Die Umsetzung des Plans dauert.",
+    "exampleRu": "Реализация плана занимает время.",
+    "exampleEn": "The implementation of the plan takes time.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "projekt",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_49",
+    "de": "die Einschätzung",
+    "article": "die",
+    "ru": "оценка, мнение",
+    "en": "assessment, appraisal",
+    "exampleDe": "Ihre Einschätzung war zutreffend.",
+    "exampleRu": "Её оценка оказалась верной.",
+    "exampleEn": "Her assessment was accurate.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_50",
+    "de": "sofern",
+    "article": "",
+    "ru": "при условии что",
+    "en": "provided that",
+    "exampleDe": "Du kannst mitkommen, sofern du pünktlich bist.",
+    "exampleRu": "Ты можешь пойти с нами, при условии что придёшь вовремя.",
+    "exampleEn": "You can come along, provided that you are on time.",
+    "level": "B2",
+    "tags": [
+      "konjunktion",
+      "bedingung"
+    ]
+  },
+  {
+    "id": "w_b2_51",
+    "de": "sicherstellen",
+    "article": "",
+    "ru": "обеспечивать, гарантировать",
+    "en": "to ensure",
+    "exampleDe": "Wir stellen sicher, dass alle informiert sind.",
+    "exampleRu": "Мы обеспечиваем, чтобы все были информированы.",
+    "exampleEn": "We ensure that everyone is informed.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_52",
+    "de": "bewirken",
+    "article": "",
+    "ru": "вызывать, приводить к",
+    "en": "to cause, bring about",
+    "exampleDe": "Die Maßnahme bewirkt eine Kostensenkung.",
+    "exampleRu": "Мера вызывает снижение затрат.",
+    "exampleEn": "The measure brings about a reduction in costs.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "folge"
+    ]
+  },
+  {
+    "id": "w_b2_53",
+    "de": "einbeziehen",
+    "article": "",
+    "ru": "включать, привлекать",
+    "en": "to include, involve",
+    "exampleDe": "Wir beziehen alle Stakeholder ein.",
+    "exampleRu": "Мы привлекаем всех заинтересованных лиц.",
+    "exampleEn": "We include all stakeholders.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "projekt",
+      "team"
+    ]
+  },
+  {
+    "id": "w_b2_54",
+    "de": "einschränken",
+    "article": "",
+    "ru": "ограничивать",
+    "en": "to restrict, limit",
+    "exampleDe": "Neue Regeln schränken die Nutzung ein.",
+    "exampleRu": "Новые правила ограничивают использование.",
+    "exampleEn": "New rules restrict usage.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "recht",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_55",
+    "de": "ausweiten",
+    "article": "",
+    "ru": "расширять",
+    "en": "to expand",
+    "exampleDe": "Die Firma weitet das Angebot aus.",
+    "exampleRu": "Компания расширяет предложение.",
+    "exampleEn": "The company is expanding its offering.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_56",
+    "de": "übertragen",
+    "article": "",
+    "ru": "передавать, переносить",
+    "en": "to transfer, transmit",
+    "exampleDe": "Die Daten werden verschlüsselt übertragen.",
+    "exampleRu": "Данные передаются в зашифрованном виде.",
+    "exampleEn": "The data are transmitted encrypted.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "it",
+      "daten"
+    ]
+  },
+  {
+    "id": "w_b2_57",
+    "de": "einhalten",
+    "article": "",
+    "ru": "соблюдать",
+    "en": "to comply with, observe",
+    "exampleDe": "Wir halten die Frist ein.",
+    "exampleRu": "Мы соблюдаем срок.",
+    "exampleEn": "We comply with the deadline.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b2_58",
+    "de": "überschreiten",
+    "article": "",
+    "ru": "превышать",
+    "en": "to exceed",
+    "exampleDe": "Die Kosten überschreiten das Budget.",
+    "exampleRu": "Затраты превышают бюджет.",
+    "exampleEn": "The costs exceed the budget.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_59",
+    "de": "sich beziehen auf",
+    "article": "",
+    "ru": "ссылаться на, относиться к",
+    "en": "to refer to, relate to",
+    "exampleDe": "Die Zahlen beziehen sich auf 2025.",
+    "exampleRu": "Цифры относятся к 2025 году.",
+    "exampleEn": "The figures refer to 2025.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "reflexiv",
+      "auf+Akk"
+    ]
+  },
+  {
+    "id": "w_b2_60",
+    "de": "bestehen aus",
+    "article": "",
+    "ru": "состоять из",
+    "en": "to consist of",
+    "exampleDe": "Der Kurs besteht aus drei Modulen.",
+    "exampleRu": "Курс состоит из трёх модулей.",
+    "exampleEn": "The course consists of three modules.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "aus+Dat"
+    ]
+  },
+  {
+    "id": "w_b2_61",
+    "de": "bestehen auf",
+    "article": "",
+    "ru": "настаивать на",
+    "en": "to insist on",
+    "exampleDe": "Wir bestehen auf hoher Qualität.",
+    "exampleRu": "Мы настаиваем на высоком качестве.",
+    "exampleEn": "We insist on high quality.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "auf+Dat"
+    ]
+  },
+  {
+    "id": "w_b2_62",
+    "de": "entsprechen",
+    "article": "",
+    "ru": "соответствовать",
+    "en": "to correspond to, match",
+    "exampleDe": "Das Ergebnis entspricht den Erwartungen.",
+    "exampleRu": "Результат соответствует ожиданиям.",
+    "exampleEn": "The result corresponds to expectations.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "Dativ"
+    ]
+  },
+  {
+    "id": "w_b2_63",
+    "de": "erörtern",
+    "article": "",
+    "ru": "обсуждать (детально)",
+    "en": "to discuss, debate",
+    "exampleDe": "Wir erörtern die Vor- und Nachteile.",
+    "exampleRu": "Мы подробно обсуждаем плюсы и минусы.",
+    "exampleEn": "We discuss the pros and cons.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation",
+      "formal"
+    ]
+  },
+  {
+    "id": "w_b2_64",
+    "de": "verdeutlichen",
+    "article": "",
+    "ru": "прояснять, наглядно показывать",
+    "en": "to clarify, illustrate",
+    "exampleDe": "Ein Beispiel verdeutlicht den Unterschied.",
+    "exampleRu": "Пример проясняет разницу.",
+    "exampleEn": "An example illustrates the difference.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "erklärung"
+    ]
+  },
+  {
+    "id": "w_b2_65",
+    "de": "herausfordern",
+    "article": "",
+    "ru": "бросать вызов",
+    "en": "to challenge",
+    "exampleDe": "Die Aufgabe fordert uns heraus.",
+    "exampleRu": "Задача бросает нам вызов.",
+    "exampleEn": "The task challenges us.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_66",
+    "de": "überwinden",
+    "article": "",
+    "ru": "преодолевать",
+    "en": "to overcome",
+    "exampleDe": "Wir überwinden die Schwierigkeiten gemeinsam.",
+    "exampleRu": "Мы преодолеваем трудности вместе.",
+    "exampleEn": "We overcome the difficulties together.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_67",
+    "de": "verzichten auf",
+    "article": "",
+    "ru": "отказываться от",
+    "en": "to do without, renounce",
+    "exampleDe": "Wir verzichten auf Plastiktüten.",
+    "exampleRu": "Мы отказываемся от пластиковых пакетов.",
+    "exampleEn": "We do without plastic bags.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "auf+Akk",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b2_68",
+    "de": "zugänglich",
+    "article": "",
+    "ru": "доступный",
+    "en": "accessible",
+    "exampleDe": "Die Daten sind nur intern zugänglich.",
+    "exampleRu": "Данные доступны только внутри компании.",
+    "exampleEn": "The data are accessible internally only.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "it",
+      "sicherheit"
+    ]
+  },
+  {
+    "id": "w_b2_69",
+    "de": "angemessen",
+    "article": "",
+    "ru": "подходящий, уместный",
+    "en": "appropriate, adequate",
+    "exampleDe": "Der Ton war nicht angemessen.",
+    "exampleRu": "Тон был неуместным.",
+    "exampleEn": "The tone was not appropriate.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_70",
+    "de": "vergleichbar",
+    "article": "",
+    "ru": "сопоставимый",
+    "en": "comparable",
+    "exampleDe": "Die Preise sind nicht direkt vergleichbar.",
+    "exampleRu": "Цены напрямую несопоставимы.",
+    "exampleEn": "The prices are not directly comparable.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_71",
+    "de": "maßgeblich",
+    "article": "",
+    "ru": "решающий, значимый",
+    "en": "decisive, significant",
+    "exampleDe": "Sie war maßgeblich am Erfolg beteiligt.",
+    "exampleRu": "Она сыграла решающую роль в успехе.",
+    "exampleEn": "She was significantly involved in the success.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_72",
+    "de": "die Erkenntnis",
+    "article": "die",
+    "ru": "вывод, понимание",
+    "en": "insight, finding",
+    "exampleDe": "Die Studie brachte wichtige Erkenntnisse.",
+    "exampleRu": "Исследование принесло важные выводы.",
+    "exampleEn": "The study yielded important insights.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_73",
+    "de": "der Ansatz",
+    "article": "der",
+    "ru": "подход, метод",
+    "en": "approach",
+    "exampleDe": "Wir wählen einen pragmatischen Ansatz.",
+    "exampleRu": "Мы выбираем прагматичный подход.",
+    "exampleEn": "We choose a pragmatic approach.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_74",
+    "de": "der Umfang",
+    "article": "der",
+    "ru": "объём, масштаб",
+    "en": "scope, extent",
+    "exampleDe": "Der Umfang des Projekts ist groß.",
+    "exampleRu": "Масштаб проекта большой.",
+    "exampleEn": "The scope of the project is large.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_75",
+    "de": "anhand",
+    "article": "",
+    "ru": "на основании, с помощью (чего-либо)",
+    "en": "by means of, on the basis of",
+    "exampleDe": "Anhand der Grafik erklären wir den Trend.",
+    "exampleRu": "На основании графика мы объясняем тренд.",
+    "exampleEn": "We explain the trend by means of the chart.",
+    "level": "B2",
+    "tags": [
+      "präposition",
+      "genitiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_276",
+    "de": "die Herausforderung",
+    "article": "die",
+    "ru": "вызов, трудная задача",
+    "en": "challenge",
+    "exampleDe": "Der Klimawandel ist eine große Herausforderung.",
+    "exampleRu": "Изменение климата — большой вызов.",
+    "exampleEn": "Climate change is a major challenge.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_277",
+    "de": "die Auswirkung",
+    "article": "die",
+    "ru": "воздействие, последствие",
+    "en": "impact, effect",
+    "exampleDe": "Die Krise hat Auswirkungen auf die ganze Wirtschaft.",
+    "exampleRu": "Кризис влияет на всю экономику.",
+    "exampleEn": "The crisis has an impact on the whole economy.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_278",
+    "de": "der Fortschritt",
+    "article": "der",
+    "ru": "прогресс",
+    "en": "progress",
+    "exampleDe": "Die Medizin macht große Fortschritte.",
+    "exampleRu": "Медицина делает большие успехи.",
+    "exampleEn": "Medicine is making great progress.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_279",
+    "de": "der Rückgang",
+    "article": "der",
+    "ru": "спад, снижение",
+    "en": "decline, decrease",
+    "exampleDe": "Wir beobachten einen Rückgang der Verkäufe.",
+    "exampleRu": "Мы наблюдаем спад продаж.",
+    "exampleEn": "We are seeing a decline in sales.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_280",
+    "de": "der Anstieg",
+    "article": "der",
+    "ru": "рост, повышение",
+    "en": "rise, increase",
+    "exampleDe": "Der Anstieg der Preise beunruhigt die Bürger.",
+    "exampleRu": "Рост цен беспокоит граждан.",
+    "exampleEn": "The rise in prices worries citizens.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_281",
+    "de": "die Nachfrage",
+    "article": "die",
+    "ru": "спрос",
+    "en": "demand",
+    "exampleDe": "Die Nachfrage nach Elektroautos steigt.",
+    "exampleRu": "Спрос на электромобили растёт.",
+    "exampleEn": "Demand for electric cars is rising.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_282",
+    "de": "das Angebot",
+    "article": "das",
+    "ru": "предложение",
+    "en": "supply, offer",
+    "exampleDe": "Angebot und Nachfrage bestimmen den Preis.",
+    "exampleRu": "Спрос и предложение определяют цену.",
+    "exampleEn": "Supply and demand determine the price.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_283",
+    "de": "der Wettbewerb",
+    "article": "der",
+    "ru": "конкуренция, конкурс",
+    "en": "competition",
+    "exampleDe": "Der Wettbewerb zwischen den Firmen ist hart.",
+    "exampleRu": "Конкуренция между фирмами жёсткая.",
+    "exampleEn": "Competition between the companies is fierce.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_284",
+    "de": "die Verantwortung",
+    "article": "die",
+    "ru": "ответственность",
+    "en": "responsibility",
+    "exampleDe": "Er übernimmt die Verantwortung für das Projekt.",
+    "exampleRu": "Он берёт на себя ответственность за проект.",
+    "exampleEn": "He takes responsibility for the project.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "arbeit",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_285",
+    "de": "die Gerechtigkeit",
+    "article": "die",
+    "ru": "справедливость",
+    "en": "justice",
+    "exampleDe": "Sie kämpft für mehr soziale Gerechtigkeit.",
+    "exampleRu": "Она борется за большую социальную справедливость.",
+    "exampleEn": "She fights for more social justice.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_286",
+    "de": "das Vorurteil",
+    "article": "das",
+    "ru": "предрассудок",
+    "en": "prejudice",
+    "exampleDe": "Wir müssen gegen Vorurteile ankämpfen.",
+    "exampleRu": "Мы должны бороться с предрассудками.",
+    "exampleEn": "We must fight against prejudice.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_287",
+    "de": "die Absicht",
+    "article": "die",
+    "ru": "намерение",
+    "en": "intention",
+    "exampleDe": "Er hatte nicht die Absicht, dich zu verletzen.",
+    "exampleRu": "У него не было намерения тебя обидеть.",
+    "exampleEn": "He had no intention of hurting you.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_288",
+    "de": "der Zweck",
+    "article": "der",
+    "ru": "цель, назначение",
+    "en": "purpose",
+    "exampleDe": "Zu welchem Zweck brauchen Sie diese Daten?",
+    "exampleRu": "Для какой цели вам нужны эти данные?",
+    "exampleEn": "For what purpose do you need this data?",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_289",
+    "de": "die Ursache",
+    "article": "die",
+    "ru": "причина",
+    "en": "cause",
+    "exampleDe": "Die Ursache des Unfalls ist noch unklar.",
+    "exampleRu": "Причина аварии пока неясна.",
+    "exampleEn": "The cause of the accident is still unclear.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_290",
+    "de": "der Vorteil",
+    "article": "der",
+    "ru": "преимущество",
+    "en": "advantage",
+    "exampleDe": "Diese Methode hat viele Vorteile.",
+    "exampleRu": "У этого метода много преимуществ.",
+    "exampleEn": "This method has many advantages.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_291",
+    "de": "der Nachteil",
+    "article": "der",
+    "ru": "недостаток",
+    "en": "disadvantage",
+    "exampleDe": "Der größte Nachteil ist der hohe Preis.",
+    "exampleRu": "Самый большой недостаток — высокая цена.",
+    "exampleEn": "The biggest disadvantage is the high price.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_292",
+    "de": "der Aufwand",
+    "article": "der",
+    "ru": "затраты, усилия",
+    "en": "effort, expense",
+    "exampleDe": "Der Aufwand hat sich gelohnt.",
+    "exampleRu": "Затраты себя оправдали.",
+    "exampleEn": "The effort was worth it.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "arbeit",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_293",
+    "de": "die Wirtschaft",
+    "article": "die",
+    "ru": "экономика",
+    "en": "economy",
+    "exampleDe": "Die Wirtschaft wächst langsam.",
+    "exampleRu": "Экономика растёт медленно.",
+    "exampleEn": "The economy is growing slowly.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_294",
+    "de": "die Regierung",
+    "article": "die",
+    "ru": "правительство",
+    "en": "government",
+    "exampleDe": "Die Regierung plant neue Reformen.",
+    "exampleRu": "Правительство планирует новые реформы.",
+    "exampleEn": "The government is planning new reforms.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_295",
+    "de": "die Steuer",
+    "article": "die",
+    "ru": "налог",
+    "en": "tax",
+    "exampleDe": "Die Steuern wurden erhöht.",
+    "exampleRu": "Налоги были повышены.",
+    "exampleEn": "Taxes were raised.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_296",
+    "de": "die Arbeitslosigkeit",
+    "article": "die",
+    "ru": "безработица",
+    "en": "unemployment",
+    "exampleDe": "Die Arbeitslosigkeit ist im letzten Jahr gesunken.",
+    "exampleRu": "Безработица в прошлом году снизилась.",
+    "exampleEn": "Unemployment fell last year.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_297",
+    "de": "die Bevölkerung",
+    "article": "die",
+    "ru": "население",
+    "en": "population",
+    "exampleDe": "Die Bevölkerung der Stadt wächst schnell.",
+    "exampleRu": "Население города быстро растёт.",
+    "exampleEn": "The city's population is growing fast.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_298",
+    "de": "die Integration",
+    "article": "die",
+    "ru": "интеграция",
+    "en": "integration",
+    "exampleDe": "Die Integration von Migranten ist wichtig.",
+    "exampleRu": "Интеграция мигрантов важна.",
+    "exampleEn": "The integration of migrants is important.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_299",
+    "de": "der Klimawandel",
+    "article": "der",
+    "ru": "изменение климата",
+    "en": "climate change",
+    "exampleDe": "Der Klimawandel bedroht viele Arten.",
+    "exampleRu": "Изменение климата угрожает многим видам.",
+    "exampleEn": "Climate change threatens many species.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b2_300",
+    "de": "die Nachhaltigkeit",
+    "article": "die",
+    "ru": "устойчивость, экологичность",
+    "en": "sustainability",
+    "exampleDe": "Nachhaltigkeit spielt eine immer größere Rolle.",
+    "exampleRu": "Устойчивое развитие играет всё большую роль.",
+    "exampleEn": "Sustainability plays an ever greater role.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "umwelt",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_301",
+    "de": "der Wohlstand",
+    "article": "der",
+    "ru": "благосостояние",
+    "en": "prosperity",
+    "exampleDe": "Der Wohlstand ist ungleich verteilt.",
+    "exampleRu": "Благосостояние распределено неравномерно.",
+    "exampleEn": "Prosperity is unevenly distributed.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_302",
+    "de": "die Forschung",
+    "article": "die",
+    "ru": "исследование, наука",
+    "en": "research",
+    "exampleDe": "Die Forschung in diesem Bereich ist teuer.",
+    "exampleRu": "Исследования в этой области дороги.",
+    "exampleEn": "Research in this field is expensive.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_303",
+    "de": "das Experiment",
+    "article": "das",
+    "ru": "эксперимент",
+    "en": "experiment",
+    "exampleDe": "Das Experiment lieferte überraschende Ergebnisse.",
+    "exampleRu": "Эксперимент дал неожиданные результаты.",
+    "exampleEn": "The experiment produced surprising results.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_304",
+    "de": "die Hypothese",
+    "article": "die",
+    "ru": "гипотеза",
+    "en": "hypothesis",
+    "exampleDe": "Die Hypothese wurde durch Daten bestätigt.",
+    "exampleRu": "Гипотеза подтвердилась данными.",
+    "exampleEn": "The hypothesis was confirmed by data.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wissenschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_305",
+    "de": "die Digitalisierung",
+    "article": "die",
+    "ru": "цифровизация",
+    "en": "digitalization",
+    "exampleDe": "Die Digitalisierung verändert die Arbeitswelt.",
+    "exampleRu": "Цифровизация меняет мир труда.",
+    "exampleEn": "Digitalization is changing the world of work.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "technik",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_306",
+    "de": "der Datenschutz",
+    "article": "der",
+    "ru": "защита данных",
+    "en": "data protection",
+    "exampleDe": "Der Datenschutz hat höchste Priorität.",
+    "exampleRu": "Защита данных имеет высший приоритет.",
+    "exampleEn": "Data protection has the highest priority.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "it",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b2_307",
+    "de": "die Quelle",
+    "article": "die",
+    "ru": "источник",
+    "en": "source",
+    "exampleDe": "Bitte nennen Sie Ihre Quellen.",
+    "exampleRu": "Пожалуйста, укажите ваши источники.",
+    "exampleEn": "Please cite your sources.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wissenschaft",
+      "medien"
+    ]
+  },
+  {
+    "id": "w_b2_308",
+    "de": "die Ausnahme",
+    "article": "die",
+    "ru": "исключение",
+    "en": "exception",
+    "exampleDe": "Diese Regel hat keine Ausnahme.",
+    "exampleRu": "У этого правила нет исключений.",
+    "exampleEn": "This rule has no exception.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_309",
+    "de": "der Verdacht",
+    "article": "der",
+    "ru": "подозрение",
+    "en": "suspicion",
+    "exampleDe": "Es besteht der Verdacht auf Betrug.",
+    "exampleRu": "Есть подозрение в мошенничестве.",
+    "exampleEn": "There is a suspicion of fraud.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b2_310",
+    "de": "die Vielfalt",
+    "article": "die",
+    "ru": "многообразие",
+    "en": "diversity",
+    "exampleDe": "Die kulturelle Vielfalt bereichert die Gesellschaft.",
+    "exampleRu": "Культурное многообразие обогащает общество.",
+    "exampleEn": "Cultural diversity enriches society.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_311",
+    "de": "scheitern",
+    "article": "",
+    "ru": "терпеть неудачу",
+    "en": "to fail",
+    "exampleDe": "Das Projekt ist an mangelndem Geld gescheitert.",
+    "exampleRu": "Проект провалился из-за нехватки денег.",
+    "exampleEn": "The project failed due to lack of money.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_312",
+    "de": "gelingen",
+    "article": "",
+    "ru": "удаваться",
+    "en": "to succeed",
+    "exampleDe": "Es ist ihm gelungen, alle zu überzeugen.",
+    "exampleRu": "Ему удалось всех убедить.",
+    "exampleEn": "He managed to convince everyone.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "projekt"
+    ]
+  },
+  {
+    "id": "w_b2_313",
+    "de": "bewältigen",
+    "article": "",
+    "ru": "справляться, преодолевать",
+    "en": "to cope with, to manage",
+    "exampleDe": "Sie bewältigt ihre Aufgaben mühelos.",
+    "exampleRu": "Она без труда справляется со своими задачами.",
+    "exampleEn": "She manages her tasks effortlessly.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_314",
+    "de": "vermeiden",
+    "article": "",
+    "ru": "избегать",
+    "en": "to avoid",
+    "exampleDe": "Man sollte Konflikte vermeiden.",
+    "exampleRu": "Следует избегать конфликтов.",
+    "exampleEn": "One should avoid conflicts.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "alltag"
+    ]
+  },
+  {
+    "id": "w_b2_315",
+    "de": "verursachen",
+    "article": "",
+    "ru": "вызывать, причинять",
+    "en": "to cause",
+    "exampleDe": "Der Sturm hat große Schäden verursacht.",
+    "exampleRu": "Буря причинила большой ущерб.",
+    "exampleEn": "The storm caused great damage.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_316",
+    "de": "ermöglichen",
+    "article": "",
+    "ru": "делать возможным",
+    "en": "to enable, to make possible",
+    "exampleDe": "Das Stipendium ermöglicht ihr das Studium.",
+    "exampleRu": "Стипендия даёт ей возможность учиться.",
+    "exampleEn": "The scholarship enables her to study.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_b2_317",
+    "de": "erzielen",
+    "article": "",
+    "ru": "достигать (результата)",
+    "en": "to achieve",
+    "exampleDe": "Die Firma hat gute Ergebnisse erzielt.",
+    "exampleRu": "Фирма достигла хороших результатов.",
+    "exampleEn": "The company achieved good results.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "wirtschaft",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_318",
+    "de": "hervorheben",
+    "article": "",
+    "ru": "подчёркивать, выделять",
+    "en": "to emphasize",
+    "exampleDe": "Der Redner hob die Bedeutung der Bildung hervor.",
+    "exampleRu": "Оратор подчеркнул значение образования.",
+    "exampleEn": "The speaker emphasized the importance of education.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b2_319",
+    "de": "bezweifeln",
+    "article": "",
+    "ru": "сомневаться в",
+    "en": "to doubt",
+    "exampleDe": "Ich bezweifle, dass das funktioniert.",
+    "exampleRu": "Я сомневаюсь, что это сработает.",
+    "exampleEn": "I doubt that this will work.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_320",
+    "de": "vermuten",
+    "article": "",
+    "ru": "предполагать",
+    "en": "to suppose, to assume",
+    "exampleDe": "Man vermutet, dass die Zahl steigt.",
+    "exampleRu": "Предполагают, что число вырастет.",
+    "exampleEn": "It is assumed that the number will rise.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_321",
+    "de": "feststellen",
+    "article": "",
+    "ru": "устанавливать, констатировать",
+    "en": "to determine, to note",
+    "exampleDe": "Der Arzt stellte eine Verbesserung fest.",
+    "exampleRu": "Врач констатировал улучшение.",
+    "exampleEn": "The doctor noted an improvement.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b2_322",
+    "de": "unterscheiden",
+    "article": "",
+    "ru": "различать",
+    "en": "to distinguish",
+    "exampleDe": "Man muss zwischen Ursache und Wirkung unterscheiden.",
+    "exampleRu": "Нужно различать причину и следствие.",
+    "exampleEn": "One must distinguish between cause and effect.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_323",
+    "de": "beruhen auf",
+    "article": "",
+    "ru": "основываться на",
+    "en": "to be based on",
+    "exampleDe": "Seine Theorie beruht auf langjähriger Forschung.",
+    "exampleRu": "Его теория основана на многолетних исследованиях.",
+    "exampleEn": "His theory is based on years of research.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "wissenschaft",
+      "auf+Dat"
+    ]
+  },
+  {
+    "id": "w_b2_324",
+    "de": "veranschaulichen",
+    "article": "",
+    "ru": "наглядно показывать",
+    "en": "to illustrate",
+    "exampleDe": "Ein Beispiel veranschaulicht das Problem.",
+    "exampleRu": "Пример наглядно показывает проблему.",
+    "exampleEn": "An example illustrates the problem.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_325",
+    "de": "widerspiegeln",
+    "article": "",
+    "ru": "отражать",
+    "en": "to reflect",
+    "exampleDe": "Die Umfrage spiegelt die Meinung der Bürger wider.",
+    "exampleRu": "Опрос отражает мнение граждан.",
+    "exampleEn": "The survey reflects the opinion of citizens.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b2_326",
+    "de": "in Frage stellen",
+    "article": "",
+    "ru": "ставить под сомнение",
+    "en": "to call into question",
+    "exampleDe": "Die Studie stellt frühere Annahmen in Frage.",
+    "exampleRu": "Исследование ставит под сомнение прежние предположения.",
+    "exampleEn": "The study calls earlier assumptions into question.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_327",
+    "de": "zunehmen",
+    "article": "",
+    "ru": "возрастать, увеличиваться",
+    "en": "to increase",
+    "exampleDe": "Der Verkehr in der Stadt nimmt ständig zu.",
+    "exampleRu": "Движение в городе постоянно растёт.",
+    "exampleEn": "Traffic in the city is constantly increasing.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b2_328",
+    "de": "abnehmen",
+    "article": "",
+    "ru": "уменьшаться, худеть",
+    "en": "to decrease, to lose weight",
+    "exampleDe": "Die Zahl der Raucher hat abgenommen.",
+    "exampleRu": "Число курильщиков уменьшилось.",
+    "exampleEn": "The number of smokers has decreased.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "trennbar"
+    ]
+  },
+  {
+    "id": "w_b2_329",
+    "de": "anspruchsvoll",
+    "article": "",
+    "ru": "требовательный, сложный",
+    "en": "demanding, sophisticated",
+    "exampleDe": "Die Aufgabe ist sehr anspruchsvoll.",
+    "exampleRu": "Задача очень сложная.",
+    "exampleEn": "The task is very demanding.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_330",
+    "de": "aufwendig",
+    "article": "",
+    "ru": "трудоёмкий, затратный",
+    "en": "elaborate, costly",
+    "exampleDe": "Die Reparatur war sehr aufwendig.",
+    "exampleRu": "Ремонт был очень трудоёмким.",
+    "exampleEn": "The repair was very elaborate.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "projekt",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_331",
+    "de": "nachvollziehbar",
+    "article": "",
+    "ru": "понятный, обоснованный",
+    "en": "comprehensible",
+    "exampleDe": "Seine Entscheidung ist gut nachvollziehbar.",
+    "exampleRu": "Его решение вполне понятно.",
+    "exampleEn": "His decision is quite comprehensible.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_332",
+    "de": "offensichtlich",
+    "article": "",
+    "ru": "очевидный",
+    "en": "obvious",
+    "exampleDe": "Es ist offensichtlich, dass er recht hat.",
+    "exampleRu": "Очевидно, что он прав.",
+    "exampleEn": "It is obvious that he is right.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_333",
+    "de": "erforderlich",
+    "article": "",
+    "ru": "необходимый, требуемый",
+    "en": "required, necessary",
+    "exampleDe": "Für diese Stelle sind gute Sprachkenntnisse erforderlich.",
+    "exampleRu": "Для этой должности необходимы хорошие знания языка.",
+    "exampleEn": "Good language skills are required for this position.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "formal"
+    ]
+  },
+  {
+    "id": "w_b2_334",
+    "de": "die Tendenz",
+    "article": "die",
+    "ru": "тенденция",
+    "en": "tendency, trend",
+    "exampleDe": "Es gibt eine klare Tendenz zu mehr Homeoffice.",
+    "exampleRu": "Есть чёткая тенденция к удалённой работе.",
+    "exampleEn": "There is a clear trend towards more home office.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_335",
+    "de": "unverzichtbar",
+    "article": "",
+    "ru": "незаменимый",
+    "en": "indispensable",
+    "exampleDe": "Das Internet ist heute unverzichtbar.",
+    "exampleRu": "Интернет сегодня незаменим.",
+    "exampleEn": "The internet is indispensable today.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "bewertung",
+      "technik"
+    ]
+  },
+  {
+    "id": "w_b2_336",
+    "de": "bedeutend",
+    "article": "",
+    "ru": "значительный",
+    "en": "significant, important",
+    "exampleDe": "Sie ist eine bedeutende Wissenschaftlerin.",
+    "exampleRu": "Она — значительный учёный.",
+    "exampleEn": "She is an important scientist.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "bewertung",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_337",
+    "de": "zahlreich",
+    "article": "",
+    "ru": "многочисленный",
+    "en": "numerous",
+    "exampleDe": "Es gibt zahlreiche Beispiele dafür.",
+    "exampleRu": "Есть многочисленные примеры этого.",
+    "exampleEn": "There are numerous examples of this.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_338",
+    "de": "gängig",
+    "article": "",
+    "ru": "распространённый, ходовой",
+    "en": "common, prevalent",
+    "exampleDe": "Das ist eine gängige Methode.",
+    "exampleRu": "Это распространённый метод.",
+    "exampleEn": "That is a common method.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_339",
+    "de": "vorläufig",
+    "article": "",
+    "ru": "предварительный, временный",
+    "en": "preliminary, provisional",
+    "exampleDe": "Das sind nur vorläufige Ergebnisse.",
+    "exampleRu": "Это лишь предварительные результаты.",
+    "exampleEn": "These are only preliminary results.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_340",
+    "de": "keineswegs",
+    "article": "",
+    "ru": "отнюдь не, никоим образом",
+    "en": "by no means",
+    "exampleDe": "Das ist keineswegs sicher.",
+    "exampleRu": "Это отнюдь не точно.",
+    "exampleEn": "That is by no means certain.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_341",
+    "de": "allerdings",
+    "article": "",
+    "ru": "однако, правда",
+    "en": "however, though",
+    "exampleDe": "Die Idee ist gut, allerdings zu teuer.",
+    "exampleRu": "Идея хорошая, однако слишком дорогая.",
+    "exampleEn": "The idea is good, however too expensive.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "konnektor",
+      "kontrast"
+    ]
+  },
+  {
+    "id": "w_b2_342",
+    "de": "folglich",
+    "article": "",
+    "ru": "следовательно",
+    "en": "consequently",
+    "exampleDe": "Er war krank, folglich blieb er zu Hause.",
+    "exampleRu": "Он был болен, следовательно, остался дома.",
+    "exampleEn": "He was ill, consequently he stayed home.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "konnektor",
+      "folge"
+    ]
+  },
+  {
+    "id": "w_b2_343",
+    "de": "weitgehend",
+    "article": "",
+    "ru": "в значительной степени",
+    "en": "largely",
+    "exampleDe": "Das Problem ist weitgehend gelöst.",
+    "exampleRu": "Проблема в значительной степени решена.",
+    "exampleEn": "The problem is largely solved.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_344",
+    "de": "überwiegend",
+    "article": "",
+    "ru": "преимущественно",
+    "en": "predominantly",
+    "exampleDe": "Die Reaktionen waren überwiegend positiv.",
+    "exampleRu": "Реакции были преимущественно положительными.",
+    "exampleEn": "The reactions were predominantly positive.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_345",
+    "de": "gegebenenfalls",
+    "article": "",
+    "ru": "при необходимости, в случае чего",
+    "en": "if necessary",
+    "exampleDe": "Wir werden gegebenenfalls den Termin verschieben.",
+    "exampleRu": "При необходимости мы перенесём встречу.",
+    "exampleEn": "If necessary, we will postpone the appointment.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "formal"
+    ]
+  },
+  {
+    "id": "w_b2_346",
+    "de": "grundsätzlich",
+    "article": "",
+    "ru": "в принципе, принципиально",
+    "en": "fundamentally, in principle",
+    "exampleDe": "Grundsätzlich bin ich einverstanden.",
+    "exampleRu": "В принципе я согласен.",
+    "exampleEn": "In principle I agree.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_347",
+    "de": "vorwiegend",
+    "article": "",
+    "ru": "главным образом",
+    "en": "mainly",
+    "exampleDe": "Die Firma exportiert vorwiegend nach Asien.",
+    "exampleRu": "Фирма экспортирует главным образом в Азию.",
+    "exampleEn": "The company exports mainly to Asia.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "wirtschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_348",
+    "de": "letztlich",
+    "article": "",
+    "ru": "в конечном счёте",
+    "en": "ultimately",
+    "exampleDe": "Letztlich liegt die Entscheidung bei dir.",
+    "exampleRu": "В конечном счёте решение за тобой.",
+    "exampleEn": "Ultimately the decision is yours.",
+    "level": "B2",
+    "tags": [
+      "adverb",
+      "argumentation",
+      "schluss"
+    ]
+  },
+  {
+    "id": "w_b2_349",
+    "de": "die Bereitschaft",
+    "article": "die",
+    "ru": "готовность",
+    "en": "willingness",
+    "exampleDe": "Er zeigte große Bereitschaft zu helfen.",
+    "exampleRu": "Он проявил большую готовность помочь.",
+    "exampleEn": "He showed great willingness to help.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "psychologie",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_350",
+    "de": "der Widerstand",
+    "article": "der",
+    "ru": "сопротивление",
+    "en": "resistance",
+    "exampleDe": "Der Plan stieß auf heftigen Widerstand.",
+    "exampleRu": "План натолкнулся на яростное сопротивление.",
+    "exampleEn": "The plan met with fierce resistance.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "politik",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_351",
+    "de": "der Zeitgeist",
+    "article": "der",
+    "ru": "дух времени",
+    "en": "spirit of the age, zeitgeist",
+    "exampleDe": "Das Buch trifft genau den Zeitgeist der Achtziger.",
+    "exampleRu": "Книга точно передаёт дух восьмидесятых.",
+    "exampleEn": "The book captures exactly the zeitgeist of the eighties.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_b2_352",
+    "de": "die Schadenfreude",
+    "article": "die",
+    "ru": "злорадство",
+    "en": "malicious joy, schadenfreude",
+    "exampleDe": "Seine Schadenfreude war kaum zu übersehen.",
+    "exampleRu": "Его злорадство было трудно не заметить.",
+    "exampleEn": "His schadenfreude was hard to miss.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "psychologie",
+      "gefühle"
+    ]
+  },
+  {
+    "id": "w_b2_353",
+    "de": "die Gemütlichkeit",
+    "article": "die",
+    "ru": "уют",
+    "en": "cosiness",
+    "exampleDe": "Kerzen und Decken sorgen für Gemütlichkeit.",
+    "exampleRu": "Свечи и пледы создают уют.",
+    "exampleEn": "Candles and blankets create cosiness.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wohnen",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_b2_354",
+    "de": "der Weltschmerz",
+    "article": "der",
+    "ru": "мировая скорбь",
+    "en": "world-weariness",
+    "exampleDe": "Mit siebzehn hatte er seinen ersten Weltschmerz.",
+    "exampleRu": "В семнадцать он впервые ощутил мировую скорбь.",
+    "exampleEn": "At seventeen he had his first bout of world-weariness.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "psychologie",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_b2_355",
+    "de": "das Sinnbild",
+    "article": "das",
+    "ru": "символ, олицетворение",
+    "en": "symbol, emblem",
+    "exampleDe": "Die Taube ist ein Sinnbild des Friedens.",
+    "exampleRu": "Голубь — символ мира.",
+    "exampleEn": "The dove is a symbol of peace.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "kultur",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_356",
+    "de": "das Bedenken",
+    "article": "das",
+    "ru": "сомнение, опасение",
+    "en": "misgiving, reservation",
+    "exampleDe": "Gegen diesen Plan habe ich große Bedenken.",
+    "exampleRu": "У меня большие сомнения насчёт этого плана.",
+    "exampleEn": "I have serious misgivings about this plan.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "diskussion",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_357",
+    "de": "das Rückgrat",
+    "article": "das",
+    "ru": "позвоночник; твёрдость характера",
+    "en": "backbone",
+    "exampleDe": "Für diese Kritik braucht man Rückgrat.",
+    "exampleRu": "Для такой критики нужна твёрдость характера.",
+    "exampleEn": "Such criticism takes backbone.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "menschen",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_358",
+    "de": "die Wehmut",
+    "article": "die",
+    "ru": "грусть, светлая печаль",
+    "en": "wistfulness",
+    "exampleDe": "Mit Wehmut dachte sie an die Schulzeit zurück.",
+    "exampleRu": "С грустью она вспоминала школьные годы.",
+    "exampleEn": "She thought back to her school days with wistfulness.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gefühle",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_359",
+    "de": "die Zuversicht",
+    "article": "die",
+    "ru": "уверенность, надежда",
+    "en": "confidence, optimism",
+    "exampleDe": "Trotz der Lage bewahrt sie ihre Zuversicht.",
+    "exampleRu": "Несмотря на ситуацию, она сохраняет уверенность.",
+    "exampleEn": "Despite the situation she keeps her confidence.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gefühle",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_360",
+    "de": "das Verhängnis",
+    "article": "das",
+    "ru": "рок, злая судьба",
+    "en": "doom, undoing",
+    "exampleDe": "Seine Sorglosigkeit wurde ihm zum Verhängnis.",
+    "exampleRu": "Его беспечность его и погубила.",
+    "exampleEn": "His carelessness became his undoing.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_b2_361",
+    "de": "die Ausdauer",
+    "article": "die",
+    "ru": "выносливость, упорство",
+    "en": "stamina, perseverance",
+    "exampleDe": "Für einen Marathon braucht man viel Ausdauer.",
+    "exampleRu": "Для марафона нужна большая выносливость.",
+    "exampleEn": "A marathon takes a lot of stamina.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesundheit",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_362",
+    "de": "das Gleichgewicht",
+    "article": "das",
+    "ru": "равновесие",
+    "en": "balance, equilibrium",
+    "exampleDe": "Auf dem Eis verlor er das Gleichgewicht.",
+    "exampleRu": "На льду он потерял равновесие.",
+    "exampleEn": "He lost his balance on the ice.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "analyse",
+      "umwelt"
+    ]
+  },
+  {
+    "id": "w_b2_363",
+    "de": "die Zurückhaltung",
+    "article": "die",
+    "ru": "сдержанность",
+    "en": "restraint, reserve",
+    "exampleDe": "Er übte bewusst Zurückhaltung in der Debatte.",
+    "exampleRu": "В дискуссии он сознательно проявлял сдержанность.",
+    "exampleEn": "He deliberately exercised restraint in the debate.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "menschen",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b2_364",
+    "de": "das Streben",
+    "article": "das",
+    "ru": "стремление",
+    "en": "striving, aspiration",
+    "exampleDe": "Sein Streben nach Anerkennung bestimmt alles.",
+    "exampleRu": "Его стремление к признанию определяет всё.",
+    "exampleEn": "His striving for recognition determines everything.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "psychologie",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_365",
+    "de": "die Beharrlichkeit",
+    "article": "die",
+    "ru": "настойчивость",
+    "en": "persistence",
+    "exampleDe": "Ihre Beharrlichkeit hat sich am Ende ausgezahlt.",
+    "exampleRu": "Её настойчивость в конце концов окупилась.",
+    "exampleEn": "Her persistence paid off in the end.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "arbeit",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_366",
+    "de": "die Verschwiegenheit",
+    "article": "die",
+    "ru": "неразглашение, умение молчать",
+    "en": "discretion, confidentiality",
+    "exampleDe": "In diesem Beruf ist Verschwiegenheit Pflicht.",
+    "exampleRu": "В этой профессии неразглашение обязательно.",
+    "exampleEn": "In this profession discretion is a duty.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "arbeit",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b2_367",
+    "de": "die Zumutung",
+    "article": "die",
+    "ru": "наглость, неприемлемое требование",
+    "en": "unreasonable demand, imposition",
+    "exampleDe": "Diese Frist ist eine echte Zumutung.",
+    "exampleRu": "Этот срок — настоящая наглость.",
+    "exampleEn": "This deadline is a real imposition.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "bewertung",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_368",
+    "de": "der Übermut",
+    "article": "der",
+    "ru": "задор; безрассудство",
+    "en": "high spirits; recklessness",
+    "exampleDe": "Aus lauter Übermut sprang er ins kalte Wasser.",
+    "exampleRu": "Из чистого задора он прыгнул в холодную воду.",
+    "exampleEn": "Out of sheer high spirits he jumped into the cold water.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gefühle",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b2_369",
+    "de": "die Nachsicht",
+    "article": "die",
+    "ru": "снисходительность",
+    "en": "leniency, forbearance",
+    "exampleDe": "Der Lehrer zeigte Nachsicht mit dem neuen Schüler.",
+    "exampleRu": "Учитель проявил снисходительность к новому ученику.",
+    "exampleEn": "The teacher showed leniency towards the new pupil.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "menschen",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_370",
+    "de": "die Anmut",
+    "article": "die",
+    "ru": "грация, изящество",
+    "en": "grace",
+    "exampleDe": "Sie bewegt sich mit großer Anmut.",
+    "exampleRu": "Она движется с большой грацией.",
+    "exampleEn": "She moves with great grace.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "kultur",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b2_371",
+    "de": "die Willkür",
+    "article": "die",
+    "ru": "произвол",
+    "en": "arbitrariness",
+    "exampleDe": "Die Entscheidung wirkt wie reine Willkür.",
+    "exampleRu": "Решение выглядит как чистый произвол.",
+    "exampleEn": "The decision looks like pure arbitrariness.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "recht",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_b2_372",
+    "de": "das Ansehen",
+    "article": "das",
+    "ru": "репутация, авторитет",
+    "en": "reputation, standing",
+    "exampleDe": "Die Firma genießt international hohes Ansehen.",
+    "exampleRu": "Фирма пользуется высокой репутацией на международном уровне.",
+    "exampleEn": "The company enjoys a high international reputation.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_373",
+    "de": "das Wagnis",
+    "article": "das",
+    "ru": "рискованное предприятие",
+    "en": "venture, risky undertaking",
+    "exampleDe": "Die Gründung der Firma war ein großes Wagnis.",
+    "exampleRu": "Основание фирмы было большим риском.",
+    "exampleEn": "Founding the company was a big venture.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_374",
+    "de": "der Verzicht",
+    "article": "der",
+    "ru": "отказ, самоограничение",
+    "en": "renunciation, doing without",
+    "exampleDe": "Der Verzicht auf Zucker fällt ihm schwer.",
+    "exampleRu": "Отказ от сахара даётся ему тяжело.",
+    "exampleEn": "Doing without sugar is hard for him.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "gesundheit"
+    ]
+  },
+  {
+    "id": "w_b2_375",
+    "de": "das Selbstverständnis",
+    "article": "das",
+    "ru": "самоощущение, самовосприятие",
+    "en": "self-image, self-conception",
+    "exampleDe": "Das Selbstverständnis der Firma hat sich gewandelt.",
+    "exampleRu": "Самовосприятие фирмы изменилось.",
+    "exampleEn": "The company's self-image has changed.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "gesellschaft",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_376",
+    "de": "der Umbruch",
+    "article": "der",
+    "ru": "перелом, коренные перемены",
+    "en": "upheaval, radical change",
+    "exampleDe": "Die Branche steht vor einem großen Umbruch.",
+    "exampleRu": "Отрасль стоит перед большими переменами.",
+    "exampleEn": "The industry is facing a major upheaval.",
+    "level": "B2",
+    "tags": [
+      "substantiv",
+      "nomen",
+      "wirtschaft",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_b2_377",
+    "de": "bewahren",
+    "article": "",
+    "ru": "сохранять, беречь",
+    "en": "to preserve, to keep",
+    "exampleDe": "Wir wollen die alten Bäume bewahren.",
+    "exampleRu": "Мы хотим сохранить старые деревья.",
+    "exampleEn": "We want to preserve the old trees.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "umwelt",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_b2_378",
+    "de": "verkörpern",
+    "article": "",
+    "ru": "воплощать",
+    "en": "to embody",
+    "exampleDe": "Sie verkörpert die Werte des Unternehmens.",
+    "exampleRu": "Она воплощает ценности компании.",
+    "exampleEn": "She embodies the values of the company.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "kultur",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_379",
+    "de": "hinterfragen",
+    "article": "",
+    "ru": "ставить под вопрос, критически осмысливать",
+    "en": "to question critically",
+    "exampleDe": "Man sollte solche Zahlen immer hinterfragen.",
+    "exampleRu": "Такие цифры всегда стоит ставить под вопрос.",
+    "exampleEn": "One should always question such figures.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_b2_380",
+    "de": "abwägen",
+    "article": "",
+    "ru": "взвешивать (за и против)",
+    "en": "to weigh up",
+    "exampleDe": "Wir müssen Nutzen und Risiko sorgfältig abwägen.",
+    "exampleRu": "Нам нужно тщательно взвесить пользу и риск.",
+    "exampleEn": "We must carefully weigh up benefit and risk.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "analyse",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_381",
+    "de": "entfalten",
+    "article": "",
+    "ru": "раскрывать, развёртывать",
+    "en": "to unfold, to develop",
+    "exampleDe": "Hier kann sie ihr Talent voll entfalten.",
+    "exampleRu": "Здесь она может полностью раскрыть свой талант.",
+    "exampleEn": "Here she can fully develop her talent.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_b2_382",
+    "de": "verdrängen",
+    "article": "",
+    "ru": "вытеснять; подавлять (в психике)",
+    "en": "to displace; to repress",
+    "exampleDe": "Neue Anbieter verdrängen die alten vom Markt.",
+    "exampleRu": "Новые поставщики вытесняют старых с рынка.",
+    "exampleEn": "New providers are displacing the old ones from the market.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "psychologie",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_b2_383",
+    "de": "anzweifeln",
+    "article": "",
+    "ru": "подвергать сомнению",
+    "en": "to cast doubt on",
+    "exampleDe": "Niemand zweifelt seine Kompetenz an.",
+    "exampleRu": "Никто не подвергает сомнению его компетентность.",
+    "exampleEn": "Nobody casts doubt on his competence.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "argumentation",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b2_384",
+    "de": "untermauern",
+    "article": "",
+    "ru": "подкреплять (доводами)",
+    "en": "to underpin, to substantiate",
+    "exampleDe": "Er untermauert seine These mit Zahlen.",
+    "exampleRu": "Он подкрепляет свой тезис цифрами.",
+    "exampleEn": "He substantiates his thesis with figures.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "argumentation",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_385",
+    "de": "vermitteln",
+    "article": "",
+    "ru": "передавать (знания); посредничать",
+    "en": "to convey; to mediate",
+    "exampleDe": "Der Kurs vermittelt die wichtigsten Grundlagen.",
+    "exampleRu": "Курс даёт важнейшие основы.",
+    "exampleEn": "The course conveys the most important basics.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "bildung",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_b2_386",
+    "de": "erwidern",
+    "article": "",
+    "ru": "возражать, отвечать",
+    "en": "to reply, to retort",
+    "exampleDe": "Auf diesen Vorwurf erwiderte sie nichts.",
+    "exampleRu": "На этот упрёк она ничего не ответила.",
+    "exampleEn": "She made no reply to this accusation.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "kommunikation",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_b2_387",
+    "de": "beanspruchen",
+    "article": "",
+    "ru": "претендовать; требовать (ресурсов)",
+    "en": "to claim; to take up",
+    "exampleDe": "Das Projekt beansprucht unsere ganze Aufmerksamkeit.",
+    "exampleRu": "Проект требует всего нашего внимания.",
+    "exampleEn": "The project takes up all our attention.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "arbeit",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_b2_388",
+    "de": "verschmelzen",
+    "article": "",
+    "ru": "сливаться, соединяться",
+    "en": "to merge, to fuse",
+    "exampleDe": "Die beiden Firmen verschmelzen zu einem Konzern.",
+    "exampleRu": "Обе фирмы сливаются в один концерн.",
+    "exampleEn": "The two companies are merging into one group.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "wirtschaft",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_b2_389",
+    "de": "nachvollziehen",
+    "article": "",
+    "ru": "понимать, прослеживать (ход мысли)",
+    "en": "to comprehend, to follow",
+    "exampleDe": "Ich kann deine Entscheidung gut nachvollziehen.",
+    "exampleRu": "Я вполне понимаю твоё решение.",
+    "exampleEn": "I can well understand your decision.",
+    "level": "B2",
+    "tags": [
+      "verb",
+      "trennbar",
+      "analyse",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b2_390",
+    "de": "hartnäckig",
+    "article": "",
+    "ru": "упорный, упрямый",
+    "en": "stubborn, persistent",
+    "exampleDe": "Er blieb hartnäckig bei seiner Forderung.",
+    "exampleRu": "Он упорно стоял на своём требовании.",
+    "exampleEn": "He persisted stubbornly with his demand.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_391",
+    "de": "unauffällig",
+    "article": "",
+    "ru": "незаметный, неброский",
+    "en": "inconspicuous",
+    "exampleDe": "Er trug einen unauffälligen grauen Mantel.",
+    "exampleRu": "На нём было неброское серое пальто.",
+    "exampleEn": "He wore an inconspicuous grey coat.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_392",
+    "de": "überschaubar",
+    "article": "",
+    "ru": "обозримый, умеренный",
+    "en": "manageable, easy to survey",
+    "exampleDe": "Der Aufwand bleibt überschaubar.",
+    "exampleRu": "Затраты остаются умеренными.",
+    "exampleEn": "The effort remains manageable.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_393",
+    "de": "eigenwillig",
+    "article": "",
+    "ru": "своенравный, самобытный",
+    "en": "headstrong, idiosyncratic",
+    "exampleDe": "Der Regisseur hat einen eigenwilligen Stil.",
+    "exampleRu": "У режиссёра самобытный стиль.",
+    "exampleEn": "The director has an idiosyncratic style.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "kultur",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_b2_394",
+    "de": "schwerfällig",
+    "article": "",
+    "ru": "неповоротливый, громоздкий",
+    "en": "ponderous, cumbersome",
+    "exampleDe": "Die Verwaltung arbeitet oft schwerfällig.",
+    "exampleRu": "Администрация часто работает неповоротливо.",
+    "exampleEn": "The administration often works ponderously.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_395",
+    "de": "beiläufig",
+    "article": "",
+    "ru": "мимоходом, вскользь",
+    "en": "casual, in passing",
+    "exampleDe": "Er erwähnte den Termin nur beiläufig.",
+    "exampleRu": "Он упомянул о встрече лишь вскользь.",
+    "exampleEn": "He mentioned the appointment only in passing.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "kommunikation",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_396",
+    "de": "bedächtig",
+    "article": "",
+    "ru": "неторопливый, обдуманный",
+    "en": "deliberate, measured",
+    "exampleDe": "Er antwortete bedächtig und leise.",
+    "exampleRu": "Он ответил неторопливо и тихо.",
+    "exampleEn": "He answered deliberately and quietly.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_b2_397",
+    "de": "verblüffend",
+    "article": "",
+    "ru": "поразительный",
+    "en": "astounding",
+    "exampleDe": "Die Ähnlichkeit der beiden ist verblüffend.",
+    "exampleRu": "Сходство этих двоих поразительно.",
+    "exampleEn": "The similarity between the two is astounding.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "bewertung",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_b2_398",
+    "de": "ausgeprägt",
+    "article": "",
+    "ru": "ярко выраженный",
+    "en": "pronounced, marked",
+    "exampleDe": "Sie hat einen ausgeprägten Sinn für Humor.",
+    "exampleRu": "У неё ярко выраженное чувство юмора.",
+    "exampleEn": "She has a pronounced sense of humour.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "analyse",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_b2_399",
+    "de": "unbeirrt",
+    "article": "",
+    "ru": "невозмутимый, непоколебимый",
+    "en": "undeterred, unswerving",
+    "exampleDe": "Unbeirrt verfolgte sie ihr Ziel.",
+    "exampleRu": "Непоколебимо она шла к своей цели.",
+    "exampleEn": "Undeterred, she pursued her goal.",
+    "level": "B2",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "bewertung"
+    ]
+  }
+]

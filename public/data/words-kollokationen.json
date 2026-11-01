@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "w_koll_1",
+    "de": "eine Entscheidung treffen",
+    "article": "",
+    "ru": "принимать решение",
+    "en": "to make a decision",
+    "exampleDe": "Der Vorstand muss bis Freitag eine Entscheidung treffen.",
+    "exampleRu": "Правление должно принять решение до пятницы.",
+    "exampleEn": "The board has to make a decision by Friday.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_2",
+    "de": "eine Wahl treffen",
+    "article": "",
+    "ru": "делать выбор",
+    "en": "to make a choice",
+    "exampleDe": "Zwischen den beiden Angeboten fällt es mir schwer, eine Wahl zu treffen.",
+    "exampleRu": "Между этими двумя предложениями мне трудно сделать выбор.",
+    "exampleEn": "It is hard for me to make a choice between the two offers.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_3",
+    "de": "Vorbereitungen treffen",
+    "article": "",
+    "ru": "заниматься подготовкой",
+    "en": "to make preparations",
+    "exampleDe": "Für den Umzug treffen wir schon seit Wochen Vorbereitungen.",
+    "exampleRu": "К переезду мы готовимся уже несколько недель.",
+    "exampleEn": "We have been making preparations for the move for weeks.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_4",
+    "de": "eine Vereinbarung treffen",
+    "article": "",
+    "ru": "заключать договорённость",
+    "en": "to reach an agreement",
+    "exampleDe": "Beide Seiten haben eine schriftliche Vereinbarung getroffen.",
+    "exampleRu": "Обе стороны заключили письменную договорённость.",
+    "exampleEn": "Both sides reached a written agreement.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_5",
+    "de": "eine Rolle spielen",
+    "article": "",
+    "ru": "играть роль, иметь значение",
+    "en": "to play a role, to matter",
+    "exampleDe": "Das Gehalt spielt für mich eine untergeordnete Rolle.",
+    "exampleRu": "Зарплата для меня играет второстепенную роль.",
+    "exampleEn": "The salary plays a minor role for me.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_6",
+    "de": "Kritik üben an",
+    "article": "",
+    "ru": "критиковать",
+    "en": "to criticize, to level criticism at",
+    "exampleDe": "Die Presse übt scharfe Kritik an dem neuen Gesetz.",
+    "exampleRu": "Пресса резко критикует новый закон.",
+    "exampleEn": "The press is sharply criticizing the new law.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_7",
+    "de": "in Betracht ziehen",
+    "article": "",
+    "ru": "рассматривать как вариант",
+    "en": "to take into consideration",
+    "exampleDe": "Wir sollten auch einen späteren Termin in Betracht ziehen.",
+    "exampleRu": "Нам стоит рассмотреть и более поздний срок.",
+    "exampleEn": "We should also consider a later date.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_8",
+    "de": "in Frage kommen",
+    "article": "",
+    "ru": "подходить, быть возможным вариантом",
+    "en": "to be an option",
+    "exampleDe": "Ein Umzug ins Ausland kommt für mich nicht in Frage.",
+    "exampleRu": "Переезд за границу для меня исключён.",
+    "exampleEn": "Moving abroad is not an option for me.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_9",
+    "de": "zur Verfügung stellen",
+    "article": "",
+    "ru": "предоставлять",
+    "en": "to provide, to make available",
+    "exampleDe": "Die Firma stellt allen Mitarbeitenden einen Laptop zur Verfügung.",
+    "exampleRu": "Фирма предоставляет всем сотрудникам ноутбук.",
+    "exampleEn": "The company provides all employees with a laptop.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_10",
+    "de": "Rücksicht nehmen auf",
+    "article": "",
+    "ru": "считаться с, учитывать интересы",
+    "en": "to show consideration for",
+    "exampleDe": "Im Großraumbüro muss man auf die anderen Rücksicht nehmen.",
+    "exampleRu": "В большом офисе нужно считаться с окружающими.",
+    "exampleEn": "In an open-plan office you have to be considerate of others.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_11",
+    "de": "Wert legen auf",
+    "article": "",
+    "ru": "придавать значение",
+    "en": "to attach importance to",
+    "exampleDe": "Unser Chef legt großen Wert auf Pünktlichkeit.",
+    "exampleRu": "Наш начальник придаёт большое значение пунктуальности.",
+    "exampleEn": "Our boss attaches great importance to punctuality.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_12",
+    "de": "in Kauf nehmen",
+    "article": "",
+    "ru": "мириться с, идти на издержки",
+    "en": "to put up with, to accept as a downside",
+    "exampleDe": "Für den günstigen Preis nehme ich eine längere Anreise in Kauf.",
+    "exampleRu": "Ради низкой цены я мирюсь с более долгой дорогой.",
+    "exampleEn": "For the low price I put up with a longer journey.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_13",
+    "de": "in Anspruch nehmen",
+    "article": "",
+    "ru": "воспользоваться, отнимать (время)",
+    "en": "to make use of, to take up",
+    "exampleDe": "Die Renovierung hat mehr Zeit in Anspruch genommen als geplant.",
+    "exampleRu": "Ремонт отнял больше времени, чем планировалось.",
+    "exampleEn": "The renovation took up more time than planned.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_14",
+    "de": "Abstand nehmen von",
+    "article": "",
+    "ru": "отказываться от намерения",
+    "en": "to refrain from",
+    "exampleDe": "Nach der Kritik hat die Stadt von dem Bauprojekt Abstand genommen.",
+    "exampleRu": "После критики город отказался от строительного проекта.",
+    "exampleEn": "After the criticism the city refrained from the construction project.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_15",
+    "de": "Bezug nehmen auf",
+    "article": "",
+    "ru": "ссылаться на",
+    "en": "to refer to",
+    "exampleDe": "In seiner Antwort nimmt er Bezug auf unser letztes Gespräch.",
+    "exampleRu": "В своём ответе он ссылается на наш последний разговор.",
+    "exampleEn": "In his reply he refers to our last conversation.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_16",
+    "de": "Stellung nehmen zu",
+    "article": "",
+    "ru": "высказывать позицию по",
+    "en": "to comment on, to take a stand on",
+    "exampleDe": "Die Ministerin wollte zu den Vorwürfen nicht Stellung nehmen.",
+    "exampleRu": "Министр не захотела высказаться по поводу обвинений.",
+    "exampleEn": "The minister did not want to comment on the accusations.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_17",
+    "de": "Einfluss ausüben auf",
+    "article": "",
+    "ru": "оказывать влияние на",
+    "en": "to exert influence on",
+    "exampleDe": "Werbung übt einen starken Einfluss auf Kinder aus.",
+    "exampleRu": "Реклама оказывает сильное влияние на детей.",
+    "exampleEn": "Advertising exerts a strong influence on children.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_18",
+    "de": "Druck ausüben auf",
+    "article": "",
+    "ru": "оказывать давление на",
+    "en": "to put pressure on",
+    "exampleDe": "Die Gewerkschaft übt Druck auf die Arbeitgeber aus.",
+    "exampleRu": "Профсоюз оказывает давление на работодателей.",
+    "exampleEn": "The union is putting pressure on the employers.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_19",
+    "de": "Maßnahmen ergreifen",
+    "article": "",
+    "ru": "принимать меры",
+    "en": "to take measures",
+    "exampleDe": "Die Regierung hat schnelle Maßnahmen gegen die Inflation ergriffen.",
+    "exampleRu": "Правительство приняло срочные меры против инфляции.",
+    "exampleEn": "The government took swift measures against inflation.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_20",
+    "de": "die Initiative ergreifen",
+    "article": "",
+    "ru": "проявлять инициативу",
+    "en": "to take the initiative",
+    "exampleDe": "Niemand wollte anfangen, also habe ich die Initiative ergriffen.",
+    "exampleRu": "Никто не хотел начинать, поэтому я проявил инициативу.",
+    "exampleEn": "Nobody wanted to start, so I took the initiative.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_21",
+    "de": "das Wort ergreifen",
+    "article": "",
+    "ru": "брать слово",
+    "en": "to take the floor",
+    "exampleDe": "Nach langem Schweigen ergriff sie endlich das Wort.",
+    "exampleRu": "После долгого молчания она наконец взяла слово.",
+    "exampleEn": "After a long silence she finally took the floor.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_22",
+    "de": "Verantwortung übernehmen",
+    "article": "",
+    "ru": "брать на себя ответственность",
+    "en": "to take responsibility",
+    "exampleDe": "Für diesen Fehler übernehme ich die volle Verantwortung.",
+    "exampleRu": "За эту ошибку я беру на себя всю ответственность.",
+    "exampleEn": "I take full responsibility for this mistake.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_23",
+    "de": "eine Frage aufwerfen",
+    "article": "",
+    "ru": "поднимать вопрос",
+    "en": "to raise a question",
+    "exampleDe": "Die Studie wirft neue ethische Fragen auf.",
+    "exampleRu": "Исследование поднимает новые этические вопросы.",
+    "exampleEn": "The study raises new ethical questions.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_24",
+    "de": "Bedenken äußern",
+    "article": "",
+    "ru": "выражать опасения",
+    "en": "to voice concerns",
+    "exampleDe": "Mehrere Eltern haben Bedenken gegen den neuen Stundenplan geäußert.",
+    "exampleRu": "Несколько родителей выразили опасения по поводу нового расписания.",
+    "exampleEn": "Several parents voiced concerns about the new timetable.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_25",
+    "de": "einen Kompromiss eingehen",
+    "article": "",
+    "ru": "идти на компромисс",
+    "en": "to make a compromise",
+    "exampleDe": "Wenn beide Seiten einen Kompromiss eingehen, finden wir eine Lösung.",
+    "exampleRu": "Если обе стороны пойдут на компромисс, мы найдём решение.",
+    "exampleEn": "If both sides make a compromise, we will find a solution.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_26",
+    "de": "ein Risiko eingehen",
+    "article": "",
+    "ru": "идти на риск",
+    "en": "to take a risk",
+    "exampleDe": "Mit diesem Kredit geht das Unternehmen ein hohes Risiko ein.",
+    "exampleRu": "С этим кредитом предприятие идёт на большой риск.",
+    "exampleEn": "With this loan the company is taking a high risk.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_27",
+    "de": "einen Beitrag leisten",
+    "article": "",
+    "ru": "вносить вклад",
+    "en": "to make a contribution",
+    "exampleDe": "Jeder kann einen kleinen Beitrag zum Klimaschutz leisten.",
+    "exampleRu": "Каждый может внести небольшой вклад в защиту климата.",
+    "exampleEn": "Everyone can make a small contribution to climate protection.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_28",
+    "de": "Widerstand leisten",
+    "article": "",
+    "ru": "оказывать сопротивление",
+    "en": "to put up resistance",
+    "exampleDe": "Die Anwohner leisten erbitterten Widerstand gegen die neue Straße.",
+    "exampleRu": "Жители оказывают ожесточённое сопротивление новой дороге.",
+    "exampleEn": "Local residents are putting up fierce resistance to the new road.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_29",
+    "de": "Aufmerksamkeit schenken",
+    "article": "",
+    "ru": "уделять внимание",
+    "en": "to pay attention to",
+    "exampleDe": "Diesem Detail wurde bisher zu wenig Aufmerksamkeit geschenkt.",
+    "exampleRu": "Этой детали до сих пор уделялось слишком мало внимания.",
+    "exampleEn": "Too little attention has been paid to this detail so far.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_30",
+    "de": "Vertrauen schenken",
+    "article": "",
+    "ru": "оказывать доверие",
+    "en": "to place trust in someone",
+    "exampleDe": "Die Wähler haben ihr erneut ihr Vertrauen geschenkt.",
+    "exampleRu": "Избиратели снова оказали ей доверие.",
+    "exampleEn": "The voters placed their trust in her again.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_31",
+    "de": "Anwendung finden",
+    "article": "",
+    "ru": "находить применение",
+    "en": "to be applied, to find application",
+    "exampleDe": "Das Verfahren findet heute in vielen Kliniken Anwendung.",
+    "exampleRu": "Сегодня этот метод применяется во многих клиниках.",
+    "exampleEn": "The procedure is applied in many clinics today.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_32",
+    "de": "Anklang finden",
+    "article": "",
+    "ru": "находить отклик",
+    "en": "to meet with approval",
+    "exampleDe": "Der Vorschlag fand bei den Kolleginnen großen Anklang.",
+    "exampleRu": "Предложение нашло большой отклик у коллег.",
+    "exampleEn": "The proposal met with great approval among the colleagues.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_33",
+    "de": "zum Ausdruck bringen",
+    "article": "",
+    "ru": "выражать (мысль, чувство)",
+    "en": "to express",
+    "exampleDe": "Mit dieser Geste wollte er seinen Dank zum Ausdruck bringen.",
+    "exampleRu": "Этим жестом он хотел выразить свою благодарность.",
+    "exampleEn": "With this gesture he wanted to express his gratitude.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_34",
+    "de": "zur Sprache bringen",
+    "article": "",
+    "ru": "затрагивать тему",
+    "en": "to bring up a topic",
+    "exampleDe": "Ich werde das Problem in der nächsten Sitzung zur Sprache bringen.",
+    "exampleRu": "Я подниму эту проблему на следующем заседании.",
+    "exampleEn": "I will bring the problem up at the next meeting.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_35",
+    "de": "in Erfahrung bringen",
+    "article": "",
+    "ru": "разузнать",
+    "en": "to find out",
+    "exampleDe": "Wir konnten leider nichts über die Ursache in Erfahrung bringen.",
+    "exampleRu": "К сожалению, о причине мы ничего не смогли разузнать.",
+    "exampleEn": "Unfortunately we could not find out anything about the cause.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_36",
+    "de": "zu Ende bringen",
+    "article": "",
+    "ru": "доводить до конца",
+    "en": "to bring to a conclusion",
+    "exampleDe": "Trotz aller Schwierigkeiten hat sie das Projekt zu Ende gebracht.",
+    "exampleRu": "Несмотря на все трудности, она довела проект до конца.",
+    "exampleEn": "Despite all the difficulties she brought the project to a conclusion.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_37",
+    "de": "eine Rede halten",
+    "article": "",
+    "ru": "выступать с речью",
+    "en": "to give a speech",
+    "exampleDe": "Zum Jubiläum hielt der Bürgermeister eine kurze Rede.",
+    "exampleRu": "На юбилее мэр выступил с короткой речью.",
+    "exampleEn": "At the anniversary the mayor gave a short speech.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_38",
+    "de": "einen Vortrag halten",
+    "article": "",
+    "ru": "делать доклад",
+    "en": "to give a presentation",
+    "exampleDe": "Morgen halte ich einen Vortrag über erneuerbare Energien.",
+    "exampleRu": "Завтра я делаю доклад о возобновляемой энергии.",
+    "exampleEn": "Tomorrow I am giving a presentation on renewable energy.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_39",
+    "de": "Wort halten",
+    "article": "",
+    "ru": "держать слово",
+    "en": "to keep one's word",
+    "exampleDe": "Er hat Wort gehalten und das Geld pünktlich zurückgezahlt.",
+    "exampleRu": "Он сдержал слово и вернул деньги вовремя.",
+    "exampleEn": "He kept his word and paid the money back on time.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_40",
+    "de": "Schritt halten mit",
+    "article": "",
+    "ru": "успевать за, идти в ногу с",
+    "en": "to keep pace with",
+    "exampleDe": "Kleine Läden können mit den Online-Preisen kaum Schritt halten.",
+    "exampleRu": "Маленьким магазинам трудно угнаться за ценами в интернете.",
+    "exampleEn": "Small shops can hardly keep pace with online prices.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_41",
+    "de": "Bescheid geben",
+    "article": "",
+    "ru": "давать знать, сообщать",
+    "en": "to let someone know",
+    "exampleDe": "Gib mir bitte Bescheid, wenn du angekommen bist.",
+    "exampleRu": "Дай мне знать, пожалуйста, когда доберёшься.",
+    "exampleEn": "Please let me know when you have arrived.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_42",
+    "de": "Bescheid wissen",
+    "article": "",
+    "ru": "быть в курсе",
+    "en": "to be in the know",
+    "exampleDe": "Frag Martin, der weiß über die Anmeldung Bescheid.",
+    "exampleRu": "Спроси Мартина, он в курсе насчёт регистрации.",
+    "exampleEn": "Ask Martin, he knows about the registration.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_43",
+    "de": "Auskunft geben über",
+    "article": "",
+    "ru": "давать сведения о",
+    "en": "to give information about",
+    "exampleDe": "Die Statistik gibt Auskunft über die Entwicklung der Mieten.",
+    "exampleRu": "Статистика даёт сведения о динамике арендной платы.",
+    "exampleEn": "The statistics give information about how rents have developed.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_44",
+    "de": "Anlass geben zu",
+    "article": "",
+    "ru": "давать повод для",
+    "en": "to give cause for",
+    "exampleDe": "Die Zahlen geben keinen Anlass zur Sorge.",
+    "exampleRu": "Цифры не дают повода для беспокойства.",
+    "exampleEn": "The figures give no cause for concern.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_45",
+    "de": "den Vorzug geben",
+    "article": "",
+    "ru": "отдавать предпочтение",
+    "en": "to give preference to",
+    "exampleDe": "Bei gleicher Qualifikation geben wir internen Bewerbern den Vorzug.",
+    "exampleRu": "При равной квалификации мы отдаём предпочтение внутренним кандидатам.",
+    "exampleEn": "With equal qualifications we give preference to internal applicants.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_46",
+    "de": "einen Antrag stellen",
+    "article": "",
+    "ru": "подавать заявление",
+    "en": "to file an application",
+    "exampleDe": "Für das Stipendium müssen Sie bis Ende März einen Antrag stellen.",
+    "exampleRu": "На стипендию нужно подать заявление до конца марта.",
+    "exampleEn": "You have to file an application for the scholarship by the end of March.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_47",
+    "de": "Ansprüche stellen an",
+    "article": "",
+    "ru": "предъявлять требования к",
+    "en": "to make demands on",
+    "exampleDe": "Der Kurs stellt hohe Ansprüche an die Teilnehmenden.",
+    "exampleRu": "Курс предъявляет высокие требования к участникам.",
+    "exampleEn": "The course makes high demands on the participants.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_48",
+    "de": "eine Bedingung stellen",
+    "article": "",
+    "ru": "ставить условие",
+    "en": "to set a condition",
+    "exampleDe": "Er hat nur eine Bedingung gestellt: absolute Vertraulichkeit.",
+    "exampleRu": "Он поставил лишь одно условие: полная конфиденциальность.",
+    "exampleEn": "He set only one condition: absolute confidentiality.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_49",
+    "de": "Anspruch erheben auf",
+    "article": "",
+    "ru": "претендовать на",
+    "en": "to lay claim to",
+    "exampleDe": "Beide Erben erheben Anspruch auf das Haus.",
+    "exampleRu": "Оба наследника претендуют на дом.",
+    "exampleEn": "Both heirs are laying claim to the house.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_50",
+    "de": "Einspruch erheben",
+    "article": "",
+    "ru": "подавать возражение",
+    "en": "to lodge an objection",
+    "exampleDe": "Gegen den Steuerbescheid können Sie Einspruch erheben.",
+    "exampleRu": "На налоговое уведомление вы можете подать возражение.",
+    "exampleEn": "You can lodge an objection against the tax assessment.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_51",
+    "de": "Beschwerde einlegen",
+    "article": "",
+    "ru": "подавать жалобу",
+    "en": "to file a complaint",
+    "exampleDe": "Der Fahrgast hat wegen der Verspätung Beschwerde eingelegt.",
+    "exampleRu": "Пассажир подал жалобу из-за опоздания.",
+    "exampleEn": "The passenger filed a complaint about the delay.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_52",
+    "de": "Anzeige erstatten",
+    "article": "",
+    "ru": "подавать заявление в полицию",
+    "en": "to report something to the police",
+    "exampleDe": "Nach dem Einbruch hat sie sofort Anzeige erstattet.",
+    "exampleRu": "После взлома она сразу подала заявление в полицию.",
+    "exampleEn": "After the break-in she immediately reported it to the police.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_53",
+    "de": "eine Prüfung ablegen",
+    "article": "",
+    "ru": "сдавать экзамен",
+    "en": "to sit an exam",
+    "exampleDe": "Im Juni legt sie die mündliche Prüfung ab.",
+    "exampleRu": "В июне она сдаёт устный экзамен.",
+    "exampleEn": "In June she is sitting the oral exam.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_54",
+    "de": "Rechenschaft ablegen über",
+    "article": "",
+    "ru": "отчитываться о",
+    "en": "to account for",
+    "exampleDe": "Der Verein muss über die Verwendung der Spenden Rechenschaft ablegen.",
+    "exampleRu": "Объединение должно отчитаться об использовании пожертвований.",
+    "exampleEn": "The association has to account for how the donations were used.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_55",
+    "de": "ein Ziel verfolgen",
+    "article": "",
+    "ru": "преследовать цель",
+    "en": "to pursue a goal",
+    "exampleDe": "Mit der Kampagne verfolgt die Stadt ein klares Ziel.",
+    "exampleRu": "Этой кампанией город преследует ясную цель.",
+    "exampleEn": "With the campaign the city is pursuing a clear goal.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_56",
+    "de": "eine Meinung vertreten",
+    "article": "",
+    "ru": "отстаивать мнение",
+    "en": "to hold a view",
+    "exampleDe": "In dieser Frage vertritt er eine sehr klare Meinung.",
+    "exampleRu": "В этом вопросе он отстаивает очень чёткое мнение.",
+    "exampleEn": "On this question he holds a very clear view.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_57",
+    "de": "Interessen vertreten",
+    "article": "",
+    "ru": "представлять интересы",
+    "en": "to represent interests",
+    "exampleDe": "Der Betriebsrat vertritt die Interessen der Belegschaft.",
+    "exampleRu": "Совет предприятия представляет интересы коллектива.",
+    "exampleEn": "The works council represents the interests of the workforce.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_58",
+    "de": "eine Chance nutzen",
+    "article": "",
+    "ru": "использовать шанс",
+    "en": "to seize a chance",
+    "exampleDe": "Sie hat die Chance genutzt und im Ausland studiert.",
+    "exampleRu": "Она использовала шанс и училась за границей.",
+    "exampleEn": "She seized the chance and studied abroad.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_59",
+    "de": "die Gelegenheit ergreifen",
+    "article": "",
+    "ru": "воспользоваться возможностью",
+    "en": "to take the opportunity",
+    "exampleDe": "Ich ergreife die Gelegenheit, mich bei allen zu bedanken.",
+    "exampleRu": "Пользуюсь возможностью поблагодарить всех.",
+    "exampleEn": "I take the opportunity to thank everyone.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_60",
+    "de": "Konsequenzen ziehen",
+    "article": "",
+    "ru": "делать выводы и действовать",
+    "en": "to draw conclusions and act",
+    "exampleDe": "Nach dem Skandal zog der Vorstand personelle Konsequenzen.",
+    "exampleRu": "После скандала правление сделало кадровые выводы.",
+    "exampleEn": "After the scandal the board drew personnel consequences.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_61",
+    "de": "Bilanz ziehen",
+    "article": "",
+    "ru": "подводить итоги",
+    "en": "to take stock",
+    "exampleDe": "Zum Jahresende ziehen wir eine positive Bilanz.",
+    "exampleRu": "В конце года мы подводим положительные итоги.",
+    "exampleEn": "At the end of the year we take stock with a positive result.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_62",
+    "de": "Mut fassen",
+    "article": "",
+    "ru": "набираться смелости",
+    "en": "to pluck up courage",
+    "exampleDe": "Endlich fasste er Mut und sprach sie an.",
+    "exampleRu": "Наконец он набрался смелости и заговорил с ней.",
+    "exampleEn": "He finally plucked up courage and spoke to her.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_63",
+    "de": "Fuß fassen",
+    "article": "",
+    "ru": "закрепиться, освоиться",
+    "en": "to gain a foothold",
+    "exampleDe": "In der neuen Stadt hat sie schnell Fuß gefasst.",
+    "exampleRu": "В новом городе она быстро освоилась.",
+    "exampleEn": "She quickly gained a foothold in the new city.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_64",
+    "de": "Verständnis aufbringen für",
+    "article": "",
+    "ru": "проявлять понимание к",
+    "en": "to show understanding for",
+    "exampleDe": "Für so eine Ausrede kann ich kein Verständnis aufbringen.",
+    "exampleRu": "К такой отговорке я не могу отнестись с пониманием.",
+    "exampleEn": "I cannot show any understanding for an excuse like that.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_65",
+    "de": "zustande kommen",
+    "article": "",
+    "ru": "состояться, получиться",
+    "en": "to come about",
+    "exampleDe": "Der Vertrag ist trotz langer Verhandlungen nicht zustande gekommen.",
+    "exampleRu": "Договор так и не состоялся, несмотря на долгие переговоры.",
+    "exampleEn": "The contract did not come about despite long negotiations.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_66",
+    "de": "ums Leben kommen",
+    "article": "",
+    "ru": "погибать",
+    "en": "to lose one's life",
+    "exampleDe": "Bei dem Unglück kamen zwei Menschen ums Leben.",
+    "exampleRu": "В результате несчастного случая погибли два человека.",
+    "exampleEn": "Two people lost their lives in the accident.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_67",
+    "de": "in Vergessenheit geraten",
+    "article": "",
+    "ru": "быть забытым",
+    "en": "to fall into oblivion",
+    "exampleDe": "Viele alte Handwerksberufe sind in Vergessenheit geraten.",
+    "exampleRu": "Многие старые ремёсла оказались забытыми.",
+    "exampleEn": "Many old crafts have fallen into oblivion.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_68",
+    "de": "in Konflikt geraten mit",
+    "article": "",
+    "ru": "вступать в конфликт с",
+    "en": "to come into conflict with",
+    "exampleDe": "Mit dieser Aussage gerät er in Konflikt mit dem Datenschutz.",
+    "exampleRu": "Этим заявлением он вступает в конфликт с защитой данных.",
+    "exampleEn": "With this statement he comes into conflict with data protection.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_69",
+    "de": "unter Druck stehen",
+    "article": "",
+    "ru": "быть под давлением",
+    "en": "to be under pressure",
+    "exampleDe": "Seit der Übernahme steht das Team unter enormem Druck.",
+    "exampleRu": "После поглощения команда находится под огромным давлением.",
+    "exampleEn": "Since the takeover the team has been under enormous pressure.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_70",
+    "de": "zur Diskussion stehen",
+    "article": "",
+    "ru": "обсуждаться, стоять на повестке",
+    "en": "to be up for discussion",
+    "exampleDe": "Heute steht nur der Haushalt zur Diskussion.",
+    "exampleRu": "Сегодня обсуждается только бюджет.",
+    "exampleEn": "Today only the budget is up for discussion.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_71",
+    "de": "außer Frage stehen",
+    "article": "",
+    "ru": "не подлежать сомнению",
+    "en": "to be beyond question",
+    "exampleDe": "Ihre Kompetenz steht außer Frage.",
+    "exampleRu": "Её компетентность не подлежит сомнению.",
+    "exampleEn": "Her competence is beyond question.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_72",
+    "de": "auf dem Laufenden bleiben",
+    "article": "",
+    "ru": "быть в курсе событий",
+    "en": "to stay up to date",
+    "exampleDe": "Mit dem Newsletter bleibt man auf dem Laufenden.",
+    "exampleRu": "С помощью рассылки можно быть в курсе событий.",
+    "exampleEn": "The newsletter keeps you up to date.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_73",
+    "de": "in Verbindung setzen",
+    "article": "",
+    "ru": "связываться (с кем-либо)",
+    "en": "to get in touch",
+    "exampleDe": "Bitte setzen Sie sich mit unserem Kundendienst in Verbindung.",
+    "exampleRu": "Пожалуйста, свяжитесь с нашей службой поддержки.",
+    "exampleEn": "Please get in touch with our customer service.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_74",
+    "de": "in Kraft treten",
+    "article": "",
+    "ru": "вступать в силу",
+    "en": "to come into force",
+    "exampleDe": "Die neue Regelung tritt am ersten Januar in Kraft.",
+    "exampleRu": "Новое положение вступает в силу первого января.",
+    "exampleEn": "The new rule comes into force on the first of January.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_75",
+    "de": "in Betrieb nehmen",
+    "article": "",
+    "ru": "вводить в эксплуатацию",
+    "en": "to put into operation",
+    "exampleDe": "Die neue Straßenbahnlinie wird im Herbst in Betrieb genommen.",
+    "exampleRu": "Новая трамвайная линия будет введена в эксплуатацию осенью.",
+    "exampleEn": "The new tram line will be put into operation in autumn.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_76",
+    "de": "zu dem Schluss kommen",
+    "article": "",
+    "ru": "приходить к выводу",
+    "en": "to come to the conclusion",
+    "exampleDe": "Die Gutachter kamen zu dem Schluss, dass die Brücke sicher ist.",
+    "exampleRu": "Эксперты пришли к выводу, что мост безопасен.",
+    "exampleEn": "The experts came to the conclusion that the bridge is safe.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_77",
+    "de": "Aufmerksamkeit erregen",
+    "article": "",
+    "ru": "привлекать внимание",
+    "en": "to attract attention",
+    "exampleDe": "Der Fall hat weit über die Region hinaus Aufmerksamkeit erregt.",
+    "exampleRu": "Дело привлекло внимание далеко за пределами региона.",
+    "exampleEn": "The case attracted attention far beyond the region.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_78",
+    "de": "Interesse wecken",
+    "article": "",
+    "ru": "пробуждать интерес",
+    "en": "to spark interest",
+    "exampleDe": "Der Film hat bei vielen Jugendlichen Interesse an Geschichte geweckt.",
+    "exampleRu": "Фильм пробудил у многих подростков интерес к истории.",
+    "exampleEn": "The film sparked many young people's interest in history.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_79",
+    "de": "Erwartungen erfüllen",
+    "article": "",
+    "ru": "оправдывать ожидания",
+    "en": "to meet expectations",
+    "exampleDe": "Das neue Modell hat die Erwartungen der Kunden erfüllt.",
+    "exampleRu": "Новая модель оправдала ожидания клиентов.",
+    "exampleEn": "The new model met the customers' expectations.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_80",
+    "de": "Erwartungen übertreffen",
+    "article": "",
+    "ru": "превосходить ожидания",
+    "en": "to exceed expectations",
+    "exampleDe": "Der Umsatz hat alle Erwartungen übertroffen.",
+    "exampleRu": "Оборот превзошёл все ожидания.",
+    "exampleEn": "Revenue exceeded all expectations.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_81",
+    "de": "Anforderungen erfüllen",
+    "article": "",
+    "ru": "соответствовать требованиям",
+    "en": "to meet requirements",
+    "exampleDe": "Die Wohnung erfüllt alle Anforderungen an Barrierefreiheit.",
+    "exampleRu": "Квартира соответствует всем требованиям доступной среды.",
+    "exampleEn": "The flat meets all accessibility requirements.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_82",
+    "de": "Bedürfnisse befriedigen",
+    "article": "",
+    "ru": "удовлетворять потребности",
+    "en": "to satisfy needs",
+    "exampleDe": "Das Angebot befriedigt die Bedürfnisse älterer Fahrgäste kaum.",
+    "exampleRu": "Предложение едва удовлетворяет потребности пожилых пассажиров.",
+    "exampleEn": "The service hardly satisfies the needs of older passengers.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_83",
+    "de": "eine Krise bewältigen",
+    "article": "",
+    "ru": "преодолевать кризис",
+    "en": "to overcome a crisis",
+    "exampleDe": "Gemeinsam hat das Team die Krise bewältigt.",
+    "exampleRu": "Вместе команда преодолела кризис.",
+    "exampleEn": "Together the team overcame the crisis.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_84",
+    "de": "Kosten senken",
+    "article": "",
+    "ru": "снижать расходы",
+    "en": "to cut costs",
+    "exampleDe": "Durch die Umstellung konnten wir die Kosten deutlich senken.",
+    "exampleRu": "Благодаря перестройке мы заметно снизили расходы.",
+    "exampleEn": "The changeover allowed us to cut costs considerably.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_85",
+    "de": "Kosten decken",
+    "article": "",
+    "ru": "покрывать расходы",
+    "en": "to cover costs",
+    "exampleDe": "Die Eintrittsgelder decken kaum die Kosten der Veranstaltung.",
+    "exampleRu": "Плата за вход едва покрывает расходы на мероприятие.",
+    "exampleEn": "The entrance fees hardly cover the costs of the event.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_86",
+    "de": "Gewinn erzielen",
+    "article": "",
+    "ru": "получать прибыль",
+    "en": "to make a profit",
+    "exampleDe": "Im zweiten Quartal hat die Firma zum ersten Mal Gewinn erzielt.",
+    "exampleRu": "Во втором квартале фирма впервые получила прибыль.",
+    "exampleEn": "In the second quarter the company made a profit for the first time.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_87",
+    "de": "Fortschritte machen",
+    "article": "",
+    "ru": "делать успехи",
+    "en": "to make progress",
+    "exampleDe": "Im Deutschkurs macht er erstaunliche Fortschritte.",
+    "exampleRu": "На курсе немецкого он делает удивительные успехи.",
+    "exampleEn": "He is making astonishing progress in the German course.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_88",
+    "de": "den Umsatz steigern",
+    "article": "",
+    "ru": "увеличивать оборот",
+    "en": "to increase turnover",
+    "exampleDe": "Mit dem Onlineshop konnte der Laden den Umsatz steigern.",
+    "exampleRu": "С интернет-магазином лавка смогла увеличить оборот.",
+    "exampleEn": "The online shop allowed the store to increase its turnover.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_89",
+    "de": "einen Termin vereinbaren",
+    "article": "",
+    "ru": "договариваться о встрече",
+    "en": "to arrange an appointment",
+    "exampleDe": "Ich möchte einen Termin für nächste Woche vereinbaren.",
+    "exampleRu": "Я хотел бы договориться о встрече на следующей неделе.",
+    "exampleEn": "I would like to arrange an appointment for next week.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_90",
+    "de": "einen Termin wahrnehmen",
+    "article": "",
+    "ru": "являться на назначенную встречу",
+    "en": "to keep an appointment",
+    "exampleDe": "Leider kann ich den Termin am Dienstag nicht wahrnehmen.",
+    "exampleRu": "К сожалению, я не смогу прийти на встречу во вторник.",
+    "exampleEn": "Unfortunately I cannot keep the appointment on Tuesday.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_91",
+    "de": "ein triftiger Grund",
+    "article": "",
+    "ru": "веская причина",
+    "en": "a valid reason",
+    "exampleDe": "Ohne einen triftigen Grund wird der Antrag nicht bewilligt.",
+    "exampleRu": "Без веской причины заявление не одобрят.",
+    "exampleEn": "Without a valid reason the application will not be approved.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_92",
+    "de": "ein schwerwiegender Fehler",
+    "article": "",
+    "ru": "серьёзная ошибка",
+    "en": "a serious mistake",
+    "exampleDe": "Bei der Planung ist ein schwerwiegender Fehler passiert.",
+    "exampleRu": "При планировании была допущена серьёзная ошибка.",
+    "exampleEn": "A serious mistake was made during the planning.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_93",
+    "de": "eine rege Diskussion",
+    "article": "",
+    "ru": "оживлённая дискуссия",
+    "en": "a lively discussion",
+    "exampleDe": "Nach dem Vortrag entstand eine rege Diskussion.",
+    "exampleRu": "После доклада возникла оживлённая дискуссия.",
+    "exampleEn": "A lively discussion arose after the talk.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_94",
+    "de": "ein reibungsloser Ablauf",
+    "article": "",
+    "ru": "бесперебойный ход",
+    "en": "a smooth process",
+    "exampleDe": "Für einen reibungslosen Ablauf sorgt ein erfahrenes Team.",
+    "exampleRu": "За бесперебойный ход отвечает опытная команда.",
+    "exampleEn": "An experienced team ensures a smooth process.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_95",
+    "de": "eine herbe Enttäuschung",
+    "article": "",
+    "ru": "горькое разочарование",
+    "en": "a bitter disappointment",
+    "exampleDe": "Das Ergebnis war für die Fans eine herbe Enttäuschung.",
+    "exampleRu": "Результат стал для фанатов горьким разочарованием.",
+    "exampleEn": "The result was a bitter disappointment for the fans.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_96",
+    "de": "eine ausgewogene Ernährung",
+    "article": "",
+    "ru": "сбалансированное питание",
+    "en": "a balanced diet",
+    "exampleDe": "Eine ausgewogene Ernährung ist wichtiger als jede Diät.",
+    "exampleRu": "Сбалансированное питание важнее любой диеты.",
+    "exampleEn": "A balanced diet is more important than any diet plan.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_97",
+    "de": "ein flüchtiger Blick",
+    "article": "",
+    "ru": "беглый взгляд",
+    "en": "a fleeting glance",
+    "exampleDe": "Ein flüchtiger Blick auf die Rechnung genügte ihr.",
+    "exampleRu": "Ей хватило беглого взгляда на счёт.",
+    "exampleEn": "A fleeting glance at the bill was enough for her.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_98",
+    "de": "eine steile Karriere",
+    "article": "",
+    "ru": "стремительная карьера",
+    "en": "a meteoric career",
+    "exampleDe": "Nach dem Studium machte er eine steile Karriere im Verlag.",
+    "exampleRu": "После учёбы он сделал стремительную карьеру в издательстве.",
+    "exampleEn": "After his studies he had a meteoric career in publishing.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_99",
+    "de": "eine grobe Schätzung",
+    "article": "",
+    "ru": "приблизительная оценка",
+    "en": "a rough estimate",
+    "exampleDe": "Nach einer groben Schätzung dauert die Sanierung zwei Jahre.",
+    "exampleRu": "По приблизительной оценке ремонт займёт два года.",
+    "exampleEn": "According to a rough estimate the renovation will take two years.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_100",
+    "de": "strenge Auflagen",
+    "article": "",
+    "ru": "строгие предписания",
+    "en": "strict conditions",
+    "exampleDe": "Das Festival darf nur unter strengen Auflagen stattfinden.",
+    "exampleRu": "Фестиваль может состояться только при строгих предписаниях.",
+    "exampleEn": "The festival may only take place under strict conditions.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_101",
+    "de": "ein enger Zeitplan",
+    "article": "",
+    "ru": "плотный график",
+    "en": "a tight schedule",
+    "exampleDe": "Der enge Zeitplan lässt keine Verzögerung zu.",
+    "exampleRu": "Плотный график не допускает задержек.",
+    "exampleEn": "The tight schedule leaves no room for delay.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_102",
+    "de": "eine dringende Angelegenheit",
+    "article": "",
+    "ru": "срочное дело",
+    "en": "an urgent matter",
+    "exampleDe": "Ich rufe wegen einer dringenden Angelegenheit an.",
+    "exampleRu": "Я звоню по срочному делу.",
+    "exampleEn": "I am calling about an urgent matter.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_103",
+    "de": "ein hoher Stellenwert",
+    "article": "",
+    "ru": "высокая значимость",
+    "en": "high importance",
+    "exampleDe": "Nachhaltigkeit hat in dieser Firma einen hohen Stellenwert.",
+    "exampleRu": "Экологичность имеет в этой фирме высокую значимость.",
+    "exampleEn": "Sustainability has high importance in this company.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_104",
+    "de": "die breite Öffentlichkeit",
+    "article": "",
+    "ru": "широкая общественность",
+    "en": "the general public",
+    "exampleDe": "Erst der Prozess machte den Fall der breiten Öffentlichkeit bekannt.",
+    "exampleRu": "Только процесс сделал это дело известным широкой общественности.",
+    "exampleEn": "Only the trial made the case known to the general public.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_105",
+    "de": "harte Konkurrenz",
+    "article": "",
+    "ru": "жёсткая конкуренция",
+    "en": "tough competition",
+    "exampleDe": "In dieser Branche herrscht harte Konkurrenz.",
+    "exampleRu": "В этой отрасли царит жёсткая конкуренция.",
+    "exampleEn": "There is tough competition in this industry.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_106",
+    "de": "eine offene Frage",
+    "article": "",
+    "ru": "открытый вопрос",
+    "en": "an open question",
+    "exampleDe": "Wer die Kosten trägt, bleibt eine offene Frage.",
+    "exampleRu": "Кто понесёт расходы, остаётся открытым вопросом.",
+    "exampleEn": "Who bears the costs remains an open question.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_107",
+    "de": "ein spürbarer Unterschied",
+    "article": "",
+    "ru": "ощутимая разница",
+    "en": "a noticeable difference",
+    "exampleDe": "Zwischen den beiden Geräten gibt es einen spürbaren Unterschied.",
+    "exampleRu": "Между этими двумя приборами есть ощутимая разница.",
+    "exampleEn": "There is a noticeable difference between the two devices.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_108",
+    "de": "ein umfassendes Angebot",
+    "article": "",
+    "ru": "широкий ассортимент услуг",
+    "en": "a comprehensive range",
+    "exampleDe": "Die Bibliothek bietet ein umfassendes Angebot an Online-Kursen.",
+    "exampleRu": "Библиотека предлагает широкий выбор онлайн-курсов.",
+    "exampleEn": "The library offers a comprehensive range of online courses.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_109",
+    "de": "erhebliche Zweifel",
+    "article": "",
+    "ru": "серьёзные сомнения",
+    "en": "considerable doubts",
+    "exampleDe": "An dieser Darstellung bestehen erhebliche Zweifel.",
+    "exampleRu": "В отношении этого изложения есть серьёзные сомнения.",
+    "exampleEn": "There are considerable doubts about this account.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_110",
+    "de": "eine gute Gelegenheit",
+    "article": "",
+    "ru": "хорошая возможность",
+    "en": "a good opportunity",
+    "exampleDe": "Das Praktikum war eine gute Gelegenheit, den Betrieb kennenzulernen.",
+    "exampleRu": "Практика была хорошей возможностью познакомиться с предприятием.",
+    "exampleEn": "The internship was a good opportunity to get to know the company.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "adjektiv_nomen"
+    ]
+  },
+  {
+    "id": "w_koll_111",
+    "de": "sich einsetzen für",
+    "article": "",
+    "ru": "выступать в защиту",
+    "en": "to stand up for",
+    "exampleDe": "Sie setzt sich seit Jahren für bezahlbaren Wohnraum ein.",
+    "exampleRu": "Она уже много лет выступает за доступное жильё.",
+    "exampleEn": "She has been standing up for affordable housing for years.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_112",
+    "de": "angewiesen sein auf",
+    "article": "",
+    "ru": "зависеть от, нуждаться в",
+    "en": "to depend on, to rely on",
+    "exampleDe": "Auf dem Land ist man auf ein Auto angewiesen.",
+    "exampleRu": "В сельской местности без машины не обойтись.",
+    "exampleEn": "In the countryside you are dependent on a car.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_113",
+    "de": "zuständig sein für",
+    "article": "",
+    "ru": "отвечать за (по обязанностям)",
+    "en": "to be in charge of",
+    "exampleDe": "Für Reklamationen ist die Kollegin am Schalter zwei zuständig.",
+    "exampleRu": "За рекламации отвечает коллега во втором окне.",
+    "exampleEn": "The colleague at counter two is in charge of complaints.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_114",
+    "de": "sich beteiligen an",
+    "article": "",
+    "ru": "участвовать в",
+    "en": "to take part in",
+    "exampleDe": "An der Umfrage haben sich über tausend Menschen beteiligt.",
+    "exampleRu": "В опросе приняли участие более тысячи человек.",
+    "exampleEn": "Over a thousand people took part in the survey.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_115",
+    "de": "zurückführen auf",
+    "article": "",
+    "ru": "объяснять чем-либо, сводить к",
+    "en": "to attribute to",
+    "exampleDe": "Den Rückgang führt die Studie auf das Wetter zurück.",
+    "exampleRu": "Исследование объясняет спад погодой.",
+    "exampleEn": "The study attributes the decline to the weather.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_116",
+    "de": "sich handeln um",
+    "article": "",
+    "ru": "речь идёт о",
+    "en": "to be a matter of",
+    "exampleDe": "Bei dem Fund handelt es sich um eine römische Münze.",
+    "exampleRu": "Речь идёт о находке — римской монете.",
+    "exampleEn": "The find is a Roman coin.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_117",
+    "de": "führen zu",
+    "article": "",
+    "ru": "приводить к (результату)",
+    "en": "to lead to",
+    "exampleDe": "Die Sperrung führt zu langen Staus in der Innenstadt.",
+    "exampleRu": "Перекрытие приводит к длинным пробкам в центре.",
+    "exampleEn": "The closure leads to long traffic jams in the city centre.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_118",
+    "de": "sich bewähren",
+    "article": "",
+    "ru": "оправдывать себя, зарекомендовать себя",
+    "en": "to prove its worth",
+    "exampleDe": "Das neue Schichtmodell hat sich im Alltag bewährt.",
+    "exampleRu": "Новая модель смен оправдала себя на практике.",
+    "exampleEn": "The new shift model has proved its worth in everyday use.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "verb_praep"
+    ]
+  },
+  {
+    "id": "w_koll_119",
+    "de": "in Anlehnung an",
+    "article": "",
+    "ru": "по образцу, опираясь на",
+    "en": "modelled on, based on",
+    "exampleDe": "In Anlehnung an das Original wurde die Fassade rekonstruiert.",
+    "exampleRu": "Фасад восстановили по образцу оригинала.",
+    "exampleEn": "The facade was reconstructed modelled on the original.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_120",
+    "de": "im Hinblick auf",
+    "article": "",
+    "ru": "с учётом, применительно к",
+    "en": "with regard to",
+    "exampleDe": "Im Hinblick auf die Kosten ist die zweite Variante besser.",
+    "exampleRu": "С учётом расходов второй вариант лучше.",
+    "exampleEn": "With regard to the costs the second option is better.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_121",
+    "de": "im Gegensatz zu",
+    "article": "",
+    "ru": "в отличие от",
+    "en": "in contrast to",
+    "exampleDe": "Im Gegensatz zu früher arbeiten viele heute von zu Hause.",
+    "exampleRu": "В отличие от прежних времён многие сегодня работают из дома.",
+    "exampleEn": "In contrast to the past, many people work from home today.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_122",
+    "de": "mit Ausnahme von",
+    "article": "",
+    "ru": "за исключением",
+    "en": "with the exception of",
+    "exampleDe": "Mit Ausnahme von Sonntag hat der Markt täglich geöffnet.",
+    "exampleRu": "За исключением воскресенья рынок работает ежедневно.",
+    "exampleEn": "With the exception of Sunday the market is open daily.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_123",
+    "de": "in Bezug auf",
+    "article": "",
+    "ru": "относительно, касательно",
+    "en": "in relation to",
+    "exampleDe": "In Bezug auf den Datenschutz gibt es noch offene Punkte.",
+    "exampleRu": "Относительно защиты данных остаются нерешённые моменты.",
+    "exampleEn": "In relation to data protection there are still open points.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_124",
+    "de": "unter Umständen",
+    "article": "",
+    "ru": "при определённых обстоятельствах",
+    "en": "possibly, under certain circumstances",
+    "exampleDe": "Unter Umständen müssen wir den Termin verschieben.",
+    "exampleRu": "При определённых обстоятельствах нам придётся перенести встречу.",
+    "exampleEn": "Under certain circumstances we will have to postpone the appointment.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_125",
+    "de": "in erster Linie",
+    "article": "",
+    "ru": "в первую очередь",
+    "en": "primarily",
+    "exampleDe": "Das Programm richtet sich in erster Linie an Berufstätige.",
+    "exampleRu": "Программа рассчитана в первую очередь на работающих.",
+    "exampleEn": "The programme is aimed primarily at working people.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "feste_wendung"
+    ]
+  },
+  {
+    "id": "w_koll_126",
+    "de": "zur Kenntnis nehmen",
+    "article": "",
+    "ru": "принимать к сведению",
+    "en": "to take note of",
+    "exampleDe": "Die Behörde hat unseren Einwand lediglich zur Kenntnis genommen.",
+    "exampleRu": "Ведомство лишь приняло наше возражение к сведению.",
+    "exampleEn": "The authority merely took note of our objection.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_127",
+    "de": "eine Ausnahme machen",
+    "article": "",
+    "ru": "делать исключение",
+    "en": "to make an exception",
+    "exampleDe": "Nur dieses eine Mal machen wir eine Ausnahme.",
+    "exampleRu": "Только на этот раз мы сделаем исключение.",
+    "exampleEn": "Just this once we will make an exception.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_128",
+    "de": "Rücksprache halten mit",
+    "article": "",
+    "ru": "согласовывать (с кем-либо)",
+    "en": "to consult with",
+    "exampleDe": "Vor der Zusage halte ich noch Rücksprache mit der Abteilungsleitung.",
+    "exampleRu": "Перед согласием я ещё согласую это с руководством отдела.",
+    "exampleEn": "Before agreeing I will consult with the head of department.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_129",
+    "de": "einen Eindruck hinterlassen",
+    "article": "",
+    "ru": "производить впечатление",
+    "en": "to leave an impression",
+    "exampleDe": "Ihre Bewerbung hat einen sehr guten Eindruck hinterlassen.",
+    "exampleRu": "Её заявка произвела очень хорошее впечатление.",
+    "exampleEn": "Her application left a very good impression.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  },
+  {
+    "id": "w_koll_130",
+    "de": "Spuren hinterlassen",
+    "article": "",
+    "ru": "оставлять следы",
+    "en": "to leave traces",
+    "exampleDe": "Die Jahre am Fließband haben Spuren hinterlassen.",
+    "exampleRu": "Годы у конвейера оставили следы.",
+    "exampleEn": "The years on the assembly line have left their traces.",
+    "level": "B2",
+    "tags": [
+      "kollokation",
+      "nomen_verb"
+    ]
+  }
+]

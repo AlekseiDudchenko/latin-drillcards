@@ -1,0 +1,1051 @@
+[
+  {
+    "id": "s_arch_1",
+    "target": "Die wichtigsten Entwurfsentscheidungen werden früh im Projekt getroffen.",
+    "tokens": [
+      "Die",
+      "wichtigsten",
+      "Entwurfsentscheidungen",
+      "werden",
+      "früh",
+      "im",
+      "Projekt",
+      "getroffen"
+    ],
+    "type": "drag",
+    "explanation": "Vorgangspassiv im Präsens: werden + Partizip II.",
+    "translation_en": "The most important design decisions are made early in the project.",
+    "translation_ru": "Самые важные проектные решения принимаются в начале проекта.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_2",
+    "target": "Die Architektur wurde anhand mehrerer Szenarien bewertet.",
+    "tokens": [
+      "Die",
+      "Architektur",
+      "wurde",
+      "anhand",
+      "mehrerer",
+      "Szenarien",
+      "bewertet"
+    ],
+    "type": "drag",
+    "explanation": "Vorgangspassiv im Präteritum; „anhand“ steht mit Genitiv.",
+    "translation_en": "The architecture was evaluated on the basis of several scenarios.",
+    "translation_ru": "Архитектуру оценили по нескольким сценариям.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_3",
+    "target": "Die Schnittstellen müssen sauber dokumentiert werden.",
+    "tokens": [
+      "Die",
+      "Schnittstellen",
+      "müssen",
+      "sauber",
+      "dokumentiert",
+      "werden"
+    ],
+    "type": "drag",
+    "explanation": "Passiv mit Modalverb: müssen + Partizip II + werden.",
+    "translation_en": "The interfaces have to be documented properly.",
+    "translation_ru": "Интерфейсы должны быть аккуратно задокументированы.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_4",
+    "target": "Zyklische Abhängigkeiten sollten von Anfang an vermieden werden.",
+    "tokens": [
+      "Zyklische",
+      "Abhängigkeiten",
+      "sollten",
+      "von",
+      "Anfang",
+      "an",
+      "vermieden",
+      "werden"
+    ],
+    "type": "drag",
+    "explanation": "Passiv mit Modalverb im Konjunktiv II: „sollten“ formuliert eine Empfehlung.",
+    "translation_en": "Cyclic dependencies should be avoided from the very beginning.",
+    "translation_ru": "Циклических зависимостей следует избегать с самого начала.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_5",
+    "target": "Ein Baustein, der zu viele Aufgaben übernimmt, ist schwer zu testen.",
+    "tokens": [
+      "Ein",
+      "Baustein,",
+      "der",
+      "zu",
+      "viele",
+      "Aufgaben",
+      "übernimmt,",
+      "ist",
+      "schwer",
+      "zu",
+      "testen"
+    ],
+    "type": "drag",
+    "explanation": "Relativsatz im Nominativ; „der“ bezieht sich auf „Baustein“.",
+    "translation_en": "A building block that takes on too many tasks is hard to test.",
+    "translation_ru": "Компонент, который берёт на себя слишком много задач, трудно тестировать.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_6",
+    "target": "Das Muster, das wir gewählt haben, erhöht die Erweiterbarkeit.",
+    "tokens": [
+      "Das",
+      "Muster,",
+      "das",
+      "wir",
+      "gewählt",
+      "haben,",
+      "erhöht",
+      "die",
+      "Erweiterbarkeit"
+    ],
+    "type": "drag",
+    "explanation": "Relativsatz im Akkusativ: „das“ ist Objekt des Nebensatzes.",
+    "translation_en": "The pattern we chose increases extensibility.",
+    "translation_ru": "Шаблон, который мы выбрали, повышает расширяемость.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_7",
+    "target": "Die Kollegin, mit der ich den Entwurf erarbeitet habe, kennt das System gut.",
+    "tokens": [
+      "Die",
+      "Kollegin,",
+      "mit",
+      "der",
+      "ich",
+      "den",
+      "Entwurf",
+      "erarbeitet",
+      "habe,",
+      "kennt",
+      "das",
+      "System",
+      "gut"
+    ],
+    "type": "drag",
+    "explanation": "Relativsatz mit Präposition: „mit“ + Dativ „der“.",
+    "translation_en": "The colleague I worked out the design with knows the system well.",
+    "translation_ru": "Коллега, с которой я разрабатывал проект, хорошо знает систему.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_8",
+    "target": "Ein System, dessen Kopplung zu hoch ist, lässt sich kaum ändern.",
+    "tokens": [
+      "Ein",
+      "System,",
+      "dessen",
+      "Kopplung",
+      "zu",
+      "hoch",
+      "ist,",
+      "lässt",
+      "sich",
+      "kaum",
+      "ändern"
+    ],
+    "type": "drag",
+    "explanation": "Relativsatz im Genitiv: „dessen“ ersetzt den Genitivartikel.",
+    "translation_en": "A system whose coupling is too high can hardly be changed.",
+    "translation_ru": "Систему, у которой слишком высокая связанность, почти невозможно изменить.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_9",
+    "target": "Die Zerlegung des Systems in eigenständige Bausteine senkt die Komplexität.",
+    "tokens": [
+      "Die",
+      "Zerlegung",
+      "des",
+      "Systems",
+      "in",
+      "eigenständige",
+      "Bausteine",
+      "senkt",
+      "die",
+      "Komplexität"
+    ],
+    "type": "drag",
+    "explanation": "Nominalisierung: „zerlegen“ wird zu „die Zerlegung“ mit Genitivattribut.",
+    "translation_en": "Decomposing the system into independent building blocks reduces complexity.",
+    "translation_ru": "Разбиение системы на самостоятельные компоненты снижает сложность.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_10",
+    "target": "Die Einhaltung der Vorgaben ist eine Voraussetzung für den sicheren Betrieb.",
+    "tokens": [
+      "Die",
+      "Einhaltung",
+      "der",
+      "Vorgaben",
+      "ist",
+      "eine",
+      "Voraussetzung",
+      "für",
+      "den",
+      "sicheren",
+      "Betrieb"
+    ],
+    "type": "drag",
+    "explanation": "Zwei Nominalisierungen: „einhalten“ und „voraussetzen“ als Nomen.",
+    "translation_en": "Compliance with the specifications is a prerequisite for safe operation.",
+    "translation_ru": "Соблюдение предписаний — предпосылка для безопасной эксплуатации.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_11",
+    "target": "Nach der Auswertung der Metriken haben wir mehrere Auffälligkeiten besprochen.",
+    "tokens": [
+      "Nach",
+      "der",
+      "Auswertung",
+      "der",
+      "Metriken",
+      "haben",
+      "wir",
+      "mehrere",
+      "Auffälligkeiten",
+      "besprochen"
+    ],
+    "type": "drag",
+    "explanation": "Nominalstil statt Nebensatz: „nachdem ausgewertet wurde“ wird zu „nach der Auswertung“.",
+    "translation_en": "After evaluating the metrics we discussed several anomalies.",
+    "translation_ru": "После анализа метрик мы обсудили несколько отклонений.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_12",
+    "target": "Die Berücksichtigung nichtfunktionaler Anforderungen beeinflusst den Entwurf maßgeblich.",
+    "tokens": [
+      "Die",
+      "Berücksichtigung",
+      "nichtfunktionaler",
+      "Anforderungen",
+      "beeinflusst",
+      "den",
+      "Entwurf",
+      "maßgeblich"
+    ],
+    "type": "drag",
+    "explanation": "Nominalisierung mit vorangestelltem Adjektivattribut im Genitiv.",
+    "translation_en": "Taking non-functional requirements into account has a decisive influence on the design.",
+    "translation_ru": "Учёт нефункциональных требований существенно влияет на проектирование.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_13",
+    "target": "Ein sauber gekapselter Baustein verbirgt seine interne Struktur.",
+    "tokens": [
+      "Ein",
+      "sauber",
+      "gekapselter",
+      "Baustein",
+      "verbirgt",
+      "seine",
+      "interne",
+      "Struktur"
+    ],
+    "type": "drag",
+    "explanation": "Partizip II als Attribut vor dem Nomen: „gekapselt“.",
+    "translation_en": "A cleanly encapsulated building block hides its internal structure.",
+    "translation_ru": "Аккуратно инкапсулированный компонент скрывает свою внутреннюю структуру.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_14",
+    "target": "Die im Lasttest ermittelten Werte lagen über unseren Erwartungen.",
+    "tokens": [
+      "Die",
+      "im",
+      "Lasttest",
+      "ermittelten",
+      "Werte",
+      "lagen",
+      "über",
+      "unseren",
+      "Erwartungen"
+    ],
+    "type": "drag",
+    "explanation": "Erweitertes Partizipialattribut: „die im Lasttest ermittelten Werte“.",
+    "translation_en": "The values determined in the load test exceeded our expectations.",
+    "translation_ru": "Значения, полученные в нагрузочном тесте, превысили наши ожидания.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_15",
+    "target": "Wir setzen auf bewährte Architekturmuster statt auf eigene Erfindungen.",
+    "tokens": [
+      "Wir",
+      "setzen",
+      "auf",
+      "bewährte",
+      "Architekturmuster",
+      "statt",
+      "auf",
+      "eigene",
+      "Erfindungen"
+    ],
+    "type": "drag",
+    "explanation": "Partizip II „bewährt“ wird wie ein Adjektiv dekliniert.",
+    "translation_en": "We rely on proven architecture patterns rather than on our own inventions.",
+    "translation_ru": "Мы делаем ставку на проверенные архитектурные шаблоны, а не на собственные изобретения.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_16",
+    "target": "Die steigende Granularität erschwert das Verständnis der Bausteinsicht.",
+    "tokens": [
+      "Die",
+      "steigende",
+      "Granularität",
+      "erschwert",
+      "das",
+      "Verständnis",
+      "der",
+      "Bausteinsicht"
+    ],
+    "type": "drag",
+    "explanation": "Partizip I als Attribut: „steigend“ beschreibt einen laufenden Vorgang.",
+    "translation_en": "The increasing granularity makes the building block view harder to understand.",
+    "translation_ru": "Растущая гранулярность затрудняет понимание структурного представления.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_17",
+    "target": "An deiner Stelle würde ich die Schnittstelle explizit dokumentieren.",
+    "tokens": [
+      "An",
+      "deiner",
+      "Stelle",
+      "würde",
+      "ich",
+      "die",
+      "Schnittstelle",
+      "explizit",
+      "dokumentieren"
+    ],
+    "type": "drag",
+    "explanation": "Konjunktiv II mit „würde“ als Ratschlag.",
+    "translation_en": "If I were you, I would document the interface explicitly.",
+    "translation_ru": "На твоём месте я бы явно задокументировал интерфейс.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_18",
+    "target": "Ohne diese Maßnahme wäre die Verfügbarkeit deutlich niedriger.",
+    "tokens": [
+      "Ohne",
+      "diese",
+      "Maßnahme",
+      "wäre",
+      "die",
+      "Verfügbarkeit",
+      "deutlich",
+      "niedriger"
+    ],
+    "type": "drag",
+    "explanation": "Konjunktiv II von „sein“ in einer irrealen Aussage.",
+    "translation_en": "Without this measure, availability would be considerably lower.",
+    "translation_ru": "Без этой меры доступность была бы заметно ниже.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_19",
+    "target": "Hätten wir die Risiken früher ermittelt, wäre der Umbau billiger gewesen.",
+    "tokens": [
+      "Hätten",
+      "wir",
+      "die",
+      "Risiken",
+      "früher",
+      "ermittelt,",
+      "wäre",
+      "der",
+      "Umbau",
+      "billiger",
+      "gewesen"
+    ],
+    "type": "drag",
+    "explanation": "Konjunktiv II der Vergangenheit im uneingeleiteten Bedingungssatz.",
+    "translation_en": "If we had identified the risks earlier, the rebuild would have been cheaper.",
+    "translation_ru": "Если бы мы выявили риски раньше, перестройка обошлась бы дешевле.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_20",
+    "target": "Könnten Sie bitte die Kontextabgrenzung noch einmal erklären?",
+    "tokens": [
+      "Könnten",
+      "Sie",
+      "bitte",
+      "die",
+      "Kontextabgrenzung",
+      "noch",
+      "einmal",
+      "erklären"
+    ],
+    "type": "drag",
+    "explanation": "Konjunktiv II als Höflichkeitsform.",
+    "translation_en": "Could you please explain the context boundary once more?",
+    "translation_ru": "Не могли бы вы ещё раз объяснить границы контекста?",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_21",
+    "target": "Wenn die Kopplung steigt, sinkt die Wartbarkeit.",
+    "tokens": [
+      "Wenn",
+      "die",
+      "Kopplung",
+      "steigt,",
+      "sinkt",
+      "die",
+      "Wartbarkeit"
+    ],
+    "type": "drag",
+    "explanation": "Realer Bedingungssatz mit „wenn“; im Hauptsatz steht das Verb zuerst.",
+    "translation_en": "If coupling increases, maintainability decreases.",
+    "translation_ru": "Если связанность растёт, сопровождаемость падает.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_22",
+    "target": "Falls der Lasttest fehlschlägt, verschieben wir die Auslieferung.",
+    "tokens": [
+      "Falls",
+      "der",
+      "Lasttest",
+      "fehlschlägt,",
+      "verschieben",
+      "wir",
+      "die",
+      "Auslieferung"
+    ],
+    "type": "drag",
+    "explanation": "„falls“ betont die Unsicherheit stärker als „wenn“.",
+    "translation_en": "If the load test fails, we will postpone the release.",
+    "translation_ru": "Если нагрузочный тест провалится, мы отложим релиз.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_23",
+    "target": "Sofern die Randbedingungen gleich bleiben, ist der Ansatz tragfähig.",
+    "tokens": [
+      "Sofern",
+      "die",
+      "Randbedingungen",
+      "gleich",
+      "bleiben,",
+      "ist",
+      "der",
+      "Ansatz",
+      "tragfähig"
+    ],
+    "type": "drag",
+    "explanation": "„sofern“ schränkt die Bedingung ein: nur unter dieser Voraussetzung.",
+    "translation_en": "Provided that the constraints stay the same, the approach is viable.",
+    "translation_ru": "При условии, что ограничения останутся прежними, подход жизнеспособен.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_24",
+    "target": "Sollte sich die Anforderung ändern, passen wir den Entwurf an.",
+    "tokens": [
+      "Sollte",
+      "sich",
+      "die",
+      "Anforderung",
+      "ändern,",
+      "passen",
+      "wir",
+      "den",
+      "Entwurf",
+      "an"
+    ],
+    "type": "drag",
+    "explanation": "Uneingeleiteter Bedingungssatz mit „sollte“ an erster Stelle.",
+    "translation_en": "Should the requirement change, we will adapt the design.",
+    "translation_ru": "Если требование изменится, мы адаптируем проект.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_25",
+    "target": "Obwohl der Entwurf einfach aussieht, war die Zerlegung aufwendig.",
+    "tokens": [
+      "Obwohl",
+      "der",
+      "Entwurf",
+      "einfach",
+      "aussieht,",
+      "war",
+      "die",
+      "Zerlegung",
+      "aufwendig"
+    ],
+    "type": "drag",
+    "explanation": "Konzessiver Nebensatz mit „obwohl“; das Verb steht am Ende.",
+    "translation_en": "Although the design looks simple, the decomposition was laborious.",
+    "translation_ru": "Хотя проект выглядит простым, разбиение было трудоёмким.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_26",
+    "target": "Die Metriken sind hilfreich, obgleich sie keine Ursachen erklären.",
+    "tokens": [
+      "Die",
+      "Metriken",
+      "sind",
+      "hilfreich,",
+      "obgleich",
+      "sie",
+      "keine",
+      "Ursachen",
+      "erklären"
+    ],
+    "type": "drag",
+    "explanation": "„obgleich“ ist die gehobene Variante von „obwohl“.",
+    "translation_en": "The metrics are helpful, although they do not explain causes.",
+    "translation_ru": "Метрики полезны, хотя и не объясняют причин.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_27",
+    "target": "Auch wenn wir Werkzeuge einsetzen, bleibt die Bewertung eine Herausforderung.",
+    "tokens": [
+      "Auch",
+      "wenn",
+      "wir",
+      "Werkzeuge",
+      "einsetzen,",
+      "bleibt",
+      "die",
+      "Bewertung",
+      "eine",
+      "Herausforderung"
+    ],
+    "type": "drag",
+    "explanation": "„auch wenn“ verbindet Bedingung und Einräumung.",
+    "translation_en": "Even if we use tools, the evaluation remains a challenge.",
+    "translation_ru": "Даже если мы применяем инструменты, оценка остаётся вызовом.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_28",
+    "target": "Trotz der hohen Komplexität blieb das System verständlich.",
+    "tokens": [
+      "Trotz",
+      "der",
+      "hohen",
+      "Komplexität",
+      "blieb",
+      "das",
+      "System",
+      "verständlich"
+    ],
+    "type": "drag",
+    "explanation": "Konzessive Präposition „trotz“ + Genitiv statt Nebensatz.",
+    "translation_en": "Despite the high complexity, the system remained comprehensible.",
+    "translation_ru": "Несмотря на высокую сложность, система осталась понятной.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_29",
+    "target": "Wir haben den Baustein zerlegt, weil seine Verantwortlichkeiten zu breit waren.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "den",
+      "Baustein",
+      "zerlegt,",
+      "weil",
+      "seine",
+      "Verantwortlichkeiten",
+      "zu",
+      "breit",
+      "waren"
+    ],
+    "type": "drag",
+    "explanation": "Kausalsatz mit „weil“; das Verb steht am Satzende.",
+    "translation_en": "We split the building block because its responsibilities were too broad.",
+    "translation_ru": "Мы разбили компонент, потому что его зона ответственности была слишком широкой.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_30",
+    "target": "Da die Vertraulichkeit gefährdet war, haben wir den Zugriff eingeschränkt.",
+    "tokens": [
+      "Da",
+      "die",
+      "Vertraulichkeit",
+      "gefährdet",
+      "war,",
+      "haben",
+      "wir",
+      "den",
+      "Zugriff",
+      "eingeschränkt"
+    ],
+    "type": "drag",
+    "explanation": "„da“ nennt einen bekannten Grund und steht gern am Anfang.",
+    "translation_en": "Since confidentiality was at risk, we restricted access.",
+    "translation_ru": "Так как конфиденциальность была под угрозой, мы ограничили доступ.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_31",
+    "target": "Die Codedubletten sind auf eine fehlende Abstraktion zurückzuführen.",
+    "tokens": [
+      "Die",
+      "Codedubletten",
+      "sind",
+      "auf",
+      "eine",
+      "fehlende",
+      "Abstraktion",
+      "zurückzuführen"
+    ],
+    "type": "drag",
+    "explanation": "„zurückzuführen sein auf“ nennt die Ursache ohne Nebensatz.",
+    "translation_en": "The duplicated code is due to a missing abstraction.",
+    "translation_ru": "Дублирование кода вызвано отсутствием абстракции.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_32",
+    "target": "Wegen der zyklischen Abhängigkeiten dauert jeder Integrationstest länger.",
+    "tokens": [
+      "Wegen",
+      "der",
+      "zyklischen",
+      "Abhängigkeiten",
+      "dauert",
+      "jeder",
+      "Integrationstest",
+      "länger"
+    ],
+    "type": "drag",
+    "explanation": "Kausale Präposition „wegen“ + Genitiv.",
+    "translation_en": "Because of the cyclic dependencies, every integration test takes longer.",
+    "translation_ru": "Из-за циклических зависимостей каждый интеграционный тест длится дольше.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_33",
+    "target": "Wir kapseln die Datenhaltung, damit spätere Änderungen lokal bleiben.",
+    "tokens": [
+      "Wir",
+      "kapseln",
+      "die",
+      "Datenhaltung,",
+      "damit",
+      "spätere",
+      "Änderungen",
+      "lokal",
+      "bleiben"
+    ],
+    "type": "drag",
+    "explanation": "Finalsatz mit „damit“, weil Haupt- und Nebensatz verschiedene Subjekte haben.",
+    "translation_en": "We encapsulate data storage so that later changes stay local.",
+    "translation_ru": "Мы инкапсулируем хранение данных, чтобы последующие изменения оставались локальными.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_34",
+    "target": "Der Architekt dokumentiert die Sichten, um das Zusammenspiel verständlich zu machen.",
+    "tokens": [
+      "Der",
+      "Architekt",
+      "dokumentiert",
+      "die",
+      "Sichten,",
+      "um",
+      "das",
+      "Zusammenspiel",
+      "verständlich",
+      "zu",
+      "machen"
+    ],
+    "type": "drag",
+    "explanation": "„um … zu“ bei gleichem Subjekt in Haupt- und Nebensatz.",
+    "translation_en": "The architect documents the views in order to make the interplay understandable.",
+    "translation_ru": "Архитектор документирует представления, чтобы сделать взаимодействие понятным.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_35",
+    "target": "Zur Vermeidung von Risiken werden alle Entscheidungen explizit festgehalten.",
+    "tokens": [
+      "Zur",
+      "Vermeidung",
+      "von",
+      "Risiken",
+      "werden",
+      "alle",
+      "Entscheidungen",
+      "explizit",
+      "festgehalten"
+    ],
+    "type": "drag",
+    "explanation": "Nominale Finalangabe „zur Vermeidung von“ statt „um … zu“.",
+    "translation_en": "To avoid risks, all decisions are recorded explicitly.",
+    "translation_ru": "Во избежание рисков все решения фиксируются явно.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_36",
+    "target": "Wir delegieren Teilaufgaben, damit das Team parallel arbeiten kann.",
+    "tokens": [
+      "Wir",
+      "delegieren",
+      "Teilaufgaben,",
+      "damit",
+      "das",
+      "Team",
+      "parallel",
+      "arbeiten",
+      "kann"
+    ],
+    "type": "drag",
+    "explanation": "Finalsatz mit „damit“ und Modalverb am Ende des Nebensatzes.",
+    "translation_en": "We delegate subtasks so that the team can work in parallel.",
+    "translation_ru": "Мы делегируем подзадачи, чтобы команда могла работать параллельно.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_37",
+    "target": "Wir senken die Komplexität, indem wir das System in Bausteine zerlegen.",
+    "tokens": [
+      "Wir",
+      "senken",
+      "die",
+      "Komplexität,",
+      "indem",
+      "wir",
+      "das",
+      "System",
+      "in",
+      "Bausteine",
+      "zerlegen"
+    ],
+    "type": "drag",
+    "explanation": "Modalsatz mit „indem“: er nennt das Mittel oder die Methode.",
+    "translation_en": "We reduce complexity by decomposing the system into building blocks.",
+    "translation_ru": "Мы снижаем сложность, разбивая систему на компоненты.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_38",
+    "target": "Das Team hat die Architektur beschrieben, ohne die Laufzeitsicht zu erwähnen.",
+    "tokens": [
+      "Das",
+      "Team",
+      "hat",
+      "die",
+      "Architektur",
+      "beschrieben,",
+      "ohne",
+      "die",
+      "Laufzeitsicht",
+      "zu",
+      "erwähnen"
+    ],
+    "type": "drag",
+    "explanation": "„ohne … zu“ + Infinitiv nennt einen fehlenden Begleitumstand.",
+    "translation_en": "The team described the architecture without mentioning the runtime view.",
+    "translation_ru": "Команда описала архитектуру, не упомянув представление времени выполнения.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_39",
+    "target": "Durch den Einsatz von Metriken decken wir Auffälligkeiten früher auf.",
+    "tokens": [
+      "Durch",
+      "den",
+      "Einsatz",
+      "von",
+      "Metriken",
+      "decken",
+      "wir",
+      "Auffälligkeiten",
+      "früher",
+      "auf"
+    ],
+    "type": "drag",
+    "explanation": "Modale Präposition „durch“ nennt das Mittel; „aufdecken“ ist trennbar.",
+    "translation_en": "By using metrics we uncover anomalies earlier.",
+    "translation_ru": "Благодаря применению метрик мы раньше выявляем отклонения.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_40",
+    "target": "Das Team erklärte den Ansatz, indem es ein Szenario durchspielte.",
+    "tokens": [
+      "Das",
+      "Team",
+      "erklärte",
+      "den",
+      "Ansatz,",
+      "indem",
+      "es",
+      "ein",
+      "Szenario",
+      "durchspielte"
+    ],
+    "type": "drag",
+    "explanation": "„indem“ im Präteritum; das Verb steht am Ende des Nebensatzes.",
+    "translation_en": "The team explained the approach by playing through a scenario.",
+    "translation_ru": "Команда объяснила подход, разыграв сценарий.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_41",
+    "target": "Die Kopplung ist hoch, deshalb dauert jede Änderung länger.",
+    "tokens": [
+      "Die",
+      "Kopplung",
+      "ist",
+      "hoch,",
+      "deshalb",
+      "dauert",
+      "jede",
+      "Änderung",
+      "länger"
+    ],
+    "type": "drag",
+    "explanation": "„deshalb“ besetzt Position 1 und erzwingt die Inversion.",
+    "translation_en": "The coupling is high, therefore every change takes longer.",
+    "translation_ru": "Связанность высокая, поэтому каждое изменение занимает больше времени.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_42",
+    "target": "Das Verfahren ist aufwendig, dennoch liefert es verlässliche Ergebnisse.",
+    "tokens": [
+      "Das",
+      "Verfahren",
+      "ist",
+      "aufwendig,",
+      "dennoch",
+      "liefert",
+      "es",
+      "verlässliche",
+      "Ergebnisse"
+    ],
+    "type": "drag",
+    "explanation": "„dennoch“ verbindet zwei Hauptsätze mit einem Gegensatz.",
+    "translation_en": "The procedure is laborious, nevertheless it delivers reliable results.",
+    "translation_ru": "Метод трудоёмкий, тем не менее он даёт надёжные результаты.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_43",
+    "target": "Der Entwurf ist einfach, außerdem lässt er sich gut testen.",
+    "tokens": [
+      "Der",
+      "Entwurf",
+      "ist",
+      "einfach,",
+      "außerdem",
+      "lässt",
+      "er",
+      "sich",
+      "gut",
+      "testen"
+    ],
+    "type": "drag",
+    "explanation": "„außerdem“ ergänzt ein weiteres Argument, ebenfalls mit Inversion.",
+    "translation_en": "The design is simple, and it is also easy to test.",
+    "translation_ru": "Проект простой, к тому же его легко тестировать.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_44",
+    "target": "Entweder vereinfachen wir den Entwurf, oder wir akzeptieren das Risiko.",
+    "tokens": [
+      "Entweder",
+      "vereinfachen",
+      "wir",
+      "den",
+      "Entwurf,",
+      "oder",
+      "wir",
+      "akzeptieren",
+      "das",
+      "Risiko"
+    ],
+    "type": "drag",
+    "explanation": "Zweiteiliger Konnektor „entweder … oder“.",
+    "translation_en": "Either we simplify the design or we accept the risk.",
+    "translation_ru": "Либо мы упрощаем проект, либо принимаем риск.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_45",
+    "target": "Der Architekt trifft die Entscheidung gemeinsam mit den Stakeholdern.",
+    "tokens": [
+      "Der",
+      "Architekt",
+      "trifft",
+      "die",
+      "Entscheidung",
+      "gemeinsam",
+      "mit",
+      "den",
+      "Stakeholdern"
+    ],
+    "type": "drag",
+    "explanation": "Nomen-Verb-Verbindung: „eine Entscheidung treffen“.",
+    "translation_en": "The architect makes the decision together with the stakeholders.",
+    "translation_ru": "Архитектор принимает решение совместно со стейкхолдерами.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_46",
+    "target": "Wir ziehen mehrere Muster in Betracht, bevor wir uns festlegen.",
+    "tokens": [
+      "Wir",
+      "ziehen",
+      "mehrere",
+      "Muster",
+      "in",
+      "Betracht,",
+      "bevor",
+      "wir",
+      "uns",
+      "festlegen"
+    ],
+    "type": "drag",
+    "explanation": "„in Betracht ziehen“ steht für „berücksichtigen“.",
+    "translation_en": "We take several patterns into consideration before we commit.",
+    "translation_ru": "Мы рассматриваем несколько шаблонов, прежде чем определиться.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_47",
+    "target": "Die Metriken geben Aufschluss über die Qualität des Quellcodes.",
+    "tokens": [
+      "Die",
+      "Metriken",
+      "geben",
+      "Aufschluss",
+      "über",
+      "die",
+      "Qualität",
+      "des",
+      "Quellcodes"
+    ],
+    "type": "drag",
+    "explanation": "„Aufschluss geben über“ steht für „etwas verständlich machen“.",
+    "translation_en": "The metrics provide information about the quality of the source code.",
+    "translation_ru": "Метрики дают представление о качестве исходного кода.",
+    "level": "C1"
+  },
+  {
+    "id": "s_arch_48",
+    "target": "Wir nehmen Rücksicht auf die Randbedingungen des Auftraggebers.",
+    "tokens": [
+      "Wir",
+      "nehmen",
+      "Rücksicht",
+      "auf",
+      "die",
+      "Randbedingungen",
+      "des",
+      "Auftraggebers"
+    ],
+    "type": "drag",
+    "explanation": "„Rücksicht nehmen auf“ + Akkusativ.",
+    "translation_en": "We take the client's constraints into consideration.",
+    "translation_ru": "Мы учитываем ограничения заказчика.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_49",
+    "target": "Der Entwurf beruht auf wenigen, klar getrennten Verantwortlichkeiten.",
+    "tokens": [
+      "Der",
+      "Entwurf",
+      "beruht",
+      "auf",
+      "wenigen,",
+      "klar",
+      "getrennten",
+      "Verantwortlichkeiten"
+    ],
+    "type": "drag",
+    "explanation": "„beruhen auf“ + Dativ.",
+    "translation_en": "The design is based on a few clearly separated responsibilities.",
+    "translation_ru": "Проект основан на нескольких чётко разделённых зонах ответственности.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_50",
+    "target": "Die Bewertung hängt stark von den gewählten Szenarien ab.",
+    "tokens": [
+      "Die",
+      "Bewertung",
+      "hängt",
+      "stark",
+      "von",
+      "den",
+      "gewählten",
+      "Szenarien",
+      "ab"
+    ],
+    "type": "drag",
+    "explanation": "„abhängen von“ + Dativ; das trennbare Präfix steht am Satzende.",
+    "translation_en": "The evaluation depends heavily on the chosen scenarios.",
+    "translation_ru": "Оценка сильно зависит от выбранных сценариев.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_51",
+    "target": "Wir haben uns für ein schrittweises Vorgehen entschieden.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "uns",
+      "für",
+      "ein",
+      "schrittweises",
+      "Vorgehen",
+      "entschieden"
+    ],
+    "type": "drag",
+    "explanation": "„sich entscheiden für“ + Akkusativ.",
+    "translation_en": "We decided in favour of a stepwise approach.",
+    "translation_ru": "Мы решили в пользу поэтапного подхода.",
+    "level": "B2"
+  },
+  {
+    "id": "s_arch_52",
+    "target": "Das Team achtet bei jedem Entwurf auf die Testbarkeit.",
+    "tokens": [
+      "Das",
+      "Team",
+      "achtet",
+      "bei",
+      "jedem",
+      "Entwurf",
+      "auf",
+      "die",
+      "Testbarkeit"
+    ],
+    "type": "drag",
+    "explanation": "„achten auf“ + Akkusativ; „bei“ + Dativ als Zeitangabe.",
+    "translation_en": "The team pays attention to testability in every design.",
+    "translation_ru": "Команда следит за тестируемостью при каждом проектировании.",
+    "level": "B2"
+  }
+]

@@ -1,0 +1,339 @@
+{
+  "videoId": "4JTUflVw1v4",
+  "level": "b1",
+  "title": "Frage-Antwort: Ihre ganze Beauty-Routine",
+  "shorts": true,
+  "segments": [
+    {
+      "pauseAt": 3.7,
+      "sentence": "Was machst du da?",
+      "tokens": [
+        "Was",
+        "machst",
+        "du",
+        "da?"
+      ],
+      "translation_ru": "Что ты там делаешь?",
+      "translation_en": "What are you doing?",
+      "translation_es": "¿Qué estás haciendo ahí?"
+    },
+    {
+      "pauseAt": 6.7,
+      "sentence": "Ich schneide meine Spitzen.",
+      "tokens": [
+        "Ich",
+        "schneide",
+        "meine",
+        "Spitzen."
+      ],
+      "translation_ru": "Я подстригаю кончики волос.",
+      "translation_en": "I'm trimming my hair.",
+      "translation_es": "Me corto las puntas."
+    },
+    {
+      "pauseAt": 10.8,
+      "sentence": "Was machst du da jetzt in die Haare rein?",
+      "tokens": [
+        "Was",
+        "machst",
+        "du",
+        "da",
+        "jetzt",
+        "in",
+        "die",
+        "Haare",
+        "rein?"
+      ],
+      "translation_ru": "Что ты сейчас наносишь на волосы?",
+      "translation_en": "What are you putting in your hair right now?",
+      "translation_es": "¿Qué te estás echando ahora en el pelo?"
+    },
+    {
+      "pauseAt": 13.4,
+      "sentence": "Das ist ein Serum, damit die Haare schneller wachsen.",
+      "tokens": [
+        "Das",
+        "ist",
+        "ein",
+        "Serum,",
+        "damit",
+        "die",
+        "Haare",
+        "schneller",
+        "wachsen."
+      ],
+      "translation_ru": "Это сыворотка, которая способствует более быстрому росту волос.",
+      "translation_en": "This is a serum that helps hair grow faster.",
+      "translation_es": "Es un sérum que ayuda a que el pelo crezca más rápido."
+    },
+    {
+      "pauseAt": 17.4,
+      "sentence": "Hätte es auch von vorne rein einfach nicht schneiden können.",
+      "tokens": [
+        "Hätte",
+        "es",
+        "auch",
+        "von",
+        "vorne",
+        "rein",
+        "einfach",
+        "nicht",
+        "schneiden",
+        "können."
+      ],
+      "translation_ru": "С самого начала это просто не могло бы сработать.",
+      "translation_en": "It just wouldn't have worked from the very beginning.",
+      "translation_es": "Desde el principio ya estaba claro que no iba a salir bien."
+    },
+    {
+      "pauseAt": 18.7,
+      "sentence": "Was machst du jetzt ins Gesicht?",
+      "tokens": [
+        "Was",
+        "machst",
+        "du",
+        "jetzt",
+        "ins",
+        "Gesicht?"
+      ],
+      "translation_ru": "Что ты сейчас делаешь с лицом?",
+      "translation_en": "What are you doing to your face now?",
+      "translation_es": "¿Qué te vas a poner ahora en la cara?"
+    },
+    {
+      "pauseAt": 25.5,
+      "sentence": "Das ist eine Foundation, damit meine Haut nicht so rot ist und so ein gleichmäßigeren Teint.",
+      "tokens": [
+        "Das",
+        "ist",
+        "eine",
+        "Foundation,",
+        "damit",
+        "meine",
+        "Haut",
+        "nicht",
+        "so",
+        "rot",
+        "ist",
+        "und",
+        "so",
+        "ein",
+        "gleichmäßigeren",
+        "Teint."
+      ],
+      "translation_ru": "Это тональный крем, который помогает уменьшить покраснение кожи и сделать цвет лица более ровным.",
+      "translation_en": "This is a foundation that helps reduce the redness in my skin and gives me a more even complexion.",
+      "translation_es": "Es una base de maquillaje para que mi piel no esté tan enrojecida y tenga un tono más uniforme."
+    },
+    {
+      "pauseAt": 29.3,
+      "sentence": "Wofür benutzt du das? Und den Pinsel da?",
+      "tokens": [
+        "Wofür",
+        "benutzt",
+        "du",
+        "das?",
+        "Und",
+        "den",
+        "Pinsel",
+        "da?"
+      ],
+      "translation_ru": "Для чего ты это используешь? А эту кисть?",
+      "translation_en": "What do you use that for? And that brush over there?",
+      "translation_es": "¿Para qué lo usas? ¿Y ese pincel de ahí?"
+    },
+    {
+      "pauseAt": 34.1,
+      "sentence": "Das ist Blush, damit die Haut an den Stellen hier rot wird.",
+      "tokens": [
+        "Das",
+        "ist",
+        "Blush,",
+        "damit",
+        "die",
+        "Haut",
+        "an",
+        "den",
+        "Stellen",
+        "hier",
+        "rot",
+        "wird."
+      ],
+      "translation_ru": "Это румяна, чтобы кожа в этих местах покраснела.",
+      "translation_en": "This is blush, which makes the skin turn red in these areas.",
+      "translation_es": "Esto es colorete, para que la piel se sonroje en estas zonas."
+    },
+    {
+      "pauseAt": 37.1,
+      "sentence": "Und wofür machst du das drauf?",
+      "tokens": [
+        "Und",
+        "wofür",
+        "machst",
+        "du",
+        "das",
+        "drauf?"
+      ],
+      "translation_ru": "А зачем ты это делаешь?",
+      "translation_en": "So why are you doing that?",
+      "translation_es": "¿Y para qué lo pones ahí?"
+    },
+    {
+      "pauseAt": 39.7,
+      "sentence": "Das ist damit meine Haut nicht so glänzt.",
+      "tokens": [
+        "Das",
+        "ist",
+        "damit",
+        "meine",
+        "Haut",
+        "nicht",
+        "so",
+        "glänzt."
+      ],
+      "translation_ru": "Это для того, чтобы моя кожа не так блестела.",
+      "translation_en": "This is so my skin doesn't look so shiny.",
+      "translation_es": "Esto es para que mi piel no brille tanto."
+    },
+    {
+      "pauseAt": 41.4,
+      "sentence": "Wozu ist das jetzt?",
+      "tokens": [
+        "Wozu",
+        "ist",
+        "das",
+        "jetzt?"
+      ],
+      "translation_ru": "Зачем это сейчас нужно?",
+      "translation_en": "What's the point of that now?",
+      "translation_es": "¿Para qué sirve esto ahora?"
+    },
+    {
+      "pauseAt": 45.3,
+      "sentence": "Das ist Highlighter, damit meine Haut an den Stellen hier mehr glänzt.",
+      "tokens": [
+        "Das",
+        "ist",
+        "Highlighter,",
+        "damit",
+        "meine",
+        "Haut",
+        "an",
+        "den",
+        "Stellen",
+        "hier",
+        "mehr",
+        "glänzt."
+      ],
+      "translation_ru": "Это хайлайтер, чтобы кожа в этих местах сияла ярче.",
+      "translation_en": "This is highlighter, so my skin shines more in these areas.",
+      "translation_es": "Esto es un iluminador, para que mi piel brille más en estas zonas."
+    },
+    {
+      "pauseAt": 47.1,
+      "sentence": "Und was machst du jetzt?",
+      "tokens": [
+        "Und",
+        "was",
+        "machst",
+        "du",
+        "jetzt?"
+      ],
+      "translation_ru": "А что ты теперь будешь делать?",
+      "translation_en": "So what are you doing now?",
+      "translation_es": "¿Y qué vas a hacer ahora?"
+    },
+    {
+      "pauseAt": 49.2,
+      "sentence": "Ich zupfe mir meine Augenbrauen.",
+      "tokens": [
+        "Ich",
+        "zupfe",
+        "mir",
+        "meine",
+        "Augenbrauen."
+      ],
+      "translation_ru": "Я выщипываю брови.",
+      "translation_en": "I pluck my eyebrows.",
+      "translation_es": "Me depilo las cejas."
+    },
+    {
+      "pauseAt": 50.8,
+      "sentence": "Und wozu ist jetzt der Stift?",
+      "tokens": [
+        "Und",
+        "wozu",
+        "ist",
+        "jetzt",
+        "der",
+        "Stift?"
+      ],
+      "translation_ru": "А зачем сейчас нужна ручка?",
+      "translation_en": "So what's the pen for now?",
+      "translation_es": "¿Y para qué sirve ahora el bolígrafo?"
+    },
+    {
+      "pauseAt": 55.8,
+      "sentence": "Meine Augenbrauen nachzumalen, damit sie wieder voller aussehen.",
+      "tokens": [
+        "Meine",
+        "Augenbrauen",
+        "nachzumalen,",
+        "damit",
+        "sie",
+        "wieder",
+        "voller",
+        "aussehen."
+      ],
+      "translation_ru": "Подкрасить брови, чтобы они снова выглядели гуще.",
+      "translation_en": "To fill in my eyebrows so they look fuller again.",
+      "translation_es": "Dibujarme las cejas para que vuelvan a parecer más pobladas."
+    },
+    {
+      "pauseAt": 57.5,
+      "sentence": "Wozu benutzt du jetzt diese Bürste?",
+      "tokens": [
+        "Wozu",
+        "benutzt",
+        "du",
+        "jetzt",
+        "diese",
+        "Bürste?"
+      ],
+      "translation_ru": "Для чего ты сейчас используешь эту щетку?",
+      "translation_en": "What are you using that brush for now?",
+      "translation_es": "¿Para qué utilizas ahora ese cepillo?"
+    },
+    {
+      "pauseAt": 59.4,
+      "sentence": "Damit meine Augenbrauen nicht zu bemalt aussehen.",
+      "tokens": [
+        "Damit",
+        "meine",
+        "Augenbrauen",
+        "nicht",
+        "zu",
+        "bemalt",
+        "aussehen."
+      ],
+      "translation_ru": "Чтобы мои брови не выглядели слишком нарисованными.",
+      "translation_en": "So my eyebrows don't look too made-up.",
+      "translation_es": "Para que mis cejas no parezcan demasiado pintadas."
+    },
+    {
+      "pauseAt": 61.8,
+      "sentence": "Jetzt verstehe ich gar nichts mehr.",
+      "tokens": [
+        "Jetzt",
+        "verstehe",
+        "ich",
+        "gar",
+        "nichts",
+        "mehr."
+      ],
+      "translation_ru": "Теперь я вообще ничего не понимаю.",
+      "translation_en": "Now I'm completely lost.",
+      "translation_es": "Ahora ya no entiendo nada."
+    }
+  ]
+}

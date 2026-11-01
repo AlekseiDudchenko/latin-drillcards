@@ -1,0 +1,242 @@
+[
+  {
+    "id": "p_daily_1",
+    "de": "Ich fange an: Gestern habe ich am Login-Bug gearbeitet.",
+    "ru": "Я начну: вчера я работал над багом в логине.",
+    "en": "I'll start: yesterday I worked on the login bug."
+  },
+  {
+    "id": "p_daily_2",
+    "de": "Gestern habe ich das Ticket abgeschlossen und den Pull Request aufgemacht.",
+    "ru": "Вчера я закрыл тикет и открыл пул-реквест.",
+    "en": "Yesterday I finished the ticket and opened the pull request."
+  },
+  {
+    "id": "p_daily_3",
+    "de": "Heute mache ich damit weiter und schreibe noch die Tests dazu.",
+    "ru": "Сегодня продолжу этим заниматься и допишу к этому тесты.",
+    "en": "Today I'll continue with it and also write the tests for it."
+  },
+  {
+    "id": "p_daily_4",
+    "de": "Bei mir gibt es keine Blocker.",
+    "ru": "У меня блокеров нет.",
+    "en": "I have no blockers."
+  },
+  {
+    "id": "p_daily_5",
+    "de": "Ich bin blockiert, weil ich noch auf die Zugangsdaten warte.",
+    "ru": "Я заблокирован, потому что всё ещё жду доступы.",
+    "en": "I'm blocked because I'm still waiting for the credentials."
+  },
+  {
+    "id": "p_daily_6",
+    "de": "Da brauche ich kurz Unterstützung von jemandem aus dem Backend.",
+    "ru": "Здесь мне нужна небольшая помощь от кого-нибудь из бэкенда.",
+    "en": "I need a bit of support from someone on the backend for that."
+  },
+  {
+    "id": "p_daily_7",
+    "de": "Können wir das nach dem Daily zu zweit besprechen?",
+    "ru": "Может, обсудим это вдвоём после дейли?",
+    "en": "Can we discuss that one-on-one after the daily?"
+  },
+  {
+    "id": "p_daily_8",
+    "de": "Lass uns das offline klären, sonst sprengt es den Rahmen.",
+    "ru": "Давай обсудим это отдельно, иначе выйдем за рамки встречи.",
+    "en": "Let's take that offline, otherwise it goes beyond the scope here."
+  },
+  {
+    "id": "p_daily_9",
+    "de": "Das Ticket ist noch in Arbeit, aber ich bin fast durch.",
+    "ru": "Тикет ещё в работе, но я почти закончил.",
+    "en": "The ticket is still in progress, but I'm almost through."
+  },
+  {
+    "id": "p_daily_10",
+    "de": "Ich schätze, dass ich bis morgen Mittag fertig bin.",
+    "ru": "Думаю, я закончу к завтрашнему полудню.",
+    "en": "I estimate I'll be done by tomorrow midday."
+  },
+  {
+    "id": "p_daily_11",
+    "de": "Es hat länger gedauert als geplant, weil ein Test rot war.",
+    "ru": "Это заняло больше времени, чем планировалось, потому что упал тест.",
+    "en": "It took longer than planned because a test was failing."
+  },
+  {
+    "id": "p_daily_12",
+    "de": "Könnte bitte jemand meinen Pull Request reviewen?",
+    "ru": "Может кто-нибудь, пожалуйста, посмотреть мой пул-реквест?",
+    "en": "Could someone please review my pull request?"
+  },
+  {
+    "id": "p_daily_13",
+    "de": "Ich schaue mir deinen Pull Request heute Vormittag an.",
+    "ru": "Я посмотрю твой пул-реквест сегодня до обеда.",
+    "en": "I'll take a look at your pull request this morning."
+  },
+  {
+    "id": "p_daily_14",
+    "de": "Ich habe die Änderungen gestern Abend auf Staging deployt.",
+    "ru": "Я выкатил изменения на стейджинг вчера вечером.",
+    "en": "I deployed the changes to staging yesterday evening."
+  },
+  {
+    "id": "p_daily_15",
+    "de": "Die Pipeline ist rot — ich kümmere mich als Erstes darum.",
+    "ru": "Пайплайн красный — я займусь этим в первую очередь.",
+    "en": "The pipeline is red — I'll take care of that first thing."
+  },
+  {
+    "id": "p_daily_16",
+    "de": "Ich übernehme das Ticket, wenn niemand etwas dagegen hat.",
+    "ru": "Я возьму этот тикет, если никто не против.",
+    "en": "I'll take that ticket if nobody objects."
+  },
+  {
+    "id": "p_daily_17",
+    "de": "Ich kann dir dabei helfen, meld dich einfach danach bei mir.",
+    "ru": "Я могу тебе с этим помочь, просто напиши мне после.",
+    "en": "I can help you with that, just ping me afterwards."
+  },
+  {
+    "id": "p_daily_18",
+    "de": "Kurz zum Kontext: Wir hatten das im Refinement anders geplant.",
+    "ru": "Немного контекста: на рефайнменте мы планировали иначе.",
+    "en": "A bit of context: we had planned it differently in refinement."
+  },
+  {
+    "id": "p_daily_19",
+    "de": "Ich habe eine Frage an die Runde: Wer kennt sich mit dem Service aus?",
+    "ru": "У меня вопрос ко всем: кто разбирается в этом сервисе?",
+    "en": "I have a question for everyone: who knows this service well?"
+  },
+  {
+    "id": "p_daily_20",
+    "de": "Ich war gestern in Meetings, deshalb bin ich nicht weit gekommen.",
+    "ru": "Вчера я был на встречах, поэтому продвинулся не сильно.",
+    "en": "I was in meetings yesterday, so I didn't get very far."
+  },
+  {
+    "id": "p_daily_21",
+    "de": "Ich bin heute Nachmittag nicht da, ich habe einen Termin.",
+    "ru": "Сегодня во второй половине дня меня не будет, у меня встреча.",
+    "en": "I'm out this afternoon, I have an appointment."
+  },
+  {
+    "id": "p_daily_22",
+    "de": "Ich bin nächste Woche im Urlaub und übergebe das Thema vorher.",
+    "ru": "На следующей неделе я в отпуске и передам эту задачу заранее.",
+    "en": "I'm on holiday next week and will hand the topic over beforehand."
+  },
+  {
+    "id": "p_daily_23",
+    "de": "Entschuldigt die Verspätung, ich hatte technische Probleme.",
+    "ru": "Извините за опоздание, у меня были технические проблемы.",
+    "en": "Sorry for being late, I had technical problems."
+  },
+  {
+    "id": "p_daily_24",
+    "de": "Könnt ihr mich hören? Mein Mikrofon spinnt heute.",
+    "ru": "Вы меня слышите? У меня сегодня глючит микрофон.",
+    "en": "Can you hear me? My microphone is acting up today."
+  },
+  {
+    "id": "p_daily_25",
+    "de": "Ich teile kurz meinen Bildschirm, dann sieht man es besser.",
+    "ru": "Я быстро покажу экран, так будет понятнее.",
+    "en": "I'll quickly share my screen, then it's easier to see."
+  },
+  {
+    "id": "p_daily_26",
+    "de": "Wer möchte anfangen? Sonst gehe ich die Liste von oben durch.",
+    "ru": "Кто хочет начать? Иначе я пройдусь по списку сверху.",
+    "en": "Who wants to start? Otherwise I'll go through the list from the top."
+  },
+  {
+    "id": "p_daily_27",
+    "de": "Damit bin ich durch — ich gebe weiter an dich.",
+    "ru": "У меня всё — передаю слово тебе.",
+    "en": "That's it from me — I'll hand over to you."
+  },
+  {
+    "id": "p_daily_28",
+    "de": "Ich habe den Fehler reproduziert und die Ursache eingegrenzt.",
+    "ru": "Я воспроизвёл ошибку и локализовал причину.",
+    "en": "I reproduced the bug and narrowed down the root cause."
+  },
+  {
+    "id": "p_daily_29",
+    "de": "Der Bug liegt nicht bei uns, sondern in der Schnittstelle.",
+    "ru": "Баг не на нашей стороне, а в интерфейсе взаимодействия.",
+    "en": "The bug isn't on our side, it's in the interface."
+  },
+  {
+    "id": "p_daily_30",
+    "de": "Ich habe das Ticket auf „In Review“ gezogen.",
+    "ru": "Я перевёл тикет в статус «На ревью».",
+    "en": "I moved the ticket to \"In Review\"."
+  },
+  {
+    "id": "p_daily_31",
+    "de": "Wir sollten das Ticket aufteilen, es ist zu groß für einen Sprint.",
+    "ru": "Стоит разбить этот тикет, он слишком большой для одного спринта.",
+    "en": "We should split that ticket, it's too big for one sprint."
+  },
+  {
+    "id": "p_daily_32",
+    "de": "Das hat für mich gerade die höchste Priorität.",
+    "ru": "Сейчас для меня это высший приоритет.",
+    "en": "That has the highest priority for me right now."
+  },
+  {
+    "id": "p_daily_33",
+    "de": "Das würde ich erst mal zurückstellen, es ist nicht dringend.",
+    "ru": "Я бы пока это отложил, это не срочно.",
+    "en": "I'd put that on hold for now, it isn't urgent."
+  },
+  {
+    "id": "p_daily_34",
+    "de": "Ich brauche dafür noch fachlichen Input vom Product Owner.",
+    "ru": "Мне для этого нужен ещё бизнес-контекст от продакт-оунера.",
+    "en": "I still need domain input from the product owner for that."
+  },
+  {
+    "id": "p_daily_35",
+    "de": "Ich bin mir nicht sicher — das muss ich erst nachschauen.",
+    "ru": "Я не уверен — мне нужно сначала посмотреть.",
+    "en": "I'm not sure — I'll have to look that up first."
+  },
+  {
+    "id": "p_daily_36",
+    "de": "Ich melde mich dazu im Chat, sobald ich es geprüft habe.",
+    "ru": "Напишу об этом в чат, как только проверю.",
+    "en": "I'll follow up in the chat as soon as I've checked it."
+  },
+  {
+    "id": "p_daily_37",
+    "de": "Kurze Zwischenfrage: Betrifft das auch unsere Produktivumgebung?",
+    "ru": "Небольшой уточняющий вопрос: это касается и нашего прода?",
+    "en": "A quick question in between: does that affect our production environment too?"
+  },
+  {
+    "id": "p_daily_38",
+    "de": "Ich habe das gestern mit dem Team abgestimmt.",
+    "ru": "Я согласовал это с командой вчера.",
+    "en": "I aligned on that with the team yesterday."
+  },
+  {
+    "id": "p_daily_39",
+    "de": "Von meiner Seite gibt es nichts Neues seit gestern.",
+    "ru": "С моей стороны со вчерашнего дня ничего нового.",
+    "en": "There's nothing new from my side since yesterday."
+  },
+  {
+    "id": "p_daily_40",
+    "de": "Dann sind wir durch — danke euch, schönen Tag noch!",
+    "ru": "Тогда мы закончили — спасибо, хорошего дня!",
+    "en": "Then we're done — thanks everyone, have a nice day!"
+  }
+]

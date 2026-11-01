@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>DrillCards · Аудирование</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head><body><main class="dc-demo dc-sentences dc-listening">
+  <header><strong><a class="dc-brand" href="./today.html">DrillCards</a> · <span id="title">Аудирование</span></strong>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+  </header>
+  <nav class="dc-sentence-filters">
+    <label><span id="deckLabel">Уровень</span> <select id="deck"></select></label>
+    <label><span id="translationLabel">Язык перевода</span> <select id="translation"><option value="ru">RU</option><option value="en">EN</option></select></label>
+    <span class="dc-listening-modes" role="group" aria-labelledby="modeLabel"><span id="modeLabel">Ответ</span>
+      <button id="modeTokens" type="button" aria-pressed="true"></button><button id="modeText" type="button" aria-pressed="false"></button></span>
+  </nav>
+  <p id="meta" class="dc-sentence-meta"></p>
+  <div class="dc-listening-audio"><button id="play" type="button" disabled></button></div>
+  <p id="speechNotice" class="dc-speech-warning" role="alert" hidden></p>
+  <div id="card"></div>
+  <div class="dc-session-actions">
+    <button id="tryAgain" type="button" hidden></button>
+    <button id="previous" type="button"></button><button id="retrySave" type="button" hidden></button>
+  </div>
+  <div id="extra" class="dc-sentence-extra"></div>
+  <p id="stats" class="dc-sentence-stats"></p>
+  <label class="dc-sentence-speak"><input id="autoPlay" type="checkbox"> <span id="autoPlayLabel"></span></label>
+  <p id="keyboard" class="dc-sentence-keys"></p>
+  <p id="notice" class="dc-session-notice" role="status" aria-live="polite"></p>
+</main><script type="module">await import("../retire-v1.js"); await import("./families/listening/listening-page.js");</script></body></html>

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "k2p_001",
+    "sentence": "(Können) ___ Sie mir bitte helfen?",
+    "answers": ["Könnten"],
+    "hint": "können → könnten",
+    "tokens": ["Könnten", "Können", "Konnten", "Könntet", "Würden"]
+  },
+  {
+    "id": "k2p_002",
+    "sentence": "(Haben) ___ Sie einen Moment Zeit?",
+    "answers": ["Hätten"],
+    "hint": "haben → hätten",
+    "tokens": ["Hätten", "Haben", "Hatten", "Hättet", "Würden"]
+  },
+  {
+    "id": "k2p_003",
+    "sentence": "(Sein) ___ es möglich, einen Termin zu verschieben?",
+    "answers": ["Wäre"],
+    "hint": "sein → wäre",
+    "tokens": ["Wäre", "Würde", "Hätte", "Sei", "Wären"]
+  },
+  {
+    "id": "k2p_004",
+    "sentence": "(Dürfen) ___ ich Sie etwas fragen?",
+    "answers": ["Dürfte"],
+    "hint": "dürfen → dürfte",
+    "tokens": ["Dürfte", "Dürfen", "Durfte", "Könnte", "Würde"]
+  },
+  {
+    "id": "k2p_005",
+    "sentence": "(Können) ___ du mir das Salz reichen?",
+    "answers": ["Könntest"],
+    "hint": "können → könntest",
+    "tokens": ["Könntest", "Könnten", "Konntest", "Würdest", "Könntet"]
+  },
+  {
+    "id": "k2p_006",
+    "sentence": "Ich (haben) ___ gern einen Kaffee.",
+    "answers": ["hätte"],
+    "hint": "haben → hätte",
+    "tokens": ["hätte", "würde", "wäre", "könnte", "hätten"]
+  },
+  {
+    "id": "k2p_007",
+    "sentence": "(Sein) ___ es Ihnen recht, wenn ich das Fenster öffne?",
+    "answers": ["Wäre"],
+    "hint": "sein → wäre",
+    "tokens": ["Wäre", "Würde", "Hätte", "Sei", "Wären"]
+  },
+  {
+    "id": "k2p_008",
+    "sentence": "(Können) ___ Sie mir den Weg erklären?",
+    "answers": ["Könnten"],
+    "hint": "können → könnten",
+    "tokens": ["Könnten", "Können", "Konnten", "Könntet", "Würden"]
+  },
+  {
+    "id": "k2p_009",
+    "sentence": "Ich (werden) ___ gern mit dem Chef sprechen.",
+    "answers": ["würde"],
+    "hint": "werden → würde",
+    "tokens": ["würde", "wäre", "hätte", "könnte", "wurde"]
+  },
+  {
+    "id": "k2p_010",
+    "sentence": "(Haben) ___ Sie vielleicht ein Glas Wasser für mich?",
+    "answers": ["Hätten"],
+    "hint": "haben → hätten",
+    "tokens": ["Hätten", "Haben", "Hatten", "Hättet", "Würden"]
+  },
+  {
+    "id": "k2p_011",
+    "sentence": "(Dürfen) ___ ich hier kurz telefonieren?",
+    "answers": ["Dürfte"],
+    "hint": "dürfen → dürfte",
+    "tokens": ["Dürfte", "Dürfen", "Durfte", "Könnte", "Müsste"]
+  },
+  {
+    "id": "k2p_012",
+    "sentence": "(Können) ___ Sie das bitte wiederholen?",
+    "answers": ["Könnten"],
+    "hint": "können → könnten",
+    "tokens": ["Könnten", "Können", "Konnten", "Könntet", "Müssten"]
+  },
+  {
+    "id": "k2p_013",
+    "sentence": "Es (sein) ___ nett, wenn Sie mir Bescheid geben.",
+    "answers": ["wäre"],
+    "hint": "sein → wäre",
+    "tokens": ["wäre", "würde", "hätte", "sei", "wären"]
+  },
+  {
+    "id": "k2p_014",
+    "sentence": "Ich (werden) ___ Ihnen empfehlen, früher zu kommen.",
+    "answers": ["würde"],
+    "hint": "werden → würde",
+    "tokens": ["würde", "wäre", "hätte", "könnte", "wurde"]
+  },
+  {
+    "id": "k2p_015",
+    "sentence": "(Sein) ___ es möglich, die Rechnung zu teilen?",
+    "answers": ["Wäre"],
+    "hint": "sein → wäre",
+    "tokens": ["Wäre", "Würde", "Hätte", "Sei", "Wären"]
+  },
+  {
+    "id": "k2p_016",
+    "sentence": "(Können) ___ ich bitte die Speisekarte sehen?",
+    "answers": ["Könnte"],
+    "hint": "können → könnte",
+    "tokens": ["Könnte", "Konnte", "Könnten", "Dürfte", "Würde"]
+  },
+  {
+    "id": "k2p_017",
+    "sentence": "(Haben) ___ du Lust, morgen mitzukommen?",
+    "answers": ["Hättest"],
+    "hint": "haben → hättest",
+    "tokens": ["Hättest", "Hätte", "Hattest", "Würdest", "Hättet"]
+  },
+  {
+    "id": "k2p_018",
+    "sentence": "Ich (sein) ___ Ihnen sehr dankbar für Ihre Hilfe.",
+    "answers": ["wäre"],
+    "hint": "sein → wäre",
+    "tokens": ["wäre", "würde", "hätte", "sei", "wären"]
+  },
+  {
+    "id": "k2p_019",
+    "sentence": "(Können) ___ wir vielleicht einen anderen Termin finden?",
+    "answers": ["Könnten"],
+    "hint": "können → könnten",
+    "tokens": ["Könnten", "Können", "Konnten", "Müssten", "Dürften"]
+  },
+  {
+    "id": "k2p_020",
+    "sentence": "(Dürfen) ___ ich Ihnen einen Vorschlag machen?",
+    "answers": ["Dürfte"],
+    "hint": "dürfen → dürfte",
+    "tokens": ["Dürfte", "Dürfen", "Durfte", "Könnte", "Müsste"]
+  }
+]

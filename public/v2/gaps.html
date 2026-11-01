@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>DrillCards · пропуски</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <style>
+    .dc-gaps form#setupForm { display:flex; flex-wrap:wrap; gap:12px; align-items:end; margin:16px 0; }
+    .dc-gaps form#setupForm > label:not([hidden]), .dc-gaps-modes { display:grid; gap:6px; min-width:0; flex:1 1 180px; }
+    .dc-gaps-modes { border:0; padding:0; margin:0; grid-auto-flow:column; justify-content:start; align-items:center; }
+    .dc-gaps-modes legend { padding:0; margin-bottom:6px; }
+    .dc-gaps-modes label { display:flex; gap:6px; align-items:center; min-height:44px; padding-right:12px; }
+    :is(.dc-gaps-setup, .dc-session-actions, .dc-gaps-after, .dc-gaps-translations) button, .dc-gaps select { font:inherit; padding:10px 14px; min-height:44px; border:1px solid #8c9ab2; border-radius:8px; background:transparent; color:inherit; cursor:pointer; }
+    :is(.dc-gaps-setup, .dc-session-actions) button:disabled { opacity:.5; cursor:default; }
+    .dc-gaps #start { background:#234cca; color:white; border-color:#234cca; }
+    .dc-gaps-context, .dc-gaps-after, .dc-gaps-variants { margin:12px 0; overflow-wrap:anywhere; }
+    .dc-gaps-tense { display:inline-block; margin:0 0 8px; padding:2px 10px; border:1px solid #8c9ab2; border-radius:999px; font-weight:600; }
+    .dc-gaps-translations { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+    .dc-gaps-translations button[aria-pressed=true] { background:#234cca; color:white; border-color:#234cca; }
+    .dc-gaps-translation { flex:1 1 100%; margin:0; color:#526077; }
+    .dc-gaps-speech { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+    .dc-gaps-speech label { display:flex; gap:6px; align-items:center; min-height:44px; }
+    .dc-gaps-hint { font-weight:600; }
+    .dc-gaps-variants ul { padding-left:20px; display:grid; gap:4px; }
+    .dc-gaps-variants li[aria-current=true] { font-weight:600; }
+    .dc-gaps-reviewing { color:#526077; font-style:italic; }
+    .dc-gaps .dc-cloze-choices .dc-choices { grid-template-columns:repeat(auto-fill,minmax(min(100%,112px),1fr)); }
+    .dc-session-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+    .dc-session-actions button { flex:1 1 140px; }
+  </style>
+</head><body><main class="dc-demo dc-gaps">
+  <header><strong><a class="dc-brand" href="./today.html">DrillCards</a> · <a id="homeLink" href="./session.html"><span id="title">Пропуски</span></a></strong>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+  </header>
+  <section id="continue" class="dc-continue" aria-labelledby="continueTitle" hidden>
+    <h2 id="continueTitle"></h2><p id="continueLine"></p>
+    <div class="dc-session-actions"><button id="continueAction" type="button"></button><button id="continueFinish" type="button"></button></div>
+  </section>
+
+  <section id="setup" class="dc-gaps-setup" hidden>
+    <form id="setupForm">
+      <label><span id="familyLabel"></span> <select id="family"><option value="relative"></option><option value="passiv"></option></select></label>
+      <fieldset id="modeField" class="dc-gaps-modes"><legend id="modeLabel"></legend>
+        <label><input type="radio" name="mode" value="select"> <span id="modeSelect"></span></label>
+        <label><input type="radio" name="mode" value="type"> <span id="modeType"></span></label>
+      </fieldset>
+      <label id="tenseField"><span id="tenseLabel"></span> <select id="tense"><option value=""></option><option>Präs.</option><option>Prät.</option><option>Perf.</option><option>Plusq.</option><option>Fut. I</option></select></label>
+      <label id="translationField"><span id="translationLabel"></span> <select id="translation"><option value="ru">RU</option><option value="en">EN</option></select></label>
+      <button id="start" type="submit"></button>
+      <p id="empty" class="dc-empty" hidden></p>
+    </form>
+    <section id="stats" aria-labelledby="statsTitle"><h2 id="statsTitle"></h2><ul id="statsList"></ul></section>
+  </section>
+
+  <section id="session" class="dc-session" hidden>
+    <p id="progress" class="dc-session-progress" aria-live="polite"></p>
+    <p id="reviewing" class="dc-gaps-reviewing" hidden></p>
+    <div id="context" class="dc-gaps-context">
+      <p id="tenseBadge" class="dc-gaps-tense" lang="de" hidden></p>
+      <div id="translations" class="dc-gaps-translations"></div>
+    </div>
+    <div id="card"></div>
+    <div id="after" class="dc-gaps-after" hidden>
+      <button id="hint" type="button" hidden></button>
+      <p id="hintAnswer" class="dc-gaps-hint" hidden></p>
+      <div class="dc-gaps-speech"><button id="listen" type="button"></button>
+        <label><input id="autoSpeak" type="checkbox"> <span id="autoSpeakLabel"></span></label></div>
+      <p id="speechStatus" class="dc-speech-warning" role="status" aria-live="polite"></p>
+      <section id="explanation" class="dc-gaps-explanation" aria-labelledby="explanationTitle"><h3 id="explanationTitle"></h3><p id="explanationText"></p></section>
+    </div>
+    <section id="variants" class="dc-gaps-variants" aria-labelledby="variantsTitle" hidden><h3 id="variantsTitle"></h3><ul id="variantList"></ul></section>
+    <section id="summary" class="dc-session-summary" aria-labelledby="summaryTitle" hidden></section>
+    <div class="dc-session-actions">
+      <button id="previous" type="button" hidden></button><button id="forward" type="button" hidden></button>
+      <button id="retry" type="button" hidden></button>
+      <button id="pause" type="button" hidden></button><button id="resume" type="button" hidden></button>
+      <button id="finish" type="button" hidden></button><button id="new" type="button" hidden></button>
+    </div>
+  </section>
+  <p id="notice" class="dc-session-notice" role="status" aria-live="polite"></p>
+</main><script type="module">await import("../retire-v1.js"); await import("./families/gaps/gaps-page.js");</script></body></html>

@@ -1,0 +1,849 @@
+{
+  "akk_verb": {
+    "title": {
+      "de": "Akkusativ: das direkte Objekt",
+      "ru": "Аккузатив: прямое дополнение",
+      "en": "Accusative: the direct object"
+    },
+    "summary": {
+      "de": "Akkusativ: direktes Objekt (Wen? Was?)",
+      "ru": "Аккузатив: прямое дополнение (Wen? Was?)",
+      "en": "Accusative: direct object (Wen? Was?)"
+    },
+    "body": {
+      "de": [
+        "Die meisten Verben haben ein direktes Objekt: das, was von der Handlung betroffen ist. Dieses Objekt steht im Akkusativ.",
+        "Frage danach mit Wen? (Personen) oder Was? (Sachen). Steht die Antwort da, ist es Akkusativ.",
+        "Nur der maskuline Artikel ändert sich: der → den, ein → einen. Feminin, neutrum und Plural sehen aus wie im Nominativ — deshalb fällt der Akkusativ dort nicht auf."
+      ],
+      "ru": [
+        "У большинства глаголов есть прямое дополнение — то, на что направлено действие. Оно стоит в аккузативе.",
+        "Проверка вопросом: Wen? (кого?) для людей, Was? (что?) для вещей. Если группа слов отвечает на этот вопрос — это аккузатив.",
+        "Меняется только мужской род: der → den, ein → einen. Женский, средний и множественное число выглядят как в номинативе — поэтому аккузатив там незаметен."
+      ],
+      "en": [
+        "Most verbs take a direct object — the thing the action affects. That object stands in the accusative.",
+        "Test it with Wen? (people) or Was? (things). If the phrase answers that question, it is accusative.",
+        "Only the masculine article changes: der → den, ein → einen. Feminine, neuter and plural look exactly like the nominative, which is why the accusative goes unnoticed there."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Akkusativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Аккузатив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Accusative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "den",
+          "indef": "einen",
+          "kein": "keinen / meinen",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "die",
+          "indef": "eine",
+          "kein": "keine / meine",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "das",
+          "indef": "ein",
+          "kein": "kein / mein",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "die",
+          "indef": "—",
+          "kein": "keine / meine",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Ich sehe den Mann.",
+        "ru": "Я вижу мужчину.",
+        "en": "I see the man."
+      },
+      {
+        "de": "Wir kaufen die Zeitung.",
+        "ru": "Мы покупаем газету.",
+        "en": "We buy the newspaper."
+      },
+      {
+        "de": "Er liest ein Buch.",
+        "ru": "Он читает книгу.",
+        "en": "He is reading a book."
+      }
+    ]
+  },
+  "dat_verb": {
+    "title": {
+      "de": "Verben mit Dativ",
+      "ru": "Глаголы, требующие датива",
+      "en": "Verbs that take the dative"
+    },
+    "summary": {
+      "de": "Dativ-Verb: helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben",
+      "ru": "Глагол требует датива: helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben",
+      "en": "Dative verb: helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben"
+    },
+    "body": {
+      "de": [
+        "Eine kleine Gruppe von Verben nimmt kein Akkusativobjekt, sondern ein Dativobjekt. Man fragt nach ihnen mit Wem?, nie mit Wen?.",
+        "Diese Verben muss man auswendig lernen: helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben, folgen, gratulieren.",
+        "Achtung bei gefallen, schmecken und gehören: Was im Deutschen im Dativ steht, ist in anderen Sprachen oft das Subjekt — «Der Film gefällt mir» = «Мне нравится фильм» / «I like the film»."
+      ],
+      "ru": [
+        "Небольшая группа глаголов управляет не аккузативом, а дативом. К ним ставится вопрос Wem? (кому?), а не Wen?.",
+        "Этот список надо выучить наизусть: helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben, folgen, gratulieren.",
+        "Осторожно с gefallen, schmecken, gehören: то, что в немецком стоит в дативе, в русском обычно подлежащее — «Der Film gefällt mir» = «Мне нравится фильм»."
+      ],
+      "en": [
+        "A small group of verbs takes a dative object instead of an accusative one. You ask after them with Wem?, never Wen?.",
+        "The list has to be learned by heart: helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben, folgen, gratulieren.",
+        "Watch out for gefallen, schmecken and gehören: what German puts in the dative is often the subject in English — «Der Film gefällt mir» = «I like the film»."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Dativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Датив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Dative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "der",
+          "indef": "einer",
+          "kein": "keiner / meiner",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "den",
+          "indef": "—",
+          "kein": "keinen / meinen",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Ich helfe dem Mann.",
+        "ru": "Я помогаю мужчине.",
+        "en": "I help the man."
+      },
+      {
+        "de": "Das Buch gehört der Lehrerin.",
+        "ru": "Книга принадлежит учительнице.",
+        "en": "The book belongs to the teacher."
+      },
+      {
+        "de": "Der Film gefällt den Kindern.",
+        "ru": "Фильм нравится детям.",
+        "en": "The children like the film."
+      }
+    ]
+  },
+  "dat_indirect": {
+    "title": {
+      "de": "Dativ: das indirekte Objekt",
+      "ru": "Датив: косвенное дополнение",
+      "en": "Dative: the indirect object"
+    },
+    "summary": {
+      "de": "Dativ: indirektes Objekt (Wem?)",
+      "ru": "Датив: косвенное дополнение — кому? (Wem?)",
+      "en": "Dative: indirect object (Wem?)"
+    },
+    "body": {
+      "de": [
+        "Viele Verben des Gebens und Mitteilens haben zwei Objekte: die Sache im Akkusativ (Was?) und den Empfänger im Dativ (Wem?).",
+        "Typisch sind geben, schenken, zeigen, schicken, erklären, kaufen, bringen, sagen, empfehlen.",
+        "Die normale Reihenfolge ist Dativ vor Akkusativ: Ich schenke meiner Mutter (Wem?) Blumen (Was?)."
+      ],
+      "ru": [
+        "У многих глаголов дарения и сообщения два дополнения: предмет в аккузативе (Was?) и адресат в дативе (Wem?).",
+        "Типичные глаголы: geben, schenken, zeigen, schicken, erklären, kaufen, bringen, sagen, empfehlen.",
+        "Обычный порядок — датив перед аккузативом: Ich schenke meiner Mutter (кому?) Blumen (что?)."
+      ],
+      "en": [
+        "Many verbs of giving and telling take two objects: the thing in the accusative (Was?) and the recipient in the dative (Wem?).",
+        "Typical ones are geben, schenken, zeigen, schicken, erklären, kaufen, bringen, sagen, empfehlen.",
+        "The default order is dative before accusative: Ich schenke meiner Mutter (Wem?) Blumen (Was?)."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Dativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Датив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Dative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "der",
+          "indef": "einer",
+          "kein": "keiner / meiner",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "den",
+          "indef": "—",
+          "kein": "keinen / meinen",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Ich gebe der Kollegin den Schlüssel.",
+        "ru": "Я даю коллеге ключ.",
+        "en": "I give the colleague the key."
+      },
+      {
+        "de": "Er zeigt dem Touristen den Weg.",
+        "ru": "Он показывает туристу дорогу.",
+        "en": "He shows the tourist the way."
+      },
+      {
+        "de": "Sie erklärt den Kindern die Regel.",
+        "ru": "Она объясняет детям правило.",
+        "en": "She explains the rule to the children."
+      }
+    ]
+  },
+  "akk_prep": {
+    "title": {
+      "de": "Präpositionen immer mit Akkusativ",
+      "ru": "Предлоги, всегда требующие аккузатива",
+      "en": "Prepositions always with the accusative"
+    },
+    "summary": {
+      "de": "Präposition immer mit Akkusativ: durch, für, gegen, ohne, um",
+      "ru": "Предлог всегда с аккузативом: durch, für, gegen, ohne, um",
+      "en": "Preposition always with accusative: durch, für, gegen, ohne, um"
+    },
+    "body": {
+      "de": [
+        "Fünf Präpositionen stehen immer mit dem Akkusativ, egal welche Bedeutung der Satz hat: durch, für, gegen, ohne, um.",
+        "Merkhilfe: DOGFU — durch, ohne, gegen, für, um.",
+        "Hier hilft keine Frage und keine Überlegung — der Kasus hängt allein an der Präposition. Nach für steht nie ein Dativ."
+      ],
+      "ru": [
+        "Пять предлогов всегда идут с аккузативом, независимо от смысла предложения: durch, für, gegen, ohne, um.",
+        "Мнемоника: DOGFU — durch, ohne, gegen, für, um.",
+        "Тут не нужен ни вопрос, ни рассуждение — падеж задаёт сам предлог. После für датива не бывает никогда."
+      ],
+      "en": [
+        "Five prepositions always take the accusative, whatever the sentence means: durch, für, gegen, ohne, um.",
+        "Mnemonic: DOGFU — durch, ohne, gegen, für, um.",
+        "No question test is needed here — the preposition alone fixes the case. für is never followed by a dative."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Akkusativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Аккузатив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Accusative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "den",
+          "indef": "einen",
+          "kein": "keinen / meinen",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "die",
+          "indef": "eine",
+          "kein": "keine / meine",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "das",
+          "indef": "ein",
+          "kein": "kein / mein",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "die",
+          "indef": "—",
+          "kein": "keine / meine",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Das Geschenk ist für die Mutter.",
+        "ru": "Подарок для мамы.",
+        "en": "The present is for the mother."
+      },
+      {
+        "de": "Wir laufen durch den Park.",
+        "ru": "Мы идём через парк.",
+        "en": "We walk through the park."
+      },
+      {
+        "de": "Er geht ohne seine Freundin ins Kino.",
+        "ru": "Он идёт в кино без своей девушки.",
+        "en": "He goes to the cinema without his girlfriend."
+      }
+    ]
+  },
+  "dat_prep": {
+    "title": {
+      "de": "Präpositionen immer mit Dativ",
+      "ru": "Предлоги, всегда требующие датива",
+      "en": "Prepositions always with the dative"
+    },
+    "summary": {
+      "de": "Präposition immer mit Dativ: aus, bei, mit, nach, seit, von, zu",
+      "ru": "Предлог всегда с дативом: aus, bei, mit, nach, seit, von, zu",
+      "en": "Preposition always with dative: aus, bei, mit, nach, seit, von, zu"
+    },
+    "body": {
+      "de": [
+        "Diese Präpositionen stehen immer mit dem Dativ: aus, bei, mit, nach, seit, von, zu (dazu außer, gegenüber).",
+        "Merkhilfe: der Reim «aus, bei, mit, nach, seit, von, zu» — als Kette auswendig lernen.",
+        "Sehr oft verschmelzen sie mit dem Artikel: zu dem → zum, zu der → zur, bei dem → beim, von dem → vom. Die verschmolzene Form ist im Alltag die normale."
+      ],
+      "ru": [
+        "Эти предлоги всегда идут с дативом: aus, bei, mit, nach, seit, von, zu (плюс außer, gegenüber).",
+        "Мнемоника: заучить цепочкой-считалкой «aus, bei, mit, nach, seit, von, zu».",
+        "Очень часто они сливаются с артиклем: zu dem → zum, zu der → zur, bei dem → beim, von dem → vom. В живой речи слитная форма и есть обычная."
+      ],
+      "en": [
+        "These prepositions always take the dative: aus, bei, mit, nach, seit, von, zu (plus außer, gegenüber).",
+        "Mnemonic: learn the chant «aus, bei, mit, nach, seit, von, zu» as one chain.",
+        "They very often contract with the article: zu dem → zum, zu der → zur, bei dem → beim, von dem → vom. The contracted form is the everyday one."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Dativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Датив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Dative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "der",
+          "indef": "einer",
+          "kein": "keiner / meiner",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "den",
+          "indef": "—",
+          "kein": "keinen / meinen",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Ich fahre mit dem Bus zur Arbeit.",
+        "ru": "Я езжу на работу на автобусе.",
+        "en": "I go to work by bus."
+      },
+      {
+        "de": "Nach der Arbeit gehe ich schwimmen.",
+        "ru": "После работы я иду плавать.",
+        "en": "After work I go swimming."
+      },
+      {
+        "de": "Sie wohnt bei ihrer Schwester.",
+        "ru": "Она живёт у своей сестры.",
+        "en": "She lives at her sister's."
+      }
+    ]
+  },
+  "wechsel_akk": {
+    "title": {
+      "de": "Wechselpräposition + Bewegung → Akkusativ",
+      "ru": "Предлог места + движение → аккузатив",
+      "en": "Two-way preposition + movement → accusative"
+    },
+    "summary": {
+      "de": "Wechselpräposition + Bewegung (Wohin?) → Akkusativ",
+      "ru": "Предлог места + движение (Wohin? — куда?) → аккузатив",
+      "en": "Two-way preposition + movement (Wohin?) → accusative"
+    },
+    "body": {
+      "de": [
+        "Neun Präpositionen können beide Kasus nehmen: an, auf, hinter, in, neben, über, unter, vor, zwischen.",
+        "Entscheidend ist das Verb. Beschreibt es eine Bewegung an einen neuen Ort, fragst du Wohin? — und der Akkusativ folgt.",
+        "Typische Bewegungsverben: legen, stellen, setzen, hängen (mit Objekt), gehen, fahren, springen. Merke das Paar: Ich stelle die Flasche auf den Tisch (Wohin?) — Die Flasche steht auf dem Tisch (Wo?)."
+      ],
+      "ru": [
+        "Девять предлогов могут управлять обоими падежами: an, auf, hinter, in, neben, über, unter, vor, zwischen.",
+        "Решает глагол. Если он описывает перемещение в новое место — вопрос Wohin? (куда?), и ставится аккузатив.",
+        "Типичные глаголы движения: legen, stellen, setzen, hängen (с дополнением), gehen, fahren, springen. Запомни пару: Ich stelle die Flasche auf den Tisch (куда?) — Die Flasche steht auf dem Tisch (где?)."
+      ],
+      "en": [
+        "Nine prepositions can govern either case: an, auf, hinter, in, neben, über, unter, vor, zwischen.",
+        "The verb decides. If it describes movement to a new place, you ask Wohin? — and the accusative follows.",
+        "Typical movement verbs: legen, stellen, setzen, hängen (with an object), gehen, fahren, springen. Learn the pair: Ich stelle die Flasche auf den Tisch (Wohin?) — Die Flasche steht auf dem Tisch (Wo?)."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Akkusativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Аккузатив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Accusative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "den",
+          "indef": "einen",
+          "kein": "keinen / meinen",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "die",
+          "indef": "eine",
+          "kein": "keine / meine",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "das",
+          "indef": "ein",
+          "kein": "kein / mein",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "die",
+          "indef": "—",
+          "kein": "keine / meine",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "ru": "Я кладу книгу на стол.",
+        "en": "I put the book on the table."
+      },
+      {
+        "de": "Wir gehen in das Kino.",
+        "ru": "Мы идём в кино.",
+        "en": "We're going to the cinema."
+      },
+      {
+        "de": "Häng das Bild an die Wand!",
+        "ru": "Повесь картину на стену!",
+        "en": "Hang the picture on the wall!"
+      }
+    ]
+  },
+  "wechsel_dat": {
+    "title": {
+      "de": "Wechselpräposition + Ort → Dativ",
+      "ru": "Предлог места + положение → датив",
+      "en": "Two-way preposition + location → dative"
+    },
+    "summary": {
+      "de": "Wechselpräposition + Ort (Wo?) → Dativ",
+      "ru": "Предлог места + положение (Wo? — где?) → датив",
+      "en": "Two-way preposition + location (Wo?) → dative"
+    },
+    "body": {
+      "de": [
+        "Dieselben neun Präpositionen — an, auf, hinter, in, neben, über, unter, vor, zwischen — stehen mit dem Dativ, wenn nichts den Ort wechselt.",
+        "Beschreibt das Verb, wo etwas ist oder geschieht, fragst du Wo? — und der Dativ folgt.",
+        "Typische Ortsverben: liegen, stehen, sitzen, hängen (ohne Objekt), sein, schlafen, arbeiten. Auch eine Bewegung innerhalb eines Ortes bleibt Dativ: Ich laufe im Park (nicht in den Park)."
+      ],
+      "ru": [
+        "Те же девять предлогов — an, auf, hinter, in, neben, über, unter, vor, zwischen — идут с дативом, если место не меняется.",
+        "Если глагол описывает, где что-то находится или происходит, вопрос Wo? (где?), и ставится датив.",
+        "Типичные глаголы положения: liegen, stehen, sitzen, hängen (без дополнения), sein, schlafen, arbeiten. Движение внутри одного места — тоже датив: Ich laufe im Park (а не in den Park)."
+      ],
+      "en": [
+        "The same nine prepositions — an, auf, hinter, in, neben, über, unter, vor, zwischen — take the dative when nothing changes place.",
+        "If the verb describes where something is or happens, you ask Wo? — and the dative follows.",
+        "Typical location verbs: liegen, stehen, sitzen, hängen (without an object), sein, schlafen, arbeiten. Movement inside one place stays dative too: Ich laufe im Park (not in den Park)."
+      ]
+    },
+    "table": {
+      "head": {
+        "de": [
+          "Genus",
+          "Nominativ",
+          "Dativ",
+          "unbestimmt",
+          "kein / mein"
+        ],
+        "ru": [
+          "Род",
+          "Номинатив",
+          "Датив",
+          "неопр.",
+          "kein / mein"
+        ],
+        "en": [
+          "Gender",
+          "Nominative",
+          "Dative",
+          "indefinite",
+          "kein / mein"
+        ]
+      },
+      "rows": [
+        {
+          "gender": {
+            "de": "maskulin (der)",
+            "ru": "мужской (der)",
+            "en": "masculine (der)"
+          },
+          "nom": "der",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "feminin (die)",
+            "ru": "женский (die)",
+            "en": "feminine (die)"
+          },
+          "nom": "die",
+          "form": "der",
+          "indef": "einer",
+          "kein": "keiner / meiner",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "neutrum (das)",
+            "ru": "средний (das)",
+            "en": "neuter (das)"
+          },
+          "nom": "das",
+          "form": "dem",
+          "indef": "einem",
+          "kein": "keinem / meinem",
+          "highlight": false
+        },
+        {
+          "gender": {
+            "de": "Plural (die)",
+            "ru": "мн. число (die)",
+            "en": "plural (die)"
+          },
+          "nom": "die",
+          "form": "den",
+          "indef": "—",
+          "kein": "keinen / meinen",
+          "highlight": false
+        }
+      ]
+    },
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "ru": "Книга лежит на столе.",
+        "en": "The book is lying on the table."
+      },
+      {
+        "de": "Wir sind in dem Kino.",
+        "ru": "Мы в кино.",
+        "en": "We're at the cinema."
+      },
+      {
+        "de": "Das Bild hängt an der Wand.",
+        "ru": "Картина висит на стене.",
+        "en": "The picture is hanging on the wall."
+      }
+    ]
+  }
+}

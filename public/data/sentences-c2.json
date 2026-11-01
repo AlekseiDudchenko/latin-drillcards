@@ -1,0 +1,92 @@
+[
+  {
+    "id": "s_c2_1",
+    "target": "Wenngleich der Ansatz epistemologisch umstritten ist, vermag er gleichwohl in praxisnahen Settings robuste Heuristiken zu generieren.",
+    "tokens": ["Wenngleich", "der", "Ansatz", "epistemologisch", "umstritten", "ist,", "vermag", "er", "gleichwohl", "in", "praxisnahen", "Settings", "robuste", "Heuristiken", "zu", "generieren"],
+    "type": "drag",
+    "explanation": "C2: High-register concessive 'wenngleich' + elevated verb 'vermögen' and abstract noun phrase.",
+    "translation_en": "Although the approach is epistemologically controversial, it nevertheless manages to generate robust heuristics in practice-oriented settings.",
+    "translation_ru": "Хотя подход является эпистемологически спорным, он тем не менее способен порождать надёжные эвристики в практико-ориентированных условиях.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_2",
+    "target": "Sollte sich, wie die vorläufigen Befunde nahelegen, keine Korrelation nachweisen lassen, wäre die Hypothese mithin zu verwerfen.",
+    "tokens": ["Sollte", "sich,", "wie", "die", "vorläufigen", "Befunde", "nahelegen,", "keine", "Korrelation", "nachweisen", "lassen,", "wäre", "die", "Hypothese", "mithin", "zu", "verwerfen"],
+    "type": "drag",
+    "explanation": "C2: Inverted conditional with 'sollte' + parenthetical comparative clause 'wie … nahelegen' and formal inference marker 'mithin'.",
+    "translation_en": "Should no correlation be demonstrable, as the preliminary findings suggest, the hypothesis would therefore have to be rejected.",
+    "translation_ru": "Если, как предполагают предварительные данные, не удастся показать корреляцию, гипотезу, следовательно, следует отклонить.",
+    "level": "C2"
+  },
+    {
+    "id": "s_c2_3",
+    "target": "Zumal die Evidenzlage heterogen bleibt, ist es angezeigt, die Schlussfolgerungen vorläufig zu formulieren und konkurrierende Modelle parallel zu prüfen.",
+    "tokens": ["Zumal", "die", "Evidenzlage", "heterogen", "bleibt,", "ist", "es", "angezeigt,", "die", "Schlussfolgerungen", "vorläufig", "zu", "formulieren", "und", "konkurrierende", "Modelle", "parallel", "zu", "prüfen"],
+    "type": "drag",
+    "explanation": "C2: Causal connector 'zumal' + impersonal high-register phrase 'es ist angezeigt' + coordinated infinitive groups.",
+    "translation_en": "Especially since the evidence remains heterogeneous, it is advisable to formulate the conclusions provisionally and to examine competing models in parallel.",
+    "translation_ru": "Тем более что доказательная база остаётся неоднородной, целесообразно сформулировать выводы предварительно и параллельно проверить конкурирующие модели.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_4",
+    "target": "Gerade in Anbetracht der methodischen Fallstricke empfiehlt es sich, die Ergebnisse nicht als endgültig zu verabsolutieren, sondern sie in einen breiteren Diskursrahmen einzubetten.",
+    "tokens": ["Gerade", "in", "Anbetracht", "der", "methodischen", "Fallstricke", "empfiehlt", "es", "sich,", "die", "Ergebnisse", "nicht", "als", "endgültig", "zu", "verabsolutieren,", "sondern", "sie", "in", "einen", "breiteren", "Diskursrahmen", "einzubetten"],
+    "type": "drag",
+    "explanation": "C2: Preposed adverbial frame 'in Anbetracht' + impersonal reflexive 'es empfiehlt sich' + contrastive 'nicht … sondern' + abstract noun compound.",
+    "translation_en": "Precisely in view of the methodological pitfalls, it is advisable not to absolutize the results as final but to embed them in a broader discursive framework.",
+    "translation_ru": "Именно принимая во внимание методологические ловушки, следует не абсолютизировать результаты как окончательные, а встроить их в более широкий дискурсивный контекст.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_5",
+    "target": "Insoweit der paradigmatische Wandel in der Theoriebildung bereits vollzogen ist, bedarf es einer grundlegenden Neuausrichtung der methodologischen Prämissen.",
+    "tokens": ["Insoweit", "der", "paradigmatische", "Wandel", "in", "der", "Theoriebildung", "bereits", "vollzogen", "ist,", "bedarf", "es", "einer", "grundlegenden", "Neuausrichtung", "der", "methodologischen", "Prämissen"],
+    "type": "drag",
+    "explanation": "C2: Formal 'insoweit' + abstract compound nouns + genitive construction + impersonal 'es bedarf' + philosophical context.",
+    "translation_en": "Insofar as the paradigmatic shift in theory formation has already taken place, a fundamental reorientation of methodological premises is required.",
+    "translation_ru": "Поскольку парадигматический сдвиг в формировании теории уже произошел, требуется фундаментальная переориентация методологических предпосылок.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_6",
+    "target": "Wennzwar die Forschungsergebnisse eine gewisse Tendenz erkennen lassen, so wäre es dennoch verfrüht, daraus generalisierende Schlüsse abzuleiten.",
+    "tokens": ["Wennzwar", "die", "Forschungsergebnisse", "eine", "gewisse", "Tendenz", "erkennen", "lassen,", "so", "wäre", "es", "dennoch", "verfrüht,", "daraus", "generalisierende", "Schlüsse", "abzuleiten"],
+    "type": "drag",
+    "explanation": "C2: Literary 'wennzwar' + elevated correlative 'so...dennoch' + present participle as adjective + formal infinitive construction.",
+    "translation_en": "Although the research results reveal a certain tendency, it would nevertheless be premature to derive generalizing conclusions from them.",
+    "translation_ru": "Хотя результаты исследования и позволяют выявить определенную тенденцию, было бы преждевременно делать из этого обобщающие выводы.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_7",
+    "target": "Die Quintessenz der Studie liegt darin begründet, dass die bislang als unumstößlich geltenden Axiome einer kritischen Revision unterzogen werden müssen.",
+    "tokens": ["Die", "Quintessenz", "der", "Studie", "liegt", "darin", "begründet,", "dass", "die", "bislang", "als", "unumstößlich", "geltenden", "Axiome", "einer", "kritischen", "Revision", "unterzogen", "werden", "müssen"],
+    "type": "drag",
+    "explanation": "C2: Elevated expression 'liegt darin begründet' + present participle clause + passive construction with modal verb.",
+    "translation_en": "The quintessence of the study lies in the fact that the axioms previously considered irrefutable must be subjected to critical revision.",
+    "translation_ru": "Квинтэссенция исследования заключается в том, что аксиомы, до сих пор считавшиеся незыблемыми, должны быть подвергнуты критическому пересмотру.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_8",
+    "target": "Ungeachtet der methodischen Stringenz vermag der Ansatz nicht hinreichend zu erklären, weshalb die Anomalien im Datensatz persistieren.",
+    "tokens": ["Ungeachtet", "der", "methodischen", "Stringenz", "vermag", "der", "Ansatz", "nicht", "hinreichend", "zu", "erklären,", "weshalb", "die", "Anomalien", "im", "Datensatz", "persistieren"],
+    "type": "drag",
+    "explanation": "C2: Formal preposition 'ungeachtet' + elevated verb 'vermögen' + Latinate vocabulary + indirect question.",
+    "translation_en": "Despite the methodological stringency, the approach is not able to adequately explain why the anomalies in the dataset persist.",
+    "translation_ru": "Несмотря на методологическую строгость, подход не в состоянии достаточно объяснить, почему аномалии в наборе данных сохраняются.",
+    "level": "C2"
+  },
+  {
+    "id": "s_c2_9",
+    "target": "Der Diskurs lässt sich insofern als paradigmatisch bezeichnen, als er die epistemischen Grundannahmen der Disziplin fundamental in Frage stellt.",
+    "tokens": ["Der", "Diskurs", "lässt", "sich", "insofern", "als", "paradigmatisch", "bezeichnen,", "als", "er", "die", "epistemischen", "Grundannahmen", "der", "Disziplin", "fundamental", "in", "Frage", "stellt"],
+    "type": "drag",
+    "explanation": "C2: Complex correlative 'insofern...als' + reflexive construction + fixed expression 'in Frage stellen' + philosophical terminology.",
+    "translation_en": "The discourse can be termed paradigmatic insofar as it fundamentally questions the epistemic basic assumptions of the discipline.",
+    "translation_ru": "Дискурс можно назвать парадигматическим в той мере, в какой он фундаментально ставит под сомнение эпистемические основы дисциплины.",
+    "level": "C2"
+  }
+]

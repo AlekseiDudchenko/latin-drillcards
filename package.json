@@ -1,0 +1,39 @@
+{
+  "name": "trainer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/clean-client.mjs && npm run build:core && tsc --project tsconfig.client.json && node scripts/inject-version.mjs && node scripts/build-seed-catalog.mjs && node scripts/build-v2-environment.mjs && node scripts/build-site-entry.mjs",
+    "build:core": "node scripts/build-core.mjs",
+    "typecheck:core": "tsc -p packages/vocabulary-core/tsconfig.test.json",
+    "verify": "npm run build && npm test",
+    "watch": "tsc --project tsconfig.client.json --watch",
+    "start": "node dev-server.mjs",
+    "serve": "npx serve public",
+    "test": "npm run test:unit",
+    "test:unit": "npm run typecheck:core && node --test test/*.test.mjs",
+    "test:e2e": "playwright test",
+    "seed:assign": "npm run build:core && node scripts/seed-assign.mjs",
+    "catalog:bootstrap": "npm run build:core && node scripts/catalog-bootstrap.mjs",
+    "catalog:import": "npm run build:core && node scripts/catalog-import.mjs",
+    "catalog:datasets": "npm run build:core && node scripts/item-dataset-sql.mjs",
+    "items:sentences": "node scripts/build-sentence-dataset.mjs",
+    "items:konjunktiv2": "node scripts/build-konjunktiv2-datasets.mjs",
+    "items:phrases": "node scripts/build-phrase-dataset.mjs",
+    "items:level-test": "node scripts/build-level-test-dataset.mjs",
+    "items:videos": "node scripts/build-video-datasets.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "v2:prepare":"npm run build && node scripts/prepare-v2-deployment.mjs",
+    "audio:b2": "node scripts/word-audio-b2.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.11",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "express": "^5.1.0"
+  }
+}

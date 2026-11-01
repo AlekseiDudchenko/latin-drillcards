@@ -1,0 +1,1965 @@
+[
+  {
+    "id": "s1",
+    "target": "Ich heiße Anna.",
+    "tokens": [
+      "Ich",
+      "heiße",
+      "Anna"
+    ],
+    "type": "drag",
+    "explanation": "Basic introduction: Subject – verb – name.",
+    "translation_en": "My name is Anna.",
+    "translation_ru": "Меня зовут Анна.",
+    "level": "A1"
+  },
+  {
+    "id": "s2",
+    "target": "Ich komme aus Deutschland.",
+    "tokens": [
+      "Ich",
+      "komme",
+      "aus",
+      "Deutschland"
+    ],
+    "type": "drag",
+    "explanation": "Stating origin with 'kommen aus'.",
+    "translation_en": "I come from Germany.",
+    "translation_ru": "Я из Германии.",
+    "level": "A1"
+  },
+  {
+    "id": "s3",
+    "target": "Ich wohne in Berlin.",
+    "tokens": [
+      "Ich",
+      "wohne",
+      "in",
+      "Berlin"
+    ],
+    "type": "drag",
+    "explanation": "Main clause: Subject – verb – place.",
+    "translation_en": "I live in Berlin.",
+    "translation_ru": "Я живу в Берлине.",
+    "level": "A1"
+  },
+  {
+    "id": "s4",
+    "target": "Ich bin müde.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "müde"
+    ],
+    "type": "drag",
+    "explanation": "Using 'sein' with an adjective.",
+    "translation_en": "I am tired.",
+    "translation_ru": "Я устал.",
+    "level": "A1"
+  },
+  {
+    "id": "s5",
+    "target": "Ich bin glücklich.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "glücklich"
+    ],
+    "type": "drag",
+    "explanation": "Using 'sein' to describe a feeling.",
+    "translation_en": "I am happy.",
+    "translation_ru": "Я счастлив.",
+    "level": "A1"
+  },
+  {
+    "id": "s6",
+    "target": "Ich habe einen Bruder.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "einen",
+      "Bruder"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'haben' with an object in Akkusativ.",
+    "translation_en": "I have a brother.",
+    "translation_ru": "У меня есть брат.",
+    "level": "A1"
+  },
+  {
+    "id": "s7",
+    "target": "Ich habe eine Schwester.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "eine",
+      "Schwester"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'haben' with a feminine noun.",
+    "translation_en": "I have a sister.",
+    "translation_ru": "У меня есть сестра.",
+    "level": "A1"
+  },
+  {
+    "id": "s8",
+    "target": "Das ist mein Freund.",
+    "tokens": [
+      "Das",
+      "ist",
+      "mein",
+      "Freund"
+    ],
+    "type": "drag",
+    "explanation": "Introducing someone with 'das ist'.",
+    "translation_en": "This is my friend.",
+    "translation_ru": "Это мой друг.",
+    "level": "A1"
+  },
+  {
+    "id": "s9",
+    "target": "Das ist meine Mutter.",
+    "tokens": [
+      "Das",
+      "ist",
+      "meine",
+      "Mutter"
+    ],
+    "type": "drag",
+    "explanation": "Possessive adjective with feminine noun.",
+    "translation_en": "This is my mother.",
+    "translation_ru": "Это моя мама.",
+    "level": "A1"
+  },
+  {
+    "id": "s10",
+    "target": "Das ist mein Vater.",
+    "tokens": [
+      "Das",
+      "ist",
+      "mein",
+      "Vater"
+    ],
+    "type": "drag",
+    "explanation": "Possessive adjective with masculine noun.",
+    "translation_en": "This is my father.",
+    "translation_ru": "Это мой папа.",
+    "level": "A1"
+  },
+  {
+    "id": "s11",
+    "target": "Ich trinke Wasser.",
+    "tokens": [
+      "Ich",
+      "trinke",
+      "Wasser"
+    ],
+    "type": "drag",
+    "explanation": "Verb in second position, object after.",
+    "translation_en": "I drink water.",
+    "translation_ru": "Я пью воду.",
+    "level": "A1"
+  },
+  {
+    "id": "s12",
+    "target": "Ich esse Brot.",
+    "tokens": [
+      "Ich",
+      "esse",
+      "Brot"
+    ],
+    "type": "drag",
+    "explanation": "Simple S–V–O sentence.",
+    "translation_en": "I eat bread.",
+    "translation_ru": "Я ем хлеб.",
+    "level": "A1"
+  },
+  {
+    "id": "s13",
+    "target": "Ich lerne Deutsch.",
+    "tokens": [
+      "Ich",
+      "lerne",
+      "Deutsch"
+    ],
+    "type": "drag",
+    "explanation": "Talking about learning a language.",
+    "translation_en": "I am learning German.",
+    "translation_ru": "Я учу немецкий.",
+    "level": "A1"
+  },
+  {
+    "id": "s14",
+    "target": "Ich spreche Englisch.",
+    "tokens": [
+      "Ich",
+      "spreche",
+      "Englisch"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'sprechen' with a language.",
+    "translation_en": "I speak English.",
+    "translation_ru": "Я говорю по-английски.",
+    "level": "A1"
+  },
+  {
+    "id": "s15",
+    "target": "Ich arbeite viel.",
+    "tokens": [
+      "Ich",
+      "arbeite",
+      "viel"
+    ],
+    "type": "drag",
+    "explanation": "Adverb at the end.",
+    "translation_en": "I work a lot.",
+    "translation_ru": "Я много работаю.",
+    "level": "A1"
+  },
+  {
+    "id": "s16",
+    "target": "Ich studiere Informatik.",
+    "tokens": [
+      "Ich",
+      "studiere",
+      "Informatik"
+    ],
+    "type": "drag",
+    "explanation": "Verb with subject and field of study.",
+    "translation_en": "I study computer science.",
+    "translation_ru": "Я изучаю информатику.",
+    "level": "A1"
+  },
+  {
+    "id": "s17",
+    "target": "Ich fahre mit dem Bus.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "mit",
+      "dem",
+      "Bus"
+    ],
+    "type": "drag",
+    "explanation": "Prepositional phrase after the verb.",
+    "translation_en": "I go by bus.",
+    "translation_ru": "Я еду на автобусе.",
+    "level": "A1"
+  },
+  {
+    "id": "s18",
+    "target": "Ich gehe zur Arbeit.",
+    "tokens": [
+      "Ich",
+      "gehe",
+      "zur",
+      "Arbeit"
+    ],
+    "type": "drag",
+    "explanation": "Verb of movement + destination.",
+    "translation_en": "I go to work.",
+    "translation_ru": "Я иду на работу.",
+    "level": "A1"
+  },
+  {
+    "id": "s19",
+    "target": "Ich gehe nach Hause.",
+    "tokens": [
+      "Ich",
+      "gehe",
+      "nach",
+      "Hause"
+    ],
+    "type": "drag",
+    "explanation": "Fixed expression 'nach Hause'.",
+    "translation_en": "I go home.",
+    "translation_ru": "Я иду домой.",
+    "level": "A1"
+  },
+  {
+    "id": "s20",
+    "target": "Ich gehe ins Kino.",
+    "tokens": [
+      "Ich",
+      "gehe",
+      "ins",
+      "Kino"
+    ],
+    "type": "drag",
+    "explanation": "Movement towards a place (in + das = ins).",
+    "translation_en": "I go to the cinema.",
+    "translation_ru": "Я иду в кино.",
+    "level": "A1"
+  },
+  {
+    "id": "s21",
+    "target": "Ich mag Kaffee.",
+    "tokens": [
+      "Ich",
+      "mag",
+      "Kaffee"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'mögen' with a noun.",
+    "translation_en": "I like coffee.",
+    "translation_ru": "Я люблю кофе.",
+    "level": "A1"
+  },
+  {
+    "id": "s22",
+    "target": "Ich mag Tee.",
+    "tokens": [
+      "Ich",
+      "mag",
+      "Tee"
+    ],
+    "type": "drag",
+    "explanation": "Same pattern with another drink.",
+    "translation_en": "I like tea.",
+    "translation_ru": "Я люблю чай.",
+    "level": "A1"
+  },
+  {
+    "id": "s23",
+    "target": "Ich mag Musik.",
+    "tokens": [
+      "Ich",
+      "mag",
+      "Musik"
+    ],
+    "type": "drag",
+    "explanation": "Talking about preferences.",
+    "translation_en": "I like music.",
+    "translation_ru": "Я люблю музыку.",
+    "level": "A1"
+  },
+  {
+    "id": "s24",
+    "target": "Ich kaufe Obst.",
+    "tokens": [
+      "Ich",
+      "kaufe",
+      "Obst"
+    ],
+    "type": "drag",
+    "explanation": "Shopping vocabulary, S–V–O.",
+    "translation_en": "I buy fruit.",
+    "translation_ru": "Я покупаю фрукты.",
+    "level": "A1"
+  },
+  {
+    "id": "s25",
+    "target": "Ich kaufe Brot.",
+    "tokens": [
+      "Ich",
+      "kaufe",
+      "Brot"
+    ],
+    "type": "drag",
+    "explanation": "Same shopping pattern.",
+    "translation_en": "I buy bread.",
+    "translation_ru": "Я покупаю хлеб.",
+    "level": "A1"
+  },
+  {
+    "id": "s26",
+    "target": "Ich lese ein Buch.",
+    "tokens": [
+      "Ich",
+      "lese",
+      "ein",
+      "Buch"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'lesen' with object.",
+    "translation_en": "I read a book.",
+    "translation_ru": "Я читаю книгу.",
+    "level": "A1"
+  },
+  {
+    "id": "s27",
+    "target": "Ich sehe einen Film.",
+    "tokens": [
+      "Ich",
+      "sehe",
+      "einen",
+      "Film"
+    ],
+    "type": "drag",
+    "explanation": "Akkusativ with masculine noun.",
+    "translation_en": "I watch a movie.",
+    "translation_ru": "Я смотрю фильм.",
+    "level": "A1"
+  },
+  {
+    "id": "s28",
+    "target": "Ich höre Musik.",
+    "tokens": [
+      "Ich",
+      "höre",
+      "Musik"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'hören' with noun.",
+    "translation_en": "I listen to music.",
+    "translation_ru": "Я слушаю музыку.",
+    "level": "A1"
+  },
+  {
+    "id": "s29",
+    "target": "Ich spiele Fußball.",
+    "tokens": [
+      "Ich",
+      "spiele",
+      "Fußball"
+    ],
+    "type": "drag",
+    "explanation": "Talking about sports.",
+    "translation_en": "I play football.",
+    "translation_ru": "Я играю в футбол.",
+    "level": "A1"
+  },
+  {
+    "id": "s30",
+    "target": "Ich spiele Gitarre.",
+    "tokens": [
+      "Ich",
+      "spiele",
+      "Gitarre"
+    ],
+    "type": "drag",
+    "explanation": "Musical instrument without article.",
+    "translation_en": "I play guitar.",
+    "translation_ru": "Я играю на гитаре.",
+    "level": "A1"
+  },
+  {
+    "id": "s31",
+    "target": "Ich schlafe gut.",
+    "tokens": [
+      "Ich",
+      "schlafe",
+      "gut"
+    ],
+    "type": "drag",
+    "explanation": "Adverb after the verb.",
+    "translation_en": "I sleep well.",
+    "translation_ru": "Я хорошо сплю.",
+    "level": "A1"
+  },
+  {
+    "id": "s32",
+    "target": "Ich stehe früh auf.",
+    "tokens": [
+      "Ich",
+      "stehe",
+      "früh",
+      "auf"
+    ],
+    "type": "drag",
+    "explanation": "Separable verb: verb in 2nd place, prefix at the end.",
+    "translation_en": "I get up early.",
+    "translation_ru": "Я рано встаю.",
+    "level": "A1"
+  },
+  {
+    "id": "s33",
+    "target": "Ich rufe dich an.",
+    "tokens": [
+      "Ich",
+      "rufe",
+      "dich",
+      "an"
+    ],
+    "type": "drag",
+    "explanation": "Separable verb 'anrufen' with object.",
+    "translation_en": "I call you.",
+    "translation_ru": "Я тебе позвоню.",
+    "level": "A1"
+  },
+  {
+    "id": "s34",
+    "target": "Ich mache Sport.",
+    "tokens": [
+      "Ich",
+      "mache",
+      "Sport"
+    ],
+    "type": "drag",
+    "explanation": "S–V–O with 'machen'.",
+    "translation_en": "I do sports.",
+    "translation_ru": "Я занимаюсь спортом.",
+    "level": "A1"
+  },
+  {
+    "id": "s35",
+    "target": "Ich mache Hausaufgaben.",
+    "tokens": [
+      "Ich",
+      "mache",
+      "Hausaufgaben"
+    ],
+    "type": "drag",
+    "explanation": "Plural object without article.",
+    "translation_en": "I do homework.",
+    "translation_ru": "Я делаю домашнее задание.",
+    "level": "A1"
+  },
+  {
+    "id": "s36",
+    "target": "Ich putze die Wohnung.",
+    "tokens": [
+      "Ich",
+      "putze",
+      "die",
+      "Wohnung"
+    ],
+    "type": "drag",
+    "explanation": "Akkusativ object with article.",
+    "translation_en": "I clean the flat.",
+    "translation_ru": "Я убираю квартиру.",
+    "level": "A1"
+  },
+  {
+    "id": "s37",
+    "target": "Ich koche heute.",
+    "tokens": [
+      "Ich",
+      "koche",
+      "heute"
+    ],
+    "type": "drag",
+    "explanation": "Time adverb at the end.",
+    "translation_en": "I cook today.",
+    "translation_ru": "Я готовлю сегодня.",
+    "level": "A1"
+  },
+  {
+    "id": "s38",
+    "target": "Ich lerne jeden Tag.",
+    "tokens": [
+      "Ich",
+      "lerne",
+      "jeden",
+      "Tag"
+    ],
+    "type": "drag",
+    "explanation": "Time expression after the verb.",
+    "translation_en": "I study every day.",
+    "translation_ru": "Я учусь каждый день.",
+    "level": "A1"
+  },
+  {
+    "id": "s39",
+    "target": "Ich fahre morgen nach Hamburg.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "morgen",
+      "nach",
+      "Hamburg"
+    ],
+    "type": "drag",
+    "explanation": "Time before place.",
+    "translation_en": "I am going to Hamburg tomorrow.",
+    "translation_ru": "Я еду завтра в Гамбург.",
+    "level": "A1"
+  },
+  {
+    "id": "s40",
+    "target": "Ich komme später.",
+    "tokens": [
+      "Ich",
+      "komme",
+      "später"
+    ],
+    "type": "drag",
+    "explanation": "Adverb 'später' at the end.",
+    "translation_en": "I will come later.",
+    "translation_ru": "Я приду позже.",
+    "level": "A1"
+  },
+  {
+    "id": "s41",
+    "target": "Ich bin zu Hause.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "zu",
+      "Hause"
+    ],
+    "type": "drag",
+    "explanation": "Fixed expression 'zu Hause'.",
+    "translation_en": "I am at home.",
+    "translation_ru": "Я дома.",
+    "level": "A1"
+  },
+  {
+    "id": "s42",
+    "target": "Ich bin in der Schule.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "in",
+      "der",
+      "Schule"
+    ],
+    "type": "drag",
+    "explanation": "Location with dative after 'in'.",
+    "translation_en": "I am at school.",
+    "translation_ru": "Я в школе.",
+    "level": "A1"
+  },
+  {
+    "id": "s43",
+    "target": "Ich bin im Büro.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "im",
+      "Büro"
+    ],
+    "type": "drag",
+    "explanation": "'in dem' → 'im' for locations.",
+    "translation_en": "I am in the office.",
+    "translation_ru": "Я в офисе.",
+    "level": "A1"
+  },
+  {
+    "id": "s44",
+    "target": "Ich bin im Park.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "im",
+      "Park"
+    ],
+    "type": "drag",
+    "explanation": "Describing where you are.",
+    "translation_en": "I am in the park.",
+    "translation_ru": "Я в парке.",
+    "level": "A1"
+  },
+  {
+    "id": "s45",
+    "target": "Ich bin krank.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "krank"
+    ],
+    "type": "drag",
+    "explanation": "State with adjective.",
+    "translation_en": "I am sick.",
+    "translation_ru": "Я болею.",
+    "level": "A1"
+  },
+  {
+    "id": "s46",
+    "target": "Ich bin hungrig.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "hungrig"
+    ],
+    "type": "drag",
+    "explanation": "State with adjective.",
+    "translation_en": "I am hungry.",
+    "translation_ru": "Я голоден.",
+    "level": "A1"
+  },
+  {
+    "id": "s47",
+    "target": "Ich bin durstig.",
+    "tokens": [
+      "Ich",
+      "bin",
+      "durstig"
+    ],
+    "type": "drag",
+    "explanation": "State with adjective.",
+    "translation_en": "I am thirsty.",
+    "translation_ru": "Я хочу пить.",
+    "level": "A1"
+  },
+  {
+    "id": "s48",
+    "target": "Ich habe Zeit.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "Zeit"
+    ],
+    "type": "drag",
+    "explanation": "Object without article.",
+    "translation_en": "I have time.",
+    "translation_ru": "У меня есть время.",
+    "level": "A1"
+  },
+  {
+    "id": "s49",
+    "target": "Ich habe kein Geld.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "kein",
+      "Geld"
+    ],
+    "type": "drag",
+    "explanation": "Negation with 'kein' + noun.",
+    "translation_en": "I have no money.",
+    "translation_ru": "У меня нет денег.",
+    "level": "A1"
+  },
+  {
+    "id": "s50",
+    "target": "Ich habe keine Zeit.",
+    "tokens": [
+      "Ich",
+      "habe",
+      "keine",
+      "Zeit"
+    ],
+    "type": "drag",
+    "explanation": "Negation with feminine noun.",
+    "translation_en": "I have no time.",
+    "translation_ru": "У меня нет времени.",
+    "level": "A1"
+  },
+  {
+    "id": "s51",
+    "target": "Ich brauche Hilfe.",
+    "tokens": [
+      "Ich",
+      "brauche",
+      "Hilfe"
+    ],
+    "type": "drag",
+    "explanation": "Verb 'brauchen' with object.",
+    "translation_en": "I need help.",
+    "translation_ru": "Мне нужна помощь.",
+    "level": "A1"
+  },
+  {
+    "id": "s52",
+    "target": "Ich suche meine Tasche.",
+    "tokens": [
+      "Ich",
+      "suche",
+      "meine",
+      "Tasche"
+    ],
+    "type": "drag",
+    "explanation": "Possessive + Akkusativ.",
+    "translation_en": "I am looking for my bag.",
+    "translation_ru": "Я ищу свою сумку.",
+    "level": "A1"
+  },
+  {
+    "id": "s53",
+    "target": "Ich war gestern zu Hause.",
+    "tokens": [
+      "Ich",
+      "war",
+      "gestern",
+      "zu",
+      "Hause"
+    ],
+    "type": "drag",
+    "explanation": "Past tense of 'sein'.",
+    "translation_en": "I was at home yesterday.",
+    "translation_ru": "Вчера я был дома.",
+    "level": "A1"
+  },
+  {
+    "id": "s54",
+    "target": "Ich war gestern krank.",
+    "tokens": [
+      "Ich",
+      "war",
+      "gestern",
+      "krank"
+    ],
+    "type": "drag",
+    "explanation": "Describing past state.",
+    "translation_en": "I was ill yesterday.",
+    "translation_ru": "Вчера я болел.",
+    "level": "A1"
+  },
+  {
+    "id": "s55",
+    "target": "Ich war im Kino.",
+    "tokens": [
+      "Ich",
+      "war",
+      "im",
+      "Kino"
+    ],
+    "type": "drag",
+    "explanation": "Past location.",
+    "translation_en": "I was at the cinema.",
+    "translation_ru": "Я был в кино.",
+    "level": "A1"
+  },
+  {
+    "id": "s56",
+    "target": "Ich kann schwimmen.",
+    "tokens": [
+      "Ich",
+      "kann",
+      "schwimmen"
+    ],
+    "type": "drag",
+    "explanation": "Modal verb: modal in 2nd, main verb at the end.",
+    "translation_en": "I can swim.",
+    "translation_ru": "Я умею плавать.",
+    "level": "A1"
+  },
+  {
+    "id": "s57",
+    "target": "Ich kann Deutsch sprechen.",
+    "tokens": [
+      "Ich",
+      "kann",
+      "Deutsch",
+      "sprechen"
+    ],
+    "type": "drag",
+    "explanation": "Modal + object + infinitive at the end.",
+    "translation_en": "I can speak German.",
+    "translation_ru": "Я умею говорить по-немецки.",
+    "level": "A1"
+  },
+  {
+    "id": "s58",
+    "target": "Ich will jetzt essen.",
+    "tokens": [
+      "Ich",
+      "will",
+      "jetzt",
+      "essen"
+    ],
+    "type": "drag",
+    "explanation": "Modal verb expressing wish.",
+    "translation_en": "I want to eat now.",
+    "translation_ru": "Я хочу сейчас поесть.",
+    "level": "A1"
+  },
+  {
+    "id": "s59",
+    "target": "Ich möchte einen Kaffee.",
+    "tokens": [
+      "Ich",
+      "möchte",
+      "einen",
+      "Kaffee"
+    ],
+    "type": "drag",
+    "explanation": "Polite wish with 'möchte'.",
+    "translation_en": "I would like a coffee.",
+    "translation_ru": "Я бы хотел кофе.",
+    "level": "A1"
+  },
+  {
+    "id": "s60",
+    "target": "Ich muss arbeiten.",
+    "tokens": [
+      "Ich",
+      "muss",
+      "arbeiten"
+    ],
+    "type": "drag",
+    "explanation": "Modal verb of obligation.",
+    "translation_en": "I have to work.",
+    "translation_ru": "Я должен работать.",
+    "level": "A1"
+  },
+  {
+    "id": "s61",
+    "target": "Wir wohnen in Köln.",
+    "tokens": [
+      "Wir",
+      "wohnen",
+      "in",
+      "Köln"
+    ],
+    "type": "drag",
+    "explanation": "Plural subject, same word order.",
+    "translation_en": "We live in Cologne.",
+    "translation_ru": "Мы живём в Кёльне.",
+    "level": "A1"
+  },
+  {
+    "id": "s62",
+    "target": "Wir kommen aus der Türkei.",
+    "tokens": [
+      "Wir",
+      "kommen",
+      "aus",
+      "der",
+      "Türkei"
+    ],
+    "type": "drag",
+    "explanation": "Country with article in dative.",
+    "translation_en": "We come from Turkey.",
+    "translation_ru": "Мы из Турции.",
+    "level": "A1"
+  },
+  {
+    "id": "s63",
+    "target": "Wir gehen einkaufen.",
+    "tokens": [
+      "Wir",
+      "gehen",
+      "einkaufen"
+    ],
+    "type": "drag",
+    "explanation": "Separable verb 'einkaufen'.",
+    "translation_en": "We go shopping.",
+    "translation_ru": "Мы идём за покупками.",
+    "level": "A1"
+  },
+  {
+    "id": "s64",
+    "target": "Wir spielen im Park.",
+    "tokens": [
+      "Wir",
+      "spielen",
+      "im",
+      "Park"
+    ],
+    "type": "drag",
+    "explanation": "Location with 'im'.",
+    "translation_en": "We play in the park.",
+    "translation_ru": "Мы играем в парке.",
+    "level": "A1"
+  },
+  {
+    "id": "s65",
+    "target": "Wir essen zusammen.",
+    "tokens": [
+      "Wir",
+      "essen",
+      "zusammen"
+    ],
+    "type": "drag",
+    "explanation": "Adverb 'zusammen' at the end.",
+    "translation_en": "We eat together.",
+    "translation_ru": "Мы едим вместе.",
+    "level": "A1"
+  },
+  {
+    "id": "s66",
+    "target": "Wir fahren nach München.",
+    "tokens": [
+      "Wir",
+      "fahren",
+      "nach",
+      "München"
+    ],
+    "type": "drag",
+    "explanation": "Movement to a city with 'nach'.",
+    "translation_en": "We are going to Munich.",
+    "translation_ru": "Мы едем в Мюнхен.",
+    "level": "A1"
+  },
+  {
+    "id": "s67",
+    "target": "Wir haben ein Auto.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "ein",
+      "Auto"
+    ],
+    "type": "drag",
+    "explanation": "Plural of 'haben'.",
+    "translation_en": "We have a car.",
+    "translation_ru": "У нас есть машина.",
+    "level": "A1"
+  },
+  {
+    "id": "s68",
+    "target": "Wir haben zwei Kinder.",
+    "tokens": [
+      "Wir",
+      "haben",
+      "zwei",
+      "Kinder"
+    ],
+    "type": "drag",
+    "explanation": "Number + plural noun.",
+    "translation_en": "We have two children.",
+    "translation_ru": "У нас двое детей.",
+    "level": "A1"
+  },
+  {
+    "id": "s69",
+    "target": "Wir machen eine Pause.",
+    "tokens": [
+      "Wir",
+      "machen",
+      "eine",
+      "Pause"
+    ],
+    "type": "drag",
+    "explanation": "Akkusativ with article.",
+    "translation_en": "We take a break.",
+    "translation_ru": "Мы делаем перерыв.",
+    "level": "A1"
+  },
+  {
+    "id": "s70",
+    "target": "Wir lesen die Zeitung.",
+    "tokens": [
+      "Wir",
+      "lesen",
+      "die",
+      "Zeitung"
+    ],
+    "type": "drag",
+    "explanation": "Definite article in Akkusativ.",
+    "translation_en": "We read the newspaper.",
+    "translation_ru": "Мы читаем газету.",
+    "level": "A1"
+  },
+  {
+    "id": "s71",
+    "target": "Er heißt Tom.",
+    "tokens": [
+      "Er",
+      "heißt",
+      "Tom"
+    ],
+    "type": "drag",
+    "explanation": "3rd person singular of 'heißen'.",
+    "translation_en": "His name is Tom.",
+    "translation_ru": "Его зовут Том.",
+    "level": "A1"
+  },
+  {
+    "id": "s72",
+    "target": "Er arbeitet hier.",
+    "tokens": [
+      "Er",
+      "arbeitet",
+      "hier"
+    ],
+    "type": "drag",
+    "explanation": "Adverb of place at the end.",
+    "translation_en": "He works here.",
+    "translation_ru": "Он работает здесь.",
+    "level": "A1"
+  },
+  {
+    "id": "s73",
+    "target": "Er wohnt allein.",
+    "tokens": [
+      "Er",
+      "wohnt",
+      "allein"
+    ],
+    "type": "drag",
+    "explanation": "Describing living situation.",
+    "translation_en": "He lives alone.",
+    "translation_ru": "Он живёт один.",
+    "level": "A1"
+  },
+  {
+    "id": "s74",
+    "target": "Er fährt Auto.",
+    "tokens": [
+      "Er",
+      "fährt",
+      "Auto"
+    ],
+    "type": "drag",
+    "explanation": "No article with 'Auto fahren'.",
+    "translation_en": "He drives a car.",
+    "translation_ru": "Он водит машину.",
+    "level": "A1"
+  },
+  {
+    "id": "s75",
+    "target": "Er spielt Tennis.",
+    "tokens": [
+      "Er",
+      "spielt",
+      "Tennis"
+    ],
+    "type": "drag",
+    "explanation": "Sport without article.",
+    "translation_en": "He plays tennis.",
+    "translation_ru": "Он играет в теннис.",
+    "level": "A1"
+  },
+  {
+    "id": "s76",
+    "target": "Sie heißt Maria.",
+    "tokens": [
+      "Sie",
+      "heißt",
+      "Maria"
+    ],
+    "type": "drag",
+    "explanation": "3rd person feminine.",
+    "translation_en": "Her name is Maria.",
+    "translation_ru": "Её зовут Мария.",
+    "level": "A1"
+  },
+  {
+    "id": "s77",
+    "target": "Sie arbeitet viel.",
+    "tokens": [
+      "Sie",
+      "arbeitet",
+      "viel"
+    ],
+    "type": "drag",
+    "explanation": "Adverb at the end.",
+    "translation_en": "She works a lot.",
+    "translation_ru": "Она много работает.",
+    "level": "A1"
+  },
+  {
+    "id": "s78",
+    "target": "Sie lernt Deutsch.",
+    "tokens": [
+      "Sie",
+      "lernt",
+      "Deutsch"
+    ],
+    "type": "drag",
+    "explanation": "3rd person same as 1st person.",
+    "translation_en": "She is learning German.",
+    "translation_ru": "Она учит немецкий.",
+    "level": "A1"
+  },
+  {
+    "id": "s79",
+    "target": "Sie kommt später.",
+    "tokens": [
+      "Sie",
+      "kommt",
+      "später"
+    ],
+    "type": "drag",
+    "explanation": "Future-like meaning with adverb.",
+    "translation_en": "She will come later.",
+    "translation_ru": "Она придёт позже.",
+    "level": "A1"
+  },
+  {
+    "id": "s80",
+    "target": "Sie kocht gern.",
+    "tokens": [
+      "Sie",
+      "kocht",
+      "gern"
+    ],
+    "type": "drag",
+    "explanation": "Verb + 'gern' to express liking.",
+    "translation_en": "She likes cooking.",
+    "translation_ru": "Она любит готовить.",
+    "level": "A1"
+  },
+  {
+    "id": "s81",
+    "target": "Es regnet heute.",
+    "tokens": [
+      "Es",
+      "regnet",
+      "heute"
+    ],
+    "type": "drag",
+    "explanation": "Weather sentence with 'es'.",
+    "translation_en": "It is raining today.",
+    "translation_ru": "Сегодня идёт дождь.",
+    "level": "A1"
+  },
+  {
+    "id": "s82",
+    "target": "Es ist kalt.",
+    "tokens": [
+      "Es",
+      "ist",
+      "kalt"
+    ],
+    "type": "drag",
+    "explanation": "Weather/temperature with 'sein'.",
+    "translation_en": "It is cold.",
+    "translation_ru": "Холодно.",
+    "level": "A1"
+  },
+  {
+    "id": "s83",
+    "target": "Es ist warm.",
+    "tokens": [
+      "Es",
+      "ist",
+      "warm"
+    ],
+    "type": "drag",
+    "explanation": "Opposite adjective.",
+    "translation_en": "It is warm.",
+    "translation_ru": "Тепло.",
+    "level": "A1"
+  },
+  {
+    "id": "s84",
+    "target": "Es ist sonnig.",
+    "tokens": [
+      "Es",
+      "ist",
+      "sonnig"
+    ],
+    "type": "drag",
+    "explanation": "Weather adjective.",
+    "translation_en": "It is sunny.",
+    "translation_ru": "Солнечно.",
+    "level": "A1"
+  },
+  {
+    "id": "s85",
+    "target": "Es ist Montag.",
+    "tokens": [
+      "Es",
+      "ist",
+      "Montag"
+    ],
+    "type": "drag",
+    "explanation": "Talking about the day.",
+    "translation_en": "It is Monday.",
+    "translation_ru": "Сегодня понедельник.",
+    "level": "A1"
+  },
+  {
+    "id": "s86",
+    "target": "Heute ist Dienstag.",
+    "tokens": [
+      "Heute",
+      "ist",
+      "Dienstag"
+    ],
+    "type": "drag",
+    "explanation": "Time at the beginning moves verb to 2nd position.",
+    "translation_en": "Today is Tuesday.",
+    "translation_ru": "Сегодня вторник.",
+    "level": "A1"
+  },
+  {
+    "id": "s87",
+    "target": "Morgen ist Mittwoch.",
+    "tokens": [
+      "Morgen",
+      "ist",
+      "Mittwoch"
+    ],
+    "type": "drag",
+    "explanation": "Same pattern with another day.",
+    "translation_en": "Tomorrow is Wednesday.",
+    "translation_ru": "Завтра среда.",
+    "level": "A1"
+  },
+  {
+    "id": "s88",
+    "target": "Am Sonntag schlafe ich lange.",
+    "tokens": [
+      "Am",
+      "Sonntag",
+      "schlafe",
+      "ich",
+      "lange"
+    ],
+    "type": "drag",
+    "explanation": "Time expression at the beginning: verb still 2nd.",
+    "translation_en": "On Sunday I sleep long.",
+    "translation_ru": "В воскресенье я долго сплю.",
+    "level": "A1"
+  },
+  {
+    "id": "s89",
+    "target": "Am Abend lese ich.",
+    "tokens": [
+      "Am",
+      "Abend",
+      "lese",
+      "ich"
+    ],
+    "type": "drag",
+    "explanation": "Inverted word order after a fronted adverbial.",
+    "translation_en": "In the evening I read.",
+    "translation_ru": "Вечером я читаю.",
+    "level": "A1"
+  },
+  {
+    "id": "s90",
+    "target": "In der Pause esse ich.",
+    "tokens": [
+      "In",
+      "der",
+      "Pause",
+      "esse",
+      "ich"
+    ],
+    "type": "drag",
+    "explanation": "Place/time first → verb 2nd, subject after.",
+    "translation_en": "During the break I eat.",
+    "translation_ru": "Во время перерыва я ем.",
+    "level": "A1"
+  },
+  {
+    "id": "s91",
+    "target": "Wo wohnst du?",
+    "tokens": [
+      "Wo",
+      "wohnst",
+      "du?"
+    ],
+    "type": "drag",
+    "explanation": "W-question: question word – verb – subject.",
+    "translation_en": "Where do you live?",
+    "translation_ru": "Где ты живёшь?",
+    "level": "A1"
+  },
+  {
+    "id": "s92",
+    "target": "Wie heißt du?",
+    "tokens": [
+      "Wie",
+      "heißt",
+      "du?"
+    ],
+    "type": "drag",
+    "explanation": "Asking for a name.",
+    "translation_en": "What is your name?",
+    "translation_ru": "Как тебя зовут?",
+    "level": "A1"
+  },
+  {
+    "id": "s93",
+    "target": "Woher kommst du?",
+    "tokens": [
+      "Woher",
+      "kommst",
+      "du?"
+    ],
+    "type": "drag",
+    "explanation": "Question with 'woher'.",
+    "translation_en": "Where do you come from?",
+    "translation_ru": "Откуда ты?",
+    "level": "A1"
+  },
+  {
+    "id": "s94",
+    "target": "Was machst du?",
+    "tokens": [
+      "Was",
+      "machst",
+      "du?"
+    ],
+    "type": "drag",
+    "explanation": "Question about activity.",
+    "translation_en": "What are you doing?",
+    "translation_ru": "Что ты делаешь?",
+    "level": "A1"
+  },
+  {
+    "id": "s95",
+    "target": "Wann kommst du?",
+    "tokens": [
+      "Wann",
+      "kommst",
+      "du?"
+    ],
+    "type": "drag",
+    "explanation": "Question with 'wann'.",
+    "translation_en": "When are you coming?",
+    "translation_ru": "Когда ты придёшь?",
+    "level": "A1"
+  },
+  {
+    "id": "s96",
+    "target": "Hast du Geschwister?",
+    "tokens": [
+      "Hast",
+      "du",
+      "Geschwister?"
+    ],
+    "type": "drag",
+    "explanation": "Yes/no question: verb – subject – rest.",
+    "translation_en": "Do you have siblings?",
+    "translation_ru": "У тебя есть братья и сестры?",
+    "level": "A1"
+  },
+  {
+    "id": "s97",
+    "target": "Magst du Kaffee?",
+    "tokens": [
+      "Magst",
+      "du",
+      "Kaffee?"
+    ],
+    "type": "drag",
+    "explanation": "Yes/no question with 'mögen'.",
+    "translation_en": "Do you like coffee?",
+    "translation_ru": "Ты любишь кофе?",
+    "level": "A1"
+  },
+  {
+    "id": "s98",
+    "target": "Kannst du kommen?",
+    "tokens": [
+      "Kannst",
+      "du",
+      "kommen?"
+    ],
+    "type": "drag",
+    "explanation": "Yes/no question with modal verb.",
+    "translation_en": "Can you come?",
+    "translation_ru": "Ты можешь прийти?",
+    "level": "A1"
+  },
+  {
+    "id": "s99",
+    "target": "Wohnst du hier?",
+    "tokens": [
+      "Wohnst",
+      "du",
+      "hier?"
+    ],
+    "type": "drag",
+    "explanation": "Yes/no question in present tense.",
+    "translation_en": "Do you live here?",
+    "translation_ru": "Ты живёшь здесь?",
+    "level": "A1"
+  },
+  {
+    "id": "s100",
+    "target": "Arbeitest du heute?",
+    "tokens": [
+      "Arbeitest",
+      "du",
+      "heute?"
+    ],
+    "type": "drag",
+    "explanation": "Yes/no question with time adverb.",
+    "translation_en": "Are you working today?",
+    "translation_ru": "Ты сегодня работаешь?",
+    "level": "A1"
+  },
+  {
+    "id": "s101",
+    "target": "Ich trinke am Morgen einen Kaffee.",
+    "tokens": [
+      "Ich",
+      "trinke",
+      "am",
+      "Morgen",
+      "einen",
+      "Kaffee"
+    ],
+    "type": "drag",
+    "explanation": "Time adverb 'am Morgen' before the object.",
+    "translation_en": "I drink a coffee in the morning.",
+    "translation_ru": "Я пью кофе утром.",
+    "level": "A1"
+  },
+  {
+    "id": "s102",
+    "target": "Wir gehen heute in den Park.",
+    "tokens": [
+      "Wir",
+      "gehen",
+      "heute",
+      "in",
+      "den",
+      "Park"
+    ],
+    "type": "drag",
+    "explanation": "Time adverb 'heute' + direction 'in den Park'.",
+    "translation_en": "We go to the park today.",
+    "translation_ru": "Мы идём сегодня в парк.",
+    "level": "A1"
+  },
+  {
+    "id": "s103",
+    "target": "Er kommt morgen nach Berlin.",
+    "tokens": [
+      "Er",
+      "kommt",
+      "morgen",
+      "nach",
+      "Berlin"
+    ],
+    "type": "drag",
+    "explanation": "Time adverb 'morgen' + destination.",
+    "translation_en": "He comes to Berlin tomorrow.",
+    "translation_ru": "Он приезжает завтра в Берлин.",
+    "level": "A1"
+  },
+  {
+    "id": "s104",
+    "target": "Ich lerne am Abend Deutsch.",
+    "tokens": [
+      "Ich",
+      "lerne",
+      "am",
+      "Abend",
+      "Deutsch"
+    ],
+    "type": "drag",
+    "explanation": "Time expression 'am Abend' before the object.",
+    "translation_en": "I study German in the evening.",
+    "translation_ru": "Я учу немецкий вечером.",
+    "level": "A1"
+  },
+  {
+    "id": "s105",
+    "target": "Sie arbeitet jeden Tag im Büro.",
+    "tokens": [
+      "Sie",
+      "arbeitet",
+      "jeden",
+      "Tag",
+      "im",
+      "Büro"
+    ],
+    "type": "drag",
+    "explanation": "Frequency 'jeden Tag' + place 'im Büro'.",
+    "translation_en": "She works in the office every day.",
+    "translation_ru": "Она работает каждый день в офисе.",
+    "level": "A1"
+  },
+  {
+    "id": "s106",
+    "target": "Am Wochenende gehe ich einkaufen.",
+    "tokens": [
+      "Am",
+      "Wochenende",
+      "gehe",
+      "ich",
+      "einkaufen"
+    ],
+    "type": "drag",
+    "explanation": "Time first → verb second (inversion).",
+    "translation_en": "On the weekend I go shopping.",
+    "translation_ru": "В выходные я хожу за покупками.",
+    "level": "A1"
+  },
+  {
+    "id": "s107",
+    "target": "Ich esse mittags in der Kantine.",
+    "tokens": [
+      "Ich",
+      "esse",
+      "mittags",
+      "in",
+      "der",
+      "Kantine"
+    ],
+    "type": "drag",
+    "explanation": "Time 'mittags' + place 'in der Kantine'.",
+    "translation_en": "I eat in the canteen at lunchtime.",
+    "translation_ru": "Я обедаю в столовой.",
+    "level": "A1"
+  },
+  {
+    "id": "s108",
+    "target": "Die Kinder spielen am Nachmittag draußen.",
+    "tokens": [
+      "Die",
+      "Kinder",
+      "spielen",
+      "am",
+      "Nachmittag",
+      "draußen"
+    ],
+    "type": "drag",
+    "explanation": "Subject + verb + time + place.",
+    "translation_en": "The children play outside in the afternoon.",
+    "translation_ru": "Дети играют днём на улице.",
+    "level": "A1"
+  },
+  {
+    "id": "s109",
+    "target": "Meine Familie wohnt in einer kleinen Stadt.",
+    "tokens": [
+      "Meine",
+      "Familie",
+      "wohnt",
+      "in",
+      "einer",
+      "kleinen",
+      "Stadt"
+    ],
+    "type": "drag",
+    "explanation": "Place with article: 'in einer kleinen Stadt'.",
+    "translation_en": "My family lives in a small town.",
+    "translation_ru": "Моя семья живёт в маленьком городе.",
+    "level": "A1"
+  },
+  {
+    "id": "s110",
+    "target": "Wir essen heute Abend im Restaurant.",
+    "tokens": [
+      "Wir",
+      "essen",
+      "heute",
+      "Abend",
+      "im",
+      "Restaurant"
+    ],
+    "type": "drag",
+    "explanation": "Time 'heute Abend' + place 'im Restaurant'.",
+    "translation_en": "We eat at the restaurant this evening.",
+    "translation_ru": "Мы ужинаем сегодня вечером в ресторане.",
+    "level": "A1"
+  },
+  {
+    "id": "s111",
+    "target": "Die Katze schläft auf dem Sofa.",
+    "tokens": [
+      "Die",
+      "Katze",
+      "schläft",
+      "auf",
+      "dem",
+      "Sofa"
+    ],
+    "type": "drag",
+    "explanation": "Place with preposition: 'auf dem Sofa'.",
+    "translation_en": "The cat sleeps on the sofa.",
+    "translation_ru": "Кошка спит на диване.",
+    "level": "A1"
+  },
+  {
+    "id": "s112",
+    "target": "Ich kaufe Brot in der Bäckerei.",
+    "tokens": [
+      "Ich",
+      "kaufe",
+      "Brot",
+      "in",
+      "der",
+      "Bäckerei"
+    ],
+    "type": "drag",
+    "explanation": "Action + object + place.",
+    "translation_en": "I buy bread at the bakery.",
+    "translation_ru": "Я покупаю хлеб в пекарне.",
+    "level": "A1"
+  },
+  {
+    "id": "s113",
+    "target": "Wo wohnst du in Deutschland?",
+    "tokens": [
+      "Wo",
+      "wohnst",
+      "du",
+      "in",
+      "Deutschland"
+    ],
+    "type": "drag",
+    "explanation": "Question with 'wo' (where).",
+    "translation_en": "Where do you live in Germany?",
+    "translation_ru": "Где ты живёшь в Германии?",
+    "level": "A1"
+  },
+  {
+    "id": "s114",
+    "target": "Wann fährt der Zug nach München?",
+    "tokens": [
+      "Wann",
+      "fährt",
+      "der",
+      "Zug",
+      "nach",
+      "München"
+    ],
+    "type": "drag",
+    "explanation": "Question with 'wann' (when) + destination.",
+    "translation_en": "When does the train go to Munich?",
+    "translation_ru": "Когда идёт поезд в Мюнхен?",
+    "level": "A1"
+  },
+  {
+    "id": "s115",
+    "target": "Was machst du am Wochenende?",
+    "tokens": [
+      "Was",
+      "machst",
+      "du",
+      "am",
+      "Wochenende"
+    ],
+    "type": "drag",
+    "explanation": "Question with 'was' (what) + time.",
+    "translation_en": "What do you do on the weekend?",
+    "translation_ru": "Что ты делаешь в выходные?",
+    "level": "A1"
+  },
+  {
+    "id": "s116",
+    "target": "Wie viel kostet das T-Shirt?",
+    "tokens": [
+      "Wie",
+      "viel",
+      "kostet",
+      "das",
+      "T-Shirt"
+    ],
+    "type": "drag",
+    "explanation": "Question with 'wie viel' (how much).",
+    "translation_en": "How much does the T-shirt cost?",
+    "translation_ru": "Сколько стоит футболка?",
+    "level": "A1"
+  },
+  {
+    "id": "s117",
+    "target": "Woher kommst du und wo wohnst du?",
+    "tokens": [
+      "Woher",
+      "kommst",
+      "du",
+      "und",
+      "wo",
+      "wohnst",
+      "du"
+    ],
+    "type": "drag",
+    "explanation": "Two questions with 'woher' and 'wo'.",
+    "translation_en": "Where are you from and where do you live?",
+    "translation_ru": "Откуда ты и где ты живёшь?",
+    "level": "A1"
+  },
+  {
+    "id": "s118",
+    "target": "Wie heißt dein Bruder und wie alt ist er?",
+    "tokens": [
+      "Wie",
+      "heißt",
+      "dein",
+      "Bruder",
+      "und",
+      "wie",
+      "alt",
+      "ist",
+      "er"
+    ],
+    "type": "drag",
+    "explanation": "Two questions about name and age.",
+    "translation_en": "What is your brother's name and how old is he?",
+    "translation_ru": "Как зовут твоего брата и сколько ему лет?",
+    "level": "A1"
+  },
+  {
+    "id": "s119",
+    "target": "Ich fahre mit dem Bus zur Arbeit.",
+    "tokens": [
+      "Ich",
+      "fahre",
+      "mit",
+      "dem",
+      "Bus",
+      "zur",
+      "Arbeit"
+    ],
+    "type": "drag",
+    "explanation": "Transport 'mit dem Bus' + destination.",
+    "translation_en": "I go to work by bus.",
+    "translation_ru": "Я еду на автобусе на работу.",
+    "level": "A1"
+  },
+  {
+    "id": "s120",
+    "target": "Mein Freund spricht sehr gut Deutsch.",
+    "tokens": [
+      "Mein",
+      "Freund",
+      "spricht",
+      "sehr",
+      "gut",
+      "Deutsch"
+    ],
+    "type": "drag",
+    "explanation": "Subject + verb + adverb + object.",
+    "translation_en": "My friend speaks German very well.",
+    "translation_ru": "Мой друг очень хорошо говорит по-немецки.",
+    "level": "A1"
+  },
+  {
+    "id": "s121",
+    "target": "Ich möchte ein Glas Wasser bitte.",
+    "tokens": [
+      "Ich",
+      "möchte",
+      "ein",
+      "Glas",
+      "Wasser",
+      "bitte"
+    ],
+    "type": "drag",
+    "explanation": "Polite request with 'möchte' (would like).",
+    "translation_en": "I would like a glass of water, please.",
+    "translation_ru": "Я хотел бы стакан воды, пожалуйста.",
+    "level": "A1"
+  },
+  {
+    "id": "s122",
+    "target": "Am Montag habe ich einen Deutschkurs.",
+    "tokens": [
+      "Am",
+      "Montag",
+      "habe",
+      "ich",
+      "einen",
+      "Deutschkurs"
+    ],
+    "type": "drag",
+    "explanation": "Day of week first → inversion.",
+    "translation_en": "On Monday I have a German course.",
+    "translation_ru": "В понедельник у меня курс немецкого.",
+    "level": "A1"
+  },
+  {
+    "id": "s123",
+    "target": "Kannst du mir bitte das Salz geben?",
+    "tokens": [
+      "Kannst",
+      "du",
+      "mir",
+      "bitte",
+      "das",
+      "Salz",
+      "geben"
+    ],
+    "type": "drag",
+    "explanation": "Polite question with 'kannst du' + dative 'mir'.",
+    "translation_en": "Can you please pass me the salt?",
+    "translation_ru": "Можешь передать мне соль, пожалуйста?",
+    "level": "A1"
+  },
+  {
+    "id": "s124",
+    "target": "Ich gehe jetzt in den Supermarkt.",
+    "tokens": [
+      "Ich",
+      "gehe",
+      "jetzt",
+      "in",
+      "den",
+      "Supermarkt"
+    ],
+    "type": "drag",
+    "explanation": "Time 'jetzt' + direction 'in den Supermarkt'.",
+    "translation_en": "I'm going to the supermarket now.",
+    "translation_ru": "Я сейчас иду в супермаркет.",
+    "level": "A1"
+  },
+  {
+    "id": "s125",
+    "target": "Das Wetter ist heute sehr schön.",
+    "tokens": [
+      "Das",
+      "Wetter",
+      "ist",
+      "heute",
+      "sehr",
+      "schön"
+    ],
+    "type": "drag",
+    "explanation": "Subject + verb + time + degree + adjective.",
+    "translation_en": "The weather is very nice today.",
+    "translation_ru": "Погода сегодня очень хорошая.",
+    "level": "A1"
+  },
+  {
+    "id": "s126",
+    "target": "Meine Schwester hat zwei kleine Kinder.",
+    "tokens": [
+      "Meine",
+      "Schwester",
+      "hat",
+      "zwei",
+      "kleine",
+      "Kinder"
+    ],
+    "type": "drag",
+    "explanation": "Possession with numbers and adjective.",
+    "translation_en": "My sister has two small children.",
+    "translation_ru": "У моей сестры двое маленьких детей.",
+    "level": "A1"
+  },
+  {
+    "id": "s127",
+    "target": "Ich verstehe das nicht, können Sie wiederholen",
+    "tokens": [
+      "Ich",
+      "verstehe",
+      "das",
+      "nicht,",
+      "können",
+      "Sie",
+      "wiederholen"
+    ],
+    "type": "drag",
+    "explanation": "Negation + polite request with 'Sie'.",
+    "translation_en": "I don't understand, can you repeat?",
+    "translation_ru": "Я не понимаю, вы можете повторить?",
+    "level": "A1"
+  },
+  {
+    "id": "s128",
+    "target": "Um acht Uhr beginnt mein Unterricht.",
+    "tokens": [
+      "Um",
+      "acht",
+      "Uhr",
+      "beginnt",
+      "mein",
+      "Unterricht"
+    ],
+    "type": "drag",
+    "explanation": "Time first 'um acht Uhr' → inversion.",
+    "translation_en": "My class starts at eight o'clock.",
+    "translation_ru": "В восемь часов начинается мой урок.",
+    "level": "A1"
+  },
+  {
+    "id": "s129",
+    "target": "Nach der Arbeit gehe ich ins Fitnessstudio.",
+    "tokens": [
+      "Nach",
+      "der",
+      "Arbeit",
+      "gehe",
+      "ich",
+      "ins",
+      "Fitnessstudio"
+    ],
+    "type": "drag",
+    "explanation": "Time 'nach der Arbeit' → inversion + direction.",
+    "translation_en": "After work I go to the gym.",
+    "translation_ru": "После работы я иду в спортзал.",
+    "level": "A1"
+  },
+  {
+    "id": "s130",
+    "target": "Meine Eltern kommen nächste Woche zu Besuch.",
+    "tokens": [
+      "Meine",
+      "Eltern",
+      "kommen",
+      "nächste",
+      "Woche",
+      "zu",
+      "Besuch"
+    ],
+    "type": "drag",
+    "explanation": "Time 'nächste Woche' + purpose 'zu Besuch'.",
+    "translation_en": "My parents are coming to visit next week.",
+    "translation_ru": "Мои родители приезжают на следующей неделе в гости.",
+    "level": "A1"
+  }
+]

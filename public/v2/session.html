@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>DrillCards · слова</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head><body><main class="dc-demo">
+  <header><strong><a class="dc-brand" href="./today.html">DrillCards</a> · <a id="homeLink" href="#"><span id="title">Слова</span></a></strong>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+  </header>
+  <section id="continue" class="dc-continue" aria-labelledby="continueTitle" hidden>
+    <h2 id="continueTitle"></h2><p id="continueLine"></p>
+    <div class="dc-session-actions"><button id="continueAction" type="button"></button><button id="continueFinish" type="button"></button></div>
+  </section>
+
+  <section id="home" class="dc-home" hidden>
+    <p id="levelResult" class="dc-level-home" hidden></p>
+    <label class="dc-search"><span id="deckSearchLabel"></span> <input id="deckSearch" type="search" autocomplete="off"></label>
+    <ul id="decks" class="dc-deck-list"></ul>
+  </section>
+
+  <section id="deck" class="dc-deck" aria-labelledby="deckTitle" hidden>
+    <a id="deckBack" href="#"></a>
+    <h2 id="deckTitle"></h2>
+    <p id="deckStats"></p>
+    <form id="setup">
+      <label><span id="formatLabel">Формат</span> <select id="format"><option value="single"></option><option value="circuit"></option></select></label>
+      <label id="scopeField" hidden><span id="scopeLabel">Повторение</span> <select id="scope"><option value="due-components"></option><option value="all-exercises"></option></select></label>
+      <label id="exerciseField"><span id="exerciseLabel">Упражнение</span> <select id="exercise"></select></label>
+      <label><span id="translationLabel">Язык перевода</span> <select id="translation"><option value="ru">RU</option><option value="en">EN</option></select></label>
+      <div class="dc-intents">
+        <div><button id="learnNew" type="submit" name="intent" value="learn-new"></button><p id="learnNewEmpty" class="dc-empty" hidden></p></div>
+        <div><button id="reviewDue" type="submit" name="intent" value="review-due"></button><p id="reviewDueEmpty" class="dc-empty" hidden></p></div>
+      </div>
+      <p id="blocked" class="dc-empty" hidden></p>
+    </form>
+    <h3 id="wordsHeading"></h3>
+    <div class="dc-word-toolbar"><label class="dc-search"><span id="wordSearchLabel"></span> <input id="wordSearch" type="search" autocomplete="off"></label><label><span id="wordPartLabel"></span><select id="wordPart"></select></label><label><span id="wordSortLabel"></span><select id="wordSort"></select></label></div>
+    <div id="wordFilters" class="dc-word-filters"></div><p id="wordResults" class="dc-note" aria-live="polite"></p>
+    <ul id="words" class="dc-word-list"></ul>
+  </section>
+
+  <section id="word" class="dc-word" hidden>
+    <a id="wordBack" href="#"></a>
+    <div id="wordCard"></div>
+  </section>
+
+  <section id="session" class="dc-session" hidden>
+    <p id="progress" class="dc-session-progress" aria-live="polite"></p>
+    <div id="card"></div>
+    <section id="summary" class="dc-session-summary" aria-labelledby="summaryTitle" hidden></section>
+    <div class="dc-session-actions">
+      <button id="retry" type="button" hidden></button>
+      <button id="pause" type="button" hidden></button><button id="resume" type="button" hidden></button>
+      <button id="finish" type="button" hidden></button><button id="new" type="button" hidden></button>
+    </div>
+  </section>
+  <p id="notice" class="dc-session-notice" role="status" aria-live="polite"></p>
+</main><script type="module">await import("../retire-v1.js"); await import("./session-page.js");</script></body></html>

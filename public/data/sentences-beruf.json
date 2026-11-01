@@ -1,0 +1,681 @@
+[
+  {
+    "id": "s_beruf_1",
+    "target": "Erzählen Sie mir bitte etwas über sich.",
+    "tokens": [
+      "Erzählen",
+      "Sie",
+      "mir",
+      "bitte",
+      "etwas",
+      "über",
+      "sich"
+    ],
+    "type": "drag",
+    "explanation": "Klassische Eröffnungsfrage im Vorstellungsgespräch.",
+    "translation_en": "Please tell me a little about yourself.",
+    "translation_ru": "Расскажите, пожалуйста, немного о себе.",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_2",
+    "target": "Warum möchten Sie bei uns arbeiten?",
+    "tokens": [
+      "Warum",
+      "möchten",
+      "Sie",
+      "bei",
+      "uns",
+      "arbeiten"
+    ],
+    "type": "drag",
+    "explanation": "Motivationsfrage.",
+    "translation_en": "Why would you like to work for us?",
+    "translation_ru": "Почему вы хотите работать у нас?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_3",
+    "target": "Was wissen Sie über unser Unternehmen?",
+    "tokens": [
+      "Was",
+      "wissen",
+      "Sie",
+      "über",
+      "unser",
+      "Unternehmen"
+    ],
+    "type": "drag",
+    "explanation": "Frage zur Vorbereitung.",
+    "translation_en": "What do you know about our company?",
+    "translation_ru": "Что вы знаете о нашей компании?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_4",
+    "target": "Was sind Ihre größten Stärken?",
+    "tokens": [
+      "Was",
+      "sind",
+      "Ihre",
+      "größten",
+      "Stärken"
+    ],
+    "type": "drag",
+    "explanation": "Frage nach Stärken.",
+    "translation_en": "What are your greatest strengths?",
+    "translation_ru": "Каковы ваши сильнейшие стороны?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_5",
+    "target": "Wo sehen Sie Ihre Schwächen?",
+    "tokens": [
+      "Wo",
+      "sehen",
+      "Sie",
+      "Ihre",
+      "Schwächen"
+    ],
+    "type": "drag",
+    "explanation": "Frage nach Schwächen.",
+    "translation_en": "Where do you see your weaknesses?",
+    "translation_ru": "В чём вы видите свои слабые стороны?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_6",
+    "target": "Wo sehen Sie sich in fünf Jahren?",
+    "tokens": [
+      "Wo",
+      "sehen",
+      "Sie",
+      "sich",
+      "in",
+      "fünf",
+      "Jahren"
+    ],
+    "type": "drag",
+    "explanation": "Frage nach Zielen.",
+    "translation_en": "Where do you see yourself in five years?",
+    "translation_ru": "Где вы видите себя через пять лет?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_7",
+    "target": "Warum haben Sie Ihre letzte Stelle gekündigt?",
+    "tokens": [
+      "Warum",
+      "haben",
+      "Sie",
+      "Ihre",
+      "letzte",
+      "Stelle",
+      "gekündigt"
+    ],
+    "type": "drag",
+    "explanation": "Frage zum Wechsel.",
+    "translation_en": "Why did you leave your last position?",
+    "translation_ru": "Почему вы ушли с прошлого места работы?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_8",
+    "target": "Wie gehen Sie mit Stress und Druck um?",
+    "tokens": [
+      "Wie",
+      "gehen",
+      "Sie",
+      "mit",
+      "Stress",
+      "und",
+      "Druck",
+      "um"
+    ],
+    "type": "drag",
+    "explanation": "Frage zur Belastbarkeit.",
+    "translation_en": "How do you deal with stress and pressure?",
+    "translation_ru": "Как вы справляетесь со стрессом и давлением?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_9",
+    "target": "Können Sie ein herausforderndes Projekt beschreiben?",
+    "tokens": [
+      "Können",
+      "Sie",
+      "ein",
+      "herausforderndes",
+      "Projekt",
+      "beschreiben"
+    ],
+    "type": "drag",
+    "explanation": "Frage nach Erfahrung.",
+    "translation_en": "Can you describe a challenging project?",
+    "translation_ru": "Можете описать сложный проект?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_10",
+    "target": "Wie würden Ihre Kollegen Sie beschreiben?",
+    "tokens": [
+      "Wie",
+      "würden",
+      "Ihre",
+      "Kollegen",
+      "Sie",
+      "beschreiben"
+    ],
+    "type": "drag",
+    "explanation": "Frage zur Selbsteinschätzung.",
+    "translation_en": "How would your colleagues describe you?",
+    "translation_ru": "Как бы вас описали коллеги?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_11",
+    "target": "Welche Gehaltsvorstellung haben Sie?",
+    "tokens": [
+      "Welche",
+      "Gehaltsvorstellung",
+      "haben",
+      "Sie"
+    ],
+    "type": "drag",
+    "explanation": "Frage zum Gehalt.",
+    "translation_en": "What are your salary expectations?",
+    "translation_ru": "Каковы ваши зарплатные ожидания?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_12",
+    "target": "Haben Sie noch Fragen an uns?",
+    "tokens": [
+      "Haben",
+      "Sie",
+      "noch",
+      "Fragen",
+      "an",
+      "uns"
+    ],
+    "type": "drag",
+    "explanation": "Abschlussfrage.",
+    "translation_en": "Do you have any questions for us?",
+    "translation_ru": "У вас есть вопросы к нам?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_13",
+    "target": "Wie gehen Sie mit Kritik um?",
+    "tokens": [
+      "Wie",
+      "gehen",
+      "Sie",
+      "mit",
+      "Kritik",
+      "um"
+    ],
+    "type": "drag",
+    "explanation": "Frage zum Umgang mit Feedback.",
+    "translation_en": "How do you handle criticism?",
+    "translation_ru": "Как вы относитесь к критике?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_14",
+    "target": "Wie würden Sie eine skalierbare Architektur entwerfen?",
+    "tokens": [
+      "Wie",
+      "würden",
+      "Sie",
+      "eine",
+      "skalierbare",
+      "Architektur",
+      "entwerfen"
+    ],
+    "type": "drag",
+    "explanation": "Fachliche Frage für Architekten.",
+    "translation_en": "How would you design a scalable architecture?",
+    "translation_ru": "Как бы вы спроектировали масштабируемую архитектуру?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_15",
+    "target": "Wie stellen Sie die Qualität Ihres Codes sicher?",
+    "tokens": [
+      "Wie",
+      "stellen",
+      "Sie",
+      "die",
+      "Qualität",
+      "Ihres",
+      "Codes",
+      "sicher"
+    ],
+    "type": "drag",
+    "explanation": "Fachliche Frage.",
+    "translation_en": "How do you ensure the quality of your code?",
+    "translation_ru": "Как вы обеспечиваете качество своего кода?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_16",
+    "target": "Wie halten Sie sich über neue Technologien auf dem Laufenden?",
+    "tokens": [
+      "Wie",
+      "halten",
+      "Sie",
+      "sich",
+      "über",
+      "neue",
+      "Technologien",
+      "auf",
+      "dem",
+      "Laufenden"
+    ],
+    "type": "drag",
+    "explanation": "Frage zur Weiterbildung.",
+    "translation_en": "How do you keep up to date with new technologies?",
+    "translation_ru": "Как вы следите за новыми технологиями?",
+    "level": "B2",
+    "tags": [
+      "frage"
+    ]
+  },
+  {
+    "id": "s_beruf_17",
+    "target": "Ich verfüge über mehrjährige Erfahrung in der Softwarearchitektur.",
+    "tokens": [
+      "Ich",
+      "verfüge",
+      "über",
+      "mehrjährige",
+      "Erfahrung",
+      "in",
+      "der",
+      "Softwarearchitektur"
+    ],
+    "type": "drag",
+    "explanation": "Antwort auf die Frage nach Erfahrung.",
+    "translation_en": "I have several years of experience in software architecture.",
+    "translation_ru": "У меня многолетний опыт в архитектуре ПО.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_18",
+    "target": "Meine größte Stärke ist analytisches Denken.",
+    "tokens": [
+      "Meine",
+      "größte",
+      "Stärke",
+      "ist",
+      "analytisches",
+      "Denken"
+    ],
+    "type": "drag",
+    "explanation": "Antwort zu Stärken.",
+    "translation_en": "My greatest strength is analytical thinking.",
+    "translation_ru": "Моя главная сильная сторона — аналитическое мышление.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_19",
+    "target": "Ich arbeite strukturiert, zuverlässig und lösungsorientiert.",
+    "tokens": [
+      "Ich",
+      "arbeite",
+      "strukturiert,",
+      "zuverlässig",
+      "und",
+      "lösungsorientiert"
+    ],
+    "type": "drag",
+    "explanation": "Selbstbeschreibung.",
+    "translation_en": "I work in a structured, reliable and solution-oriented way.",
+    "translation_ru": "Я работаю структурированно, надёжно и ориентируясь на решение.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_20",
+    "target": "An meiner Ungeduld arbeite ich aktiv.",
+    "tokens": [
+      "An",
+      "meiner",
+      "Ungeduld",
+      "arbeite",
+      "ich",
+      "aktiv"
+    ],
+    "type": "drag",
+    "explanation": "Antwort zu Schwächen.",
+    "translation_en": "I am actively working on my impatience.",
+    "translation_ru": "Над своим нетерпением я активно работаю.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_21",
+    "target": "Ich möchte mich fachlich und persönlich weiterentwickeln.",
+    "tokens": [
+      "Ich",
+      "möchte",
+      "mich",
+      "fachlich",
+      "und",
+      "persönlich",
+      "weiterentwickeln"
+    ],
+    "type": "drag",
+    "explanation": "Antwort zu Zielen.",
+    "translation_en": "I want to develop further professionally and personally.",
+    "translation_ru": "Я хочу развиваться профессионально и лично.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_22",
+    "target": "Mich reizt besonders die digitale Transformation des Gesundheitswesens.",
+    "tokens": [
+      "Mich",
+      "reizt",
+      "besonders",
+      "die",
+      "digitale",
+      "Transformation",
+      "des",
+      "Gesundheitswesens"
+    ],
+    "type": "drag",
+    "explanation": "Motivation.",
+    "translation_en": "I am especially drawn to the digital transformation of healthcare.",
+    "translation_ru": "Меня особенно привлекает цифровая трансформация здравоохранения.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_23",
+    "target": "Ich arbeite gern im Team und übernehme Verantwortung.",
+    "tokens": [
+      "Ich",
+      "arbeite",
+      "gern",
+      "im",
+      "Team",
+      "und",
+      "übernehme",
+      "Verantwortung"
+    ],
+    "type": "drag",
+    "explanation": "Teamfähigkeit.",
+    "translation_en": "I like working in a team and take responsibility.",
+    "translation_ru": "Я люблю работать в команде и беру ответственность.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_24",
+    "target": "In stressigen Phasen behalte ich einen kühlen Kopf.",
+    "tokens": [
+      "In",
+      "stressigen",
+      "Phasen",
+      "behalte",
+      "ich",
+      "einen",
+      "kühlen",
+      "Kopf"
+    ],
+    "type": "drag",
+    "explanation": "Belastbarkeit.",
+    "translation_en": "In stressful phases I keep a cool head.",
+    "translation_ru": "В напряжённые периоды я сохраняю холодную голову.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_25",
+    "target": "Ich stelle die Qualität durch Code-Reviews und Tests sicher.",
+    "tokens": [
+      "Ich",
+      "stelle",
+      "die",
+      "Qualität",
+      "durch",
+      "Code-Reviews",
+      "und",
+      "Tests",
+      "sicher"
+    ],
+    "type": "drag",
+    "explanation": "Fachliche Antwort.",
+    "translation_en": "I ensure quality through code reviews and tests.",
+    "translation_ru": "Я обеспечиваю качество через код-ревью и тесты.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_26",
+    "target": "Ich orientiere mich an Standards wie HL7, FHIR und openEHR.",
+    "tokens": [
+      "Ich",
+      "orientiere",
+      "mich",
+      "an",
+      "Standards",
+      "wie",
+      "HL7,",
+      "FHIR",
+      "und",
+      "openEHR"
+    ],
+    "type": "drag",
+    "explanation": "Fachliche Antwort Interoperabilität.",
+    "translation_en": "I follow standards such as HL7, FHIR and openEHR.",
+    "translation_ru": "Я ориентируюсь на стандарты HL7, FHIR и openEHR.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_27",
+    "target": "Ich arbeite mich schnell in neue Themen ein.",
+    "tokens": [
+      "Ich",
+      "arbeite",
+      "mich",
+      "schnell",
+      "in",
+      "neue",
+      "Themen",
+      "ein"
+    ],
+    "type": "drag",
+    "explanation": "Lernbereitschaft.",
+    "translation_en": "I get up to speed with new topics quickly.",
+    "translation_ru": "Я быстро вхожу в курс новых тем.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_28",
+    "target": "Zunächst analysiere ich die Anforderungen der Stakeholder.",
+    "tokens": [
+      "Zunächst",
+      "analysiere",
+      "ich",
+      "die",
+      "Anforderungen",
+      "der",
+      "Stakeholder"
+    ],
+    "type": "drag",
+    "explanation": "Vorgehensweise.",
+    "translation_en": "First I analyze the requirements of the stakeholders.",
+    "translation_ru": "Сначала я анализирую требования заинтересованных сторон.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_29",
+    "target": "Ich lege großen Wert auf Datenschutz und Datensicherheit.",
+    "tokens": [
+      "Ich",
+      "lege",
+      "großen",
+      "Wert",
+      "auf",
+      "Datenschutz",
+      "und",
+      "Datensicherheit"
+    ],
+    "type": "drag",
+    "explanation": "Fachliche Antwort Health.",
+    "translation_en": "I place great importance on data protection and data security.",
+    "translation_ru": "Я придаю большое значение защите и безопасности данных.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_30",
+    "target": "Vielen Dank für das Gespräch, ich freue mich auf eine Rückmeldung.",
+    "tokens": [
+      "Vielen",
+      "Dank",
+      "für",
+      "das",
+      "Gespräch,",
+      "ich",
+      "freue",
+      "mich",
+      "auf",
+      "eine",
+      "Rückmeldung"
+    ],
+    "type": "drag",
+    "explanation": "Höflicher Abschluss.",
+    "translation_en": "Thank you for the conversation, I look forward to your feedback.",
+    "translation_ru": "Спасибо за беседу, буду рад обратной связи.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_31",
+    "target": "Meine Kündigungsfrist beträgt drei Monate zum Quartalsende.",
+    "tokens": [
+      "Meine",
+      "Kündigungsfrist",
+      "beträgt",
+      "drei",
+      "Monate",
+      "zum",
+      "Quartalsende"
+    ],
+    "type": "drag",
+    "explanation": "Antwort zur Verfügbarkeit.",
+    "translation_en": "My notice period is three months to the end of the quarter.",
+    "translation_ru": "Мой срок уведомления — три месяца к концу квартала.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  },
+  {
+    "id": "s_beruf_32",
+    "target": "Ich suche eine neue fachliche Herausforderung in einem internationalen Umfeld.",
+    "tokens": [
+      "Ich",
+      "suche",
+      "eine",
+      "neue",
+      "fachliche",
+      "Herausforderung",
+      "in",
+      "einem",
+      "internationalen",
+      "Umfeld"
+    ],
+    "type": "drag",
+    "explanation": "Grund für den Wechsel.",
+    "translation_en": "I am looking for a new professional challenge in an international environment.",
+    "translation_ru": "Я ищу новый профессиональный вызов в международной среде.",
+    "level": "B2",
+    "tags": [
+      "antwort"
+    ]
+  }
+]

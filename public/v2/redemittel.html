@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>DrillCards · Redemittel</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <style>
+    .dc-phrases form#setupForm { display:flex; flex-wrap:wrap; gap:12px; align-items:end; margin:16px 0; }
+    .dc-phrases form#setupForm > label { display:grid; gap:6px; min-width:0; flex:1 1 180px; }
+    :is(.dc-phrases-setup, .dc-session-actions) button, .dc-phrases select { font:inherit; padding:10px 14px; min-height:44px; border:1px solid #8c9ab2; border-radius:8px; background:transparent; color:inherit; cursor:pointer; }
+    :is(.dc-phrases-setup, .dc-session-actions) button:disabled { opacity:.5; cursor:default; }
+    .dc-phrases #start { background:#234cca; color:white; border-color:#234cca; }
+    .dc-phrases-note { color:#526077; margin:8px 0; overflow-wrap:anywhere; }
+    .dc-phrases-speech label { display:flex; gap:6px; align-items:center; min-height:44px; }
+    .dc-phrases-details { margin:12px 0; overflow-wrap:anywhere; }
+    .dc-phrases-details dl { display:grid; grid-template-columns:auto 1fr; gap:4px 12px; margin:0; }
+    .dc-phrases-details dt { font-weight:600; }
+    .dc-phrases-details dd { margin:0; }
+    .dc-phrases .dc-revealed-answer { cursor:default; }
+    .dc-session-summary li { overflow-wrap:anywhere; }
+    .dc-session-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+    .dc-session-actions button { flex:1 1 140px; }
+  </style>
+</head><body><main class="dc-demo dc-phrases">
+  <header><strong><a class="dc-brand" href="./today.html">DrillCards</a> · <a id="homeLink" href="./session.html"><span id="title" lang="de">Redemittel</span></a></strong>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+  </header>
+  <section id="continue" class="dc-continue" aria-labelledby="continueTitle" hidden>
+    <h2 id="continueTitle"></h2><p id="continueLine"></p>
+    <div class="dc-session-actions"><button id="continueAction" type="button"></button><button id="continueFinish" type="button"></button></div>
+  </section>
+
+  <section id="setup" class="dc-phrases-setup" hidden>
+    <form id="setupForm">
+      <label><span id="deckLabel"></span> <select id="deck"><option value="beruf"></option><option value="daily"></option></select></label>
+      <label><span id="translationLabel"></span> <select id="translation"><option value="ru">RU</option><option value="en">EN</option></select></label>
+      <button id="start" type="submit"></button>
+      <p id="empty" class="dc-empty" hidden></p>
+    </form>
+    <section id="stats" aria-labelledby="statsTitle"><h2 id="statsTitle"></h2><p id="statsLine" data-deck=""></p><p id="statsNote" class="dc-phrases-note"></p></section>
+  </section>
+
+  <section id="session" class="dc-session" hidden>
+    <p id="progress" class="dc-session-progress" aria-live="polite"></p>
+    <div id="card"></div>
+    <p id="subjective" class="dc-phrases-note" hidden></p>
+    <section id="details" class="dc-phrases-details" aria-labelledby="detailsTitle" hidden><h3 id="detailsTitle"></h3><dl id="detailsList"></dl></section>
+    <div id="speechBox" class="dc-phrases-speech" hidden>
+      <label><input id="autoSpeak" type="checkbox"> <span id="autoSpeakLabel"></span></label>
+      <p id="speechStatus" class="dc-speech-warning" role="status" aria-live="polite"></p>
+    </div>
+    <p id="keyboard" class="dc-phrases-note" hidden></p>
+    <section id="summary" class="dc-session-summary" aria-labelledby="summaryTitle" hidden></section>
+    <div class="dc-session-actions">
+      <button id="retry" type="button" hidden></button>
+      <button id="pause" type="button" hidden></button><button id="resume" type="button" hidden></button>
+      <button id="finish" type="button" hidden></button><button id="new" type="button" hidden></button>
+    </div>
+  </section>
+  <p id="notice" class="dc-session-notice" role="status" aria-live="polite"></p>
+</main><script type="module">await import("../retire-v1.js"); await import("./families/redemittel/redemittel-page.js");</script></body></html>

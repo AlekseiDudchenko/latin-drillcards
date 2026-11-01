@@ -1,0 +1,77 @@
+# Revalidate mutable application files; offline copies are kept by sw.js.
+# Leave audio, images and catalog content on their existing cache policy.
+
+/
+  Cache-Control: no-cache
+
+/v2
+  Cache-Control: no-cache
+
+/v2/
+  Cache-Control: no-cache
+
+/*.html
+  Cache-Control: no-cache
+
+/*.js
+  Cache-Control: no-cache
+
+/*.css
+  Cache-Control: no-cache
+
+/version.json
+  Cache-Control: no-cache
+
+/manifest.json
+  Cache-Control: no-cache
+
+/v2/environment.json
+  Cache-Control: no-cache
+
+/v2/card-ui-demo
+  Cache-Control: no-cache
+
+/v2/cloze-demo
+  Cache-Control: no-cache
+
+/v2/environment
+  Cache-Control: no-cache
+
+/v2/gaps
+  Cache-Control: no-cache
+
+/v2/kasus
+  Cache-Control: no-cache
+
+/v2/konjunktiv2
+  Cache-Control: no-cache
+
+/v2/level-test
+  Cache-Control: no-cache
+
+/v2/listening
+  Cache-Control: no-cache
+
+/v2/practice
+  Cache-Control: no-cache
+
+/v2/progress
+  Cache-Control: no-cache
+
+/v2/redemittel
+  Cache-Control: no-cache
+
+/v2/sentences
+  Cache-Control: no-cache
+
+/v2/session
+  Cache-Control: no-cache
+
+/v2/today
+  Cache-Control: no-cache
+
+/v2/video
+  Cache-Control: no-cache
+
+/v2/word-exercises-demo
+  Cache-Control: no-cache

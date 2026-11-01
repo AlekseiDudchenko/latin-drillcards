@@ -1,0 +1,855 @@
+[
+  {
+    "id": "w_c1_001",
+    "de": "das Sprachgefühl",
+    "article": "das",
+    "ru": "языковое чутьё",
+    "en": "feel for language",
+    "exampleDe": "Ohne Sprachgefühl klingt jede Übersetzung hölzern.",
+    "exampleRu": "Без языкового чутья любой перевод звучит деревянно.",
+    "exampleEn": "Without a feel for language every translation sounds wooden.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "sprache",
+      "bildung"
+    ]
+  },
+  {
+    "id": "w_c1_002",
+    "de": "der Zwiespalt",
+    "article": "der",
+    "ru": "внутренний разлад, раздвоенность",
+    "en": "inner conflict, dilemma",
+    "exampleDe": "Sie geriet in einen tiefen inneren Zwiespalt.",
+    "exampleRu": "Она оказалась в глубоком внутреннем разладе.",
+    "exampleEn": "She fell into a deep inner conflict.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "psychologie",
+      "gefühle"
+    ]
+  },
+  {
+    "id": "w_c1_003",
+    "de": "der Vorbehalt",
+    "article": "der",
+    "ru": "оговорка, предубеждение",
+    "en": "reservation, proviso",
+    "exampleDe": "Er stimmte dem Plan nur unter Vorbehalt zu.",
+    "exampleRu": "Он согласился с планом только с оговоркой.",
+    "exampleEn": "He agreed to the plan only with reservations.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "diskussion",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_c1_004",
+    "de": "das Gefälle",
+    "article": "das",
+    "ru": "перепад, разрыв",
+    "en": "gradient, disparity",
+    "exampleDe": "Zwischen Stadt und Land besteht ein deutliches Gefälle.",
+    "exampleRu": "Между городом и деревней существует явный разрыв.",
+    "exampleEn": "There is a clear disparity between city and countryside.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_c1_005",
+    "de": "die Zäsur",
+    "article": "die",
+    "ru": "цезура, рубеж",
+    "en": "caesura, turning point",
+    "exampleDe": "Das Jahr 1989 war eine historische Zäsur.",
+    "exampleRu": "1989 год стал историческим рубежом.",
+    "exampleEn": "The year 1989 was a historic turning point.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "kultur",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_c1_006",
+    "de": "die Kehrseite",
+    "article": "die",
+    "ru": "оборотная сторона",
+    "en": "flip side, downside",
+    "exampleDe": "Die Kehrseite des Erfolgs ist der Druck.",
+    "exampleRu": "Оборотная сторона успеха — давление.",
+    "exampleEn": "The flip side of success is the pressure.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "analyse",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_007",
+    "de": "die Tragweite",
+    "article": "die",
+    "ru": "значимость, масштаб последствий",
+    "en": "scope, significance",
+    "exampleDe": "Die Tragweite der Entscheidung war ihm nicht klar.",
+    "exampleRu": "Масштаб последствий решения был ему неясен.",
+    "exampleEn": "He was not aware of the significance of the decision.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "analyse",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_c1_008",
+    "de": "die Ungereimtheit",
+    "article": "die",
+    "ru": "несуразность, нестыковка",
+    "en": "inconsistency",
+    "exampleDe": "In seiner Aussage gibt es mehrere Ungereimtheiten.",
+    "exampleRu": "В его показаниях есть несколько нестыковок.",
+    "exampleEn": "There are several inconsistencies in his statement.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "analyse",
+      "argumentation"
+    ]
+  },
+  {
+    "id": "w_c1_009",
+    "de": "die Verquickung",
+    "article": "die",
+    "ru": "переплетение, смешение",
+    "en": "entanglement, conflation",
+    "exampleDe": "Die Verquickung von Politik und Geschäft ist heikel.",
+    "exampleRu": "Переплетение политики и бизнеса деликатно.",
+    "exampleEn": "The entanglement of politics and business is delicate.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "politik",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_010",
+    "de": "der Beweggrund",
+    "article": "der",
+    "ru": "побудительный мотив",
+    "en": "motive",
+    "exampleDe": "Seine Beweggründe bleiben im Dunkeln.",
+    "exampleRu": "Его мотивы остаются в тени.",
+    "exampleEn": "His motives remain in the dark.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "psychologie",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_c1_011",
+    "de": "die Gepflogenheit",
+    "article": "die",
+    "ru": "обыкновение, принятая практика",
+    "en": "custom, practice",
+    "exampleDe": "Nach hiesiger Gepflogenheit grüßt man zuerst.",
+    "exampleRu": "По здешнему обыкновению здороваются первыми.",
+    "exampleEn": "By local custom one greets first.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_c1_012",
+    "de": "die Sinnesart",
+    "article": "die",
+    "ru": "склад характера, натура",
+    "en": "disposition, temperament",
+    "exampleDe": "Ihre ruhige Sinnesart hilft im Konflikt.",
+    "exampleRu": "Её спокойный склад характера помогает в конфликте.",
+    "exampleEn": "Her calm disposition helps in a conflict.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "psychologie",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_c1_013",
+    "de": "die Bürde",
+    "article": "die",
+    "ru": "бремя, ноша",
+    "en": "burden",
+    "exampleDe": "Das Amt ist eine schwere Bürde.",
+    "exampleRu": "Эта должность — тяжкое бремя.",
+    "exampleEn": "The office is a heavy burden.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "gesellschaft",
+      "psychologie"
+    ]
+  },
+  {
+    "id": "w_c1_014",
+    "de": "das Fingerspitzengefühl",
+    "article": "das",
+    "ru": "тонкое чутьё, деликатность",
+    "en": "tact, delicate touch",
+    "exampleDe": "Diese Verhandlung erfordert Fingerspitzengefühl.",
+    "exampleRu": "Эти переговоры требуют тонкого чутья.",
+    "exampleEn": "These negotiations require a delicate touch.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_c1_015",
+    "de": "der Selbstzweck",
+    "article": "der",
+    "ru": "самоцель",
+    "en": "end in itself",
+    "exampleDe": "Kontrolle darf kein Selbstzweck werden.",
+    "exampleRu": "Контроль не должен становиться самоцелью.",
+    "exampleEn": "Control must not become an end in itself.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "analyse",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_c1_016",
+    "de": "das Zerrbild",
+    "article": "das",
+    "ru": "искажённый образ, карикатура",
+    "en": "distorted picture, caricature",
+    "exampleDe": "Der Bericht zeichnet ein Zerrbild der Lage.",
+    "exampleRu": "Отчёт рисует искажённую картину положения.",
+    "exampleEn": "The report paints a distorted picture of the situation.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "analyse",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_c1_017",
+    "de": "der Notbehelf",
+    "article": "der",
+    "ru": "временная мера, паллиатив",
+    "en": "makeshift, stopgap",
+    "exampleDe": "Die Lösung ist nur ein Notbehelf.",
+    "exampleRu": "Это решение — лишь временная мера.",
+    "exampleEn": "The solution is only a stopgap.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_018",
+    "de": "die Gemengelage",
+    "article": "die",
+    "ru": "запутанная ситуация, клубок обстоятельств",
+    "en": "complex situation, tangle",
+    "exampleDe": "Die politische Gemengelage ist unübersichtlich.",
+    "exampleRu": "Политическая ситуация запутанна.",
+    "exampleEn": "The political situation is a confusing tangle.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "politik",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_019",
+    "de": "die Unwägbarkeit",
+    "article": "die",
+    "ru": "непредсказуемость, неучитываемый фактор",
+    "en": "imponderable, unpredictability",
+    "exampleDe": "Bei jedem Projekt bleiben Unwägbarkeiten.",
+    "exampleRu": "В любом проекте остаются непредсказуемые факторы.",
+    "exampleEn": "In every project imponderables remain.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "analyse",
+      "wirtschaft"
+    ]
+  },
+  {
+    "id": "w_c1_020",
+    "de": "der Trugschluss",
+    "article": "der",
+    "ru": "ложный вывод, заблуждение",
+    "en": "fallacy",
+    "exampleDe": "Es ist ein Trugschluss, dass Alter allein Weisheit bringt.",
+    "exampleRu": "Ложный вывод, будто один лишь возраст приносит мудрость.",
+    "exampleEn": "It is a fallacy that age alone brings wisdom.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "argumentation",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_c1_021",
+    "de": "die Achtsamkeit",
+    "article": "die",
+    "ru": "осознанность, внимательность",
+    "en": "mindfulness",
+    "exampleDe": "Achtsamkeit hilft gegen Stress im Alltag.",
+    "exampleRu": "Осознанность помогает от повседневного стресса.",
+    "exampleEn": "Mindfulness helps against everyday stress.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "psychologie",
+      "gesundheit"
+    ]
+  },
+  {
+    "id": "w_c1_022",
+    "de": "die Verzahnung",
+    "article": "die",
+    "ru": "взаимосвязанность, сцепление",
+    "en": "interlocking, integration",
+    "exampleDe": "Die Verzahnung von Schule und Betrieb funktioniert gut.",
+    "exampleRu": "Взаимосвязь школы и предприятия работает хорошо.",
+    "exampleEn": "The integration of school and company works well.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "arbeit",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_023",
+    "de": "die Anmaßung",
+    "article": "die",
+    "ru": "притязание, самонадеянность",
+    "en": "presumption, arrogance",
+    "exampleDe": "Es wäre eine Anmaßung, darüber zu urteilen.",
+    "exampleRu": "Было бы самонадеянно об этом судить.",
+    "exampleEn": "It would be a presumption to judge that.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "menschen",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_024",
+    "de": "die Zuspitzung",
+    "article": "die",
+    "ru": "обострение, заострение",
+    "en": "escalation, sharpening",
+    "exampleDe": "Die Zuspitzung des Konflikts war absehbar.",
+    "exampleRu": "Обострение конфликта было предсказуемо.",
+    "exampleEn": "The escalation of the conflict was foreseeable.",
+    "level": "C1",
+    "tags": [
+      "substantiv",
+      "politik",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_c1_025",
+    "de": "ergründen",
+    "article": "",
+    "ru": "доискиваться, постигать",
+    "en": "to fathom, to get to the bottom of",
+    "exampleDe": "Die Forscher versuchen, die Ursache zu ergründen.",
+    "exampleRu": "Исследователи пытаются постичь причину.",
+    "exampleEn": "The researchers are trying to fathom the cause.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "wissenschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_026",
+    "de": "beschwichtigen",
+    "article": "",
+    "ru": "успокаивать, унимать",
+    "en": "to appease, to placate",
+    "exampleDe": "Der Sprecher versuchte, die Kritiker zu beschwichtigen.",
+    "exampleRu": "Представитель пытался успокоить критиков.",
+    "exampleEn": "The spokesman tried to placate the critics.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "kommunikation",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_c1_027",
+    "de": "untermalen",
+    "article": "",
+    "ru": "сопровождать (музыкой), оттенять",
+    "en": "to accompany, to underscore",
+    "exampleDe": "Leise Musik untermalt den Film.",
+    "exampleRu": "Тихая музыка сопровождает фильм.",
+    "exampleEn": "Quiet music underscores the film.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "kultur",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_c1_028",
+    "de": "aufschlüsseln",
+    "article": "",
+    "ru": "детализировать, разбивать (по статьям)",
+    "en": "to break down, to itemise",
+    "exampleDe": "Bitte schlüsseln Sie die Kosten genau auf.",
+    "exampleRu": "Пожалуйста, детально распишите расходы.",
+    "exampleEn": "Please break down the costs precisely.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "trennbar",
+      "wirtschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_029",
+    "de": "relativieren",
+    "article": "",
+    "ru": "релятивизировать, смягчать",
+    "en": "to put into perspective, to qualify",
+    "exampleDe": "Er relativierte seine Aussage am nächsten Tag.",
+    "exampleRu": "На следующий день он смягчил своё высказывание.",
+    "exampleEn": "He qualified his statement the next day.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "argumentation",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_c1_030",
+    "de": "verschleiern",
+    "article": "",
+    "ru": "затушёвывать, скрывать",
+    "en": "to obscure, to disguise",
+    "exampleDe": "Die Zahlen verschleiern das eigentliche Problem.",
+    "exampleRu": "Цифры затушёвывают настоящую проблему.",
+    "exampleEn": "The figures obscure the real problem.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "politik",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_031",
+    "de": "ausloten",
+    "article": "",
+    "ru": "прощупывать, зондировать",
+    "en": "to sound out, to explore",
+    "exampleDe": "Beide Seiten loten die Möglichkeiten aus.",
+    "exampleRu": "Обе стороны прощупывают возможности.",
+    "exampleEn": "Both sides are sounding out the possibilities.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "trennbar",
+      "arbeit",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_c1_032",
+    "de": "bekräftigen",
+    "article": "",
+    "ru": "подтверждать, подкреплять",
+    "en": "to affirm, to reaffirm",
+    "exampleDe": "Sie bekräftigte ihre Zusage noch einmal.",
+    "exampleRu": "Она ещё раз подтвердила своё согласие.",
+    "exampleEn": "She reaffirmed her commitment once more.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "kommunikation",
+      "politik"
+    ]
+  },
+  {
+    "id": "w_c1_033",
+    "de": "unterlaufen",
+    "article": "",
+    "ru": "обходить (правила); случаться (об ошибке)",
+    "en": "to circumvent; to slip in",
+    "exampleDe": "Mir ist ein dummer Fehler unterlaufen.",
+    "exampleRu": "У меня вышла глупая ошибка.",
+    "exampleEn": "A silly mistake slipped in on my part.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "recht",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_c1_034",
+    "de": "zurückführen",
+    "article": "",
+    "ru": "сводить (к причине); возвращать",
+    "en": "to attribute; to lead back",
+    "exampleDe": "Den Erfolg führt sie auf harte Arbeit zurück.",
+    "exampleRu": "Успех она объясняет упорной работой.",
+    "exampleEn": "She attributes the success to hard work.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "trennbar",
+      "analyse",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_c1_035",
+    "de": "obliegen",
+    "article": "",
+    "ru": "возлагаться на, лежать на (об обязанности)",
+    "en": "to be incumbent upon",
+    "exampleDe": "Die Entscheidung obliegt dem Vorstand.",
+    "exampleRu": "Решение возлагается на правление.",
+    "exampleEn": "The decision is incumbent upon the board.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "recht",
+      "arbeit"
+    ]
+  },
+  {
+    "id": "w_c1_036",
+    "de": "anhaften",
+    "article": "",
+    "ru": "быть присущим; прилипать",
+    "en": "to cling to, to be attached to",
+    "exampleDe": "Dem Projekt haftet ein schlechter Ruf an.",
+    "exampleRu": "За проектом закрепилась дурная слава.",
+    "exampleEn": "A bad reputation clings to the project.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "trennbar",
+      "analyse",
+      "gesellschaft"
+    ]
+  },
+  {
+    "id": "w_c1_037",
+    "de": "durchdringen",
+    "article": "",
+    "ru": "проникать; пробиваться",
+    "en": "to penetrate, to permeate",
+    "exampleDe": "Das Licht durchdringt den dichten Nebel.",
+    "exampleRu": "Свет пронизывает густой туман.",
+    "exampleEn": "The light penetrates the dense fog.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "wissenschaft",
+      "analyse"
+    ]
+  },
+  {
+    "id": "w_c1_038",
+    "de": "abschweifen",
+    "article": "",
+    "ru": "отклоняться (от темы)",
+    "en": "to digress",
+    "exampleDe": "Entschuldigung, ich bin vom Thema abgeschweift.",
+    "exampleRu": "Извините, я отклонился от темы.",
+    "exampleEn": "Sorry, I have digressed from the topic.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "trennbar",
+      "kommunikation",
+      "diskussion"
+    ]
+  },
+  {
+    "id": "w_c1_039",
+    "de": "schwelgen",
+    "article": "",
+    "ru": "упиваться, предаваться",
+    "en": "to revel, to indulge",
+    "exampleDe": "Sie schwelgen in Erinnerungen an die Studienzeit.",
+    "exampleRu": "Они предаются воспоминаниям о студенческих годах.",
+    "exampleEn": "They revel in memories of their student days.",
+    "level": "C1",
+    "tags": [
+      "verb",
+      "gefühle",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_c1_040",
+    "de": "unabdingbar",
+    "article": "",
+    "ru": "непременный, обязательный",
+    "en": "indispensable",
+    "exampleDe": "Vertrauen ist für die Zusammenarbeit unabdingbar.",
+    "exampleRu": "Доверие непременно для сотрудничества.",
+    "exampleEn": "Trust is indispensable for cooperation.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "recht"
+    ]
+  },
+  {
+    "id": "w_c1_041",
+    "de": "schlagfertig",
+    "article": "",
+    "ru": "находчивый (в ответах)",
+    "en": "quick-witted",
+    "exampleDe": "Sie ist erstaunlich schlagfertig.",
+    "exampleRu": "Она удивительно находчива.",
+    "exampleEn": "She is astonishingly quick-witted.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "kommunikation",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_c1_042",
+    "de": "kleinlich",
+    "article": "",
+    "ru": "мелочный",
+    "en": "petty",
+    "exampleDe": "Sei nicht so kleinlich wegen zwei Euro.",
+    "exampleRu": "Не будь таким мелочным из-за двух евро.",
+    "exampleEn": "Don't be so petty about two euros.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_043",
+    "de": "vielschichtig",
+    "article": "",
+    "ru": "многослойный, многогранный",
+    "en": "multi-layered, complex",
+    "exampleDe": "Das Problem ist vielschichtiger als gedacht.",
+    "exampleRu": "Проблема многослойнее, чем казалось.",
+    "exampleEn": "The problem is more complex than thought.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "analyse",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_c1_044",
+    "de": "unverhohlen",
+    "article": "",
+    "ru": "нескрываемый, откровенный",
+    "en": "undisguised, open",
+    "exampleDe": "Er zeigte unverhohlen seinen Ärger.",
+    "exampleRu": "Он нескрываемо показал своё раздражение.",
+    "exampleEn": "He showed his annoyance undisguisedly.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "gefühle",
+      "kommunikation"
+    ]
+  },
+  {
+    "id": "w_c1_045",
+    "de": "abwegig",
+    "article": "",
+    "ru": "нелепый, надуманный",
+    "en": "far-fetched, absurd",
+    "exampleDe": "Diese Vermutung ist nicht ganz abwegig.",
+    "exampleRu": "Это предположение не такое уж надуманное.",
+    "exampleEn": "This assumption is not entirely far-fetched.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "argumentation",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_046",
+    "de": "stichhaltig",
+    "article": "",
+    "ru": "убедительный, состоятельный (о доводе)",
+    "en": "valid, sound",
+    "exampleDe": "Für diese These fehlen stichhaltige Belege.",
+    "exampleRu": "Для этого тезиса не хватает убедительных доказательств.",
+    "exampleEn": "There is no sound evidence for this thesis.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "argumentation",
+      "wissenschaft"
+    ]
+  },
+  {
+    "id": "w_c1_047",
+    "de": "gewissenhaft",
+    "article": "",
+    "ru": "добросовестный",
+    "en": "conscientious",
+    "exampleDe": "Sie arbeitet außerordentlich gewissenhaft.",
+    "exampleRu": "Она работает исключительно добросовестно.",
+    "exampleEn": "She works extraordinarily conscientiously.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "arbeit",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_c1_048",
+    "de": "überheblich",
+    "article": "",
+    "ru": "высокомерный",
+    "en": "arrogant, condescending",
+    "exampleDe": "Sein überhebliches Auftreten stört viele.",
+    "exampleRu": "Его высокомерная манера многих раздражает.",
+    "exampleEn": "His arrogant manner bothers many people.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_049",
+    "de": "lapidar",
+    "article": "",
+    "ru": "лапидарный, лаконичный",
+    "en": "terse, laconic",
+    "exampleDe": "Seine Antwort war lapidar: „Nein.“",
+    "exampleRu": "Его ответ был лаконичным: «Нет».",
+    "exampleEn": "His answer was terse: \"No.\"",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "kommunikation",
+      "kultur"
+    ]
+  },
+  {
+    "id": "w_c1_050",
+    "de": "nüchtern",
+    "article": "",
+    "ru": "трезвый; деловой, беспристрастный",
+    "en": "sober; matter-of-fact",
+    "exampleDe": "Betrachten wir die Lage einmal ganz nüchtern.",
+    "exampleRu": "Посмотрим на ситуацию совершенно трезво.",
+    "exampleEn": "Let us look at the situation quite soberly.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "analyse",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_051",
+    "de": "fadenscheinig",
+    "article": "",
+    "ru": "неубедительный, шитый белыми нитками",
+    "en": "flimsy, threadbare",
+    "exampleDe": "Er entschuldigte sich mit fadenscheinigen Gründen.",
+    "exampleRu": "Он оправдывался неубедительными доводами.",
+    "exampleEn": "He excused himself with flimsy reasons.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "argumentation",
+      "bewertung"
+    ]
+  },
+  {
+    "id": "w_c1_052",
+    "de": "zwanglos",
+    "article": "",
+    "ru": "непринуждённый, неформальный",
+    "en": "informal, relaxed",
+    "exampleDe": "Wir treffen uns in zwangloser Runde.",
+    "exampleRu": "Мы встречаемся в непринуждённой обстановке.",
+    "exampleEn": "We meet in an informal setting.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "gesellschaft",
+      "menschen"
+    ]
+  },
+  {
+    "id": "w_c1_053",
+    "de": "unbedarft",
+    "article": "",
+    "ru": "простодушный, неискушённый",
+    "en": "naive, unversed",
+    "exampleDe": "Er ging ziemlich unbedarft an die Aufgabe heran.",
+    "exampleRu": "Он подошёл к задаче довольно неискушённо.",
+    "exampleEn": "He approached the task rather naively.",
+    "level": "C1",
+    "tags": [
+      "adjektiv",
+      "menschen",
+      "bewertung"
+    ]
+  }
+]

@@ -1,0 +1,5408 @@
+{
+  "w_c1_001": {
+    "examples": [
+      {
+        "de": "Ihr Sprachgefühl hat sie durch viele Prüfungen getragen.",
+        "ru": "Её языковое чутьё провело её через многие экзамены.",
+        "en": "Her feel for language carried her through many exams."
+      },
+      {
+        "de": "Sprachgefühl entwickelt sich vor allem durch Lesen.",
+        "ru": "Языковое чутьё развивается прежде всего чтением.",
+        "en": "A feel for language develops above all through reading."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Sprache",
+        "ru": "язык",
+        "en": "language",
+        "example": {
+          "de": "Die Sprache verändert sich mit jeder Generation.",
+          "ru": "Язык меняется с каждым поколением.",
+          "en": "Language changes with every generation."
+        }
+      },
+      {
+        "de": "sprachlich",
+        "ru": "языковой",
+        "en": "linguistic",
+        "example": {
+          "de": "Sprachlich ist der Text tadellos.",
+          "ru": "В языковом отношении текст безупречен.",
+          "en": "Linguistically the text is flawless."
+        }
+      },
+      {
+        "de": "das Feingefühl",
+        "ru": "тонкое чутьё",
+        "en": "sensitivity",
+        "example": {
+          "de": "Für dieses Gespräch braucht es Feingefühl.",
+          "ru": "Для этого разговора нужно тонкое чутьё.",
+          "en": "This conversation calls for sensitivity."
+        }
+      },
+      {
+        "de": "der Sprachgebrauch",
+        "ru": "словоупотребление",
+        "en": "usage",
+        "example": {
+          "de": "Im allgemeinen Sprachgebrauch heißt es anders.",
+          "ru": "В общем словоупотреблении это звучит иначе.",
+          "en": "In general usage it is put differently."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "das Sprachempfinden",
+        "ru": "языковое восприятие",
+        "en": "linguistic intuition"
+      },
+      {
+        "de": "die Sprachintuition",
+        "ru": "языковая интуиция",
+        "en": "language intuition"
+      },
+      {
+        "de": "das Stilgefühl",
+        "ru": "чувство стиля",
+        "en": "sense of style"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Sprachunsicherheit",
+        "ru": "языковая неуверенность",
+        "en": "linguistic insecurity"
+      },
+      {
+        "de": "die Schwerfälligkeit",
+        "ru": "неуклюжесть",
+        "en": "clumsiness"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "ein gutes Sprachgefühl haben",
+        "ru": "иметь хорошее языковое чутьё",
+        "en": "to have a good feel for language"
+      },
+      {
+        "de": "sein Sprachgefühl schulen",
+        "ru": "развивать языковое чутьё",
+        "en": "to train one's feel for language"
+      },
+      {
+        "de": "dem Sprachgefühl widersprechen",
+        "ru": "противоречить языковому чутью",
+        "en": "to go against one's feel for the language"
+      }
+    ]
+  },
+  "w_c1_002": {
+    "examples": [
+      {
+        "de": "Der Zwiespalt zwischen Pflicht und Neigung ist alt.",
+        "ru": "Разлад между долгом и склонностью стар как мир.",
+        "en": "The conflict between duty and inclination is an old one."
+      },
+      {
+        "de": "Aus diesem Zwiespalt fand er lange keinen Ausweg.",
+        "ru": "Из этого разлада он долго не находил выхода.",
+        "en": "For a long time he found no way out of this dilemma."
+      }
+    ],
+    "family": [
+      {
+        "de": "zwiespältig",
+        "ru": "двойственный",
+        "en": "ambivalent",
+        "example": {
+          "de": "Die Reaktionen waren zwiespältig.",
+          "ru": "Реакции были двойственными.",
+          "en": "The reactions were ambivalent."
+        }
+      },
+      {
+        "de": "spalten",
+        "ru": "раскалывать",
+        "en": "to split",
+        "example": {
+          "de": "Das Thema spaltet die Gesellschaft.",
+          "ru": "Эта тема раскалывает общество.",
+          "en": "The topic splits society."
+        }
+      },
+      {
+        "de": "der Konflikt",
+        "ru": "конфликт",
+        "en": "conflict",
+        "example": {
+          "de": "Der Konflikt schwelt seit Jahren.",
+          "ru": "Конфликт тлеет уже годами.",
+          "en": "The conflict has been smouldering for years."
+        }
+      },
+      {
+        "de": "die Zerrissenheit",
+        "ru": "внутренняя разорванность",
+        "en": "inner turmoil",
+        "example": {
+          "de": "Seine Zerrissenheit prägt das ganze Buch.",
+          "ru": "Его внутренняя разорванность определяет всю книгу.",
+          "en": "His inner turmoil shapes the whole book."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "das Dilemma",
+        "ru": "дилемма",
+        "en": "dilemma"
+      },
+      {
+        "de": "die Ambivalenz",
+        "ru": "амбивалентность",
+        "en": "ambivalence"
+      },
+      {
+        "de": "die Zerrissenheit",
+        "ru": "разорванность",
+        "en": "inner division"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Eindeutigkeit",
+        "ru": "однозначность",
+        "en": "clarity"
+      },
+      {
+        "de": "die Entschlossenheit",
+        "ru": "решимость",
+        "en": "determination"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "in einem Zwiespalt stecken",
+        "ru": "находиться в разладе с собой",
+        "en": "to be torn"
+      },
+      {
+        "de": "einen inneren Zwiespalt spüren",
+        "ru": "ощущать внутренний разлад",
+        "en": "to feel an inner conflict"
+      },
+      {
+        "de": "den Zwiespalt auflösen",
+        "ru": "разрешить внутренний конфликт",
+        "en": "to resolve the dilemma"
+      }
+    ]
+  },
+  "w_c1_003": {
+    "examples": [
+      {
+        "de": "Gegen den neuen Kollegen hatte sie keinerlei Vorbehalte.",
+        "ru": "По отношению к новому коллеге у неё не было никаких предубеждений.",
+        "en": "She had no reservations at all about the new colleague."
+      },
+      {
+        "de": "Alle Angaben stehen unter dem Vorbehalt der Prüfung.",
+        "ru": "Все данные приводятся с оговоркой о проверке.",
+        "en": "All figures are subject to verification."
+      }
+    ],
+    "family": [
+      {
+        "de": "vorbehalten",
+        "ru": "оставлять за собой",
+        "en": "to reserve",
+        "example": {
+          "de": "Alle Rechte vorbehalten.",
+          "ru": "Все права защищены.",
+          "en": "All rights reserved."
+        }
+      },
+      {
+        "de": "vorbehaltlos",
+        "ru": "безоговорочный",
+        "en": "unreserved",
+        "example": {
+          "de": "Sie unterstützte ihn vorbehaltlos.",
+          "ru": "Она поддержала его безоговорочно.",
+          "en": "She supported him unreservedly."
+        }
+      },
+      {
+        "de": "behalten",
+        "ru": "оставлять себе, сохранять",
+        "en": "to keep",
+        "example": {
+          "de": "Behalte den Rest als Trinkgeld.",
+          "ru": "Оставь сдачу как чаевые.",
+          "en": "Keep the rest as a tip."
+        }
+      },
+      {
+        "de": "der Einwand",
+        "ru": "возражение",
+        "en": "objection",
+        "example": {
+          "de": "Sein Einwand war berechtigt.",
+          "ru": "Его возражение было обоснованным.",
+          "en": "His objection was justified."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "das Bedenken",
+        "ru": "сомнение, опасение",
+        "en": "misgiving"
+      },
+      {
+        "de": "die Einschränkung",
+        "ru": "ограничение",
+        "en": "qualification"
+      },
+      {
+        "de": "die Klausel",
+        "ru": "оговорка (в договоре)",
+        "en": "clause"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Zustimmung",
+        "ru": "согласие",
+        "en": "consent"
+      },
+      {
+        "de": "die Offenheit",
+        "ru": "открытость",
+        "en": "openness"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "unter Vorbehalt",
+        "ru": "с оговоркой",
+        "en": "subject to reservation"
+      },
+      {
+        "de": "Vorbehalte gegen jemanden haben",
+        "ru": "иметь предубеждение против кого-то",
+        "en": "to have reservations about someone"
+      },
+      {
+        "de": "ohne jeden Vorbehalt",
+        "ru": "без всяких оговорок",
+        "en": "without any reservation"
+      }
+    ]
+  },
+  "w_c1_004": {
+    "examples": [
+      {
+        "de": "Die Straße hat ein starkes Gefälle.",
+        "ru": "У дороги сильный уклон.",
+        "en": "The road has a steep gradient."
+      },
+      {
+        "de": "Das soziale Gefälle wächst seit Jahren.",
+        "ru": "Социальный разрыв растёт уже годами.",
+        "en": "The social disparity has been growing for years."
+      }
+    ],
+    "family": [
+      {
+        "de": "fallen",
+        "ru": "падать",
+        "en": "to fall",
+        "example": {
+          "de": "Die Preise fallen langsam.",
+          "ru": "Цены медленно падают.",
+          "en": "Prices are falling slowly."
+        }
+      },
+      {
+        "de": "abfallen",
+        "ru": "снижаться, опускаться",
+        "en": "to slope down",
+        "example": {
+          "de": "Das Gelände fällt nach Süden ab.",
+          "ru": "Местность понижается к югу.",
+          "en": "The terrain slopes down to the south."
+        }
+      },
+      {
+        "de": "die Kluft",
+        "ru": "пропасть, разрыв",
+        "en": "gulf",
+        "example": {
+          "de": "Die Kluft zwischen Arm und Reich ist groß.",
+          "ru": "Пропасть между бедными и богатыми велика.",
+          "en": "The gulf between rich and poor is wide."
+        }
+      },
+      {
+        "de": "der Höhenunterschied",
+        "ru": "перепад высот",
+        "en": "difference in altitude",
+        "example": {
+          "de": "Der Höhenunterschied beträgt 200 Meter.",
+          "ru": "Перепад высот составляет 200 метров.",
+          "en": "The difference in altitude is 200 metres."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Kluft",
+        "ru": "разрыв",
+        "en": "gap"
+      },
+      {
+        "de": "der Unterschied",
+        "ru": "различие",
+        "en": "difference"
+      },
+      {
+        "de": "die Neigung",
+        "ru": "наклон",
+        "en": "incline"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Ebene",
+        "ru": "равнина, ровная поверхность",
+        "en": "level ground"
+      },
+      {
+        "de": "der Ausgleich",
+        "ru": "выравнивание",
+        "en": "balance"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "ein starkes Gefälle aufweisen",
+        "ru": "иметь сильный перепад",
+        "en": "to show a steep gradient"
+      },
+      {
+        "de": "das soziale Gefälle",
+        "ru": "социальный разрыв",
+        "en": "the social divide"
+      },
+      {
+        "de": "ein Gefälle ausgleichen",
+        "ru": "выравнивать перепад",
+        "en": "to level out a disparity"
+      }
+    ]
+  },
+  "w_c1_005": {
+    "examples": [
+      {
+        "de": "Der Wechsel bedeutet für die Firma eine Zäsur.",
+        "ru": "Эта смена означает для фирмы рубеж.",
+        "en": "The change marks a caesura for the company."
+      },
+      {
+        "de": "Nach dieser Zäsur begann ein neuer Abschnitt.",
+        "ru": "После этого рубежа начался новый этап.",
+        "en": "After this caesura a new chapter began."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Einschnitt",
+        "ru": "перелом, надрез",
+        "en": "incision, break",
+        "example": {
+          "de": "Die Reform war ein tiefer Einschnitt.",
+          "ru": "Реформа стала глубоким переломом.",
+          "en": "The reform was a deep break."
+        }
+      },
+      {
+        "de": "der Wendepunkt",
+        "ru": "поворотный пункт",
+        "en": "turning point",
+        "example": {
+          "de": "Das Gespräch war der Wendepunkt.",
+          "ru": "Разговор стал поворотным пунктом.",
+          "en": "The conversation was the turning point."
+        }
+      },
+      {
+        "de": "unterbrechen",
+        "ru": "прерывать",
+        "en": "to interrupt",
+        "example": {
+          "de": "Bitte unterbrich mich nicht ständig.",
+          "ru": "Пожалуйста, не перебивай меня постоянно.",
+          "en": "Please don't interrupt me all the time."
+        }
+      },
+      {
+        "de": "die Epoche",
+        "ru": "эпоха",
+        "en": "era",
+        "example": {
+          "de": "Eine neue Epoche brach an.",
+          "ru": "Началась новая эпоха.",
+          "en": "A new era began."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "der Einschnitt",
+        "ru": "перелом",
+        "en": "break"
+      },
+      {
+        "de": "die Wende",
+        "ru": "поворот",
+        "en": "turning point"
+      },
+      {
+        "de": "der Bruch",
+        "ru": "разрыв",
+        "en": "rupture"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Kontinuität",
+        "ru": "непрерывность",
+        "en": "continuity"
+      },
+      {
+        "de": "der Übergang",
+        "ru": "плавный переход",
+        "en": "smooth transition"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine Zäsur bedeuten",
+        "ru": "означать перелом",
+        "en": "to mark a caesura"
+      },
+      {
+        "de": "eine historische Zäsur",
+        "ru": "исторический рубеж",
+        "en": "a historic turning point"
+      },
+      {
+        "de": "eine Zäsur setzen",
+        "ru": "поставить рубеж",
+        "en": "to set a caesura"
+      }
+    ]
+  },
+  "w_c1_006": {
+    "examples": [
+      {
+        "de": "Jede Freiheit hat auch ihre Kehrseite.",
+        "ru": "У каждой свободы есть и оборотная сторона.",
+        "en": "Every freedom has its flip side too."
+      },
+      {
+        "de": "Über die Kehrseite spricht man selten.",
+        "ru": "Об оборотной стороне говорят редко.",
+        "en": "People rarely talk about the downside."
+      }
+    ],
+    "family": [
+      {
+        "de": "kehren",
+        "ru": "поворачивать; мести",
+        "en": "to turn; to sweep",
+        "example": {
+          "de": "Er kehrte den Blick zur Seite.",
+          "ru": "Он отвёл взгляд в сторону.",
+          "en": "He turned his gaze aside."
+        }
+      },
+      {
+        "de": "die Seite",
+        "ru": "сторона, страница",
+        "en": "side, page",
+        "example": {
+          "de": "Auf der anderen Seite steht die Antwort.",
+          "ru": "Ответ на другой стороне.",
+          "en": "The answer is on the other side."
+        }
+      },
+      {
+        "de": "umkehren",
+        "ru": "поворачивать назад",
+        "en": "to turn back",
+        "example": {
+          "de": "Bei Regen kehren wir um.",
+          "ru": "Если пойдёт дождь, мы повернём назад.",
+          "en": "If it rains we will turn back."
+        }
+      },
+      {
+        "de": "die Rückseite",
+        "ru": "обратная сторона",
+        "en": "reverse side",
+        "example": {
+          "de": "Die Rückseite ist leer.",
+          "ru": "Обратная сторона пустая.",
+          "en": "The reverse side is blank."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "der Nachteil",
+        "ru": "недостаток",
+        "en": "drawback"
+      },
+      {
+        "de": "der Haken",
+        "ru": "загвоздка",
+        "en": "catch"
+      },
+      {
+        "de": "die Schattenseite",
+        "ru": "теневая сторона",
+        "en": "dark side"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "der Vorteil",
+        "ru": "преимущество",
+        "en": "advantage"
+      },
+      {
+        "de": "die Sonnenseite",
+        "ru": "светлая сторона",
+        "en": "bright side"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "die Kehrseite der Medaille",
+        "ru": "оборотная сторона медали",
+        "en": "the other side of the coin"
+      },
+      {
+        "de": "eine Kehrseite haben",
+        "ru": "иметь обратную сторону",
+        "en": "to have a downside"
+      },
+      {
+        "de": "die Kehrseite übersehen",
+        "ru": "не замечать оборотной стороны",
+        "en": "to overlook the downside"
+      }
+    ]
+  },
+  "w_c1_007": {
+    "examples": [
+      {
+        "de": "Ein Fehler von dieser Tragweite passiert selten.",
+        "ru": "Ошибка такого масштаба случается редко.",
+        "en": "A mistake of this scope happens rarely."
+      },
+      {
+        "de": "Erst später erkannte man die volle Tragweite.",
+        "ru": "Лишь позже осознали весь масштаб.",
+        "en": "Only later was the full significance recognised."
+      }
+    ],
+    "family": [
+      {
+        "de": "tragen",
+        "ru": "нести",
+        "en": "to carry",
+        "example": {
+          "de": "Er trägt die Verantwortung allein.",
+          "ru": "Он несёт ответственность один.",
+          "en": "He carries the responsibility alone."
+        }
+      },
+      {
+        "de": "weitreichend",
+        "ru": "далеко идущий",
+        "en": "far-reaching",
+        "example": {
+          "de": "Die Folgen sind weitreichend.",
+          "ru": "Последствия далеко идущие.",
+          "en": "The consequences are far-reaching."
+        }
+      },
+      {
+        "de": "die Weite",
+        "ru": "ширь, дальность",
+        "en": "expanse",
+        "example": {
+          "de": "Vor uns lag die Weite des Meeres.",
+          "ru": "Перед нами лежала морская ширь.",
+          "en": "The expanse of the sea lay before us."
+        }
+      },
+      {
+        "de": "die Folge",
+        "ru": "последствие",
+        "en": "consequence",
+        "example": {
+          "de": "Die Folgen zeigen sich erst später.",
+          "ru": "Последствия проявляются лишь позже.",
+          "en": "The consequences only show later."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Bedeutung",
+        "ru": "значение",
+        "en": "importance"
+      },
+      {
+        "de": "das Ausmaß",
+        "ru": "масштаб",
+        "en": "extent"
+      },
+      {
+        "de": "die Reichweite",
+        "ru": "охват",
+        "en": "reach"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Belanglosigkeit",
+        "ru": "незначительность",
+        "en": "insignificance"
+      },
+      {
+        "de": "die Nebensächlichkeit",
+        "ru": "второстепенность",
+        "en": "triviality"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "die Tragweite erkennen",
+        "ru": "осознать масштаб",
+        "en": "to recognise the significance"
+      },
+      {
+        "de": "von großer Tragweite",
+        "ru": "имеющий большое значение",
+        "en": "of great significance"
+      },
+      {
+        "de": "die Tragweite unterschätzen",
+        "ru": "недооценивать масштаб",
+        "en": "to underestimate the scope"
+      }
+    ]
+  },
+  "w_c1_008": {
+    "examples": [
+      {
+        "de": "Die Prüfer stießen auf kleinere Ungereimtheiten.",
+        "ru": "Проверяющие наткнулись на мелкие нестыковки.",
+        "en": "The auditors came across minor inconsistencies."
+      },
+      {
+        "de": "Diese Ungereimtheit muss noch geklärt werden.",
+        "ru": "Эту нестыковку ещё нужно прояснить.",
+        "en": "This inconsistency still needs to be clarified."
+      }
+    ],
+    "family": [
+      {
+        "de": "ungereimt",
+        "ru": "несуразный",
+        "en": "incoherent",
+        "example": {
+          "de": "Er erzählte ungereimtes Zeug.",
+          "ru": "Он рассказывал несуразные вещи.",
+          "en": "He told incoherent nonsense."
+        }
+      },
+      {
+        "de": "sich reimen",
+        "ru": "рифмоваться; сходиться",
+        "en": "to rhyme; to add up",
+        "example": {
+          "de": "Das reimt sich nicht mit den Fakten.",
+          "ru": "Это не вяжется с фактами.",
+          "en": "That does not square with the facts."
+        }
+      },
+      {
+        "de": "der Widerspruch",
+        "ru": "противоречие",
+        "en": "contradiction",
+        "example": {
+          "de": "Der Widerspruch fiel sofort auf.",
+          "ru": "Противоречие сразу бросилось в глаза.",
+          "en": "The contradiction was immediately noticeable."
+        }
+      },
+      {
+        "de": "stimmig",
+        "ru": "стройный, согласованный",
+        "en": "coherent",
+        "example": {
+          "de": "Das Konzept wirkt stimmig.",
+          "ru": "Концепция выглядит стройной.",
+          "en": "The concept comes across as coherent."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "der Widerspruch",
+        "ru": "противоречие",
+        "en": "contradiction"
+      },
+      {
+        "de": "die Unstimmigkeit",
+        "ru": "расхождение",
+        "en": "discrepancy"
+      },
+      {
+        "de": "der Fehler",
+        "ru": "ошибка",
+        "en": "flaw"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Stimmigkeit",
+        "ru": "согласованность",
+        "en": "coherence"
+      },
+      {
+        "de": "die Logik",
+        "ru": "логика",
+        "en": "logic"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "auf Ungereimtheiten stoßen",
+        "ru": "натолкнуться на нестыковки",
+        "en": "to come across inconsistencies"
+      },
+      {
+        "de": "Ungereimtheiten aufklären",
+        "ru": "прояснить нестыковки",
+        "en": "to clear up inconsistencies"
+      },
+      {
+        "de": "voller Ungereimtheiten",
+        "ru": "полный несуразностей",
+        "en": "full of inconsistencies"
+      }
+    ]
+  },
+  "w_c1_009": {
+    "examples": [
+      {
+        "de": "Eine solche Verquickung von Interessen ist unzulässig.",
+        "ru": "Такое переплетение интересов недопустимо.",
+        "en": "Such an entanglement of interests is inadmissible."
+      },
+      {
+        "de": "Die Verquickung beider Fragen führt in die Irre.",
+        "ru": "Смешение обоих вопросов вводит в заблуждение.",
+        "en": "Conflating the two questions is misleading."
+      }
+    ],
+    "family": [
+      {
+        "de": "verquicken",
+        "ru": "смешивать, переплетать",
+        "en": "to conflate",
+        "example": {
+          "de": "Man sollte diese Themen nicht verquicken.",
+          "ru": "Эти темы не стоит смешивать.",
+          "en": "These topics should not be conflated."
+        }
+      },
+      {
+        "de": "die Verflechtung",
+        "ru": "переплетение",
+        "en": "interlinking",
+        "example": {
+          "de": "Die Verflechtung der Märkte nimmt zu.",
+          "ru": "Переплетение рынков усиливается.",
+          "en": "The interlinking of markets is increasing."
+        }
+      },
+      {
+        "de": "vermischen",
+        "ru": "смешивать",
+        "en": "to mix",
+        "example": {
+          "de": "Er vermischt Meinung und Bericht.",
+          "ru": "Он смешивает мнение и репортаж.",
+          "en": "He mixes opinion and reporting."
+        }
+      },
+      {
+        "de": "der Interessenkonflikt",
+        "ru": "конфликт интересов",
+        "en": "conflict of interest",
+        "example": {
+          "de": "Hier liegt ein Interessenkonflikt vor.",
+          "ru": "Здесь налицо конфликт интересов.",
+          "en": "There is a conflict of interest here."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Vermischung",
+        "ru": "смешение",
+        "en": "mixing"
+      },
+      {
+        "de": "die Verflechtung",
+        "ru": "сплетение",
+        "en": "interweaving"
+      },
+      {
+        "de": "die Verknüpfung",
+        "ru": "связывание",
+        "en": "linkage"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Trennung",
+        "ru": "разделение",
+        "en": "separation"
+      },
+      {
+        "de": "die Abgrenzung",
+        "ru": "размежевание",
+        "en": "demarcation"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine unzulässige Verquickung",
+        "ru": "недопустимое смешение",
+        "en": "an inadmissible entanglement"
+      },
+      {
+        "de": "die Verquickung von Interessen",
+        "ru": "переплетение интересов",
+        "en": "the entanglement of interests"
+      },
+      {
+        "de": "jede Verquickung vermeiden",
+        "ru": "избегать любого смешения",
+        "en": "to avoid any conflation"
+      }
+    ]
+  },
+  "w_c1_010": {
+    "examples": [
+      {
+        "de": "Der wahre Beweggrund war wohl das Geld.",
+        "ru": "Настоящим мотивом были, вероятно, деньги.",
+        "en": "The real motive was probably the money."
+      },
+      {
+        "de": "Man muss die Beweggründe der Menschen verstehen.",
+        "ru": "Нужно понимать мотивы людей.",
+        "en": "One has to understand people's motives."
+      }
+    ],
+    "family": [
+      {
+        "de": "bewegen",
+        "ru": "двигать; побуждать",
+        "en": "to move",
+        "example": {
+          "de": "Was hat dich dazu bewegt?",
+          "ru": "Что тебя к этому побудило?",
+          "en": "What moved you to do it?"
+        }
+      },
+      {
+        "de": "der Grund",
+        "ru": "причина",
+        "en": "reason",
+        "example": {
+          "de": "Dafür gibt es einen guten Grund.",
+          "ru": "Для этого есть веская причина.",
+          "en": "There is a good reason for that."
+        }
+      },
+      {
+        "de": "das Motiv",
+        "ru": "мотив",
+        "en": "motive",
+        "example": {
+          "de": "Das Motiv der Tat ist unklar.",
+          "ru": "Мотив преступления неясен.",
+          "en": "The motive for the crime is unclear."
+        }
+      },
+      {
+        "de": "die Absicht",
+        "ru": "намерение",
+        "en": "intention",
+        "example": {
+          "de": "Seine Absicht war ehrlich.",
+          "ru": "Его намерение было честным.",
+          "en": "His intention was honest."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "das Motiv",
+        "ru": "мотив",
+        "en": "motive"
+      },
+      {
+        "de": "der Antrieb",
+        "ru": "побуждение",
+        "en": "drive"
+      },
+      {
+        "de": "die Triebfeder",
+        "ru": "движущая пружина",
+        "en": "mainspring"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Folge",
+        "ru": "следствие",
+        "en": "consequence"
+      },
+      {
+        "de": "der Zufall",
+        "ru": "случайность",
+        "en": "coincidence"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "aus niederen Beweggründen",
+        "ru": "из низменных побуждений",
+        "en": "out of base motives"
+      },
+      {
+        "de": "die Beweggründe offenlegen",
+        "ru": "раскрыть мотивы",
+        "en": "to disclose one's motives"
+      },
+      {
+        "de": "nach den Beweggründen fragen",
+        "ru": "спрашивать о мотивах",
+        "en": "to ask about the motives"
+      }
+    ]
+  },
+  "w_c1_011": {
+    "examples": [
+      {
+        "de": "Die Gepflogenheiten des Hauses sind streng.",
+        "ru": "Обычаи этого дома строгие.",
+        "en": "The customs of the house are strict."
+      },
+      {
+        "de": "Er kannte die Gepflogenheiten der Branche nicht.",
+        "ru": "Он не знал обычаев отрасли.",
+        "en": "He did not know the practices of the industry."
+      }
+    ],
+    "family": [
+      {
+        "de": "pflegen",
+        "ru": "иметь обыкновение; ухаживать",
+        "en": "to be in the habit of; to care for",
+        "example": {
+          "de": "Er pflegt früh aufzustehen.",
+          "ru": "Он имеет обыкновение рано вставать.",
+          "en": "He is in the habit of getting up early."
+        }
+      },
+      {
+        "de": "die Gewohnheit",
+        "ru": "привычка",
+        "en": "habit",
+        "example": {
+          "de": "Alte Gewohnheiten ändert man schwer.",
+          "ru": "Старые привычки трудно менять.",
+          "en": "Old habits are hard to change."
+        }
+      },
+      {
+        "de": "der Brauch",
+        "ru": "обычай",
+        "en": "custom",
+        "example": {
+          "de": "Dieser Brauch ist sehr alt.",
+          "ru": "Этот обычай очень древний.",
+          "en": "This custom is very old."
+        }
+      },
+      {
+        "de": "üblich",
+        "ru": "обычный, принятый",
+        "en": "customary",
+        "example": {
+          "de": "Ein Trinkgeld ist hier üblich.",
+          "ru": "Чаевые здесь приняты.",
+          "en": "A tip is customary here."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "der Brauch",
+        "ru": "обычай",
+        "en": "custom"
+      },
+      {
+        "de": "die Sitte",
+        "ru": "нравы",
+        "en": "convention"
+      },
+      {
+        "de": "die Praxis",
+        "ru": "практика",
+        "en": "practice"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Ausnahme",
+        "ru": "исключение",
+        "en": "exception"
+      },
+      {
+        "de": "die Neuerung",
+        "ru": "новшество",
+        "en": "innovation"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "nach alter Gepflogenheit",
+        "ru": "по старому обыкновению",
+        "en": "by long-standing custom"
+      },
+      {
+        "de": "die Gepflogenheiten kennen",
+        "ru": "знать заведённый порядок",
+        "en": "to know the customs"
+      },
+      {
+        "de": "gegen die Gepflogenheiten verstoßen",
+        "ru": "нарушать принятые обычаи",
+        "en": "to breach the conventions"
+      }
+    ]
+  },
+  "w_c1_012": {
+    "examples": [
+      {
+        "de": "Zwei so verschiedene Sinnesarten passen selten zusammen.",
+        "ru": "Два столь разных характера редко сходятся.",
+        "en": "Two such different temperaments rarely match."
+      },
+      {
+        "de": "Seine Sinnesart hat sich mit den Jahren gewandelt.",
+        "ru": "Его натура с годами изменилась.",
+        "en": "His disposition has changed over the years."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Sinn",
+        "ru": "чувство, смысл",
+        "en": "sense",
+        "example": {
+          "de": "Er hat einen feinen Sinn für Humor.",
+          "ru": "У него тонкое чувство юмора.",
+          "en": "He has a fine sense of humour."
+        }
+      },
+      {
+        "de": "die Art",
+        "ru": "манера, вид",
+        "en": "manner",
+        "example": {
+          "de": "Ihre freundliche Art gefällt allen.",
+          "ru": "Её приветливая манера всем нравится.",
+          "en": "Her friendly manner appeals to everyone."
+        }
+      },
+      {
+        "de": "das Gemüt",
+        "ru": "нрав, душа",
+        "en": "disposition",
+        "example": {
+          "de": "Er hat ein weiches Gemüt.",
+          "ru": "У него мягкий нрав.",
+          "en": "He has a soft disposition."
+        }
+      },
+      {
+        "de": "das Wesen",
+        "ru": "сущность, натура",
+        "en": "nature",
+        "example": {
+          "de": "Ihr stilles Wesen täuscht.",
+          "ru": "Её тихая натура обманчива.",
+          "en": "Her quiet nature is deceptive."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "das Naturell",
+        "ru": "натура",
+        "en": "temperament"
+      },
+      {
+        "de": "die Veranlagung",
+        "ru": "склонность",
+        "en": "predisposition"
+      },
+      {
+        "de": "der Charakter",
+        "ru": "характер",
+        "en": "character"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Verstellung",
+        "ru": "притворство",
+        "en": "pretence"
+      },
+      {
+        "de": "die Wandelbarkeit",
+        "ru": "изменчивость",
+        "en": "changeability"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "von heiterer Sinnesart sein",
+        "ru": "быть весёлого нрава",
+        "en": "to be of a cheerful disposition"
+      },
+      {
+        "de": "eine nachdenkliche Sinnesart",
+        "ru": "задумчивый склад характера",
+        "en": "a thoughtful disposition"
+      },
+      {
+        "de": "die Sinnesart eines Menschen erkennen",
+        "ru": "распознать натуру человека",
+        "en": "to recognise a person's temperament"
+      }
+    ]
+  },
+  "w_c1_013": {
+    "examples": [
+      {
+        "de": "Er trug die Bürde der Verantwortung allein.",
+        "ru": "Он нёс бремя ответственности один.",
+        "en": "He bore the burden of responsibility alone."
+      },
+      {
+        "de": "Von dieser Bürde wollte sie sich befreien.",
+        "ru": "От этого бремени она хотела освободиться.",
+        "en": "She wanted to free herself from this burden."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Last",
+        "ru": "тяжесть, груз",
+        "en": "load",
+        "example": {
+          "de": "Die Last war kaum zu tragen.",
+          "ru": "Груз было едва возможно нести.",
+          "en": "The load was hardly bearable."
+        }
+      },
+      {
+        "de": "belasten",
+        "ru": "обременять",
+        "en": "to burden",
+        "example": {
+          "de": "Die Schulden belasten die Familie.",
+          "ru": "Долги обременяют семью.",
+          "en": "The debts burden the family."
+        }
+      },
+      {
+        "de": "tragen",
+        "ru": "нести",
+        "en": "to bear",
+        "example": {
+          "de": "Sie trägt die Folgen mit Fassung.",
+          "ru": "Она стойко несёт последствия.",
+          "en": "She bears the consequences with composure."
+        }
+      },
+      {
+        "de": "die Verantwortung",
+        "ru": "ответственность",
+        "en": "responsibility",
+        "example": {
+          "de": "Die Verantwortung liegt bei der Leitung.",
+          "ru": "Ответственность лежит на руководстве.",
+          "en": "The responsibility lies with the management."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Last",
+        "ru": "ноша",
+        "en": "load"
+      },
+      {
+        "de": "die Belastung",
+        "ru": "нагрузка",
+        "en": "strain"
+      },
+      {
+        "de": "die Verpflichtung",
+        "ru": "обязательство",
+        "en": "obligation"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Erleichterung",
+        "ru": "облегчение",
+        "en": "relief"
+      },
+      {
+        "de": "das Privileg",
+        "ru": "привилегия",
+        "en": "privilege"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine Bürde tragen",
+        "ru": "нести бремя",
+        "en": "to bear a burden"
+      },
+      {
+        "de": "jemandem eine Bürde auferlegen",
+        "ru": "возложить на кого-то бремя",
+        "en": "to impose a burden on someone"
+      },
+      {
+        "de": "sich von einer Bürde befreien",
+        "ru": "освободиться от бремени",
+        "en": "to free oneself from a burden"
+      }
+    ]
+  },
+  "w_c1_014": {
+    "examples": [
+      {
+        "de": "Mit viel Fingerspitzengefühl löste sie den Konflikt.",
+        "ru": "С большим тактом она разрешила конфликт.",
+        "en": "With a lot of tact she resolved the conflict."
+      },
+      {
+        "de": "Ihm fehlt jedes Fingerspitzengefühl im Umgang mit Kunden.",
+        "ru": "Ему совершенно не хватает такта в общении с клиентами.",
+        "en": "He lacks any tact in dealing with customers."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Fingerspitze",
+        "ru": "кончик пальца",
+        "en": "fingertip",
+        "example": {
+          "de": "Er berührte die Saite nur mit der Fingerspitze.",
+          "ru": "Он коснулся струны лишь кончиком пальца.",
+          "en": "He touched the string only with his fingertip."
+        }
+      },
+      {
+        "de": "der Finger",
+        "ru": "палец",
+        "en": "finger",
+        "example": {
+          "de": "Ich habe mir den Finger verbrannt.",
+          "ru": "Я обжёг палец.",
+          "en": "I burned my finger."
+        }
+      },
+      {
+        "de": "das Feingefühl",
+        "ru": "чуткость",
+        "en": "sensitivity",
+        "example": {
+          "de": "Ihr Feingefühl half in der schwierigen Lage.",
+          "ru": "Её чуткость помогла в трудной ситуации.",
+          "en": "Her sensitivity helped in the difficult situation."
+        }
+      },
+      {
+        "de": "das Taktgefühl",
+        "ru": "чувство такта",
+        "en": "sense of tact",
+        "example": {
+          "de": "Taktgefühl kann man nicht lernen.",
+          "ru": "Чувству такта нельзя научиться.",
+          "en": "A sense of tact cannot be learned."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "das Feingefühl",
+        "ru": "чуткость",
+        "en": "sensitivity"
+      },
+      {
+        "de": "das Taktgefühl",
+        "ru": "такт",
+        "en": "tactfulness"
+      },
+      {
+        "de": "das Gespür",
+        "ru": "чутьё",
+        "en": "instinct"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Grobheit",
+        "ru": "грубость",
+        "en": "crudeness"
+      },
+      {
+        "de": "die Taktlosigkeit",
+        "ru": "бестактность",
+        "en": "tactlessness"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "Fingerspitzengefühl beweisen",
+        "ru": "проявить тонкое чутьё",
+        "en": "to show a delicate touch"
+      },
+      {
+        "de": "mit Fingerspitzengefühl vorgehen",
+        "ru": "действовать деликатно",
+        "en": "to proceed with tact"
+      },
+      {
+        "de": "ohne jedes Fingerspitzengefühl",
+        "ru": "совершенно бестактно",
+        "en": "without any tact at all"
+      }
+    ]
+  },
+  "w_c1_015": {
+    "examples": [
+      {
+        "de": "Für ihn war die Arbeit nie Selbstzweck.",
+        "ru": "Для него работа никогда не была самоцелью.",
+        "en": "For him work was never an end in itself."
+      },
+      {
+        "de": "Wachstum als Selbstzweck wird zunehmend kritisiert.",
+        "ru": "Рост как самоцель всё чаще критикуют.",
+        "en": "Growth as an end in itself is increasingly criticised."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Zweck",
+        "ru": "цель, назначение",
+        "en": "purpose",
+        "example": {
+          "de": "Welchen Zweck hat diese Regel?",
+          "ru": "Какова цель этого правила?",
+          "en": "What purpose does this rule serve?"
+        }
+      },
+      {
+        "de": "zweckmäßig",
+        "ru": "целесообразный",
+        "en": "expedient",
+        "example": {
+          "de": "Die Lösung ist einfach und zweckmäßig.",
+          "ru": "Решение простое и целесообразное.",
+          "en": "The solution is simple and expedient."
+        }
+      },
+      {
+        "de": "selbst",
+        "ru": "сам",
+        "en": "self",
+        "example": {
+          "de": "Das musst du selbst entscheiden.",
+          "ru": "Это ты должен решить сам.",
+          "en": "You have to decide that yourself."
+        }
+      },
+      {
+        "de": "das Ziel",
+        "ru": "цель",
+        "en": "goal",
+        "example": {
+          "de": "Das Ziel rechtfertigt nicht jedes Mittel.",
+          "ru": "Цель оправдывает не любые средства.",
+          "en": "The goal does not justify every means."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "der Eigenzweck",
+        "ru": "собственная цель",
+        "en": "intrinsic purpose"
+      },
+      {
+        "de": "die Selbstbezogenheit",
+        "ru": "замкнутость на себе",
+        "en": "self-referentiality"
+      },
+      {
+        "de": "das Ritual",
+        "ru": "ритуал",
+        "en": "ritual"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "das Mittel",
+        "ru": "средство",
+        "en": "means"
+      },
+      {
+        "de": "der Nutzen",
+        "ru": "польза",
+        "en": "benefit"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "zum Selbstzweck werden",
+        "ru": "стать самоцелью",
+        "en": "to become an end in itself"
+      },
+      {
+        "de": "kein Selbstzweck sein",
+        "ru": "не быть самоцелью",
+        "en": "not to be an end in itself"
+      },
+      {
+        "de": "Sparen als Selbstzweck",
+        "ru": "экономия ради экономии",
+        "en": "saving for its own sake"
+      }
+    ]
+  },
+  "w_c1_016": {
+    "examples": [
+      {
+        "de": "In den Medien entstand ein Zerrbild des Berufs.",
+        "ru": "В СМИ возник искажённый образ профессии.",
+        "en": "A distorted image of the profession arose in the media."
+      },
+      {
+        "de": "Dieses Zerrbild hält sich hartnäckig.",
+        "ru": "Этот искажённый образ упорно держится.",
+        "en": "This distorted picture persists stubbornly."
+      }
+    ],
+    "family": [
+      {
+        "de": "verzerren",
+        "ru": "искажать",
+        "en": "to distort",
+        "example": {
+          "de": "Die Statistik verzerrt das Ergebnis.",
+          "ru": "Статистика искажает результат.",
+          "en": "The statistics distort the result."
+        }
+      },
+      {
+        "de": "zerren",
+        "ru": "тянуть, дёргать",
+        "en": "to tug",
+        "example": {
+          "de": "Der Hund zerrt an der Leine.",
+          "ru": "Собака тянет поводок.",
+          "en": "The dog tugs at the lead."
+        }
+      },
+      {
+        "de": "das Bild",
+        "ru": "образ, картина",
+        "en": "image",
+        "example": {
+          "de": "Das Bild stimmt nicht mit der Realität überein.",
+          "ru": "Образ не совпадает с реальностью.",
+          "en": "The image does not match reality."
+        }
+      },
+      {
+        "de": "die Karikatur",
+        "ru": "карикатура",
+        "en": "caricature",
+        "example": {
+          "de": "Die Karikatur traf ihn empfindlich.",
+          "ru": "Карикатура его чувствительно задела.",
+          "en": "The caricature stung him."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Karikatur",
+        "ru": "карикатура",
+        "en": "caricature"
+      },
+      {
+        "de": "das Klischee",
+        "ru": "клише",
+        "en": "cliché"
+      },
+      {
+        "de": "die Verzerrung",
+        "ru": "искажение",
+        "en": "distortion"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "das Abbild",
+        "ru": "точное отображение",
+        "en": "true likeness"
+      },
+      {
+        "de": "die Realität",
+        "ru": "реальность",
+        "en": "reality"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "ein Zerrbild zeichnen",
+        "ru": "рисовать искажённую картину",
+        "en": "to paint a distorted picture"
+      },
+      {
+        "de": "einem Zerrbild aufsitzen",
+        "ru": "попасться на искажённый образ",
+        "en": "to fall for a distorted image"
+      },
+      {
+        "de": "das Zerrbild korrigieren",
+        "ru": "исправить искажённое представление",
+        "en": "to correct the distorted picture"
+      }
+    ]
+  },
+  "w_c1_017": {
+    "examples": [
+      {
+        "de": "Als Notbehelf diente ein alter Laptop.",
+        "ru": "В качестве временного средства служил старый ноутбук.",
+        "en": "An old laptop served as a makeshift."
+      },
+      {
+        "de": "Aus dem Notbehelf wurde eine Dauerlösung.",
+        "ru": "Из временной меры получилось постоянное решение.",
+        "en": "The stopgap turned into a permanent solution."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Not",
+        "ru": "нужда, беда",
+        "en": "need, distress",
+        "example": {
+          "de": "In der Not half uns der Nachbar.",
+          "ru": "В беде нам помог сосед.",
+          "en": "In our distress the neighbour helped us."
+        }
+      },
+      {
+        "de": "sich behelfen",
+        "ru": "обходиться, выкручиваться",
+        "en": "to make do",
+        "example": {
+          "de": "Wir behelfen uns mit einem Zelt.",
+          "ru": "Мы обходимся палаткой.",
+          "en": "We make do with a tent."
+        }
+      },
+      {
+        "de": "behelfsmäßig",
+        "ru": "временный, подручный",
+        "en": "makeshift",
+        "example": {
+          "de": "Die Brücke wurde behelfsmäßig repariert.",
+          "ru": "Мост починили временно.",
+          "en": "The bridge was repaired makeshift."
+        }
+      },
+      {
+        "de": "die Übergangslösung",
+        "ru": "переходное решение",
+        "en": "interim solution",
+        "example": {
+          "de": "Das ist nur eine Übergangslösung.",
+          "ru": "Это лишь переходное решение.",
+          "en": "That is only an interim solution."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Übergangslösung",
+        "ru": "временное решение",
+        "en": "interim solution"
+      },
+      {
+        "de": "die Krücke",
+        "ru": "костыль (перен.)",
+        "en": "crutch"
+      },
+      {
+        "de": "das Provisorium",
+        "ru": "времянка",
+        "en": "temporary arrangement"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Dauerlösung",
+        "ru": "постоянное решение",
+        "en": "permanent solution"
+      },
+      {
+        "de": "der Idealfall",
+        "ru": "идеальный случай",
+        "en": "ideal case"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "als Notbehelf dienen",
+        "ru": "служить временной мерой",
+        "en": "to serve as a stopgap"
+      },
+      {
+        "de": "sich mit einem Notbehelf begnügen",
+        "ru": "довольствоваться паллиативом",
+        "en": "to settle for a makeshift"
+      },
+      {
+        "de": "nur ein Notbehelf sein",
+        "ru": "быть лишь временной мерой",
+        "en": "to be only a stopgap"
+      }
+    ]
+  },
+  "w_c1_018": {
+    "examples": [
+      {
+        "de": "In dieser Gemengelage hilft nur Geduld.",
+        "ru": "В этом клубке обстоятельств поможет только терпение.",
+        "en": "In this tangle only patience helps."
+      },
+      {
+        "de": "Die Gemengelage aus Kosten und Fristen ist heikel.",
+        "ru": "Сплетение расходов и сроков деликатно.",
+        "en": "The tangle of costs and deadlines is delicate."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Lage",
+        "ru": "положение",
+        "en": "situation",
+        "example": {
+          "de": "Die Lage hat sich entspannt.",
+          "ru": "Ситуация разрядилась.",
+          "en": "The situation has eased."
+        }
+      },
+      {
+        "de": "das Gemenge",
+        "ru": "смесь",
+        "en": "mixture",
+        "example": {
+          "de": "Ein Gemenge aus Sand und Kies.",
+          "ru": "Смесь песка и гравия.",
+          "en": "A mixture of sand and gravel."
+        }
+      },
+      {
+        "de": "vermengen",
+        "ru": "перемешивать",
+        "en": "to blend",
+        "example": {
+          "de": "Vermenge die Zutaten gründlich.",
+          "ru": "Тщательно перемешай ингредиенты.",
+          "en": "Blend the ingredients thoroughly."
+        }
+      },
+      {
+        "de": "die Konstellation",
+        "ru": "расстановка, конфигурация",
+        "en": "constellation",
+        "example": {
+          "de": "Die Konstellation der Kräfte hat sich verschoben.",
+          "ru": "Расстановка сил изменилась.",
+          "en": "The constellation of forces has shifted."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Konstellation",
+        "ru": "расклад",
+        "en": "constellation"
+      },
+      {
+        "de": "das Geflecht",
+        "ru": "сплетение",
+        "en": "web"
+      },
+      {
+        "de": "die Sachlage",
+        "ru": "положение дел",
+        "en": "state of affairs"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Klarheit",
+        "ru": "ясность",
+        "en": "clarity"
+      },
+      {
+        "de": "die Eindeutigkeit",
+        "ru": "однозначность",
+        "en": "unambiguity"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine schwierige Gemengelage",
+        "ru": "сложное сплетение обстоятельств",
+        "en": "a difficult tangle"
+      },
+      {
+        "de": "in dieser Gemengelage",
+        "ru": "в этой ситуации",
+        "en": "in this complex situation"
+      },
+      {
+        "de": "die Gemengelage entwirren",
+        "ru": "распутать ситуацию",
+        "en": "to untangle the situation"
+      }
+    ]
+  },
+  "w_c1_019": {
+    "examples": [
+      {
+        "de": "Das Wetter ist die größte Unwägbarkeit.",
+        "ru": "Погода — самый непредсказуемый фактор.",
+        "en": "The weather is the biggest imponderable."
+      },
+      {
+        "de": "Mit solchen Unwägbarkeiten muss man rechnen.",
+        "ru": "С такими непредсказуемостями нужно считаться.",
+        "en": "One has to reckon with such imponderables."
+      }
+    ],
+    "family": [
+      {
+        "de": "unwägbar",
+        "ru": "непредсказуемый",
+        "en": "imponderable",
+        "example": {
+          "de": "Die Risiken sind unwägbar.",
+          "ru": "Риски непредсказуемы.",
+          "en": "The risks are imponderable."
+        }
+      },
+      {
+        "de": "abwägen",
+        "ru": "взвешивать",
+        "en": "to weigh up",
+        "example": {
+          "de": "Man muss alle Argumente abwägen.",
+          "ru": "Нужно взвесить все аргументы.",
+          "en": "One has to weigh up all the arguments."
+        }
+      },
+      {
+        "de": "die Unsicherheit",
+        "ru": "неопределённость",
+        "en": "uncertainty",
+        "example": {
+          "de": "Die Unsicherheit lähmt den Markt.",
+          "ru": "Неопределённость парализует рынок.",
+          "en": "The uncertainty paralyses the market."
+        }
+      },
+      {
+        "de": "das Risiko",
+        "ru": "риск",
+        "en": "risk",
+        "example": {
+          "de": "Jedes Risiko wurde dokumentiert.",
+          "ru": "Каждый риск был задокументирован.",
+          "en": "Every risk was documented."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Unsicherheit",
+        "ru": "неопределённость",
+        "en": "uncertainty"
+      },
+      {
+        "de": "der Unsicherheitsfaktor",
+        "ru": "фактор неопределённости",
+        "en": "uncertainty factor"
+      },
+      {
+        "de": "die Unvorhersehbarkeit",
+        "ru": "непредвиденность",
+        "en": "unforeseeability"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Berechenbarkeit",
+        "ru": "предсказуемость",
+        "en": "predictability"
+      },
+      {
+        "de": "die Planungssicherheit",
+        "ru": "определённость планирования",
+        "en": "planning certainty"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "mit Unwägbarkeiten rechnen",
+        "ru": "учитывать непредсказуемые факторы",
+        "en": "to reckon with imponderables"
+      },
+      {
+        "de": "trotz aller Unwägbarkeiten",
+        "ru": "несмотря на всю непредсказуемость",
+        "en": "despite all imponderables"
+      },
+      {
+        "de": "Unwägbarkeiten einkalkulieren",
+        "ru": "закладывать непредвиденное",
+        "en": "to factor in imponderables"
+      }
+    ]
+  },
+  "w_c1_020": {
+    "examples": [
+      {
+        "de": "Diesem Trugschluss sind viele erlegen.",
+        "ru": "Этому заблуждению поддались многие.",
+        "en": "Many have fallen for this fallacy."
+      },
+      {
+        "de": "Der Trugschluss liegt in der falschen Prämisse.",
+        "ru": "Ошибка кроется в ложной посылке.",
+        "en": "The fallacy lies in the false premise."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Schluss",
+        "ru": "вывод; конец",
+        "en": "conclusion",
+        "example": {
+          "de": "Der Schluss ist nicht zwingend.",
+          "ru": "Вывод не обязателен.",
+          "en": "The conclusion is not compelling."
+        }
+      },
+      {
+        "de": "schlussfolgern",
+        "ru": "делать вывод",
+        "en": "to infer",
+        "example": {
+          "de": "Daraus lässt sich wenig schlussfolgern.",
+          "ru": "Из этого мало что можно заключить.",
+          "en": "Little can be inferred from that."
+        }
+      },
+      {
+        "de": "trügen",
+        "ru": "обманывать (о впечатлении)",
+        "en": "to deceive",
+        "example": {
+          "de": "Der Schein trügt oft.",
+          "ru": "Внешность часто обманчива.",
+          "en": "Appearances often deceive."
+        }
+      },
+      {
+        "de": "trügerisch",
+        "ru": "обманчивый",
+        "en": "deceptive",
+        "example": {
+          "de": "Die Ruhe war trügerisch.",
+          "ru": "Спокойствие было обманчивым.",
+          "en": "The calm was deceptive."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "der Irrtum",
+        "ru": "ошибка",
+        "en": "error"
+      },
+      {
+        "de": "der Fehlschluss",
+        "ru": "ошибочное умозаключение",
+        "en": "false conclusion"
+      },
+      {
+        "de": "die Illusion",
+        "ru": "иллюзия",
+        "en": "illusion"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Erkenntnis",
+        "ru": "познание, вывод",
+        "en": "insight"
+      },
+      {
+        "de": "der Beweis",
+        "ru": "доказательство",
+        "en": "proof"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "einem Trugschluss erliegen",
+        "ru": "поддаться заблуждению",
+        "en": "to succumb to a fallacy"
+      },
+      {
+        "de": "ein weit verbreiteter Trugschluss",
+        "ru": "широко распространённое заблуждение",
+        "en": "a widespread fallacy"
+      },
+      {
+        "de": "sich als Trugschluss erweisen",
+        "ru": "оказаться заблуждением",
+        "en": "to turn out to be a fallacy"
+      }
+    ]
+  },
+  "w_c1_021": {
+    "examples": [
+      {
+        "de": "Sie übt Achtsamkeit beim Essen.",
+        "ru": "Она практикует осознанность во время еды.",
+        "en": "She practises mindfulness while eating."
+      },
+      {
+        "de": "Mit mehr Achtsamkeit wären die Fehler vermeidbar gewesen.",
+        "ru": "При большей внимательности ошибок можно было избежать.",
+        "en": "With more mindfulness the mistakes could have been avoided."
+      }
+    ],
+    "family": [
+      {
+        "de": "achtsam",
+        "ru": "внимательный, осознанный",
+        "en": "mindful",
+        "example": {
+          "de": "Geh achtsam mit dir selbst um.",
+          "ru": "Обращайся с собой бережно.",
+          "en": "Treat yourself mindfully."
+        }
+      },
+      {
+        "de": "achten",
+        "ru": "уважать; обращать внимание",
+        "en": "to respect; to heed",
+        "example": {
+          "de": "Achte auf die Zeichen.",
+          "ru": "Обращай внимание на знаки.",
+          "en": "Heed the signs."
+        }
+      },
+      {
+        "de": "unachtsam",
+        "ru": "невнимательный",
+        "en": "careless",
+        "example": {
+          "de": "Ein unachtsamer Moment genügte.",
+          "ru": "Хватило одного невнимательного мгновения.",
+          "en": "One careless moment was enough."
+        }
+      },
+      {
+        "de": "die Aufmerksamkeit",
+        "ru": "внимание",
+        "en": "attention",
+        "example": {
+          "de": "Die Aufmerksamkeit lässt nach einer Stunde nach.",
+          "ru": "Внимание ослабевает через час.",
+          "en": "Attention wanes after an hour."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Aufmerksamkeit",
+        "ru": "внимание",
+        "en": "attention"
+      },
+      {
+        "de": "die Umsicht",
+        "ru": "осмотрительность",
+        "en": "circumspection"
+      },
+      {
+        "de": "die Sorgfalt",
+        "ru": "тщательность",
+        "en": "care"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Unachtsamkeit",
+        "ru": "невнимательность",
+        "en": "carelessness"
+      },
+      {
+        "de": "die Zerstreutheit",
+        "ru": "рассеянность",
+        "en": "absent-mindedness"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "Achtsamkeit üben",
+        "ru": "практиковать осознанность",
+        "en": "to practise mindfulness"
+      },
+      {
+        "de": "mit Achtsamkeit begegnen",
+        "ru": "относиться внимательно",
+        "en": "to approach with mindfulness"
+      },
+      {
+        "de": "ein Moment der Achtsamkeit",
+        "ru": "момент осознанности",
+        "en": "a moment of mindfulness"
+      }
+    ]
+  },
+  "w_c1_022": {
+    "examples": [
+      {
+        "de": "Eine engere Verzahnung der Teams wäre sinnvoll.",
+        "ru": "Более тесное сцепление команд было бы разумным.",
+        "en": "A closer integration of the teams would make sense."
+      },
+      {
+        "de": "Die Verzahnung beider Systeme kostete Jahre.",
+        "ru": "Сцепление обеих систем заняло годы.",
+        "en": "Interlocking the two systems took years."
+      }
+    ],
+    "family": [
+      {
+        "de": "verzahnen",
+        "ru": "сцеплять, увязывать",
+        "en": "to interlock",
+        "example": {
+          "de": "Die Prozesse sind eng verzahnt.",
+          "ru": "Процессы тесно увязаны.",
+          "en": "The processes are closely interlocked."
+        }
+      },
+      {
+        "de": "der Zahn",
+        "ru": "зуб",
+        "en": "tooth",
+        "example": {
+          "de": "Ein Zahn des Rades ist gebrochen.",
+          "ru": "Один зуб шестерни сломан.",
+          "en": "One tooth of the gear is broken."
+        }
+      },
+      {
+        "de": "ineinandergreifen",
+        "ru": "входить друг в друга",
+        "en": "to mesh",
+        "example": {
+          "de": "Die Zahnräder greifen sauber ineinander.",
+          "ru": "Шестерни чисто входят друг в друга.",
+          "en": "The gears mesh cleanly."
+        }
+      },
+      {
+        "de": "die Verflechtung",
+        "ru": "переплетение",
+        "en": "interweaving",
+        "example": {
+          "de": "Die Verflechtung der Firmen ist komplex.",
+          "ru": "Переплетение фирм сложное.",
+          "en": "The interweaving of the companies is complex."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Verflechtung",
+        "ru": "сплетение",
+        "en": "interweaving"
+      },
+      {
+        "de": "die Verknüpfung",
+        "ru": "связка",
+        "en": "linkage"
+      },
+      {
+        "de": "die Integration",
+        "ru": "интеграция",
+        "en": "integration"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Trennung",
+        "ru": "разделение",
+        "en": "separation"
+      },
+      {
+        "de": "die Isolation",
+        "ru": "изоляция",
+        "en": "isolation"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine enge Verzahnung",
+        "ru": "тесное сцепление",
+        "en": "a close integration"
+      },
+      {
+        "de": "die Verzahnung verbessern",
+        "ru": "улучшить взаимосвязь",
+        "en": "to improve the integration"
+      },
+      {
+        "de": "organisatorische Verzahnung",
+        "ru": "организационная увязка",
+        "en": "organisational integration"
+      }
+    ]
+  },
+  "w_c1_023": {
+    "examples": [
+      {
+        "de": "Seine Anmaßung stieß im Team auf Widerstand.",
+        "ru": "Его самонадеянность встретила сопротивление в команде.",
+        "en": "His arrogance met with resistance in the team."
+      },
+      {
+        "de": "Das ist keine Bescheidenheit, sondern Anmaßung.",
+        "ru": "Это не скромность, а притязание.",
+        "en": "That is not modesty but presumption."
+      }
+    ],
+    "family": [
+      {
+        "de": "sich anmaßen",
+        "ru": "присваивать себе право",
+        "en": "to presume",
+        "example": {
+          "de": "Ich maße mir kein Urteil an.",
+          "ru": "Я не берусь судить.",
+          "en": "I do not presume to judge."
+        }
+      },
+      {
+        "de": "anmaßend",
+        "ru": "самонадеянный",
+        "en": "presumptuous",
+        "example": {
+          "de": "Sein Ton war ziemlich anmaßend.",
+          "ru": "Его тон был довольно самонадеянным.",
+          "en": "His tone was rather presumptuous."
+        }
+      },
+      {
+        "de": "die Überheblichkeit",
+        "ru": "высокомерие",
+        "en": "arrogance",
+        "example": {
+          "de": "Überheblichkeit kommt selten gut an.",
+          "ru": "Высокомерие редко нравится.",
+          "en": "Arrogance rarely goes down well."
+        }
+      },
+      {
+        "de": "die Bescheidenheit",
+        "ru": "скромность",
+        "en": "modesty",
+        "example": {
+          "de": "Bescheidenheit steht ihm gut.",
+          "ru": "Скромность ему идёт.",
+          "en": "Modesty suits him."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Überheblichkeit",
+        "ru": "высокомерие",
+        "en": "arrogance"
+      },
+      {
+        "de": "die Vermessenheit",
+        "ru": "дерзость",
+        "en": "audacity"
+      },
+      {
+        "de": "die Arroganz",
+        "ru": "надменность",
+        "en": "conceit"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Bescheidenheit",
+        "ru": "скромность",
+        "en": "modesty"
+      },
+      {
+        "de": "die Demut",
+        "ru": "смирение",
+        "en": "humility"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine unerhörte Anmaßung",
+        "ru": "неслыханная дерзость",
+        "en": "an outrageous presumption"
+      },
+      {
+        "de": "sich eine Anmaßung erlauben",
+        "ru": "позволить себе дерзость",
+        "en": "to permit oneself a presumption"
+      },
+      {
+        "de": "als Anmaßung empfunden werden",
+        "ru": "восприниматься как притязание",
+        "en": "to be perceived as presumption"
+      }
+    ]
+  },
+  "w_c1_024": {
+    "examples": [
+      {
+        "de": "Seine Zuspitzung machte das Argument klarer.",
+        "ru": "Его заострение сделало аргумент яснее.",
+        "en": "His sharpening made the argument clearer."
+      },
+      {
+        "de": "Eine weitere Zuspitzung will niemand.",
+        "ru": "Дальнейшего обострения никто не хочет.",
+        "en": "Nobody wants a further escalation."
+      }
+    ],
+    "family": [
+      {
+        "de": "zuspitzen",
+        "ru": "обострять, заострять",
+        "en": "to sharpen, to escalate",
+        "example": {
+          "de": "Die Lage spitzt sich weiter zu.",
+          "ru": "Ситуация продолжает обостряться.",
+          "en": "The situation is escalating further."
+        }
+      },
+      {
+        "de": "die Spitze",
+        "ru": "остриё, вершина",
+        "en": "tip, peak",
+        "example": {
+          "de": "An der Spitze steht ein neuer Name.",
+          "ru": "Во главе стоит новое имя.",
+          "en": "A new name is at the top."
+        }
+      },
+      {
+        "de": "spitz",
+        "ru": "острый",
+        "en": "pointed",
+        "example": {
+          "de": "Der Bleistift ist schön spitz.",
+          "ru": "Карандаш хорошо заточен.",
+          "en": "The pencil is nicely pointed."
+        }
+      },
+      {
+        "de": "die Eskalation",
+        "ru": "эскалация",
+        "en": "escalation",
+        "example": {
+          "de": "Eine Eskalation muss verhindert werden.",
+          "ru": "Эскалацию нужно предотвратить.",
+          "en": "An escalation must be prevented."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "die Eskalation",
+        "ru": "эскалация",
+        "en": "escalation"
+      },
+      {
+        "de": "die Verschärfung",
+        "ru": "ужесточение",
+        "en": "intensification"
+      },
+      {
+        "de": "die Pointierung",
+        "ru": "заострение",
+        "en": "pointed formulation"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "die Entspannung",
+        "ru": "разрядка",
+        "en": "de-escalation"
+      },
+      {
+        "de": "die Beruhigung",
+        "ru": "успокоение",
+        "en": "calming"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine dramatische Zuspitzung",
+        "ru": "драматическое обострение",
+        "en": "a dramatic escalation"
+      },
+      {
+        "de": "zur Zuspitzung führen",
+        "ru": "вести к обострению",
+        "en": "to lead to an escalation"
+      },
+      {
+        "de": "eine polemische Zuspitzung",
+        "ru": "полемическое заострение",
+        "en": "a polemical sharpening"
+      }
+    ]
+  },
+  "w_c1_025": {
+    "examples": [
+      {
+        "de": "Niemand konnte seine Absichten ergründen.",
+        "ru": "Никто не мог постичь его намерений.",
+        "en": "Nobody could fathom his intentions."
+      },
+      {
+        "de": "Sie will die Zusammenhänge wirklich ergründen.",
+        "ru": "Она действительно хочет докопаться до взаимосвязей.",
+        "en": "She really wants to get to the bottom of the connections."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Grund",
+        "ru": "основание, дно",
+        "en": "ground, bottom",
+        "example": {
+          "de": "Der Grund des Sees ist steinig.",
+          "ru": "Дно озера каменистое.",
+          "en": "The bottom of the lake is stony."
+        }
+      },
+      {
+        "de": "gründlich",
+        "ru": "основательный",
+        "en": "thorough",
+        "example": {
+          "de": "Er arbeitet langsam, aber gründlich.",
+          "ru": "Он работает медленно, но основательно.",
+          "en": "He works slowly but thoroughly."
+        }
+      },
+      {
+        "de": "begründen",
+        "ru": "обосновывать",
+        "en": "to justify",
+        "example": {
+          "de": "Bitte begründe deine Entscheidung.",
+          "ru": "Пожалуйста, обоснуй своё решение.",
+          "en": "Please justify your decision."
+        }
+      },
+      {
+        "de": "erforschen",
+        "ru": "исследовать",
+        "en": "to research",
+        "example": {
+          "de": "Das Team erforscht seltene Krankheiten.",
+          "ru": "Команда исследует редкие болезни.",
+          "en": "The team researches rare diseases."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "erforschen",
+        "ru": "исследовать",
+        "en": "to explore"
+      },
+      {
+        "de": "durchschauen",
+        "ru": "видеть насквозь",
+        "en": "to see through"
+      },
+      {
+        "de": "herausfinden",
+        "ru": "выяснять",
+        "en": "to find out"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "verkennen",
+        "ru": "не распознать",
+        "en": "to misjudge"
+      },
+      {
+        "de": "übersehen",
+        "ru": "упускать",
+        "en": "to overlook"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "die Wahrheit ergründen",
+        "ru": "доискаться правды",
+        "en": "to get to the truth"
+      },
+      {
+        "de": "nicht zu ergründen sein",
+        "ru": "быть непостижимым",
+        "en": "to be unfathomable"
+      },
+      {
+        "de": "die Tiefe ergründen",
+        "ru": "постичь глубину",
+        "en": "to fathom the depth"
+      }
+    ]
+  },
+  "w_c1_026": {
+    "examples": [
+      {
+        "de": "Mit ruhigen Worten beschwichtigte sie das Kind.",
+        "ru": "Спокойными словами она успокоила ребёнка.",
+        "en": "With calm words she soothed the child."
+      },
+      {
+        "de": "Beschwichtigen hilft hier nicht mehr.",
+        "ru": "Успокаивать здесь уже не помогает.",
+        "en": "Appeasing no longer helps here."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Beschwichtigung",
+        "ru": "успокаивание",
+        "en": "appeasement",
+        "example": {
+          "de": "Seine Beschwichtigung kam zu spät.",
+          "ru": "Его попытка успокоить пришла слишком поздно.",
+          "en": "His appeasement came too late."
+        }
+      },
+      {
+        "de": "beruhigen",
+        "ru": "успокаивать",
+        "en": "to calm",
+        "example": {
+          "de": "Der Tee beruhigt die Nerven.",
+          "ru": "Чай успокаивает нервы.",
+          "en": "The tea calms the nerves."
+        }
+      },
+      {
+        "de": "besänftigen",
+        "ru": "смягчать, умиротворять",
+        "en": "to mollify",
+        "example": {
+          "de": "Ein Lächeln besänftigte ihn.",
+          "ru": "Улыбка его смягчила.",
+          "en": "A smile mollified him."
+        }
+      },
+      {
+        "de": "schlichten",
+        "ru": "улаживать (спор)",
+        "en": "to mediate",
+        "example": {
+          "de": "Der Chef schlichtete den Streit.",
+          "ru": "Начальник уладил спор.",
+          "en": "The boss settled the dispute."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "beruhigen",
+        "ru": "успокаивать",
+        "en": "to calm down"
+      },
+      {
+        "de": "besänftigen",
+        "ru": "умиротворять",
+        "en": "to soothe"
+      },
+      {
+        "de": "abwiegeln",
+        "ru": "сглаживать, преуменьшать",
+        "en": "to play down"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "aufhetzen",
+        "ru": "подстрекать",
+        "en": "to incite"
+      },
+      {
+        "de": "provozieren",
+        "ru": "провоцировать",
+        "en": "to provoke"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "die Gemüter beschwichtigen",
+        "ru": "успокоить страсти",
+        "en": "to calm tempers"
+      },
+      {
+        "de": "beschwichtigend wirken",
+        "ru": "действовать успокаивающе",
+        "en": "to have a soothing effect"
+      },
+      {
+        "de": "sich nicht beschwichtigen lassen",
+        "ru": "не дать себя успокоить",
+        "en": "not to be appeased"
+      }
+    ]
+  },
+  "w_c1_027": {
+    "examples": [
+      {
+        "de": "Er untermalte seinen Vortrag mit Bildern.",
+        "ru": "Он сопроводил доклад изображениями.",
+        "en": "He accompanied his talk with pictures."
+      },
+      {
+        "de": "Die Szene wird von Streichern untermalt.",
+        "ru": "Сцену сопровождают струнные.",
+        "en": "The scene is underscored by strings."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Untermalung",
+        "ru": "музыкальное сопровождение",
+        "en": "background accompaniment",
+        "example": {
+          "de": "Die musikalische Untermalung war dezent.",
+          "ru": "Музыкальное сопровождение было сдержанным.",
+          "en": "The musical accompaniment was discreet."
+        }
+      },
+      {
+        "de": "malen",
+        "ru": "рисовать",
+        "en": "to paint",
+        "example": {
+          "de": "Sie malt am liebsten mit Öl.",
+          "ru": "Она больше всего любит писать маслом.",
+          "en": "She likes painting in oils best."
+        }
+      },
+      {
+        "de": "begleiten",
+        "ru": "сопровождать",
+        "en": "to accompany",
+        "example": {
+          "de": "Am Klavier begleitet sie den Chor.",
+          "ru": "На фортепиано она аккомпанирует хору.",
+          "en": "She accompanies the choir on the piano."
+        }
+      },
+      {
+        "de": "der Hintergrund",
+        "ru": "фон",
+        "en": "background",
+        "example": {
+          "de": "Im Hintergrund läuft Radio.",
+          "ru": "На фоне играет радио.",
+          "en": "The radio is on in the background."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "begleiten",
+        "ru": "аккомпанировать",
+        "en": "to accompany"
+      },
+      {
+        "de": "unterlegen",
+        "ru": "подкладывать (звук)",
+        "en": "to lay under"
+      },
+      {
+        "de": "illustrieren",
+        "ru": "иллюстрировать",
+        "en": "to illustrate"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "übertönen",
+        "ru": "заглушать",
+        "en": "to drown out"
+      },
+      {
+        "de": "stören",
+        "ru": "мешать",
+        "en": "to disturb"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "musikalisch untermalen",
+        "ru": "сопровождать музыкой",
+        "en": "to underscore with music"
+      },
+      {
+        "de": "einen Vortrag untermalen",
+        "ru": "сопроводить доклад",
+        "en": "to illustrate a talk"
+      },
+      {
+        "de": "dezent untermalt",
+        "ru": "сдержанно сопровождаемый",
+        "en": "discreetly underscored"
+      }
+    ]
+  },
+  "w_c1_028": {
+    "examples": [
+      {
+        "de": "Die Daten wurden nach Regionen aufgeschlüsselt.",
+        "ru": "Данные были разбиты по регионам.",
+        "en": "The data was broken down by region."
+      },
+      {
+        "de": "Aufgeschlüsselt sieht die Rechnung anders aus.",
+        "ru": "В разбивке счёт выглядит иначе.",
+        "en": "Broken down, the bill looks different."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Aufschlüsselung",
+        "ru": "разбивка, детализация",
+        "en": "breakdown",
+        "example": {
+          "de": "Die Aufschlüsselung fehlt im Bericht.",
+          "ru": "Разбивки в отчёте нет.",
+          "en": "The breakdown is missing from the report."
+        }
+      },
+      {
+        "de": "der Schlüssel",
+        "ru": "ключ",
+        "en": "key",
+        "example": {
+          "de": "Der Schlüssel liegt auf dem Tisch.",
+          "ru": "Ключ лежит на столе.",
+          "en": "The key is on the table."
+        }
+      },
+      {
+        "de": "gliedern",
+        "ru": "структурировать",
+        "en": "to structure",
+        "example": {
+          "de": "Der Text ist klar gegliedert.",
+          "ru": "Текст чётко структурирован.",
+          "en": "The text is clearly structured."
+        }
+      },
+      {
+        "de": "die Gliederung",
+        "ru": "структура, план",
+        "en": "outline",
+        "example": {
+          "de": "Die Gliederung steht am Anfang.",
+          "ru": "План стоит в начале.",
+          "en": "The outline comes at the beginning."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "gliedern",
+        "ru": "расчленять",
+        "en": "to break up"
+      },
+      {
+        "de": "unterteilen",
+        "ru": "подразделять",
+        "en": "to subdivide"
+      },
+      {
+        "de": "spezifizieren",
+        "ru": "конкретизировать",
+        "en": "to specify"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "zusammenfassen",
+        "ru": "обобщать",
+        "en": "to summarise"
+      },
+      {
+        "de": "pauschalieren",
+        "ru": "усреднять",
+        "en": "to lump together"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "nach Kategorien aufschlüsseln",
+        "ru": "разбить по категориям",
+        "en": "to break down by category"
+      },
+      {
+        "de": "detailliert aufschlüsseln",
+        "ru": "детально расписать",
+        "en": "to itemise in detail"
+      },
+      {
+        "de": "die Kosten aufschlüsseln",
+        "ru": "расписать расходы",
+        "en": "to break down the costs"
+      }
+    ]
+  },
+  "w_c1_029": {
+    "examples": [
+      {
+        "de": "Diese Zahl muss man relativieren.",
+        "ru": "Эту цифру нужно рассматривать в контексте.",
+        "en": "This figure has to be put into perspective."
+      },
+      {
+        "de": "Neue Daten relativieren das frühere Ergebnis.",
+        "ru": "Новые данные заставляют пересмотреть прежний результат.",
+        "en": "New data puts the earlier result into perspective."
+      }
+    ],
+    "family": [
+      {
+        "de": "relativ",
+        "ru": "относительный",
+        "en": "relative",
+        "example": {
+          "de": "Alles ist relativ.",
+          "ru": "Всё относительно.",
+          "en": "Everything is relative."
+        }
+      },
+      {
+        "de": "die Relativierung",
+        "ru": "релятивизация",
+        "en": "qualification",
+        "example": {
+          "de": "Die Relativierung wirkte wie ein Rückzug.",
+          "ru": "Смягчение выглядело как отступление.",
+          "en": "The qualification looked like a retreat."
+        }
+      },
+      {
+        "de": "einschränken",
+        "ru": "ограничивать",
+        "en": "to restrict",
+        "example": {
+          "de": "Er schränkte sein Lob etwas ein.",
+          "ru": "Он несколько ограничил свою похвалу.",
+          "en": "He qualified his praise somewhat."
+        }
+      },
+      {
+        "de": "abschwächen",
+        "ru": "ослаблять",
+        "en": "to soften",
+        "example": {
+          "de": "Die Kritik wurde später abgeschwächt.",
+          "ru": "Критику позже смягчили.",
+          "en": "The criticism was softened later."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "abschwächen",
+        "ru": "смягчать",
+        "en": "to tone down"
+      },
+      {
+        "de": "einordnen",
+        "ru": "помещать в контекст",
+        "en": "to contextualise"
+      },
+      {
+        "de": "einschränken",
+        "ru": "оговаривать",
+        "en": "to qualify"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "verabsolutieren",
+        "ru": "абсолютизировать",
+        "en": "to absolutise"
+      },
+      {
+        "de": "zuspitzen",
+        "ru": "заострять",
+        "en": "to sharpen"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine Aussage relativieren",
+        "ru": "смягчить высказывание",
+        "en": "to qualify a statement"
+      },
+      {
+        "de": "etwas ins Verhältnis setzen",
+        "ru": "соотнести что-то",
+        "en": "to put something in proportion"
+      },
+      {
+        "de": "nachträglich relativieren",
+        "ru": "смягчить задним числом",
+        "en": "to qualify after the fact"
+      }
+    ]
+  },
+  "w_c1_030": {
+    "examples": [
+      {
+        "de": "Er versuchte, seine Herkunft zu verschleiern.",
+        "ru": "Он пытался скрыть своё происхождение.",
+        "en": "He tried to disguise his origins."
+      },
+      {
+        "de": "Nichts wurde verschleiert, alles lag offen.",
+        "ru": "Ничего не скрывалось, всё было открыто.",
+        "en": "Nothing was obscured, everything lay open."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Schleier",
+        "ru": "вуаль, пелена",
+        "en": "veil",
+        "example": {
+          "de": "Ein Schleier aus Nebel lag über dem Tal.",
+          "ru": "Пелена тумана лежала над долиной.",
+          "en": "A veil of mist lay over the valley."
+        }
+      },
+      {
+        "de": "die Verschleierung",
+        "ru": "сокрытие",
+        "en": "concealment",
+        "example": {
+          "de": "Die Verschleierung der Kosten flog auf.",
+          "ru": "Сокрытие расходов вскрылось.",
+          "en": "The concealment of the costs came to light."
+        }
+      },
+      {
+        "de": "verbergen",
+        "ru": "прятать",
+        "en": "to conceal",
+        "example": {
+          "de": "Sie verbarg ihre Enttäuschung gut.",
+          "ru": "Она хорошо скрыла разочарование.",
+          "en": "She concealed her disappointment well."
+        }
+      },
+      {
+        "de": "verhüllen",
+        "ru": "скрывать, укутывать",
+        "en": "to shroud",
+        "example": {
+          "de": "Wolken verhüllen den Gipfel.",
+          "ru": "Облака скрывают вершину.",
+          "en": "Clouds shroud the summit."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "vertuschen",
+        "ru": "заминать",
+        "en": "to cover up"
+      },
+      {
+        "de": "kaschieren",
+        "ru": "маскировать",
+        "en": "to mask"
+      },
+      {
+        "de": "verbergen",
+        "ru": "скрывать",
+        "en": "to hide"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "offenlegen",
+        "ru": "раскрывать",
+        "en": "to disclose"
+      },
+      {
+        "de": "aufdecken",
+        "ru": "вскрывать",
+        "en": "to uncover"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "die Wahrheit verschleiern",
+        "ru": "затушёвывать правду",
+        "en": "to obscure the truth"
+      },
+      {
+        "de": "bewusst verschleiern",
+        "ru": "сознательно скрывать",
+        "en": "to deliberately obscure"
+      },
+      {
+        "de": "verschleiernde Formulierungen",
+        "ru": "затушёвывающие формулировки",
+        "en": "obfuscating wording"
+      }
+    ]
+  },
+  "w_c1_031": {
+    "examples": [
+      {
+        "de": "Zuerst wollen wir den Markt ausloten.",
+        "ru": "Сначала мы хотим прощупать рынок.",
+        "en": "First we want to sound out the market."
+      },
+      {
+        "de": "Er lotete vorsichtig ihre Bereitschaft aus.",
+        "ru": "Он осторожно прощупал её готовность.",
+        "en": "He carefully sounded out her willingness."
+      }
+    ],
+    "family": [
+      {
+        "de": "das Lot",
+        "ru": "отвес, лот",
+        "en": "plumb line",
+        "example": {
+          "de": "Die Wand steht genau im Lot.",
+          "ru": "Стена стоит точно по отвесу.",
+          "en": "The wall is exactly plumb."
+        }
+      },
+      {
+        "de": "die Auslotung",
+        "ru": "зондирование",
+        "en": "sounding",
+        "example": {
+          "de": "Die Auslotung der Grenzen dauert an.",
+          "ru": "Прощупывание границ продолжается.",
+          "en": "The sounding out of the limits continues."
+        }
+      },
+      {
+        "de": "erkunden",
+        "ru": "разведывать",
+        "en": "to scout",
+        "example": {
+          "de": "Wir erkunden zuerst den Weg.",
+          "ru": "Сначала мы разведаем дорогу.",
+          "en": "First we will scout the route."
+        }
+      },
+      {
+        "de": "die Tiefe",
+        "ru": "глубина",
+        "en": "depth",
+        "example": {
+          "de": "Die Tiefe des Sees ist beachtlich.",
+          "ru": "Глубина озера значительна.",
+          "en": "The depth of the lake is considerable."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "sondieren",
+        "ru": "зондировать",
+        "en": "to probe"
+      },
+      {
+        "de": "prüfen",
+        "ru": "проверять",
+        "en": "to test"
+      },
+      {
+        "de": "erkunden",
+        "ru": "исследовать",
+        "en": "to explore"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "festlegen",
+        "ru": "устанавливать окончательно",
+        "en": "to fix"
+      },
+      {
+        "de": "abbrechen",
+        "ru": "прерывать",
+        "en": "to break off"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "Möglichkeiten ausloten",
+        "ru": "прощупывать возможности",
+        "en": "to explore possibilities"
+      },
+      {
+        "de": "Grenzen ausloten",
+        "ru": "прощупывать границы",
+        "en": "to test the limits"
+      },
+      {
+        "de": "vorsichtig ausloten",
+        "ru": "осторожно зондировать",
+        "en": "to sound out cautiously"
+      }
+    ]
+  },
+  "w_c1_032": {
+    "examples": [
+      {
+        "de": "Mit einem Nicken bekräftigte er die Aussage.",
+        "ru": "Кивком он подтвердил сказанное.",
+        "en": "With a nod he affirmed the statement."
+      },
+      {
+        "de": "Beide Seiten bekräftigten den Willen zur Zusammenarbeit.",
+        "ru": "Обе стороны подтвердили готовность к сотрудничеству.",
+        "en": "Both sides reaffirmed their will to cooperate."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Bekräftigung",
+        "ru": "подтверждение",
+        "en": "affirmation",
+        "example": {
+          "de": "Die Bekräftigung kam schriftlich.",
+          "ru": "Подтверждение пришло письменно.",
+          "en": "The affirmation came in writing."
+        }
+      },
+      {
+        "de": "die Kraft",
+        "ru": "сила",
+        "en": "strength",
+        "example": {
+          "de": "Ihm fehlte die Kraft zum Weitermachen.",
+          "ru": "Ему не хватило сил продолжать.",
+          "en": "He lacked the strength to carry on."
+        }
+      },
+      {
+        "de": "kräftig",
+        "ru": "сильный",
+        "en": "strong",
+        "example": {
+          "de": "Ein kräftiger Wind kam auf.",
+          "ru": "Поднялся сильный ветер.",
+          "en": "A strong wind came up."
+        }
+      },
+      {
+        "de": "bestätigen",
+        "ru": "подтверждать",
+        "en": "to confirm",
+        "example": {
+          "de": "Bitte bestätige den Termin.",
+          "ru": "Пожалуйста, подтверди дату.",
+          "en": "Please confirm the appointment."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "bestätigen",
+        "ru": "подтверждать",
+        "en": "to confirm"
+      },
+      {
+        "de": "unterstreichen",
+        "ru": "подчёркивать",
+        "en": "to underline"
+      },
+      {
+        "de": "beteuern",
+        "ru": "уверять",
+        "en": "to assert"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "widerrufen",
+        "ru": "отзывать",
+        "en": "to retract"
+      },
+      {
+        "de": "abschwächen",
+        "ru": "ослаблять",
+        "en": "to soften"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine Zusage bekräftigen",
+        "ru": "подтвердить обещание",
+        "en": "to reaffirm a commitment"
+      },
+      {
+        "de": "nachdrücklich bekräftigen",
+        "ru": "настойчиво подтвердить",
+        "en": "to emphatically affirm"
+      },
+      {
+        "de": "mit einem Handschlag bekräftigen",
+        "ru": "скрепить рукопожатием",
+        "en": "to seal with a handshake"
+      }
+    ]
+  },
+  "w_c1_033": {
+    "examples": [
+      {
+        "de": "Mit dieser Klausel wird das Gesetz unterlaufen.",
+        "ru": "Этой оговоркой обходят закон.",
+        "en": "This clause circumvents the law."
+      },
+      {
+        "de": "Solche Versehen unterlaufen jedem einmal.",
+        "ru": "Такие оплошности случаются с каждым.",
+        "en": "Such slips happen to everyone once."
+      }
+    ],
+    "family": [
+      {
+        "de": "laufen",
+        "ru": "бежать, идти",
+        "en": "to run",
+        "example": {
+          "de": "Die Verhandlungen laufen noch.",
+          "ru": "Переговоры ещё идут.",
+          "en": "The negotiations are still running."
+        }
+      },
+      {
+        "de": "der Lauf",
+        "ru": "ход, бег",
+        "en": "course",
+        "example": {
+          "de": "Der Lauf der Dinge ließ sich nicht ändern.",
+          "ru": "Ход вещей нельзя было изменить.",
+          "en": "The course of events could not be changed."
+        }
+      },
+      {
+        "de": "unterwandern",
+        "ru": "подрывать изнутри",
+        "en": "to infiltrate",
+        "example": {
+          "de": "Die Regel wurde still unterwandert.",
+          "ru": "Правило тихо подрывали.",
+          "en": "The rule was quietly infiltrated."
+        }
+      },
+      {
+        "de": "umgehen",
+        "ru": "обходить",
+        "en": "to bypass",
+        "example": {
+          "de": "Er umgeht die Vorschrift geschickt.",
+          "ru": "Он ловко обходит предписание.",
+          "en": "He skilfully bypasses the regulation."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "umgehen",
+        "ru": "обходить",
+        "en": "to bypass"
+      },
+      {
+        "de": "aushebeln",
+        "ru": "выхолащивать",
+        "en": "to undermine"
+      },
+      {
+        "de": "passieren",
+        "ru": "случаться",
+        "en": "to happen"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "einhalten",
+        "ru": "соблюдать",
+        "en": "to comply with"
+      },
+      {
+        "de": "befolgen",
+        "ru": "следовать",
+        "en": "to observe"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "ein Fehler ist unterlaufen",
+        "ru": "вкралась ошибка",
+        "en": "a mistake has slipped in"
+      },
+      {
+        "de": "Vorschriften unterlaufen",
+        "ru": "обходить предписания",
+        "en": "to circumvent regulations"
+      },
+      {
+        "de": "systematisch unterlaufen werden",
+        "ru": "систематически обходиться",
+        "en": "to be systematically circumvented"
+      }
+    ]
+  },
+  "w_c1_034": {
+    "examples": [
+      {
+        "de": "Das Problem lässt sich auf einen Tippfehler zurückführen.",
+        "ru": "Проблему можно свести к опечатке.",
+        "en": "The problem can be traced back to a typo."
+      },
+      {
+        "de": "Der Weg führte uns zum Ausgangspunkt zurück.",
+        "ru": "Дорога вернула нас к исходной точке.",
+        "en": "The path led us back to the starting point."
+      }
+    ],
+    "family": [
+      {
+        "de": "führen",
+        "ru": "вести",
+        "en": "to lead",
+        "example": {
+          "de": "Dieser Weg führt zum See.",
+          "ru": "Эта дорога ведёт к озеру.",
+          "en": "This path leads to the lake."
+        }
+      },
+      {
+        "de": "die Rückführung",
+        "ru": "возвращение",
+        "en": "return, repatriation",
+        "example": {
+          "de": "Die Rückführung der Daten dauerte Stunden.",
+          "ru": "Возврат данных занял часы.",
+          "en": "The restoration of the data took hours."
+        }
+      },
+      {
+        "de": "die Ursache",
+        "ru": "причина",
+        "en": "cause",
+        "example": {
+          "de": "Die Ursache ist noch unbekannt.",
+          "ru": "Причина ещё неизвестна.",
+          "en": "The cause is still unknown."
+        }
+      },
+      {
+        "de": "zurück",
+        "ru": "назад",
+        "en": "back",
+        "example": {
+          "de": "Wir müssen zurück zum Anfang.",
+          "ru": "Нам нужно вернуться к началу.",
+          "en": "We have to go back to the beginning."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "erklären mit",
+        "ru": "объяснять чем-то",
+        "en": "to explain by"
+      },
+      {
+        "de": "ableiten",
+        "ru": "выводить",
+        "en": "to derive"
+      },
+      {
+        "de": "beimessen",
+        "ru": "приписывать",
+        "en": "to ascribe"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "ausschließen",
+        "ru": "исключать",
+        "en": "to rule out"
+      },
+      {
+        "de": "trennen von",
+        "ru": "отделять от",
+        "en": "to separate from"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "etwas auf etwas zurückführen",
+        "ru": "сводить что-то к чему-то",
+        "en": "to attribute something to something"
+      },
+      {
+        "de": "sich zurückführen lassen auf",
+        "ru": "объясняться чем-либо",
+        "en": "to be traceable to"
+      },
+      {
+        "de": "auf eine Ursache zurückführen",
+        "ru": "свести к одной причине",
+        "en": "to trace back to one cause"
+      }
+    ]
+  },
+  "w_c1_035": {
+    "examples": [
+      {
+        "de": "Die Pflege der Anlagen obliegt der Gemeinde.",
+        "ru": "Уход за объектами возложен на общину.",
+        "en": "The upkeep of the facilities is the municipality's responsibility."
+      },
+      {
+        "de": "Ihm oblag es, die Gäste zu begrüßen.",
+        "ru": "На нём лежала обязанность приветствовать гостей.",
+        "en": "It was incumbent upon him to welcome the guests."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Obliegenheit",
+        "ru": "обязанность",
+        "en": "obligation",
+        "example": {
+          "de": "Diese Obliegenheit steht im Vertrag.",
+          "ru": "Эта обязанность прописана в договоре.",
+          "en": "This obligation is stated in the contract."
+        }
+      },
+      {
+        "de": "liegen",
+        "ru": "лежать",
+        "en": "to lie",
+        "example": {
+          "de": "Die Verantwortung liegt bei uns.",
+          "ru": "Ответственность лежит на нас.",
+          "en": "The responsibility lies with us."
+        }
+      },
+      {
+        "de": "die Pflicht",
+        "ru": "долг, обязанность",
+        "en": "duty",
+        "example": {
+          "de": "Es ist unsere Pflicht zu helfen.",
+          "ru": "Помогать — наш долг.",
+          "en": "It is our duty to help."
+        }
+      },
+      {
+        "de": "zufallen",
+        "ru": "выпадать на долю",
+        "en": "to fall to",
+        "example": {
+          "de": "Die Aufgabe fiel ihr zu.",
+          "ru": "Задача выпала ей.",
+          "en": "The task fell to her."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "zufallen",
+        "ru": "доставаться",
+        "en": "to fall to"
+      },
+      {
+        "de": "zustehen",
+        "ru": "полагаться",
+        "en": "to be due to"
+      },
+      {
+        "de": "verantworten",
+        "ru": "отвечать за",
+        "en": "to be responsible for"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "entbinden",
+        "ru": "освобождать от обязанности",
+        "en": "to release from"
+      },
+      {
+        "de": "abgeben",
+        "ru": "передавать",
+        "en": "to hand over"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "jemandem obliegen",
+        "ru": "лежать на ком-либо",
+        "en": "to be incumbent upon someone"
+      },
+      {
+        "de": "es obliegt mir zu …",
+        "ru": "на мне лежит обязанность …",
+        "en": "it falls to me to …"
+      },
+      {
+        "de": "die Prüfung obliegt der Behörde",
+        "ru": "проверка возложена на ведомство",
+        "en": "the review is the authority's responsibility"
+      }
+    ]
+  },
+  "w_c1_036": {
+    "examples": [
+      {
+        "de": "Ihm haftet noch immer der alte Fehler an.",
+        "ru": "За ним всё ещё тянется старая ошибка.",
+        "en": "The old mistake still clings to him."
+      },
+      {
+        "de": "Am Stoff haften kleine Fasern an.",
+        "ru": "К ткани прилипают мелкие волокна.",
+        "en": "Small fibres cling to the fabric."
+      }
+    ],
+    "family": [
+      {
+        "de": "haften",
+        "ru": "держаться; нести ответственность",
+        "en": "to stick; to be liable",
+        "example": {
+          "de": "Eltern haften für ihre Kinder.",
+          "ru": "Родители отвечают за своих детей.",
+          "en": "Parents are liable for their children."
+        }
+      },
+      {
+        "de": "die Haftung",
+        "ru": "ответственность",
+        "en": "liability",
+        "example": {
+          "de": "Die Haftung ist vertraglich begrenzt.",
+          "ru": "Ответственность ограничена договором.",
+          "en": "Liability is limited by contract."
+        }
+      },
+      {
+        "de": "der Makel",
+        "ru": "изъян, пятно",
+        "en": "blemish",
+        "example": {
+          "de": "Ein kleiner Makel bleibt.",
+          "ru": "Маленький изъян остаётся.",
+          "en": "A small blemish remains."
+        }
+      },
+      {
+        "de": "kleben",
+        "ru": "клеить, липнуть",
+        "en": "to stick",
+        "example": {
+          "de": "Der Zettel klebt an der Tür.",
+          "ru": "Записка приклеена к двери.",
+          "en": "The note is stuck to the door."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "innewohnen",
+        "ru": "быть присущим",
+        "en": "to be inherent in"
+      },
+      {
+        "de": "eigen sein",
+        "ru": "быть свойственным",
+        "en": "to be characteristic of"
+      },
+      {
+        "de": "kleben",
+        "ru": "прилипать",
+        "en": "to adhere"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "abfallen",
+        "ru": "отпадать",
+        "en": "to fall off"
+      },
+      {
+        "de": "sich lösen",
+        "ru": "отделяться",
+        "en": "to come loose"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "jemandem anhaften",
+        "ru": "быть присущим кому-то",
+        "en": "to cling to someone"
+      },
+      {
+        "de": "ein Makel haftet an",
+        "ru": "пятно остаётся",
+        "en": "a blemish clings to it"
+      },
+      {
+        "de": "etwas haftet der Sache an",
+        "ru": "нечто присуще делу",
+        "en": "something is inherent in the matter"
+      }
+    ]
+  },
+  "w_c1_037": {
+    "examples": [
+      {
+        "de": "Mit seiner Forderung konnte er nicht durchdringen.",
+        "ru": "Со своим требованием он не смог пробиться.",
+        "en": "He could not get his demand through."
+      },
+      {
+        "de": "Die Idee hat inzwischen alle Bereiche durchdrungen.",
+        "ru": "Идея тем временем пронизала все области.",
+        "en": "The idea has by now permeated every area."
+      }
+    ],
+    "family": [
+      {
+        "de": "dringen",
+        "ru": "проникать",
+        "en": "to penetrate",
+        "example": {
+          "de": "Wasser dringt durch die Wand.",
+          "ru": "Вода проникает сквозь стену.",
+          "en": "Water is seeping through the wall."
+        }
+      },
+      {
+        "de": "die Durchdringung",
+        "ru": "проникновение",
+        "en": "permeation",
+        "example": {
+          "de": "Die digitale Durchdringung wächst.",
+          "ru": "Цифровое проникновение растёт.",
+          "en": "Digital permeation is growing."
+        }
+      },
+      {
+        "de": "eindringen",
+        "ru": "вторгаться",
+        "en": "to intrude",
+        "example": {
+          "de": "Niemand darf hier eindringen.",
+          "ru": "Никому нельзя сюда вторгаться.",
+          "en": "Nobody may intrude here."
+        }
+      },
+      {
+        "de": "durchsetzen",
+        "ru": "проводить, добиваться",
+        "en": "to assert",
+        "example": {
+          "de": "Sie setzte ihren Vorschlag durch.",
+          "ru": "Она добилась своего предложения.",
+          "en": "She pushed her proposal through."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "durchziehen",
+        "ru": "пронизывать",
+        "en": "to run through"
+      },
+      {
+        "de": "erfassen",
+        "ru": "охватывать",
+        "en": "to pervade"
+      },
+      {
+        "de": "durchbrechen",
+        "ru": "прорываться",
+        "en": "to break through"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "abprallen",
+        "ru": "отскакивать",
+        "en": "to bounce off"
+      },
+      {
+        "de": "scheitern",
+        "ru": "терпеть неудачу",
+        "en": "to fail"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "bis ins Detail durchdringen",
+        "ru": "проникнуть до мелочей",
+        "en": "to penetrate down to the detail"
+      },
+      {
+        "de": "einen Stoff geistig durchdringen",
+        "ru": "глубоко освоить материал",
+        "en": "to master a subject intellectually"
+      },
+      {
+        "de": "alles durchdringend",
+        "ru": "всепроникающий",
+        "en": "all-pervading"
+      }
+    ]
+  },
+  "w_c1_038": {
+    "examples": [
+      {
+        "de": "Beim Lernen schweifen meine Gedanken oft ab.",
+        "ru": "Во время учёбы мои мысли часто уходят в сторону.",
+        "en": "While studying my thoughts often wander."
+      },
+      {
+        "de": "Ohne abzuschweifen kam er zum Kern.",
+        "ru": "Не отвлекаясь, он перешёл к сути.",
+        "en": "Without digressing he got to the core."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Abschweifung",
+        "ru": "отступление",
+        "en": "digression",
+        "example": {
+          "de": "Nach einer kurzen Abschweifung ging es weiter.",
+          "ru": "После короткого отступления продолжили.",
+          "en": "After a brief digression it went on."
+        }
+      },
+      {
+        "de": "schweifen",
+        "ru": "блуждать",
+        "en": "to roam",
+        "example": {
+          "de": "Ihr Blick schweifte über das Feld.",
+          "ru": "Её взгляд блуждал по полю.",
+          "en": "Her gaze roamed over the field."
+        }
+      },
+      {
+        "de": "abkommen",
+        "ru": "сбиваться (с пути)",
+        "en": "to stray",
+        "example": {
+          "de": "Wir sind vom Weg abgekommen.",
+          "ru": "Мы сбились с пути.",
+          "en": "We have strayed from the path."
+        }
+      },
+      {
+        "de": "der Exkurs",
+        "ru": "экскурс",
+        "en": "excursus",
+        "example": {
+          "de": "Der Exkurs war lehrreich.",
+          "ru": "Экскурс был поучительным.",
+          "en": "The excursus was instructive."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "abweichen",
+        "ru": "отклоняться",
+        "en": "to deviate"
+      },
+      {
+        "de": "ausschweifen",
+        "ru": "разглагольствовать",
+        "en": "to ramble"
+      },
+      {
+        "de": "abirren",
+        "ru": "плутать",
+        "en": "to wander off"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "beim Thema bleiben",
+        "ru": "держаться темы",
+        "en": "to stay on topic"
+      },
+      {
+        "de": "sich konzentrieren",
+        "ru": "сосредотачиваться",
+        "en": "to concentrate"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "vom Thema abschweifen",
+        "ru": "отклоняться от темы",
+        "en": "to digress from the topic"
+      },
+      {
+        "de": "die Gedanken schweifen ab",
+        "ru": "мысли уходят в сторону",
+        "en": "one's thoughts wander"
+      },
+      {
+        "de": "weit abschweifen",
+        "ru": "далеко уходить в сторону",
+        "en": "to digress widely"
+      }
+    ]
+  },
+  "w_c1_039": {
+    "examples": [
+      {
+        "de": "Der Film schwelgt in prächtigen Bildern.",
+        "ru": "Фильм упивается роскошными кадрами.",
+        "en": "The film revels in magnificent images."
+      },
+      {
+        "de": "Nach dem Konzert schwelgte das Publikum noch lange.",
+        "ru": "После концерта публика ещё долго упивалась впечатлением.",
+        "en": "After the concert the audience revelled for a long time."
+      }
+    ],
+    "family": [
+      {
+        "de": "schwelgerisch",
+        "ru": "роскошный, упоённый",
+        "en": "sumptuous",
+        "example": {
+          "de": "Die Ausstattung war schwelgerisch.",
+          "ru": "Оформление было роскошным.",
+          "en": "The décor was sumptuous."
+        }
+      },
+      {
+        "de": "genießen",
+        "ru": "наслаждаться",
+        "en": "to enjoy",
+        "example": {
+          "de": "Wir genießen die letzten warmen Tage.",
+          "ru": "Мы наслаждаемся последними тёплыми днями.",
+          "en": "We are enjoying the last warm days."
+        }
+      },
+      {
+        "de": "der Genuss",
+        "ru": "наслаждение",
+        "en": "pleasure",
+        "example": {
+          "de": "Das war ein echter Genuss.",
+          "ru": "Это было настоящее наслаждение.",
+          "en": "That was a real pleasure."
+        }
+      },
+      {
+        "de": "die Erinnerung",
+        "ru": "воспоминание",
+        "en": "memory",
+        "example": {
+          "de": "Die Erinnerung daran ist schön.",
+          "ru": "Воспоминание об этом приятно.",
+          "en": "The memory of it is lovely."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "genießen",
+        "ru": "наслаждаться",
+        "en": "to savour"
+      },
+      {
+        "de": "sich ergehen in",
+        "ru": "предаваться чему-то",
+        "en": "to indulge in"
+      },
+      {
+        "de": "schwärmen",
+        "ru": "восторгаться",
+        "en": "to rave"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "verzichten",
+        "ru": "отказываться",
+        "en": "to abstain"
+      },
+      {
+        "de": "sich beschränken",
+        "ru": "ограничивать себя",
+        "en": "to restrain oneself"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "in Erinnerungen schwelgen",
+        "ru": "предаваться воспоминаниям",
+        "en": "to wallow in memories"
+      },
+      {
+        "de": "in Farben schwelgen",
+        "ru": "упиваться красками",
+        "en": "to revel in colours"
+      },
+      {
+        "de": "im Luxus schwelgen",
+        "ru": "утопать в роскоши",
+        "en": "to revel in luxury"
+      }
+    ]
+  },
+  "w_c1_040": {
+    "examples": [
+      {
+        "de": "Diese Angaben sind für den Antrag unabdingbar.",
+        "ru": "Эти данные обязательны для заявления.",
+        "en": "These details are indispensable for the application."
+      },
+      {
+        "de": "Er hält Kritik für unabdingbar.",
+        "ru": "Он считает критику непременной.",
+        "en": "He considers criticism indispensable."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Bedingung",
+        "ru": "условие",
+        "en": "condition",
+        "example": {
+          "de": "Die Bedingungen sind klar formuliert.",
+          "ru": "Условия сформулированы ясно.",
+          "en": "The conditions are clearly formulated."
+        }
+      },
+      {
+        "de": "bedingen",
+        "ru": "обусловливать",
+        "en": "to necessitate",
+        "example": {
+          "de": "Der Umbau bedingt eine Pause.",
+          "ru": "Перестройка обусловливает паузу.",
+          "en": "The renovation necessitates a break."
+        }
+      },
+      {
+        "de": "notwendig",
+        "ru": "необходимый",
+        "en": "necessary",
+        "example": {
+          "de": "Ein zweiter Termin ist notwendig.",
+          "ru": "Нужна вторая встреча.",
+          "en": "A second appointment is necessary."
+        }
+      },
+      {
+        "de": "unverzichtbar",
+        "ru": "незаменимый",
+        "en": "essential",
+        "example": {
+          "de": "Sie ist im Team unverzichtbar.",
+          "ru": "Она незаменима в команде.",
+          "en": "She is essential to the team."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "unerlässlich",
+        "ru": "необходимый",
+        "en": "imperative"
+      },
+      {
+        "de": "unverzichtbar",
+        "ru": "незаменимый",
+        "en": "essential"
+      },
+      {
+        "de": "zwingend",
+        "ru": "обязательный",
+        "en": "mandatory"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "entbehrlich",
+        "ru": "необязательный",
+        "en": "dispensable"
+      },
+      {
+        "de": "optional",
+        "ru": "по желанию",
+        "en": "optional"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine unabdingbare Voraussetzung",
+        "ru": "непременное условие",
+        "en": "an indispensable prerequisite"
+      },
+      {
+        "de": "unabdingbar sein für",
+        "ru": "быть необходимым для",
+        "en": "to be indispensable for"
+      },
+      {
+        "de": "als unabdingbar gelten",
+        "ru": "считаться обязательным",
+        "en": "to be regarded as indispensable"
+      }
+    ]
+  },
+  "w_c1_041": {
+    "examples": [
+      {
+        "de": "Auf jede Frage hatte er eine schlagfertige Antwort.",
+        "ru": "На каждый вопрос у него был находчивый ответ.",
+        "en": "He had a quick-witted answer to every question."
+      },
+      {
+        "de": "Schlagfertig konterte sie den Vorwurf.",
+        "ru": "Находчиво она парировала упрёк.",
+        "en": "She countered the accusation quick-wittedly."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Schlagfertigkeit",
+        "ru": "находчивость",
+        "en": "quick wit",
+        "example": {
+          "de": "Ihre Schlagfertigkeit ist berühmt.",
+          "ru": "Её находчивость знаменита.",
+          "en": "Her quick wit is famous."
+        }
+      },
+      {
+        "de": "schlagen",
+        "ru": "бить",
+        "en": "to strike",
+        "example": {
+          "de": "Die Uhr schlägt zwölf.",
+          "ru": "Часы бьют двенадцать.",
+          "en": "The clock strikes twelve."
+        }
+      },
+      {
+        "de": "fertig",
+        "ru": "готовый",
+        "en": "ready",
+        "example": {
+          "de": "Das Essen ist gleich fertig.",
+          "ru": "Еда скоро будет готова.",
+          "en": "The food will be ready soon."
+        }
+      },
+      {
+        "de": "die Antwort",
+        "ru": "ответ",
+        "en": "answer",
+        "example": {
+          "de": "Auf diese Antwort hatte niemand gewartet.",
+          "ru": "Такого ответа никто не ждал.",
+          "en": "Nobody had expected that answer."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "geistesgegenwärtig",
+        "ru": "сообразительный",
+        "en": "quick-thinking"
+      },
+      {
+        "de": "witzig",
+        "ru": "остроумный",
+        "en": "witty"
+      },
+      {
+        "de": "gewandt",
+        "ru": "ловкий (в речи)",
+        "en": "adroit"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "schwerfällig",
+        "ru": "неповоротливый",
+        "en": "ponderous"
+      },
+      {
+        "de": "sprachlos",
+        "ru": "потерявший дар речи",
+        "en": "speechless"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine schlagfertige Antwort",
+        "ru": "находчивый ответ",
+        "en": "a quick-witted reply"
+      },
+      {
+        "de": "schlagfertig reagieren",
+        "ru": "находчиво реагировать",
+        "en": "to react quick-wittedly"
+      },
+      {
+        "de": "um keine Antwort verlegen sein",
+        "ru": "за словом в карман не лезть",
+        "en": "never to be at a loss for an answer"
+      }
+    ]
+  },
+  "w_c1_042": {
+    "examples": [
+      {
+        "de": "Die Prüfung war kleinlich bis ins Detail.",
+        "ru": "Проверка была придирчивой до мелочей.",
+        "en": "The inspection was petty down to the last detail."
+      },
+      {
+        "de": "Kleinlich zu rechnen lohnt sich hier nicht.",
+        "ru": "Мелочно считать здесь не стоит.",
+        "en": "It is not worth counting pennies here."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Kleinlichkeit",
+        "ru": "мелочность",
+        "en": "pettiness",
+        "example": {
+          "de": "Seine Kleinlichkeit nervt alle.",
+          "ru": "Его мелочность всех раздражает.",
+          "en": "His pettiness annoys everyone."
+        }
+      },
+      {
+        "de": "klein",
+        "ru": "маленький",
+        "en": "small",
+        "example": {
+          "de": "Der Unterschied ist klein.",
+          "ru": "Разница мала.",
+          "en": "The difference is small."
+        }
+      },
+      {
+        "de": "kleinkariert",
+        "ru": "узколобый, мелочный",
+        "en": "narrow-minded",
+        "example": {
+          "de": "Diese Regel wirkt kleinkariert.",
+          "ru": "Это правило выглядит мелочным.",
+          "en": "This rule seems narrow-minded."
+        }
+      },
+      {
+        "de": "pedantisch",
+        "ru": "педантичный",
+        "en": "pedantic",
+        "example": {
+          "de": "Er korrigiert pedantisch jeden Beistrich.",
+          "ru": "Он педантично правит каждую запятую.",
+          "en": "He pedantically corrects every comma."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "pedantisch",
+        "ru": "педантичный",
+        "en": "pedantic"
+      },
+      {
+        "de": "kleinkariert",
+        "ru": "мелочный",
+        "en": "small-minded"
+      },
+      {
+        "de": "engherzig",
+        "ru": "черствый, скупой",
+        "en": "narrow-hearted"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "großzügig",
+        "ru": "щедрый",
+        "en": "generous"
+      },
+      {
+        "de": "nachsichtig",
+        "ru": "снисходительный",
+        "en": "lenient"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "kleinlich sein",
+        "ru": "быть мелочным",
+        "en": "to be petty"
+      },
+      {
+        "de": "im Kleinen kleinlich",
+        "ru": "мелочный в мелочах",
+        "en": "petty about trifles"
+      },
+      {
+        "de": "nicht kleinlich sein",
+        "ru": "не мелочиться",
+        "en": "not to quibble"
+      }
+    ]
+  },
+  "w_c1_043": {
+    "examples": [
+      {
+        "de": "Der Roman zeichnet vielschichtige Figuren.",
+        "ru": "Роман рисует многогранных персонажей.",
+        "en": "The novel draws multi-layered characters."
+      },
+      {
+        "de": "Die Ursachen sind vielschichtig und teils widersprüchlich.",
+        "ru": "Причины многослойны и отчасти противоречивы.",
+        "en": "The causes are complex and partly contradictory."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Schicht",
+        "ru": "слой",
+        "en": "layer",
+        "example": {
+          "de": "Unter der Farbe liegt eine alte Schicht.",
+          "ru": "Под краской лежит старый слой.",
+          "en": "Beneath the paint lies an old layer."
+        }
+      },
+      {
+        "de": "die Vielschichtigkeit",
+        "ru": "многослойность",
+        "en": "complexity",
+        "example": {
+          "de": "Die Vielschichtigkeit des Themas überrascht.",
+          "ru": "Многослойность темы удивляет.",
+          "en": "The complexity of the topic is surprising."
+        }
+      },
+      {
+        "de": "viel",
+        "ru": "много",
+        "en": "much",
+        "example": {
+          "de": "Dazu gibt es viel zu sagen.",
+          "ru": "Об этом можно много сказать.",
+          "en": "There is much to say about that."
+        }
+      },
+      {
+        "de": "komplex",
+        "ru": "сложный",
+        "en": "complex",
+        "example": {
+          "de": "Das System ist sehr komplex.",
+          "ru": "Система очень сложна.",
+          "en": "The system is very complex."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "komplex",
+        "ru": "комплексный",
+        "en": "complex"
+      },
+      {
+        "de": "facettenreich",
+        "ru": "многогранный",
+        "en": "many-faceted"
+      },
+      {
+        "de": "differenziert",
+        "ru": "дифференцированный",
+        "en": "nuanced"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "eindimensional",
+        "ru": "одномерный",
+        "en": "one-dimensional"
+      },
+      {
+        "de": "simpel",
+        "ru": "простой",
+        "en": "simplistic"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "ein vielschichtiges Thema",
+        "ru": "многогранная тема",
+        "en": "a multi-layered topic"
+      },
+      {
+        "de": "vielschichtig angelegt",
+        "ru": "задуманный многослойно",
+        "en": "conceived in many layers"
+      },
+      {
+        "de": "die Sache ist vielschichtig",
+        "ru": "дело непростое",
+        "en": "the matter is complex"
+      }
+    ]
+  },
+  "w_c1_044": {
+    "examples": [
+      {
+        "de": "Die Kritik war unverhohlen und deutlich.",
+        "ru": "Критика была нескрываемой и чёткой.",
+        "en": "The criticism was open and clear."
+      },
+      {
+        "de": "Mit unverhohlener Freude nahm sie den Preis entgegen.",
+        "ru": "С нескрываемой радостью она приняла премию.",
+        "en": "With undisguised joy she accepted the prize."
+      }
+    ],
+    "family": [
+      {
+        "de": "verhehlen",
+        "ru": "утаивать",
+        "en": "to conceal",
+        "example": {
+          "de": "Ich will nicht verhehlen, dass ich zweifle.",
+          "ru": "Не стану скрывать, что сомневаюсь.",
+          "en": "I will not conceal that I have doubts."
+        }
+      },
+      {
+        "de": "offen",
+        "ru": "открытый",
+        "en": "open",
+        "example": {
+          "de": "Er sprach offen über den Fehler.",
+          "ru": "Он открыто говорил об ошибке.",
+          "en": "He spoke openly about the mistake."
+        }
+      },
+      {
+        "de": "unverblümt",
+        "ru": "прямой, без обиняков",
+        "en": "blunt",
+        "example": {
+          "de": "Sie sagte unverblümt ihre Meinung.",
+          "ru": "Она без обиняков высказала мнение.",
+          "en": "She stated her opinion bluntly."
+        }
+      },
+      {
+        "de": "die Offenheit",
+        "ru": "открытость",
+        "en": "openness",
+        "example": {
+          "de": "Seine Offenheit überraschte alle.",
+          "ru": "Его открытость всех удивила.",
+          "en": "His openness surprised everyone."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "offen",
+        "ru": "открытый",
+        "en": "open"
+      },
+      {
+        "de": "unverblümt",
+        "ru": "прямолинейный",
+        "en": "blunt"
+      },
+      {
+        "de": "offenkundig",
+        "ru": "явный",
+        "en": "manifest"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "verdeckt",
+        "ru": "скрытый",
+        "en": "covert"
+      },
+      {
+        "de": "heimlich",
+        "ru": "тайный",
+        "en": "secret"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "mit unverhohlener Freude",
+        "ru": "с нескрываемой радостью",
+        "en": "with undisguised joy"
+      },
+      {
+        "de": "unverhohlene Kritik üben",
+        "ru": "открыто критиковать",
+        "en": "to criticise openly"
+      },
+      {
+        "de": "unverhohlen zeigen",
+        "ru": "не скрывать",
+        "en": "to show openly"
+      }
+    ]
+  },
+  "w_c1_045": {
+    "examples": [
+      {
+        "de": "Der Vorwurf erscheint mir völlig abwegig.",
+        "ru": "Упрёк кажется мне совершенно нелепым.",
+        "en": "The accusation seems completely absurd to me."
+      },
+      {
+        "de": "So abwegig ist der Gedanke gar nicht.",
+        "ru": "Мысль вовсе не такая уж нелепая.",
+        "en": "The thought is not so far-fetched at all."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Abweg",
+        "ru": "ложный путь",
+        "en": "wrong path",
+        "example": {
+          "de": "Er geriet früh auf Abwege.",
+          "ru": "Он рано сбился с пути.",
+          "en": "He went astray early on."
+        }
+      },
+      {
+        "de": "abweichen",
+        "ru": "отклоняться",
+        "en": "to deviate",
+        "example": {
+          "de": "Die Zahlen weichen leicht ab.",
+          "ru": "Цифры слегка расходятся.",
+          "en": "The figures deviate slightly."
+        }
+      },
+      {
+        "de": "der Weg",
+        "ru": "путь",
+        "en": "path",
+        "example": {
+          "de": "Der Weg dorthin ist weit.",
+          "ru": "Путь туда далёк.",
+          "en": "The path there is long."
+        }
+      },
+      {
+        "de": "absurd",
+        "ru": "абсурдный",
+        "en": "absurd",
+        "example": {
+          "de": "Die Situation war fast absurd.",
+          "ru": "Ситуация была почти абсурдной.",
+          "en": "The situation was almost absurd."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "absurd",
+        "ru": "абсурдный",
+        "en": "absurd"
+      },
+      {
+        "de": "an den Haaren herbeigezogen",
+        "ru": "притянутый за уши",
+        "en": "far-fetched"
+      },
+      {
+        "de": "unsinnig",
+        "ru": "бессмысленный",
+        "en": "nonsensical"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "plausibel",
+        "ru": "правдоподобный",
+        "en": "plausible"
+      },
+      {
+        "de": "naheliegend",
+        "ru": "напрашивающийся",
+        "en": "obvious"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "nicht ganz abwegig",
+        "ru": "не лишённый смысла",
+        "en": "not entirely far-fetched"
+      },
+      {
+        "de": "ein abwegiger Gedanke",
+        "ru": "нелепая мысль",
+        "en": "an absurd idea"
+      },
+      {
+        "de": "als abwegig zurückweisen",
+        "ru": "отвергнуть как нелепое",
+        "en": "to dismiss as absurd"
+      }
+    ]
+  },
+  "w_c1_046": {
+    "examples": [
+      {
+        "de": "Sein Einwand war durchaus stichhaltig.",
+        "ru": "Его возражение было вполне состоятельным.",
+        "en": "His objection was quite valid."
+      },
+      {
+        "de": "Nur stichhaltige Argumente zählen hier.",
+        "ru": "Здесь считаются только весомые аргументы.",
+        "en": "Only sound arguments count here."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Stich",
+        "ru": "укол",
+        "en": "sting, prick",
+        "example": {
+          "de": "Der Stich der Biene tat weh.",
+          "ru": "Укус пчелы был болезненным.",
+          "en": "The bee's sting hurt."
+        }
+      },
+      {
+        "de": "halten",
+        "ru": "держать, выдерживать",
+        "en": "to hold",
+        "example": {
+          "de": "Das Seil hält das Gewicht.",
+          "ru": "Верёвка держит вес.",
+          "en": "The rope holds the weight."
+        }
+      },
+      {
+        "de": "haltbar",
+        "ru": "состоятельный; годный",
+        "en": "tenable",
+        "example": {
+          "de": "Diese Behauptung ist nicht haltbar.",
+          "ru": "Это утверждение несостоятельно.",
+          "en": "This claim is not tenable."
+        }
+      },
+      {
+        "de": "das Argument",
+        "ru": "аргумент",
+        "en": "argument",
+        "example": {
+          "de": "Sein Argument überzeugte die Runde.",
+          "ru": "Его аргумент убедил собравшихся.",
+          "en": "His argument convinced the group."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "überzeugend",
+        "ru": "убедительный",
+        "en": "convincing"
+      },
+      {
+        "de": "triftig",
+        "ru": "веский",
+        "en": "cogent"
+      },
+      {
+        "de": "fundiert",
+        "ru": "обоснованный",
+        "en": "well-founded"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "haltlos",
+        "ru": "необоснованный",
+        "en": "unfounded"
+      },
+      {
+        "de": "fadenscheinig",
+        "ru": "шитый белыми нитками",
+        "en": "flimsy"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "stichhaltige Argumente",
+        "ru": "весомые аргументы",
+        "en": "sound arguments"
+      },
+      {
+        "de": "einer Prüfung stichhaltig standhalten",
+        "ru": "выдержать проверку",
+        "en": "to stand up to scrutiny"
+      },
+      {
+        "de": "nicht stichhaltig sein",
+        "ru": "быть несостоятельным",
+        "en": "not to be valid"
+      }
+    ]
+  },
+  "w_c1_047": {
+    "examples": [
+      {
+        "de": "Jeder Punkt wurde gewissenhaft geprüft.",
+        "ru": "Каждый пункт был добросовестно проверен.",
+        "en": "Every point was conscientiously checked."
+      },
+      {
+        "de": "Ein gewissenhafter Mitarbeiter ist Gold wert.",
+        "ru": "Добросовестный сотрудник на вес золота.",
+        "en": "A conscientious employee is worth their weight in gold."
+      }
+    ],
+    "family": [
+      {
+        "de": "das Gewissen",
+        "ru": "совесть",
+        "en": "conscience",
+        "example": {
+          "de": "Sein Gewissen ließ ihn nicht schlafen.",
+          "ru": "Совесть не давала ему спать.",
+          "en": "His conscience kept him awake."
+        }
+      },
+      {
+        "de": "gewissenlos",
+        "ru": "бессовестный",
+        "en": "unscrupulous",
+        "example": {
+          "de": "Das war gewissenlos gehandelt.",
+          "ru": "Это был бессовестный поступок.",
+          "en": "That was an unscrupulous thing to do."
+        }
+      },
+      {
+        "de": "die Gewissenhaftigkeit",
+        "ru": "добросовестность",
+        "en": "conscientiousness",
+        "example": {
+          "de": "Ihre Gewissenhaftigkeit ist bekannt.",
+          "ru": "Её добросовестность известна.",
+          "en": "Her conscientiousness is well known."
+        }
+      },
+      {
+        "de": "sorgfältig",
+        "ru": "тщательный",
+        "en": "careful",
+        "example": {
+          "de": "Arbeite bitte sorgfältig.",
+          "ru": "Работай, пожалуйста, тщательно.",
+          "en": "Please work carefully."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "sorgfältig",
+        "ru": "тщательный",
+        "en": "careful"
+      },
+      {
+        "de": "zuverlässig",
+        "ru": "надёжный",
+        "en": "reliable"
+      },
+      {
+        "de": "pflichtbewusst",
+        "ru": "исполнительный",
+        "en": "dutiful"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "nachlässig",
+        "ru": "небрежный",
+        "en": "negligent"
+      },
+      {
+        "de": "schlampig",
+        "ru": "неряшливый",
+        "en": "sloppy"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "gewissenhaft arbeiten",
+        "ru": "работать добросовестно",
+        "en": "to work conscientiously"
+      },
+      {
+        "de": "eine gewissenhafte Prüfung",
+        "ru": "добросовестная проверка",
+        "en": "a conscientious examination"
+      },
+      {
+        "de": "gewissenhaft bis ins Detail",
+        "ru": "добросовестно до мелочей",
+        "en": "conscientious down to the detail"
+      }
+    ]
+  },
+  "w_c1_048": {
+    "examples": [
+      {
+        "de": "Er antwortete überheblich und knapp.",
+        "ru": "Он ответил высокомерно и коротко.",
+        "en": "He answered arrogantly and briefly."
+      },
+      {
+        "de": "Wer überheblich wirkt, verliert schnell Sympathien.",
+        "ru": "Кто кажется высокомерным, быстро теряет симпатии.",
+        "en": "Anyone who seems arrogant quickly loses sympathy."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Überheblichkeit",
+        "ru": "высокомерие",
+        "en": "arrogance",
+        "example": {
+          "de": "Seine Überheblichkeit kostete ihn den Posten.",
+          "ru": "Высокомерие стоило ему должности.",
+          "en": "His arrogance cost him the position."
+        }
+      },
+      {
+        "de": "sich erheben",
+        "ru": "подниматься; возвышаться",
+        "en": "to rise",
+        "example": {
+          "de": "Der Turm erhebt sich über die Stadt.",
+          "ru": "Башня возвышается над городом.",
+          "en": "The tower rises above the city."
+        }
+      },
+      {
+        "de": "hochmütig",
+        "ru": "надменный",
+        "en": "haughty",
+        "example": {
+          "de": "Ihr hochmütiger Blick sagte alles.",
+          "ru": "Её надменный взгляд говорил всё.",
+          "en": "Her haughty look said it all."
+        }
+      },
+      {
+        "de": "die Arroganz",
+        "ru": "надменность",
+        "en": "conceit",
+        "example": {
+          "de": "Arroganz verdeckt oft Unsicherheit.",
+          "ru": "Надменность часто скрывает неуверенность.",
+          "en": "Conceit often masks insecurity."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "arrogant",
+        "ru": "надменный",
+        "en": "arrogant"
+      },
+      {
+        "de": "hochmütig",
+        "ru": "спесивый",
+        "en": "haughty"
+      },
+      {
+        "de": "herablassend",
+        "ru": "снисходительно-надменный",
+        "en": "condescending"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "bescheiden",
+        "ru": "скромный",
+        "en": "modest"
+      },
+      {
+        "de": "demütig",
+        "ru": "смиренный",
+        "en": "humble"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "überheblich wirken",
+        "ru": "производить впечатление высокомерия",
+        "en": "to come across as arrogant"
+      },
+      {
+        "de": "ein überheblicher Ton",
+        "ru": "высокомерный тон",
+        "en": "an arrogant tone"
+      },
+      {
+        "de": "auf andere überheblich herabsehen",
+        "ru": "смотреть на других свысока",
+        "en": "to look down on others"
+      }
+    ]
+  },
+  "w_c1_049": {
+    "examples": [
+      {
+        "de": "Der Bericht endet mit einem lapidaren Satz.",
+        "ru": "Отчёт заканчивается лапидарной фразой.",
+        "en": "The report ends with a terse sentence."
+      },
+      {
+        "de": "Lapidar stellte sie fest, dass alles vorbei sei.",
+        "ru": "Лаконично она констатировала, что всё кончено.",
+        "en": "She stated laconically that it was all over."
+      }
+    ],
+    "family": [
+      {
+        "de": "knapp",
+        "ru": "краткий, скупой",
+        "en": "concise",
+        "example": {
+          "de": "Fasse dich bitte knapp.",
+          "ru": "Изъясняйся, пожалуйста, кратко.",
+          "en": "Please be brief."
+        }
+      },
+      {
+        "de": "kurz",
+        "ru": "короткий",
+        "en": "short",
+        "example": {
+          "de": "Die Sitzung war erfreulich kurz.",
+          "ru": "Заседание было приятно коротким.",
+          "en": "The meeting was pleasantly short."
+        }
+      },
+      {
+        "de": "die Kürze",
+        "ru": "краткость",
+        "en": "brevity",
+        "example": {
+          "de": "In der Kürze liegt die Würze.",
+          "ru": "Краткость — сестра таланта.",
+          "en": "Brevity is the soul of wit."
+        }
+      },
+      {
+        "de": "schlicht",
+        "ru": "простой",
+        "en": "plain",
+        "example": {
+          "de": "Der Stil ist schlicht und klar.",
+          "ru": "Стиль простой и ясный.",
+          "en": "The style is plain and clear."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "knapp",
+        "ru": "лаконичный",
+        "en": "concise"
+      },
+      {
+        "de": "wortkarg",
+        "ru": "немногословный",
+        "en": "taciturn"
+      },
+      {
+        "de": "trocken",
+        "ru": "сухой",
+        "en": "dry"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "ausschweifend",
+        "ru": "многословный",
+        "en": "rambling"
+      },
+      {
+        "de": "ausführlich",
+        "ru": "подробный",
+        "en": "detailed"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "eine lapidare Feststellung",
+        "ru": "лапидарная констатация",
+        "en": "a terse statement"
+      },
+      {
+        "de": "lapidar antworten",
+        "ru": "отвечать лаконично",
+        "en": "to answer tersely"
+      },
+      {
+        "de": "in lapidaren Worten",
+        "ru": "в скупых словах",
+        "en": "in terse words"
+      }
+    ]
+  },
+  "w_c1_050": {
+    "examples": [
+      {
+        "de": "Die Untersuchung erfolgt nüchtern am Morgen.",
+        "ru": "Обследование проводится натощак утром.",
+        "en": "The examination takes place on an empty stomach in the morning."
+      },
+      {
+        "de": "Sein nüchterner Bericht überzeugte mehr als jede Rede.",
+        "ru": "Его беспристрастный отчёт убедил больше любой речи.",
+        "en": "His matter-of-fact report convinced more than any speech."
+      }
+    ],
+    "family": [
+      {
+        "de": "die Nüchternheit",
+        "ru": "трезвость, беспристрастность",
+        "en": "sobriety",
+        "example": {
+          "de": "Ihre Nüchternheit half in der Krise.",
+          "ru": "Её трезвость помогла в кризисе.",
+          "en": "Her sobriety helped in the crisis."
+        }
+      },
+      {
+        "de": "ernüchtern",
+        "ru": "отрезвлять",
+        "en": "to disillusion",
+        "example": {
+          "de": "Das Ergebnis hat uns ernüchtert.",
+          "ru": "Результат нас отрезвил.",
+          "en": "The result disillusioned us."
+        }
+      },
+      {
+        "de": "sachlich",
+        "ru": "деловой, по существу",
+        "en": "objective",
+        "example": {
+          "de": "Bleiben wir bitte sachlich.",
+          "ru": "Давайте останемся по существу.",
+          "en": "Let us please stay objective."
+        }
+      },
+      {
+        "de": "der Rausch",
+        "ru": "опьянение",
+        "en": "intoxication",
+        "example": {
+          "de": "Der Rausch war am Morgen vorbei.",
+          "ru": "Опьянение к утру прошло.",
+          "en": "The intoxication was over by morning."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "sachlich",
+        "ru": "деловой",
+        "en": "matter-of-fact"
+      },
+      {
+        "de": "realistisch",
+        "ru": "реалистичный",
+        "en": "realistic"
+      },
+      {
+        "de": "unaufgeregt",
+        "ru": "невозмутимый",
+        "en": "unexcitable"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "euphorisch",
+        "ru": "восторженный",
+        "en": "euphoric"
+      },
+      {
+        "de": "schwärmerisch",
+        "ru": "восторженно-мечтательный",
+        "en": "gushing"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "nüchtern betrachtet",
+        "ru": "если смотреть трезво",
+        "en": "viewed soberly"
+      },
+      {
+        "de": "auf nüchternen Magen",
+        "ru": "натощак",
+        "en": "on an empty stomach"
+      },
+      {
+        "de": "eine nüchterne Bilanz ziehen",
+        "ru": "подвести трезвый итог",
+        "en": "to draw a sober conclusion"
+      }
+    ]
+  },
+  "w_c1_051": {
+    "examples": [
+      {
+        "de": "Diese Ausrede ist reichlich fadenscheinig.",
+        "ru": "Эта отговорка весьма неубедительна.",
+        "en": "This excuse is rather flimsy."
+      },
+      {
+        "de": "Der alte Mantel war schon fadenscheinig.",
+        "ru": "Старое пальто уже протёрлось до нитки.",
+        "en": "The old coat was already threadbare."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Faden",
+        "ru": "нить",
+        "en": "thread",
+        "example": {
+          "de": "Der Faden ist gerissen.",
+          "ru": "Нить порвалась.",
+          "en": "The thread has snapped."
+        }
+      },
+      {
+        "de": "der Schein",
+        "ru": "видимость",
+        "en": "appearance",
+        "example": {
+          "de": "Der Schein trügt.",
+          "ru": "Видимость обманчива.",
+          "en": "Appearances are deceptive."
+        }
+      },
+      {
+        "de": "scheinen",
+        "ru": "казаться; светить",
+        "en": "to seem; to shine",
+        "example": {
+          "de": "Es scheint alles in Ordnung zu sein.",
+          "ru": "Кажется, всё в порядке.",
+          "en": "Everything seems to be in order."
+        }
+      },
+      {
+        "de": "durchsichtig",
+        "ru": "прозрачный, очевидный",
+        "en": "transparent",
+        "example": {
+          "de": "Sein Manöver war durchsichtig.",
+          "ru": "Его манёвр был очевиден.",
+          "en": "His manoeuvre was transparent."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "haltlos",
+        "ru": "несостоятельный",
+        "en": "untenable"
+      },
+      {
+        "de": "vorgeschoben",
+        "ru": "надуманный",
+        "en": "pretextual"
+      },
+      {
+        "de": "billig",
+        "ru": "дешёвый (о доводе)",
+        "en": "cheap"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "stichhaltig",
+        "ru": "убедительный",
+        "en": "sound"
+      },
+      {
+        "de": "glaubwürdig",
+        "ru": "правдоподобный",
+        "en": "credible"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "ein fadenscheiniger Vorwand",
+        "ru": "неубедительный предлог",
+        "en": "a flimsy pretext"
+      },
+      {
+        "de": "fadenscheinige Argumente",
+        "ru": "шитые белыми нитками доводы",
+        "en": "flimsy arguments"
+      },
+      {
+        "de": "allzu fadenscheinig wirken",
+        "ru": "выглядеть слишком неубедительно",
+        "en": "to seem all too flimsy"
+      }
+    ]
+  },
+  "w_c1_052": {
+    "examples": [
+      {
+        "de": "Das Gespräch verlief völlig zwanglos.",
+        "ru": "Разговор прошёл совершенно непринуждённо.",
+        "en": "The conversation went entirely informally."
+      },
+      {
+        "de": "Zwanglos plauderten sie über alte Zeiten.",
+        "ru": "Непринуждённо они болтали о былом.",
+        "en": "They chatted informally about old times."
+      }
+    ],
+    "family": [
+      {
+        "de": "der Zwang",
+        "ru": "принуждение",
+        "en": "compulsion",
+        "example": {
+          "de": "Es besteht kein Zwang mitzumachen.",
+          "ru": "Нет никакого принуждения участвовать.",
+          "en": "There is no compulsion to take part."
+        }
+      },
+      {
+        "de": "zwingen",
+        "ru": "заставлять",
+        "en": "to force",
+        "example": {
+          "de": "Niemand zwingt dich dazu.",
+          "ru": "Никто тебя к этому не принуждает.",
+          "en": "Nobody is forcing you to do it."
+        }
+      },
+      {
+        "de": "die Ungezwungenheit",
+        "ru": "непринуждённость",
+        "en": "informality",
+        "example": {
+          "de": "Die Ungezwungenheit des Abends tat gut.",
+          "ru": "Непринуждённость вечера была приятна.",
+          "en": "The informality of the evening felt good."
+        }
+      },
+      {
+        "de": "locker",
+        "ru": "расслабленный",
+        "en": "relaxed",
+        "example": {
+          "de": "Die Stimmung war locker.",
+          "ru": "Настроение было расслабленным.",
+          "en": "The mood was relaxed."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "ungezwungen",
+        "ru": "непринуждённый",
+        "en": "casual"
+      },
+      {
+        "de": "informell",
+        "ru": "неформальный",
+        "en": "informal"
+      },
+      {
+        "de": "entspannt",
+        "ru": "расслабленный",
+        "en": "relaxed"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "förmlich",
+        "ru": "формальный",
+        "en": "formal"
+      },
+      {
+        "de": "steif",
+        "ru": "чопорный",
+        "en": "stiff"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "in zwangloser Atmosphäre",
+        "ru": "в непринуждённой атмосфере",
+        "en": "in an informal atmosphere"
+      },
+      {
+        "de": "zwanglos zusammenkommen",
+        "ru": "собираться без формальностей",
+        "en": "to get together informally"
+      },
+      {
+        "de": "ein zwangloses Gespräch",
+        "ru": "непринуждённая беседа",
+        "en": "an informal conversation"
+      }
+    ]
+  },
+  "w_c1_053": {
+    "examples": [
+      {
+        "de": "Für dieses Thema ist er zu unbedarft.",
+        "ru": "Для этой темы он слишком неискушён.",
+        "en": "He is too unversed for this topic."
+      },
+      {
+        "de": "Ihre unbedarfte Art wirkte sympathisch.",
+        "ru": "Её простодушная манера казалась симпатичной.",
+        "en": "Her naive manner came across as likeable."
+      }
+    ],
+    "family": [
+      {
+        "de": "naiv",
+        "ru": "наивный",
+        "en": "naive",
+        "example": {
+          "de": "Diese Hoffnung war naiv.",
+          "ru": "Эта надежда была наивной.",
+          "en": "This hope was naive."
+        }
+      },
+      {
+        "de": "unerfahren",
+        "ru": "неопытный",
+        "en": "inexperienced",
+        "example": {
+          "de": "Er ist noch unerfahren im Beruf.",
+          "ru": "Он ещё неопытен в профессии.",
+          "en": "He is still inexperienced in the job."
+        }
+      },
+      {
+        "de": "die Erfahrung",
+        "ru": "опыт",
+        "en": "experience",
+        "example": {
+          "de": "Erfahrung kommt mit der Zeit.",
+          "ru": "Опыт приходит со временем.",
+          "en": "Experience comes with time."
+        }
+      },
+      {
+        "de": "ahnungslos",
+        "ru": "ничего не подозревающий",
+        "en": "clueless",
+        "example": {
+          "de": "Sie war völlig ahnungslos.",
+          "ru": "Она была совершенно не в курсе.",
+          "en": "She was completely clueless."
+        }
+      }
+    ],
+    "synonyms": [
+      {
+        "de": "arglos",
+        "ru": "простодушный",
+        "en": "guileless"
+      },
+      {
+        "de": "unerfahren",
+        "ru": "неопытный",
+        "en": "inexperienced"
+      },
+      {
+        "de": "naiv",
+        "ru": "наивный",
+        "en": "naive"
+      }
+    ],
+    "antonyms": [
+      {
+        "de": "versiert",
+        "ru": "искушённый",
+        "en": "well-versed"
+      },
+      {
+        "de": "abgebrüht",
+        "ru": "прожжённый",
+        "en": "hard-boiled"
+      }
+    ],
+    "wendungen": [
+      {
+        "de": "unbedarft an etwas herangehen",
+        "ru": "браться за что-то неискушённо",
+        "en": "to approach something naively"
+      },
+      {
+        "de": "eine unbedarfte Frage",
+        "ru": "простодушный вопрос",
+        "en": "a naive question"
+      },
+      {
+        "de": "nicht ganz so unbedarft sein",
+        "ru": "быть не таким уж простаком",
+        "en": "not to be quite so naive"
+      }
+    ]
+  }
+}

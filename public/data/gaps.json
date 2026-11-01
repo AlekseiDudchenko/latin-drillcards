@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "sentence": "Der Mann, ___ neben uns wohnt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 2,
+    "sentence": "Die Frau, ___ im Café arbeitet, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 3,
+    "sentence": "Das Kind, ___ dort steht, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 4,
+    "sentence": "Der Nachbar, ___ im dritten Stock lebt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 5,
+    "sentence": "Die Kollegin, ___ mit mir spricht, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 6,
+    "sentence": "Das Haus, ___ so laut ist, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 7,
+    "sentence": "Der Lehrer, ___ jeden Morgen joggt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 8,
+    "sentence": "Die Nachbarin, ___ heute krank ist, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 9,
+    "sentence": "Das Auto, ___ im Garten steht, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 10,
+    "sentence": "Der Student, ___ gerade telefoniert, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 11,
+    "sentence": "Die Verkäuferin, ___ aus Spanien kommt, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 12,
+    "sentence": "Das Zimmer, ___ kaputt ist, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 13,
+    "sentence": "Der Fahrer, ___ oft zu spät kommt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 14,
+    "sentence": "Die Ärztin, ___ immer lächelt, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 15,
+    "sentence": "Das Thema, ___ du vorhin gesehen hast, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 16,
+    "sentence": "Der Mann, ___ neben uns wohnt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 17,
+    "sentence": "Die Frau, ___ im Café arbeitet, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 18,
+    "sentence": "Das Kind, ___ dort steht, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 19,
+    "sentence": "Der Nachbar, ___ im dritten Stock lebt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 20,
+    "sentence": "Die Kollegin, ___ mit mir spricht, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 21,
+    "sentence": "Das Haus, ___ so laut ist, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 22,
+    "sentence": "Der Lehrer, ___ jeden Morgen joggt, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 23,
+    "sentence": "Die Nachbarin, ___ heute krank ist, wohnt hier.",
+    "answer": "die"
+  },
+  {
+    "id": 24,
+    "sentence": "Das Auto, ___ im Garten steht, ist neu.",
+    "answer": "das"
+  },
+  {
+    "id": 25,
+    "sentence": "Der Student, ___ gerade telefoniert, ist sehr nett.",
+    "answer": "der"
+  },
+  {
+    "id": 26,
+    "sentence": "Der Film, ___ du gestern gesehen hast, war spannend.",
+    "answer": "den"
+  },
+  {
+    "id": 27,
+    "sentence": "Die Frau, ___ er eingeladen hat, kommt aus Köln.",
+    "answer": "die"
+  },
+  {
+    "id": 28,
+    "sentence": "Das Buch, ___ sie gekauft hat, ist sehr dick.",
+    "answer": "das"
+  },
+  {
+    "id": 29,
+    "sentence": "Den Kuchen, ___ ihr gebacken habt, esse ich später.",
+    "answer": "den"
+  },
+  {
+    "id": 30,
+    "sentence": "Die Schuhe, ___ du mir gezeigt hast, waren zu teuer.",
+    "answer": "die"
+  },
+  {
+    "id": 31,
+    "sentence": "Der Film, ___ du gestern gesehen hast, war spannend.",
+    "answer": "den"
+  },
+  {
+    "id": 32,
+    "sentence": "Die Frau, ___ er eingeladen hat, kommt aus Köln.",
+    "answer": "die"
+  },
+  {
+    "id": 33,
+    "sentence": "Das Buch, ___ sie gekauft hat, ist sehr dick.",
+    "answer": "das"
+  },
+  {
+    "id": 34,
+    "sentence": "Den Kuchen, ___ ihr gebacken habt, esse ich später.",
+    "answer": "den"
+  },
+  {
+    "id": 35,
+    "sentence": "Die Schuhe, ___ du mir gezeigt hast, waren zu teuer.",
+    "answer": "die"
+  },
+  {
+    "id": 36,
+    "sentence": "Der Film, ___ du gestern gesehen hast, war spannend.",
+    "answer": "den"
+  },
+  {
+    "id": 37,
+    "sentence": "Die Frau, ___ er eingeladen hat, kommt aus Köln.",
+    "answer": "die"
+  },
+  {
+    "id": 38,
+    "sentence": "Das Buch, ___ sie gekauft hat, ist sehr dick.",
+    "answer": "das"
+  },
+  {
+    "id": 39,
+    "sentence": "Den Kuchen, ___ ihr gebacken habt, esse ich später.",
+    "answer": "den"
+  },
+  {
+    "id": 40,
+    "sentence": "Die Schuhe, ___ du mir gezeigt hast, waren zu teuer.",
+    "answer": "die"
+  },
+  {
+    "id": 41,
+    "sentence": "Der Film, ___ du gestern gesehen hast, war spannend.",
+    "answer": "den"
+  },
+  {
+    "id": 42,
+    "sentence": "Die Frau, ___ er eingeladen hat, kommt aus Köln.",
+    "answer": "die"
+  },
+  {
+    "id": 43,
+    "sentence": "Das Buch, ___ sie gekauft hat, ist sehr dick.",
+    "answer": "das"
+  },
+  {
+    "id": 44,
+    "sentence": "Den Kuchen, ___ ihr gebacken habt, esse ich später.",
+    "answer": "den"
+  },
+  {
+    "id": 45,
+    "sentence": "Die Schuhe, ___ du mir gezeigt hast, waren zu teuer.",
+    "answer": "die"
+  },
+  {
+    "id": 46,
+    "sentence": "Der Junge, ___ ich geholfen habe, heißt Tom.",
+    "answer": "dem"
+  },
+  {
+    "id": 47,
+    "sentence": "Die Nachbarin, ___ wir geschrieben haben, wohnt in Berlin.",
+    "answer": "der"
+  },
+  {
+    "id": 48,
+    "sentence": "Die Kinder, ___ wir die Geschichte erzählt haben, waren ruhig.",
+    "answer": "denen"
+  },
+  {
+    "id": 49,
+    "sentence": "Der Kollege, ___ du gestern geantwortet hast, war zufrieden.",
+    "answer": "dem"
+  },
+  {
+    "id": 50,
+    "sentence": "Die Frau, ___ ich das Geld gegeben habe, hat sich bedankt.",
+    "answer": "der"
+  },
+  {
+    "id": 51,
+    "sentence": "Der Junge, ___ ich geholfen habe, heißt Tom.",
+    "answer": "dem"
+  },
+  {
+    "id": 52,
+    "sentence": "Die Nachbarin, ___ wir geschrieben haben, wohnt in Berlin.",
+    "answer": "der"
+  },
+  {
+    "id": 53,
+    "sentence": "Die Kinder, ___ wir die Geschichte erzählt haben, waren ruhig.",
+    "answer": "denen"
+  },
+  {
+    "id": 54,
+    "sentence": "Der Kollege, ___ du gestern geantwortet hast, war zufrieden.",
+    "answer": "dem"
+  },
+  {
+    "id": 55,
+    "sentence": "Die Frau, ___ ich das Geld gegeben habe, hat sich bedankt.",
+    "answer": "der"
+  },
+  {
+    "id": 56,
+    "sentence": "Der Junge, ___ ich geholfen habe, heißt Tom.",
+    "answer": "dem"
+  },
+  {
+    "id": 57,
+    "sentence": "Die Nachbarin, ___ wir geschrieben haben, wohnt in Berlin.",
+    "answer": "der"
+  },
+  {
+    "id": 58,
+    "sentence": "Die Kinder, ___ wir die Geschichte erzählt haben, waren ruhig.",
+    "answer": "denen"
+  },
+  {
+    "id": 59,
+    "sentence": "Der Kollege, ___ du gestern geantwortet hast, war zufrieden.",
+    "answer": "dem"
+  },
+  {
+    "id": 60,
+    "sentence": "Die Frau, ___ ich das Geld gegeben habe, hat sich bedankt.",
+    "answer": "der"
+  },
+  {
+    "id": 61,
+    "sentence": "Der Junge, ___ ich geholfen habe, heißt Tom.",
+    "answer": "dem"
+  },
+  {
+    "id": 62,
+    "sentence": "Die Nachbarin, ___ wir geschrieben haben, wohnt in Berlin.",
+    "answer": "der"
+  },
+  {
+    "id": 63,
+    "sentence": "Die Kinder, ___ wir die Geschichte erzählt haben, waren ruhig.",
+    "answer": "denen"
+  },
+  {
+    "id": 64,
+    "sentence": "Der Kollege, ___ du gestern geantwortet hast, war zufrieden.",
+    "answer": "dem"
+  },
+  {
+    "id": 65,
+    "sentence": "Die Frau, ___ ich das Geld gegeben habe, hat sich bedankt.",
+    "answer": "der"
+  },
+  {
+    "id": 66,
+    "sentence": "Der Mann, ___ Auto vor dem Haus steht, ist mein Chef.",
+    "answer": "dessen"
+  },
+  {
+    "id": 67,
+    "sentence": "Die Frau, ___ Kinder ich kenne, arbeitet viel.",
+    "answer": "deren"
+  },
+  {
+    "id": 68,
+    "sentence": "Die Studenten, ___ Projekt wir gesehen haben, studieren Informatik.",
+    "answer": "deren"
+  },
+  {
+    "id": 69,
+    "sentence": "Das Kind, ___ Mutter Lehrerin ist, bleibt heute zu Hause.",
+    "answer": "dessen"
+  },
+  {
+    "id": 70,
+    "sentence": "Die Familie, ___ Haus verkauft wurde, zieht nach Hamburg.",
+    "answer": "deren"
+  },
+  {
+    "id": 71,
+    "sentence": "Der Mann, ___ Auto vor dem Haus steht, ist mein Chef.",
+    "answer": "dessen"
+  },
+  {
+    "id": 72,
+    "sentence": "Die Frau, ___ Kinder ich kenne, arbeitet viel.",
+    "answer": "deren"
+  },
+  {
+    "id": 73,
+    "sentence": "Die Studenten, ___ Projekt wir gesehen haben, studieren Informatik.",
+    "answer": "deren"
+  },
+  {
+    "id": 74,
+    "sentence": "Das Kind, ___ Mutter Lehrerin ist, bleibt heute zu Hause.",
+    "answer": "dessen"
+  },
+  {
+    "id": 75,
+    "sentence": "Die Familie, ___ Haus verkauft wurde, zieht nach Hamburg.",
+    "answer": "deren"
+  },
+  {
+    "id": 76,
+    "sentence": "Der Mann, ___ Auto vor dem Haus steht, ist mein Chef.",
+    "answer": "dessen"
+  },
+  {
+    "id": 77,
+    "sentence": "Die Frau, ___ Kinder ich kenne, arbeitet viel.",
+    "answer": "deren"
+  },
+  {
+    "id": 78,
+    "sentence": "Die Studenten, ___ Projekt wir gesehen haben, studieren Informatik.",
+    "answer": "deren"
+  },
+  {
+    "id": 79,
+    "sentence": "Das Kind, ___ Mutter Lehrerin ist, bleibt heute zu Hause.",
+    "answer": "dessen"
+  },
+  {
+    "id": 80,
+    "sentence": "Die Familie, ___ Haus verkauft wurde, zieht nach Hamburg.",
+    "answer": "deren"
+  },
+  {
+    "id": 81,
+    "sentence": "Die Freunde, ___ wir gestern geholfen haben, sagen danke.",
+    "answer": "denen"
+  },
+  {
+    "id": 82,
+    "sentence": "Die Leute, ___ ich das erklärt habe, arbeiten hier.",
+    "answer": "denen"
+  },
+  {
+    "id": 83,
+    "sentence": "Die Freunde, ___ wir gestern geholfen haben, sagen danke.",
+    "answer": "denen"
+  },
+  {
+    "id": 84,
+    "sentence": "Die Leute, ___ ich das erklärt habe, arbeiten hier.",
+    "answer": "denen"
+  },
+  {
+    "id": 85,
+    "sentence": "Die Freunde, ___ wir gestern geholfen haben, sagen danke.",
+    "answer": "denen"
+  },
+  {
+    "id": 86,
+    "sentence": "Die Leute, ___ ich das erklärt habe, arbeiten hier.",
+    "answer": "denen"
+  },
+  {
+    "id": 87,
+    "sentence": "Die Freunde, ___ wir gestern geholfen haben, sagen danke.",
+    "answer": "denen"
+  },
+  {
+    "id": 88,
+    "sentence": "Die Leute, ___ ich das erklärt habe, arbeiten hier.",
+    "answer": "denen"
+  },
+  {
+    "id": 89,
+    "sentence": "Die Freunde, ___ wir gestern geholfen haben, sagen danke.",
+    "answer": "denen"
+  },
+  {
+    "id": 90,
+    "sentence": "Die Leute, ___ ich das erklärt habe, arbeiten hier.",
+    "answer": "denen"
+  },
+  {
+    "id": 91,
+    "sentence": "Das ist das Haus, ___ ich dir zeigen wollte.",
+    "answer": "das"
+  },
+  {
+    "id": 92,
+    "sentence": "Die Stadt, ___ wir gestern besucht haben, war wunderschön.",
+    "answer": "die"
+  },
+  {
+    "id": 93,
+    "sentence": "Der Kollege, ___ du das gesagt hast, war überrascht.",
+    "answer": "dem"
+  },
+  {
+    "id": 94,
+    "sentence": "Das Mädchen, ___ Vater Arzt ist, spielt Klavier.",
+    "answer": "dessen"
+  },
+  {
+    "id": 95,
+    "sentence": "Die Familie, ___ wir den Weg erklärt haben, war dankbar.",
+    "answer": "der"
+  },
+  {
+    "id": 96,
+    "sentence": "Der Hund, ___ du Angst hast, ist ganz lieb.",
+    "answer": "vor dem"
+  },
+  {
+    "id": 97,
+    "sentence": "Die Frau, ___ wir gestern begegnet sind, heißt Anna.",
+    "answer": "der"
+  },
+  {
+    "id": 98,
+    "sentence": "Die Kinder, ___ Mutter heute arbeitet, bleiben zu Hause.",
+    "answer": "deren"
+  },
+  {
+    "id": 99,
+    "sentence": "Der Lehrer, ___ Schüler heute fehlen, ist krank.",
+    "answer": "dessen"
+  },
+  {
+    "id": 100,
+    "sentence": "Das Auto, ___ ich gestern gefahren bin, war sehr schnell.",
+    "answer": "mit dem"
+  }
+]
