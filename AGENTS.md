@@ -1,6 +1,9 @@
 # Latin DrillCards
 
 Forked from the German DrillCards v2 (copied, not a GitHub fork; origin: de-trainer v2.57.2).
+Upstream changes are ported by cherry-pick (`git remote add upstream https://github.com/AlekseiDudchenko/de-trainer`,
+`git cherry-pick -x <sha>`), skipping release commits and German-only families. Synced with de-trainer 2.59.1
+(`9b970ac`): the next port starts at `git log --oneline 9b970ac..upstream/main`.
 There is no v1 and no legacy compatibility.
 
 - Develop in `src/client/v2`, `public/v2`, `packages/vocabulary-core`, content in `public/data`.

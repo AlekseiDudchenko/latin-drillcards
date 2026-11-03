@@ -29,7 +29,7 @@ Source array order, UI locale changes and rerenders cannot change an existing
 task. JSON round trips preserve it. The meaning language is RU/EN independently
 of interface locale or German response language.
 
-Meaning/German choice candidates share the target part of speech. Common topic tags rank first;
+Meaning/target choice candidates share the target part of speech. Common topic tags rank first;
 seeded deterministic ranking selects candidates and orders the final four options.
 Preferred/accepted translations, split senses and German forms are checked for
 alias overlap against both the target and already selected distractors. Homonymous
@@ -39,14 +39,14 @@ options even when another combination exists. It cannot identify semantic synony
 missing from the published aliases; content verification remains necessary.
 
 `availability` returns explicit missing-translation, insufficient-options,
-unknown-word or content-version reasons. Meaning/German choice requires four safe options; it
+unknown-word or content-version reasons. Meaning/target choice requires four safe options; it
 never pads duplicates or silently changes exercise. Article choice uses the three fixed article IDs and requires no translation; it
 requires a noun with a known article. Other exercises require the requested
 RU/EN translation. Reveal/introduction can still
 be available with a small pool. The planner chooses a permitted alternative.
 
 `validateTask` rebuilds the entire canonical task against its pinned snapshot and
-rejects changed labels, solutions, languages or versions. Meaning/German choice
+rejects changed labels, solutions, languages or versions. Meaning/target choice
 options are the exception: they are **checked, not re-derived**, because the planner
 draws distractors from the pool it is given (a deck) while the server holds the
 whole snapshot. The task's options must be exactly four distinct catalog words of
