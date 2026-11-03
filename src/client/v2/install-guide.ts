@@ -27,7 +27,7 @@ export function platformOrder(current: InstallPlatform): readonly InstallPlatfor
 export const INSTALL_GUIDE: Readonly<Record<Lang, InstallGuide>> = {
   ru: {
     title: 'Скачать приложение',
-    lead: 'DrillCards можно установить как приложение: оно открывается с главного экрана или из Dock в отдельном окне и работает без интернета. Магазин приложений не нужен.',
+    lead: 'Latin DrillCards можно установить как приложение: оно открывается с главного экрана или из Dock в отдельном окне и работает без интернета. Магазин приложений не нужен.',
     install: 'Установить', installed: 'Приложение уже установлено: вы открыли его с главного экрана.', yourDevice: 'Ваше устройство',
     platforms: {
       ios: { title: 'iPhone и iPad', steps: ['Откройте Latin DrillCards в Safari.', 'Нажмите «Поделиться» — квадрат со стрелкой.', 'Выберите «На экран „Домой“» и нажмите «Добавить».'] },
