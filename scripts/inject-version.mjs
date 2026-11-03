@@ -26,6 +26,13 @@ function injectIntoHtml(htmlPath) {
 injectIntoHtml('public/index.html');
 injectIntoHtml('public/404.html');
 
+// Stamp the compiled v2 module the site footer reads its version from.
+const APP_VERSION_PATH = 'public/v2/app-version.js';
+const APP_VERSION_RE = /export const APP_VERSION = '[^']*';/;
+const appVersion = readFileSync(APP_VERSION_PATH, 'utf8');
+if (!APP_VERSION_RE.test(appVersion)) throw new Error(`APP_VERSION constant not found in ${APP_VERSION_PATH}`);
+writeFileSync(APP_VERSION_PATH, appVersion.replace(APP_VERSION_RE, `export const APP_VERSION = '${version}';`));
+
 // Stamp the service worker so each release rolls the offline cache.
 const SW_PATH = 'public/sw.js';
 const sw = readFileSync(SW_PATH, 'utf8');

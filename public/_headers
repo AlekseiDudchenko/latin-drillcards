@@ -55,6 +55,9 @@
 /v2/practice
   Cache-Control: no-cache
 
+/v2/privacy
+  Cache-Control: no-cache
+
 /v2/progress
   Cache-Control: no-cache
 
@@ -65,6 +68,9 @@
   Cache-Control: no-cache
 
 /v2/session
+  Cache-Control: no-cache
+
+/v2/terms
   Cache-Control: no-cache
 
 /v2/today

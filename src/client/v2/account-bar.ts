@@ -1,6 +1,7 @@
 import type { Lang } from '../i18n.js';
 import { openPageLearning, type AccountControls, type PageLearning } from './learning-context.js';
 import { mountSiteNav } from './site-nav.js';
+import { mountSiteFooter } from './site-footer.js';
 import { mountInstallPrompt } from './install-prompt.js';
 
 /** R1a (#325): the topmost line of every hosted v2 page — the Google photo and the sign-in / sign-out button. */
@@ -50,12 +51,13 @@ export function mountAccountBar(account: AccountControls): () => void {
 
 /** Every v2 page starts here: its learning store and catalog, plus the account bar on a hosted build. */
 export async function openLearningPage(): Promise<PageLearning> {
-  // The section bar does not depend on the learning store: it shows even when opening the store fails.
+  // The section bar and the footer do not depend on the learning store: they show even when opening the store fails.
   const unmountNav = mountSiteNav();
+  const unmountFooter = mountSiteFooter();
   const unmountInstall = mountInstallPrompt();
   let learning: PageLearning;
-  try { learning = await openPageLearning(); } catch (error) { unmountNav(); unmountInstall(); throw error; }
-  if (!learning.account) return { ...learning, dispose: () => { unmountInstall(); unmountNav(); learning.dispose(); } };
+  try { learning = await openPageLearning(); } catch (error) { unmountNav(); unmountFooter(); unmountInstall(); throw error; }
+  if (!learning.account) return { ...learning, dispose: () => { unmountInstall(); unmountFooter(); unmountNav(); learning.dispose(); } };
   const unmount = mountAccountBar(learning.account);
-  return { ...learning, dispose: () => { unmount(); unmountInstall(); unmountNav(); learning.dispose(); } };
+  return { ...learning, dispose: () => { unmount(); unmountInstall(); unmountFooter(); unmountNav(); learning.dispose(); } };
 }
