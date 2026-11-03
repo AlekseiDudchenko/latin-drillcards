@@ -4,7 +4,7 @@ import type { Deck, Owner, Word } from './core/index.js';
 import type { CatalogIndex, DeckFile } from './home-model.js';
 import type { RunnerStore } from './session-runner.js';
 import { LearningDatabase, StaleLearningContext } from './storage/learning-db.js';
-import { assertServerEnvironment, parseV2Environment, v2Namespace, type PublicEnvironment, type ReadyEnvironment } from './environment-config.js';
+import { assertServerEnvironment, callbackUrl, parseV2Environment, v2Namespace, type PublicEnvironment, type ReadyEnvironment } from './environment-config.js';
 import { V2AuthContext, type AuthView } from './auth-context.js';
 import { SyncService, createSyncTransport, type SyncStatus } from './sync-service.js';
 
@@ -224,6 +224,10 @@ export function takeReturn(storage: Pick<Storage, 'getItem' | 'removeItem'>, con
   storage.removeItem(RETURN_KEY);
   return stored ? returnTarget(stored, config) : undefined;
 }
+function requireLogin(config: ReadyEnvironment): void {
+  try { rememberReturn(sessionStorage, location.href, config); } catch { /* the sign-in page then stays there */ }
+  location.replace(callbackUrl(config)); // environment.html: the sign-in page and the OAuth callback
+}
 export function forgetReturn(storage: Pick<Storage, 'removeItem'>): void { storage.removeItem(RETURN_KEY); }
 function returnTarget(href: string, config: Pick<ReadyEnvironment, 'siteUrl'>): string | undefined {
   try {
@@ -379,6 +383,9 @@ class HostedAccount implements AccountControls {
     }
     void this.auth.active.run(async scope => scope).then(scope => {
       if (this.disposed || this.auth.view !== view) return;
+      // #409: a hosted site needs an account. A guest (never signed in, signed out here or elsewhere, or an expired
+      // session) goes to the sign-in page, which returns to this page after Google.
+      if (scope.owner.kind !== 'account') { this.dispose(); requireLogin(this.config); return; }
       if (this.owner && !sameOwner(this.owner, scope.owner)) { this.dispose(); this.onOwnerChange(); return; }
       const first = !this.owner;
       this.owner = scope.owner; this.avatarUrl = view.avatarUrl;
