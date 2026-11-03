@@ -15,6 +15,17 @@ The site entry (`/`, obsolete paths, the PWA `start_url`, the offline fallback i
 `/v2/today.html`. A new exercise page needs an entry in `SECTIONS[].pages` and an item in
 `HUBS` (both are checked by `test/site-nav.test.mjs`); labels exist in RU, EN and DE.
 
+## Footer
+
+`site-footer.ts`, mounted by `openLearningPage()` and by the legal pages, puts one footer after the `<main>` of every
+v2 page a visitor reaches from the section bar (the developer pages `environment.html` and `*-demo.html` have none): the sections, contact (email), the legal pages, the author, the copyright and
+the version. The version is `APP_VERSION` (`app-version.ts`), which `scripts/inject-version.mjs`
+stamps from `VERSION` into the compiled module at build time, so it always matches the release.
+The legal pages `privacy.html` and `terms.html` (`legal-page.ts`) render their RU/EN/DE texts and
+the shared contacts from `legal-content.ts` without opening the learning store. `today.html` carries a static
+`footer[data-static-footer]` with the legal links for readers without JS; the mounted footer replaces it. The v1 URLs
+`/privacy` and `/terms` redirect to them (`build-site-entry.mjs`). Checked by `test/site-footer.test.mjs`.
+
 ## Today
 
 `today-page.ts` reads the owner's projections, facts and the catalog and links into the

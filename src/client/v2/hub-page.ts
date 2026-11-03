@@ -1,14 +1,13 @@
 import type { Lang } from '../i18n.js';
 import { sessionUiTranslations } from '../i18n.js';
 import { openLearningPage } from './account-bar.js';
+import { storedLanguage, storeLanguage } from './interface-language.js';
 import { HUBS, type Hub } from './site-nav-model.js';
 
 /** Practice and Progress hubs: the exercises of a section as cards, grouped by skill. */
 const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
 const hub: Hub = HUBS[document.querySelector<HTMLElement>('main')!.dataset.hub as Hub['id']];
-const LANGUAGES: readonly Lang[] = ['ru', 'en', 'de'];
-const stored = (): Lang => { try { const value = localStorage.getItem('dc_v2_lang'); return LANGUAGES.includes(value as Lang) ? value as Lang : 'ru'; } catch { return 'ru'; } };
-let language = stored();
+let language = storedLanguage();
 
 function render(): void {
   document.documentElement.lang = language;
@@ -33,7 +32,7 @@ function render(): void {
 const select = $<HTMLSelectElement>('language'); select.value = language;
 select.addEventListener('change', () => {
   language = select.value as Lang;
-  try { localStorage.setItem('dc_v2_lang', language); } catch { /* the choice then lasts for this page only */ }
+  storeLanguage(language);
   render();
 });
 render();

@@ -13,12 +13,13 @@ test('v2 is the only entry, with unconfigured builds allowed only for local prev
   assert.equal(siteEntry({}, hosted).entry, 'v2');
 });
 
-test('the v2 entry redirects the root and every v1 route to the v2 home with a reversible 302', () => {
+test('the v2 entry redirects the root and every v1 route to the v2 home, the v1 legal URLs to the v2 legal pages, with a reversible 302', () => {
   const { entry, redirects } = siteEntry({ DRILLCARDS_SITE_ENTRY: 'v2' }, hosted);
   assert.equal(entry, 'v2');
   const rules = redirects.split('\n').filter(line => line && !line.startsWith('#')).map(line => line.split(/\s+/));
   assert.deepEqual(rules, [['/', '/v2/today', '302'], ['/index.html', '/v2/today', '302'],
-    ['/de', '/v2/today', '302'], ['/de/*', '/v2/today', '302']]);
+    ['/de', '/v2/today', '302'], ['/de/*', '/v2/today', '302'],
+    ['/privacy', '/v2/privacy', '302'], ['/terms', '/v2/terms', '302']]);
   assert.ok(!rules.some(([from]) => from.startsWith('/v2')), 'no rule may loop on a v2 page');
 });
 

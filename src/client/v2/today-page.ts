@@ -2,6 +2,7 @@ import { isItemSessionPlan, sessionTasks, vocabularyQueues, type SessionRequest,
 import { homeUiTranslations, sessionUiTranslations, type Lang } from '../i18n.js';
 import { openLearningPage } from './account-bar.js';
 import { startedCount, type CatalogIndex } from './home-model.js';
+import { storedLanguage, storeLanguage } from './interface-language.js';
 import type { PageLearning } from './learning-context.js';
 import { SessionRunner, type RunnerEnvironment, type RunnerStore } from './session-runner.js';
 import { HUBS, SECTIONS } from './site-nav-model.js';
@@ -16,8 +17,6 @@ const node = <K extends keyof HTMLElementTagNameMap>(tag: K, text?: string, clas
   const element = document.createElement(tag); if (text !== undefined) element.textContent = text;
   if (className) element.className = className; return element;
 };
-const LANGUAGES: readonly Lang[] = ['ru', 'en', 'de'];
-const stored = (): Lang => { try { const value = localStorage.getItem('dc_v2_lang'); return LANGUAGES.includes(value as Lang) ? value as Lang : 'ru'; } catch { return 'ru'; } };
 
 interface DeckRow { readonly id: string; readonly title: string; readonly total: number; readonly started: number; readonly due: number }
 interface Today {
@@ -30,7 +29,7 @@ interface Today {
 }
 
 const page = new AbortController();
-let language: Lang = stored();
+let language: Lang = storedLanguage();
 let learning: PageLearning | undefined;
 let scope: RunnerStore | undefined;
 let today: Today | undefined;
@@ -154,7 +153,7 @@ async function finishOpen(): Promise<void> {
 
 $('language').addEventListener('change', event => {
   language = (event.target as HTMLSelectElement).value as Lang;
-  try { localStorage.setItem('dc_v2_lang', language); } catch { /* the choice then lasts for this page only */ }
+  storeLanguage(language);
   // The answer language of the queues follows the interface language: recount.
   void refresh();
 }, { signal: page.signal });
