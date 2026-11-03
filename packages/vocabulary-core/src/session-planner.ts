@@ -1,4 +1,5 @@
 import type { Deck, Owner, Word } from './content.js';
+import { isTranslationLanguage } from './content.js';
 import type { Task } from './exercise.js';
 import type { Component, WordProgress } from './progress.js';
 import { compareDueWords, selectDueWords, selectNewWords, selectPracticeWords, summarizeWord, type DueWord,
@@ -52,7 +53,7 @@ function validate(input: VocabularyPlannerInput): void {
   if (![input.sessionId, input.seed, input.dataEpoch, input.catalogVersion, input.studyTimezone, r.deckId].every(text) ||
       r.deckId !== input.deck.id || !['single', 'circuit'].includes(r.format) ||
       !['learn-new', 'review-due', 'practice'].includes(r.intent) ||
-      !['ru', 'en'].includes(r.answerLanguage)) throw new RangeError('Invalid session request/identity');
+      !isTranslationLanguage(r.answerLanguage)) throw new RangeError('Invalid session request/identity');
   if (r.format === 'single' && !(WORD_EXERCISE_IDS as readonly string[]).includes(r.exerciseId)) throw new RangeError('Unknown exercise');
   if (r.format === 'circuit' && (!['due-components', 'all-exercises'].includes(r.circuitScope) ||
       (r.circuitScope === 'due-components' && r.intent !== 'review-due'))) throw new RangeError('Due-components requires review-due');

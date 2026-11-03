@@ -36,11 +36,11 @@ test('routes round-trip through the hash and fall back to the home screen', () =
 });
 
 test('a deck route may ask to start a session in an answer language; unknown values are ignored', () => {
-  for (const route of [{ view: 'deck', deckId: 'a1', start: 'review-due' }, { view: 'deck', deckId: 'a1', start: 'learn-new', answer: 'en' },
+  for (const route of [{ view: 'deck', deckId: 'a1', start: 'review-due' }, { view: 'deck', deckId: 'a1', start: 'learn-new', answer: 'en' }, { view: 'deck', deckId: 'a1', answer: 'de' },
     { view: 'deck', deckId: 'a1', answer: 'ru' }])
     assert.deepEqual(parseRoute(routeHash(route)), route);
   assert.equal(routeHash({ view: 'deck', deckId: 'a1', start: 'review-due', answer: 'en' }), '#deck=a1&start=review-due&answer=en');
-  assert.deepEqual(parseRoute('#deck=a1&start=practice&answer=de'), { view: 'deck', deckId: 'a1' });
+  assert.deepEqual(parseRoute('#deck=a1&start=practice&answer=fr'), { view: 'deck', deckId: 'a1' });
   assert.deepEqual(parseRoute('#word=w-tisch&deck=a1&start=review-due'), { view: 'word', wordId: 'w-tisch', deckId: 'a1' });
 });
 

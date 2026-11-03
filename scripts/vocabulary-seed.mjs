@@ -49,14 +49,14 @@ export function normalizeEntry(deck, entry, detail, position = 0) {
   const partOfSpeech = clean(entry.pos) || 'other';
   if (!PARTS_OF_SPEECH.has(partOfSpeech)) throw new RangeError(`${deck}:${entry.id}: unknown part of speech ${partOfSpeech}`);
   const tags = [...new Set((entry.tags ?? []).map(clean).filter(Boolean))];
-  const examples = [{ id: `${deck}:${entry.id}:main`, text: entry.exampleLa, ru: entry.exampleRu, en: entry.exampleEn },
+  const examples = [{ id: `${deck}:${entry.id}:main`, text: entry.exampleLa, ru: entry.exampleRu, en: entry.exampleEn, de: entry.exampleDe },
     // Detail example IDs follow the sentence, not its position: deleting one never renames another.
     ...(detail?.examples ?? []).map(example => ({ id: `${deck}:${entry.id}:detail:${sha256(clean(example.text)).slice(0, 8)}`, ...example }))]
     .map(example => ({ id: example.id, text: clean(example.text), translations: Object.fromEntries(
-      [['ru', clean(example.ru)], ['en', clean(example.en)]].filter(([, value]) => value)) }))
+      [['ru', clean(example.ru)], ['en', clean(example.en)], ['de', clean(example.de)]].filter(([, value]) => value)) }))
     .filter(example => example.text && Object.keys(example.translations).length);
   return { source: `${deck}:${entry.id}`, deck, position, lemma, partOfSpeech,
-    ru: clean(entry.ru), en: clean(entry.en), tags, examples };
+    ru: clean(entry.ru), en: clean(entry.en), de: clean(entry.de), tags, examples };
 }
 
 /** Gloss parts used to decide whether two entries name the same meaning (parentheses ignored). */
@@ -105,7 +105,7 @@ export function mergeWord(id, sources, partOfSpeech = sources[0].partOfSpeech) {
     const values = [...new Set(sources.map(s => s[lang]).filter(Boolean))];
     return values.length ? { preferred: values[0], accepted: values.slice(1) } : undefined;
   };
-  const meanings = Object.fromEntries(['ru', 'en'].map(lang => [lang, gloss(lang)]).filter(([, value]) => value));
+  const meanings = Object.fromEntries(['ru', 'en', 'de'].map(lang => [lang, gloss(lang)]).filter(([, value]) => value));
   const examples = []; const seen = new Set();
   for (const example of sources.flatMap(s => s.examples)) if (!seen.has(example.text)) { seen.add(example.text); examples.push(example); }
   const bare = bareLemma(first.lemma);
@@ -193,7 +193,7 @@ export function buildSeed(identities, { files, entries, decks: sourceDecks = DEC
     wordIds: [...new Set(entries.filter(entry => entry.deck === id).map(entry => owner.get(entry.source)))] }));
   const provenance = Object.fromEntries(published.map(word => [word.id, word.sources]));
   // Each published gloss credits only the entries that actually wrote it.
-  const translationSources = Object.fromEntries(published.map(identity => [identity.id, Object.fromEntries(['ru', 'en'].map(lang => {
+  const translationSources = Object.fromEntries(published.map(identity => [identity.id, Object.fromEntries(['ru', 'en', 'de'].map(lang => {
     const byText = {};
     for (const source of identity.sources) { const text = bySource.get(source)[lang]; if (text) (byText[text] ??= []).push(source); }
     return [lang, byText];

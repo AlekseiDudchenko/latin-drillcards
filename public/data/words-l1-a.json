@@ -5,6 +5,7 @@
     "pos": "other",
     "ru": "смотри! смотрите!",
     "en": "look! behold!",
+    "de": "sieh! seht!",
     "tags": []
   },
   {
@@ -13,10 +14,12 @@
     "pos": "adverb",
     "ru": "там",
     "en": "there",
+    "de": "dort",
     "tags": [],
     "exampleLa": "Ibi Dāvus est.",
     "exampleRu": "Там Давус.",
-    "exampleEn": "Davus is there."
+    "exampleEn": "Davus is there.",
+    "exampleDe": "Dort ist Davus."
   },
   {
     "id": "w_l1a_3",
@@ -24,6 +27,7 @@
     "pos": "verb",
     "ru": "быть, находиться",
     "en": "to be, to be located",
+    "de": "sein, sich befinden",
     "tags": []
   },
   {
@@ -32,12 +36,14 @@
     "pos": "verb",
     "ru": "он (она, оно) есть, находится",
     "en": "he (she, it) is, is located",
+    "de": "er (sie, es) ist, befindet sich",
     "tags": [
       "3sg"
     ],
     "exampleLa": "Ibi Dāvus est.",
     "exampleRu": "Там Давус.",
-    "exampleEn": "Davus is there."
+    "exampleEn": "Davus is there.",
+    "exampleDe": "Dort ist Davus."
   },
   {
     "id": "w_l1a_5",
@@ -45,12 +51,14 @@
     "pos": "verb",
     "ru": "они есть, находятся",
     "en": "they are, are located",
+    "de": "sie sind, befinden sich",
     "tags": [
       "3pl"
     ],
     "exampleLa": "Ibi Dāvus et Syrus sunt.",
     "exampleRu": "Там Давус и Сир.",
-    "exampleEn": "Davus and Syrus are there."
+    "exampleEn": "Davus and Syrus are there.",
+    "exampleDe": "Dort sind Davus und Syrus."
   },
   {
     "id": "w_l1a_6",
@@ -58,6 +66,7 @@
     "pos": "noun",
     "ru": "раб, слуга",
     "en": "slave, servant",
+    "de": "Sklave, Diener",
     "tags": [
       "m"
     ]
@@ -68,10 +77,12 @@
     "pos": "adverb",
     "ru": "также, даже",
     "en": "also, even",
+    "de": "auch, sogar",
     "tags": [],
     "exampleLa": "Etiam Syrus servus est.",
     "exampleRu": "Сир тоже раб.",
-    "exampleEn": "Syrus is also a slave."
+    "exampleEn": "Syrus is also a slave.",
+    "exampleDe": "Auch Syrus ist ein Sklave."
   },
   {
     "id": "w_l1a_8",
@@ -79,10 +90,12 @@
     "pos": "other",
     "ru": "и, также",
     "en": "and, also",
+    "de": "und, auch",
     "tags": [],
     "exampleLa": "Dāvus et Syrus",
     "exampleRu": "Давус и Сир",
-    "exampleEn": "Davus and Syrus"
+    "exampleEn": "Davus and Syrus",
+    "exampleDe": "Davus und Syrus"
   },
   {
     "id": "w_l1a_9",
@@ -90,6 +103,7 @@
     "pos": "noun",
     "ru": "госпожа, хозяйка, дама",
     "en": "mistress, lady",
+    "de": "Herrin, Hausherrin, Dame",
     "tags": [
       "f"
     ]
@@ -100,6 +114,7 @@
     "pos": "noun",
     "ru": "рабыня, служанка",
     "en": "female slave, maid",
+    "de": "Sklavin, Dienerin",
     "tags": [
       "f"
     ]
@@ -110,6 +125,7 @@
     "pos": "verb",
     "ru": "стоять",
     "en": "to stand",
+    "de": "stehen",
     "tags": []
   },
   {
@@ -118,6 +134,7 @@
     "pos": "verb",
     "ru": "думать, размышлять, намереваться",
     "en": "to think, to reflect, to intend",
+    "de": "denken, nachdenken, beabsichtigen",
     "tags": []
   },
   {
@@ -126,6 +143,7 @@
     "pos": "verb",
     "ru": "громко звать, кричать",
     "en": "to shout, to cry out",
+    "de": "laut rufen, schreien",
     "tags": []
   }
 ]

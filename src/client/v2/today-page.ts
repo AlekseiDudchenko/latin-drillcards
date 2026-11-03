@@ -71,7 +71,7 @@ async function load(learned: PageLearning): Promise<Today> {
 
 const deckHref = (id: string): string => `./session.html#deck=${encodeURIComponent(id)}`;
 /** The queues here are counted in the interface's answer language; the session starts in the same one. */
-const answerLanguage = (): AnswerLanguage => language === 'en' ? 'en' : 'ru';
+const answerLanguage = (): AnswerLanguage => language === 'en' || language === 'de' ? language : 'ru';
 /** Review and Learn new start the default five-word, every-exercise session at once, without the deck screen. */
 const startHref = (id: string, start: StartIntent): string => `./session.html${routeHash({ view: 'deck', deckId: id, start, answer: answerLanguage() })}`;
 

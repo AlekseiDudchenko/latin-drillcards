@@ -11,6 +11,7 @@
     "explanation": "Nominative subject, accusative object, verb last.",
     "translation_en": "The boy reads a book.",
     "translation_ru": "Мальчик читает книгу.",
+    "translation_de": "Der Junge liest ein Buch.",
     "level": "BASIC",
     "alternatives": [
       "Puer legit librum."
@@ -31,6 +32,7 @@
     "explanation": "Subject – object (accusative -am) – verb.",
     "translation_en": "The girl loves the rose.",
     "translation_ru": "Девочка любит розу.",
+    "translation_de": "Das Mädchen liebt die Rose.",
     "level": "BASIC",
     "alternatives": [
       "Puella amat rosam."
@@ -51,6 +53,7 @@
     "explanation": "Accusative -um marks the direct object of a 2nd-declension noun.",
     "translation_en": "The father calls his son.",
     "translation_ru": "Отец зовёт сына.",
+    "translation_de": "Der Vater ruft seinen Sohn.",
     "level": "BASIC",
     "tags": [
       "accusativus"
@@ -68,6 +71,7 @@
     "explanation": "Accusative singular of the 1st declension ends in -am.",
     "translation_en": "The mother loves her daughter.",
     "translation_ru": "Мать любит дочь.",
+    "translation_de": "Die Mutter liebt ihre Tochter.",
     "level": "BASIC",
     "tags": [
       "accusativus"
@@ -85,6 +89,7 @@
     "explanation": "Accusative singular of the 2nd declension ends in -um.",
     "translation_en": "The teacher praises the boy.",
     "translation_ru": "Учитель хвалит мальчика.",
+    "translation_de": "Der Lehrer lobt den Jungen.",
     "level": "BASIC",
     "tags": [
       "accusativus"
@@ -102,6 +107,7 @@
     "explanation": "Word order is free; endings show the roles.",
     "translation_en": "The slave fears the master.",
     "translation_ru": "Раб боится хозяина.",
+    "translation_de": "Der Sklave fürchtet den Herrn.",
     "level": "BASIC",
     "alternatives": [
       "Servus timet dominum."
@@ -123,6 +129,7 @@
     "explanation": "Nominative predicate with sum.",
     "translation_en": "Rome is a large city.",
     "translation_ru": "Рим — большой город.",
+    "translation_de": "Rom ist eine große Stadt.",
     "level": "BASIC"
   },
   {
@@ -138,6 +145,7 @@
     "explanation": "The adjective agrees with its noun.",
     "translation_en": "The good man helps his friend.",
     "translation_ru": "Хороший человек помогает другу.",
+    "translation_de": "Der gute Mann hilft seinem Freund.",
     "level": "BASIC"
   },
   {
@@ -153,6 +161,7 @@
     "explanation": "in + ablative answers 'where?'.",
     "translation_en": "The girl walks on the road.",
     "translation_ru": "Девочка идёт по дороге.",
+    "translation_de": "Das Mädchen geht auf der Straße.",
     "level": "BASIC",
     "tags": [
       "ablativus"
@@ -170,6 +179,7 @@
     "explanation": "Third-declension nominative rex; accusative populum.",
     "translation_en": "The king rules the people.",
     "translation_ru": "Царь правит народом.",
+    "translation_de": "Der König regiert das Volk.",
     "level": "BASIC",
     "alternatives": [
       "Rex regit populum."
@@ -190,6 +200,7 @@
     "explanation": "Feminine adjective agrees with aqua.",
     "translation_en": "The water is cold.",
     "translation_ru": "Вода холодная.",
+    "translation_de": "Das Wasser ist kalt.",
     "level": "BASIC"
   },
   {
@@ -204,6 +215,7 @@
     "explanation": "Personal pronouns: ego (nominative), te (accusative).",
     "translation_en": "I see you.",
     "translation_ru": "Я вижу тебя.",
+    "translation_de": "Ich sehe dich.",
     "level": "BASIC"
   },
   {
@@ -218,6 +230,7 @@
     "explanation": "Proper names decline like other nouns.",
     "translation_en": "Marcus loves Julia.",
     "translation_ru": "Марк любит Юлию.",
+    "translation_de": "Marcus liebt Iulia.",
     "level": "BASIC"
   },
   {
@@ -233,6 +246,7 @@
     "explanation": "in + ablative; habitat is the 3rd person singular.",
     "translation_en": "The sailor lives on the island.",
     "translation_ru": "Моряк живёт на острове.",
+    "translation_de": "Der Seemann wohnt auf der Insel.",
     "level": "BASIC",
     "tags": [
       "ablativus"

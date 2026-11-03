@@ -1,4 +1,5 @@
 import type { TranslationLanguage, Word } from './content.js';
+import { isTranslationLanguage } from './content.js';
 import type { BuildContext, Evaluation, ExerciseDefinition, JsonValue, Task } from './exercise.js';
 import { isLearningEvent, type LearningEvent } from './event.js';
 import { applicableComponents } from './progress.js';
@@ -91,7 +92,7 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     return value as WordExerciseId;
   }
   function contextValid(context: BuildContext): void {
-    if (!context.taskId.trim() || !context.seed.trim() || (context.answerLanguage !== 'ru' && context.answerLanguage !== 'en')) throw new RangeError('Invalid task build context');
+    if (!context.taskId.trim() || !context.seed.trim() || (!isTranslationLanguage(context.answerLanguage))) throw new RangeError('Invalid task build context');
   }
   function optionsFor(exerciseId: WordExerciseId, target: Word, context: BuildContext): Word[] {
     const key = JSON.stringify([context.seed, context.taskId, exerciseId, target.id, context.answerLanguage]);
@@ -166,7 +167,7 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     const specification = task.specification;
     if (specification === null || typeof specification !== 'object' || Array.isArray(specification)) throw new RangeError('Invalid word task specification');
     const fields = specification as Record<string, JsonValue>;
-    if (fields.catalogVersion !== catalogVersion || typeof fields.seed !== 'string' || (fields.answerLanguage !== 'ru' && fields.answerLanguage !== 'en')) throw new RangeError('Task snapshot/context mismatch');
+    if (fields.catalogVersion !== catalogVersion || typeof fields.seed !== 'string' || (!isTranslationLanguage(fields.answerLanguage))) throw new RangeError('Task snapshot/context mismatch');
     const word = catalog.get(task.target.wordId);
     if (!word || word.contentVersion !== task.contentVersion) throw new RangeError('Task content version unavailable');
     const context: BuildContext = { taskId: task.id, seed: fields.seed, answerLanguage: fields.answerLanguage };

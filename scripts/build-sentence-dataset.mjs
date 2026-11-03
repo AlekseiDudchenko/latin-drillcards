@@ -12,7 +12,7 @@ const clean = value => typeof value === 'string' ? value.normalize('NFC').replac
 export function sentenceItem(deck, source) {
   const tokens = (Array.isArray(source.tokens) && source.tokens.length === 1 ? String(source.tokens[0]).replace(/,/g, ' ').split(/\s+/)
     : Array.isArray(source.tokens) ? source.tokens.map(String) : String(source.tokens ?? '').replace(/,/g, ' ').split(/\s+/)).map(clean).filter(Boolean);
-  const translations = Object.fromEntries(['ru', 'en', 'es'].map(lang => [lang, clean(source[`translation_${lang}`])]).filter(([, value]) => value));
+  const translations = Object.fromEntries(['ru', 'en', 'de', 'es'].map(lang => [lang, clean(source[`translation_${lang}`])]).filter(([, value]) => value));
   const content = { deck, level: clean(source.level) || deck.toUpperCase(), tags: [...new Set((source.tags ?? []).map(clean).filter(Boolean))],
     target: clean(source.target), tokens, alternatives: (source.alternatives ?? []).map(clean).filter(Boolean), translations,
     ...(clean(source.explanation) ? { explanation: clean(source.explanation) } : {}),

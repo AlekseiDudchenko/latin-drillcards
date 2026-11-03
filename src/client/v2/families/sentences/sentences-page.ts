@@ -26,7 +26,7 @@ const buttons = { previous: $<HTMLButtonElement>('previous'), variant: $<HTMLBut
 const page = new AbortController();
 
 let language: Lang = stored('dc_v2_lang', ['ru', 'en', 'de']) as Lang ?? 'ru';
-let translation: TranslationLanguage = stored('dc_v2_sentence_translation', ['ru', 'en']) as TranslationLanguage ?? 'ru';
+let translation: TranslationLanguage = stored('dc_v2_sentence_translation', ['ru', 'en', 'de']) as TranslationLanguage ?? 'ru';
 let filter: SentenceFilter = parseFilter(location.hash);
 let learning: PageLearning | undefined;
 let scope: PageLearning['store'] | undefined;
@@ -206,7 +206,7 @@ function renderMeta(task?: ItemExerciseTask): void {
     tenses.append(group);
   }
   // Translations other than the prompt's, as the v1 hint toggles (RU/EN/ES where present).
-  const others = (['ru', 'en', 'es'] as const).filter(lang => lang !== task.specification.answerLanguage && content.translations[lang]);
+  const others = (['ru', 'en', 'de', 'es'] as const).filter(lang => lang !== task.specification.answerLanguage && content.translations[lang]);
   if (others.length) {
     const details = document.createElement('details'); details.className = 'dc-translations';
     const summary = document.createElement('summary'); summary.textContent = labels.otherTranslations; details.append(summary);

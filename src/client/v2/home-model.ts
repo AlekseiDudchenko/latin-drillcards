@@ -21,9 +21,9 @@ export type Route =
 
 /** A deck link may ask to start a session at once (Today's Review / Learn new), in a given answer language. */
 export type StartIntent = 'learn-new' | 'review-due';
-export type AnswerLanguage = 'ru' | 'en';
+export type AnswerLanguage = 'ru' | 'en' | 'de';
 const START_INTENTS: readonly string[] = ['learn-new', 'review-due'];
-const ANSWER_LANGUAGES: readonly string[] = ['ru', 'en'];
+const ANSWER_LANGUAGES: readonly string[] = ['ru', 'en', 'de'];
 
 /** `#deck=a1`, `#deck=a1&start=review-due&answer=en`, `#word=w-tisch&deck=a1`, `#session`; anything else is the home screen. */
 export function parseRoute(hash: string): Route {

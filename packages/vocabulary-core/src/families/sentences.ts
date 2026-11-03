@@ -14,7 +14,7 @@ export interface SentenceContent {
   readonly tokens: readonly string[];
   /** Other correct orders; the target is always correct. */
   readonly alternatives: readonly string[];
-  readonly translations: Readonly<Partial<Record<'ru' | 'en' | 'es', string>>>;
+  readonly translations: Readonly<Partial<Record<'ru' | 'en' | 'de' | 'es', string>>>;
   readonly explanation?: string;
   /** The same statement in another word order (v1 `variant_of`). */
   readonly variantOf?: string;
@@ -44,7 +44,7 @@ export function sentenceContent(content: JsonValue): SentenceContent | null {
   if (!record(content) || !text(content.deck) || !text(content.level) || !text(content.target) ||
       !Array.isArray(content.tokens) || !content.tokens.length || !content.tokens.every(text) ||
       !Array.isArray(content.tags) || !content.tags.every(text) || !Array.isArray(content.alternatives) || !content.alternatives.every(text) ||
-      !record(content.translations) || !Object.entries(content.translations).every(([lang, value]) => ['ru', 'en', 'es'].includes(lang) && text(value)) ||
+      !record(content.translations) || !Object.entries(content.translations).every(([lang, value]) => ['ru', 'en', 'de', 'es'].includes(lang) && text(value)) ||
       (content.explanation !== undefined && !text(content.explanation)) || (content.variantOf !== undefined && !text(content.variantOf)) ||
       (content.tense !== undefined && !text(content.tense)) ||
       (content.tenseVariants !== undefined && (!Array.isArray(content.tenseVariants) || !content.tenseVariants.every(text)))) return null;

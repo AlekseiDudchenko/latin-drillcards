@@ -4,7 +4,8 @@
       {
         "text": "Etiam domina ibi est.",
         "ru": "Госпожа тоже там.",
-        "en": "The mistress is also there."
+        "en": "The mistress is also there.",
+        "de": "Die Herrin ist auch dort."
       }
     ]
   },
@@ -13,7 +14,8 @@
       {
         "text": "Et Syrus ibi est.",
         "ru": "И Сир там.",
-        "en": "Syrus is there too."
+        "en": "Syrus is there too.",
+        "de": "Auch Syrus ist dort."
       }
     ]
   }

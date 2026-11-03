@@ -1,4 +1,5 @@
 import type { LearningTarget, StudyIntent, TranslationLanguage } from './content.js';
+import { isTranslationLanguage } from './content.js';
 import type { JsonValue } from './exercise.js';
 import { COMPONENTS, type Component } from './progress.js';
 
@@ -57,7 +58,7 @@ function target(value: unknown): value is LearningTarget {
 export function isLearningEvent(value: unknown): value is LearningEvent {
   if (!record(value) || value.schemaVersion !== EVENT_SCHEMA_VERSION || !target(value.target)) return false;
   if (typeof value.intent !== 'string' || !['learn-new', 'review-due', 'practice', 'assessment'].includes(value.intent)) return false;
-  if (value.answerLanguage !== 'ru' && value.answerLanguage !== 'en') return false;
+  if (!isTranslationLanguage(value.answerLanguage)) return false;
   const strings = ['eventId', 'commandId', 'sessionId', 'taskId', 'exerciseId', 'occurredAt',
     'studyTimezone', 'taskVersion', 'policyVersion', 'dataEpoch'];
   if (!strings.every(key => text(value[key]))) return false;

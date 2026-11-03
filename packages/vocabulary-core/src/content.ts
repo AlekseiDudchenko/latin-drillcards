@@ -1,6 +1,7 @@
 export const CONTENT_SCHEMA_VERSION = 1 as const;
 export type WordId = string;
-export type TranslationLanguage = 'ru' | 'en';
+export type TranslationLanguage = 'ru' | 'en' | 'de';
+export const isTranslationLanguage = (value: unknown): value is TranslationLanguage => value === 'ru' || value === 'en' || value === 'de';
 export type StudyIntent = 'learn-new' | 'review-due' | 'practice' | 'assessment';
 export type Article = 'der' | 'die' | 'das';
 export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'other';
