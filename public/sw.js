@@ -1,5 +1,5 @@
 /* DrillCards v2 offline worker; no v1 app shell or routing. */
-const VERSION = "2.58.0";
+const VERSION = "2.59.0";
 const CACHE = `drillcards-v2-${VERSION}`;
 const V2_HOME = "/v2/today";
 
