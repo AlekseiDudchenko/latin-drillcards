@@ -1,9 +1,12 @@
 import type { Lang } from '../i18n.js';
 import { APP_VERSION } from './app-version.js';
+import { INSTALL_GUIDE } from './install-guide.js';
+import { hasInstallOffer, isStandalone, promptInstall, watchInstallOffer } from './install-prompt.js';
 import { CONTACT, LEGAL, LEGAL_PAGES, type LegalPageId } from './legal-content.js';
 import { SECTIONS } from './site-nav-model.js';
 
-/** #408: the footer after every v2 page's <main> — sections, contact, legal pages, author, copyright and the build's version. */
+/** #408: the footer after every v2 page's <main> — sections, contact, legal pages, author, copyright and the build's version;
+ * #420: "Get the app" opens the browser's install dialog when it offers one, the install guide otherwise. */
 export const FOOTER_LABELS = {
   ru: { tagline: 'Бесплатный тренажёр латинского языка: слова и предложения.', author: 'Автор:',
     sections: 'Разделы', contact: 'Связь', legal: 'Правовая информация', email: 'Написать нам', version: 'Версия' },
@@ -42,6 +45,11 @@ export function mountSiteFooter(): () => void {
   const author = link(CONTACT.authorUrl, true); author.textContent = CONTACT.author;
   credit.append(authorLabel, ' ', author);
   about.append(brand, tagline, credit);
+  // Inside the installed app there is nothing left to install.
+  const install = link('./install.html'); install.className = 'dc-footer-install';
+  if (!isStandalone()) about.append(install);
+  install.addEventListener('click', event => { if (!hasInstallOffer()) return; event.preventDefault(); void promptInstall(); });
+  const unwatchInstall = watchInstallOffer(() => {});
 
   const sectionLinks = SECTIONS.map(section => ({ a: link(`./${section.page}`), section }));
   const email = link(`mailto:${CONTACT.email}`);
@@ -68,11 +76,12 @@ export function mountSiteFooter(): () => void {
     for (const { a, section } of sectionLinks) a.textContent = section.label[key];
     email.textContent = t.email;
     for (const { a, id } of legalLinks) a.textContent = LEGAL[id][key].title;
+    install.textContent = INSTALL_GUIDE[key].title;
     version.textContent = `${t.version} ${APP_VERSION}`;
   }
   // Pages set <html lang> when the interface language changes.
   const observer = new MutationObserver(render);
   observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
   render();
-  return () => { observer.disconnect(); footer.remove(); };
+  return () => { observer.disconnect(); unwatchInstall(); footer.remove(); };
 }

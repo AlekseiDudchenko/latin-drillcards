@@ -321,6 +321,21 @@ body:has(> .dc-footer) { min-height:100vh; min-height:100dvh; }
 @media (max-width:640px) { .dc-footer-grid { grid-template-columns:repeat(2,minmax(min-content,1fr)); gap:20px 16px; } .dc-footer-about { grid-column:1 / -1; } }
 @media (max-width:360px) { .dc-footer-grid { grid-template-columns:minmax(0,1fr); } }
 @media (pointer:coarse) { .dc-footer li a { min-height:44px; } }
+.dc-footer a.dc-footer-install { display:inline-flex; align-items:center; min-height:44px; margin-top:10px; padding:8px 18px; border:1.5px solid var(--dc-footer-text); border-radius:999px; color:var(--dc-footer-text); font-weight:650; }
+.dc-footer a.dc-footer-install:hover { background:#ffffff1f; text-decoration:none; }
+/* Install guide (install-page.ts): the browser's own dialog when offered, then the steps per device, the visitor's first. */
+.dc-install-intro { margin:0 0 16px; padding:20px 24px; border:1px solid var(--dc-line); border-radius:var(--dc-radius-lg); background:var(--dc-bg); box-shadow:var(--dc-shadow); line-height:1.6; }
+.dc-install-intro p { margin:0; } .dc-install-intro p + p:not([hidden]), .dc-install-intro p + button:not([hidden]) { margin-top:14px; }
+.dc-demo #install { font:inherit; min-height:48px; padding:10px 24px; border:0; border-radius:var(--dc-radius); background:var(--dc-accent); color:var(--dc-accent-ink); font-weight:650; cursor:pointer; }
+.dc-demo #install:hover { background:var(--dc-accent-hover); }
+.dc-install-platforms { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:12px; }
+.dc-install-platform { padding:18px 20px; border:1px solid var(--dc-line); border-radius:var(--dc-radius-lg); background:var(--dc-bg); }
+.dc-install-platform[data-current] { border-color:var(--dc-accent); box-shadow:var(--dc-shadow); }
+.dc-install-platform h2 { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:0 0 10px; font-size:1.05rem; }
+.dc-install-platform h2 span { padding:2px 10px; border-radius:999px; background:var(--dc-accent-soft); color:var(--dc-accent); font-size:.78rem; font-weight:650; }
+.dc-install-platform ol { display:grid; gap:6px; margin:0; padding-left:20px; line-height:1.5; }
+.dc-install-platform .dc-note { margin:10px 0 0; }
+@media (max-width:440px) { .dc-install-intro { padding:18px 16px; } }
 /* "Политика конфиденциальности" and "Datenschutzerklärung" are wider than a phone's header line. */
 .dc-legal header > strong, .dc-legal #title { min-width:0; } .dc-legal #title { hyphens:auto; overflow-wrap:anywhere; }
 .dc-legal-text { padding:24px; border:1px solid var(--dc-line); border-radius:var(--dc-radius-lg); background:var(--dc-bg); box-shadow:var(--dc-shadow); line-height:1.6; overflow-wrap:anywhere; }
