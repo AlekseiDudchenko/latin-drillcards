@@ -327,3 +327,13 @@ body:has(> .dc-demo) { background:var(--dc-page); color:var(--dc-text); }
 .dc-word-progress { padding:6px 16px 16px; border-top:1px solid var(--dc-line); background:var(--dc-surface); }
 .dc-word-list .dc-word-progress a { display:inline-flex; min-height:40px; padding:4px 0; border:0; background:transparent; color:var(--dc-accent); }
 @media(max-width:520px) { .dc-word-right small { max-width:120px; } .dc-word-toolbar > label { min-width:130px; } .dc-word-toolbar .dc-search { flex-basis:100%; } }
+
+/* Audio controls of exercise pages without a card: the word card's switch and listen button, in a row. */
+.dc-speech-bar { display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; margin:12px 0; }
+.dc-speech-bar[hidden] { display:none; }
+.dc-speech-bar .dc-speak { position:static; flex:0 0 auto; display:flex; align-items:center; width:72px; min-height:44px; height:44px; padding:4px; border-radius:999px; border:1px solid var(--dc-muted); background:var(--dc-line); color:var(--dc-muted); cursor:pointer; }
+.dc-speech-bar .dc-speak[aria-checked=true] { background:var(--dc-accent); border-color:var(--dc-accent); color:var(--dc-accent-ink); }
+.dc-speech-bar .dc-listen { display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:8px 14px; border:1px solid var(--dc-line-strong); border-radius:12px; background:var(--dc-bg); color:inherit; font:inherit; font-weight:550; cursor:pointer; }
+.dc-speech-bar .dc-listen[aria-pressed=true] { background:var(--dc-accent); border-color:var(--dc-accent); color:var(--dc-accent-ink); }
+.dc-speech-bar .dc-speech-warning { flex:1 1 100%; margin:0; }
+.dc-speech-bar .dc-speech-warning:empty { display:none; }

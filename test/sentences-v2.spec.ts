@@ -140,9 +140,8 @@ test('filters, tense family buttons, the word-order variant and accepted alterna
 
 test('keyboard only: tokens with Enter, then → next and ← previous; speech after a correct answer', async ({ page }) => {
   await page.goto('/v2/sentences.html');
-  // Wait for the first card: init resets the auto-speak box from storage, so an earlier check is lost.
+  // Auto-speech is on by default, as on the word cards.
   await expect(prompt(page)).toHaveText('Меня зовут Анна.');
-  await page.locator('#autoSpeak').check();
   for (const i of [0, 1, 2]) { await page.locator(`[data-token-zone=pool] [data-token-id="t${i}"]`).focus(); await page.keyboard.press('Enter'); }
   await expect(status(page)).toHaveText('');
   await page.getByRole('button', { name: 'Проверить', exact: true }).focus();
