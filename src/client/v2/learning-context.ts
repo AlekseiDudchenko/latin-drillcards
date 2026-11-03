@@ -226,7 +226,23 @@ export function takeReturn(storage: Pick<Storage, 'getItem' | 'removeItem'>, con
 }
 function requireLogin(config: ReadyEnvironment): void {
   try { rememberReturn(sessionStorage, location.href, config); } catch { /* the sign-in page then stays there */ }
-  location.replace(callbackUrl(config)); // environment.html: the sign-in page and the OAuth callback
+  const target = callbackUrl(config); // environment.html: the sign-in page and the OAuth callback
+  showLoginNotice(target);
+  location.replace(target);
+}
+const LOGIN_NOTICE = {
+  ru: { text: 'Нужно войти в аккаунт. Перенаправляем на страницу входа…', link: 'Перейти ко входу' },
+  en: { text: 'Please sign in. Redirecting to the sign-in page…', link: 'Go to sign-in' },
+  de: { text: 'Bitte anmelden. Weiterleitung zur Anmeldeseite…', link: 'Zur Anmeldung' },
+} as const;
+/** If the redirect does not happen (blocked, offline), the page still says why it is empty and links to the sign-in page. */
+function showLoginNotice(target: string): void {
+  try {
+    const lang = document.documentElement.lang; const t = LOGIN_NOTICE[lang in LOGIN_NOTICE ? lang as keyof typeof LOGIN_NOTICE : 'ru'];
+    const box = document.createElement('p'); box.id = 'login-required'; box.setAttribute('role', 'status');
+    const link = document.createElement('a'); link.href = target; link.textContent = t.link;
+    box.append(t.text + ' ', link); document.body.prepend(box);
+  } catch { /* the redirect still runs */ }
 }
 export function forgetReturn(storage: Pick<Storage, 'removeItem'>): void { storage.removeItem(RETURN_KEY); }
 function returnTarget(href: string, config: Pick<ReadyEnvironment, 'siteUrl'>): string | undefined {
