@@ -46,7 +46,14 @@ RU/EN translation. Reveal/introduction can still
 be available with a small pool. The planner chooses a permitted alternative.
 
 `validateTask` rebuilds the entire canonical task against its pinned snapshot and
-rejects changed labels, order, solutions, languages or versions. This detects
+rejects changed labels, solutions, languages or versions. Meaning/German choice
+options are the exception: they are **checked, not re-derived**, because the planner
+draws distractors from the pool it is given (a deck) while the server holds the
+whole snapshot. The task's options must be exactly four distinct catalog words of
+the target's part of speech with the requested translation, include the target
+once, and pass the same alias-overlap filter; labels, versions and their order are
+then rebuilt from the catalog and compared exactly. Before this rule the server
+refused about half of all deck choice answers as `invalid-task`. This detects
 inconsistent tasks; a client-supplied snapshot/version is not authentication.
 `evaluateWordAnswer(registry, task, event)` additionally binds the strict answer
 envelope to task ID, target, exercise/version, content version, translation language

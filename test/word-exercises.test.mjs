@@ -119,6 +119,43 @@ test('canonical validation rejects forged solutions, changed labels/options, lan
   assert.throws(() => createWordExerciseRegistry([...words, words[0]], 'catalog/1'), /duplicate/);
 });
 
+test('a choice task built from a deck validates against the whole catalog snapshot; its options are checked, not re-derived', () => {
+  // The planner draws distractors from the deck it was given; the server holds every word of the snapshot.
+  const extra = [noun('lampe', 'Lampe', 'лампа', 'lamp'), noun('bett', 'Bett', 'кровать', 'bed'), noun('ofen', 'Ofen', 'печь', 'stove'),
+    { ...noun('laufen', 'laufen', 'бежать', 'to run'), article: null, partOfSpeech: 'verb' }];
+  const deck = createWordExerciseRegistry(words, 'catalog/1');
+  const server = createWordExerciseRegistry([...words, ...extra], 'catalog/1');
+  for (const id of ['meaning-choice', 'target-choice']) for (const seed of ['a', 'b', 'c', 'd', 'e', 'f']) {
+    const task = deck.get(id).buildTask(words[0], { ...context, seed, taskId: `task-${seed}` });
+    assert.deepEqual(server.validateTask(task), task);
+    assert.equal(evaluateWordAnswer(server, task, { ...answer, exerciseId: id, taskId: task.id, taskVersion: task.taskVersion,
+      target: task.target, contentVersion: task.contentVersion, rawAnswer: 'tisch' }).outcome, 'correct');
+  }
+  // Rebuilding would have given other distractors for some of these seeds: that was the refusal.
+  const differs = ['a', 'b', 'c', 'd', 'e', 'f'].some(seed => JSON.stringify(deck.get('meaning-choice').buildTask(words[0], { ...context, seed, taskId: `task-${seed}` })) !==
+    JSON.stringify(server.get('meaning-choice').buildTask(words[0], { ...context, seed, taskId: `task-${seed}` })));
+  assert.ok(differs);
+
+  const task = deck.get('meaning-choice').buildTask(words[0], context);
+  const option = id => ({ id, label: server.getWord(id, 1).meanings.ru.preferred, wordId: id, contentVersion: 1 });
+  const withOptions = ids => ({ ...task, specification: { ...task.specification, options: ids.map(option) } });
+  assert.deepEqual(server.validateTask(withOptions(['lampe', 'tisch', 'bett', 'ofen'])).specification.options.map(o => o.id), ['lampe', 'tisch', 'bett', 'ofen']);
+  for (const ids of [['stuhl', 'bett', 'ofen', 'lampe'], ['tisch', 'bett', 'ofen'], ['tisch', 'bett', 'ofen', 'lampe', 'haus'],
+    ['tisch', 'bett', 'bett', 'ofen'], ['tisch', 'bett', 'ofen', 'laufen'], ['tisch', 'bett', 'ofen', 'unknown']]) {
+    assert.throws(() => server.validateTask(withOptions(ids)), RangeError, ids.join());
+  }
+  // Two options with one meaning would make two correct answers.
+  const twin = createWordExerciseRegistry([...words, ...extra, noun('tafel', 'Tafel', 'стол', 'board')], 'catalog/1');
+  const twinTask = { ...task, specification: { ...task.specification, options: ['tisch', 'tafel', 'bett', 'ofen'].map(id =>
+    ({ id, label: twin.getWord(id, 1).meanings.ru.preferred, wordId: id, contentVersion: 1 })) } };
+  assert.throws(() => twin.validateTask(twinTask), /Ambiguous/);
+  // Labels, the solution and versions are still exact.
+  const forged = JSON.parse(JSON.stringify(task)); forged.specification.correctOptionId = forged.specification.options.find(o => o.id !== 'tisch').id;
+  assert.throws(() => server.validateTask(forged), RangeError);
+  const relabeled = JSON.parse(JSON.stringify(task)); relabeled.specification.options[0].label = 'forged';
+  assert.throws(() => server.validateTask(relabeled), RangeError);
+});
+
 test('trusted answer evaluation binds event metadata to the pinned task instead of trusting the client language or target', () => {
   const r = registry(); const task = r.get('target-choice').buildTask(words[0], context);
   const event = { ...answer, target: task.target, taskId: task.id, exerciseId: task.exerciseId, taskVersion: task.taskVersion,

@@ -7,11 +7,11 @@ import { mountInstallPrompt } from './install-prompt.js';
 /** R1a (#325): the topmost line of every hosted v2 page — the Google photo and the sign-in / sign-out button. */
 const labels = {
   ru: { guest: 'Гость: прогресс хранится только на этом устройстве.', account: 'Вы вошли: прогресс синхронизируется между устройствами.',
-    loading: 'Загрузка…', error: 'Не удалось выполнить действие. Попробуйте ещё раз.', login: 'Войти', logout: 'Выйти', photo: 'Аккаунт Google' },
+    loading: 'Загрузка…', error: 'Не удалось выполнить действие. Попробуйте ещё раз.', login: 'Войти', logout: 'Выйти', photo: 'Аккаунт Google', rejected: 'Сервер не принял ответов: {n}. Они не учитываются в прогрессе.', rejectedOk: 'Понятно' },
   en: { guest: 'Guest: progress is kept on this device only.', account: 'Signed in: progress syncs across your devices.',
-    loading: 'Loading…', error: 'Could not complete the action. Please try again.', login: 'Sign in', logout: 'Sign out', photo: 'Google account' },
+    loading: 'Loading…', error: 'Could not complete the action. Please try again.', login: 'Sign in', logout: 'Sign out', photo: 'Google account', rejected: 'Answers refused by the server: {n}. They do not count towards progress.', rejectedOk: 'Got it' },
   de: { guest: 'Gast: Der Fortschritt bleibt nur auf diesem Gerät.', account: 'Angemeldet: Der Fortschritt wird zwischen deinen Geräten synchronisiert.',
-    loading: 'Wird geladen…', error: 'Die Aktion ist fehlgeschlagen. Bitte erneut versuchen.', login: 'Anmelden', logout: 'Abmelden', photo: 'Google-Konto' },
+    loading: 'Wird geladen…', error: 'Die Aktion ist fehlgeschlagen. Bitte erneut versuchen.', login: 'Anmelden', logout: 'Abmelden', photo: 'Google-Konto', rejected: 'Vom Server abgelehnte Antworten: {n}. Sie zählen nicht zum Fortschritt.', rejectedOk: 'Verstanden' },
 } satisfies Record<Lang, Record<string, string>>;
 
 /** Mounted before the page's <main>; follows the page's interface language through <html lang>. */
@@ -22,7 +22,12 @@ export function mountAccountBar(account: AccountControls): () => void {
   const photo = document.createElement('img'); photo.id = 'account-photo'; photo.width = 32; photo.height = 32; photo.referrerPolicy = 'no-referrer';
   const login = document.createElement('button'); login.type = 'button'; login.id = 'account-login';
   const logout = document.createElement('button'); logout.type = 'button'; logout.id = 'account-logout';
-  bar.append(status, photo, login, logout);
+  // Answers the server refused never count: say so once per new refusal instead of failing silently.
+  const warning = document.createElement('p'); warning.id = 'account-sync-warning'; warning.className = 'dc-account-warning'; warning.setAttribute('role', 'alert');
+  const warningText = document.createElement('span');
+  const warningOk = document.createElement('button'); warningOk.type = 'button'; warningOk.id = 'account-sync-warning-ok';
+  warning.append(warningText, ' ', warningOk);
+  bar.append(status, photo, login, logout, warning);
   document.body.prepend(bar);
   let failed = false;
   const act = (action: () => Promise<void>) => { failed = false; action().catch(() => { failed = true; render(); }); render(); };
@@ -38,7 +43,19 @@ export function mountAccountBar(account: AccountControls): () => void {
     photo.hidden = !signedIn || !state.avatarUrl;
     if (state.avatarUrl && photo.src !== state.avatarUrl) photo.src = state.avatarUrl;
     photo.alt = photo.title = t.photo;
+    const rejected = signedIn ? state.sync?.rejected ?? 0 : 0;
+    warning.hidden = rejected <= seenRejected(state.owner?.id);
+    warningText.textContent = t.rejected.replace('{n}', String(rejected)); warningOk.textContent = t.rejectedOk;
   }
+  const seenKey = (id: string | undefined) => `dc-v2-rejected-seen:${id ?? ''}`;
+  function seenRejected(id: string | undefined): number {
+    try { return Number(localStorage.getItem(seenKey(id))) || 0; } catch { return 0; }
+  }
+  warningOk.addEventListener('click', () => {
+    const state = account.state;
+    try { localStorage.setItem(seenKey(state.owner?.id), String(state.sync?.rejected ?? 0)); } catch { /* shown again next time */ }
+    warning.hidden = true;
+  });
   login.addEventListener('click', () => act(() => account.signIn()));
   logout.addEventListener('click', () => act(() => account.signOut()));
   // A new account state replaces the error of an earlier click.

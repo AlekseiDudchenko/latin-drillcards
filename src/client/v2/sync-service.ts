@@ -32,6 +32,8 @@ export interface SyncStatus {
   readonly pending: number;
   /** Refused by the server for good; kept locally, never resent or counted. */
   readonly rejected: number;
+  /** Refusals by server reason (`invalid-task`, `stale-epoch`, …), for diagnostics. */
+  readonly rejectedReasons?: Readonly<Record<string, number>> | undefined;
   /** Local answers replaced by a conflicting server record; kept locally for display. */
   readonly conflicts: number;
   readonly cursor: number;
@@ -98,14 +100,18 @@ export class SyncService {
     this.emit({ ...this.current, phase: 'stopped', retryAt: undefined });
   }
   private emit(status: SyncStatus): void {
-    const { retryAt, lastSyncedAt, ...rest } = status;
-    this.current = { ...rest, ...(lastSyncedAt ? { lastSyncedAt } : {}), ...(retryAt ? { retryAt } : {}) };
+    const { retryAt, lastSyncedAt, rejectedReasons, ...rest } = status;
+    this.current = { ...rest, ...(rejectedReasons ? { rejectedReasons } : {}), ...(lastSyncedAt ? { lastSyncedAt } : {}), ...(retryAt ? { retryAt } : {}) };
     this.options.onStatus?.(this.current);
   }
-  private counts(data: LocalSnapshot | undefined): Pick<SyncStatus, 'pending' | 'rejected' | 'conflicts' | 'cursor'> {
-    if (!data) return { pending: this.current.pending, rejected: this.current.rejected, conflicts: this.current.conflicts, cursor: this.current.cursor };
-    return { pending: data.outbox.length, rejected: data.sync?.rejected.length ?? 0,
-      conflicts: data.sync?.conflicts?.length ?? 0, cursor: data.sync?.cursor ?? 0 };
+  private counts(data: LocalSnapshot | undefined): Pick<SyncStatus, 'pending' | 'rejected' | 'rejectedReasons' | 'conflicts' | 'cursor'> {
+    if (!data) return { pending: this.current.pending, rejected: this.current.rejected, rejectedReasons: this.current.rejectedReasons,
+      conflicts: this.current.conflicts, cursor: this.current.cursor };
+    const rejected = data.sync?.rejected ?? [];
+    const reasons: Record<string, number> = {};
+    for (const item of rejected) reasons[item.reason] = (reasons[item.reason] ?? 0) + 1;
+    return { pending: data.outbox.length, rejected: rejected.length, conflicts: data.sync?.conflicts?.length ?? 0, cursor: data.sync?.cursor ?? 0,
+      rejectedReasons: rejected.length ? reasons : undefined };
   }
   private async run(): Promise<void> {
     do {
