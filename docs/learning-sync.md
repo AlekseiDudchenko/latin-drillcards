@@ -204,7 +204,7 @@ names the accepted server event and leaves the refused list. The account bar sho
 warning for every new refusal (dismissed per count in `localStorage`); the environment
 page lists the reasons (`sync.rejectedReasons`).
 
-**Requeued choice answers (`choice-options/1`).** Meaning/German choice answers that an
+**Requeued choice answers (`choice-options/1`).** Meaning/target choice answers that an
 older server refused as `invalid-task` (deck options rebuilt from the whole catalog) are
 moved back to the outbox once per partition by `restore`, in journal order and with their
 original study time; `sync.requeued` records that it ran. Deploy the
