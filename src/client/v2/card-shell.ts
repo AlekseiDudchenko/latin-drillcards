@@ -3,6 +3,7 @@ import type { Word, TranslationLanguage } from '../../../packages/vocabulary-cor
 import { cardUiTranslations, type Lang, type CardUiTranslations } from '../i18n.js';
 import { button, element, ChoiceInput, TextInput, RevealInput, emptyCardInput, type CardInputState, type InputDefinition } from './card-inputs.js';
 import { createCardSpeech, type CardSpeech } from './card-speech.js';
+import { autoSpeechEnabled, setAutoSpeech, speakerIcon, stopIcon } from './speech-ui.js';
 import { TokenInput } from './card-tokens.js';
 import { becameFilled, initialTokenState, tokenAnswerText, validateTokens, validateTokenState, type TokenState } from './token-state.js';
 import { WordDetails } from './word-details.js';
@@ -47,12 +48,6 @@ export function cardLabels(language: Lang): CardUiTranslations {
 }
 
 let nextCard = 0;
-const AUTO_SPEECH_KEY = 'dc_v2_word_auto_speak';
-let autoSpeechFallback = true;
-function autoSpeechEnabled(): boolean {
-  try { const stored = localStorage.getItem(AUTO_SPEECH_KEY); return stored === null ? autoSpeechFallback : stored !== '0'; }
-  catch { return autoSpeechFallback; }
-}
 export function createCardShell(host: HTMLElement, source: CardDefinition, initial: CardPresentation,
   actions: CardActions, initialState = emptyCardInput(), adapters: CardAdapters = { labels: cardLabels, speech: createCardSpeech() }) {
   // Capture content once per task; language updates cannot replace answer language/options.
@@ -242,11 +237,11 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
       if (definition.autoSpeak) {
         const toggle = button(''); toggle.className = 'dc-speak'; toggle.dataset.focusKey = 'auto-speech';
         toggle.setAttribute('role', 'switch'); toggle.setAttribute('aria-checked', String(autoSpeechEnabled()));
-        toggle.setAttribute('aria-label', labels.autoReadWords); toggle.title = labels.autoReadWords;
+        const switchLabel = definition.word ? labels.autoReadWords : labels.autoReadAloud;
+        toggle.setAttribute('aria-label', switchLabel); toggle.title = switchLabel;
         const thumb = element('span', undefined, 'dc-speak-thumb'); thumb.setAttribute('aria-hidden', 'true'); thumb.append(speakerIcon()); toggle.append(thumb);
         toggle.addEventListener('click', () => {
-          const enabled = !autoSpeechEnabled(); autoSpeechFallback = enabled;
-          try { localStorage.setItem(AUTO_SPEECH_KEY, enabled ? '1' : '0'); } catch { /* Keep the preference for this page if storage is unavailable. */ }
+          const enabled = !autoSpeechEnabled(); setAutoSpeech(enabled);
           if (!enabled) { speechGeneration++; speaking = false; adapters.speech.cancel(); }
           render();
         }, { signal });
@@ -309,6 +304,8 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
     getState(): CardInputState { return { ...state }; },
     /** For a card mounted already answered, right after a live correct answer: read the `correct` text now. */
     readAloudAfterCorrect() { if (definition.autoSpeak === 'correct') void playSpeech(true); },
+    /** For a page that decides the moment itself (e.g. after a reveal): reads the card text when auto-speech is on. */
+    readAloud() { if (definition.autoSpeak) void playSpeech(true); },
     setPresentation(next: CardPresentation) {
       if (disposed) return;
       if (!next.permissions.speech) { speechGeneration++; adapters.speech.cancel(); speechMessage = null; speaking = false; }
@@ -325,26 +322,3 @@ export function createCardShell(host: HTMLElement, source: CardDefinition, initi
   };
 }
 
-const SVG = 'http://www.w3.org/2000/svg';
-/** Shown while the text is being read: the next click stops it. */
-function stopIcon(): SVGSVGElement {
-  const svg = document.createElementNS(SVG, 'svg');
-  svg.setAttribute('viewBox', '0 0 24 24'); svg.setAttribute('width', '22'); svg.setAttribute('height', '22'); svg.setAttribute('aria-hidden', 'true');
-  const square = document.createElementNS(SVG, 'rect');
-  for (const [name, value] of Object.entries({ x: '6', y: '6', width: '12', height: '12', rx: '2', fill: 'currentColor' })) square.setAttribute(name, value);
-  svg.append(square); return svg;
-}
-
-function speakerIcon(): SVGSVGElement {
-  const svg = document.createElementNS(SVG, 'svg');
-  svg.setAttribute('viewBox', '0 0 24 24'); svg.setAttribute('width', '22'); svg.setAttribute('height', '22'); svg.setAttribute('aria-hidden', 'true');
-  svg.setAttribute('fill', 'none'); svg.setAttribute('stroke', 'currentColor'); svg.setAttribute('stroke-width', '2');
-  svg.setAttribute('stroke-linecap', 'round'); svg.setAttribute('stroke-linejoin', 'round');
-  for (const [tag, attributes] of [['path', { d: 'M11 5 6 9H3v6h3l5 4z', fill: 'currentColor' }], ['path', { d: 'M15.5 8.5a5 5 0 0 1 0 7' }],
-    ['path', { d: 'M18.5 5.5a9 9 0 0 1 0 13' }]] as const) {
-    const node = document.createElementNS(SVG, tag);
-    for (const [name, value] of Object.entries(attributes)) node.setAttribute(name, value);
-    svg.append(node);
-  }
-  return svg;
-}

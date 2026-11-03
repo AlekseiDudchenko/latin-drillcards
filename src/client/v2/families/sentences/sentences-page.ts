@@ -2,7 +2,6 @@ import { createItemExerciseRegistry, isItemSessionPlan, planItemSession, project
   type ItemDataset, type ItemExerciseRegistry, type ItemExerciseTask, type SentenceExercise, type TranslationLanguage } from '../../core/index.js';
 import { cardUiTranslations, type Lang } from '../../../i18n.js';
 import { createCardShell } from '../../card-shell.js';
-import { createCardSpeech } from '../../card-speech.js';
 import { SessionRunner, type ItemRunnerView, type RunnerEnvironment } from '../../session-runner.js';
 import { openLearningPage } from '../../account-bar.js';
 import type { PageLearning } from '../../learning-context.js';
@@ -21,11 +20,10 @@ const env: RunnerEnvironment = { now: () => new Date().toISOString(), id: () => 
 const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
 const host = $<HTMLDivElement>('card');
 const controls = { deck: $<HTMLSelectElement>('deck'), tag: $<HTMLSelectElement>('tag'), language: $<HTMLSelectElement>('language'),
-  translation: $<HTMLSelectElement>('translation'), autoSpeak: $<HTMLInputElement>('autoSpeak') };
+  translation: $<HTMLSelectElement>('translation') };
 const buttons = { previous: $<HTMLButtonElement>('previous'), variant: $<HTMLButtonElement>('variant'),
   tryAgain: $<HTMLButtonElement>('tryAgain'), retry: $<HTMLButtonElement>('retrySave') };
 const page = new AbortController();
-const speech = createCardSpeech();
 
 let language: Lang = stored('dc_v2_lang', ['ru', 'en', 'de']) as Lang ?? 'ru';
 let translation: TranslationLanguage = stored('dc_v2_sentence_translation', ['ru', 'en']) as TranslationLanguage ?? 'ru';
@@ -56,7 +54,6 @@ function assistedSessions(): string[] {
 function markAssisted(sessionId: string): void {
   try { sessionStorage.setItem(ASSISTED_KEY, JSON.stringify([...assistedSessions().slice(-50), sessionId])); } catch { /* best effort */ }
 }
-const autoSpeakOn = (): boolean => stored('auto_speak', ['0', '1']) === '1';
 
 function view(): ItemRunnerView | undefined {
   const current = runner?.view;
@@ -124,7 +121,6 @@ function localize(): void {
   $('translationLabel').textContent = labels.translation;
   $('deckLabel').textContent = labels.deck;
   $('tagLabel').textContent = labels.topic;
-  $('autoSpeakLabel').textContent = labels.autoSpeak;
   $('keyboard').textContent = labels.keyboard;
   buttons.previous.textContent = labels.previous;
   buttons.variant.textContent = labels.variant; buttons.tryAgain.textContent = labels.tryAgain; buttons.retry.textContent = labels.retrySave;
@@ -174,12 +170,12 @@ function render(): void {
   const assisted = assistedSessions().includes(current.sessionId);
   card = createCardShell(host, { id: task.id, title: Object.fromEntries((['en', 'ru', 'de'] as const).map(lang => [lang, cardUiTranslations(lang).sentenceAssemblyTitle])) as Record<Lang, string>,
     prompt: exercise.prompt, input: { kind: 'tokens', answerLang: 'la', tokens, autoSubmit: false }, translationLanguage: task.specification.answerLanguage,
-    speechText: exercise.target }, presentation, {
+    speechText: exercise.target, autoSpeak: 'correct' }, presentation, {
     async onSubmit(answer) {
       const result = await active.submit([...(answer.tokens ?? [])], { assisted });
       if (result === 'conflict') throw new Error('Session changed elsewhere');
       await refreshProgress().catch(() => {}); render();
-      if (active.view.answer?.evaluation.outcome === 'correct' && autoSpeakOn()) void speech.speak(exercise.target);
+      if (active.view.answer?.evaluation.outcome === 'correct') card?.readAloudAfterCorrect();
     },
     onNext: goNext,
     onReveal() {}, onSpeech() {},
@@ -241,7 +237,7 @@ async function applyFilter(next: SentenceFilter): Promise<void> {
 }
 
 async function init(): Promise<void> {
-  controls.language.value = language; controls.translation.value = translation; controls.autoSpeak.checked = autoSpeakOn();
+  controls.language.value = language; controls.translation.value = translation;
   localize();
   try {
     const response = await fetch(DATASET);
@@ -288,7 +284,6 @@ controls.language.addEventListener('change', () => {
 }, { signal });
 // The shown task keeps its pinned prompt language; the next sentence uses the new one.
 controls.translation.addEventListener('change', () => { translation = controls.translation.value as TranslationLanguage; store('dc_v2_sentence_translation', translation); }, { signal });
-controls.autoSpeak.addEventListener('change', () => store('auto_speak', controls.autoSpeak.checked ? '1' : '0'), { signal });
 document.addEventListener('keydown', event => {
   if (event.defaultPrevented || event.repeat || event.altKey || event.ctrlKey || event.metaKey) return;
   const target = event.target as HTMLElement | null;
@@ -302,6 +297,6 @@ document.addEventListener('keydown', event => {
     guard(goNext)();
   }
 }, { signal });
-window.addEventListener('pagehide', () => { unsubscribe?.(); runner?.dispose(); closeCard(); speech.dispose(); page.abort(); learning?.dispose(); }, { once: true });
+window.addEventListener('pagehide', () => { unsubscribe?.(); runner?.dispose(); closeCard(); page.abort(); learning?.dispose(); }, { once: true });
 window.addEventListener('pageshow', event => { if (event.persisted) location.reload(); });
 void init();
