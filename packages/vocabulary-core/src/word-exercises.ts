@@ -121,8 +121,27 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     if ((exerciseId === 'meaning-choice' || exerciseId === 'target-choice') && optionsFor(exerciseId, word, context).length < CHOICE_OPTION_COUNT) return { available: false as const, reason: 'insufficient-options' as const };
     return { available: true as const };
   }
-  function buildTask(exerciseId: WordExerciseId, requested: Word, context: BuildContext): WordExerciseTask {
-    const available = availability(exerciseId, requested, context);
+  /**
+   * Choice options a task carries, checked by their properties instead of rebuilt: the planner draws
+   * distractors from whatever pool it was given (a deck), the server validates against the whole
+   * snapshot. Exactly the option count, the target once, catalog words of its part of speech with a
+   * translation, and no overlapping meaning or target-language form, so there is a single correct answer.
+   */
+  function checkedOptions(exerciseId: WordExerciseId, target: Word, context: BuildContext, ids: readonly string[]): Word[] {
+    if (ids.length !== CHOICE_OPTION_COUNT || new Set(ids).size !== ids.length || !ids.includes(target.id)) throw new RangeError('Invalid choice options');
+    const meaningSets: Set<string>[] = []; const targetSets: Set<string>[] = [];
+    return ids.map(optionId => {
+      const option = catalog.get(optionId);
+      if (!option || option.partOfSpeech !== target.partOfSpeech || !option.meanings[context.answerLanguage]?.preferred.trim()) throw new RangeError(`Invalid ${exerciseId} option`);
+      const meanings = meaningAliases(option, context.answerLanguage); const forms = targetAliases(option);
+      if (meaningSets.some(set => overlap(set, meanings)) || targetSets.some(set => overlap(set, forms))) throw new RangeError(`Ambiguous ${exerciseId} options`);
+      meaningSets.push(meanings); targetSets.push(forms);
+      return option;
+    });
+  }
+  function buildTask(exerciseId: WordExerciseId, requested: Word, context: BuildContext, optionIds?: readonly string[]): WordExerciseTask {
+    // Validation supplies the task's own options; their sufficiency is checked by checkedOptions.
+    const available = optionIds ? { available: true as const } : availability(exerciseId, requested, context);
     if (!available.available) throw new ExerciseUnavailable(exerciseId, available.reason);
     const word = catalog.get(requested.id)!;
     const articleChoice = exerciseId === 'article-choice';
@@ -132,7 +151,7 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     const prompt = { text: articleChoice ? word.lemma : reverse ? word.meanings[context.answerLanguage]!.preferred : targetLabel(word), lang: reverse ? context.answerLanguage : 'de' };
     const answer = { text: articleChoice ? word.article! : exerciseId === 'target-type' ? word.lemma : reverse ? targetLabel(word) : word.meanings[context.answerLanguage]!.preferred, lang: reverse || articleChoice ? 'de' : context.answerLanguage };
     const options = articleChoice ? ['der', 'die', 'das'].map(article => ({ id: article, label: article, wordId: word.id, contentVersion: word.contentVersion }))
-      : choice ? optionsFor(exerciseId, word, context).map(option => ({ id: option.id, label: reverse ? targetLabel(option) : option.meanings[context.answerLanguage]!.preferred, wordId: option.id, contentVersion: option.contentVersion })) : [];
+      : choice ? (optionIds ? checkedOptions(exerciseId, word, context, optionIds) : optionsFor(exerciseId, word, context)).map(option => ({ id: option.id, label: reverse ? targetLabel(option) : option.meanings[context.answerLanguage]!.preferred, wordId: option.id, contentVersion: option.contentVersion })) : [];
     return freeze({ id: context.taskId, exerciseId, taskVersion: `${exerciseId}/1`, contentVersion: word.contentVersion,
       target: { kind: 'word', wordId: word.id }, input: choice ? 'choice' : typed ? 'text' : 'reveal',
       assessedComponents: exerciseId === 'introduction' ? [] : [...WORD_EXERCISE_RULES[exerciseId].assessed].filter(component => applicableComponents(word).includes(component)),
@@ -150,7 +169,14 @@ export function createWordExerciseRegistry(source: readonly Word[], catalogVersi
     if (fields.catalogVersion !== catalogVersion || typeof fields.seed !== 'string' || (fields.answerLanguage !== 'ru' && fields.answerLanguage !== 'en')) throw new RangeError('Task snapshot/context mismatch');
     const word = catalog.get(task.target.wordId);
     if (!word || word.contentVersion !== task.contentVersion) throw new RangeError('Task content version unavailable');
-    const rebuilt = buildTask(exerciseId, word, { taskId: task.id, seed: fields.seed, answerLanguage: fields.answerLanguage });
+    const context: BuildContext = { taskId: task.id, seed: fields.seed, answerLanguage: fields.answerLanguage };
+    if (exerciseId !== 'article-choice' && !word.meanings[context.answerLanguage]?.preferred.trim()) throw new RangeError('Task translation unavailable');
+    // Choice options are validated, not re-derived: see checkedOptions. Everything else is rebuilt exactly.
+    const supplied = exerciseId === 'meaning-choice' || exerciseId === 'target-choice'
+      ? (Array.isArray(fields.options) ? fields.options : []).map(option => (option as { id?: unknown } | null)?.id)
+      : undefined;
+    if (supplied && !supplied.every((value): value is string => typeof value === 'string')) throw new RangeError('Invalid choice options');
+    const rebuilt = buildTask(exerciseId, word, context, supplied as string[] | undefined);
     if (canonical(rebuilt) !== canonical(task)) throw new RangeError('Task differs from canonical build');
     return rebuilt;
   }

@@ -200,7 +200,15 @@ other devices' answers. The page also syncs when the tab becomes visible. `stop(
 **Refused answers.** Events the server rejected stay in the local journal (history) but
 are excluded from local replay, so local progress equals the server's. The status line
 says they do not count. If the server journal later holds a record with the same ID, it
-names the accepted server event and leaves the refused list.
+names the accepted server event and leaves the refused list. The account bar shows a
+warning for every new refusal (dismissed per count in `localStorage`); the environment
+page lists the reasons (`sync.rejectedReasons`).
+
+**Requeued choice answers (`choice-options/1`).** Meaning/German choice answers that an
+older server refused as `invalid-task` (deck options rebuilt from the whole catalog) are
+moved back to the outbox once per partition by `restore`, in journal order and with their
+original study time; `sync.requeued` records that it ran. Deploy the
+`v2-learning-events` function before a site that carries this, or the resend is refused again.
 
 **Server/local conflicts.** A server record whose event ID matches a different local
 event, or whose command/attempt ID is used by a different local event, no longer stops

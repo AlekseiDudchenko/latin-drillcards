@@ -55,7 +55,8 @@ function renderSync():void {
   $<HTMLButtonElement>('sync-now').disabled=status.phase==='syncing';
   $('sync-status').dataset.state=syncLabel(status);
   $('sync-status').textContent=t[syncLabel(status)].replace('{n}',String(status.pending))+
-    (status.rejected?' '+t.rejected.replace('{n}',String(status.rejected)):'')+
+    (status.rejected?' '+t.rejected.replace('{n}',String(status.rejected))+
+      (status.rejectedReasons?' ('+Object.entries(status.rejectedReasons).map(([reason,n])=>`${reason}: ${n}`).join(', ')+')':''):'')+
     (status.conflicts?' '+t.conflicts.replace('{n}',String(status.conflicts)):'');
 }
 /** One service per signed-in owner. Any identity change stops it synchronously, before the next scope. */

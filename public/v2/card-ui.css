@@ -260,6 +260,9 @@ body:has(> .dc-demo) { background:var(--dc-page); color:var(--dc-text); }
 .dc-account img { width:32px; height:32px; border-radius:50%; object-fit:cover; }
 .dc-account button { min-height:36px; padding:4px 14px; }
 .dc-account button:disabled { opacity:.5; cursor:default; }
+.dc-account { flex-wrap:wrap; }
+.dc-account-warning { order:-1; flex:1 1 100%; margin:0; padding:8px 12px; border:1px solid var(--dc-warn); border-radius:12px; background:var(--dc-warn-soft); color:var(--dc-text); }
+.dc-account .dc-account-warning button { min-height:32px; padding:2px 12px; }
 .dc-account #account-login { background:var(--dc-accent); color:var(--dc-accent-ink); border-color:var(--dc-accent); }
 .dc-visually-hidden { position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
 @media (prefers-reduced-motion:reduce) { .dc-demo *, .dc-card * { transition:none !important; } .dc-deck-list a:hover, .dc-demo nav.dc-families a:hover { transform:none; } }

@@ -36,6 +36,8 @@ export interface SyncState {
   readonly words: readonly Word[];
   /** Local events replaced by a conflicting server record (the server's journal wins); kept for display/audit. */
   readonly conflicts?: readonly SyncConflict[];
+  /** One-time resends already applied to this partition (see requeueRefusedChoices). */
+  readonly requeued?: readonly string[];
 }
 export interface SyncConflict {
   readonly eventId: string;
@@ -152,7 +154,7 @@ export class LearningDatabase {
   async restore(scope: LearningScope, asOf: string): Promise<LocalSnapshot> {
     time(asOf);
     return this.transaction('readwrite', async tx => {
-      const data = await this.partition(tx, scope);
+      const data = requeueRefusedChoices(await this.partition(tx, scope));
       const projectionAsOf = later(asOf, data.projectionAsOf);
       const restored: Partition = { ...data, projectionAsOf, projections: projectAll(data, projectionAsOf) };
       await request(tx.objectStore('partitions').put(restored, key(scope.owner, scope.epoch.dataEpoch)));
@@ -387,6 +389,29 @@ export function mergeRemoteInPartition<P extends LocalSnapshot>(data: P, remote:
   const next = { ...data, facts, outbox, projectionAsOf,
     sync: { ...sync, cursor, rejected, words: [...known.values()], ...(conflicts.length ? { conflicts } : {}) } };
   return { ...next, projections: projectAll(next, projectionAsOf) };
+}
+/**
+ * Until the server validated choice options by their properties, it rebuilt a choice task from the whole
+ * catalog, while the planner drew distractors from the deck: about half of all meaning/german-choice answers
+ * were refused as `invalid-task`. The refused events are intact in the journal, so they are sent once more
+ * (with their original study time) to a server that accepts them. Applied once per partition; the server
+ * function must be deployed before a site that carries this.
+ */
+export const CHOICE_OPTIONS_REQUEUE = 'choice-options/1';
+export function requeueRefusedChoices<P extends LocalSnapshot>(data: P): P {
+  const sync = data.sync;
+  if (!sync || data.owner.kind !== 'account' || sync.requeued?.includes(CHOICE_OPTIONS_REQUEUE)) return data;
+  const byId = new Map(data.facts.map(f => [f.event.eventId, f.event]));
+  const resend = new Set(sync.rejected.filter(r => {
+    const event = byId.get(r.eventId);
+    return r.reason === 'invalid-task' && event?.kind === 'answer' && event.target.kind === 'word' &&
+      (event.exerciseId === 'meaning-choice' || event.exerciseId === 'german-choice');
+  }).map(r => r.eventId));
+  const queued = new Set(data.outbox);
+  // Commit order: the journal's order, ahead of anything committed since.
+  const ids = data.facts.map(f => f.event.eventId).filter(id => resend.has(id) && !queued.has(id));
+  return { ...data, outbox: [...ids, ...data.outbox],
+    sync: { ...sync, rejected: sync.rejected.filter(r => !resend.has(r.eventId)), requeued: [...sync.requeued ?? [], CHOICE_OPTIONS_REQUEUE] } };
 }
 /** Facts that count for progress: server-refused events stay in the journal but never in replay. */
 function counted(data: LocalSnapshot): StoredFact[] {
