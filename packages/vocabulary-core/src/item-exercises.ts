@@ -1,4 +1,5 @@
 import type { StudyIntent, TranslationLanguage, WordId } from './content.js';
+import { isTranslationLanguage } from './content.js';
 import { isLearningEvent, type LearningEvent } from './event.js';
 import type { BuildContext, Evaluation, InputKind, JsonValue, Task } from './exercise.js';
 import { spellingForm, MAX_ANSWER_LENGTH } from './target-answer.js';
@@ -143,7 +144,7 @@ export function createItemExerciseRegistry(datasets: readonly ItemDataset[],
     return item;
   }
   function context(value: BuildContext): void {
-    if (!text(value.taskId) || !text(value.seed) || (value.answerLanguage !== 'ru' && value.answerLanguage !== 'en')) throw new RangeError('Invalid task build context');
+    if (!text(value.taskId) || !text(value.seed) || (!isTranslationLanguage(value.answerLanguage))) throw new RangeError('Invalid task build context');
   }
   function isAvailable(exerciseId: string, datasetId: string, itemId: string, build: BuildContext): boolean {
     context(build);
@@ -162,7 +163,7 @@ export function createItemExerciseRegistry(datasets: readonly ItemDataset[],
     if (!record(task) || !record(task.target) || !isItemTarget(task.target)) throw new RangeError('Not an item task');
     const spec = task.specification;
     if (!record(spec) || typeof spec.datasetVersion !== 'string' || typeof spec.seed !== 'string' ||
-        (spec.answerLanguage !== 'ru' && spec.answerLanguage !== 'en')) throw new RangeError('Invalid item task specification');
+        (!isTranslationLanguage(spec.answerLanguage))) throw new RangeError('Invalid item task specification');
     const item = getItem(task.target.datasetId, task.target.itemId, spec.datasetVersion);
     if (item.contentVersion !== task.contentVersion) throw new RangeError('Task content version unavailable');
     const rebuilt = buildTask(task.exerciseId, task.target.datasetId, task.target.itemId,

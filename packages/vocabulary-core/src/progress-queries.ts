@@ -1,4 +1,5 @@
 import type { Deck, Owner, PartOfSpeech, TranslationLanguage, Word } from './content.js';
+import { isTranslationLanguage } from './content.js';
 import { applicableComponents, type Component, type WordProgress } from './progress.js';
 import { scheduler, timestamp } from './scheduler.js';
 import { EVIDENCE_POLICY_VERSION, studyDate, WORD_EXERCISE_RULES } from './word-evidence.js';
@@ -90,7 +91,7 @@ function candidates(deck: Deck, context: WordQueryContext, limit: number): { wor
   timestamp(context.at);
   if (!Number.isSafeInteger(limit) || limit < 0) throw new RangeError('Invalid query limit');
   if (!context.owner.id.trim() || !['guest', 'account'].includes(context.owner.kind)) throw new RangeError('Invalid owner');
-  if (context.answerLanguage !== 'ru' && context.answerLanguage !== 'en') throw new RangeError('Invalid translation language');
+  if (!isTranslationLanguage(context.answerLanguage)) throw new RangeError('Invalid translation language');
   if (context.exerciseId !== undefined && !Object.prototype.hasOwnProperty.call(WORD_EXERCISE_RULES, context.exerciseId)) throw new RangeError('Unknown exercise');
   const catalog = new Map<string, Word>();
   for (const word of context.words) {

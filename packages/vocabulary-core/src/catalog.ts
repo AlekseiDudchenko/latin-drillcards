@@ -12,7 +12,7 @@ export function assertPublishedWord(word: Word): void {
   if (word.article !== undefined && (word.partOfSpeech !== 'noun' || !['der', 'die', 'das'].includes(word.article))) fail('article');
   if (!Number.isSafeInteger(word.contentVersion) || word.contentVersion < 1) fail('content version');
   const languages = Object.keys(word.meanings);
-  if (!languages.length || !languages.every(lang => lang === 'ru' || lang === 'en')) fail('meaning languages');
+  if (!languages.length || !languages.every(lang => lang === 'ru' || lang === 'en' || lang === 'de')) fail('meaning languages');
   for (const meaning of Object.values(word.meanings)) {
     if (!meaning || !text(meaning.preferred) || !meaning.accepted.every(text) ||
         new Set([meaning.preferred, ...meaning.accepted]).size !== meaning.accepted.length + 1) fail('meaning');
@@ -22,7 +22,7 @@ export function assertPublishedWord(word: Word): void {
   for (const example of word.examples) {
     if (!text(example.id) || ids.has(example.id) || !text(example.text) || sentences.has(example.text)) fail('example identity/sentence');
     const translations = Object.entries(example.translations);
-    if (!translations.length || !translations.every(([lang, value]) => (lang === 'ru' || lang === 'en') && text(value))) fail('example translation');
+    if (!translations.length || !translations.every(([lang, value]) => (lang === 'ru' || lang === 'en' || lang === 'de') && text(value))) fail('example translation');
     ids.add(example.id); sentences.add(example.text);
   }
 }

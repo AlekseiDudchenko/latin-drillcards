@@ -15,8 +15,8 @@
      "en": "look! behold!"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "d321c38c176ae914"
+   "contentVersion": 2,
+   "contentHash": "2362a32ca724a21f"
   },
   {
    "id": "w-ibi",
@@ -31,8 +31,8 @@
      "en": "there"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "5db18b550e797b62"
+   "contentVersion": 2,
+   "contentHash": "5397c41f56a46761"
   },
   {
    "id": "w-esse",
@@ -47,8 +47,8 @@
      "en": "to be, to be located"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "f9ed1677faaab5da"
+   "contentVersion": 2,
+   "contentHash": "d8f2fe42b67d41d5"
   },
   {
    "id": "w-est",
@@ -63,8 +63,8 @@
      "en": "he (she, it) is, is located"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "fcd4b75fae248d16"
+   "contentVersion": 2,
+   "contentHash": "c7ec164987e8ad5a"
   },
   {
    "id": "w-sunt",
@@ -79,8 +79,8 @@
      "en": "they are, are located"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "895b52e36deeeed5"
+   "contentVersion": 2,
+   "contentHash": "8cdeb4a83252d293"
   },
   {
    "id": "w-servus",
@@ -95,8 +95,8 @@
      "en": "slave, servant"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "ef18b0433f6561f1"
+   "contentVersion": 2,
+   "contentHash": "811dfd0adfad3e9a"
   },
   {
    "id": "w-etiam",
@@ -111,8 +111,8 @@
      "en": "also, even"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "dae502bb3f825e5c"
+   "contentVersion": 2,
+   "contentHash": "cafd91b5cf529645"
   },
   {
    "id": "w-et",
@@ -127,8 +127,8 @@
      "en": "and, also"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "bb7302cd7251a27f"
+   "contentVersion": 2,
+   "contentHash": "cb8d4feb3b2552a2"
   },
   {
    "id": "w-domina",
@@ -143,8 +143,8 @@
      "en": "mistress, lady"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "8dae05e5ef08db54"
+   "contentVersion": 2,
+   "contentHash": "6f1ea0b5cf4ff5c4"
   },
   {
    "id": "w-serva",
@@ -159,8 +159,8 @@
      "en": "female slave, maid"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "1aaefa5af60f0461"
+   "contentVersion": 2,
+   "contentHash": "d342da7f30af8a39"
   },
   {
    "id": "w-sta-re",
@@ -175,8 +175,8 @@
      "en": "to stand"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "798c5aef6fad5c10"
+   "contentVersion": 2,
+   "contentHash": "b0632bc5030a48c9"
   },
   {
    "id": "w-co-gita-re",
@@ -191,8 +191,8 @@
      "en": "to think, to reflect, to intend"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "45cd5744ec223784"
+   "contentVersion": 2,
+   "contentHash": "a25c47a650ed7f23"
   },
   {
    "id": "w-cla-ma-re",
@@ -207,8 +207,8 @@
      "en": "to shout, to cry out"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "a9df2631d43b0a33"
+   "contentVersion": 2,
+   "contentHash": "ace87b6f58cb31b3"
   },
   {
    "id": "w-iam",
@@ -223,8 +223,8 @@
      "en": "already, now"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "262cb79b78cf3022"
+   "contentVersion": 2,
+   "contentHash": "5759f4a1010eb67b"
   },
   {
    "id": "w-adesse",
@@ -239,8 +239,8 @@
      "en": "to be present, to help"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "8c9ea0c5645d16ba"
+   "contentVersion": 2,
+   "contentHash": "bc77a943bf5bc25b"
   },
   {
    "id": "w-adest",
@@ -255,8 +255,8 @@
      "en": "he (she) is here"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "b8bdb06341ca8307"
+   "contentVersion": 2,
+   "contentHash": "a2cfa12f4d85972a"
   },
   {
    "id": "w-adsunt",
@@ -271,8 +271,8 @@
      "en": "they are here"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "996e4c394c4c2c0d"
+   "contentVersion": 2,
+   "contentHash": "d9c3afd359ab230e"
   },
   {
    "id": "w-dominus",
@@ -287,8 +287,8 @@
      "en": "master, lord"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "b053f18aff5fafe7"
+   "contentVersion": 2,
+   "contentHash": "3d509f5fbab36d90"
   },
   {
    "id": "w-tum",
@@ -303,8 +303,8 @@
      "en": "then, at that time"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "56f7da24544a144b"
+   "contentVersion": 2,
+   "contentHash": "e4af2701bda1954e"
   },
   {
    "id": "w-veni-re",
@@ -319,8 +319,8 @@
      "en": "to come"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "1e2f91f97b68ee7d"
+   "contentVersion": 2,
+   "contentHash": "b855e2b032ed360a"
   },
   {
    "id": "w-ri-de-re",
@@ -335,8 +335,8 @@
      "en": "to laugh, to laugh at"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "14d48737178fbbb2"
+   "contentVersion": 2,
+   "contentHash": "bf2081be6130529a"
   },
   {
    "id": "w-postre-mo",
@@ -351,8 +351,8 @@
      "en": "finally"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "26b0ce13e0c4d6a5"
+   "contentVersion": 2,
+   "contentHash": "f91e16756426d950"
   },
   {
    "id": "w-sed",
@@ -367,8 +367,8 @@
      "en": "but, rather"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "40e850d17c6ec142"
+   "contentVersion": 2,
+   "contentHash": "0db640df034d984c"
   },
   {
    "id": "w-no-ndum",
@@ -383,8 +383,8 @@
      "en": "not yet"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "79ee483f3fb38564"
+   "contentVersion": 2,
+   "contentHash": "4c149e909098bbaf"
   },
   {
    "id": "w-cu-r",
@@ -399,8 +399,8 @@
      "en": "why?"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "6481e762af2cba36"
+   "contentVersion": 2,
+   "contentHash": "2abda2ddc1884d1e"
   },
   {
    "id": "w-no-n",
@@ -415,8 +415,8 @@
      "en": "not"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "ea1929ebd15ae2b3"
+   "contentVersion": 2,
+   "contentHash": "b8f9fe0b3e1f1b6b"
   },
   {
    "id": "w-de-be-re",
@@ -431,8 +431,8 @@
      "en": "to owe, must, ought to"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "eeb0072b1c3a16cb"
+   "contentVersion": 2,
+   "contentHash": "6e9c06f7e06521fe"
   },
   {
    "id": "w-dubita-re",
@@ -447,8 +447,8 @@
      "en": "to hesitate, to doubt"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "d359feac9c1be428"
+   "contentVersion": 2,
+   "contentHash": "b987c0391dec8474"
   },
   {
    "id": "w-gaude-re",
@@ -463,8 +463,8 @@
      "en": "to rejoice"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "9f0489835b50536b"
+   "contentVersion": 2,
+   "contentHash": "a9e54e454e7053ee"
   },
   {
    "id": "w-equus",
@@ -479,8 +479,8 @@
      "en": "horse"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "cdefcd167af9e1cd"
+   "contentVersion": 2,
+   "contentHash": "ae1b3d662512bae3"
   },
   {
    "id": "w-specta-re",
@@ -495,8 +495,8 @@
      "en": "to watch, to look at"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "7088bbf93f430f17"
+   "contentVersion": 2,
+   "contentHash": "69a3183e4e111b3a"
   },
   {
    "id": "w-aude-re",
@@ -511,8 +511,8 @@
      "en": "to dare"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "a8b302e53efd5ed1"
+   "contentVersion": 2,
+   "contentHash": "76eded3f8a81c064"
   },
   {
    "id": "w-o-ra-re",
@@ -527,8 +527,8 @@
      "en": "to ask, to beg, to pray"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "6c05cd173f37ee7d"
+   "contentVersion": 2,
+   "contentHash": "c961f757b702576b"
   },
   {
    "id": "w-tandem",
@@ -543,8 +543,8 @@
      "en": "at last, finally"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "fab03d4b79a5c72c"
+   "contentVersion": 2,
+   "contentHash": "8b29fd400ba8076d"
   },
   {
    "id": "w-vide-re",
@@ -559,8 +559,8 @@
      "en": "to see"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "8ff18115039001ca"
+   "contentVersion": 2,
+   "contentHash": "6e46f231fc3a0131"
   },
   {
    "id": "w-populus",
@@ -575,8 +575,8 @@
      "en": "people"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "5ba4a1ca7f81770f"
+   "contentVersion": 2,
+   "contentHash": "460fecc865157b94"
   },
   {
    "id": "w-victo-ria",
@@ -591,8 +591,8 @@
      "en": "victory"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "8b1d96be9094444e"
+   "contentVersion": 2,
+   "contentHash": "6575cf81098b9b29"
   },
   {
    "id": "w-hae",
@@ -607,8 +607,8 @@
      "en": "ha ha (mocking laughter)"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "5166a2949c652acc"
+   "contentVersion": 2,
+   "contentHash": "01c1a091788cdc9e"
   },
   {
    "id": "w-itaque",
@@ -623,8 +623,8 @@
      "en": "therefore, and so"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "ee4b3c38add249b7"
+   "contentVersion": 2,
+   "contentHash": "fcd5ab01de0c5a09"
   },
   {
    "id": "w-hu-c",
@@ -639,8 +639,8 @@
      "en": "hither, to this place"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "c250ac9ea1978785"
+   "contentVersion": 2,
+   "contentHash": "998a72abe4bc0a89"
   },
   {
    "id": "w-medicus",
@@ -655,8 +655,8 @@
      "en": "doctor"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "73f28fa8653196c1"
+   "contentVersion": 2,
+   "contentHash": "f454fac329239a15"
   },
   {
    "id": "w-so-lum",
@@ -671,8 +671,8 @@
      "en": "only"
     }
    ],
-   "contentVersion": 1,
-   "contentHash": "f86c4e3d1b6dbe2d"
+   "contentVersion": 2,
+   "contentHash": "7aabf94dc08cdb4c"
   },
   {
    "id": "w-amicus",

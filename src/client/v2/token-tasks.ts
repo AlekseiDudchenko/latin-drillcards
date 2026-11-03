@@ -15,6 +15,7 @@ export interface SentenceSource {
   readonly tokens: readonly string[];
   readonly translation_en?: string;
   readonly translation_ru?: string;
+  readonly translation_de?: string;
 }
 /** Konjunktiv II (FC08) record as published in `konjunktiv2-<kind>.json`; tokens include distractors. */
 export interface KonjunktivSource {
@@ -34,7 +35,7 @@ function tokensOf(prefix: string, texts: readonly string[] | undefined, order?: 
 
 /** All source tokens make up the answer, so filling the answer checks it. */
 export function sentenceAssemblyCard(item: SentenceSource, translationLanguage: TranslationLanguage, order?: readonly number[]): CardDefinition {
-  const prompt = translationLanguage === 'ru' ? item.translation_ru : item.translation_en;
+  const prompt = { ru: item.translation_ru, en: item.translation_en, de: item.translation_de }[translationLanguage];
   if (!prompt?.trim()) throw new RangeError(`${item.id}: missing ${translationLanguage} translation`);
   return { id: `sentence:${item.id}`, title: titles('sentenceAssemblyTitle'), prompt: { text: prompt, lang: translationLanguage },
     input: { kind: 'tokens', answerLang: 'la', tokens: tokensOf(item.id, item.tokens, order), autoSubmit: true },

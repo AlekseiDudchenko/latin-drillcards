@@ -43,7 +43,7 @@ describe('M1: sentence dataset converted from v1',()=>{
   });
 
   test('every sentence is solvable in both translation languages, and never shown solved',()=>{
-    for(const item of dataset.items) for(const answerLanguage of ['ru','en']) {
+    for(const item of dataset.items) for(const answerLanguage of ['ru','en','de']) {
       const task=registry.buildTask('sentence-assembly','sentences',item.id,{answerLanguage,seed:'s',taskId:`t-${item.id}`});
       assert.equal(core.evaluateSentenceTokens(task.specification.exercise,solved(task)),'correct',item.id);
       const shown=task.specification.exercise.tokens.map(t=>t.text).join(' ');

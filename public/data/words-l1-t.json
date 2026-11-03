@@ -5,6 +5,7 @@
     "pos": "verb",
     "ru": "быть должным, быть обязанным",
     "en": "to owe, must, ought to",
+    "de": "schulden, müssen, sollen",
     "tags": []
   },
   {
@@ -13,10 +14,12 @@
     "pos": "verb",
     "ru": "колебаться, сомневаться",
     "en": "to hesitate, to doubt",
+    "de": "zögern, zweifeln",
     "tags": [],
     "exampleLa": "Servus venīre dubitat.",
     "exampleRu": "Раб медлит прийти.",
-    "exampleEn": "The slave hesitates to come."
+    "exampleEn": "The slave hesitates to come.",
+    "exampleDe": "Der Sklave zögert zu kommen."
   },
   {
     "id": "w_l1t_3",
@@ -24,6 +27,7 @@
     "pos": "verb",
     "ru": "радоваться",
     "en": "to rejoice",
+    "de": "sich freuen",
     "tags": []
   },
   {
@@ -32,6 +36,7 @@
     "pos": "noun",
     "ru": "конь, лошадь",
     "en": "horse",
+    "de": "Pferd",
     "tags": [
       "m"
     ]
@@ -42,6 +47,7 @@
     "pos": "verb",
     "ru": "рассматривать, смотреть, наблюдать",
     "en": "to watch, to look at",
+    "de": "betrachten, zuschauen, ansehen",
     "tags": []
   },
   {
@@ -50,10 +56,12 @@
     "pos": "verb",
     "ru": "осмеливаться, сметь",
     "en": "to dare",
+    "de": "wagen",
     "tags": [],
     "exampleLa": "Dāvus spectāre nōn audet.",
     "exampleRu": "Давус не осмеливается смотреть.",
-    "exampleEn": "Davus does not dare to watch."
+    "exampleEn": "Davus does not dare to watch.",
+    "exampleDe": "Davus wagt nicht zuzusehen."
   },
   {
     "id": "w_l1t_7",
@@ -61,6 +69,7 @@
     "pos": "verb",
     "ru": "просить, молить, молиться",
     "en": "to ask, to beg, to pray",
+    "de": "bitten, anflehen, beten",
     "tags": []
   },
   {
@@ -69,6 +78,7 @@
     "pos": "adverb",
     "ru": "наконец, в конце концов",
     "en": "at last, finally",
+    "de": "endlich, schließlich",
     "tags": []
   },
   {
@@ -77,6 +87,7 @@
     "pos": "verb",
     "ru": "видеть",
     "en": "to see",
+    "de": "sehen",
     "tags": []
   },
   {
@@ -85,6 +96,7 @@
     "pos": "noun",
     "ru": "народ",
     "en": "people",
+    "de": "Volk",
     "tags": [
       "m"
     ]
@@ -95,6 +107,7 @@
     "pos": "noun",
     "ru": "победа",
     "en": "victory",
+    "de": "Sieg",
     "tags": [
       "f"
     ]
@@ -105,6 +118,7 @@
     "pos": "other",
     "ru": "ха-ха (насмешливый смех)",
     "en": "ha ha (mocking laughter)",
+    "de": "haha (spöttisches Lachen)",
     "tags": []
   },
   {
@@ -113,6 +127,7 @@
     "pos": "adverb",
     "ru": "поэтому, итак",
     "en": "therefore, and so",
+    "de": "deshalb, also",
     "tags": []
   },
   {
@@ -121,6 +136,7 @@
     "pos": "adverb",
     "ru": "сюда",
     "en": "hither, to this place",
+    "de": "hierher",
     "tags": []
   },
   {
@@ -129,6 +145,7 @@
     "pos": "noun",
     "ru": "врач",
     "en": "doctor",
+    "de": "Arzt",
     "tags": [
       "m"
     ]
@@ -139,6 +156,7 @@
     "pos": "adverb",
     "ru": "только",
     "en": "only",
+    "de": "nur",
     "tags": []
   }
 ]

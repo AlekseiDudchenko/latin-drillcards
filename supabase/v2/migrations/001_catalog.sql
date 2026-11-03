@@ -51,7 +51,7 @@ CREATE TABLE catalog_private.word_translations (
   id text PRIMARY KEY,
   word_id text NOT NULL,
   kind text NOT NULL DEFAULT 'translation' CHECK (kind = 'translation'),
-  language text NOT NULL CHECK (language IN ('ru','en')),
+  language text NOT NULL CHECK (language IN ('ru','en','de')),
   text text NOT NULL CHECK (btrim(text) <> '' AND text=btrim(text) AND length(text) <= 10000),
   FOREIGN KEY (word_id,id,kind) REFERENCES catalog_private.content_revisions(word_id,id,kind),
   UNIQUE (word_id,id)
@@ -69,7 +69,7 @@ CREATE TABLE catalog_private.example_translations (
   word_id text NOT NULL,
   example_id text NOT NULL,
   kind text NOT NULL DEFAULT 'example_translation' CHECK (kind = 'example_translation'),
-  language text NOT NULL CHECK (language IN ('ru','en')),
+  language text NOT NULL CHECK (language IN ('ru','en','de')),
   text text NOT NULL CHECK (btrim(text) <> '' AND text=btrim(text) AND length(text) <= 10000),
   FOREIGN KEY (word_id,id,kind) REFERENCES catalog_private.content_revisions(word_id,id,kind),
   FOREIGN KEY (word_id,example_id) REFERENCES catalog_private.examples(word_id,id)

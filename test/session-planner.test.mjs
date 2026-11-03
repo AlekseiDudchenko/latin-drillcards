@@ -189,7 +189,7 @@ test('invalid owner, projections, identity, request enums and filters fail rathe
   const i = input();
   for (const patch of [{ sessionId: '' }, { seed: '' }, { dataEpoch: '' }, { catalogVersion: '' }, { at: 'yesterday' },
     { owner: { kind: 'account', id: '' } }, { studyTimezone: undefined }, { studyTimezone: 'Mars/Olympus' }]) assert.throws(() => planVocabularySession({ ...i, ...patch }));
-  for (const patch of [{ intent: 'bogus' }, { format: 'bogus' }, { answerLanguage: 'de' }, { exerciseId: 'bogus' },
+  for (const patch of [{ intent: 'bogus' }, { format: 'bogus' }, { answerLanguage: 'fr' }, { exerciseId: 'bogus' },
     { intent: 'practice' }, { filter: { tags: [''] } }, { filter: { partOfSpeech: ['bogus'] } }, { deckId: 'other' }]) {
     assert.throws(() => planVocabularySession({ ...i, request: request(patch) }));
   }
