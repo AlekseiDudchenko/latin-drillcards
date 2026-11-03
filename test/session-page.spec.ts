@@ -222,13 +222,20 @@ test('a five-word circuit goes through all stages, a mistake review and a summar
   await expect(page.locator('#reviewDueEmpty')).toHaveText(/^Сейчас нечего повторять\. Ближайшее повторение: .+\.$/);
 });
 
-test('review is disabled with a reason until words are started; the scope applies to a full set', async ({ page }) => {
+test('review is disabled with a reason until words are started; a full set through every exercise is the default', async ({ page }) => {
   await openDeck(page);
   await expect(page.locator('#reviewDue')).toHaveText('Повторить созревшие (0)');
   await expect(page.locator('#reviewDue')).toBeDisabled();
   await expect(page.locator('#reviewDueEmpty')).toHaveText('Повторять пока нечего: сначала выучите новые слова.');
+  await expect(page.locator('#format')).toHaveValue('circuit');
+  await expect(page.locator('#scope')).toHaveValue('all-exercises');
+  await expect(page.locator('#scopeField')).toBeVisible();
+  await expect(page.locator('#exerciseField')).toBeHidden();
+  await page.locator('#format').selectOption('single');
   await expect(page.locator('#scopeField')).toBeHidden();
+  await expect(page.locator('#exerciseField')).toBeVisible();
   await page.locator('#format').selectOption('circuit');
+  await page.locator('#scope').selectOption('due-components');
   await expect(page.locator('#scopeField')).toBeVisible();
   // The review format and exercise never change the new-word count: new words are always a full circuit.
   await page.locator('#format').selectOption('single');

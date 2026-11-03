@@ -16,17 +16,27 @@ export interface DeckFile {
 export type Route =
   | { readonly view: 'home' }
   | { readonly view: 'session' }
-  | { readonly view: 'deck'; readonly deckId: string }
+  | { readonly view: 'deck'; readonly deckId: string; readonly start?: StartIntent; readonly answer?: AnswerLanguage }
   | { readonly view: 'word'; readonly wordId: string; readonly deckId?: string };
 
-/** `#deck=a1`, `#word=w-tisch&deck=a1`, `#session`; anything else is the home screen. */
+/** A deck link may ask to start a session at once (Today's Review / Learn new), in a given answer language. */
+export type StartIntent = 'learn-new' | 'review-due';
+export type AnswerLanguage = 'ru' | 'en';
+const START_INTENTS: readonly string[] = ['learn-new', 'review-due'];
+const ANSWER_LANGUAGES: readonly string[] = ['ru', 'en'];
+
+/** `#deck=a1`, `#deck=a1&start=review-due&answer=en`, `#word=w-tisch&deck=a1`, `#session`; anything else is the home screen. */
 export function parseRoute(hash: string): Route {
   const raw = hash.replace(/^#/, '');
   if (raw === 'session') return { view: 'session' };
   const params = new URLSearchParams(raw);
   const deckId = params.get('deck')?.trim(); const wordId = params.get('word')?.trim();
   if (wordId) return { view: 'word', wordId, ...(deckId ? { deckId } : {}) };
-  if (deckId) return { view: 'deck', deckId };
+  if (deckId) {
+    const start = params.get('start'); const answer = params.get('answer');
+    return { view: 'deck', deckId, ...(start && START_INTENTS.includes(start) ? { start: start as StartIntent } : {}),
+      ...(answer && ANSWER_LANGUAGES.includes(answer) ? { answer: answer as AnswerLanguage } : {}) };
+  }
   return { view: 'home' };
 }
 export function routeHash(route: Route): string {
@@ -35,6 +45,8 @@ export function routeHash(route: Route): string {
   const params = new URLSearchParams();
   if (route.view === 'word') params.set('word', route.wordId);
   if (route.deckId) params.set('deck', route.deckId);
+  if (route.view === 'deck' && route.start) params.set('start', route.start);
+  if (route.view === 'deck' && route.answer) params.set('answer', route.answer);
   return `#${params}`;
 }
 
@@ -97,6 +109,14 @@ export function deckOverview(input: { readonly request: SessionRequest; readonly
 }
 
 export type EmptyQueueReason = 'all-started' | 'nothing-started' | 'not-for-exercise' | 'not-due-yet' | 'no-translation';
+
+/**
+ * The default session for an intent: a five-word circuit through every exercise available for the words.
+ * Today's Review and Learn new start exactly this; the deck screen preselects it.
+ */
+export function defaultSessionRequest(intent: StartIntent, deckId: string, answerLanguage: AnswerLanguage): SessionRequest {
+  return { deckId, answerLanguage, intent, format: 'circuit', circuitScope: 'all-exercises' } as SessionRequest;
+}
 
 /** Why a queue is empty; undefined when it is not. Queues are never padded from each other. */
 export function emptyQueueReason(intent: 'learn-new' | 'review-due', overview: DeckOverview): EmptyQueueReason | undefined {

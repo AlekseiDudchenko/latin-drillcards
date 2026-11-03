@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { planVocabularySession, vocabularyQueues, createWordProgress, initializeComponent, applicableComponents,
   EVIDENCE_POLICY_VERSION } from '../packages/vocabulary-core/dist/index.js';
-import { deckOverview, decksOfWord, emptyQueueReason, parseRoute, routeHash, searchDecks, searchWords, startedCount,
+import { deckOverview, decksOfWord, defaultSessionRequest, emptyQueueReason, parseRoute, routeHash, searchDecks, searchWords, startedCount,
   wordSummary } from '../public/v2/home-model.js';
 
 const at = '2026-10-23T12:00:00.000Z';
@@ -33,6 +33,21 @@ test('routes round-trip through the hash and fall back to the home screen', () =
   assert.deepEqual(parseRoute(''), { view: 'home' });
   assert.deepEqual(parseRoute('#unknown=1'), { view: 'home' });
   assert.deepEqual(parseRoute('#deck=%20'), { view: 'home' });
+});
+
+test('a deck route may ask to start a session in an answer language; unknown values are ignored', () => {
+  for (const route of [{ view: 'deck', deckId: 'a1', start: 'review-due' }, { view: 'deck', deckId: 'a1', start: 'learn-new', answer: 'en' },
+    { view: 'deck', deckId: 'a1', answer: 'ru' }])
+    assert.deepEqual(parseRoute(routeHash(route)), route);
+  assert.equal(routeHash({ view: 'deck', deckId: 'a1', start: 'review-due', answer: 'en' }), '#deck=a1&start=review-due&answer=en');
+  assert.deepEqual(parseRoute('#deck=a1&start=practice&answer=de'), { view: 'deck', deckId: 'a1' });
+  assert.deepEqual(parseRoute('#word=w-tisch&deck=a1&start=review-due'), { view: 'word', wordId: 'w-tisch', deckId: 'a1' });
+});
+
+test('the default session is a circuit through every exercise, for review as for new words', () => {
+  for (const intent of ['review-due', 'learn-new'])
+    assert.deepEqual(defaultSessionRequest(intent, 'a1', 'en'),
+      { deckId: 'a1', answerLanguage: 'en', intent, format: 'circuit', circuitScope: 'all-exercises' });
 });
 
 test('deck search matches titles; word search matches headword with article and any translation', () => {

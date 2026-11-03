@@ -3,8 +3,8 @@ import { describeWordStatus, isItemSessionPlan, planVocabularySession, sessionTa
 import { cardUiTranslations, homeUiTranslations, sessionUiTranslations, type Lang } from '../i18n.js';
 import { createCardShell } from './card-shell.js';
 import { playResultSound } from './card-sound.js';
-import { deckOverview, decksOfWord, emptyQueueReason, parseRoute, routeHash, searchDecks, searchWords, startedCount,
-  wordSummary, type CatalogIndex, type DeckFile, type DeckOverview, type Route } from './home-model.js';
+import { deckOverview, decksOfWord, defaultSessionRequest, emptyQueueReason, parseRoute, routeHash, searchDecks, searchWords, startedCount,
+  wordSummary, type CatalogIndex, type DeckFile, type DeckOverview, type Route, type StartIntent } from './home-model.js';
 import { SessionRunner, type CommandResult, type RunnerEnvironment, type RunnerStore, type RunnerView } from './session-runner.js';
 import { openLearningPage } from './account-bar.js';
 import type { CatalogSource, PageLearning } from './learning-context.js';
@@ -123,10 +123,14 @@ function syncSetup(): void {
   $('scopeField').hidden = !circuit;
 }
 
-/** New words are always a five-word circuit through every exercise; the format choice applies to review only. */
-function request(intent: 'learn-new' | 'review-due', deckId: string): SessionRequest {
-  const format = intent === 'learn-new' || $<HTMLSelectElement>('format').value === 'circuit'
-    ? { format: 'circuit', circuitScope: intent === 'review-due' ? $<HTMLSelectElement>('scope').value : 'all-exercises' }
+/**
+ * New words are always a five-word circuit through every exercise; the format choice applies to review only.
+ * The setup preselects the same circuit for review (defaultSessionRequest); one exercise or due components are a manual choice.
+ */
+function request(intent: StartIntent, deckId: string): SessionRequest {
+  if (intent === 'learn-new') return defaultSessionRequest(intent, deckId, translation());
+  const format = $<HTMLSelectElement>('format').value === 'circuit'
+    ? { format: 'circuit', circuitScope: $<HTMLSelectElement>('scope').value }
     : { format: 'single', exerciseId: $<HTMLSelectElement>('exercise').value as WordExerciseId };
   return { deckId, answerLanguage: translation(), intent, ...format } as SessionRequest;
 }
@@ -284,26 +288,44 @@ async function catalogWords(file: DeckFile): Promise<readonly Word[]> {
   return [...byId.values()];
 }
 
-async function plan(scope: RunnerStore, file: DeckFile, intent: 'learn-new' | 'review-due'): Promise<void> {
+/** Resolves true once a session was started (the page then moves on), false when the queue was empty. */
+async function plan(scope: RunnerStore, file: DeckFile, intent: StartIntent, chosen = request(intent, file.deck.id)): Promise<boolean> {
   const seq = navigation;
   const at = env.now();
   const data = await scope.restore(at);
   const pool = await catalogWords(file);
-  const planned = planVocabularySession({ request: request(intent, file.deck.id), deck: file.deck, words: pool,
+  const planned = planVocabularySession({ request: chosen, deck: file.deck, words: pool,
     progress: data.projections.map(item => item.progress), owner: scope.owner, dataEpoch: scope.epoch.dataEpoch,
     sessionId: env.id(), seed: env.id(), catalogVersion: file.catalogVersion, at,
     studyTimezone: Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC' });
   if (planned.kind === 'empty') {
     message = planned.reason === 'no-new-words' ? 'noNewWords' : planned.reason === 'no-due-words' ? 'noDueWords' : 'noApplicableTasks';
-    notice.textContent = noticeText(); return;
+    notice.textContent = noticeText(); return false;
   }
   // The session pins the catalog's words as its snapshot: reload never reads a newer catalog.
   const started = await SessionRunner.start(scope, env, { state: { plan: planned.plan, status: 'ready', taskIndex: 0, revision: 0 },
     words: pool, catalogVersion: file.catalogVersion });
   // The user moved on while it was being saved: keep the session for Continue, honour the navigation.
-  if (seq !== navigation) { started.dispose(); void navigate(); return; }
+  if (seq !== navigation) { started.dispose(); void navigate(); return true; }
   attach(started);
   go({ view: 'session' });
+  return true;
+}
+
+/**
+ * `#deck=…&start=…` (Today's Review / Learn new) starts the default session straight away. The intent is dropped from
+ * the address first, so a reload or Back shows the deck screen and never starts a second session. When nothing can
+ * start (an open session, an empty queue) the deck screen is shown with its usual reason.
+ */
+async function autoStart(route: Extract<Route, { view: 'deck' }>, file: DeckFile, scope: RunnerStore): Promise<boolean> {
+  const plain: Route = { view: 'deck', deckId: route.deckId };
+  history.replaceState(history.state, '', routeHash(plain)); current = plain;
+  if (route.answer && route.answer !== translation()) { $<HTMLSelectElement>('translation').value = route.answer; localize(); }
+  if (!route.start || openSession || starting || emptyQueueReason(route.start, overview())) return false;
+  starting = true;
+  try { return await plan(scope, file, route.start, defaultSessionRequest(route.start, file.deck.id, translation())); }
+  catch { message = 'loadError'; return false; }
+  finally { starting = false; }
 }
 
 async function refreshProgress(scope: RunnerStore): Promise<void> {
@@ -510,7 +532,10 @@ async function openRoute(route: Route, scope: RunnerStore, seq: number): Promise
       const file = await loadDeck(route.deckId);
       if (seq !== navigation) return;
       if (shownDeck?.deck.id !== file.deck.id) { $<HTMLInputElement>('wordSearch').value = ''; wordFilter = 'all'; $<HTMLSelectElement>('wordPart').value = 'all'; }
-      shownDeck = file; show('deck'); renderDeck(); renderWords();
+      shownDeck = file;
+      if ((route.start || route.answer) && await autoStart(route, file, scope)) return;
+      if (seq !== navigation) return;
+      show('deck'); renderDeck(); renderWords();
     }
   } else {
     const deckId = route.deckId && index.decks.find(deck => deck.id === route.deckId)?.wordIds.includes(route.wordId)

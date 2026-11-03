@@ -37,12 +37,12 @@ test('a new guest sees an empty goal, new words in the first deck, nothing to re
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
-test('Learn new leads into the deck screen; the unfinished session is offered on Today, then finished from there', async ({ page }) => {
+test('Learn new starts a five-word circuit at once; the unfinished session is offered on Today, then finished from there', async ({ page }) => {
   await page.goto('/v2/today.html');
+  await expect(page.locator('#freshAction')).toHaveAttribute('href', './session.html#deck=preview-home&start=learn-new&answer=ru');
   await page.locator('#freshAction').click();
-  await expect(page).toHaveURL(/\/v2\/session\.html#deck=preview-home$/);
-  await page.locator('#learnNew').click();
   await expect(progress(page)).toHaveText('Задание 1 из 35');
+  await expect(page).toHaveURL(/\/v2\/session\.html#session$/);
 
   await sections(page).getByRole('link', { name: 'Сегодня' }).click();
   await expect(page).toHaveURL(/\/v2\/today\.html$/);
@@ -76,4 +76,49 @@ test('answers given today fill the goal; the section bar and the page follow the
   await expect(sections(page)).toHaveCount(0);
   await expect(page.getByRole('navigation', { name: 'Sections' }).getByRole('link', { name: 'Practice' })).toBeVisible();
   await page.locator('#language').selectOption('ru');
+});
+
+test('Review starts the due words at once as a full circuit; reload or Back never starts a second session', async ({ page }) => {
+  await page.clock.install({ time: new Date('2026-11-03T10:00:00Z') });
+  await page.goto('/v2/session.html#deck=preview-home');
+  await page.locator('#learnNew').click();
+  await expect(progress(page)).toHaveText('Задание 1 из 35');
+  for (let i = 0; i < 5; i++) {
+    const before = await progress(page).textContent();
+    await page.getByRole('button', { name: 'Продолжить', exact: true }).click();
+    await expect(progress(page)).not.toHaveText(before!);
+  }
+  await page.getByRole('button', { name: 'Завершить', exact: true }).click();
+  await expect(page.locator('#notice')).not.toBeEmpty();
+
+  await page.clock.setSystemTime(new Date('2026-12-03T10:00:00Z'));
+  await page.goto('/v2/today.html');
+  await expect(page.locator('#dueValue')).toHaveText('5 слов');
+  await expect(page.locator('#dueAction')).toHaveAttribute('href', './session.html#deck=preview-home&start=review-due&answer=ru');
+  await page.locator('#dueAction').click();
+  // Five due words, every exercise available for them; the deck screen is skipped.
+  await expect(progress(page)).toHaveText(/^Задание 1 из (2[6-9]|30)$/);
+  await expect(page).toHaveURL(/#session$/);
+  await expect(page.locator('#deck')).toBeHidden();
+
+  await page.reload();
+  await expect(progress(page)).toHaveText(/^Задание 1 из \d+$/);
+  await page.goBack();
+  await expect(page).toHaveURL(/#deck=preview-home$/);
+  await expect(page.locator('#deck')).toBeVisible();
+  await expect(page.locator('#blocked')).toBeVisible();
+  await expect(page.locator('#reviewDue')).toBeDisabled();
+
+  // With a session already open, a start link only shows the deck screen with its reason.
+  await page.goto('/v2/session.html#deck=preview-home&start=review-due');
+  await expect(page).toHaveURL(/#deck=preview-home$/);
+  await expect(page.locator('#blocked')).toBeVisible();
+});
+
+test('a start link with nothing to review shows the deck screen with the reason', async ({ page }) => {
+  await page.goto('/v2/session.html#deck=preview-home&start=review-due');
+  await expect(page).toHaveURL(/#deck=preview-home$/);
+  await expect(page.locator('#deck')).toBeVisible();
+  await expect(page.locator('#reviewDueEmpty')).toHaveText('Повторять пока нечего: сначала выучите новые слова.');
+  await expect(page.locator('#notice')).toBeEmpty();
 });

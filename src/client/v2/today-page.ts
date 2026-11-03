@@ -1,7 +1,7 @@
-import { isItemSessionPlan, sessionTasks, vocabularyQueues, type SessionRequest, type VocabularySessionPlan } from './core/index.js';
+import { isItemSessionPlan, sessionTasks, vocabularyQueues, type VocabularySessionPlan } from './core/index.js';
 import { homeUiTranslations, sessionUiTranslations, type Lang } from '../i18n.js';
 import { openLearningPage } from './account-bar.js';
-import { startedCount, type CatalogIndex } from './home-model.js';
+import { defaultSessionRequest, routeHash, startedCount, type AnswerLanguage, type CatalogIndex, type StartIntent } from './home-model.js';
 import { storedLanguage, storeLanguage } from './interface-language.js';
 import type { PageLearning } from './learning-context.js';
 import { SessionRunner, type RunnerEnvironment, type RunnerStore } from './session-runner.js';
@@ -10,7 +10,8 @@ import { dailyProgress, dueDeck, focusDeck, type DailyProgress } from './today-m
 import { count, fill, TODAY_TEXT } from './today-i18n.js';
 
 // "Today": where to go next. It reads the owner's projections and the catalog; every action is a link into
-// the deck screen or a family page, so the planner and the Runner stay the only places a session starts.
+// the deck screen (Review / Learn new ask it to start at once) or a family page, so the session page's planner and
+// Runner stay the only places a session starts.
 const env: RunnerEnvironment = { now: () => new Date().toISOString(), id: () => crypto.randomUUID() };
 const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
 const node = <K extends keyof HTMLElementTagNameMap>(tag: K, text?: string, className?: string): HTMLElementTagNameMap[K] => {
@@ -40,14 +41,13 @@ async function load(learned: PageLearning): Promise<Today> {
   const [index, data]: [CatalogIndex, Awaited<ReturnType<RunnerStore['restore']>>] = await Promise.all([learned.catalog.index(), store.restore(at)]);
   const progress = data.projections.map(item => item.progress);
   const context = { owner: store.owner, ...store.epoch, asOf: at };
-  const answerLanguage = language === 'en' ? 'en' : 'ru';
   // One failed deck must not hide the others; its row simply has no due words.
   const files = await Promise.all(index.decks.map(deck => learned.catalog.deck(deck.id).catch(() => undefined)));
   const dueIds = new Set<string>(); const fresh = new Map<string, number>();
   const decks: DeckRow[] = index.decks.map((deck, i) => {
     const file = files[i]; let due = 0;
     if (file) {
-      const queues = vocabularyQueues({ request: { deckId: deck.id, answerLanguage, intent: 'learn-new', format: 'circuit', circuitScope: 'all-exercises' } as SessionRequest,
+      const queues = vocabularyQueues({ request: defaultSessionRequest('learn-new', deck.id, answerLanguage()),
         deck: file.deck, words: file.words, progress, owner: store.owner, at });
       due = queues.due.length; fresh.set(deck.id, queues.fresh.length);
       for (const item of queues.due) dueIds.add(item.word.id);
@@ -70,6 +70,10 @@ async function load(learned: PageLearning): Promise<Today> {
 }
 
 const deckHref = (id: string): string => `./session.html#deck=${encodeURIComponent(id)}`;
+/** The queues here are counted in the interface's answer language; the session starts in the same one. */
+const answerLanguage = (): AnswerLanguage => language === 'en' ? 'en' : 'ru';
+/** Review and Learn new start the default five-word, every-exercise session at once, without the deck screen. */
+const startHref = (id: string, start: StartIntent): string => `./session.html${routeHash({ view: 'deck', deckId: id, start, answer: answerLanguage() })}`;
 
 function show(action: HTMLAnchorElement, label: string, href: string | undefined): void {
   action.hidden = !href; action.textContent = label; if (href) action.href = href;
@@ -110,13 +114,13 @@ function renderQueues(): void {
   if (!today) return; const t = TODAY_TEXT[language];
   $('dueValue').textContent = today.dueTotal ? count(language, today.dueTotal, 'word') : '—';
   $('dueNote').textContent = today.dueTotal ? '' : t.dueNone;
-  show($<HTMLAnchorElement>('dueAction'), t.review, today.dueTotal && today.dueDeck ? deckHref(today.dueDeck) : undefined);
+  show($<HTMLAnchorElement>('dueAction'), t.review, today.dueTotal && today.dueDeck ? startHref(today.dueDeck, 'review-due') : undefined);
   const focus = today.focus; const hasFresh = !!focus && focus.fresh > 0;
   $('freshLabel').textContent = fill(t.fresh, { deck: focus?.title ?? '' });
   $('freshValue').textContent = hasFresh ? fill(t.freshLeft, { n: focus!.fresh }) : '—';
   $('freshNote').textContent = !focus ? '' : hasFresh || focus.started < focus.total
     ? fill(t.started, { started: focus.started, total: focus.total }) : t.freshDone;
-  show($<HTMLAnchorElement>('freshAction'), t.learn, hasFresh ? deckHref(focus!.id) : undefined);
+  show($<HTMLAnchorElement>('freshAction'), t.learn, hasFresh ? startHref(focus!.id, 'learn-new') : undefined);
 }
 
 function renderDecks(): void {
