@@ -17,7 +17,7 @@ The site entry (`/`, obsolete paths, the PWA `start_url`, the offline fallback i
 
 ## Footer
 
-`site-footer.ts`, mounted by `openLearningPage()` and by the legal pages, puts one footer after the `<main>` of every
+`site-footer.ts`, mounted by `openLearningPage()` and by the legal and install pages, puts one footer after the `<main>` of every
 v2 page a visitor reaches from the section bar (the developer pages `environment.html` and `*-demo.html` have none): the sections, contact (email), the legal pages, the author, the copyright and
 the version. The version is `APP_VERSION` (`app-version.ts`), which `scripts/inject-version.mjs`
 stamps from `VERSION` into the compiled module at build time, so it always matches the release.
@@ -25,6 +25,14 @@ The legal pages `privacy.html` and `terms.html` (`legal-page.ts`) render their R
 the shared contacts from `legal-content.ts` without opening the learning store. `today.html` carries a static
 `footer[data-static-footer]` with the legal links for readers without JS; the mounted footer replaces it. The v1 URLs
 `/privacy` and `/terms` redirect to them (`build-site-entry.mjs`). Checked by `test/site-footer.test.mjs`.
+
+**Get the app** (#420). The footer link opens the browser's own install dialog when the browser
+offers one (`beforeinstallprompt`: Chrome, Edge, Android), and `install.html` otherwise. The offer
+is kept by `install-prompt.ts` for both the install banner and the link: the link still installs
+after the banner was dismissed, and using the offer from either closes the banner. `install.html`
+(`install-page.ts`, texts in `install-guide.ts`) shows the Install button while the offer lasts and
+the steps for iPhone/iPad, Android, Chrome/Edge on a computer and Safari on a Mac, the visitor's
+device first. In the installed app (`display-mode: standalone`) the link is not shown.
 
 ## Today
 

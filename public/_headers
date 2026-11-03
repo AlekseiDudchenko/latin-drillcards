@@ -40,6 +40,9 @@
 /v2/gaps
   Cache-Control: no-cache
 
+/v2/install
+  Cache-Control: no-cache
+
 /v2/kasus
   Cache-Control: no-cache
 

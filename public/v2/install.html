@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>Latin DrillCards · Скачать приложение</title>
+  <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="./card-ui.css">
+  <link rel="manifest" href="../manifest.json"><meta name="theme-color" content="#2563eb"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head><body><main class="dc-demo dc-install">
+  <header><strong><a class="dc-brand" href="./today.html">Latin DrillCards</a> · <span id="title">Скачать приложение</span></strong>
+    <label><span id="languageLabel">Язык интерфейса</span> <select id="language"><option value="ru">RU</option><option value="en">EN</option><option value="de">DE</option></select></label>
+  </header>
+  <section class="dc-install-intro" aria-labelledby="title">
+    <p id="lead"></p>
+    <p id="installed" role="status" hidden></p>
+    <button id="install" type="button" hidden></button>
+  </section>
+  <div id="platforms" class="dc-install-platforms"></div>
+</main><script type="module">await import("../retire-v1.js"); await import("./install-page.js");</script></body></html>

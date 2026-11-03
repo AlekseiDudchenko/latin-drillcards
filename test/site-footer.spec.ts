@@ -7,7 +7,7 @@ const footer = (page: Page) => page.getByRole('contentinfo');
 const fitsWidth = (page: Page) => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth);
 
 test('every v2 page ends with the footer: sections, contact, legal pages, author and the build version', async ({ page }) => {
-  for (const name of ['today', 'session', 'practice', 'progress', 'sentences', 'privacy', 'terms']) {
+  for (const name of ['today', 'session', 'practice', 'progress', 'sentences', 'privacy', 'terms', 'install']) {
     await page.goto(`/v2/${name}.html`);
     await expect(footer(page), name).toBeVisible();
     await expect(footer(page).locator('.dc-footer-version'), name).toHaveText(`Версия ${VERSION}`);
