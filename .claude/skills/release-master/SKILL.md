@@ -58,6 +58,36 @@ gh pr list --state open --json number,title,headRefName,mergeable
   one, trial-merge it into a scratch worktree: a stale branch can conflict or be
   superseded by what is already on `main` (#394 was — #395 had done it).
 
+### Server function compatibility (check every release)
+
+The site and the `v2-learning-events` Edge Function both run the compiled core
+(`packages/vocabulary-core`). The function validates every task and evaluates every answer
+with the core it was **deployed** with, and `npm run deploy` does not deploy it. When the
+release changes how tasks are built or answers evaluated (a task or normalization version,
+choice options, evaluation), the deployed function refuses the new answers as
+`invalid-task`. Refused answers silently drop out of progress, and the account bar shows
+"the server did not accept N answers". This happened twice in the German DrillCards:
+choice options (2.59.1) and typed tasks of version 2 shipped without a function deploy (2.62.0).
+
+So for **every** release, not only for the PRs you wrote yourself:
+
+```bash
+npm run build && node scripts/check-server-core.mjs   # exit 1 = the deployed core would refuse something
+```
+
+The script reads the deployed commit from `supabase/v2/functions/v2-learning-events/DEPLOYED_CORE`
+(or takes it as an argument). That file does not exist yet: ask the user which commit the
+function was last deployed from, or record it after the next function deploy. If the check
+refuses anything or the core changed since that commit:
+- Say so in the release report and the PR body, and name the PRs that changed the core.
+- The function is deployed **before** the site (`npm run v2:prepare`, then
+  `supabase --workdir build/v2/<env> functions deploy v2-learning-events --project-ref …`).
+  That deploy needs its own yes and the user's Supabase access. Then update `DEPLOYED_CORE`.
+- Answers already refused need a one-time requeue rule in `learning-db.ts`, shipped only
+  after the function is deployed.
+- A question about sync risk covers the whole release: run this check on what ships,
+  not only on your own diff.
+
 Pick the version from history: user-visible feature or behavior change → minor
 (2.50.0, 2.51.0, 2.53.0); fix, content or test-only → patch (2.52.1, 2.53.1).
 Propose it and let the user override.
@@ -154,7 +184,9 @@ gh pr merge N --squash --subject "Release X.Y.Z: … (#N)" --body "<one line>\n\
 Do not add `--delete-branch` while `main` is checked out in another worktree: the merge
 succeeds on GitHub but `gh` then fails to switch the local checkout to `main`.
 
-The merge ships nothing. Report it, then ask separately whether to deploy. On a
+The merge ships nothing. Report it, then ask separately whether to deploy. If
+`check-server-core.mjs` refused anything, the function must be deployed first: do not deploy
+the site until the user confirms it is (or explicitly accepts the refusals). On a
 yes, from a clean checkout at `origin/main` (the script needs `HEAD == origin/main` and
 a clean tree; `main` itself is often held by another worktree, so a detached
 `git worktree add --detach ../dc-deploy origin/main` with the `node_modules` symlink works):
